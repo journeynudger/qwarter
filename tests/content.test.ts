@@ -142,3 +142,27 @@ test("public/media holds only files a page uses", () => {
   const unused = walk(base).map((f) => path.relative(base, f)).filter((rel) => !refs.has(rel) && !rel.endsWith(".DS_Store"));
   assert.deepEqual(unused, []);
 });
+
+test("public/design holds only files a page, or the design's own stylesheets and scripts, use", () => {
+  // a file in public/ is served whether a page links it or not: the reference studio's own work must not stay
+  const base = path.join(ROOT, "public/design");
+  const refsIn = (text: string) => [...text.matchAll(/\/design\/([^"'()\s?#,<>\\]+)/g)].map((m) => decodeURIComponent(m[1]));
+  const used = new Set<string>();
+  const queue: string[] = [];
+  const use = (r: string) => {
+    if (used.has(r)) return;
+    used.add(r);
+    queue.push(r);
+  };
+  for (const { text } of sources()) refsIn(text).forEach(use);
+  while (queue.length) {
+    const rel = queue.shift()!;
+    const file = path.join(base, rel);
+    if (!/\.(css|js|mjs|json)$/i.test(rel) || !fs.existsSync(file)) continue;
+    refsIn(fs.readFileSync(file, "utf8")).forEach(use);
+  }
+  const unused = walk(base)
+    .map((f) => path.relative(base, f))
+    .filter((rel) => !rel.startsWith("qwarter/") && !used.has(rel));
+  assert.deepEqual(unused, [], "run scripts/design/prune.mjs");
+});

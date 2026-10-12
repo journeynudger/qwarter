@@ -12,6 +12,7 @@
     "capture:design": "node scripts/design/capture.mjs --origin https://synchronized.studio",
     "capture:wordpress": "python3 scripts/port/fetch.py",
     "extract:design": "node scripts/design/extract.mjs",
+    "swap": "node scripts/design/swap.mjs && node scripts/design/prune.mjs",
     "qa:compare": "node scripts/qa/compare-design.mjs",
     "qa:sweep": "node scripts/qa/sweep.mjs",
     "qa:sheet": "node scripts/qa/sheet.mjs"
@@ -29,6 +30,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.3.1",
     "playwright": "^1.63.0",
+    "sharp": "^0.35.5",
     "tsx": "^4.23.15",
     "typescript": "^5"
   }

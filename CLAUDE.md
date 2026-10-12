@@ -38,6 +38,7 @@ nothing from either site is in the repo, and the site has no pages yet. Pick up 
 | Snapshot qwarter.com's WordPress (needs network) | `npm run capture:wordpress` (= `python3 scripts/port/fetch.py`) |
 | Capture qwarter.com's rendered pages, for reference | `node scripts/design/capture.mjs --origin https://qwarter.com --out .port-cache/qwarter-rendered` |
 | Turn captured reference pages into pages here | `npm run extract:design -- --routes /=home,/work/=work` |
+| Put Qwarter's content into them, drop unused design files | `npm run swap` (= `swap.mjs` then `prune.mjs`) |
 | Compare the build against the reference (offline) | `npm run qa:compare` (needs `npm start -- -p 3100`) |
 | Rendered-page sweep | `npm run qa:sweep` (needs `npm start -- -p 3100`) |
 | Look at screenshots side by side | `node scripts/qa/sheet.mjs out.png a.png b.png …` |
@@ -64,7 +65,8 @@ content/                     everything a page says (see below)
 public/design/<host>/        the reference design's CSS, JS, fonts and images, byte for byte (URLs inside
                              pointed at these copies); public/design/qwarter/ is ours
 public/media/                Qwarter's own pictures, only those a page uses
-scripts/design/              capture.mjs (any site, completely), extract.mjs (captured page → page here)
+scripts/design/              capture.mjs (any site, completely), extract.mjs (captured page → page here),
+                             swap.mjs (Qwarter's content into it), prune.mjs (design files no page uses → gone)
 scripts/port/                fetch.py: qwarter.com's WordPress through its REST API, media library included
 scripts/qa/                  compare-design.mjs, sweep.mjs, sheet.mjs
 scripts/lib/                 browser launch, the shared page probes, pixel diff, route slugs
@@ -101,10 +103,13 @@ reference printed them; `components/layout/assets.tsx` prints them in that order
    the same part: home → home, clients/work → work, a client → a case study, about → studio, contact →
    contact. `npm run extract:design -- --routes <reference route>=<our slug>,…`. A Qwarter page with no
    counterpart takes the nearest template; a reference page with no Qwarter counterpart is not built.
-5. **Swap the content** in each `content/pages/<slug>.html`: every word, name, number, link, logo and
-   picture becomes Qwarter's (rules below). Keep every class, attribute and element the CSS and scripts
-   read: on the home page's cards, the card markup, image treatment and animation stay exactly as they are;
-   the client name, project, link and picture are Qwarter's.
+5. **Swap the content**: `content/swaps/<slug>.json` lists, by CSS selector into the reference page, every
+   word, name, number, link, logo and picture that becomes Qwarter's, each with its `source` on qwarter.com
+   (format in `scripts/design/swap.mjs`); `npm run swap` applies them to `content/reference/<slug>.html` and
+   writes `content/pages/<slug>.html`, copying Qwarter's pictures (`wp:<path>`) into `public/media`,
+   downscaled. Repeated blocks (the home page's cards) use `repeat`: the reference card is cloned once per
+   Qwarter client, so its markup, image treatment and animation stay exactly as they are. Then `prune.mjs`
+   deletes every design file no page uses (the reference studio's own pictures must not stay downloadable).
 6. **Paper shaders.** Add `data-paper-shader` to the surfaces that should carry one (below).
 7. **Hold it against the reference.** `npm run build && npm start -- -p 3100`, then `npm run qa:compare`
    until nothing is reported but the content itself; then `npm run qa:sweep`; `npm test`.
@@ -153,7 +158,9 @@ strength as a screensaver; one coat of grain per surface.
 
 | File | What it holds | Source | Edit freely? |
 |---|---|---|---|
-| `content/pages/<slug>.html` | each page's body markup | synchronized.studio's page (`extract.mjs`), Qwarter's content swapped in by hand | Yes, it is the page. Re-running `extract.mjs` for that route overwrites it |
+| `content/reference/<slug>.html` | the reference page's body markup, untouched (URLs pointed at our copies) | synchronized.studio (`extract.mjs`) | No: re-extract instead |
+| `content/swaps/<slug>.json` | what of that page becomes Qwarter's, each piece with its source on qwarter.com | **written here**, every quote checked against the qwarter.com snapshot by `tests/swaps.test.ts` | Yes: this is where Qwarter's words live |
+| `content/pages/<slug>.html` | the page: reference markup with the swaps applied | `swap.mjs` (or `extract.mjs` before any swaps) | No: edit the swaps, then `npm run swap` |
 | `content/pages.json` | per page: title, description, `<html>`/`<body>` attributes, head assets, reference route | `extract.mjs`; title and description are Qwarter's | Titles and descriptions yes; assets only with the design in mind |
 | `content/site.json` | name, origin, icons, site-wide assets | written here; icons from qwarter.com | Yes |
 | `content/redirects.json` | old WordPress URLs → their pages; WP ids for `?p=` | from qwarter.com's sitemap and REST ids | Yes |

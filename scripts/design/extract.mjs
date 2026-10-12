@@ -3,7 +3,8 @@
  * Turn captured reference pages (scripts/design/capture.mjs) into pages this site serves.
  *
  * For each route asked for, it writes:
- *   content/pages/<slug>.html     the reference page's <body> markup, every asset URL pointed at our copy
+ *   content/reference/<slug>.html the reference page's <body> markup, every asset URL pointed at our copy
+ *   content/pages/<slug>.html     the same, until scripts/design/swap.mjs puts Qwarter's content into it
  *   content/pages.json            the page record: <html>/<body> attributes, <head> assets in their order,
  *                                 title, description, and `template` = the reference route it came from
  *   public/design/<host>/<path>   every stylesheet, script, font, image and video those pages load,
@@ -272,8 +273,11 @@ for (const r of routes) {
     modified: null,
   });
   if (!DRY) {
-    fs.mkdirSync(path.join(ROOT, "content/pages"), { recursive: true });
-    fs.writeFileSync(path.join(ROOT, "content/pages", `${r.slug}.html`), doc.markup.trim() + "\n");
+    // the untouched reference page (what content/swaps/<slug>.json applies to) and, until swaps exist, the page itself
+    for (const dirName of ["content/reference", "content/pages"]) {
+      fs.mkdirSync(path.join(ROOT, dirName), { recursive: true });
+      fs.writeFileSync(path.join(ROOT, dirName, `${r.slug}.html`), doc.markup.trim() + "\n");
+    }
   }
   console.log(`${r.ref} → ${pagePath}  head ${doc.head.length}  markup ${(doc.markup.length / 1024).toFixed(0)} KB`);
 }
