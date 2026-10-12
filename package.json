@@ -1,0 +1,35 @@
+{
+  "name": "qwarter",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test tests/*.test.ts",
+    "capture:design": "node scripts/design/capture.mjs --origin https://synchronized.studio",
+    "capture:wordpress": "python3 scripts/port/fetch.py",
+    "extract:design": "node scripts/design/extract.mjs",
+    "qa:compare": "node scripts/qa/compare-design.mjs",
+    "qa:sweep": "node scripts/qa/sweep.mjs",
+    "qa:sheet": "node scripts/qa/sheet.mjs"
+  },
+  "dependencies": {
+    "@paper-design/shaders-react": "^0.0.80",
+    "next": "16.3.1",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.1",
+    "playwright": "^1.63.0",
+    "tsx": "^4.23.15",
+    "typescript": "^5"
+  }
+}
