@@ -12,7 +12,8 @@ the content on qwarter"). Every word, client, case study and picture is Qwarter'
 Paper shaders are installed as on Verowater (`@paper-design/shaders-react`).
 
 - **Owner:** Lorenzo Scardicchio (lorenzo@qwarter.com)
-- **Vercel:** Lorenzo's **personal** account, lorenzo@qwarter.com (not the Valerin team, not development@valerin-group.com)
+- **Vercel:** Lorenzo's **personal** account, lorenzo@qwarter.com: scope `journeynudgers-projects`, project `qwarter`.
+  It stays there (Lorenzo, 2026-10-17): never move it to the Valerin team or development@valerin-group.com
 - **GitHub:** `journeynudger/qwarter`
 - **Sister port:** `journeynudger/journeysite` (journeynudge.com). Same stack, same conventions, same tooling
   shape; read its CLAUDE.md for the reasoning behind anything here that looks unusual.

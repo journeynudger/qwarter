@@ -5,7 +5,8 @@ and not development@valerin-group.com. qwarter.com keeps pointing at WordPress u
 
 ## Status (2026-10-17)
 
-- **Connected.** Lorenzo imported `journeynudger/qwarter` into his personal Vercel account on 2026-10-17.
+- **Connected.** Lorenzo imported `journeynudger/qwarter` into his personal Vercel account on 2026-10-17:
+  scope `journeynudgers-projects`, project `qwarter`, where it stays (not the Valerin team).
   Pushes to `main` deploy Production; every other branch, the port's pull request included, gets a preview.
 - `main` holds only the README until the port's pull request is merged, so Production has nothing to build yet.
 - The site has no pages until both sites are captured (CLAUDE.md, "Doing the port"): until then a preview
