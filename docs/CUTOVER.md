@@ -3,6 +3,14 @@
 The site deploys from **Lorenzo's personal Vercel account, lorenzo@qwarter.com**: not the Valerin team,
 and not development@valerin-group.com. qwarter.com keeps pointing at WordPress until step 3.
 
+## Status (2026-10-17)
+
+- **Connected.** Lorenzo imported `journeynudger/qwarter` into his personal Vercel account on 2026-10-17.
+  Pushes to `main` deploy Production; every other branch, the port's pull request included, gets a preview.
+- `main` holds only the README until the port's pull request is merged, so Production has nothing to build yet.
+- The site has no pages until both sites are captured (CLAUDE.md, "Doing the port"): until then a preview
+  answers every URL with "Page not found".
+
 ## 1. Connect the repository (once, about two minutes)
 
 1. Sign in at https://vercel.com as **lorenzo@qwarter.com**. Check the scope switcher (top left) shows the

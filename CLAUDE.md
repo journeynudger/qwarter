@@ -172,8 +172,8 @@ strength as a screensaver; one coat of grain per surface.
 
 1. **Network access** for this repo's cloud environment: allow `qwarter.com`, `synchronized.studio` and their
    CDNs (or "Full") so the capture can run. Nothing else is blocking.
-2. **Vercel**: import `journeynudger/qwarter` once into the lorenzo@qwarter.com personal account
-   (docs/CUTOVER.md); or give the session a token for that account and allow `vercel.com`/`api.vercel.com`.
+2. **Vercel — answered 2026-10-17**: Lorenzo imported `journeynudger/qwarter` into his lorenzo@qwarter.com
+   personal account; pushes now deploy (docs/CUTOVER.md, "Status").
 3. **Fonts**: once the capture lists synchronized.studio's families, which ones does Qwarter hold a licence for?
 4. **The Oct 6 porting prompt** ("Next/Vercel/WordPress") was not in `journeynudger/mylife` on GitHub (its last
    vault backup there is 2026-10-07 18:30 PT and holds no such file); this port follows journeysite's
