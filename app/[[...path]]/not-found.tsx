@@ -1,16 +1,21 @@
-import { getNotFoundHtml, getSite } from "@/lib/content";
-import { renderMarkup } from "@/lib/html";
+import { Footer, Header } from "@/components/site/chrome";
+import { getSite } from "@/lib/content";
 
-/** The design's own 404 page once it is carried across (content/not-found.html); a plain one until then. */
 export default function NotFound() {
-  const html = getNotFoundHtml();
-  if (html) return renderMarkup(html);
+  const { nav } = getSite().chrome;
   return (
-    <main style={{ fontFamily: "system-ui, sans-serif", padding: "20vh 24px", textAlign: "center" }}>
-      <h1 style={{ fontSize: 32, fontWeight: 500, margin: 0 }}>Page not found</h1>
-      <p style={{ marginTop: 16 }}>
-        <a href="/">Go to {getSite().name}</a>
-      </p>
-    </main>
+    <>
+      <Header current="" />
+      <main className="page contact-wrap not-found">
+        <h1 className="kicker">404</h1>
+        <p className="big italic">There is no page at this address.</p>
+        <p className="row">
+          <a className="u" href={nav[0].href}>
+            {nav[0].label}
+          </a>
+        </p>
+      </main>
+      <Footer />
+    </>
   );
 }

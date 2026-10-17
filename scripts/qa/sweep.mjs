@@ -18,7 +18,8 @@ const opt = (k, d) => (argv.includes(`--${k}`) ? argv[argv.indexOf(`--${k}`) + 1
 const BASE = opt("base", "http://localhost:3100");
 const WIDTHS = opt("widths", "375,1280").split(",").map(Number);
 const pages = JSON.parse(fs.readFileSync("content/pages.json", "utf8"));
-let paths = [...pages.map((p) => p.path), "/this-does-not-exist/"];
+const work = JSON.parse(fs.readFileSync("content/work.json", "utf8"));
+let paths = [...pages.map((p) => p.path), ...work.projects.map((p) => `/work/${p.slug}/`), "/this-does-not-exist/"];
 if (opt("only")) {
   const only = new Set(opt("only").split(","));
   paths = paths.filter((p) => only.has(p.replace(/\//g, "") || "home"));

@@ -1,0 +1,62 @@
+{
+  "_provenance": "Qwarter's work, as photographed by scripts/work/shoot.mjs from the sites themselves (JR Pugh from the vault's 2026-07-23 stills; Serein and Journey from their own builds, 2026-10-17). Every word under a project is the site's own or its repository's: nothing here is written for effect.",
+  "_fields": "numeral/name/url/line/made/year are shown; cover names the frame the project is introduced with; pages lists the frames the slideshow walks, in order, each with the title the site itself gives that page; source says where each fact comes from.",
+  "projects": [
+    {
+      "slug": "jr-pugh",
+      "numeral": "I",
+      "name": "JR Pugh",
+      "url": "https://jeffvhs.com",
+      "line": "Actor, NYC",
+      "made": "Website",
+      "year": "2026",
+      "cover": "home",
+      "pages": [
+        { "name": "home", "title": "Featured" },
+        { "name": "reel", "title": "Reel" },
+        { "name": "acting", "title": "Acting" },
+        { "name": "about", "title": "About" },
+        { "name": "contact", "title": "Contact" }
+      ],
+      "source": "mylife: Open/_Generated/Clients/2026-07/jeffvhs-site-final (final v2 2026-07-16, v3 2026-07-23; title 'JR Pugh | Actor, NYC'; published at jeffvhs.com per PUBLISH.md); stills from its _shots-2026-07-23"
+    },
+    {
+      "slug": "serein",
+      "numeral": "II",
+      "name": "Serein",
+      "url": "https://withserein.com",
+      "line": "Your thoughts, always with you.",
+      "made": "Website",
+      "year": "2026",
+      "cover": "home",
+      "pages": [
+        { "name": "home", "title": "Home" },
+        { "name": "product", "title": "Product" },
+        { "name": "manifesto", "title": "Manifesto" },
+        { "name": "blog", "title": "Blog" }
+      ],
+      "source": "mylife: Serein/serein-site (CLAUDE.md: 'Public website for Serein — landing page, product, manifesto'; layout.tsx description 'Your thoughts, always with you. Capture freely. Retrieve effortlessly.'; in the vault backup of 2026-08-02); domain withserein.com as Lorenzo named it (2026-10-17); photographed from its own build"
+    },
+    {
+      "slug": "journey",
+      "numeral": "III",
+      "name": "Journey",
+      "url": "https://journeynudge.com",
+      "line": "The nudge you need, when you need it.",
+      "made": "Website",
+      "year": "2026",
+      "cover": "home",
+      "pages": [
+        { "name": "home", "title": "Home" },
+        { "name": "how-journey-works", "title": "How Journey Works" },
+        { "name": "students", "title": "Students" },
+        { "name": "universities", "title": "Universities" },
+        { "name": "nudge", "title": "Nudge" },
+        { "name": "pathfinder", "title": "Pathfinder" },
+        { "name": "personality-quest", "title": "Personality Quest" },
+        { "name": "blog", "title": "Blog" }
+      ],
+      "source": "journeynudger/journeysite (CLAUDE.md: 'journeynudge.com, moved off WordPress onto Next.js on Vercel without changing its design', WordPress snapshot of 2026-10-06); its own <title> 'journey – The nudge you need, when you need it.'; page titles from content/pages.json; photographed from its own build"
+    }
+  ]
+}

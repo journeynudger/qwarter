@@ -40,10 +40,10 @@ export default async function RootLayout({
       <head>
         <Assets list={site.head} />
         {page && <Assets list={page.head} />}
-        {/* ours, after the design's own: the Paper shader surfaces and paper stock */}
+        {/* the Paper shader surfaces and paper stock, after the site's own stylesheet */}
         <link rel="stylesheet" href={versioned("/design/qwarter/paper.css")} />
       </head>
-      <body {...props(page?.body ?? {})} suppressHydrationWarning>
+      <body data-page={page?.kind ?? "not-found"} {...props(page?.body ?? {})} suppressHydrationWarning>
         {children}
         <Assets list={site.scripts} />
         {page && <Assets list={page.scripts} />}

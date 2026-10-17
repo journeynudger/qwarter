@@ -14,11 +14,14 @@ import { test } from "node:test";
 import pagesJson from "@/content/pages.json";
 import redirectsJson from "@/content/redirects.json";
 import site from "@/content/site.json";
-import type { Page, Redirects } from "@/lib/content";
+import workJson from "@/content/work.json";
+import type { Page, Redirects, Work } from "@/lib/content";
 import { splitTopLevel } from "@/lib/html";
 
-const pages = pagesJson as Page[];
+const pages = pagesJson as unknown as Page[];
 const redirects = redirectsJson as Redirects;
+const work = workJson as unknown as Work;
+const KINDS = ["html", "featured", "work", "approach", "contact"];
 
 const ROOT = path.join(import.meta.dirname, "..");
 const read = (p: string) => fs.readFileSync(path.join(ROOT, p), "utf8");
@@ -47,25 +50,38 @@ function checkAssets(list: unknown, where: string) {
 }
 
 test("site.json is complete", () => {
-  hasKeys(site as Record<string, unknown>, { name: "string", origin: "string", lang: "string", icons: "array", head: "array", scripts: "array" }, "site");
+  hasKeys(site as Record<string, unknown>, { name: "string", origin: "string", lang: "string", icons: "array", head: "array", scripts: "array", chrome: "object" }, "site");
   checkAssets(site.head, "site.head");
   checkAssets(site.scripts, "site.scripts");
+  const chrome = site.chrome as Record<string, unknown>;
+  hasKeys(chrome, { brand: "object", nav: "array", footer: "string", statement: "array", facts: "array", contact: "object" }, "site.chrome");
+  hasKeys(chrome.brand as Record<string, unknown>, { left: "string", right: "string", tagline: "string" }, "site.chrome.brand");
+  hasKeys(chrome.contact as Record<string, unknown>, { email: "string", place: "string" }, "site.chrome.contact");
+  for (const item of chrome.nav as Record<string, unknown>[]) hasKeys(item, { label: "string", href: "string" }, "site.chrome.nav");
+  for (const fact of chrome.facts as Record<string, unknown>[]) hasKeys(fact, { label: "string", value: "string" }, "site.chrome.facts");
+  assert.match((chrome.contact as { email: string }).email, /^[^@\s]+@[^@\s]+\.[a-z]+$/, "contact email");
 });
 
 test("pages.json records are complete, and each page's markup splits cleanly", () => {
   for (const p of pages) {
     const where = `page ${p.slug}`;
     hasKeys(p as unknown as Record<string, unknown>, {
-      slug: "string", path: "string", title: "string", description: "string|null", template: "string",
+      slug: "string", path: "string", kind: "string", title: "string", description: "string|null",
       html: "object", body: "object", head: "array", scripts: "array", image: "string|null", modified: "string|null",
     }, where);
+    assert.ok(KINDS.includes(p.kind), `${where}: kind ${p.kind} is not one of ${KINDS.join(", ")}`);
     assert.ok(p.path === "/" || /^\/[a-z0-9-]+(?:\/[a-z0-9-]+)*\/$/.test(p.path), `${where}: path ${p.path} should be lowercase with a trailing slash`);
     checkAssets(p.head, `${where} head`);
     checkAssets(p.scripts, `${where} scripts`);
-    const file = path.join(ROOT, "content/pages", `${p.slug}.html`);
-    assert.ok(fs.existsSync(file), `${where}: content/pages/${p.slug}.html is missing`);
-    assert.doesNotThrow(() => splitTopLevel(fs.readFileSync(file, "utf8")), `${where}: markup does not split`);
+    if (p.kind === "html") {
+      assert.equal(typeof p.template, "string", `${where}: a carried page names the reference route it was built on`);
+      const file = path.join(ROOT, "content/pages", `${p.slug}.html`);
+      assert.ok(fs.existsSync(file), `${where}: content/pages/${p.slug}.html is missing`);
+      assert.doesNotThrow(() => splitTopLevel(fs.readFileSync(file, "utf8")), `${where}: markup does not split`);
+    }
   }
+  assert.equal(pages.filter((p) => p.kind === "featured").length, 1, "one featured page");
+  assert.equal(pages.filter((p) => p.kind === "work" && !p.project).length, 1, "one work index");
   assert.equal(new Set(pages.map((p) => p.path)).size, pages.length, "page paths are unique");
   assert.equal(new Set(pages.map((p) => p.slug)).size, pages.length, "page slugs are unique");
   const orphans = fs.readdirSync(path.join(ROOT, "content/pages")).filter((f) => f.endsWith(".html") && !pages.some((p) => `${p.slug}.html` === f));
@@ -74,7 +90,7 @@ test("pages.json records are complete, and each page's markup splits cleanly", (
 
 // ---------------------------------------------------------------- links and assets
 
-const routes = new Set<string>(pages.map((p) => p.path));
+const routes = new Set<string>([...pages.map((p) => p.path), ...work.projects.map((p) => `/work/${p.slug}/`)]);
 const redirected = new Set(redirects.paths.map((r) => r.source));
 
 function sources(): { file: string; text: string }[] {
@@ -83,8 +99,22 @@ function sources(): { file: string; text: string }[] {
     .filter((f) => f.endsWith(".html"))
     .map((f) => `content/pages/${f}`);
   if (fs.existsSync(path.join(ROOT, "content/not-found.html"))) files.push("content/not-found.html");
-  files.push("content/pages.json", "content/site.json");
-  return files.map((file) => ({ file, text: read(file) }));
+  files.push("content/pages.json", "content/site.json", "content/work.json");
+  const texts = files.map((file) => ({ file, text: read(file) }));
+  // the views (components/site/) link the chrome's nav and each project's pages and pictures
+  texts.push({ file: "components/site", text: [...(site.chrome.nav as { href: string }[]).map((n) => `href="${n.href}"`), ...workLinks()].join("\n") });
+  return texts;
+}
+
+/** What the Work views reference per project (lib/content.ts workMedia + the project links). */
+function workLinks(): string[] {
+  return work.projects.flatMap((p) => [
+    `href="/work/${p.slug}/"`,
+    `src="/media/work/${p.slug}/cover.jpg"`,
+    `src="/media/work/${p.slug}/cover@2x.jpg"`,
+    `src="/media/work/${p.slug}/blur.jpg"`,
+    ...p.pages.map((pg) => `src="/media/work/${p.slug}/page-${pg.name}.jpg"`),
+  ]);
 }
 
 test("nothing is loaded from or links to qwarter.com's WordPress or the reference design's servers", () => {
@@ -139,7 +169,10 @@ test("every referenced media and design file exists", () => {
 test("public/media holds only files a page uses", () => {
   const refs = referenced("media");
   const base = path.join(ROOT, "public/media");
-  const unused = walk(base).map((f) => path.relative(base, f)).filter((rel) => !refs.has(rel) && !rel.endsWith(".DS_Store"));
+  // raw captures (public/media/work/<slug>/raw/) are not committed and never served by a page
+  const unused = walk(base)
+    .map((f) => path.relative(base, f))
+    .filter((rel) => !refs.has(rel) && !rel.endsWith(".DS_Store") && !/^work\/[^/]+\/raw\//.test(rel));
   assert.deepEqual(unused, []);
 });
 

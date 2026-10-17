@@ -8,9 +8,10 @@ and not development@valerin-group.com. qwarter.com keeps pointing at WordPress u
 - **Connected.** Lorenzo imported `journeynudger/qwarter` into his personal Vercel account on 2026-10-17:
   scope `journeynudgers-projects`, project `qwarter`, where it stays (not the Valerin team).
   Pushes to `main` deploy Production; every other branch, the port's pull request included, gets a preview.
-- `main` holds only the README until the port's pull request is merged, so Production has nothing to build yet.
-- The site has no pages until both sites are captured (CLAUDE.md, "Doing the port"): until then a preview
-  answers every URL with "Page not found".
+- `main` holds only the README until the pull request is merged, so Production has nothing to show yet;
+  the pull request's branch has the whole site and its preview URL is the one to look at.
+- Merging the pull request deploys the site to Production (the `*.vercel.app` address; qwarter.com still
+  points at WordPress until step 3).
 
 ## 1. Connect the repository (once, about two minutes)
 
@@ -28,8 +29,8 @@ journeysite), so Vercel attributes each build to the GitHub account that owns th
 stuck at "Blocked" with no build log means a commit author Vercel does not recognise; the reason is only in
 the deployment's API record (`readyStateReason`).
 
-Until the content is in (CLAUDE.md, "Doing the port"), a deployment builds a site with no pages: every URL
-answers 404. Connect it anyway; previews of the port branch then appear on their own.
+A deployment of `main` before the pull request is merged builds a site with no pages: every URL answers 404.
+Previews of the branch have the site.
 
 ## 2. Settings for Production (Vercel → qwarter → Settings → Environment Variables)
 
@@ -41,7 +42,7 @@ answers 404. Connect it anyway; previews of the port branch then appear on their
 ## 3. Point qwarter.com at Vercel
 
 1. Vercel → qwarter → Settings → **Domains**: add `qwarter.com` and `www.qwarter.com` (redirect one to the
-   other the way WordPress does today; the capture of qwarter.com records which).
+   other the way WordPress does today).
 2. At the DNS host, change the records Vercel shows. If the DNS is on Cloudflare, keep the proxy **off**
    (grey cloud) for those records, or Vercel cannot issue the certificate.
 3. Set `ALLOW_INDEXING=1` and redeploy.
@@ -51,5 +52,7 @@ answers 404. Connect it anyway; previews of the port branch then appear on their
 - Spot-check every page, an old WordPress link (`/?p=<id>` → its page, `/wp-content/uploads/…` → `/media/…`),
   `/sitemap.xml`, `/robots.txt`, and a URL that does not exist (404).
 - Search Console: submit `https://qwarter.com/sitemap.xml`.
-- WordPress can be switched off once nothing points at it: qwarter.com has no forms ported yet (if it has
-  a contact form, CLAUDE.md lists it as a question).
+- Old qwarter.com URLs: `content/redirects.json` is empty until the WordPress site is snapshotted
+  (`scripts/port/fetch.py`, then `scripts/port/redirects.py`, which refuses to guess): do that before the
+  switch so every old link lands somewhere (CLAUDE.md, open questions).
+- WordPress can be switched off once nothing points at it.

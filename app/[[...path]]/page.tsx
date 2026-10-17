@@ -1,13 +1,22 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
+import { Approach } from "@/components/site/approach";
+import { Contact } from "@/components/site/contact";
+import { Featured } from "@/components/site/featured";
+import { Work } from "@/components/site/work";
 import { allPaths, getPageHtml, getSite, resolveRoute } from "@/lib/content";
 import { renderMarkup } from "@/lib/html";
 import { indexingAllowed } from "@/lib/seo";
 
 type Params = Promise<{ path?: string[] }>;
 
-export const dynamicParams = false;
+/*
+ * Every page is pre-rendered (generateStaticParams); a path that is not one of them is still
+ * answered by this route, so that notFound() renders the site's own not-found.tsx inside the
+ * layout (with dynamicParams = false Next answers with its bare default 404 page instead).
+ */
+export const dynamicParams = true;
 
 export function generateStaticParams() {
   return allPaths().map((path) => ({ path }));
@@ -35,10 +44,22 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   };
 }
 
-/** The page's elements, rendered as the reference design's document had them: no wrapper of ours. */
 export default async function Page({ params }: { params: Params }) {
   const { path } = await params;
   const route = resolveRoute(path);
   if (route.kind !== "page") notFound();
-  return renderMarkup(getPageHtml(route.page.slug));
+  const { page } = route;
+  switch (page.kind) {
+    case "featured":
+      return <Featured />;
+    case "work":
+      return <Work project={page.project} />;
+    case "approach":
+      return <Approach />;
+    case "contact":
+      return <Contact />;
+    default:
+      // a carried page: its own elements, rendered as its document had them, no wrapper of ours
+      return renderMarkup(getPageHtml(page.slug));
+  }
 }

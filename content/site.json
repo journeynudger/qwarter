@@ -2,7 +2,109 @@
   "name": "Qwarter",
   "origin": "https://qwarter.com",
   "lang": "en",
-  "icons": [],
-  "head": [],
-  "scripts": []
+  "icons": [
+    {
+      "rel": "icon",
+      "href": "/design/qwarter/icon.svg",
+      "type": "image/svg+xml"
+    },
+    {
+      "rel": "apple-touch-icon",
+      "href": "/design/qwarter/apple-touch-icon.png",
+      "sizes": "180x180"
+    }
+  ],
+  "head": [
+    {
+      "kind": "script",
+      "code": "document.documentElement.classList.add('js')"
+    },
+    {
+      "kind": "preload",
+      "href": "/design/qwarter/fonts/ebgaramond-normal-400-800-latin.woff2",
+      "as": "font",
+      "type": "font/woff2",
+      "crossOrigin": "anonymous"
+    },
+    {
+      "kind": "preload",
+      "href": "/design/qwarter/fonts/ebgaramond-italic-400-800-latin.woff2",
+      "as": "font",
+      "type": "font/woff2",
+      "crossOrigin": "anonymous"
+    },
+    {
+      "kind": "stylesheet",
+      "href": "/design/qwarter/fonts/fonts.css"
+    },
+    {
+      "kind": "stylesheet",
+      "href": "/design/qwarter/site.css"
+    }
+  ],
+  "scripts": [
+    {
+      "kind": "script",
+      "src": "/design/qwarter/site.js",
+      "attrs": {
+        "defer": ""
+      }
+    }
+  ],
+  "chrome": {
+    "brand": {
+      "left": "Qwarter",
+      "right": "Studio",
+      "tagline": "Websites, applications, and words that feel true to who they are."
+    },
+    "nav": [
+      {
+        "label": "Featured",
+        "href": "/"
+      },
+      {
+        "label": "Work",
+        "href": "/work/"
+      },
+      {
+        "label": "Approach",
+        "href": "/approach/"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact/"
+      }
+    ],
+    "footer": "All work © Qwarter LLC, 2026",
+    "statement": [
+      "Qwarter is a studio that helps people slow down, tune in, and define what’s real —",
+      "then turns that clarity into websites, applications, and words that feel true to who they are."
+    ],
+    "facts": [
+      {
+        "label": "Founded",
+        "value": "2023"
+      },
+      {
+        "label": "Based in",
+        "value": "Las Vegas, Nevada"
+      },
+      {
+        "label": "Founder",
+        "value": "Lorenzo Scardicchio"
+      }
+    ],
+    "contact": {
+      "email": "lorenzo@qwarter.com",
+      "place": "Las Vegas, Nevada"
+    }
+  },
+  "_provenance": {
+    "brand.right": "'Qwarter is a studio…' — Lorenzo's own positioning statement (mylife: Open/Work/Writing/Qwarter-The-Problem-Of-Direction.md); the split lockup is Depo Luxe's device (brand word · nav · brand word)",
+    "brand.tagline": "the closing clause of the same statement, verbatim, capitalised",
+    "statement": "the statement itself, verbatim, split at its dash",
+    "facts": "Qwarter LLC's own D&B registration (vault): started April 2023, Las Vegas NV, sole member Lorenzo Scardicchio",
+    "contact.email": "the address Lorenzo runs Qwarter's GitHub and Vercel from (2026-10-12); to confirm as the public address",
+    "footer": "the sister site's wording ('All work © JR PUGH, 2026'), with the LLC's name"
+  }
 }
