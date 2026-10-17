@@ -52,7 +52,7 @@ export interface Site {
  * What a page is. "html" renders content/pages/<slug>.html verbatim (markup carried from
  * elsewhere); the others are this site's own views (components/site/), fed from content/.
  */
-export type PageKind = "html" | "featured" | "work" | "approach" | "contact";
+export type PageKind = "html" | "featured" | "archive" | "work" | "approach" | "contact";
 
 export interface Page {
   slug: string;
@@ -84,19 +84,26 @@ export interface WorkPage {
   title: string;
 }
 
-/** A site Qwarter built, photographed from itself. Every string is the site's own or its repository's. */
+/**
+ * A project of Qwarter's. One photographed from its own site carries its frames (and is on the
+ * strip and in the viewer); one from qwarter.com's catalogue whose pictures are not here yet has
+ * media: false and is listed under Work only. Every string is the site's own or its repository's.
+ */
 export interface Project {
   slug: string;
   numeral: string;
   name: string;
-  url: string;
-  /** The site's own line about itself (its title or description). */
+  /** The site's address, or null until it is known. */
+  url: string | null;
+  /** The site's own line about itself (its title or description), or the case study's. */
   line: string;
   /** What Qwarter made. */
   made: string;
-  year: string;
+  year: string | null;
+  /** false: a catalogue entry without pictures yet. */
+  media?: boolean;
   /** The frame the project is introduced with: one of pages[].name. */
-  cover: string;
+  cover: string | null;
   pages: WorkPage[];
   /** Where each fact above comes from. */
   source: string;
@@ -114,14 +121,21 @@ export interface Redirects {
 
 export const getSite = (): Site => siteData as unknown as Site;
 export const getWork = (): Work => workData as unknown as Work;
+/** Every project, catalogue entries included, in numeral order. */
 export const getProjects = (): Project[] => getWork().projects;
+/** The projects with pictures: the strip on Featured and the viewer's reel. */
+export const getFeatured = (): Project[] => getProjects().filter((p) => p.media !== false);
 export const getRedirects = (): Redirects => redirectsData as unknown as Redirects;
 
 /** The delivered pictures of a project (scripts/work/prepare.mjs). */
 export const workMedia = (slug: string) => ({
   cover: `/media/work/${slug}/cover.jpg`,
   cover2x: `/media/work/${slug}/cover@2x.jpg`,
+  tile: `/media/work/${slug}/tile.jpg`,
+  tile2x: `/media/work/${slug}/tile@2x.jpg`,
   blur: `/media/work/${slug}/blur.jpg`,
+  video: `/media/work/${slug}/scroll.mp4`,
+  videoWebm: `/media/work/${slug}/scroll.webm`,
   page: (name: string) => `/media/work/${slug}/page-${name}.jpg`,
 });
 
@@ -132,7 +146,7 @@ export const workMedia = (slug: string) => ({
  */
 export function projectPages(): Page[] {
   const site = getSite();
-  return getProjects().map((p) => ({
+  return getFeatured().map((p) => ({
     slug: `work-${p.slug}`,
     path: `/work/${p.slug}/`,
     kind: "work",

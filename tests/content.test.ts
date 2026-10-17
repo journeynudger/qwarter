@@ -21,7 +21,8 @@ import { splitTopLevel } from "@/lib/html";
 const pages = pagesJson as unknown as Page[];
 const redirects = redirectsJson as Redirects;
 const work = workJson as unknown as Work;
-const KINDS = ["html", "featured", "work", "approach", "contact"];
+const KINDS = ["html", "featured", "archive", "work", "approach", "contact"];
+const featuredWork = work.projects.filter((p) => p.media !== false);
 
 const ROOT = path.join(import.meta.dirname, "..");
 const read = (p: string) => fs.readFileSync(path.join(ROOT, p), "utf8");
@@ -81,7 +82,7 @@ test("pages.json records are complete, and each page's markup splits cleanly", (
     }
   }
   assert.equal(pages.filter((p) => p.kind === "featured").length, 1, "one featured page");
-  assert.equal(pages.filter((p) => p.kind === "work" && !p.project).length, 1, "one work index");
+  assert.equal(pages.filter((p) => p.kind === "archive").length, 1, "one work index");
   assert.equal(new Set(pages.map((p) => p.path)).size, pages.length, "page paths are unique");
   assert.equal(new Set(pages.map((p) => p.slug)).size, pages.length, "page slugs are unique");
   const orphans = fs.readdirSync(path.join(ROOT, "content/pages")).filter((f) => f.endsWith(".html") && !pages.some((p) => `${p.slug}.html` === f));
@@ -90,7 +91,7 @@ test("pages.json records are complete, and each page's markup splits cleanly", (
 
 // ---------------------------------------------------------------- links and assets
 
-const routes = new Set<string>([...pages.map((p) => p.path), ...work.projects.map((p) => `/work/${p.slug}/`)]);
+const routes = new Set<string>([...pages.map((p) => p.path), ...featuredWork.map((p) => `/work/${p.slug}/`)]);
 const redirected = new Set(redirects.paths.map((r) => r.source));
 
 function sources(): { file: string; text: string }[] {
@@ -108,11 +109,15 @@ function sources(): { file: string; text: string }[] {
 
 /** What the Work views reference per project (lib/content.ts workMedia + the project links). */
 function workLinks(): string[] {
-  return work.projects.flatMap((p) => [
+  return featuredWork.flatMap((p) => [
     `href="/work/${p.slug}/"`,
     `src="/media/work/${p.slug}/cover.jpg"`,
     `src="/media/work/${p.slug}/cover@2x.jpg"`,
+    `src="/media/work/${p.slug}/tile.jpg"`,
+    `src="/media/work/${p.slug}/tile@2x.jpg"`,
     `src="/media/work/${p.slug}/blur.jpg"`,
+    `src="/media/work/${p.slug}/scroll.mp4"`,
+    `src="/media/work/${p.slug}/scroll.webm"`,
     ...p.pages.map((pg) => `src="/media/work/${p.slug}/page-${pg.name}.jpg"`),
   ]);
 }

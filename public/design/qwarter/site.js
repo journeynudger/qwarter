@@ -1,8 +1,9 @@
 /* ============================================================================
    Qwarter — site.js. Everything the pages do, in one deferred file, no framework:
      every page   the header collapses to a strip once a page that scrolls is scrolled
-     featured     the loader (once per session), then the film-strip cascade: lays the projects
-                  out around the focused one and moves the focus on wheel, keys, swipe and tap
+     featured     the loader (once per session), then Depo Luxe's staircase: lays the projects out
+                  from the focused one and moves the focus on wheel, keys, swipe and tap; at rest
+                  the focused tile plays its site scrolling
      work         the slideshow: the opened site slides slowly through each of its pages inside
                   the frame; pages and projects change on input; the address follows the project
    The pause (bottom right on work, approach and contact) writes the same key the Paper shaders
@@ -82,89 +83,101 @@
 
   /* ============================ FEATURED ============================ */
   function featured() {
-    var stage = d.getElementById('reelStage');
-    var items = Array.prototype.slice.call(stage.querySelectorAll('.reel-item'));
-    var rail = Array.prototype.slice.call(d.querySelectorAll('.reel-rail button'));
+    var strip = d.getElementById('strip');
+    var tiles = Array.prototype.slice.call(strip.querySelectorAll('.tile'));
     var echo = Echo(d.getElementById('echo'));
-    var n = items.length, cur = 0;
+    var n = tiles.length, cur = 0, playing = null, restTimer = 0;
+    var paused = motionPaused();
 
-    /* The strip under the fisheye: the focused frame large; the previous ones stacked above
-       it, left-aligned, each a step smaller; the next ones to its right, bottom-aligned, the
-       same way. On a phone the next ones go below instead, right-aligned. The ring wraps, so
-       with three projects every one of them is always on the stage. */
-    function metrics() {
-      var vw = window.innerWidth, vh = window.innerHeight, narrow = vw <= 760;
-      var fw = narrow ? vw * 0.84 : Math.min(vw * 0.52, 960, (vh - 300) * 1.6);
-      var fh = fw * 0.625;
-      var s = narrow ? 0.42 : 0.32;
-      var gx = narrow ? 0 : Math.max(24, vw * 0.022), gy = Math.max(14, vh * 0.024);
-      var x0, y0;
-      if (narrow) { x0 = (vw - fw) / 2; y0 = vh * 0.43 - fh / 2; }
-      else { var groupW = fw + gx + fw * s; x0 = (vw - groupW) / 2; y0 = vh * 0.585 - fh / 2; }
-      return { vw: vw, vh: vh, narrow: narrow, fw: fw, fh: fh, s: s, gx: gx, gy: gy, x0: x0, y0: y0 };
+    /* Depo Luxe's staircase. The focused tile sits in the window's bottom-left corner; the tiles
+       before it stack straight up from it and the tiles after it run right along the bottom edge,
+       each half the size of its neighbour nearer the focus, every one touching the next. */
+    function focusedSize() {
+      var vw = window.innerWidth, vh = window.innerHeight;
+      return vw <= 760 ? Math.min(vw * 0.64, vh * 0.5) : Math.min(vh * 0.56, vw * 0.42);
     }
     function place(entering) {
-      var m = metrics();
-      stage.style.setProperty('--fw', m.fw + 'px');
-      stage.style.setProperty('--fh', m.fh + 'px');
-      items.forEach(function (el, i) {
-        var k = i - cur;
-        if (n > 2) { if (k > n / 2) k -= n; if (k < -n / 2) k += n; }
-        var x, y, sc, op, z, j;
-        if (k === 0) { x = m.x0; y = m.y0; sc = 1; op = 1; z = 5; }
-        else if (k < 0) {
-          sc = Math.pow(m.s, -k);
-          var bottom = m.y0 - m.gy;
-          for (j = 1; j < -k; j++) bottom -= m.fh * Math.pow(m.s, j) + m.gy;
-          x = m.x0; y = bottom - m.fh * sc; op = k === -1 ? 0.8 : 0.35; z = 5 + k;
-        } else {
-          sc = Math.pow(m.s, k);
-          if (m.narrow) {
-            var top = m.y0 + m.fh + m.gy * 3.6;
-            for (j = 1; j < k; j++) top += m.fh * Math.pow(m.s, j) + m.gy;
-            x = m.x0 + m.fw - m.fw * sc; y = top;
-          } else {
-            var left = m.x0 + m.fw + m.gx;
-            for (j = 1; j < k; j++) left += m.fw * Math.pow(m.s, j) + m.gx;
-            x = left; y = m.y0 + m.fh - m.fh * sc;
-          }
-          op = k === 1 ? 0.8 : 0.35; z = 5 - k;
-        }
-        if (entering) { y += 60; op = 0; }
-        el.style.transform = 'translate3d(' + x.toFixed(1) + 'px,' + y.toFixed(1) + 'px,0) scale(' + sc.toFixed(4) + ')';
-        el.style.opacity = op;
-        el.style.zIndex = z;
-        el.classList.toggle('focused', k === 0);
-        el.setAttribute('tabindex', k === 0 ? '0' : '-1');
+      var S = focusedSize(), vh = window.innerHeight;
+      strip.style.setProperty('--s', S.toFixed(1) + 'px');
+      var sizes = tiles.map(function (_, i) { return S * Math.pow(0.5, Math.abs(i - cur)); });
+      var rects = new Array(n), i;
+      rects[cur] = { x: 0, y: vh - S, s: S };
+      for (i = cur - 1; i >= 0; i--) rects[i] = { x: 0, y: rects[i + 1].y - sizes[i], s: sizes[i] };
+      for (i = cur + 1; i < n; i++) rects[i] = { x: rects[i - 1].x + rects[i - 1].s, y: vh - sizes[i], s: sizes[i] };
+      tiles.forEach(function (el, i) {
+        var r = rects[i], x = r.x, y = r.y;
+        if (entering) { x += 36; y += 70; }
+        el.style.left = x.toFixed(1) + 'px';
+        el.style.top = y.toFixed(1) + 'px';
+        el.style.width = el.style.height = r.s.toFixed(1) + 'px';
+        el.style.opacity = entering || r.s < 6 ? 0 : 1;
+        el.style.zIndex = n - Math.abs(i - cur);
+        el.classList.toggle('focused', i === cur);
+        el.classList.toggle('tiny', r.s < 24);
+        el.setAttribute('tabindex', i === cur ? '0' : '-1');
       });
-      rail.forEach(function (b, i) { b.classList.toggle('current', i === cur); b.setAttribute('aria-pressed', i === cur ? 'true' : 'false'); });
-      echo.set(items[cur].getAttribute('data-blur'));
+      echo.set(tiles[cur].getAttribute('data-blur'));
     }
-    function go(i) { cur = ((i % n) + n) % n; place(false); }
-    function enter() {
-      stage.classList.add('still');
-      place(true);
-      void stage.offsetWidth; // the starting places are painted before the move
-      stage.classList.remove('still');
-      items.forEach(function (el, i) { el.style.transitionDelay = (i * 90) + 'ms'; });
+
+    /* at rest, the focused tile plays its site scrolling; a move stops it and shows the still */
+    function stopVideo() {
+      if (!playing) return;
+      playing.classList.remove('playing');
+      playing.querySelector('video').pause();
+      playing = null;
+    }
+    function rest() {
+      if (paused || reduced || d.hidden) return;
+      var el = tiles[cur], v = el.querySelector('video');
+      if (!v) return;
+      if (!v.getAttribute('src')) {
+        // VP9 where it plays (and is smaller); H.264 everywhere else
+        var src = el.getAttribute('data-video');
+        if (v.canPlayType('video/webm; codecs="vp9"')) src = src.replace(/\.mp4$/, '.webm');
+        v.setAttribute('src', src); v.load();
+      }
+      var p = v.play();
+      if (p && p.catch) p.catch(function () { /* autoplay refused: the still stays */ });
+      el.classList.add('playing');
+      playing = el;
+    }
+    function settle() { clearTimeout(restTimer); restTimer = setTimeout(rest, 1300); }
+    function go(i) {
+      cur = ((i % n) + n) % n;
+      stopVideo();
       place(false);
-      setTimeout(function () { items.forEach(function (el) { el.style.transitionDelay = ''; }); }, 1400);
+      settle();
     }
-    items.forEach(function (el, i) {
+    function enter() {
+      strip.classList.add('still');
+      place(true);
+      void strip.offsetWidth; // the starting places are painted before the move
+      strip.classList.remove('still');
+      tiles.forEach(function (el, i) { el.style.transitionDelay = (Math.abs(i - cur) * 70) + 'ms'; });
+      place(false);
+      setTimeout(function () { tiles.forEach(function (el) { el.style.transitionDelay = ''; }); }, 1600);
+      settle();
+    }
+    tiles.forEach(function (el, i) {
       el.addEventListener('click', function (e) {
         if (!el.classList.contains('focused')) { e.preventDefault(); go(i); }
       });
     });
-    rail.forEach(function (b, i) { b.addEventListener('click', function () { go(i); }); });
     onInput({
       main: function (dir) { go(cur + dir); },
-      enter: function () { window.location.href = items[cur].getAttribute('href'); }
+      enter: function () { window.location.href = tiles[cur].getAttribute('href'); }
     });
     var resizeTimer;
     window.addEventListener('resize', function () {
       clearTimeout(resizeTimer);
-      stage.classList.add('still'); place(false);
-      resizeTimer = setTimeout(function () { stage.classList.remove('still'); }, 120);
+      strip.classList.add('still'); place(false);
+      resizeTimer = setTimeout(function () { strip.classList.remove('still'); }, 120);
+    });
+    d.addEventListener('visibilitychange', function () { if (d.hidden) stopVideo(); else settle(); });
+    // the velvet's pause button (components/paper) is the page's pause: it stops the film too
+    d.addEventListener('click', function (e) {
+      if (!e.target.closest || !e.target.closest('.paper-pause')) return;
+      setTimeout(function () { paused = motionPaused(); if (paused) stopVideo(); else settle(); }, 0);
     });
 
     /* the loader: plays once per browser session, never under reduced motion */

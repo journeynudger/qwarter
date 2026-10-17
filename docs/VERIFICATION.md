@@ -3,6 +3,25 @@
 What was checked, how, and with what result. Every check ran on a production build
 (`rm -rf .next && npm run build`), after the last change it covers.
 
+## 2026-10-17, later: the home as Depo Luxe's staircase, the films, the velvet, the catalogue
+
+Lorenzo's screenshot of depoluxe.xyz's home (2000×1091) was measured and the staircase rebuilt to it;
+depoluxe.xyz and qwarter.com stayed unreachable (403 at the environment's proxy, also for archive.org and
+Google's cache), so the catalogue is text until the network opens. Checks on a production build:
+
+| Check | How | Result |
+|---|---|---|
+| Build, types, lint, unit tests | each by its own exit code | 0 / 0 / 0 / 0; 16 tests pass, 1 skipped |
+| Geometry against the screenshot | the three stills at 1440×900 (focus I, II, III), measured | focused tile 504px (.56·vh) flush bottom-left; the tiles after it along the bottom edge at 252 and 126, touching; with focus II and III the earlier tiles stack straight up at x=0 at 252 and 126, touching: the screenshot's 160→322→642 column and 279→140→70 row, halving each step; labels 36px right of each tile, 8px down from its top, numeral column 3.1em |
+| Header | the stills | one centred column as wide as the tagline; brand words at its ends, italic tagline, menu spread across; three rows a line apart |
+| The film | `ffprobe`; a frame at 3 s from each | 900×900, 24 fps, 16–31 s; H.264 328 KB–1.95 MB, VP9 316 KB–1.94 MB; headless Chromium (no H.264) plays the VP9 |
+| The velvet | the Work index still | the MeshGradient's slow swirl visible through the black; the pause button bottom right; the echo screened over it on Featured and in the viewer |
+| Rendered-page sweep | 8 routes × 375 and 1280 px | clean (the 404 page's own status line only) |
+| Catalogue | `tests/work.test.ts` | 13 projects, numerals I–XIII in order; the 10 catalogue entries carry no cover, no pages, no media folder, and each names its qwarter.com page in `source` |
+| The echo's depth | `sharp().stats()` on each `blur.jpg` | mean brightness held at ≤ 0.30 for every project (a white site's echo, Journey's, came out at 0.6 before and washed the header; it is now brought down to the same depth as the dark ones) |
+| The film plays at rest | the `home-rest` still at 8.5 s | the focused tile shows the site's second page mid-scroll, the still faded out |
+| Stale server, again | the `.webm` answered 404 from a server started before the files existed; `kill` by a PID threshold had missed it (the container had restarted and PIDs were low) | the QA server is now stopped by matching `/proc/<pid>/cwd` to the repo, never by PID range or by `pkill -f` (which kills the shell that runs it) |
+
 ## 2026-10-17: the site itself (Depo Luxe's language, Qwarter's work)
 
 Every check ran on a production build (`rm -rf .next && npm run build`) served by `next start -p 3102`,

@@ -1,6 +1,6 @@
 {
   "_provenance": "Qwarter's work, as photographed by scripts/work/shoot.mjs from the sites themselves (JR Pugh from the vault's 2026-07-23 stills; Serein and Journey from their own builds, 2026-10-17). Every word under a project is the site's own or its repository's: nothing here is written for effect.",
-  "_fields": "numeral/name/url/line/made/year are shown; cover names the frame the project is introduced with; pages lists the frames the slideshow walks, in order, each with the title the site itself gives that page; source says where each fact comes from.",
+  "_fields": "numeral/name/url/line/made/year are shown; cover names the frame the project is introduced with; pages lists the frames the slideshow walks, in order, each with the title the site itself gives that page; source says where each fact comes from. media:false marks a project from qwarter.com's catalogue whose pictures are not here yet (the WordPress snapshot needs network access): it is listed under Work, not shown on the strip.",
   "projects": [
     {
       "slug": "jr-pugh",
@@ -12,11 +12,26 @@
       "year": "2026",
       "cover": "home",
       "pages": [
-        { "name": "home", "title": "Featured" },
-        { "name": "reel", "title": "Reel" },
-        { "name": "acting", "title": "Acting" },
-        { "name": "about", "title": "About" },
-        { "name": "contact", "title": "Contact" }
+        {
+          "name": "home",
+          "title": "Featured"
+        },
+        {
+          "name": "reel",
+          "title": "Reel"
+        },
+        {
+          "name": "acting",
+          "title": "Acting"
+        },
+        {
+          "name": "about",
+          "title": "About"
+        },
+        {
+          "name": "contact",
+          "title": "Contact"
+        }
       ],
       "source": "mylife: Open/_Generated/Clients/2026-07/jeffvhs-site-final (final v2 2026-07-16, v3 2026-07-23; title 'JR Pugh | Actor, NYC'; published at jeffvhs.com per PUBLISH.md); stills from its _shots-2026-07-23"
     },
@@ -30,10 +45,22 @@
       "year": "2026",
       "cover": "home",
       "pages": [
-        { "name": "home", "title": "Home" },
-        { "name": "product", "title": "Product" },
-        { "name": "manifesto", "title": "Manifesto" },
-        { "name": "blog", "title": "Blog" }
+        {
+          "name": "home",
+          "title": "Home"
+        },
+        {
+          "name": "product",
+          "title": "Product"
+        },
+        {
+          "name": "manifesto",
+          "title": "Manifesto"
+        },
+        {
+          "name": "blog",
+          "title": "Blog"
+        }
       ],
       "source": "mylife: Serein/serein-site (CLAUDE.md: 'Public website for Serein — landing page, product, manifesto'; layout.tsx description 'Your thoughts, always with you. Capture freely. Retrieve effortlessly.'; in the vault backup of 2026-08-02); domain withserein.com as Lorenzo named it (2026-10-17); photographed from its own build"
     },
@@ -47,16 +74,171 @@
       "year": "2026",
       "cover": "home",
       "pages": [
-        { "name": "home", "title": "Home" },
-        { "name": "how-journey-works", "title": "How Journey Works" },
-        { "name": "students", "title": "Students" },
-        { "name": "universities", "title": "Universities" },
-        { "name": "nudge", "title": "Nudge" },
-        { "name": "pathfinder", "title": "Pathfinder" },
-        { "name": "personality-quest", "title": "Personality Quest" },
-        { "name": "blog", "title": "Blog" }
+        {
+          "name": "home",
+          "title": "Home"
+        },
+        {
+          "name": "how-journey-works",
+          "title": "How Journey Works"
+        },
+        {
+          "name": "students",
+          "title": "Students"
+        },
+        {
+          "name": "universities",
+          "title": "Universities"
+        },
+        {
+          "name": "nudge",
+          "title": "Nudge"
+        },
+        {
+          "name": "pathfinder",
+          "title": "Pathfinder"
+        },
+        {
+          "name": "personality-quest",
+          "title": "Personality Quest"
+        },
+        {
+          "name": "blog",
+          "title": "Blog"
+        }
       ],
       "source": "journeynudger/journeysite (CLAUDE.md: 'journeynudge.com, moved off WordPress onto Next.js on Vercel without changing its design', WordPress snapshot of 2026-10-06); its own <title> 'journey – The nudge you need, when you need it.'; page titles from content/pages.json; photographed from its own build"
+    },
+    {
+      "slug": "ekaterina-sky",
+      "numeral": "IV",
+      "name": "Ekaterina Sky",
+      "url": null,
+      "line": "E-commerce for an artist's prints and hand-painted jackets",
+      "made": "Shopify store",
+      "year": "2021",
+      "media": false,
+      "cover": null,
+      "pages": [],
+      "source": "qwarter.com case study https://qwarter.com/work/ekaterina-sky (search snippet, 2026-10-17; to verify against the WordPress snapshot). The client's own address is not known until then."
+    },
+    {
+      "slug": "epic-esg",
+      "numeral": "V",
+      "name": "EPIC ESG",
+      "url": null,
+      "line": "Digital strategy, product design and a new website for a renewable energy organization",
+      "made": "Brand identity, website",
+      "year": "2021",
+      "media": false,
+      "cover": null,
+      "pages": [],
+      "source": "qwarter.com case study https://qwarter.com/work/epic-esg/ (search snippet, 2026-10-17; to verify against the WordPress snapshot). The client's own address is not known until then."
+    },
+    {
+      "slug": "tima",
+      "numeral": "VI",
+      "name": "Titanium Motor Arts",
+      "url": null,
+      "line": "Brand strategy and product design for 3D-printed titanium lug nuts",
+      "made": "Brand, website, industrial design",
+      "year": "2022",
+      "media": false,
+      "cover": null,
+      "pages": [],
+      "source": "qwarter.com case study https://qwarter.com/work/tima/ (search snippet, 2026-10-17; to verify against the WordPress snapshot). The client's own address is not known until then."
+    },
+    {
+      "slug": "iotech-protect",
+      "numeral": "VII",
+      "name": "IoTech Protect",
+      "url": null,
+      "line": "A brand redesign and website for a security services company",
+      "made": "Brand, website",
+      "year": null,
+      "media": false,
+      "cover": null,
+      "pages": [],
+      "source": "qwarter.com case study https://qwarter.com/work/iotech-protect/ (search snippet, 2026-10-17; to verify against the WordPress snapshot). The client's own address is not known until then."
+    },
+    {
+      "slug": "2020-insights",
+      "numeral": "VIII",
+      "name": "20/20 Insights",
+      "url": null,
+      "line": "A software platform that combines AI with human coaching for workplace wellness",
+      "made": "Software",
+      "year": null,
+      "media": false,
+      "cover": null,
+      "pages": [],
+      "source": "qwarter.com case study https://qwarter.com/work/2020-insights/ (search snippet, 2026-10-17; to verify against the WordPress snapshot). The client's own address is not known until then."
+    },
+    {
+      "slug": "pineapple-club",
+      "numeral": "IX",
+      "name": "Pineapple Club",
+      "url": null,
+      "line": "A tropical-fusion restaurant and bar in New York's East Village: website with online ordering, visual identity and photography",
+      "made": "Website, identity, photography",
+      "year": null,
+      "media": false,
+      "cover": null,
+      "pages": [],
+      "source": "qwarter.com case study https://qwarter.com/work/pineapple-club/ (search snippet, 2026-10-17; to verify against the WordPress snapshot). The client's own address is not known until then."
+    },
+    {
+      "slug": "ion-insurance",
+      "numeral": "X",
+      "name": "ION Insurance",
+      "url": null,
+      "line": "Website, brand kit and SEO for an insurance group",
+      "made": "Website, brand kit, SEO",
+      "year": null,
+      "media": false,
+      "cover": null,
+      "pages": [],
+      "source": "qwarter.com case study https://qwarter.com/work/ion-insurance/ (search snippet, 2026-10-17; to verify against the WordPress snapshot). The client's own address is not known until then."
+    },
+    {
+      "slug": "thanh-ta",
+      "numeral": "XI",
+      "name": "Thanh Ta",
+      "url": null,
+      "line": "Website, brand guide and a client booking portal (Acuity) for a wellness studio",
+      "made": "Website, brand guide, booking portal",
+      "year": null,
+      "media": false,
+      "cover": null,
+      "pages": [],
+      "source": "qwarter.com case study https://qwarter.com/work/thanh-ta (search snippet, 2026-10-17; to verify against the WordPress snapshot). The client's own address is not known until then."
+    },
+    {
+      "slug": "boujee-healer",
+      "numeral": "XII",
+      "name": "Boujee Healer",
+      "url": null,
+      "line": "Website, brand book and a members-only portal for a wellness business",
+      "made": "Website, brand book, membership portal",
+      "year": null,
+      "media": false,
+      "cover": null,
+      "pages": [],
+      "source": "qwarter.com case study https://qwarter.com/work/boujee-healer/ (search snippet, 2026-10-17; to verify against the WordPress snapshot). The client's own address is not known until then."
+    },
+    {
+      "slug": "wood-company",
+      "numeral": "XIII",
+      "name": "Wood Company",
+      "url": null,
+      "line": "Identity and a live auction recording for an auctioneer of high-ticket cars",
+      "made": "Identity, audio",
+      "year": "2021",
+      "media": false,
+      "cover": null,
+      "pages": [],
+      "source": "qwarter.com case study https://qwarter.com/portfolio/wood-company/ (search snippet, 2026-10-17; to verify against the WordPress snapshot). The client's own address is not known until then."
     }
-  ]
+  ],
+  "_catalogue": "The projects below the first three are qwarter.com's own case studies, found through search on 2026-10-17 (qwarter.com itself is unreachable from the build environment). Each line is the case study's description as the search returned it, kept short; year only where the page gave one. Pictures, the full text and any missing project arrive with scripts/port/fetch.py once the network allows it, and these entries are then checked against the snapshot word for word."
 }

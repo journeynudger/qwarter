@@ -1,5 +1,5 @@
 import { Echo, Footer, Header } from "@/components/site/chrome";
-import { getProjects, workMedia } from "@/lib/content";
+import { getFeatured, workMedia } from "@/lib/content";
 
 /*
  * Work: one project at a time, the way Depo Luxe shows a film. The project's blurred frame
@@ -10,7 +10,7 @@ import { getProjects, workMedia } from "@/lib/content";
  * first page of the opened project, so the page is whole before any script.
  */
 export function Work({ project }: { project?: string }) {
-  const projects = getProjects();
+  const projects = getFeatured();
   const index = Math.max(0, projects.findIndex((p) => p.slug === project));
   const current = projects[index];
   const media = workMedia(current.slug);
@@ -29,6 +29,7 @@ export function Work({ project }: { project?: string }) {
   return (
     <>
       <Header current="/work/" />
+      <div className="sky" aria-hidden="true" data-paper-shader="MeshGradient" data-paper-params='{"colors":["#050506","#0e0d11","#121015","#08090b"],"distortion":0.75,"swirl":0.3}' data-paper-speed="0.05" data-paper-opacity="0.9" data-paper-pause="off" />
       <Echo src={media.blur} />
 
       <main className="show" id="show">
@@ -71,8 +72,8 @@ export function Work({ project }: { project?: string }) {
           </nav>
 
           <p className="show-meta">
-            <a className="u" id="showVisit" href={current.url} target="_blank" rel="noopener">
-              {host(current.url)} ↗
+            <a className="u" id="showVisit" href={current.url ?? "#"} target="_blank" rel="noopener">
+              {host(current.url ?? "")} ↗
             </a>
             <span id="showMade">
               {current.made}, {current.year}

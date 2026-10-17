@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
 import { Approach } from "@/components/site/approach";
+import { Archive } from "@/components/site/archive";
 import { Contact } from "@/components/site/contact";
 import { Featured } from "@/components/site/featured";
 import { Work } from "@/components/site/work";
@@ -52,6 +53,8 @@ export default async function Page({ params }: { params: Params }) {
   switch (page.kind) {
     case "featured":
       return <Featured />;
+    case "archive":
+      return <Archive />;
     case "work":
       return <Work project={page.project} />;
     case "approach":

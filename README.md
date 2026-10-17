@@ -1,9 +1,9 @@
 # qwarter
 
-qwarter.com on Next.js + Vercel: Qwarter's own site, in the design language of Depo Luxe (as the sister
-site, JR Pugh, wears it) — a loader, a film-strip cascade of the work, and each site Qwarter built shown
-as itself, sliding inside a frame. Paper shaders behind the words. No framework in the browser: one
-stylesheet, one script.
+qwarter.com on Next.js + Vercel: Qwarter's own site, in Depo Luxe's design language — a loader, the
+staircase of square tiles that plays each site scrolling when it comes to rest, the catalogue of
+everything Qwarter made, and each photographed site shown as itself, sliding inside a frame. Black
+Paper-shader velvet behind everything. No framework in the browser: one stylesheet, one script.
 
 ```
 npm install

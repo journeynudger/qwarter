@@ -11,9 +11,9 @@ export function Contact() {
         className="sky"
         aria-hidden="true"
         data-paper-shader="MeshGradient"
-        data-paper-params='{"colors":["#0b0b0c","#121419","#191417","#0e1311"],"distortion":0.55,"swirl":0.35}'
+        data-paper-params='{"colors":["#050506","#0e0d11","#121015","#08090b"],"distortion":0.75,"swirl":0.3}'
         data-paper-speed="0.05"
-        data-paper-opacity="0.7"
+        data-paper-opacity="0.9"
       />
       <main className="page contact-wrap">
         <h1 className="kicker">Contact</h1>

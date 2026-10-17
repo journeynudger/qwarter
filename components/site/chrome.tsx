@@ -4,10 +4,10 @@ import path from "node:path";
 import { getSite } from "@/lib/content";
 
 /*
- * What every page carries, in Depo Luxe's arrangement as the sister site (JR Pugh) wears it:
- * a fixed, centred header with the brand split either side of the menu and the tagline under
- * it, a fixed footer line, and the film treatment (vignette and grain) that site.css puts on
- * <body>. The menu's current item is marked on the server, so it is right before any script runs.
+ * What every page carries, in Depo Luxe's arrangement: a fixed, centred column at the top with the
+ * two brand words at its ends, the tagline in italic under them and the menu spread across it;
+ * a fixed footer line; and the film treatment (vignette and grain) that site.css puts on <body>.
+ * The menu's current item is marked on the server, so it is right before any script runs.
  */
 
 export function Header({ current }: { current: string }) {
@@ -15,25 +15,21 @@ export function Header({ current }: { current: string }) {
   return (
     <header className="site" id="siteHeader">
       <div className="header-blur" aria-hidden="true" />
-      <div className="lockup">
-        <a className="brand brand-l" href="/" aria-label={`${brand.left} ${brand.right}, home`}>
-          {brand.left}
-        </a>
-        <nav className="site" aria-label="Site">
-          {nav.map((item) => {
-            const active = item.href === current;
-            return (
-              <a key={item.href} href={item.href} className={active ? "active" : undefined} aria-current={active ? "page" : undefined}>
-                {item.label}
-              </a>
-            );
-          })}
-        </nav>
-        <span className="brand brand-r" aria-hidden="true">
-          {brand.right}
-        </span>
-      </div>
+      <a className="brand" href="/" aria-label={`${brand.left} ${brand.right}, home`}>
+        <span className="brand-l">{brand.left}</span>
+        <span className="brand-r">{brand.right}</span>
+      </a>
       <p className="tagline">{brand.tagline}</p>
+      <nav className="site" aria-label="Site">
+        {nav.map((item) => {
+          const active = item.href === current;
+          return (
+            <a key={item.href} href={item.href} className={active ? "active" : undefined} aria-current={active ? "page" : undefined}>
+              {item.label}
+            </a>
+          );
+        })}
+      </nav>
     </header>
   );
 }

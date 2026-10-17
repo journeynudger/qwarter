@@ -6,10 +6,11 @@ Guidance for anyone (person or agent) changing this repository. Read it before t
 
 **qwarter.com, moved off WordPress onto Next.js on Vercel, as Qwarter's own site in Depo Luxe's design
 language.** Lorenzo (2026-10-17): the loader and the home page of https://depoluxe.xyz/ (design by Cuchillo,
-Awwwards Site of the Day 2026-07-07), "form fitted for our work", the vibe of the sister site he built in
-the same language (JR Pugh, jeffvhs.com, 2026-07), and the work "presented under our work tab where it
-shows the background image blurred and the website in focus, sliding, instead of a video", for every site
-Qwarter built. Quality over quantity: three projects, each shown as itself.
+Awwwards Site of the Day 2026-07-07) "exactly", with its effect and blur; the vibe of the sister site he
+built in the same language (JR Pugh, jeffvhs.com, 2026-07); the work "presented under our work tab where it
+shows the background image blurred and the website in focus, sliding"; where Depo Luxe's tiles play a film
+when the strip comes to rest, ours play the website scrolling; black Paper-shader velvet behind everything
+(the Valerin site's red velvet, in black); and the full catalogue of brands and websites from qwarter.com.
 
 - **Owner:** Lorenzo Scardicchio (lorenzo@qwarter.com)
 - **Vercel:** Lorenzo's **personal** account, lorenzo@qwarter.com, scope `journeynudgers-projects`, project
@@ -29,6 +30,7 @@ Qwarter built. Quality over quantity: three projects, each shown as itself.
 | Types / lint / unit tests | `npm run typecheck` · `npm run lint` · `npm test` |
 | Photograph a site Qwarter built (raw PNGs, not committed) | `node scripts/work/shoot.mjs <slug> <base> name=route[\|click:selector] …` |
 | Make the delivered pictures from the raw ones | `node scripts/work/prepare.mjs [slug …]` |
+| Render each site scrolling, as the strip's film | `node scripts/work/video.mjs [slug …]` → `scroll.mp4` + `scroll.webm` |
 | Icons and the social card from the brand's marks | `node scripts/brand/icons.mjs <white wordmark png>` (mark: `scripts/brand/trace-mark.mjs`) |
 | Stills of every page, both widths, loader and slideshow mid-way | `node scripts/qa/shots.mjs --base http://localhost:3102` → `qa-out/shots/` |
 | Rendered-page sweep (console errors, images, alt, overflow, h1, links) | `node scripts/qa/sweep.mjs --base http://localhost:3102` |
@@ -52,8 +54,9 @@ app/[[...path]]/not-found.tsx the 404, in the same chrome (dynamicParams is true
 app/sitemap.ts  robots.ts    /sitemap.xml, /robots.txt (indexing only when ALLOW_INDEXING=1)
 proxy.ts  next.config.ts     ?p=123 and capitalised paths → their pages; trailing slashes; redirects; cache headers
 components/site/chrome.tsx   Header (brand · menu · brand, tagline), Footer, Echo (the blurred background), QMark
-components/site/featured.tsx the loader and the film-strip cascade
-components/site/work.tsx     the viewer: one site at a time, sliding inside its frame
+components/site/featured.tsx the loader and the staircase (Depo Luxe's home)
+components/site/archive.tsx  Work: every project in order, the catalogue included
+components/site/work.tsx     the viewer (/work/<slug>/): one site at a time, sliding inside its frame
 components/site/approach.tsx the statement, the facts, an index of the work, over a Paper shader
 components/site/contact.tsx  the address
 components/paper/            Paper shaders for markup that asks for one (data-paper-shader), pause + reduced motion
@@ -64,7 +67,7 @@ content/                     everything the site says (see below)
 public/design/qwarter/       site.css, site.js, fonts/, paper.css, q-mark.svg, icon.svg, apple-touch-icon.png
 public/media/work/<slug>/    the delivered pictures of each project; raw/ holds the captures (ignored by git)
 public/media/og.jpg          the social card
-scripts/work/                shoot.mjs (photograph a site), prepare.mjs (deliver the pictures)
+scripts/work/                shoot.mjs (photograph a site), prepare.mjs (deliver the pictures), video.mjs (the film)
 scripts/brand/               trace-mark.mjs (the pixel Q as squares), icons.mjs
 scripts/qa/                  shots.mjs, sweep.mjs, compare-design.mjs (parked), sheet.mjs
 scripts/design/, scripts/port/, scripts/lib/   the capture / extract / swap / snapshot tooling (parked)
@@ -82,55 +85,68 @@ positioned layout keys on, so without scripts the fallback layout shows, not an 
 ## The design
 
 Tokens and treatment are the sister site's: EB Garamond (self-hosted, `fonts/`), cream `#f2ede3` on
-`#0b0b0c`, a vignette and a drifting film grain over everything, a fixed centred header, a fixed footer
-line. Where Depo Luxe could not be read directly (its servers are not reachable from this environment), the
-mechanics were taken from Lorenzo's three screenshots of it and from what the sister site already does;
-the loader is ours (below). Once the network opens, `npm run capture:design -- --origin https://depoluxe.xyz`
-records the real thing for comparison.
+`#0b0b0c`, a vignette and a drifting film grain over everything. The arrangement is Depo Luxe's, taken
+from Lorenzo's screenshot of its home (2026-10-17, 2000×1091): everything measurable in it is in the
+numbers below; what it cannot show (the exact easing, the loader, the hover) is ours until depoluxe.xyz
+can be captured (`npm run capture:design -- --origin https://depoluxe.xyz`, needs the network).
 
-- **Header.** The brand split either side of the menu (`Qwarter` · Featured Work Approach Contact ·
-  `Studio`), the tagline in italic under it. On a page that scrolls it collapses to a frosted strip past
-  48px (site.js). On phones the two brand words share the first row and the menu takes the second.
+- **Header.** One centred column at the top, as wide as its tagline (Depo Luxe's is ~400px at 2000px):
+  row one the two brand words at its ends (`Qwarter` … `Studio`), row two the tagline in italic, row
+  three the menu spread across it; three rows a line apart, all one size (~17px), all cream. No gradient
+  behind it. On a page that scrolls it collapses to a frosted strip past 48px (site.js).
+- **The velvet.** Under every page a `MeshGradient` of four near-blacks (`#050506 #0e0d11 #121015 #08090b`,
+  distortion .75, swirl .3, speed .05, opacity .9): the Valerin site's velvet in black, with the paper
+  grain over it. It has the pause button (WCAG 2.2.2); on Featured that button also stops the film.
+- **Featured: the staircase** (`components/site/featured.tsx`, `featured()` in site.js). Square tiles in
+  a chain anchored to the window's bottom-left corner: the focused tile largest (S = min(.56·vh, .42·vw);
+  .64·vw on phones), the tiles before it stacked straight up from it at x = 0, the tiles after it along
+  the bottom edge, **each half the size of its neighbour nearer the focus and touching it** (the screenshot:
+  160 → 322 → 642 up the column, 279 → 140 → 70 along the bottom). Its numeral and name sit at each tile's
+  top-right corner, outside it (2.15em in, 0.5em down, the name 3.1em after the numeral). A step is one
+  eased transition of every tile's left/top/width/height (1.15 s, `cubic-bezier(.22,1,.36,1)`, 70 ms
+  later per step of distance), on wheel, arrow keys, PageUp/Down, swipe, or a tap on another tile; a tap
+  on the focused tile, or Enter, opens its Work page. The focused tile's frame, blurred to a colour field
+  (`blur.jpg`: 96px, blur 7, brightness .48, then `filter: blur(28px)` at `scale(1.18)`), fills the window
+  behind, **screened over the velvet** so the velvet's light moves through its dark. 1.3 s after the strip
+  comes to rest the focused tile fades from its still into its film: the site scrolling (`scroll.webm`
+  where VP9 plays, else `scroll.mp4`), muted, looping; any move stops it. No footer on this page: the
+  bottom edge is the tiles'.
+- **The film** (`scripts/work/video.mjs`): a 900×900 window on the page's own 1440px rendering (its
+  centre), holding at the top for 0.9 s, panning down at 210 px/s for at most 6.5 s, holding 0.7 s,
+  cross-fading 0.6 s to the next page; the first four pages of each site; H.264 and VP9. 0.3–2 MB each.
 - **Loader** (featured only, once per browser session, never under reduced motion): the brand's pixel Q
   (`q-mark.svg`, traced from the icon mark's pixel grid: 51 squares, each numbered) lights up square by
   square, then the name flickers in letter by letter between roman, italic and sans (the sister site's
-  letter frames) and settles; the stage lifts and the cascade flies in. About 3.5 s.
-- **Featured: the film-strip cascade.** The focused project large (52vw, 16:10); the previous projects
-  stacked above it, left-aligned, each a step smaller (×0.32); the next ones to its right, bottom-aligned,
-  the same way; on phones the next ones go below, right-aligned. The focused project's blurred, darkened
-  frame fills the background (`.echo`, two layers cross-fading). The ring wraps, so with three projects all
-  three are always on the stage. Wheel, arrow keys, PageUp/Down, swipe and a tap on a smaller frame move the
-  focus; a tap on the focused frame, or Enter, opens its Work page; the numerals on the left jump. All of it
-  is translate + scale from one base box, so the pictures stay sharp and the move is one composited
-  transform (`cubic-bezier(.22,1,.36,1)`, 1.05 s).
-- **Work: the viewer.** `/work/` opens on project I; `/work/<slug>/` on that project. The project's blurred
-  frame behind; its line and name above; the site itself inside a 16:10 frame (4:5 on phones), each page a
-  tall strip (`page-<name>.jpg`, 1440 wide, at most 5400 tall) that holds its top for 1.6 s, slides at
-  70 px/s with a soft start and stop (6–26 s), holds, and cross-fades to the next page; the pages are listed
-  under the frame (tap to jump), the site's address and what Qwarter made under that; the numeral rail on
-  the left drains with each page. Wheel, ↑↓ and a vertical swipe change the page; ←→, a horizontal swipe
-  and the arrows at the foot change the project (pushState, so the address and title follow, and Back
-  works); Space pauses; Escape and the × go to Featured. The pause button writes `qw-motion`, the key the
-  Paper shaders read, so one choice holds across the site; a hidden tab pauses; reduced motion shows the
-  top of each page and slides nothing.
-- **Approach and Contact.** The statement set large (italic, then roman), the facts, an index of the work;
-  the address as the page. Behind each a `MeshGradient` of the site's own near-blacks at 0.06 speed, 0.7
-  opacity: it breathes, it never gets light enough to touch the text's contrast, and it has the pause
-  button (WCAG 2.2.2). The 404 is the same page with "There is no page at this address."
+  letter frames) and settles; the stage lifts and the staircase flies in. About 3.5 s. Depo Luxe's own
+  loader could not be seen from here.
+- **Work** (`/work/`, `archive.tsx`): every project in order, the catalogue included: numeral, a square
+  frame where there is one, name in italic, the line, what was made and the year, the site's address.
+  A photographed site opens in the viewer; a catalogue entry waits for its pictures.
+- **The viewer** (`/work/<slug>/`, `work.tsx`): the project's blurred frame behind; its line and name
+  above; the site itself inside a 16:10 frame (4:5 on phones), each page a tall strip (`page-<name>.jpg`,
+  1440 wide, at most 5400 tall) that holds its top for 1.6 s, slides at 70 px/s with a soft start and stop
+  (6–26 s), holds, and cross-fades to the next page; the pages are listed under the frame (tap to jump),
+  the site's address and what Qwarter made under that; the numeral rail on the left drains with each page.
+  Wheel, ↑↓ and a vertical swipe change the page; ←→, a horizontal swipe and the arrows at the foot change
+  the project (pushState, so the address and title follow, and Back works); Space pauses; Escape and the ×
+  go to Featured. The pause button writes `qw-motion`, the key the Paper shaders read, so one choice holds
+  across the site; a hidden tab pauses; reduced motion shows the top of each page and slides nothing.
+- **Approach and Contact.** The statement set large (italic, then roman) and the facts; the address as the
+  page; both over the velvet. The 404 is the same page with "There is no page at this address."
 - **Pictures.** `scripts/work/shoot.mjs` photographs a site at 1440×900@2× (viewport frame and full page
-  after a scroll pass, so lazy images and reveals have happened); `prepare.mjs` makes `cover.jpg` (1440×900,
-  the cascade's tile and the first frame), `cover@2x.jpg`, `blur.jpg` (640 wide, blurred and darkened in
-  sharp, so no page pays for a filter over a full-screen image) and the page strips. 3.2 MB for all three
-  projects; a Work page loads one project's strips, one at a time, the next one ahead.
+  after a scroll pass, so lazy images and reveals have happened); `prepare.mjs` makes `cover.jpg`
+  (1440×900, the viewer's first frame), `tile.jpg`/`tile@2x.jpg` (the frame's centre as a 900/1800 square,
+  the staircase's tile), `blur.jpg` and the page strips; `video.mjs` the film.
 
 ## Content model and provenance
 
 | File | What it holds | Source | Edit freely? |
 |---|---|---|---|
 | `content/site.json` › `chrome` | brand words, tagline, menu, footer line, the statement, the facts, the contact | `_provenance` inside the file says where each came from: Lorenzo's own positioning statement (mylife `Open/Work/Writing/Qwarter-The-Problem-Of-Direction.md`), Qwarter LLC's registration, the address he runs Qwarter's GitHub and Vercel from | Yes; keep `_provenance` true |
-| `content/work.json` | the projects: numeral, name, url, line, what Qwarter made, year, the frames, and `source` per project | each site's own `<title>`/description and its repository or vault folder; photographed from the sites themselves | Yes. A new project: add it, photograph it, `prepare.mjs`, `npm test` |
+| `content/work.json` | the projects: numeral, name, url, line, what Qwarter made, year, the frames, and `source` per project; `media: false` marks a catalogue entry without pictures yet | the three photographed sites: each site's own `<title>`/description and its repository or vault folder. The ten catalogue entries (IV–XIII): qwarter.com's own case studies, found through search on 2026-10-17 because qwarter.com itself is unreachable from the build environment; each line as the search returned it, each `source` naming its qwarter.com page | Yes. A new project: add it, photograph it, `prepare.mjs`, `video.mjs`, `npm test`. The catalogue entries are to be checked word for word against the WordPress snapshot when it can be taken |
+| `public/media/work/<slug>/scroll.mp4`, `scroll.webm` | the film of the site scrolling | `video.mjs` from the strips | Regenerate, never edit |
 | `content/pages.json` | the four pages: path, kind, title, description, card image | written here | Titles and descriptions yes |
-| `public/media/work/<slug>/` | cover, cover@2x, blur, page strips | `prepare.mjs` from `raw/` (git-ignored) | Regenerate, never edit |
+| `public/media/work/<slug>/` | cover, cover@2x, tile, tile@2x, blur, page strips | `prepare.mjs` from `raw/` (git-ignored) | Regenerate, never edit |
 | `public/design/qwarter/site.css`, `site.js` | the whole design and behaviour | written here, grown from the sister site's `style.css` / `index.html` / `reel.html` | Yes |
 | `public/design/qwarter/fonts/` | EB Garamond 400–800 roman and italic, latin + latin-ext, OFL | Google Fonts, self-hosted (no third-party request) | — |
 | `public/design/qwarter/q-mark.svg`, `icon.svg`, `apple-touch-icon.png`, `public/media/og.jpg` | the pixel Q as squares; icons; the social card with the brand's wordmark | traced from and composed of the brand's own marks (mylife `Projects/Project Proposals/Qwarter Template/Assets/`) | Regenerate with `scripts/brand/` |
@@ -181,22 +197,23 @@ any content worth keeping (clients, case studies, words) can be brought into `co
 
 ## Open questions for Lorenzo
 
-1. **The tagline and the second brand word.** The header reads `Qwarter · menu · Studio` with "Websites,
-   applications, and words that feel true to who they are." under it. "Studio" and the line are both from
-   your positioning statement ("Qwarter is a studio that… websites, applications, and words that feel true to
-   who they are"); say the word to change either.
-2. **The contact address.** lorenzo@qwarter.com is shown, as the address Qwarter's GitHub and Vercel run from.
-   If the public address is another (hello@, studio@), it is one value in `content/site.json`.
-3. **More work.** Three sites are shown: JR Pugh, Serein, Journey. Others Qwarter built (the Valerin sites,
-   One Water Vero, 11 Hamilton…) are not, because which of them are Qwarter's to claim is your call. Adding
-   one is `content/work.json` + a shoot; the cascade and the viewer take any number.
-4. **The founder facts** (Founded 2023 · Las Vegas, Nevada · Lorenzo Scardicchio) come from Qwarter LLC's
-   registration. Keep them on the Approach page?
-5. **The loader** is ours (the pixel Q, then the name). Depo Luxe's could not be seen from here; once the
-   environment can reach depoluxe.xyz, `capture.mjs` records it and the loader can be matched if you prefer theirs.
-6. **Network access** for this repo's cloud environment: allow `depoluxe.xyz`, `qwarter.com` (and
-   `synchronized.studio` if that reference is still wanted), or "Full", so the captures above can run.
-7. **qwarter.com's WordPress content**: once snapshotted, which of it comes across (clients, case studies,
-   services, testimonials), and the old URLs' redirects.
-8. **The Oct 6 porting prompt** ("Next/Vercel/WordPress") was not in `journeynudger/mylife` on GitHub; this
+1. **Network access, which now blocks two of your asks.** The environment's policy denies `qwarter.com`
+   and `depoluxe.xyz` (and every mirror: archive.org, Google's cache). Without it the catalogue has no
+   pictures and the home is built from your screenshot rather than from Depo Luxe itself. Cloud
+   environment menu (the session's title bar) → Edit → Network access: add `qwarter.com`, `www.qwarter.com`
+   and `depoluxe.xyz` under Allowed domains (leave "Allow package managers" ticked), or choose Full. Then:
+   `npm run capture:wordpress` (every case study, its pictures and words), `capture:design` on
+   depoluxe.xyz (its loader, easing, blur, hover, measured), and the strip grows to the whole catalogue.
+2. **The catalogue as it stands** (IV–XIII on /work/): Ekaterina Sky, EPIC ESG, Titanium Motor Arts,
+   IoTech Protect, 20/20 Insights, Pineapple Club, ION Insurance, Thanh Ta, Boujee Healer, Wood Company,
+   from qwarter.com's own case-study pages as search returned them. Anything missing from qwarter.com, or
+   a brand you worked with that qwarter.com never listed (the Valerin sites, One Water Vero, 11 Hamilton…)?
+3. **The tagline and the second brand word.** The header reads `Qwarter … Studio` with "Websites,
+   applications, and words that feel true to who they are." under it; both from your positioning
+   statement. Say the word to change either.
+4. **The contact address.** lorenzo@qwarter.com is shown, as the address Qwarter's GitHub and Vercel run
+   from. If the public address is another (hello@, studio@), it is one value in `content/site.json`.
+5. **The founder facts** (Founded 2023 · Las Vegas, Nevada · Lorenzo Scardicchio) come from Qwarter LLC's
+   registration; LinkedIn says founded 2016. Which year is Qwarter's?
+6. **The Oct 6 porting prompt** ("Next/Vercel/WordPress") was not in `journeynudger/mylife` on GitHub; this
    port follows journeysite's CLAUDE.md and Verowater's `docs/site-kit/sources/PORT-PLAYBOOK-v1.md` instead.
