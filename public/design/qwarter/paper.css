@@ -1,0 +1,77 @@
+/*
+ * Ours, not the reference design's: the Paper shader surfaces (components/paper/paper-shaders.tsx)
+ * and Verowater's paper stock. Loaded after the design's own stylesheets.
+ */
+
+/*
+ * The shader, behind everything else in its surface without touching the design's own elements:
+ * the island makes the surface a stacking context (isolation: isolate), and a z-index of -1 inside
+ * it paints above the surface's own background and below all of its content.
+ */
+.paper-shader-host {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  overflow: hidden;
+  border-radius: inherit;
+}
+
+/* The pause for the motion (WCAG 2.2.2): one press stops every moving surface, and is remembered. */
+.paper-pause-host {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 2;
+}
+.paper-pause {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border: 0;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.14);
+  color: inherit;
+  cursor: pointer;
+  backdrop-filter: blur(6px);
+}
+.paper-pause:hover {
+  background: rgba(255, 255, 255, 0.26);
+}
+.paper-pause:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
+/*
+ * Paper stock (Verowater's components/sections/paper.tsx, as a class): two feTurbulence tiles,
+ * a fine grain and long fibres, multiplied in so they can only darken. One coat per surface:
+ * two coats of the same texture read as a grey sheet, not better paper. --paper sets the strength
+ * (Verowater: 0.08 on white, 0.14 on light surfaces, 0.22 on deep ones).
+ */
+.paper-stock {
+  position: relative;
+  isolation: isolate;
+}
+.paper-stock::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  /* over the shader (same layer, later in the tree), under the content */
+  z-index: -1;
+  pointer-events: none;
+  mix-blend-mode: multiply;
+  opacity: var(--paper, 0.14);
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Cfilter id='f'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.005 0.85' numOctaves='3'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='400' height='400' filter='url(%23f)' opacity='0.4'/%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.92' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='240' height='240' filter='url(%23g)' opacity='0.6'/%3E%3C/svg%3E");
+  background-size: 400px 400px, 240px 240px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .paper-pause-host {
+    display: none;
+  }
+}

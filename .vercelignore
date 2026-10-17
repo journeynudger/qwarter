@@ -1,0 +1,7 @@
+.port-cache
+.design-cache
+.next
+node_modules
+qa-out
+sweep-report.json
+.env*.local

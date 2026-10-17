@@ -49,3 +49,8 @@ next-env.d.ts
 # QA output
 /qa-out/
 sweep-report.json
+
+# Raw captures of the sites Qwarter built (scripts/work/shoot.mjs): tens of MB of PNG, re-shootable.
+# scripts/work/prepare.mjs writes the delivered JPEGs next to them, and those are committed.
+/public/media/work/*/raw/
+__pycache__/
