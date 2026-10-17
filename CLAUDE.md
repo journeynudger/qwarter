@@ -38,6 +38,8 @@ nothing from either site is in the repo, and the site has no pages yet. Pick up 
 | Capture the reference design (needs network) | `npm run capture:design` (= `node scripts/design/capture.mjs --origin https://synchronized.studio`) |
 | Snapshot qwarter.com's WordPress (needs network) | `npm run capture:wordpress` (= `python3 scripts/port/fetch.py`) |
 | Capture qwarter.com's rendered pages, for reference | `node scripts/design/capture.mjs --origin https://qwarter.com --out .port-cache/qwarter-rendered` |
+| Everything qwarter.com has, as one list (what swaps are written from) | `npm run port:inventory` → `.port-cache/qwarter/inventory.md` |
+| Old WordPress URLs and `?p=` ids → their pages here | `npm run port:redirects` → `content/redirects.json` (fails on any URL not decided) |
 | Turn captured reference pages into pages here | `npm run extract:design -- --routes /=home,/work/=work` |
 | Put Qwarter's content into them, drop unused design files | `npm run swap` (= `swap.mjs` then `prune.mjs`) |
 | Compare the build against the reference (offline) | `npm run qa:compare` (needs `npm start -- -p 3100`) |
@@ -68,7 +70,8 @@ public/design/<host>/        the reference design's CSS, JS, fonts and images, b
 public/media/                Qwarter's own pictures, only those a page uses
 scripts/design/              capture.mjs (any site, completely), extract.mjs (captured page → page here),
                              swap.mjs (Qwarter's content into it), prune.mjs (design files no page uses → gone)
-scripts/port/                fetch.py: qwarter.com's WordPress through its REST API, media library included
+scripts/port/                fetch.py: qwarter.com's WordPress through its REST API, media library included;
+                             inventory.py (all of it, readable); redirects.py (old URLs → pages here)
 scripts/qa/                  compare-design.mjs, sweep.mjs, sheet.mjs
 scripts/lib/                 browser launch, the shared page probes, pixel diff, route slugs
 ```
@@ -104,6 +107,9 @@ reference printed them; `components/layout/assets.tsx` prints them in that order
    the same part: home → home, clients/work → work, a client → a case study, about → studio, contact →
    contact. `npm run extract:design -- --routes <reference route>=<our slug>,…`. A Qwarter page with no
    counterpart takes the nearest template; a reference page with no Qwarter counterpart is not built.
+   Read `npm run port:inventory`'s list first: it is everything Qwarter has. A Qwarter URL whose page moves
+   or merges goes in `content/route-map.json` (`{"/old/": "/new/"}`, or `null` to let it 404 on purpose);
+   `npm run port:redirects` then writes `content/redirects.json` and fails on any URL left undecided.
 5. **Swap the content**: `content/swaps/<slug>.json` lists, by CSS selector into the reference page, every
    word, name, number, link, logo and picture that becomes Qwarter's, each with its `source` on qwarter.com
    (format in `scripts/design/swap.mjs`); `npm run swap` applies them to `content/reference/<slug>.html` and
@@ -164,7 +170,8 @@ strength as a screensaver; one coat of grain per surface.
 | `content/pages/<slug>.html` | the page: reference markup with the swaps applied | `swap.mjs` (or `extract.mjs` before any swaps) | No: edit the swaps, then `npm run swap` |
 | `content/pages.json` | per page: title, description, `<html>`/`<body>` attributes, head assets, reference route | `extract.mjs`; title and description are Qwarter's | Titles and descriptions yes; assets only with the design in mind |
 | `content/site.json` | name, origin, icons, site-wide assets | written here; icons from qwarter.com | Yes |
-| `content/redirects.json` | old WordPress URLs → their pages; WP ids for `?p=` | from qwarter.com's sitemap and REST ids | Yes |
+| `content/route-map.json` | Qwarter URLs that moved or merged, and ones dropped on purpose (`null`) | **written here**, one decision per URL | Yes |
+| `content/redirects.json` | old WordPress URLs → their pages; WP ids for `?p=` | `redirects.py`, from qwarter.com's REST records and sitemap plus the route map | No: edit the route map, re-run |
 | `public/design/<host>/**` | the reference's CSS, JS, fonts, images | synchronized.studio, byte for byte except URLs | No: fix in `public/design/qwarter/` |
 | `public/design/qwarter/paper.css` | shader surfaces, pause button, paper stock | written here (Verowater's paper) | Yes |
 | `public/media/**` | Qwarter's pictures | qwarter.com's media library (`fetch.py`), downscaled | Add only what a page uses (`npm test` fails on an unused file) |

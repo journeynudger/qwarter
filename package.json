@@ -11,6 +11,8 @@
     "test": "tsx --test tests/*.test.ts",
     "capture:design": "node scripts/design/capture.mjs --origin https://synchronized.studio",
     "capture:wordpress": "python3 scripts/port/fetch.py",
+    "port:inventory": "python3 scripts/port/inventory.py",
+    "port:redirects": "python3 scripts/port/redirects.py",
     "extract:design": "node scripts/design/extract.mjs",
     "swap": "node scripts/design/swap.mjs && node scripts/design/prune.mjs",
     "qa:compare": "node scripts/qa/compare-design.mjs",
