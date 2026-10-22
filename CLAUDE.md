@@ -220,14 +220,22 @@ can be captured (`npm run capture:design -- --origin https://depoluxe.xyz`, need
 | `public/design/qwarter/fonts/` | EB Garamond 400–800 roman and italic, latin + latin-ext, OFL | Google Fonts, self-hosted (no third-party request) | — |
 | `public/design/qwarter/q-mark.svg`, `icon.svg`, `apple-touch-icon.png`, `public/media/og.jpg` | the pixel Q as squares; icons; the social card with the brand's wordmark | traced from and composed of the brand's own marks (mylife `Projects/Project Proposals/Qwarter Template/Assets/`) | Regenerate with `scripts/brand/` |
 | `public/design/qwarter/paper.css`, `components/paper/` | the shader surfaces, pause button, paper stock | written here (Verowater's paper) | Yes |
-| `content/redirects.json`, `content/pages/`, `content/swaps/`, `content/reference/` | WordPress redirects; carried markup; the swap tooling's files | empty until qwarter.com's WordPress is snapshotted (parked, below) | — |
+| `content/pages/<slug>.html` | the carried pages: Depo Luxe's markup with Qwarter's content in it | `swap.mjs` from `content/reference/<slug>.html` and `content/swaps/<slug>.json` | Regenerate, never edit: change the swaps or the content files |
+| `content/reference/<slug>.html` | Depo Luxe's pages as captured (their content, never served): what the swaps are applied to | `extract.mjs` from the capture | Never edit; re-extract |
+| `content/swaps/<slug>.json` | what of each reference page becomes Qwarter's, with each value's source | `scripts/design/swaps-from-content.mjs` from `content/work.json` and `content/site.json` | Regenerate, never edit |
+| `public/design/depoluxe.xyz/`, `public/imageLoaderWorker.js`, `public/assets/audio/tac.m4a` | Cuchillo's stylesheet, script, fonts, worker, the archive's click sound | the capture, byte for byte (`extract.mjs`; the worker and the sound copied by hand to the paths the script asks for) | Never edit |
+| `content/redirects.json` | WordPress redirects | `redirects.py` from the snapshot (not yet run) | Via `redirects.py` |
 
 - **Never invent a fact.** No made-up client, project, number, quote, name, date or placeholder. Everything
   on the site is either Qwarter's own words (sourced) or a site's own words about itself. A gap is a
   question for Lorenzo (below), not a guess. UI copy ("Pages of this site", "There is no page at this
   address") is not a fact and may be written.
-- **Nothing of Depo Luxe's or Synchronized Studio's content** is here or may be: only the arrangement.
-  `tests/content.test.ts` fails if a page loads from or links to synchronized.studio or qwarter.com's WordPress.
+- **Nothing of Depo Luxe's or Synchronized Studio's content** is here or may be: no word, picture, film or
+  client of theirs. Their *code* is, since 2026-10-22, at Lorenzo's decision ("ship the replica"): the carried
+  pages' markup (`content/pages/*.html`, their original pages kept in `content/reference/` for the swaps),
+  Cuchillo's stylesheet, script, fonts and worker (`public/design/depoluxe.xyz/`, `public/imageLoaderWorker.js`)
+  and the archive's click sound (`public/assets/audio/tac.m4a`). `tests/content.test.ts` fails if a page loads
+  from or links to depoluxe.xyz, Vimeo, their CDN, synchronized.studio or qwarter.com's WordPress.
 - **Fonts are licensed per domain.** EB Garamond is OFL; the brand's own face (Monument Grotesk) is not
   shipped, so the wordmark appears only as the brand's PNG in the social card.
 - `npm test` checks: every record has the fields its interface promises; every project is complete,
