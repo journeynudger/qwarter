@@ -28,14 +28,16 @@ when the strip comes to rest, ours play the website scrolling; black Paper-shade
 | Dev server | `npm run dev` |
 | Production build / start | `npm run build` · `npm start -- -p 3102` |
 | Types / lint / unit tests | `npm run typecheck` · `npm run lint` · `npm test` |
-| Photograph a site Qwarter built (raw PNGs, not committed) | `node scripts/work/shoot.mjs <slug> <base> name=route[\|click:selector] …` |
+| Photograph a site Qwarter built (raw PNGs, not committed) | `node scripts/work/shoot.mjs <slug> <base> [name=route[\|click:selector] …] [--discover N] [--out dir]` |
+| Fetch what the build environment cannot reach, through a GitHub runner | Actions → *Capture the reference design and the WordPress site* → Run workflow (`design_origin`, `wordpress_origin`, `media_urls`, `shoot_specs`, `branch`); then `git fetch origin <branch> && git checkout origin/<branch> -- .port-cache .design-cache` |
+| The catalogue from the WordPress snapshot and the clients' live sites | `node scripts/port/catalogue.mjs [--dry]`, then `prepare.mjs`, `video.mjs`, `npm test` |
 | Make the delivered pictures from the raw ones | `node scripts/work/prepare.mjs [slug …]` |
 | Render each site scrolling, as the strip's film | `node scripts/work/video.mjs [slug …]` → `scroll.mp4` + `scroll.webm` |
 | Icons and the social card from the brand's marks | `node scripts/brand/icons.mjs <white wordmark png>` (mark: `scripts/brand/trace-mark.mjs`) |
 | Stills of every page, both widths, loader and slideshow mid-way | `node scripts/qa/shots.mjs --base http://localhost:3102` → `qa-out/shots/` |
 | Rendered-page sweep (console errors, images, alt, overflow, h1, links) | `node scripts/qa/sweep.mjs --base http://localhost:3102` |
-| Snapshot qwarter.com's WordPress (needs network) | `npm run capture:wordpress`, then `npm run port:inventory`, `npm run port:redirects` |
-| Capture a reference design, extract, swap, compare (parked, see below) | `npm run capture:design` · `npm run extract:design` · `npm run swap` · `npm run qa:compare` |
+| Snapshot qwarter.com's WordPress (from the runner, see above; locally only with network) | `npm run capture:wordpress`, then `npm run port:inventory`, `npm run port:redirects` |
+| Capture a reference design, extract, swap, compare | `npm run capture:design` · `npm run extract:design` · `npm run swap` · `npm run qa:compare` |
 
 ## Stack, and the one deliberate deviation
 
@@ -68,6 +70,8 @@ public/design/qwarter/       site.css, site.js, fonts/, paper.css, q-mark.svg, i
 public/media/work/<slug>/    the delivered pictures of each project; raw/ holds the captures (ignored by git)
 public/media/og.jpg          the social card
 scripts/work/                shoot.mjs (photograph a site), prepare.mjs (deliver the pictures), video.mjs (the film)
+scripts/port/catalogue.mjs   the catalogue: qwarter.com's case studies + the clients' live sites → content/work.json, raw frames
+.github/workflows/capture.yml  a GitHub runner fetches what this environment cannot (Depo Luxe, qwarter.com, client sites) → a captures branch
 scripts/brand/               trace-mark.mjs (the pixel Q as squares), icons.mjs
 scripts/qa/                  shots.mjs, sweep.mjs, compare-design.mjs (parked), sheet.mjs
 scripts/design/, scripts/port/, scripts/lib/   the capture / extract / swap / snapshot tooling (parked)
@@ -121,7 +125,9 @@ can be captured (`npm run capture:design -- --origin https://depoluxe.xyz`, need
   loader could not be seen from here.
 - **Work** (`/work/`, `archive.tsx`): every project in order, the catalogue included: numeral, a square
   frame where there is one, name in italic, the line, what was made and the year, the site's address.
-  A photographed site opens in the viewer; a catalogue entry waits for its pictures.
+  A project with pictures opens in the viewer; one without (`media: false`) is listed and waits for them.
+  The order is Lorenzo's (2026-10-22): the films open the strip (Butter, JR Pugh), then Stairway, Serein,
+  Journey, then qwarter.com's case studies newest first (`FIRST` in `scripts/port/catalogue.mjs`).
 - **The viewer** (`/work/<slug>/`, `work.tsx`): the project's blurred frame behind; its line and name
   above; the site itself inside a 16:10 frame (4:5 on phones), each page a tall strip (`page-<name>.jpg`,
   1440 wide, at most 5400 tall) that holds its top for 1.6 s, slides at 70 px/s with a soft start and stop
@@ -131,19 +137,41 @@ can be captured (`npm run capture:design -- --origin https://depoluxe.xyz`, need
   the project (pushState, so the address and title follow, and Back works); Space pauses; Escape and the ×
   go to Featured. The pause button writes `qw-motion`, the key the Paper shaders read, so one choice holds
   across the site; a hidden tab pauses; reduced motion shows the top of each page and slides nothing.
-- **Approach and Contact.** The statement set large (italic, then roman) and the facts; the address as the
-  page; both over the velvet. The 404 is the same page with "There is no page at this address."
+- **Approach and Contact.** The statement set large (italic, then roman); then qwarter.com's own words
+  about itself, verbatim from the snapshot (`chrome.about`: its hero line, the About Us welcome, the team
+  and roles, the six questions and answers of its FAQ, the four steps included); then the facts. Contact:
+  the address as the page, with qwarter.com's Instagram, Twitter and LinkedIn under it. Both over the
+  velvet. The 404 is the same page with "There is no page at this address."
 - **Pictures.** `scripts/work/shoot.mjs` photographs a site at 1440×900@2× (viewport frame and full page
-  after a scroll pass, so lazy images and reveals have happened); `prepare.mjs` makes `cover.jpg`
-  (1440×900, the viewer's first frame), `tile.jpg`/`tile@2x.jpg` (the frame's centre as a 900/1800 square,
-  the staircase's tile), `blur.jpg` and the page strips; `video.mjs` the film.
+  after a scroll pass, so lazy images and reveals have happened; `--discover N` takes the home page and
+  the first N−1 pages its own navigation links to; it writes `manifest.json` with each page's route, the
+  title the site gives it and its height, and keeps every film the pages play, mp4/webm under 95 MB, as
+  `video-NN`); `prepare.mjs` makes `cover.jpg` (1440×900, the viewer's first frame), `tile.jpg`/`tile@2x.jpg`
+  (the frame's centre as a 900/1800 square, the staircase's tile), `blur.jpg` and the page strips;
+  `video.mjs` the film. A film opens with the site's own clip when there is one (`film.intro` in
+  work.json → `raw/intro.mp4`, up to 9 s, cut to the square, muted), then the pages: Jeff's reel, Butter's,
+  the film behind Titanium Motor Arts and Journey on qwarter.com's portfolio page.
+- **The catalogue** (`scripts/port/catalogue.mjs`). qwarter.com's WordPress keeps each case study as a
+  page under `/portfolio/`; the tool reads the snapshot (`.port-cache/qwarter/`, taken by the capture
+  workflow on 2026-10-22) and takes from each page only what is unmistakably that client's: its title, the
+  service line under it, the facts block (Industry Type, Location, Company Size, Product, Services), the
+  "Live Website" it names, "Project Info <year>", and the first sentence about the client; the lines the
+  portfolio page's slider and the home page's Selected Work write; and the Selected Work tiles that link to
+  sites with no case study (Butter, Core Rhythm Fitness, Ignite Beacon). It takes nothing from the
+  challenge/solution prose, because on qwarter.com several of those were pasted from another client's page
+  and never rewritten (`11-hamilton-home` is Journey's page under another title and is left out). Pictures:
+  the client's live site photographed by the workflow (`.port-cache/shots/<slug>/`, accepted only when its
+  titles name the client or it is the site the case study names, and it is not a parking or "Access
+  Denied" page), else the pictures the case study itself shows. A project photographed from its own build
+  (`OWN_FRAMES`) keeps those frames.
 
 ## Content model and provenance
 
 | File | What it holds | Source | Edit freely? |
 |---|---|---|---|
-| `content/site.json` › `chrome` | brand words, tagline, menu, footer line, the statement, the facts, the contact | `_provenance` inside the file says where each came from: Lorenzo's own positioning statement (mylife `Open/Work/Writing/Qwarter-The-Problem-Of-Direction.md`), Qwarter LLC's registration, the address he runs Qwarter's GitHub and Vercel from | Yes; keep `_provenance` true |
-| `content/work.json` | the projects: numeral, name, url, line, what Qwarter made, year, the frames, and `source` per project; `media: false` marks a catalogue entry without pictures yet | the three photographed sites: each site's own `<title>`/description and its repository or vault folder. The ten catalogue entries (IV–XIII): qwarter.com's own case studies, found through search on 2026-10-17 because qwarter.com itself is unreachable from the build environment; each line as the search returned it, each `source` naming its qwarter.com page | Yes. A new project: add it, photograph it, `prepare.mjs`, `video.mjs`, `npm test`. The catalogue entries are to be checked word for word against the WordPress snapshot when it can be taken |
+| `content/site.json` › `chrome` | brand words, tagline, menu, footer line, the statement, the facts, the contact and its social links, `about` (qwarter.com's hero line, welcome, team, FAQ) | `_provenance` inside the file says where each came from: Lorenzo's own positioning statement (mylife `Open/Work/Writing/Qwarter-The-Problem-Of-Direction.md`), Qwarter LLC's registration, the address he runs Qwarter's GitHub and Vercel from; `about` and the social links verbatim from qwarter.com's home, About Us and Contact pages (snapshot 2026-10-22) | Yes; keep `_provenance` true |
+| `content/work.json` | the projects: numeral, name, url, line, what Qwarter made, year, `facts`, the frames, `film`, and `source` per project; `media: false` marks a project without pictures yet | written by `scripts/port/catalogue.mjs` from the WordPress snapshot and the shots of the live sites (each `source` says which page, which site, which date); the four sites photographed from their own builds carry their repository or vault folder | Regenerate with `catalogue.mjs` after a new snapshot or new shots; a project built here (not on qwarter.com): add it to `OWN_FRAMES`, photograph it, `prepare.mjs`, `video.mjs`, `npm test` |
+| `.port-cache/`, `.design-cache/` (git-ignored) | the WordPress snapshot (`qwarter/`), the clients' shots (`shots/<slug>/`), fetched files (`media/`), the reference design | the capture workflow's branches: `captures-wp`, `captures-shots-1..3`, `captures-media`, `captures-lean`/`captures` | Fetch, never edit: `git checkout origin/<branch> -- .port-cache` |
 | `public/media/work/<slug>/scroll.mp4`, `scroll.webm` | the film of the site scrolling | `video.mjs` from the strips | Regenerate, never edit |
 | `content/pages.json` | the four pages: path, kind, title, description, card image | written here | Titles and descriptions yes |
 | `public/media/work/<slug>/` | cover, cover@2x, tile, tile@2x, blur, page strips | `prepare.mjs` from `raw/` (git-ignored) | Regenerate, never edit |
@@ -183,37 +211,60 @@ renders at capped resolution. Verowater's rules carry over: text never sits on a
 changes colour unless its contrast is guaranteed by the colour stops (here the stops are all darker than
 `#1a1613`); half strength reads as depth, full strength as a screensaver.
 
-## Parked: the capture / swap tooling and qwarter.com's WordPress content
+## The capture workflow: a GitHub runner as the bridge to the open internet
+
+The build environment's network policy allows GitHub and package registries only: qwarter.com,
+depoluxe.xyz, the clients' sites and every mirror (archive.org, Google's cache) answer 403. GitHub's
+runners have the open internet, so `.github/workflows/capture.yml` (`workflow_dispatch`, from `main`;
+a workflow must be on the default branch to be dispatched) runs the tooling there and pushes the result to
+an orphan branch (artifacts cannot be downloaded from here; branches can): `scripts/design/capture.mjs`
+on `design_origin` (`design_args`: `--max`, `--frames`, `--video`, `--lean` for a first pass in minutes),
+`scripts/port/fetch.py` on `wordpress_origin`, `curl` for each line of `media_urls`, and
+`scripts/work/shoot.mjs` for each line of `shoot_specs` (`<slug> <base> [routes] [--discover N]`, into
+`.port-cache/shots/<slug>`). An input set to `skip` skips its step; an empty input takes the default. Files
+over 95 MB are left out and listed in `.design-cache/too-large.txt`. Then, locally:
+`git fetch origin <branch> && git checkout origin/<branch> -- .port-cache .design-cache`.
+
+Taken so far (2026-10-22): qwarter.com's WordPress, whole (`captures-wp`: 19 pages, 21 posts, 292 media,
+206 MB, the fourteen case studies among them); Jeff's reel from jeffvhs.com (`captures-media`); the
+clients' live sites (`captures-shots-1..3`). depoluxe.xyz is the long one: a page that streams film never
+goes idle, so the full capture runs for an hour or more; `--lean` first.
 
 The first brief (2026-10-12) was to wear synchronized.studio's design with Qwarter's WordPress content
-swapped in. The tooling for it is complete and proven end to end on a test site (docs/VERIFICATION.md,
-2026-10-12): `scripts/design/capture.mjs` (any site, completely), `extract.mjs`, `swap.mjs`, `prune.mjs`,
-`scripts/port/fetch.py` (WordPress through its REST API), `inventory.py`, `redirects.py`,
-`scripts/qa/compare-design.mjs`. Neither site could be captured from this environment (its network policy
-allows GitHub and package registries only), and on 2026-10-17 the direction changed to the site described
-above. The tooling stays for two uses: capturing depoluxe.xyz to hold this design against the real thing, and
-snapshotting qwarter.com's WordPress so its old URLs redirect (`redirects.py` fails rather than guess) and
-any content worth keeping (clients, case studies, words) can be brought into `content/`.
+swapped in; its tooling (`extract.mjs`, `swap.mjs`, `prune.mjs`, `inventory.py`, `redirects.py`,
+`scripts/qa/compare-design.mjs`, proven end to end on a test site, docs/VERIFICATION.md 2026-10-12) is what
+the Depo Luxe replica will run on once its capture lands, and what `redirects.py` needs to map qwarter.com's
+old URLs (it fails rather than guess).
 
 ## Open questions for Lorenzo
 
-1. **Network access, which now blocks two of your asks.** The environment's policy denies `qwarter.com`
-   and `depoluxe.xyz` (and every mirror: archive.org, Google's cache). Without it the catalogue has no
-   pictures and the home is built from your screenshot rather than from Depo Luxe itself. Cloud
-   environment menu (the session's title bar) → Edit → Network access: add `qwarter.com`, `www.qwarter.com`
-   and `depoluxe.xyz` under Allowed domains (leave "Allow package managers" ticked), or choose Full. Then:
-   `npm run capture:wordpress` (every case study, its pictures and words), `capture:design` on
-   depoluxe.xyz (its loader, easing, blur, hover, measured), and the strip grows to the whole catalogue.
-2. **The catalogue as it stands** (IV–XIII on /work/): Ekaterina Sky, EPIC ESG, Titanium Motor Arts,
-   IoTech Protect, 20/20 Insights, Pineapple Club, ION Insurance, Thanh Ta, Boujee Healer, Wood Company,
-   from qwarter.com's own case-study pages as search returned them. Anything missing from qwarter.com, or
-   a brand you worked with that qwarter.com never listed (the Valerin sites, One Water Vero, 11 Hamilton…)?
-3. **The tagline and the second brand word.** The header reads `Qwarter … Studio` with "Websites,
+1. **Depo Luxe, exactly.** The home is built from your screenshot (its geometry measured) until the
+   capture of depoluxe.xyz lands through the workflow; it is running. The exact replica (its loader,
+   easing, blur, hover) follows from that capture, with the catalogue swapped in.
+2. **The catalogue now comes from qwarter.com itself** (snapshot of 2026-10-22): the fourteen case studies
+   under /portfolio/ and the three Selected Work sites without one (Butter, Core Rhythm Fitness, Ignite
+   Beacon). Left out: `/portfolio/11-hamilton-home/`, whose page is Journey Nudge's under another title.
+   Was 11 Hamilton Home a project of its own, and is there a site or a picture of it? Anything qwarter.com
+   never listed (the Valerin sites, One Water Vero…)?
+3. **Sites that no longer answer.** thanhta.com, titaniummotorarts.com and woodco1.com do not resolve any
+   more and epicesg.com answers 503, so Thanh Ta, Titanium Motor Arts, Wood Company and EPIC ESG show the
+   pictures their case studies show; iotechprotect.com answers the runner with "Access Denied" (a
+   firewall; `shoot.mjs` now gives a desktop browser's name, worth one more try). Kind Footprint's case
+   study names no site, but kindfootprint.org is it (its title says so) and is photographed. If any of the
+   dead ones has a new address, one line in the shoot list brings its pictures in.
+4. **Butter, Core Rhythm Fitness, Beacon.** qwarter.com's home page links the three with a picture and
+   (for Butter) a line, no year. Butter's Shopify store is titled "My Store" (its title was never set;
+   worth a minute in its admin), so its name is qwarter.com's; the other two are named from their own
+   titles, "CORE RHYTHM FITNESS" and "beacon — the night awaits". Say the years, or the names you use.
+5. **The words on Approach.** They are qwarter.com's own: the hero line, the About Us welcome, the team
+   and roles (Indigo Varela, Greg Finch, Sergio Monti, Emma Laurion, Alessio Monti), the FAQ with its four
+   steps. Still current? Anyone to add or drop?
+6. **The tagline and the second brand word.** The header reads `Qwarter … Studio` with "Websites,
    applications, and words that feel true to who they are." under it; both from your positioning
    statement. Say the word to change either.
-4. **The contact address.** lorenzo@qwarter.com is shown, as the address Qwarter's GitHub and Vercel run
+7. **The contact address.** lorenzo@qwarter.com is shown, as the address Qwarter's GitHub and Vercel run
    from. If the public address is another (hello@, studio@), it is one value in `content/site.json`.
-5. **The founder facts** (Founded 2023 · Las Vegas, Nevada · Lorenzo Scardicchio) come from Qwarter LLC's
+8. **The founder facts** (Founded 2023 · Las Vegas, Nevada · Lorenzo Scardicchio) come from Qwarter LLC's
    registration; LinkedIn says founded 2016. Which year is Qwarter's?
-6. **The Oct 6 porting prompt** ("Next/Vercel/WordPress") was not in `journeynudger/mylife` on GitHub; this
+9. **The Oct 6 porting prompt** ("Next/Vercel/WordPress") was not in `journeynudger/mylife` on GitHub; this
    port follows journeysite's CLAUDE.md and Verowater's `docs/site-kit/sources/PORT-PLAYBOOK-v1.md` instead.

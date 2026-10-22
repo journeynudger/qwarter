@@ -3,6 +3,26 @@
 What was checked, how, and with what result. Every check ran on a production build
 (`rm -rf .next && npm run build`), after the last change it covers.
 
+## 2026-10-22: the catalogue from qwarter.com itself, the clients' sites photographed, films that open with the site's own clip
+
+The network opened through GitHub's runners (`.github/workflows/capture.yml`, pushing to orphan branches): qwarter.com's
+WordPress was snapshotted whole, the clients' live sites photographed, Jeff's reel fetched. Checks on a production build:
+
+| Check | How | Result |
+|---|---|---|
+| The snapshot | `scripts/port/fetch.py` on the runner, `npm run port:inventory` here | 19 pages, 21 posts, 10 `project` posts (all "Project Test N", ignored), 292 media, 206 MB; `failed.txt` empty; the fourteen case studies under /portfolio/ present with their live HTML |
+| What the case studies say | read page by page before writing the importer | several carry another client's challenge/solution prose unedited (11 Hamilton Home is Journey's page whole; Boujee Healer's solution is Pineapple Club's; Ekaterina Sky's challenge is IEA's; 20/20 Insights' typography block is IoTech's), so `catalogue.mjs` takes only the fields that are unmistakably the page's own and nothing from that prose |
+| The importer, dry | `node scripts/port/catalogue.mjs --dry` | 14 case studies + 4 Selected Work sites → 19 projects; each line traceable (home page Selected Work, portfolio slider, Industry Type + Location, or the first sentence about the client), each `source` naming the WordPress page id and modification date |
+| Shots of the live sites | `shoot.mjs --discover` on the runner, `manifest.json` read here | accepted only when a page title names the client or the host is the one the case study names, and never a "Access Denied"/parking page: iotechprotect.com refused the headless browser ("Access Denied", 900px) and was rejected; thanhta.com and titaniummotorarts.com no longer resolve; a `/home` alias of the home page is dropped (same title and height) |
+| `shoot.mjs` itself | against the local Stairway build with `--discover 3` | home, /shop and /support found from its navigation; frames at 1440×900@2×; manifest with each page's own title and height |
+| Films with an opening clip | `video.mjs`, `ffprobe` | Journey's first cut came out at 6.6 MB / 9.0 MB (a 4K brain animation at constant quality), so the encodes are rate-capped (H.264 maxrate 2000k, VP9 1200k/1800k), the clip 8 s and three pages after it. Final: Butter 18.1 s (its Shopify film, then three pages) 1.3 MB / 1.1 MB; JR Pugh 16.2 s (his reel) 0.8 / 0.7; Journey 30.5 s (the brain film) 3.6 / 3.1; Titanium Motor Arts 16.7 s (the portfolio's render) 1.6 / 1.5; the fifteen films without a clip 5.7–30.6 s, 0.13–2.4 MB |
+| A frame taken mid-page | `prepare.mjs` looks for the viewport frame down the whole-page capture | kindfootprint.org animates its scrolling and had not come back to its top when its frame was taken (the frame matches the page 6300px down); its cover is now the top of the whole-page capture, and `shoot.mjs` waits for `scrollY` to reach 0 before a frame. Butter's and Stairway's frames differ from their page tops too (video heroes), but match best at 0px and are kept |
+| Overlays | the covers, on a contact sheet | ekaterina-sky.art's newsletter popup sits over its frame; `shoot.mjs` now dismisses cookie and newsletter popups (the probes' `dismissOverlays`) before a frame, and the site is to be photographed again |
+| Dead and refusing sites | the shoot logs | thanhta.com, titaniummotorarts.com, woodco1.com: `ERR_NAME_NOT_RESOLVED`; epicesg.com: 503; iotechprotect.com: "Access Denied" to a headless browser's name (a desktop Chrome name is now sent) |
+| Approach and Contact | the rendered pages | qwarter.com's hero line, welcome, team, FAQ (four steps included) and social links, verbatim from the snapshot (`chrome.about`, `chrome.contact.social`), each with its `_provenance` |
+| Types, lint, tests, build | each by its own exit code | 0 / 0 / 0 / 0; 17 tests pass; 27 routes prerendered (19 projects, the four pages, 404, robots, sitemap) |
+| The catalogue, final | `tests/work.test.ts`, `content/work.json` | 19 projects, numerals I–XIX in order, every one with pictures: Butter (5 pages of butterspreads.com, its own film first), JR Pugh, Stairway, Serein, Journey, 20/20 Insights, Mzaero, Thanh Ta, Ion Insurance, IoTech Protect, Titanium Motor Arts, Ekaterina Sky, EPIC ESG, Wood Company, Boujee Healer, Kind Footprint, Pineapple Club, Beacon, Core Rhythm Fitness; 11 of them photographed live on 2026-10-22, 4 from their own builds, 4 from the pictures their case studies show; 58 MB of delivered media in 197 files |
+
 ## 2026-10-17, later: the home as Depo Luxe's staircase, the films, the velvet, the catalogue
 
 Lorenzo's screenshot of depoluxe.xyz's home (2000×1091) was measured and the staircase rebuilt to it;

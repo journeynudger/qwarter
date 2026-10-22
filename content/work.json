@@ -1,10 +1,49 @@
 {
-  "_provenance": "Qwarter's work, as photographed by scripts/work/shoot.mjs from the sites themselves (JR Pugh from the vault's 2026-07-23 stills; Serein and Journey from their own builds, 2026-10-17). Every word under a project is the site's own or its repository's: nothing here is written for effect.",
-  "_fields": "numeral/name/url/line/made/year are shown; cover names the frame the project is introduced with; pages lists the frames the slideshow walks, in order, each with the title the site itself gives that page; source says where each fact comes from. media:false marks a project from qwarter.com's catalogue whose pictures are not here yet (the WordPress snapshot needs network access): it is listed under Work, not shown on the strip.",
+  "_provenance": "Qwarter's work: the four sites photographed from their own builds or stills (scripts/work/shoot.mjs), and the catalogue qwarter.com's WordPress publishes (scripts/port/catalogue.mjs reads the snapshot: each case study's facts, the portfolio and home pages' own lines) with each client's live site photographed where it still stands. Every word under a project is qwarter.com's, the site's own or its repository's: nothing here is written for effect. Each project's source says which.",
+  "_fields": "numeral/name/url/line/made/year are shown; facts holds the case study's Industry Type / Location / Company Size / Product / Services as written; cover names the frame the project is introduced with; pages lists the frames the slideshow walks, in order, each with the title the site itself gives that page (or 'Picture N' for a case study's own pictures); film.intro names the clip in raw/ the project's film opens with and film.from where it came from; media:false marks a project with no picture yet: listed under Work, not on the strip.",
   "projects": [
     {
+      "slug": "butter",
+      "name": "Butter",
+      "url": "https://butterspreads.com",
+      "line": "Butter, but better.",
+      "about": "Butter, but better. Butter sells CBD-infused ghee formulated to soothe the nervous system while elevating your everyday toast.",
+      "made": "Website",
+      "year": null,
+      "cover": "home",
+      "pages": [
+        {
+          "name": "home",
+          "title": "Home"
+        },
+        {
+          "name": "collections-all",
+          "title": "Products"
+        },
+        {
+          "name": "blogs-news",
+          "title": "Education"
+        },
+        {
+          "name": "pages-contact",
+          "title": "Contact"
+        },
+        {
+          "name": "products-2-pack-infused-ghee-butter",
+          "title": "Cookie Butter"
+        }
+      ],
+      "fromWordPress": true,
+      "source": "qwarter.com's home page, Selected Work (WordPress page 246530, modified 2026-09-17): linked as butterspreads.com, named \"Butter\"; its line; pictures: butterspreads.com photographed on 2026-10-22 (5 pages); film opens with the film butterspreads.com/ plays (butterspreads.com/cdn/shop/videos/c/vp/779437caafbc49aaa3ffcd25e96d16c5/779437caafbc49aaa3ffcd25e96d16c5.HD-720p-1.6Mbps-60748436.mp4)",
+      "film": {
+        "intro": "intro.mp4",
+        "from": "the film butterspreads.com/ plays (butterspreads.com/cdn/shop/videos/c/vp/779437caafbc49aaa3ffcd25e96d16c5/779437caafbc49aaa3ffcd25e96d16c5.HD-720p-1.6Mbps-60748436.mp4)"
+      },
+      "numeral": "I"
+    },
+    {
       "slug": "jr-pugh",
-      "numeral": "I",
+      "numeral": "II",
       "name": "JR Pugh",
       "url": "https://jeffvhs.com",
       "line": "Actor, NYC",
@@ -33,11 +72,44 @@
           "title": "Contact"
         }
       ],
-      "source": "mylife: Open/_Generated/Clients/2026-07/jeffvhs-site-final (final v2 2026-07-16, v3 2026-07-23; title 'JR Pugh | Actor, NYC'; published at jeffvhs.com per PUBLISH.md); stills from its _shots-2026-07-23"
+      "source": "mylife: Open/_Generated/Clients/2026-07/jeffvhs-site-final (final v2 2026-07-16, v3 2026-07-23; title 'JR Pugh | Actor, NYC'; published at jeffvhs.com per PUBLISH.md); stills from its _shots-2026-07-23; film opens with the film jeffvhs.com/ plays (jeffvhs.com, media library 2026/07/brazil-reel-tease.mp4)",
+      "film": {
+        "intro": "intro.mp4",
+        "from": "the film jeffvhs.com/ plays (jeffvhs.com, media library 2026/07/brazil-reel-tease.mp4)"
+      }
+    },
+    {
+      "slug": "stairway",
+      "numeral": "III",
+      "name": "Stairway Audio",
+      "url": "https://stairway.audio",
+      "line": "Analog Tone. Digital Soul.",
+      "made": "Website",
+      "year": "2026",
+      "cover": "home",
+      "pages": [
+        {
+          "name": "home",
+          "title": "Home"
+        },
+        {
+          "name": "shop",
+          "title": "Shop All"
+        },
+        {
+          "name": "sa-s1",
+          "title": "SA-S1"
+        },
+        {
+          "name": "support",
+          "title": "Support"
+        }
+      ],
+      "source": "Stairway-Audio/stairway-monorepo web/ (Next.js 15, 'the marketing + commerce site for stairway.audio'), photographed from its own build in stub mode on 2026-10-22; its <title> 'Stairway Audio. Analog Tone. Digital Soul.'; page titles from each page's <title>"
     },
     {
       "slug": "serein",
-      "numeral": "II",
+      "numeral": "IV",
       "name": "Serein",
       "url": "https://withserein.com",
       "line": "Your thoughts, always with you.",
@@ -66,11 +138,11 @@
     },
     {
       "slug": "journey",
-      "numeral": "III",
+      "numeral": "V",
       "name": "Journey",
       "url": "https://journeynudge.com",
       "line": "The nudge you need, when you need it.",
-      "made": "Website",
+      "made": "Website design & web app integration",
       "year": "2026",
       "cover": "home",
       "pages": [
@@ -107,16 +179,32 @@
           "title": "Blog"
         }
       ],
-      "source": "journeynudger/journeysite (CLAUDE.md: 'journeynudge.com, moved off WordPress onto Next.js on Vercel without changing its design', WordPress snapshot of 2026-10-06); its own <title> 'journey – The nudge you need, when you need it.'; page titles from content/pages.json; photographed from its own build"
+      "source": "journeynudger/journeysite (CLAUDE.md: 'journeynudge.com, moved off WordPress onto Next.js on Vercel without changing its design', WordPress snapshot of 2026-10-06); its own <title> 'journey – The nudge you need, when you need it.'; page titles from content/pages.json; photographed from its own build; qwarter.com/portfolio/journey-nudge/ (WordPress page 245476, modified 2026-09-16): Website design & web app integration, 2025; Wellness, New York, NY; film opens with the film behind Journey on qwarter.com/portfolio/ (its media library, 2022/07/Journey_Brain.mp4)",
+      "facts": {
+        "industry type": "Wellness",
+        "location": "New York, NY",
+        "company size": "Start up",
+        "product": "Personalized Nudges"
+      },
+      "film": {
+        "intro": "intro.mp4",
+        "from": "the film behind Journey on qwarter.com/portfolio/ (its media library, 2022/07/Journey_Brain.mp4)"
+      }
     },
     {
-      "slug": "stairway",
-      "numeral": "IV",
-      "name": "Stairway Audio",
-      "url": "https://stairway.audio",
-      "line": "Analog Tone. Digital Soul.",
-      "made": "Website",
-      "year": "2026",
+      "slug": "2020-insights",
+      "name": "20/20 Insights",
+      "url": "https://2020insights.net",
+      "line": "Human Resources Technology, California",
+      "made": "Software development & design",
+      "year": "2024",
+      "facts": {
+        "industry type": "Human Resources Technology",
+        "location": "California",
+        "company size": "Start Up",
+        "website": ""
+      },
+      "about": "20/20 Insights is designed to seamlessly fit into the organization’s daily life, providing real-time management and actionable insights.",
       "cover": "home",
       "pages": [
         {
@@ -124,149 +212,425 @@
           "title": "Home"
         },
         {
-          "name": "shop",
-          "title": "Shop All"
+          "name": "our-story",
+          "title": "Our Story"
         },
         {
-          "name": "sa-s1",
-          "title": "SA-S1"
+          "name": "perspectives",
+          "title": "Perspectives"
+        }
+      ],
+      "fromWordPress": true,
+      "source": "name, service line, year, live site and facts from qwarter.com/portfolio/2020-insights/ (WordPress page 246379, modified 2026-09-16); line: the case study's Industry Type and Location; pictures: 2020insights.net photographed on 2026-10-22 (3 pages, titles the site's own)",
+      "numeral": "VI"
+    },
+    {
+      "slug": "mzaero",
+      "name": "Mzaero",
+      "url": "https://mzaero.com",
+      "line": "Aerospace, Detroit, MI",
+      "made": "Website design & branding",
+      "year": "2024",
+      "facts": {
+        "industry type": "Aerospace",
+        "location": "Detroit, MI",
+        "company size": "Private Company",
+        "product": "Engineering"
+      },
+      "about": "MZaero is dedicated to empowering the future of advanced air mobility by providing robust engineering solutions that ensure safety, compliance, and innovation.",
+      "cover": "home",
+      "pages": [
+        {
+          "name": "home",
+          "title": "Home"
+        }
+      ],
+      "fromWordPress": true,
+      "source": "name, service line, year, live site and facts from qwarter.com/portfolio/mzaero/ (WordPress page 246910, modified 2026-09-16); line: the case study's Industry Type and Location; pictures: mzaero.com photographed on 2026-10-22 (1 pages, titles the site's own)",
+      "numeral": "VII"
+    },
+    {
+      "slug": "thanh-ta",
+      "name": "Thanh Ta",
+      "url": "https://thanhta.com",
+      "line": "Wellness, New York, NY",
+      "made": "Website design & Acuity integration",
+      "year": "2023",
+      "facts": {
+        "industry type": "Wellness",
+        "location": "New York, NY",
+        "services": "Pilates"
+      },
+      "about": "Thanh’s method focuses on four pillars of wellness: alignment, positioning, movement, and bodywork.",
+      "cover": "img-01",
+      "pages": [
+        {
+          "name": "img-01",
+          "title": "Picture 1"
+        },
+        {
+          "name": "img-02",
+          "title": "Picture 2"
+        }
+      ],
+      "fromWordPress": true,
+      "source": "name, service line, year, live site and facts from qwarter.com/portfolio/thanh-ta/ (WordPress page 246271, modified 2026-09-16); line: the case study's Industry Type and Location; pictures: the ones the case study shows (its media library), 2 of them",
+      "numeral": "VIII"
+    },
+    {
+      "slug": "ion-insurance",
+      "name": "Ion Insurance",
+      "url": "https://ioninsuranceinc.com",
+      "line": "Insurance Agency, San Jose, CR",
+      "made": "Website design & branding",
+      "year": "2022",
+      "facts": {
+        "industry type": "Insurance Agency",
+        "location": "San Jose, CR",
+        "company size": "Private Company",
+        "product": "Insurance"
+      },
+      "about": "ION Insurance Company stands at the forefront of the global insurance industry, specializing in reinsurance, insurance, and various insurance-based risk mitigation strategies, working to make the world more resilient.",
+      "cover": "home",
+      "pages": [
+        {
+          "name": "home",
+          "title": "Home"
+        },
+        {
+          "name": "about",
+          "title": "About"
+        },
+        {
+          "name": "products",
+          "title": "Products"
+        },
+        {
+          "name": "financials",
+          "title": "Financials"
+        }
+      ],
+      "fromWordPress": true,
+      "source": "name, service line, year, live site and facts from qwarter.com/portfolio/ion-insurance/ (WordPress page 246889, modified 2026-09-16); line: the case study's Industry Type and Location; pictures: ioninsuranceinc.com photographed on 2026-10-22 (4 pages, titles the site's own)",
+      "numeral": "IX"
+    },
+    {
+      "slug": "iotech-protect",
+      "name": "IoTech Protect",
+      "url": "https://iotechprotect.com",
+      "line": "Cyber Security, Detroit, MI",
+      "made": "Website design & branding",
+      "year": "2022",
+      "facts": {
+        "industry type": "Cyber Security",
+        "location": "Detroit, MI",
+        "company size": "Micro Cap",
+        "product": "Cyber Security & IOT"
+      },
+      "about": "IoTech Protect harnesses IOT, Technology and Partnerships to deliver security solutions for the most pressing challenges that threaten the sustainability of business continuity.",
+      "cover": "img-01",
+      "pages": [
+        {
+          "name": "img-01",
+          "title": "Picture 1"
+        },
+        {
+          "name": "img-02",
+          "title": "Picture 2"
+        },
+        {
+          "name": "img-03",
+          "title": "Picture 3"
+        },
+        {
+          "name": "img-04",
+          "title": "Picture 4"
+        },
+        {
+          "name": "img-05",
+          "title": "Picture 5"
+        },
+        {
+          "name": "img-06",
+          "title": "Picture 6"
+        }
+      ],
+      "fromWordPress": true,
+      "source": "name, service line, year, live site and facts from qwarter.com/portfolio/iotech-protect/ (WordPress page 245248, modified 2026-09-16); line: the case study's Industry Type and Location; pictures: the ones the case study shows (its media library), 6 of them",
+      "numeral": "X"
+    },
+    {
+      "slug": "tima",
+      "name": "Titanium Motor Arts",
+      "url": null,
+      "line": "Website and industrial design for titanium, 3D luxury vehicle artwork.",
+      "made": "Product design & 3D modeling",
+      "year": "2022",
+      "facts": {
+        "industry type": "Manufacturing",
+        "location": "Princetone, NJ",
+        "company size": "Micro Cap",
+        "product": "Titanium Lug Nuts"
+      },
+      "about": "TiMA’s product line is focused on museum-quality customized luxury car accessories – coupling the functionality and durability of Titanium with high-concept sculptural designs.",
+      "cover": "img-01",
+      "pages": [
+        {
+          "name": "img-01",
+          "title": "Picture 1"
+        },
+        {
+          "name": "img-02",
+          "title": "Picture 2"
+        },
+        {
+          "name": "img-03",
+          "title": "Picture 3"
+        },
+        {
+          "name": "img-04",
+          "title": "Picture 4"
+        }
+      ],
+      "fromWordPress": true,
+      "source": "name, service line, year and facts from qwarter.com/portfolio/tima/ (WordPress page 245009, modified 2026-09-16); line from qwarter.com/portfolio/ (its slider); pictures: the ones the case study shows (its media library), 4 of them; film opens with the film behind Titanium Motor Arts on qwarter.com/portfolio/ (its media library, 2022/07/tima-home-bg.mp4)",
+      "film": {
+        "intro": "intro.mp4",
+        "from": "the film behind Titanium Motor Arts on qwarter.com/portfolio/ (its media library, 2022/07/tima-home-bg.mp4)"
+      },
+      "numeral": "XI"
+    },
+    {
+      "slug": "ekaterina-sky",
+      "name": "Ekaterina Sky",
+      "url": "https://ekaterina-sky.art",
+      "line": "Fashion, Los Angeles, CA",
+      "made": "Website design & e-commerce",
+      "year": "2021",
+      "facts": {
+        "industry type": "Fashion",
+        "location": "Los Angeles, CA",
+        "company size": "5+"
+      },
+      "about": "Ekaterina hopes to inspire each person to look deeply into their current practices and question how they affect the environment and the animals of this world.",
+      "cover": "home",
+      "pages": [
+        {
+          "name": "home",
+          "title": "Home"
+        }
+      ],
+      "fromWordPress": true,
+      "source": "name, service line, year, live site and facts from qwarter.com/portfolio/ekaterina-sky/ (WordPress page 2834, modified 2026-09-16); line: the case study's Industry Type and Location; pictures: ekaterina-sky.art photographed on 2026-10-22 (1 pages, titles the site's own)",
+      "numeral": "XII"
+    },
+    {
+      "slug": "epic-esg",
+      "name": "EPIC ESG",
+      "url": "https://epicesg.com",
+      "line": "Renewable Energy, Princetone, NJ",
+      "made": "Web design & branding",
+      "year": "2021",
+      "facts": {
+        "industry type": "Renewable Energy",
+        "location": "Princetone, NJ",
+        "company size": "20+ Partners",
+        "product": "Energy Technologies"
+      },
+      "about": "EPIC is pioneering the way forward to a clean, affordable, renewable energy future through a catalog of cutting-edge technology projects around the world.",
+      "cover": "img-01",
+      "pages": [
+        {
+          "name": "img-01",
+          "title": "Picture 1"
+        }
+      ],
+      "fromWordPress": true,
+      "source": "name, service line, year, live site and facts from qwarter.com/portfolio/epic-esg/ (WordPress page 2221, modified 2026-09-16); line: the case study's Industry Type and Location; pictures: the ones the case study shows (its media library), 1 of them",
+      "numeral": "XIII"
+    },
+    {
+      "slug": "wood-company",
+      "name": "Wood Company",
+      "url": "https://woodco1.com",
+      "line": "The esteemed auctioneer is updated with an elegantly minimalist brand identity and audio recording.",
+      "made": "Website design & branding",
+      "year": "2021",
+      "facts": {
+        "industry type": "Professional Services",
+        "location": "Detroit, MI",
+        "company size": "Micro Cap",
+        "product": "Cyber Security & IOT"
+      },
+      "about": "Wood Company was established following the owner’s passion for helping his friends sell their cars through auctions.",
+      "cover": "img-01",
+      "pages": [
+        {
+          "name": "img-01",
+          "title": "Picture 1"
+        },
+        {
+          "name": "img-02",
+          "title": "Picture 2"
+        }
+      ],
+      "fromWordPress": true,
+      "source": "name, service line, year, live site and facts from qwarter.com/portfolio/wood-company/ (WordPress page 245520, modified 2026-09-16); line from qwarter.com/portfolio/ (its slider); pictures: the ones the case study shows (its media library), 2 of them",
+      "numeral": "XIV"
+    },
+    {
+      "slug": "boujee-healer",
+      "name": "Boujee Healer",
+      "url": "https://theboujeehealer.com",
+      "line": "Wellness, Beverly Hills, CA",
+      "made": "Website design & web app integration",
+      "year": "2020",
+      "facts": {
+        "industry type": "Wellness",
+        "location": "Beverly Hills, CA",
+        "services": "Meditation & Healing"
+      },
+      "about": "The Boujee Healer was founded to create transformative conversations with the intention to help others experience peace of mind in knowing that we are not alone in some of the things we may be experiencing.",
+      "cover": "home",
+      "pages": [
+        {
+          "name": "home",
+          "title": "Home"
+        },
+        {
+          "name": "family-of-light-html",
+          "title": "Family of Light"
+        },
+        {
+          "name": "meditation-bundles-html",
+          "title": "Meditation Bundles"
+        }
+      ],
+      "fromWordPress": true,
+      "source": "name, service line, year, live site and facts from qwarter.com/portfolio/boujee-healer/ (WordPress page 245435, modified 2026-09-16); line: the case study's Industry Type and Location; pictures: theboujeehealer.com photographed on 2026-10-22 (3 pages, titles the site's own)",
+      "numeral": "XV"
+    },
+    {
+      "slug": "kind-footprint",
+      "name": "Kind Footprint",
+      "url": "https://kindfootprint.org",
+      "line": "Non-Profit",
+      "made": "Website design & web app integration",
+      "year": "2020",
+      "facts": {
+        "industry type": "Non-Profit",
+        "location": "",
+        "services": "Humanitarian Aid",
+        "organization size": "40+ Volunteers"
+      },
+      "about": "Kind Footprint’s mission is to unite the global nonprofit community by providing resources and creating campaigns focused on social justice issues serving women and children worldwide.",
+      "cover": "home",
+      "pages": [
+        {
+          "name": "home",
+          "title": "Home"
+        },
+        {
+          "name": "about-us",
+          "title": "About Kind Footprint"
+        },
+        {
+          "name": "faq",
+          "title": "FAQ"
+        }
+      ],
+      "fromWordPress": true,
+      "source": "name, service line, year and facts from qwarter.com/portfolio/kind-footprint/ (WordPress page 2742, modified 2026-09-16); line: the case study's Industry Type and Location; live site: the one photographed, kindfootprint.org; pictures: kindfootprint.org photographed on 2026-10-22 (3 pages, titles the site's own)",
+      "numeral": "XVI"
+    },
+    {
+      "slug": "pineapple-club",
+      "name": "Pineapple Club",
+      "url": "https://pineappleclub.com",
+      "line": "Tropical design, visual identity, and photography for a cocktail bar in New York City.",
+      "made": "Website design & Google My Business",
+      "year": "2020",
+      "facts": {
+        "industry type": "Restaurant",
+        "location": "East Village, NY",
+        "company size": "Startup",
+        "product": "Cocktails & Food"
+      },
+      "about": "Pineapple Club was founded to create a tropical speakeasy with drinks, food, and vibe in the heart of New York City’s East Village.",
+      "cover": "home",
+      "pages": [
+        {
+          "name": "home",
+          "title": "Home"
+        },
+        {
+          "name": "menus",
+          "title": "Menus"
+        },
+        {
+          "name": "reservations",
+          "title": "Reservations"
+        },
+        {
+          "name": "hosted-events",
+          "title": "Hosted Events"
+        }
+      ],
+      "fromWordPress": true,
+      "source": "name, service line, year, live site and facts from qwarter.com/portfolio/pineapple-club/ (WordPress page 245312, modified 2026-09-16); line from qwarter.com/portfolio/ (its slider); pictures: pineappleclub.com photographed on 2026-10-22 (4 pages, titles the site's own)",
+      "numeral": "XVII"
+    },
+    {
+      "slug": "ignite-beacon",
+      "name": "Beacon",
+      "url": "https://ignitebeacon.com",
+      "line": "Light up when you're down.",
+      "made": "Website",
+      "year": null,
+      "cover": "home",
+      "pages": [
+        {
+          "name": "home",
+          "title": "Home"
         },
         {
           "name": "support",
           "title": "Support"
         }
       ],
-      "source": "Stairway-Audio/stairway-monorepo web/ (Next.js 15, 'the marketing + commerce site for stairway.audio'), photographed from its own build in stub mode on 2026-10-22; its <title> 'Stairway Audio. Analog Tone. Digital Soul.'; page titles from each page's <title>"
+      "fromWordPress": true,
+      "source": "qwarter.com's home page, Selected Work (WordPress page 246530, modified 2026-09-17): linked as ignitebeacon.com, with a picture and no words; name: the site's own title \"beacon — the night awaits\"; line: the site's own description; pictures: ignitebeacon.com photographed on 2026-10-22 (2 pages)",
+      "numeral": "XVIII"
     },
     {
-      "slug": "ekaterina-sky",
-      "numeral": "V",
-      "name": "Ekaterina Sky",
-      "url": null,
-      "line": "E-commerce for an artist's prints and hand-painted jackets",
-      "made": "Shopify store",
-      "year": "2021",
-      "media": false,
-      "cover": null,
-      "pages": [],
-      "source": "qwarter.com case study https://qwarter.com/work/ekaterina-sky (search snippet, 2026-10-17; to verify against the WordPress snapshot). The client's own address is not known until then."
-    },
-    {
-      "slug": "epic-esg",
-      "numeral": "VI",
-      "name": "EPIC ESG",
-      "url": null,
-      "line": "Digital strategy, product design and a new website for a renewable energy organization",
-      "made": "Brand identity, website",
-      "year": "2021",
-      "media": false,
-      "cover": null,
-      "pages": [],
-      "source": "qwarter.com case study https://qwarter.com/work/epic-esg/ (search snippet, 2026-10-17; to verify against the WordPress snapshot). The client's own address is not known until then."
-    },
-    {
-      "slug": "tima",
-      "numeral": "VII",
-      "name": "Titanium Motor Arts",
-      "url": null,
-      "line": "Brand strategy and product design for 3D-printed titanium lug nuts",
-      "made": "Brand, website, industrial design",
-      "year": "2022",
-      "media": false,
-      "cover": null,
-      "pages": [],
-      "source": "qwarter.com case study https://qwarter.com/work/tima/ (search snippet, 2026-10-17; to verify against the WordPress snapshot). The client's own address is not known until then."
-    },
-    {
-      "slug": "iotech-protect",
-      "numeral": "VIII",
-      "name": "IoTech Protect",
-      "url": null,
-      "line": "A brand redesign and website for a security services company",
-      "made": "Brand, website",
+      "slug": "core-rhythm-fitness",
+      "name": "Core Rhythm Fitness",
+      "url": "https://corerhythmfitness.net",
+      "line": "Core Rhythm Fitness",
+      "made": "Website",
       "year": null,
-      "media": false,
-      "cover": null,
-      "pages": [],
-      "source": "qwarter.com case study https://qwarter.com/work/iotech-protect/ (search snippet, 2026-10-17; to verify against the WordPress snapshot). The client's own address is not known until then."
-    },
-    {
-      "slug": "2020-insights",
-      "numeral": "IX",
-      "name": "20/20 Insights",
-      "url": null,
-      "line": "A software platform that combines AI with human coaching for workplace wellness",
-      "made": "Software",
-      "year": null,
-      "media": false,
-      "cover": null,
-      "pages": [],
-      "source": "qwarter.com case study https://qwarter.com/work/2020-insights/ (search snippet, 2026-10-17; to verify against the WordPress snapshot). The client's own address is not known until then."
-    },
-    {
-      "slug": "pineapple-club",
-      "numeral": "X",
-      "name": "Pineapple Club",
-      "url": null,
-      "line": "A tropical-fusion restaurant and bar in New York's East Village: website with online ordering, visual identity and photography",
-      "made": "Website, identity, photography",
-      "year": null,
-      "media": false,
-      "cover": null,
-      "pages": [],
-      "source": "qwarter.com case study https://qwarter.com/work/pineapple-club/ (search snippet, 2026-10-17; to verify against the WordPress snapshot). The client's own address is not known until then."
-    },
-    {
-      "slug": "ion-insurance",
-      "numeral": "XI",
-      "name": "ION Insurance",
-      "url": null,
-      "line": "Website, brand kit and SEO for an insurance group",
-      "made": "Website, brand kit, SEO",
-      "year": null,
-      "media": false,
-      "cover": null,
-      "pages": [],
-      "source": "qwarter.com case study https://qwarter.com/work/ion-insurance/ (search snippet, 2026-10-17; to verify against the WordPress snapshot). The client's own address is not known until then."
-    },
-    {
-      "slug": "thanh-ta",
-      "numeral": "XII",
-      "name": "Thanh Ta",
-      "url": null,
-      "line": "Website, brand guide and a client booking portal (Acuity) for a wellness studio",
-      "made": "Website, brand guide, booking portal",
-      "year": null,
-      "media": false,
-      "cover": null,
-      "pages": [],
-      "source": "qwarter.com case study https://qwarter.com/work/thanh-ta (search snippet, 2026-10-17; to verify against the WordPress snapshot). The client's own address is not known until then."
-    },
-    {
-      "slug": "boujee-healer",
-      "numeral": "XIII",
-      "name": "Boujee Healer",
-      "url": null,
-      "line": "Website, brand book and a members-only portal for a wellness business",
-      "made": "Website, brand book, membership portal",
-      "year": null,
-      "media": false,
-      "cover": null,
-      "pages": [],
-      "source": "qwarter.com case study https://qwarter.com/work/boujee-healer/ (search snippet, 2026-10-17; to verify against the WordPress snapshot). The client's own address is not known until then."
-    },
-    {
-      "slug": "wood-company",
-      "numeral": "XIV",
-      "name": "Wood Company",
-      "url": null,
-      "line": "Identity and a live auction recording for an auctioneer of high-ticket cars",
-      "made": "Identity, audio",
-      "year": "2021",
-      "media": false,
-      "cover": null,
-      "pages": [],
-      "source": "qwarter.com case study https://qwarter.com/portfolio/wood-company/ (search snippet, 2026-10-17; to verify against the WordPress snapshot). The client's own address is not known until then."
+      "cover": "home",
+      "pages": [
+        {
+          "name": "home",
+          "title": "Home"
+        },
+        {
+          "name": "about",
+          "title": "About"
+        },
+        {
+          "name": "how-it-works",
+          "title": "How It Works"
+        },
+        {
+          "name": "connect",
+          "title": "Connect"
+        }
+      ],
+      "fromWordPress": true,
+      "source": "qwarter.com's home page, Selected Work (WordPress page 246530, modified 2026-09-17): linked as corerhythmfitness.net, with a picture and no words; name: the site's own title \"CORE RHYTHM FITNESS\"; line: the site's own title; pictures: corerhythmfitness.net photographed on 2026-10-22 (4 pages)",
+      "numeral": "XIX"
     }
   ],
   "_catalogue": "The projects below the first three are qwarter.com's own case studies, found through search on 2026-10-17 (qwarter.com itself is unreachable from the build environment). Each line is the case study's description as the search returned it, kept short; year only where the page gave one. Pictures, the full text and any missing project arrive with scripts/port/fetch.py once the network allows it, and these entries are then checked against the snapshot word for word."

@@ -297,9 +297,10 @@
       setTimeout(function () {
         kicker.textContent = p.line;
         title.textContent = p.name;
-        visit.setAttribute('href', p.url);
-        visit.textContent = host(p.url) + ' ↗';
-        made.textContent = p.made + ', ' + p.year;
+        visit.hidden = !p.url;
+        visit.setAttribute('href', p.url || '#');
+        visit.textContent = p.url ? host(p.url) + ' ↗' : '';
+        made.textContent = p.made + (p.year ? ', ' + p.year : '');
         railNum.textContent = p.numeral;
         arrows.forEach(function (a) {
           var step = Number(a.getAttribute('data-step'));

@@ -23,6 +23,18 @@ export function Contact() {
           </a>
         </p>
         <p className="row">{contact.place}</p>
+        {contact.social?.length ? (
+          <p className="row social">
+            {contact.social.map((l, i) => (
+              <span key={l.href}>
+                {i > 0 ? " · " : ""}
+                <a className="u" href={l.href} target="_blank" rel="noopener">
+                  {l.label}
+                </a>
+              </span>
+            ))}
+          </p>
+        ) : null}
         <p className="row dim">
           {brand.left} {brand.right}
         </p>

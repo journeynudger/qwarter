@@ -72,11 +72,12 @@ export function Work({ project }: { project?: string }) {
           </nav>
 
           <p className="show-meta">
-            <a className="u" id="showVisit" href={current.url ?? "#"} target="_blank" rel="noopener">
+            <a className="u" id="showVisit" href={current.url ?? "#"} target="_blank" rel="noopener" hidden={!current.url}>
               {host(current.url ?? "")} ↗
             </a>
             <span id="showMade">
-              {current.made}, {current.year}
+              {current.made}
+              {current.year ? `, ${current.year}` : ""}
             </span>
           </p>
         </div>

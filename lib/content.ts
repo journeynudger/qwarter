@@ -33,7 +33,9 @@ export interface Chrome {
   /** The positioning statement, in the pieces it is set in. */
   statement: string[];
   facts: { label: string; value: string }[];
-  contact: { email: string; place: string };
+  contact: { email: string; place: string; social?: { label: string; href: string }[] };
+  /** qwarter.com's own words about the studio (its home and About Us pages, verbatim). */
+  about?: { hero: string; welcome: string; team: { name: string; role: string }[]; faq: { q: string; a: string[] }[] };
 }
 
 export interface Site {
@@ -105,6 +107,14 @@ export interface Project {
   /** The frame the project is introduced with: one of pages[].name. */
   cover: string | null;
   pages: WorkPage[];
+  /** The case study's facts as qwarter.com writes them (Industry Type, Location, Company Size, Product, Services). */
+  facts?: Record<string, string>;
+  /** The case study's first sentence about the client. */
+  about?: string;
+  /** The clip the project's film opens with (in raw/, not shipped) and where it came from. */
+  film?: { intro: string; from: string };
+  /** The project comes from qwarter.com's catalogue (scripts/port/catalogue.mjs). */
+  fromWordPress?: boolean;
   /** Where each fact above comes from. */
   source: string;
 }
