@@ -1,0 +1,621 @@
+{
+  "html": {
+    "lang": "en",
+    "class": "__variable_4b2a61 __variable_8b472c __variable_e45f3f"
+  },
+  "body": {
+    "class": "font-serif antialiased"
+  },
+  "head": [
+    {
+      "tag": "meta",
+      "attrs": {
+        "charset": "utf-8"
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "name": "viewport",
+        "content": "width=device-width, initial-scale=1"
+      }
+    },
+    {
+      "tag": "link",
+      "attrs": {
+        "rel": "preload",
+        "href": "/_next/static/media/0e96d314a90a6138-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      }
+    },
+    {
+      "tag": "link",
+      "attrs": {
+        "rel": "preload",
+        "href": "/_next/static/media/597b6a5d799c44de-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      }
+    },
+    {
+      "tag": "link",
+      "attrs": {
+        "rel": "preload",
+        "href": "/_next/static/media/78d0dd042ac6d54d-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      }
+    },
+    {
+      "tag": "link",
+      "attrs": {
+        "rel": "preload",
+        "href": "/_next/static/media/85ef47686bd56cf6-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      }
+    },
+    {
+      "tag": "link",
+      "attrs": {
+        "rel": "preload",
+        "href": "/_next/static/media/b7ea2ab4a8ad1f81-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      }
+    },
+    {
+      "tag": "link",
+      "attrs": {
+        "rel": "preload",
+        "href": "/_next/static/media/d7df244fe7b07b95-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      }
+    },
+    {
+      "tag": "link",
+      "attrs": {
+        "rel": "preload",
+        "href": "/_next/static/media/eaead17c7dbfcd5d-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      }
+    },
+    {
+      "tag": "link",
+      "attrs": {
+        "rel": "preload",
+        "as": "image",
+        "href": "/brand/logo-mark-white.png"
+      }
+    },
+    {
+      "tag": "link",
+      "attrs": {
+        "rel": "preload",
+        "as": "image",
+        "href": "/brand/wordmark-white.png"
+      }
+    },
+    {
+      "tag": "link",
+      "attrs": {
+        "rel": "preload",
+        "as": "image",
+        "imagesrcset": "/_next/image?url=%2Fcommunity-studio.jpg&w=640&q=75 640w, /_next/image?url=%2Fcommunity-studio.jpg&w=750&q=75 750w, /_next/image?url=%2Fcommunity-studio.jpg&w=828&q=75 828w, /_next/image?url=%2Fcommunity-studio.jpg&w=1080&q=75 1080w, /_next/image?url=%2Fcommunity-studio.jpg&w=1200&q=75 1200w, /_next/image?url=%2Fcommunity-studio.jpg&w=1920&q=75 1920w, /_next/image?url=%2Fcommunity-studio.jpg&w=2048&q=75 2048w, /_next/image?url=%2Fcommunity-studio.jpg&w=3840&q=75 3840w",
+        "imagesizes": "100vw"
+      }
+    },
+    {
+      "tag": "link",
+      "attrs": {
+        "rel": "stylesheet",
+        "href": "/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+        "data-precedence": "next"
+      }
+    },
+    {
+      "tag": "link",
+      "attrs": {
+        "rel": "stylesheet",
+        "href": "/_next/static/css/c471f790782b220e.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+        "data-precedence": "next"
+      }
+    },
+    {
+      "tag": "link",
+      "attrs": {
+        "rel": "preload",
+        "as": "script",
+        "fetchpriority": "low",
+        "href": "/_next/static/chunks/webpack-98905d0783ca6888.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      }
+    },
+    {
+      "tag": "script",
+      "attrs": {
+        "src": "/_next/static/chunks/acfafb44-5b2d50c78ab1fa6b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+        "async": ""
+      }
+    },
+    {
+      "tag": "script",
+      "attrs": {
+        "src": "/_next/static/chunks/8920-93793e9b5a0fb08a.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+        "async": ""
+      }
+    },
+    {
+      "tag": "script",
+      "attrs": {
+        "src": "/_next/static/chunks/main-app-c797ede80b04dfad.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+        "async": ""
+      }
+    },
+    {
+      "tag": "script",
+      "attrs": {
+        "src": "/_next/static/chunks/8898-bd7fc3860b73e145.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+        "async": ""
+      }
+    },
+    {
+      "tag": "script",
+      "attrs": {
+        "src": "/_next/static/chunks/3395-a922ab13384c0fd3.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+        "async": ""
+      }
+    },
+    {
+      "tag": "script",
+      "attrs": {
+        "src": "/_next/static/chunks/4950-7af88951e4bbca8b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+        "async": ""
+      }
+    },
+    {
+      "tag": "script",
+      "attrs": {
+        "src": "/_next/static/chunks/7052-b1b474a5924de875.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+        "async": ""
+      }
+    },
+    {
+      "tag": "script",
+      "attrs": {
+        "src": "/_next/static/chunks/3409-f517794a46f3c43f.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+        "async": ""
+      }
+    },
+    {
+      "tag": "script",
+      "attrs": {
+        "src": "/_next/static/chunks/1848-349fcc2e7a5dac9b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+        "async": ""
+      }
+    },
+    {
+      "tag": "script",
+      "attrs": {
+        "src": "/_next/static/chunks/app/layout-68ee9740bcacb7cc.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+        "async": ""
+      }
+    },
+    {
+      "tag": "script",
+      "attrs": {
+        "src": "/_next/static/chunks/1560-2dd939983213b61b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+        "async": ""
+      }
+    },
+    {
+      "tag": "script",
+      "attrs": {
+        "src": "/_next/static/chunks/6965-9fb82671d2b16fd6.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+        "async": ""
+      }
+    },
+    {
+      "tag": "script",
+      "attrs": {
+        "src": "/_next/static/chunks/app/page-c102011ba453430e.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+        "async": ""
+      }
+    },
+    {
+      "tag": "link",
+      "attrs": {
+        "rel": "preload",
+        "href": "https://www.googletagmanager.com/gtag/js?id=G-Q3LMTFT0L8",
+        "as": "script"
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "name": "next-size-adjust",
+        "content": ""
+      }
+    },
+    {
+      "tag": "title",
+      "attrs": {}
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "name": "description",
+        "content": "Real analog samples from legendary synthesizers, mapped into lightweight modern plug-ins. Load, play, create."
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "name": "application-name",
+        "content": "Stairway Audio"
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "name": "keywords",
+        "content": "Stairway Audio,analog synth sampler,VST,AU,plugin,Oberheim OB-Xa,Behringer UB-Xa,Korg Minilogue,SA-S1,SA-S2"
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "property": "og:title",
+        "content": "Stairway Audio. Analog Tone. Digital Soul."
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "property": "og:description",
+        "content": "Real analog samples from legendary synthesizers, mapped into lightweight modern plug-ins. Load, play, create."
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "property": "og:url",
+        "content": "https://stairway.audio"
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "property": "og:site_name",
+        "content": "Stairway Audio"
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "property": "og:image:alt",
+        "content": "Stairway Audio. Analog Tone. Digital Soul."
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "property": "og:image:type",
+        "content": "image/png"
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "property": "og:image",
+        "content": "https://stairway.audio/opengraph-image?83428c16fecfa0dc"
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "property": "og:image:width",
+        "content": "1200"
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "property": "og:image:height",
+        "content": "630"
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "property": "og:type",
+        "content": "website"
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "name": "twitter:card",
+        "content": "summary_large_image"
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "name": "twitter:title",
+        "content": "Stairway Audio. Analog Tone. Digital Soul."
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "name": "twitter:description",
+        "content": "Real analog samples from legendary synthesizers, mapped into lightweight modern plug-ins. Load, play, create."
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "name": "twitter:image:alt",
+        "content": "Stairway Audio. Analog Tone. Digital Soul."
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "name": "twitter:image:type",
+        "content": "image/png"
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "name": "twitter:image",
+        "content": "https://stairway.audio/opengraph-image?83428c16fecfa0dc"
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "name": "twitter:image:width",
+        "content": "1200"
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "name": "twitter:image:height",
+        "content": "630"
+      }
+    },
+    {
+      "tag": "link",
+      "attrs": {
+        "rel": "icon",
+        "href": "/icon.svg?a4247f49e3b1043a",
+        "type": "image/svg+xml",
+        "sizes": "any"
+      }
+    },
+    {
+      "tag": "link",
+      "attrs": {
+        "rel": "apple-touch-icon",
+        "href": "/apple-icon?119aaa2511e9eaf3",
+        "type": "image/png",
+        "sizes": "180x180"
+      }
+    },
+    {
+      "tag": "script",
+      "attrs": {
+        "src": "/_next/static/chunks/polyfills-42372ed130431b0a.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+        "nomodule": ""
+      }
+    }
+  ],
+  "bodyScripts": [
+    {
+      "tag": "noscript",
+      "attrs": {},
+      "html": "<style>.fade-up{opacity:1 !important;transform:none !important}</style>",
+      "topLevel": true
+    },
+    {
+      "tag": "style",
+      "attrs": {},
+      "text": ".fade-up{opacity:1 !important;transform:none !important}",
+      "topLevel": false
+    },
+    {
+      "tag": "script",
+      "attrs": {
+        "id": "ga-consent-bootstrap"
+      },
+      "text": "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\nwindow.gtag = gtag;\ngtag('consent', 'default', {\n  ad_storage: 'granted',\n  ad_user_data: 'granted',\n  ad_personalization: 'granted',\n  analytics_storage: 'granted',\n  functionality_storage: 'granted',\n  security_storage: 'granted'\n});\ngtag('consent', 'default', {\n  ad_storage: 'denied',\n  ad_user_data: 'denied',\n  ad_personalization: 'denied',\n  analytics_storage: 'denied',\n  functionality_storage: 'granted',\n  security_storage: 'granted',\n  region: [\"AT\",\"BE\",\"BG\",\"HR\",\"CY\",\"CZ\",\"DK\",\"EE\",\"FI\",\"FR\",\"DE\",\"GR\",\"HU\",\"IE\",\"IT\",\"LV\",\"LI\",\"LT\",\"LU\",\"MT\",\"NL\",\"PL\",\"PT\",\"RO\",\"SK\",\"SI\",\"ES\",\"SE\",\"IS\",\"NO\",\"GB\",\"CH\"],\n  wait_for_update: 500\n});\ntry {\n  var c = localStorage.getItem(\"stairway:consent:v1\");\n  if (c === 'granted' || c === 'denied') {\n    gtag('consent', 'update', {\n      ad_storage: c, ad_user_data: c, ad_personalization: c, analytics_storage: c\n    });\n  }\n} catch (e) {}\ngtag('set', 'url_passthrough', true);\ngtag('set', 'ads_data_redaction', true);\ngtag('js', new Date());\ngtag('config', \"G-Q3LMTFT0L8\", (function () {\n  var cfg = { send_page_view: false };\n  try {\n    var url = new URL(window.location.href);\n    [\"session_id\",\"session\",\"token\",\"email\",\"key\"].forEach(function (k) {\n      if (url.searchParams.has(k)) url.searchParams.set(k, 'redacted');\n    });\n    cfg.page_location = url.toString();\n  } catch (e) {}\n  return cfg;\n})());",
+      "topLevel": true
+    },
+    {
+      "tag": "script",
+      "attrs": {
+        "type": "application/ld+json"
+      },
+      "text": "[{\"@context\":\"https://schema.org\",\"@type\":\"Product\",\"name\":\"SA-S1\",\"description\":\"61 real analog samples. Pads, leads, bass, plucks, and FX with the full character of the Oberheim OB-Xa. 16-voice polyphony, ADSR envelope, 4 built-in effects.\",\"image\":\"https://stairway.audio/sa-s1.jpg\",\"brand\":{\"@type\":\"Brand\",\"name\":\"Stairway Audio\"},\"offers\":{\"@type\":\"Offer\",\"price\":\"29.99\",\"priceCurrency\":\"USD\",\"availability\":\"https://schema.org/InStock\",\"url\":\"https://stairway.audio/shop/sa-s1\"}},{\"@context\":\"https://schema.org\",\"@type\":\"Product\",\"name\":\"SA-S2\",\"description\":\"56 real analog samples. The modern analog poly loved by Tame Impala and Bonobo. 16-voice polyphony, ADSR envelope, 4 built-in effects. Vintage grit meets modern clarity.\",\"image\":\"https://stairway.audio/sa-s2.jpg\",\"brand\":{\"@type\":\"Brand\",\"name\":\"Stairway Audio\"},\"offers\":{\"@type\":\"Offer\",\"price\":\"29.99\",\"priceCurrency\":\"USD\",\"availability\":\"https://schema.org/InStock\",\"url\":\"https://stairway.audio/shop/sa-s2\"}}]",
+      "topLevel": true
+    },
+    {
+      "tag": "script",
+      "attrs": {
+        "src": "/_next/static/chunks/webpack-98905d0783ca6888.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+        "id": "_R_",
+        "async": ""
+      },
+      "topLevel": true
+    },
+    {
+      "tag": "script",
+      "attrs": {},
+      "text": "(self.__next_f=self.__next_f||[]).push([0])",
+      "topLevel": true
+    },
+    {
+      "tag": "script",
+      "attrs": {},
+      "text": "self.__next_f.push([1,\"1:\\\"$Sreact.fragment\\\"\\n2:I[3418,[\\\"8898\\\",\\\"static/chunks/8898-bd7fc3860b73e145.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"3395\\\",\\\"static/chunks/3395-a922ab13384c0fd3.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"4950\\\",\\\"static/chunks/4950-7af88951e4bbca8b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"7052\\\",\\\"static/chunks/7052-b1b474a5924de875.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"3409\\\",\\\"static/chunks/3409-f517794a46f3c43f.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"1848\\\",\\\"static/chunks/1848-349fcc2e7a5dac9b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"7177\\\",\\\"static/chunks/app/layout-68ee9740bcacb7cc.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\"],\\\"GoogleAnalytics\\\"]\\n3:I[3529,[\\\"8898\\\",\\\"static/chunks/8898-bd7fc3860b73e145.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"3395\\\",\\\"static/chunks/3395-a922ab13384c0fd3.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"4950\\\",\\\"static/chunks/4950-7af88951e4bbca8b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"7052\\\",\\\"static/chunks/7052-b1b474a5924de875.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"3409\\\",\\\"static/chunks/3409-f517794a46f3c43f.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"1848\\\",\\\"static/chunks/1848-349fcc2e7a5dac9b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"7177\\\",\\\"static/chunks/app/layout-68ee9740bcacb7cc.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\"],\\\"GaPageViews\\\"]\\n4:I[4044,[\\\"8898\\\",\\\"static/chunks/8898-bd7fc3860b73e145.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"3395\\\",\\\"static/chunks/3395-a922ab13384c0fd3.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"4950\\\",\\\"static/chunks/4950-7af88951e4bbca8b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"7052\\\",\\\"static/chunks/7052-b1b474a5924de875.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"3409\\\",\\\"static/chunks/3409-f517794a46f3c43f.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"1848\\\",\\\"static/chunks/1848-349fcc2e7a5dac9b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"7177\\\",\\\"static/chunks/app/layout-68ee9740bcacb7cc.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\"],\\\"MetaPixel\\\"]\\n5:I[4380,[\\\"8898\\\",\\\"static/chunks/8898-bd7fc3860b73e145.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"3395\\\",\\\"static/chunks/3395-a922ab13384c0fd3.js?dp\"])",
+      "topLevel": true
+    },
+    {
+      "tag": "script",
+      "attrs": {},
+      "text": "self.__next_f.push([1,\"l=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"4950\\\",\\\"static/chunks/4950-7af88951e4bbca8b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"7052\\\",\\\"static/chunks/7052-b1b474a5924de875.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"3409\\\",\\\"static/chunks/3409-f517794a46f3c43f.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"1848\\\",\\\"static/chunks/1848-349fcc2e7a5dac9b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"7177\\\",\\\"static/chunks/app/layout-68ee9740bcacb7cc.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\"],\\\"CartProvider\\\"]\\n6:I[152,[\\\"8898\\\",\\\"static/chunks/8898-bd7fc3860b73e145.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"3395\\\",\\\"static/chunks/3395-a922ab13384c0fd3.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"4950\\\",\\\"static/chunks/4950-7af88951e4bbca8b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"7052\\\",\\\"static/chunks/7052-b1b474a5924de875.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"3409\\\",\\\"static/chunks/3409-f517794a46f3c43f.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"1848\\\",\\\"static/chunks/1848-349fcc2e7a5dac9b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"7177\\\",\\\"static/chunks/app/layout-68ee9740bcacb7cc.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\"],\\\"SiteChrome\\\"]\\n7:I[1309,[\\\"8898\\\",\\\"static/chunks/8898-bd7fc3860b73e145.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"3395\\\",\\\"static/chunks/3395-a922ab13384c0fd3.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"4950\\\",\\\"static/chunks/4950-7af88951e4bbca8b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"7052\\\",\\\"static/chunks/7052-b1b474a5924de875.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"3409\\\",\\\"static/chunks/3409-f517794a46f3c43f.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"1848\\\",\\\"static/chunks/1848-349fcc2e7a5dac9b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"7177\\\",\\\"static/chunks/app/layout-68ee9740bcacb7cc.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\"],\\\"Nav\\\"]\\n8:I[2716,[\\\"8898\\\",\\\"static/chunks/8898-bd7fc3860b73e145.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"3395\\\",\\\"static/chunks/3395-a922ab13384c0fd3.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"4950\\\",\\\"static/chunks/4950-7af88951e4bbca8b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"7052\\\",\\\"static/chunks/7052-b1b474a5924de875.js?dpl=dpl_\"])",
+      "topLevel": true
+    },
+    {
+      "tag": "script",
+      "attrs": {},
+      "text": "self.__next_f.push([1,\"3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"3409\\\",\\\"static/chunks/3409-f517794a46f3c43f.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"1848\\\",\\\"static/chunks/1848-349fcc2e7a5dac9b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"7177\\\",\\\"static/chunks/app/layout-68ee9740bcacb7cc.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\"],\\\"CartDrawer\\\"]\\n9:I[4827,[],\\\"\\\"]\\na:I[1063,[],\\\"\\\"]\\n10:I[6177,[],\\\"\\\"]\\n:HL[\\\"/_next/static/media/0e96d314a90a6138-s.p.woff2\\\",\\\"font\\\",{\\\"crossOrigin\\\":\\\"\\\",\\\"type\\\":\\\"font/woff2\\\"}]\\n:HL[\\\"/_next/static/media/597b6a5d799c44de-s.p.woff2\\\",\\\"font\\\",{\\\"crossOrigin\\\":\\\"\\\",\\\"type\\\":\\\"font/woff2\\\"}]\\n:HL[\\\"/_next/static/media/78d0dd042ac6d54d-s.p.woff2\\\",\\\"font\\\",{\\\"crossOrigin\\\":\\\"\\\",\\\"type\\\":\\\"font/woff2\\\"}]\\n:HL[\\\"/_next/static/media/85ef47686bd56cf6-s.p.woff2\\\",\\\"font\\\",{\\\"crossOrigin\\\":\\\"\\\",\\\"type\\\":\\\"font/woff2\\\"}]\\n:HL[\\\"/_next/static/media/b7ea2ab4a8ad1f81-s.p.woff2\\\",\\\"font\\\",{\\\"crossOrigin\\\":\\\"\\\",\\\"type\\\":\\\"font/woff2\\\"}]\\n:HL[\\\"/_next/static/media/d7df244fe7b07b95-s.p.woff2\\\",\\\"font\\\",{\\\"crossOrigin\\\":\\\"\\\",\\\"type\\\":\\\"font/woff2\\\"}]\\n:HL[\\\"/_next/static/media/eaead17c7dbfcd5d-s.p.woff2\\\",\\\"font\\\",{\\\"crossOrigin\\\":\\\"\\\",\\\"type\\\":\\\"font/woff2\\\"}]\\n:HL[\\\"/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"style\\\"]\\n:HL[\\\"/_next/static/css/c471f790782b220e.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"style\\\"]\\n\"])",
+      "topLevel": true
+    },
+    {
+      "tag": "script",
+      "attrs": {},
+      "text": "self.__next_f.push([1,\"0:{\\\"P\\\":null,\\\"b\\\":\\\"h9KZuJd8T8jQ_OVw6bMie\\\",\\\"p\\\":\\\"\\\",\\\"c\\\":[\\\"\\\",\\\"\\\"],\\\"i\\\":false,\\\"f\\\":[[[\\\"\\\",{\\\"children\\\":[\\\"__PAGE__\\\",{}]},\\\"$undefined\\\",\\\"$undefined\\\",true],[\\\"\\\",[\\\"$\\\",\\\"$1\\\",\\\"c\\\",{\\\"children\\\":[[[\\\"$\\\",\\\"link\\\",\\\"0\\\",{\\\"rel\\\":\\\"stylesheet\\\",\\\"href\\\":\\\"/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"precedence\\\":\\\"next\\\",\\\"crossOrigin\\\":\\\"$undefined\\\",\\\"nonce\\\":\\\"$undefined\\\"}],[\\\"$\\\",\\\"link\\\",\\\"1\\\",{\\\"rel\\\":\\\"stylesheet\\\",\\\"href\\\":\\\"/_next/static/css/c471f790782b220e.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"precedence\\\":\\\"next\\\",\\\"crossOrigin\\\":\\\"$undefined\\\",\\\"nonce\\\":\\\"$undefined\\\"}]],[\\\"$\\\",\\\"html\\\",null,{\\\"lang\\\":\\\"en\\\",\\\"className\\\":\\\"__variable_4b2a61 __variable_8b472c __variable_e45f3f\\\",\\\"children\\\":[\\\"$\\\",\\\"body\\\",null,{\\\"className\\\":\\\"font-serif antialiased\\\",\\\"children\\\":[[\\\"$\\\",\\\"noscript\\\",null,{\\\"children\\\":[\\\"$\\\",\\\"style\\\",null,{\\\"children\\\":\\\".fade-up{opacity:1 !important;transform:none !important}\\\"}]}],[\\\"$\\\",\\\"a\\\",null,{\\\"href\\\":\\\"#home\\\",\\\"className\\\":\\\"sr-only focus:not-sr-only focus:fixed focus:left-3 focus:top-3 focus:z-[100] focus:rounded focus:bg-text-light focus:px-4 focus:py-2 focus:font-mono focus:text-xs focus:uppercase focus:tracking-widest focus:text-text-dark\\\",\\\"children\\\":\\\"Skip to content\\\"}],[\\\"$\\\",\\\"$L2\\\",null,{}],[\\\"$\\\",\\\"$L3\\\",null,{}],[\\\"$\\\",\\\"$L4\\\",null,{}],[\\\"$\\\",\\\"$L5\\\",null,{\\\"children\\\":[[\\\"$\\\",\\\"$L6\\\",null,{\\\"children\\\":[[\\\"$\\\",\\\"$L7\\\",null,{}],[\\\"$\\\",\\\"$L8\\\",null,{}]]}],[\\\"$\\\",\\\"$L9\\\",null,{\\\"parallelRouterKey\\\":\\\"children\\\",\\\"error\\\":\\\"$undefined\\\",\\\"errorStyles\\\":\\\"$undefined\\\",\\\"errorScripts\\\":\\\"$undefined\\\",\\\"template\\\":[\\\"$\\\",\\\"$La\\\",null,{}],\\\"templateStyles\\\":\\\"$undefined\\\",\\\"templateScripts\\\":\\\"$undefined\\\",\\\"notFound\\\":[[[\\\"$\\\",\\\"title\\\",null,{\\\"children\\\":\\\"404: This page could not be found.\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"style\\\":{\\\"fontFamily\\\":\\\"system-ui,\\\\\\\"Segoe UI\\\\\\\",Roboto,Helvetica,Arial,sans-serif,\\\\\\\"Apple Color Emoji\\\\\\\",\\\\\\\"Segoe UI Emoji\\\\\\\"\\\",\\\"height\\\":\\\"100vh\\\",\\\"textAlign\\\":\\\"center\\\",\\\"display\\\":\\\"flex\\\",\\\"flexDirection\\\":\\\"column\\\",\\\"alignItems\\\":\\\"center\\\",\\\"justifyContent\\\":\\\"center\\\"},\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"children\\\":[[\\\"$\\\",\\\"style\\\",null,{\\\"dangerouslySetInnerHTML\\\":{\\\"__html\\\":\\\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\\\"}}],[\\\"$\\\",\\\"h1\\\",null,{\\\"className\\\":\\\"next-error-h1\\\",\\\"style\\\":{\\\"display\\\":\\\"inline-block\\\",\\\"margin\\\":\\\"0 20px 0 0\\\",\\\"padding\\\":\\\"0 23px 0 0\\\",\\\"fontSize\\\":24,\\\"fontWeight\\\":500,\\\"verticalAlign\\\":\\\"top\\\",\\\"lineHeight\\\":\\\"49px\\\"},\\\"children\\\":404}],[\\\"$\\\",\\\"div\\\",null,{\\\"style\\\":{\\\"display\\\":\\\"inline-block\\\"},\\\"children\\\":[\\\"$\\\",\\\"h2\\\",null,{\\\"style\\\":{\\\"fontSize\\\":14,\\\"fontWeight\\\":400,\\\"lineHeight\\\":\\\"49px\\\",\\\"margin\\\":0},\\\"children\\\":\\\"This page could not be found.\\\"}]}]]}]}]],[]],\\\"forbidden\\\":\\\"$undefined\\\",\\\"unauthorized\\\":\\\"$undefined\\\"}],[\\\"$\\\",\\\"$L6\\\",null,{\\\"children\\\":[\\\"$\\\",\\\"footer\\\",null,{\\\"id\\\":\\\"contact\\\",\\\"className\\\":\\\"flex items-center justify-between border-t border-text-light/[0.06] bg-bg-dark p-16 text-text-light max-[900px]:flex-col max-[900px]:gap-8 max-[900px]:p-12 max-[900px]:text-center\\\",\\\"children\\\":[[\\\"$\\\",\\\"span\\\",null,{\\\"className\\\":\\\"inline-flex items-center gap-2 h-5 w-auto\\\",\\\"children\\\":[[\\\"$\\\",\\\"img\\\",null,{\\\"src\\\":\\\"/brand/logo-mark-white.png\\\",\\\"alt\\\":\\\"\\\",\\\"aria-hidden\\\":\\\"true\\\",\\\"className\\\":\\\"h-full w-auto\\\"}],[\\\"$\\\",\\\"img\\\",null,{\\\"src\\\":\\\"/brand/wordmark-white.png\\\",\\\"alt\\\":\\\"Stairway Audio\\\",\\\"className\\\":\\\"h-[80%] w-auto\\\"}]]}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"flex gap-8 max-[1100px]:gap-6 max-[900px]:flex-wrap max-[900px]:justify-center\\\",\\\"children\\\":[[\\\"$\\\",\\\"a\\\",\\\"Plugins\\\",{\\\"href\\\":\\\"/shop\\\",\\\"className\\\":\\\"font-mono text-[0.7rem] uppercase tracking-[0.12em] text-text-light/40 transition-colors duration-300 hover:text-text-light\\\",\\\"children\\\":\\\"Plugins\\\"}],[\\\"$\\\",\\\"a\\\",\\\"Support\\\",{\\\"href\\\":\\\"/support\\\",\\\"className\\\":\\\"font-mono text-[0.7rem] uppercase tracking-[0.12em] text-text-light/40 transition-colors duration-300 hover:text-text-light\\\",\\\"children\\\":\\\"Support\\\"}],[\\\"$\\\",\\\"a\\\",\\\"Instagram\\\",{\\\"href\\\":\\\"https://www.instagram.com/stairway.audio\\\",\\\"target\\\":\\\"_blank\\\",\\\"rel\\\":\\\"noopener noreferrer\\\",\\\"className\\\":\\\"font-mono text-[0.7rem] uppercase tracking-[0.12em] text-text-light/40 transition-colors duration-300 hover:text-text-light\\\",\\\"children\\\":\\\"Instagram\\\"}],[\\\"$\\\",\\\"a\\\",\\\"Terms\\\",{\\\"href\\\":\\\"/terms\\\",\\\"className\\\":\\\"font-mono text-[0.7rem] uppercase tracking-[0.12em] text-text-light/40 transition-colors duration-300 hover:text-text-light\\\",\\\"children\\\":\\\"Terms\\\"}],[\\\"$\\\",\\\"a\\\",\\\"Privacy\\\",{\\\"href\\\":\\\"/privacy\\\",\\\"className\\\":\\\"font-mono text-[0.7rem] uppercase tracking-[0.12em] text-text-light/40 transition-colors duration-300 hover:text-text-light\\\",\\\"children\\\":\\\"Privacy\\\"}],\\\"$Lb\\\"]}],\\\"$Lc\\\"]}]}]]}],\\\"$Ld\\\"]}]}]]}],{\\\"children\\\":[\\\"__PAGE__\\\",\\\"$Le\\\",{},null,false]},null,false],\\\"$Lf\\\",false]],\\\"m\\\":\\\"$undefined\\\",\\\"G\\\":[\\\"$10\\\",[]],\\\"s\\\":false,\\\"S\\\":true}\\n\"])",
+      "topLevel": true
+    },
+    {
+      "tag": "script",
+      "attrs": {},
+      "text": "self.__next_f.push([1,\"11:I[1801,[\\\"8898\\\",\\\"static/chunks/8898-bd7fc3860b73e145.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"3395\\\",\\\"static/chunks/3395-a922ab13384c0fd3.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"4950\\\",\\\"static/chunks/4950-7af88951e4bbca8b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"7052\\\",\\\"static/chunks/7052-b1b474a5924de875.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"3409\\\",\\\"static/chunks/3409-f517794a46f3c43f.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"1848\\\",\\\"static/chunks/1848-349fcc2e7a5dac9b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"7177\\\",\\\"static/chunks/app/layout-68ee9740bcacb7cc.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\"],\\\"ConsentBanner\\\"]\\n12:I[9151,[\\\"8898\\\",\\\"static/chunks/8898-bd7fc3860b73e145.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"3395\\\",\\\"static/chunks/3395-a922ab13384c0fd3.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"4950\\\",\\\"static/chunks/4950-7af88951e4bbca8b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"1560\\\",\\\"static/chunks/1560-2dd939983213b61b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"3409\\\",\\\"static/chunks/3409-f517794a46f3c43f.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"6965\\\",\\\"static/chunks/6965-9fb82671d2b16fd6.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"8974\\\",\\\"static/chunks/app/page-c102011ba453430e.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\"],\\\"Image\\\"]\\n13:I[8898,[\\\"8898\\\",\\\"static/chunks/8898-bd7fc3860b73e145.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"3395\\\",\\\"static/chunks/3395-a922ab13384c0fd3.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"4950\\\",\\\"static/chunks/4950-7af88951e4bbca8b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"1560\\\",\\\"static/chunks/1560-2dd939983213b61b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"3409\\\",\\\"static/chunks/3409-f517794a46f3c43f.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"6965\\\",\\\"static/chunks/6965-9fb82671d2b16fd6.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"8974\\\",\\\"static/chunks/app/page-c102011ba453430e.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\"],\\\"\\\"]\\n14:I[6727,[\\\"8898\\\",\\\"static/chunks/8898-bd7fc3860b73e145.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"3395\\\",\\\"static/chunks/3395-a922ab13384c0fd3.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"4\"])",
+      "topLevel": true
+    },
+    {
+      "tag": "script",
+      "attrs": {},
+      "text": "self.__next_f.push([1,\"950\\\",\\\"static/chunks/4950-7af88951e4bbca8b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"1560\\\",\\\"static/chunks/1560-2dd939983213b61b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"3409\\\",\\\"static/chunks/3409-f517794a46f3c43f.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"6965\\\",\\\"static/chunks/6965-9fb82671d2b16fd6.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"8974\\\",\\\"static/chunks/app/page-c102011ba453430e.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\"],\\\"default\\\"]\\n15:I[2434,[\\\"8898\\\",\\\"static/chunks/8898-bd7fc3860b73e145.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"3395\\\",\\\"static/chunks/3395-a922ab13384c0fd3.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"4950\\\",\\\"static/chunks/4950-7af88951e4bbca8b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"1560\\\",\\\"static/chunks/1560-2dd939983213b61b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"3409\\\",\\\"static/chunks/3409-f517794a46f3c43f.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"6965\\\",\\\"static/chunks/6965-9fb82671d2b16fd6.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"8974\\\",\\\"static/chunks/app/page-c102011ba453430e.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\"],\\\"DemoStage\\\"]\\n1d:I[6050,[],\\\"ViewportBoundary\\\"]\\n1f:I[6050,[],\\\"MetadataBoundary\\\"]\\n20:\\\"$Sreact.suspense\\\"\\nb:[\\\"$\\\",\\\"a\\\",\\\"Refunds\\\",{\\\"href\\\":\\\"/refunds\\\",\\\"className\\\":\\\"font-mono text-[0.7rem] uppercase tracking-[0.12em] text-text-light/40 transition-colors duration-300 hover:text-text-light\\\",\\\"children\\\":\\\"Refunds\\\"}]\\nc:[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"font-mono text-[0.65rem] tracking-[0.05em] text-text-light/25\\\",\\\"children\\\":\\\"© 2026 Stairway Audio. Made with love.\\\"}]\\nd:[\\\"$\\\",\\\"$L11\\\",null,{}]\\n\"])",
+      "topLevel": true
+    },
+    {
+      "tag": "script",
+      "attrs": {},
+      "text": "self.__next_f.push([1,\"e:[\\\"$\\\",\\\"$1\\\",\\\"c\\\",{\\\"children\\\":[[[\\\"$\\\",\\\"script\\\",null,{\\\"type\\\":\\\"application/ld+json\\\",\\\"dangerouslySetInnerHTML\\\":{\\\"__html\\\":\\\"[{\\\\\\\"@context\\\\\\\":\\\\\\\"https://schema.org\\\\\\\",\\\\\\\"@type\\\\\\\":\\\\\\\"Product\\\\\\\",\\\\\\\"name\\\\\\\":\\\\\\\"SA-S1\\\\\\\",\\\\\\\"description\\\\\\\":\\\\\\\"61 real analog samples. Pads, leads, bass, plucks, and FX with the full character of the Oberheim OB-Xa. 16-voice polyphony, ADSR envelope, 4 built-in effects.\\\\\\\",\\\\\\\"image\\\\\\\":\\\\\\\"https://stairway.audio/sa-s1.jpg\\\\\\\",\\\\\\\"brand\\\\\\\":{\\\\\\\"@type\\\\\\\":\\\\\\\"Brand\\\\\\\",\\\\\\\"name\\\\\\\":\\\\\\\"Stairway Audio\\\\\\\"},\\\\\\\"offers\\\\\\\":{\\\\\\\"@type\\\\\\\":\\\\\\\"Offer\\\\\\\",\\\\\\\"price\\\\\\\":\\\\\\\"29.99\\\\\\\",\\\\\\\"priceCurrency\\\\\\\":\\\\\\\"USD\\\\\\\",\\\\\\\"availability\\\\\\\":\\\\\\\"https://schema.org/InStock\\\\\\\",\\\\\\\"url\\\\\\\":\\\\\\\"https://stairway.audio/shop/sa-s1\\\\\\\"}},{\\\\\\\"@context\\\\\\\":\\\\\\\"https://schema.org\\\\\\\",\\\\\\\"@type\\\\\\\":\\\\\\\"Product\\\\\\\",\\\\\\\"name\\\\\\\":\\\\\\\"SA-S2\\\\\\\",\\\\\\\"description\\\\\\\":\\\\\\\"56 real analog samples. The modern analog poly loved by Tame Impala and Bonobo. 16-voice polyphony, ADSR envelope, 4 built-in effects. Vintage grit meets modern clarity.\\\\\\\",\\\\\\\"image\\\\\\\":\\\\\\\"https://stairway.audio/sa-s2.jpg\\\\\\\",\\\\\\\"brand\\\\\\\":{\\\\\\\"@type\\\\\\\":\\\\\\\"Brand\\\\\\\",\\\\\\\"name\\\\\\\":\\\\\\\"Stairway Audio\\\\\\\"},\\\\\\\"offers\\\\\\\":{\\\\\\\"@type\\\\\\\":\\\\\\\"Offer\\\\\\\",\\\\\\\"price\\\\\\\":\\\\\\\"29.99\\\\\\\",\\\\\\\"priceCurrency\\\\\\\":\\\\\\\"USD\\\\\\\",\\\\\\\"availability\\\\\\\":\\\\\\\"https://schema.org/InStock\\\\\\\",\\\\\\\"url\\\\\\\":\\\\\\\"https://stairway.audio/shop/sa-s2\\\\\\\"}}]\\\"}}],[\\\"$\\\",\\\"main\\\",null,{\\\"children\\\":[[\\\"$\\\",\\\"section\\\",null,{\\\"id\\\":\\\"home\\\",\\\"className\\\":\\\"relative flex min-h-[92vh] flex-col items-center justify-center overflow-hidden px-6 max-[900px]:min-h-screen\\\",\\\"children\\\":[[\\\"$\\\",\\\"$L12\\\",null,{\\\"src\\\":\\\"/community-studio.jpg\\\",\\\"alt\\\":\\\"\\\",\\\"aria-hidden\\\":\\\"true\\\",\\\"fill\\\":true,\\\"priority\\\":true,\\\"sizes\\\":\\\"100vw\\\",\\\"className\\\":\\\"z-0 object-cover object-[center_30%]\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"absolute inset-0 z-[1] bg-bg-dark/45\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"absolute inset-0 z-[1] bg-[linear-gradient(165deg,rgba(26,23,20,0.74)_0%,rgba(123,66,33,0.34)_50%,rgba(15,13,11,0.85)_100%)]\\\"}],[\\\"$\\\",\\\"h1\\\",null,{\\\"className\\\":\\\"relative z-[2] animate-hero-1 text-center font-display text-[clamp(2.75rem,8vw,6rem)] font-normal leading-[1.05] text-text-light opacity-0 [text-shadow:0_2px_30px_rgba(0,0,0,0.5)]\\\",\\\"children\\\":\\\"Real analog sound\\\"}],[\\\"$\\\",\\\"p\\\",null,{\\\"className\\\":\\\"relative z-[2] mt-8 max-w-[500px] animate-hero-2 text-center text-[1.1rem] font-light leading-[1.7] text-text-light/75 opacity-0 [text-shadow:0_1px_20px_rgba(0,0,0,0.5)]\\\",\\\"children\\\":\\\"From legendary synthesizers, mapped into lightweight modern plug-ins. Load, play, create.\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"relative z-[2] mt-10 animate-hero-3 opacity-0\\\",\\\"children\\\":[\\\"$\\\",\\\"$L13\\\",null,{\\\"href\\\":\\\"/shop\\\",\\\"children\\\":[\\\"Shop Plugins\\\",[\\\"$\\\",\\\"$L14\\\",null,{\\\"ref\\\":\\\"$undefined\\\",\\\"iconNode\\\":[[\\\"path\\\",{\\\"d\\\":\\\"m9 18 6-6-6-6\\\",\\\"key\\\":\\\"mthhwq\\\"}]],\\\"className\\\":\\\"lucide-chevron-right\\\",\\\"aria-hidden\\\":\\\"true\\\"}]],\\\"className\\\":\\\"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-pill font-mono text-xs uppercase tracking-[0.12em] transition-all duration-300 cursor-pointer disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-gold focus-visible:ring-offset-2 focus-visible:ring-offset-transparent [\\u0026_svg]:pointer-events-none [\\u0026_svg]:size-3.5 [\\u0026_svg]:shrink-0 border border-white/30 bg-white/10 text-white backdrop-blur-md hover:border-white hover:bg-white hover:text-text-dark px-[1.8rem] py-[0.9rem]\\\",\\\"ref\\\":null}]}]]}],[\\\"$\\\",\\\"section\\\",null,{\\\"id\\\":\\\"plugins\\\",\\\"className\\\":\\\"relative flex min-h-screen flex-col items-center justify-center overflow-hidden bg-terracotta-gradient px-8 py-16\\\",\\\"children\\\":[[\\\"$\\\",\\\"$L15\\\",null,{\\\"slug\\\":\\\"sa-s1\\\",\\\"name\\\":\\\"SA-S1\\\",\\\"priceCents\\\":2999,\\\"placement\\\":\\\"home_for_synths\\\",\\\"sizes\\\":\\\"(max-width: 750px) 80vw, 600px\\\",\\\"className\\\":\\\"fade-up mb-12 w-[min(600px,80vw)]\\\",\\\"frameClassName\\\":\\\"rounded-2xl shadow-[0_60px_120px_rgba(0,0,0,0.4)]\\\"}],[\\\"$\\\",\\\"h2\\\",null,{\\\"className\\\":\\\"relative z-[2] text-center font-display text-[clamp(3rem,8vw,7rem)] font-normal italic leading-none text-text-light\\\",\\\"children\\\":\\\"For Synths\\\"}],\\\"$L16\\\"]}],\\\"$L17\\\",\\\"$L18\\\",\\\"$L19\\\",\\\"$L1a\\\"]}],\\\"$L1b\\\"],null,\\\"$L1c\\\"]}]\\n\"])",
+      "topLevel": true
+    },
+    {
+      "tag": "script",
+      "attrs": {},
+      "text": "self.__next_f.push([1,\"f:[\\\"$\\\",\\\"$1\\\",\\\"h\\\",{\\\"children\\\":[null,[[\\\"$\\\",\\\"$L1d\\\",null,{\\\"children\\\":\\\"$L1e\\\"}],[\\\"$\\\",\\\"meta\\\",null,{\\\"name\\\":\\\"next-size-adjust\\\",\\\"content\\\":\\\"\\\"}]],[\\\"$\\\",\\\"$L1f\\\",null,{\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"hidden\\\":true,\\\"children\\\":[\\\"$\\\",\\\"$20\\\",null,{\\\"fallback\\\":null,\\\"children\\\":\\\"$L21\\\"}]}]}]]}]\\n\"])",
+      "topLevel": true
+    },
+    {
+      "tag": "script",
+      "attrs": {},
+      "text": "self.__next_f.push([1,\"23:I[4854,[\\\"8898\\\",\\\"static/chunks/8898-bd7fc3860b73e145.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"3395\\\",\\\"static/chunks/3395-a922ab13384c0fd3.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"4950\\\",\\\"static/chunks/4950-7af88951e4bbca8b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"1560\\\",\\\"static/chunks/1560-2dd939983213b61b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"3409\\\",\\\"static/chunks/3409-f517794a46f3c43f.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"6965\\\",\\\"static/chunks/6965-9fb82671d2b16fd6.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"8974\\\",\\\"static/chunks/app/page-c102011ba453430e.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\"],\\\"Explore\\\"]\\n24:I[6965,[\\\"8898\\\",\\\"static/chunks/8898-bd7fc3860b73e145.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"3395\\\",\\\"static/chunks/3395-a922ab13384c0fd3.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"4950\\\",\\\"static/chunks/4950-7af88951e4bbca8b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"1560\\\",\\\"static/chunks/1560-2dd939983213b61b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"3409\\\",\\\"static/chunks/3409-f517794a46f3c43f.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"6965\\\",\\\"static/chunks/6965-9fb82671d2b16fd6.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"8974\\\",\\\"static/chunks/app/page-c102011ba453430e.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\"],\\\"ShopBrowser\\\"]\\n25:I[6580,[\\\"8898\\\",\\\"static/chunks/8898-bd7fc3860b73e145.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"3395\\\",\\\"static/chunks/3395-a922ab13384c0fd3.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"4950\\\",\\\"static/chunks/4950-7af88951e4bbca8b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"1560\\\",\\\"static/chunks/1560-2dd939983213b61b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"3409\\\",\\\"static/chunks/3409-f517794a46f3c43f.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"6965\\\",\\\"static/chunks/6965-9fb82671d2b16fd6.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"8974\\\",\\\"static/chunks/app/page-c102011ba453430e.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\"],\\\"JoinCommunity\\\"]\\n2e:I[4983,[\\\"8898\\\",\\\"static/chunks/8898-bd7fc3860b73e145.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"3395\\\",\\\"static/chunks/3395-a922ab13384c0fd3.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4\"])",
+      "topLevel": true
+    },
+    {
+      "tag": "script",
+      "attrs": {},
+      "text": "self.__next_f.push([1,\"JvRLwCC\\\",\\\"4950\\\",\\\"static/chunks/4950-7af88951e4bbca8b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"1560\\\",\\\"static/chunks/1560-2dd939983213b61b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"3409\\\",\\\"static/chunks/3409-f517794a46f3c43f.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"6965\\\",\\\"static/chunks/6965-9fb82671d2b16fd6.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"8974\\\",\\\"static/chunks/app/page-c102011ba453430e.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\"],\\\"ScrollReveal\\\"]\\n2f:I[6050,[],\\\"OutletBoundary\\\"]\\n31:I[9479,[],\\\"AsyncMetadataOutlet\\\"]\\n\"])",
+      "topLevel": true
+    },
+    {
+      "tag": "script",
+      "attrs": {},
+      "text": "self.__next_f.push([1,\"16:[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"relative z-[2] mt-8\\\",\\\"children\\\":[\\\"$\\\",\\\"$L13\\\",null,{\\\"href\\\":\\\"/shop\\\",\\\"children\\\":[\\\"Shop All\\\",[\\\"$\\\",\\\"$L14\\\",null,{\\\"ref\\\":\\\"$undefined\\\",\\\"iconNode\\\":\\\"$e:props:children:0:1:props:children:0:props:children:5:props:children:props:children:1:props:iconNode\\\",\\\"className\\\":\\\"lucide-chevron-right\\\",\\\"aria-hidden\\\":\\\"true\\\"}]],\\\"className\\\":\\\"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-pill font-mono text-xs uppercase tracking-[0.12em] transition-all duration-300 cursor-pointer disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-gold focus-visible:ring-offset-2 focus-visible:ring-offset-transparent [\\u0026_svg]:pointer-events-none [\\u0026_svg]:size-3.5 [\\u0026_svg]:shrink-0 border border-white/30 bg-white/10 text-white backdrop-blur-md hover:border-white hover:bg-white hover:text-text-dark px-[1.8rem] py-[0.9rem]\\\",\\\"ref\\\":null}]}]\\n\"])",
+      "topLevel": true
+    },
+    {
+      "tag": "script",
+      "attrs": {},
+      "text": "self.__next_f.push([1,\"17:[[\\\"$\\\",\\\"section\\\",\\\"0\\\",{\\\"className\\\":\\\"grid min-h-[90vh] grid-cols-2 items-center overflow-hidden max-[900px]:min-h-0 max-[900px]:grid-cols-1 bg-sand text-text-dark\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"relative flex h-full min-h-[500px] items-center justify-center p-16 max-[900px]:min-h-[400px] max-[900px]:p-8 order-1\\\",\\\"children\\\":[\\\"$\\\",\\\"$L12\\\",null,{\\\"src\\\":\\\"/sa-s1.jpg\\\",\\\"alt\\\":\\\"SA-S1 plug-in ADSR envelope controls\\\",\\\"width\\\":600,\\\"height\\\":597,\\\"className\\\":\\\"fade-up fade-scale h-auto w-full max-w-[600px] rounded-2xl shadow-[0_30px_60px_rgba(0,0,0,0.3)]\\\"}]}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"fade-up px-24 py-16 max-[900px]:px-8 max-[900px]:py-12 order-2\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"$undefined\\\",\\\"children\\\":[[\\\"$\\\",\\\"h2\\\",null,{\\\"className\\\":\\\"mb-6 font-display text-[clamp(2.2rem,4vw,3.5rem)] font-normal leading-[1.1]\\\",\\\"children\\\":[\\\"Shape every\\\",[\\\"$\\\",\\\"br\\\",null,{}],[\\\"$\\\",\\\"em\\\",null,{\\\"className\\\":\\\"italic\\\",\\\"children\\\":\\\"single note.\\\"}]]}],[\\\"$\\\",\\\"p\\\",null,{\\\"className\\\":\\\"mb-4 max-w-[380px] text-base font-light leading-[1.8] text-text-dark/75\\\",\\\"children\\\":\\\"Full ADSR envelope control puts you in charge of how every sound breathes. Set the Attack for a slow swell or a sharp hit. Dial the Decay and Sustain to control how notes hold. Adjust Release for short staccato stabs or long, fading tails.\\\"}],[\\\"$\\\",\\\"p\\\",null,{\\\"className\\\":\\\"mb-4 max-w-[380px] text-base font-light leading-[1.8] text-text-dark/75\\\",\\\"children\\\":\\\"No menu diving. Just four knobs and total control.\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"mt-4\\\",\\\"children\\\":[\\\"$\\\",\\\"a\\\",null,{\\\"href\\\":\\\"#explore\\\",\\\"children\\\":[\\\"Learn More\\\",[\\\"$\\\",\\\"$L14\\\",null,{\\\"ref\\\":\\\"$undefined\\\",\\\"iconNode\\\":\\\"$e:props:children:0:1:props:children:0:props:children:5:props:children:props:children:1:props:iconNode\\\",\\\"className\\\":\\\"lucide-chevron-right\\\",\\\"aria-hidden\\\":\\\"true\\\"}]],\\\"className\\\":\\\"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-pill font-mono text-xs uppercase tracking-[0.12em] transition-all duration-300 cursor-pointer disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-gold focus-visible:ring-offset-2 focus-visible:ring-offset-transparent [\\u0026_svg]:pointer-events-none [\\u0026_svg]:size-3.5 [\\u0026_svg]:shrink-0 border border-[color:color-mix(in_srgb,currentColor_30%,transparent)] bg-transparent hover:border-terracotta hover:bg-terracotta hover:text-white px-[1.8rem] py-[0.9rem]\\\",\\\"ref\\\":null}]}]]}]}]]}],[\\\"$\\\",\\\"section\\\",\\\"1\\\",{\\\"className\\\":\\\"grid min-h-[90vh] grid-cols-2 items-center overflow-hidden max-[900px]:min-h-0 max-[900px]:grid-cols-1 bg-olive text-text-light\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"relative flex h-full min-h-[500px] items-center justify-center p-16 max-[900px]:min-h-[400px] max-[900px]:p-8 order-2 max-[900px]:order-1\\\",\\\"children\\\":[\\\"$\\\",\\\"$L12\\\",null,{\\\"src\\\":\\\"/sa-s2.jpg\\\",\\\"alt\\\":\\\"SA-S2 plug-in built-in effects\\\",\\\"width\\\":600,\\\"height\\\":597,\\\"className\\\":\\\"fade-up fade-scale h-auto w-full max-w-[600px] rounded-2xl shadow-[0_30px_60px_rgba(0,0,0,0.3)]\\\"}]}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"fade-up px-24 py-16 max-[900px]:px-8 max-[900px]:py-12 order-1 max-[900px]:order-2\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"ml-auto w-fit max-[900px]:ml-0 max-[900px]:w-auto\\\",\\\"children\\\":[[\\\"$\\\",\\\"h2\\\",null,{\\\"className\\\":\\\"mb-6 font-display text-[clamp(2.2rem,4vw,3.5rem)] font-normal leading-[1.1]\\\",\\\"children\\\":[\\\"More than just\\\",[\\\"$\\\",\\\"br\\\",null,{}],[\\\"$\\\",\\\"em\\\",null,{\\\"className\\\":\\\"italic\\\",\\\"children\\\":\\\"a preset.\\\"}]]}],[\\\"$\\\",\\\"p\\\",null,{\\\"className\\\":\\\"mb-4 max-w-[380px] text-base font-light leading-[1.8] text-text-light/70\\\",\\\"children\\\":\\\"Four built-in effects (Drive, Phaser, Delay, and Reverb) turn any patch into something entirely new. Push a clean pad into saturation. Add phaser movement to a static lead. Layer delay and reverb for ambient soundscapes that fill every corner of the mix.\\\"}],[\\\"$\\\",\\\"p\\\",null,{\\\"className\\\":\\\"mb-4 max-w-[380px] text-base font-light leading-[1.8] text-text-light/70\\\",\\\"children\\\":\\\"Add some grit to make your DAW proud.\\\"}],\\\"$L22\\\"]}]}]]}]]\\n\"])",
+      "topLevel": true
+    },
+    {
+      "tag": "script",
+      "attrs": {},
+      "text": "self.__next_f.push([1,\"18:[\\\"$\\\",\\\"$L23\\\",null,{}]\\n\"])",
+      "topLevel": true
+    },
+    {
+      "tag": "script",
+      "attrs": {},
+      "text": "self.__next_f.push([1,\"19:[\\\"$\\\",\\\"section\\\",null,{\\\"id\\\":\\\"shop\\\",\\\"className\\\":\\\"bg-terracotta-gradient px-16 py-24 text-text-light max-[900px]:px-8 max-[900px]:py-16\\\",\\\"children\\\":[[\\\"$\\\",\\\"h2\\\",null,{\\\"className\\\":\\\"mb-8 font-display text-[clamp(2.5rem,5vw,4rem)] font-normal italic\\\",\\\"children\\\":\\\"Our Plugins\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"fade-up\\\",\\\"children\\\":[\\\"$\\\",\\\"$L24\\\",null,{\\\"products\\\":[{\\\"id\\\":\\\"sa-s1\\\",\\\"slug\\\":\\\"sa-s1\\\",\\\"name\\\":\\\"SA-S1\\\",\\\"origin\\\":\\\"Built from the Behringer UB-Xa\\\",\\\"description\\\":\\\"61 real analog samples. Pads, leads, bass, plucks, and FX with the full character of the Oberheim OB-Xa. 16-voice polyphony, ADSR envelope, 4 built-in effects.\\\",\\\"priceCents\\\":2999,\\\"image\\\":\\\"/sa-s1.jpg\\\",\\\"category\\\":\\\"Plugins\\\",\\\"badge\\\":\\\"Analog Synth Sampler\\\",\\\"features\\\":[\\\"61 real analog samples\\\",\\\"16-voice polyphony\\\",\\\"ADSR envelope shaping\\\",\\\"4 built-in effects: Drive, Phaser, Delay, Reverb\\\",\\\"macOS + Windows · VST3, AU\\\"],\\\"gradient\\\":\\\"linear-gradient(155deg, #c46a3a 0%, #b85c38 45%, #9e4a2a 100%)\\\"},{\\\"id\\\":\\\"sa-s2\\\",\\\"slug\\\":\\\"sa-s2\\\",\\\"name\\\":\\\"SA-S2\\\",\\\"origin\\\":\\\"Built from the Korg Minilogue\\\",\\\"description\\\":\\\"56 real analog samples. The modern analog poly loved by Tame Impala and Bonobo. 16-voice polyphony, ADSR envelope, 4 built-in effects. Vintage grit meets modern clarity.\\\",\\\"priceCents\\\":2999,\\\"image\\\":\\\"/sa-s2.jpg\\\",\\\"category\\\":\\\"Plugins\\\",\\\"badge\\\":\\\"Analog Synth Sampler\\\",\\\"features\\\":[\\\"56 real analog samples\\\",\\\"16-voice polyphony\\\",\\\"ADSR envelope shaping\\\",\\\"4 built-in effects: Drive, Phaser, Delay, Reverb\\\",\\\"macOS + Windows · VST3, AU\\\"],\\\"gradient\\\":\\\"linear-gradient(155deg, #cf7f43 0%, #a85230 45%, #5e2f1b 100%)\\\"}],\\\"listId\\\":\\\"home_plugins\\\",\\\"listName\\\":\\\"Home — Our Plugins\\\"}]}]]}]\\n\"])",
+      "topLevel": true
+    },
+    {
+      "tag": "script",
+      "attrs": {},
+      "text": "self.__next_f.push([1,\"1a:[\\\"$\\\",\\\"section\\\",null,{\\\"id\\\":\\\"community\\\",\\\"className\\\":\\\"grid grid-cols-2 max-[900px]:grid-cols-1\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"flex flex-col justify-center bg-terracotta-gradient px-16 py-24 text-text-light max-[900px]:px-8 max-[900px]:py-16\\\",\\\"children\\\":[[\\\"$\\\",\\\"h2\\\",null,{\\\"className\\\":\\\"font-display text-[clamp(2.5rem,5vw,4rem)] font-normal leading-none\\\",\\\"children\\\":\\\"Community\\\"}],[\\\"$\\\",\\\"p\\\",null,{\\\"className\\\":\\\"mt-6 max-w-[420px] text-[0.95rem] font-light leading-[1.7] text-text-light/85\\\",\\\"children\\\":\\\"Producers are building with Stairway every day. Join the community for first access to new plugins, sample packs, and behind-the-scenes drops.\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"mt-10\\\",\\\"children\\\":[\\\"$\\\",\\\"$L25\\\",null,{}]}]]}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"relative isolate h-[640px] overflow-hidden bg-bg-dark max-[900px]:h-[520px]\\\",\\\"children\\\":[[\\\"$\\\",\\\"$L12\\\",null,{\\\"src\\\":\\\"/community-studio.jpg\\\",\\\"alt\\\":\\\"\\\",\\\"aria-hidden\\\":\\\"true\\\",\\\"fill\\\":true,\\\"sizes\\\":\\\"(max-width: 900px) 100vw, 50vw\\\",\\\"className\\\":\\\"-z-10 object-cover object-center\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"absolute inset-0 -z-10 bg-gradient-to-b from-bg-dark/70 via-bg-dark/35 to-bg-dark/70\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"h-full overflow-hidden px-8 [mask-image:linear-gradient(to_bottom,transparent,#000_14%,#000_86%,transparent)]\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"animate-scroll-up will-change-transform motion-reduce:animate-none\\\",\\\"children\\\":[[\\\"$\\\",\\\"figure\\\",\\\"0\\\",{\\\"className\\\":\\\"mx-auto mb-6 w-full max-w-[360px] rounded-2xl border border-white/15 bg-white/10 p-6 text-white shadow-[0_8px_30px_rgba(0,0,0,0.35)] backdrop-blur-md\\\",\\\"children\\\":[[\\\"$\\\",\\\"blockquote\\\",null,{\\\"className\\\":\\\"text-[0.95rem] font-light leading-[1.6]\\\",\\\"children\\\":[\\\"“\\\",\\\"These are the most usable analog samples I've touched. Dropped SA-S1 on a pad bus and instantly had that OB-Xa width.\\\",\\\"”\\\"]}],[\\\"$\\\",\\\"figcaption\\\",null,{\\\"className\\\":\\\"mt-5\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"text-sm\\\",\\\"children\\\":\\\"KC Gilmore\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"mt-1 font-mono text-[0.6rem] uppercase tracking-[0.18em] text-white/50\\\",\\\"children\\\":\\\"Instagram\\\"}]]}]]}],[\\\"$\\\",\\\"figure\\\",\\\"1\\\",{\\\"className\\\":\\\"mx-auto mb-6 w-full max-w-[360px] rounded-2xl border border-white/15 bg-white/10 p-6 text-white shadow-[0_8px_30px_rgba(0,0,0,0.35)] backdrop-blur-md\\\",\\\"children\\\":[[\\\"$\\\",\\\"blockquote\\\",null,{\\\"className\\\":\\\"text-[0.95rem] font-light leading-[1.6]\\\",\\\"children\\\":[\\\"“\\\",\\\"SA-S2 nails the Minilogue grit without the menu diving. It's basically my go-to for lo-fi keys now.\\\",\\\"”\\\"]}],[\\\"$\\\",\\\"figcaption\\\",null,{\\\"className\\\":\\\"mt-5\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"text-sm\\\",\\\"children\\\":\\\"REIGN.\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"mt-1 font-mono text-[0.6rem] uppercase tracking-[0.18em] text-white/50\\\",\\\"children\\\":\\\"Discord\\\"}]]}]]}],[\\\"$\\\",\\\"figure\\\",\\\"2\\\",{\\\"className\\\":\\\"mx-auto mb-6 w-full max-w-[360px] rounded-2xl border border-white/15 bg-white/10 p-6 text-white shadow-[0_8px_30px_rgba(0,0,0,0.35)] backdrop-blur-md\\\",\\\"children\\\":[[\\\"$\\\",\\\"blockquote\\\",null,{\\\"className\\\":\\\"text-[0.95rem] font-light leading-[1.6]\\\",\\\"children\\\":[\\\"“\\\",\\\"I wasn't expecting a plugin at this price to sound this expensive. The release tails are gorgeous.\\\",\\\"”\\\"]}],[\\\"$\\\",\\\"figcaption\\\",null,{\\\"className\\\":\\\"mt-5\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"text-sm\\\",\\\"children\\\":\\\"Neighbours\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"mt-1 font-mono text-[0.6rem] uppercase tracking-[0.18em] text-white/50\\\",\\\"children\\\":\\\"Reddit\\\"}]]}]]}],[\\\"$\\\",\\\"figure\\\",\\\"3\\\",{\\\"className\\\":\\\"mx-auto mb-6 w-full max-w-[360px] rounded-2xl border border-white/15 bg-white/10 p-6 text-white shadow-[0_8px_30px_rgba(0,0,0,0.35)] backdrop-blur-md\\\",\\\"children\\\":[[\\\"$\\\",\\\"blockquote\\\",null,{\\\"className\\\":\\\"text-[0.95rem] font-light leading-[1.6]\\\",\\\"children\\\":[\\\"“\\\",\\\"Finally, analog character that doesn't melt my CPU. Ten instances open and my laptop didn't blink.\\\",\\\"”\\\"]}],[\\\"$\\\",\\\"figcaption\\\",null,{\\\"className\\\":\\\"mt-5\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"text-sm\\\",\\\"children\\\":\\\"Bambino\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"mt-1 font-mono text-[0.6rem] uppercase tracking-[0.18em] text-white/50\\\",\\\"children\\\":\\\"Email\\\"}]]}]]}],\\\"$L26\\\",\\\"$L27\\\",\\\"$L28\\\",\\\"$L29\\\",\\\"$L2a\\\",\\\"$L2b\\\",\\\"$L2c\\\",\\\"$L2d\\\"]}]}]]}]]}]\\n\"])",
+      "topLevel": true
+    },
+    {
+      "tag": "script",
+      "attrs": {},
+      "text": "self.__next_f.push([1,\"1b:[\\\"$\\\",\\\"$L2e\\\",null,{}]\\n1c:[\\\"$\\\",\\\"$L2f\\\",null,{\\\"children\\\":[\\\"$L30\\\",[\\\"$\\\",\\\"$L31\\\",null,{\\\"promise\\\":\\\"$@32\\\"}]]}]\\n\"])",
+      "topLevel": true
+    },
+    {
+      "tag": "script",
+      "attrs": {},
+      "text": "self.__next_f.push([1,\"22:[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"mt-4\\\",\\\"children\\\":[\\\"$\\\",\\\"a\\\",null,{\\\"href\\\":\\\"#explore\\\",\\\"children\\\":[\\\"Learn More\\\",[\\\"$\\\",\\\"$L14\\\",null,{\\\"ref\\\":\\\"$undefined\\\",\\\"iconNode\\\":\\\"$e:props:children:0:1:props:children:0:props:children:5:props:children:props:children:1:props:iconNode\\\",\\\"className\\\":\\\"lucide-chevron-right\\\",\\\"aria-hidden\\\":\\\"true\\\"}]],\\\"className\\\":\\\"inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-pill font-mono text-xs uppercase tracking-[0.12em] transition-all duration-300 cursor-pointer disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-gold focus-visible:ring-offset-2 focus-visible:ring-offset-transparent [\\u0026_svg]:pointer-events-none [\\u0026_svg]:size-3.5 [\\u0026_svg]:shrink-0 border border-[color:color-mix(in_srgb,currentColor_30%,transparent)] bg-transparent hover:border-terracotta hover:bg-terracotta hover:text-white px-[1.8rem] py-[0.9rem]\\\",\\\"ref\\\":null}]}]\\n\"])",
+      "topLevel": true
+    },
+    {
+      "tag": "script",
+      "attrs": {},
+      "text": "self.__next_f.push([1,\"26:[\\\"$\\\",\\\"figure\\\",\\\"4\\\",{\\\"className\\\":\\\"mx-auto mb-6 w-full max-w-[360px] rounded-2xl border border-white/15 bg-white/10 p-6 text-white shadow-[0_8px_30px_rgba(0,0,0,0.35)] backdrop-blur-md\\\",\\\"children\\\":[[\\\"$\\\",\\\"blockquote\\\",null,{\\\"className\\\":\\\"text-[0.95rem] font-light leading-[1.6]\\\",\\\"children\\\":[\\\"“\\\",\\\"The presets are actually usable out of the box. Half my last beat is just SA-S1 with the drive turned up.\\\",\\\"”\\\"]}],[\\\"$\\\",\\\"figcaption\\\",null,{\\\"className\\\":\\\"mt-5\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"text-sm\\\",\\\"children\\\":\\\"Tone Troy\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"mt-1 font-mono text-[0.6rem] uppercase tracking-[0.18em] text-white/50\\\",\\\"children\\\":\\\"Instagram\\\"}]]}]]}]\\n27:[\\\"$\\\",\\\"figure\\\",\\\"5\\\",{\\\"className\\\":\\\"mx-auto mb-6 w-full max-w-[360px] rounded-2xl border border-white/15 bg-white/10 p-6 text-white shadow-[0_8px_30px_rgba(0,0,0,0.35)] backdrop-blur-md\\\",\\\"children\\\":[[\\\"$\\\",\\\"blockquote\\\",null,{\\\"className\\\":\\\"text-[0.95rem] font-light leading-[1.6]\\\",\\\"children\\\":[\\\"“\\\",\\\"Bought both on a whim and they've been in every session since. The VU meter is a nice touch, too.\\\",\\\"”\\\"]}],[\\\"$\\\",\\\"figcaption\\\",null,{\\\"className\\\":\\\"mt-5\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"text-sm\\\",\\\"children\\\":\\\"Drew Pree\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"mt-1 font-mono text-[0.6rem] uppercase tracking-[0.18em] text-white/50\\\",\\\"children\\\":\\\"Discord\\\"}]]}]]}]\\n28:[\\\"$\\\",\\\"figure\\\",\\\"6\\\",{\\\"className\\\":\\\"mx-auto mb-6 w-full max-w-[360px] rounded-2xl border border-white/15 bg-white/10 p-6 text-white shadow-[0_8px_30px_rgba(0,0,0,0.35)] backdrop-blur-md\\\",\\\"children\\\":[[\\\"$\\\",\\\"blockquote\\\",null,{\\\"className\\\":\\\"text-[0.95rem] font-light leading-[1.6]\\\",\\\"children\\\":[\\\"“\\\",\\\"These are the most usable analog samples I've touched. Dropped SA-S1 on a pad bus and instantly had that OB-Xa width.\\\",\\\"”\\\"]}],[\\\"$\\\",\\\"figcaption\\\",null,{\\\"className\\\":\\\"mt-5\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"text-sm\\\",\\\"children\\\":\\\"KC Gilmore\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"mt-1 font-mono text-[0.6rem] uppercase tracking-[0.18em] text-white/50\\\",\\\"children\\\":\\\"Instagram\\\"}]]}]]}]\\n29:[\\\"$\\\",\\\"figure\\\",\\\"7\\\",{\\\"className\\\":\\\"mx-auto mb-6 w-full m\"])",
+      "topLevel": true
+    },
+    {
+      "tag": "script",
+      "attrs": {},
+      "text": "self.__next_f.push([1,\"ax-w-[360px] rounded-2xl border border-white/15 bg-white/10 p-6 text-white shadow-[0_8px_30px_rgba(0,0,0,0.35)] backdrop-blur-md\\\",\\\"children\\\":[[\\\"$\\\",\\\"blockquote\\\",null,{\\\"className\\\":\\\"text-[0.95rem] font-light leading-[1.6]\\\",\\\"children\\\":[\\\"“\\\",\\\"SA-S2 nails the Minilogue grit without the menu diving. It's basically my go-to for lo-fi keys now.\\\",\\\"”\\\"]}],[\\\"$\\\",\\\"figcaption\\\",null,{\\\"className\\\":\\\"mt-5\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"text-sm\\\",\\\"children\\\":\\\"REIGN.\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"mt-1 font-mono text-[0.6rem] uppercase tracking-[0.18em] text-white/50\\\",\\\"children\\\":\\\"Discord\\\"}]]}]]}]\\n2a:[\\\"$\\\",\\\"figure\\\",\\\"8\\\",{\\\"className\\\":\\\"mx-auto mb-6 w-full max-w-[360px] rounded-2xl border border-white/15 bg-white/10 p-6 text-white shadow-[0_8px_30px_rgba(0,0,0,0.35)] backdrop-blur-md\\\",\\\"children\\\":[[\\\"$\\\",\\\"blockquote\\\",null,{\\\"className\\\":\\\"text-[0.95rem] font-light leading-[1.6]\\\",\\\"children\\\":[\\\"“\\\",\\\"I wasn't expecting a plugin at this price to sound this expensive. The release tails are gorgeous.\\\",\\\"”\\\"]}],[\\\"$\\\",\\\"figcaption\\\",null,{\\\"className\\\":\\\"mt-5\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"text-sm\\\",\\\"children\\\":\\\"Neighbours\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"mt-1 font-mono text-[0.6rem] uppercase tracking-[0.18em] text-white/50\\\",\\\"children\\\":\\\"Reddit\\\"}]]}]]}]\\n2b:[\\\"$\\\",\\\"figure\\\",\\\"9\\\",{\\\"className\\\":\\\"mx-auto mb-6 w-full max-w-[360px] rounded-2xl border border-white/15 bg-white/10 p-6 text-white shadow-[0_8px_30px_rgba(0,0,0,0.35)] backdrop-blur-md\\\",\\\"children\\\":[[\\\"$\\\",\\\"blockquote\\\",null,{\\\"className\\\":\\\"text-[0.95rem] font-light leading-[1.6]\\\",\\\"children\\\":[\\\"“\\\",\\\"Finally, analog character that doesn't melt my CPU. Ten instances open and my laptop didn't blink.\\\",\\\"”\\\"]}],[\\\"$\\\",\\\"figcaption\\\",null,{\\\"className\\\":\\\"mt-5\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"text-sm\\\",\\\"children\\\":\\\"Bambino\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"mt-1 font-mono text-[0.6rem] uppercase tracking-[0.18em] text-white/50\\\",\\\"children\\\":\\\"Email\\\"}]]}]]}]\\n2c:[\\\"$\\\",\\\"figure\\\",\\\"10\\\",{\\\"className\\\":\\\"mx-auto mb-6 w-full max-w-[360px] rounded-2xl border border-white/15 bg-white/10 p-6 text-white shadow-[0_8px_30\"])",
+      "topLevel": true
+    },
+    {
+      "tag": "script",
+      "attrs": {},
+      "text": "self.__next_f.push([1,\"px_rgba(0,0,0,0.35)] backdrop-blur-md\\\",\\\"children\\\":[[\\\"$\\\",\\\"blockquote\\\",null,{\\\"className\\\":\\\"text-[0.95rem] font-light leading-[1.6]\\\",\\\"children\\\":[\\\"“\\\",\\\"The presets are actually usable out of the box. Half my last beat is just SA-S1 with the drive turned up.\\\",\\\"”\\\"]}],[\\\"$\\\",\\\"figcaption\\\",null,{\\\"className\\\":\\\"mt-5\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"text-sm\\\",\\\"children\\\":\\\"Tone Troy\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"mt-1 font-mono text-[0.6rem] uppercase tracking-[0.18em] text-white/50\\\",\\\"children\\\":\\\"Instagram\\\"}]]}]]}]\\n2d:[\\\"$\\\",\\\"figure\\\",\\\"11\\\",{\\\"className\\\":\\\"mx-auto mb-6 w-full max-w-[360px] rounded-2xl border border-white/15 bg-white/10 p-6 text-white shadow-[0_8px_30px_rgba(0,0,0,0.35)] backdrop-blur-md\\\",\\\"children\\\":[[\\\"$\\\",\\\"blockquote\\\",null,{\\\"className\\\":\\\"text-[0.95rem] font-light leading-[1.6]\\\",\\\"children\\\":[\\\"“\\\",\\\"Bought both on a whim and they've been in every session since. The VU meter is a nice touch, too.\\\",\\\"”\\\"]}],[\\\"$\\\",\\\"figcaption\\\",null,{\\\"className\\\":\\\"mt-5\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"text-sm\\\",\\\"children\\\":\\\"Drew Pree\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"mt-1 font-mono text-[0.6rem] uppercase tracking-[0.18em] text-white/50\\\",\\\"children\\\":\\\"Discord\\\"}]]}]]}]\\n\"])",
+      "topLevel": true
+    },
+    {
+      "tag": "script",
+      "attrs": {},
+      "text": "self.__next_f.push([1,\"1e:[[\\\"$\\\",\\\"meta\\\",\\\"0\\\",{\\\"charSet\\\":\\\"utf-8\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"1\\\",{\\\"name\\\":\\\"viewport\\\",\\\"content\\\":\\\"width=device-width, initial-scale=1\\\"}]]\\n\"])",
+      "topLevel": true
+    },
+    {
+      "tag": "script",
+      "attrs": {},
+      "text": "self.__next_f.push([1,\"30:null\\n\"])",
+      "topLevel": true
+    },
+    {
+      "tag": "script",
+      "attrs": {},
+      "text": "self.__next_f.push([1,\"33:I[1319,[],\\\"IconMark\\\"]\\n\"])",
+      "topLevel": true
+    },
+    {
+      "tag": "script",
+      "attrs": {},
+      "text": "self.__next_f.push([1,\"32:{\\\"metadata\\\":[[\\\"$\\\",\\\"title\\\",\\\"0\\\",{\\\"children\\\":\\\"Stairway Audio. Analog Tone. Digital Soul.\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"1\\\",{\\\"name\\\":\\\"description\\\",\\\"content\\\":\\\"Real analog samples from legendary synthesizers, mapped into lightweight modern plug-ins. Load, play, create.\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"2\\\",{\\\"name\\\":\\\"application-name\\\",\\\"content\\\":\\\"Stairway Audio\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"3\\\",{\\\"name\\\":\\\"keywords\\\",\\\"content\\\":\\\"Stairway Audio,analog synth sampler,VST,AU,plugin,Oberheim OB-Xa,Behringer UB-Xa,Korg Minilogue,SA-S1,SA-S2\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"4\\\",{\\\"property\\\":\\\"og:title\\\",\\\"content\\\":\\\"Stairway Audio. Analog Tone. Digital Soul.\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"5\\\",{\\\"property\\\":\\\"og:description\\\",\\\"content\\\":\\\"Real analog samples from legendary synthesizers, mapped into lightweight modern plug-ins. Load, play, create.\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"6\\\",{\\\"property\\\":\\\"og:url\\\",\\\"content\\\":\\\"https://stairway.audio\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"7\\\",{\\\"property\\\":\\\"og:site_name\\\",\\\"content\\\":\\\"Stairway Audio\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"8\\\",{\\\"property\\\":\\\"og:image:alt\\\",\\\"content\\\":\\\"Stairway Audio. Analog Tone. Digital Soul.\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"9\\\",{\\\"property\\\":\\\"og:image:type\\\",\\\"content\\\":\\\"image/png\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"10\\\",{\\\"property\\\":\\\"og:image\\\",\\\"content\\\":\\\"https://stairway.audio/opengraph-image?83428c16fecfa0dc\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"11\\\",{\\\"property\\\":\\\"og:image:width\\\",\\\"content\\\":\\\"1200\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"12\\\",{\\\"property\\\":\\\"og:image:height\\\",\\\"content\\\":\\\"630\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"13\\\",{\\\"property\\\":\\\"og:type\\\",\\\"content\\\":\\\"website\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"14\\\",{\\\"name\\\":\\\"twitter:card\\\",\\\"content\\\":\\\"summary_large_image\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"15\\\",{\\\"name\\\":\\\"twitter:title\\\",\\\"content\\\":\\\"Stairway Audio. Analog Tone. Digital Soul.\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"16\\\",{\\\"name\\\":\\\"twitter:description\\\",\\\"content\\\":\\\"Real analog samples from legendary synthesizers, mapped into lightweight modern plug-ins. Load, play, create.\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"17\\\",{\\\"name\\\":\\\"twitter:image:alt\\\",\\\"content\\\":\\\"Stairway Audio. Analog Tone. Digital Soul.\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"18\\\",{\\\"name\\\":\\\"twitter:image:type\\\",\\\"content\\\":\\\"image/png\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"19\\\",{\\\"name\\\":\\\"twitter:image\\\",\\\"content\\\":\\\"https://stairway.audio/opengraph-image?83428c16fecfa0dc\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"20\\\",{\\\"name\\\":\\\"twitter:image:width\\\",\\\"content\\\":\\\"1200\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"21\\\",{\\\"name\\\":\\\"twitter:image:height\\\",\\\"content\\\":\\\"630\\\"}],[\\\"$\\\",\\\"link\\\",\\\"22\\\",{\\\"rel\\\":\\\"icon\\\",\\\"href\\\":\\\"/icon.svg?a4247f49e3b1043a\\\",\\\"type\\\":\\\"image/svg+xml\\\",\\\"sizes\\\":\\\"any\\\"}],[\\\"$\\\",\\\"link\\\",\\\"23\\\",{\\\"rel\\\":\\\"apple-touch-icon\\\",\\\"href\\\":\\\"/apple-icon?119aaa2511e9eaf3\\\",\\\"alt\\\":\\\"$undefined\\\",\\\"type\\\":\\\"image/png\\\",\\\"sizes\\\":\\\"180x180\\\"}],[\\\"$\\\",\\\"$L33\\\",\\\"24\\\",{}]],\\\"error\\\":null,\\\"digest\\\":\\\"$undefined\\\"}\\n\"])",
+      "topLevel": true
+    },
+    {
+      "tag": "script",
+      "attrs": {},
+      "text": "self.__next_f.push([1,\"21:\\\"$32:metadata\\\"\\n\"])",
+      "topLevel": true
+    }
+  ]
+}

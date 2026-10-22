@@ -1,0 +1,77 @@
+<svg width="1200" height="1200" viewBox="0 0 1200 1200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wood" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8a4f2c"/>
+      <stop offset="0.5" stop-color="#6e3a20"/>
+      <stop offset="1" stop-color="#54290f"/>
+    </linearGradient>
+    <radialGradient id="face" cx="0.5" cy="0.35" r="1">
+      <stop offset="0" stop-color="#2a2521"/>
+      <stop offset="1" stop-color="#1c1815"/>
+    </radialGradient>
+    <radialGradient id="knob" cx="0.38" cy="0.32" r="0.85">
+      <stop offset="0" stop-color="#e8e2d6"/>
+      <stop offset="0.55" stop-color="#b8b2a4"/>
+      <stop offset="1" stop-color="#7d786c"/>
+    </radialGradient>
+    <radialGradient id="reel" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#38322c"/>
+      <stop offset="0.85" stop-color="#26211d"/>
+      <stop offset="1" stop-color="#171310"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="1200" fill="url(#face)"/>
+  <rect x="0" y="0" width="46" height="1200" fill="url(#wood)"/>
+  <rect x="1154" y="0" width="46" height="1200" fill="url(#wood)" transform="translate(2354 0) scale(-1 1)"/>
+
+  <!-- header -->
+  <rect x="46" y="0" width="1108" height="150" fill="#16120f"/>
+  <line x1="46" y1="150" x2="1154" y2="150" stroke="#c9a97a" stroke-opacity="0.5" stroke-width="2"/>
+  <text x="110" y="103" font-family="Didot, 'Bodoni 72', Georgia, serif" font-style="italic" font-size="76" fill="none" stroke="#d9b98a" stroke-width="2.2" letter-spacing="2">Flutter</text>
+  <text x="1090" y="95" text-anchor="end" font-family="Georgia, serif" font-weight="bold" font-size="34" fill="#d9b98a">stairway.audio</text>
+
+  <!-- tape reels -->
+  <g stroke="#c9a97a" stroke-width="3">
+    <circle cx="400" cy="430" r="170" fill="url(#reel)"/>
+    <circle cx="800" cy="430" r="170" fill="url(#reel)"/>
+    <circle cx="400" cy="430" r="52" fill="#0f0c0a"/>
+    <circle cx="800" cy="430" r="52" fill="#0f0c0a"/>
+    <g stroke-width="14" stroke-linecap="round">
+      <line x1="400" y1="310" x2="400" y2="360"/>
+      <line x1="296" y1="490" x2="339" y2="465"/>
+      <line x1="504" y1="490" x2="461" y2="465"/>
+      <line x1="800" y1="310" x2="800" y2="360"/>
+      <line x1="696" y1="490" x2="739" y2="465"/>
+      <line x1="904" y1="490" x2="861" y2="465"/>
+    </g>
+  </g>
+  <!-- tape path with a wobble -->
+  <path d="M 245 550 C 330 610 470 585 600 612 C 730 639 870 610 955 550" fill="none" stroke="#d9b98a" stroke-width="7" stroke-linecap="round"/>
+  <path d="M 245 550 C 330 610 470 585 600 612 C 730 639 870 610 955 550" fill="none" stroke="#8a6a44" stroke-width="7" stroke-linecap="round" stroke-dasharray="3 26"/>
+
+  <!-- wobbly waveform strip -->
+  <path d="M 140 760 q 30 -46 60 0 t 60 0 q 26 -70 52 0 t 60 0 q 30 -30 60 0 t 60 0 q 26 -58 52 0 t 60 0 q 30 -40 60 0 t 60 0 q 26 -66 52 0 t 60 0 q 30 -28 60 0 t 60 0 q 26 -50 52 0 t 52 0" fill="none" stroke="#c9a97a" stroke-opacity="0.65" stroke-width="4"/>
+
+  <!-- knobs -->
+  <g font-family="Menlo, 'Courier New', monospace" font-size="30" fill="#d9c8ab" text-anchor="middle" letter-spacing="4">
+    <g transform="translate(255 960)">
+      <circle r="78" fill="url(#knob)"/><line x1="0" y1="0" x2="-40" y2="-58" stroke="#26211d" stroke-width="9" stroke-linecap="round"/>
+      <text y="140">WOW</text>
+    </g>
+    <g transform="translate(485 960)">
+      <circle r="78" fill="url(#knob)"/><line x1="0" y1="0" x2="12" y2="-69" stroke="#26211d" stroke-width="9" stroke-linecap="round"/>
+      <text y="140">FLUTTER</text>
+    </g>
+    <g transform="translate(715 960)">
+      <circle r="78" fill="url(#knob)"/><line x1="0" y1="0" x2="46" y2="-52" stroke="#26211d" stroke-width="9" stroke-linecap="round"/>
+      <text y="140">DRIFT</text>
+    </g>
+    <g transform="translate(945 960)">
+      <circle r="78" fill="url(#knob)"/><line x1="0" y1="0" x2="-22" y2="-66" stroke="#26211d" stroke-width="9" stroke-linecap="round"/>
+      <text y="140">SATURATE</text>
+    </g>
+  </g>
+
+  <rect x="46" y="0" width="1108" height="1200" fill="none" stroke="#c9a97a" stroke-opacity="0.35" stroke-width="2"/>
+</svg>

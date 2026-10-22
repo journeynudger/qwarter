@@ -1,0 +1,890 @@
+{
+  "route": "/",
+  "slug": "home",
+  "url": "https://stairway.audio/",
+  "widths": {
+    "390": {
+      "frames": 25,
+      "menu": true,
+      "errors": []
+    },
+    "1440": {
+      "frames": 25,
+      "menu": true,
+      "errors": []
+    }
+  },
+  "stack": {
+    "generator": null,
+    "webflow": false,
+    "webflowPage": null,
+    "webflowSite": null,
+    "nextjs": true,
+    "nuxt": false,
+    "framer": false,
+    "wordpress": false,
+    "squarespace": false,
+    "wix": false,
+    "shopify": false,
+    "gsap": null,
+    "scrollTrigger": false,
+    "splitText": false,
+    "lenis": false,
+    "locomotive": false,
+    "barba": false,
+    "swup": false,
+    "swiper": false,
+    "three": false,
+    "splitType": false,
+    "lottie": false,
+    "jquery": null,
+    "customCursorCss": false,
+    "scripts": [
+      "https://stairway.audio/_next/static/chunks/acfafb44-5b2d50c78ab1fa6b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+      "https://stairway.audio/_next/static/chunks/8920-93793e9b5a0fb08a.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+      "https://stairway.audio/_next/static/chunks/main-app-c797ede80b04dfad.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+      "https://stairway.audio/_next/static/chunks/8898-bd7fc3860b73e145.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+      "https://stairway.audio/_next/static/chunks/3395-a922ab13384c0fd3.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+      "https://stairway.audio/_next/static/chunks/4950-7af88951e4bbca8b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+      "https://stairway.audio/_next/static/chunks/1848-349fcc2e7a5dac9b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+      "https://stairway.audio/_next/static/chunks/app/layout-68ee9740bcacb7cc.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+      "https://stairway.audio/_next/static/chunks/1560-2dd939983213b61b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+      "https://stairway.audio/_next/static/chunks/6965-9fb82671d2b16fd6.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+      "https://stairway.audio/_next/static/chunks/app/page-c102011ba453430e.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+      "https://stairway.audio/_next/static/chunks/polyfills-42372ed130431b0a.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+      "https://stairway.audio/_next/static/chunks/webpack-98905d0783ca6888.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+      "https://www.googletagmanager.com/gtag/js?id=G-Q3LMTFT0L8"
+    ]
+  },
+  "title": "Stairway Audio. Analog Tone. Digital Soul.",
+  "status": 200,
+  "loadMs": 18619,
+  "cursorFollowers": 0,
+  "hovers": 40,
+  "fonts": {
+    "faces": [
+      {
+        "family": "\"Playfair Display\"",
+        "weight": "400",
+        "style": "italic",
+        "src": "url(\"/_next/static/media/19150647d2c2f572-s.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"Playfair Display\"",
+        "weight": "400",
+        "style": "italic",
+        "src": "url(\"/_next/static/media/000030d1699f2fb3-s.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"Playfair Display\"",
+        "weight": "400",
+        "style": "italic",
+        "src": "url(\"/_next/static/media/1926da171a0ba1a5-s.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"Playfair Display\"",
+        "weight": "400",
+        "style": "italic",
+        "src": "url(\"/_next/static/media/78d0dd042ac6d54d-s.p.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"Playfair Display\"",
+        "weight": "700",
+        "style": "italic",
+        "src": "url(\"/_next/static/media/19150647d2c2f572-s.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"Playfair Display\"",
+        "weight": "700",
+        "style": "italic",
+        "src": "url(\"/_next/static/media/000030d1699f2fb3-s.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"Playfair Display\"",
+        "weight": "700",
+        "style": "italic",
+        "src": "url(\"/_next/static/media/1926da171a0ba1a5-s.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"Playfair Display\"",
+        "weight": "700",
+        "style": "italic",
+        "src": "url(\"/_next/static/media/78d0dd042ac6d54d-s.p.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"Playfair Display\"",
+        "weight": "400",
+        "style": "normal",
+        "src": "url(\"/_next/static/media/47f136985ef5b5cb-s.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"Playfair Display\"",
+        "weight": "400",
+        "style": "normal",
+        "src": "url(\"/_next/static/media/4ead58c4dcc3f285-s.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"Playfair Display\"",
+        "weight": "400",
+        "style": "normal",
+        "src": "url(\"/_next/static/media/28a2004cf8372660-s.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"Playfair Display\"",
+        "weight": "400",
+        "style": "normal",
+        "src": "url(\"/_next/static/media/eaead17c7dbfcd5d-s.p.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"Playfair Display\"",
+        "weight": "700",
+        "style": "normal",
+        "src": "url(\"/_next/static/media/47f136985ef5b5cb-s.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"Playfair Display\"",
+        "weight": "700",
+        "style": "normal",
+        "src": "url(\"/_next/static/media/4ead58c4dcc3f285-s.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"Playfair Display\"",
+        "weight": "700",
+        "style": "normal",
+        "src": "url(\"/_next/static/media/28a2004cf8372660-s.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"Playfair Display\"",
+        "weight": "700",
+        "style": "normal",
+        "src": "url(\"/_next/static/media/eaead17c7dbfcd5d-s.p.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"Playfair Display Fallback\"",
+        "weight": "",
+        "style": "",
+        "src": "local(\"Times New Roman\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"Source Serif 4\"",
+        "weight": "300",
+        "style": "italic",
+        "src": "url(\"/_next/static/media/e33b76030b52b394-s.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"Source Serif 4\"",
+        "weight": "300",
+        "style": "italic",
+        "src": "url(\"/_next/static/media/817bd1ecaefe3e13-s.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"Source Serif 4\"",
+        "weight": "300",
+        "style": "italic",
+        "src": "url(\"/_next/static/media/2487be7ea50658e3-s.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"Source Serif 4\"",
+        "weight": "300",
+        "style": "italic",
+        "src": "url(\"/_next/static/media/5d38802c4f19cf85-s.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"Source Serif 4\"",
+        "weight": "300",
+        "style": "italic",
+        "src": "url(\"/_next/static/media/27a7efe705e7867f-s.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"Source Serif 4\"",
+        "weight": "300",
+        "style": "italic",
+        "src": "url(\"/_next/static/media/85ef47686bd56cf6-s.p.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"Source Serif 4\"",
+        "weight": "400",
+        "style": "italic",
+        "src": "url(\"/_next/static/media/e33b76030b52b394-s.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"Source Serif 4\"",
+        "weight": "400",
+        "style": "italic",
+        "src": "url(\"/_next/static/media/817bd1ecaefe3e13-s.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"Source Serif 4\"",
+        "weight": "400",
+        "style": "italic",
+        "src": "url(\"/_next/static/media/2487be7ea50658e3-s.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"Source Serif 4\"",
+        "weight": "400",
+        "style": "italic",
+        "src": "url(\"/_next/static/media/5d38802c4f19cf85-s.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"Source Serif 4\"",
+        "weight": "400",
+        "style": "italic",
+        "src": "url(\"/_next/static/media/27a7efe705e7867f-s.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"Source Serif 4\"",
+        "weight": "400",
+        "style": "italic",
+        "src": "url(\"/_next/static/media/85ef47686bd56cf6-s.p.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"Source Serif 4\"",
+        "weight": "600",
+        "style": "italic",
+        "src": "url(\"/_next/static/media/e33b76030b52b394-s.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"Source Serif 4\"",
+        "weight": "600",
+        "style": "italic",
+        "src": "url(\"/_next/static/media/817bd1ecaefe3e13-s.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"Source Serif 4\"",
+        "weight": "600",
+        "style": "italic",
+        "src": "url(\"/_next/static/media/2487be7ea50658e3-s.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"Source Serif 4\"",
+        "weight": "600",
+        "style": "italic",
+        "src": "url(\"/_next/static/media/5d38802c4f19cf85-s.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"Source Serif 4\"",
+        "weight": "600",
+        "style": "italic",
+        "src": "url(\"/_next/static/media/27a7efe705e7867f-s.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"Source Serif 4\"",
+        "weight": "600",
+        "style": "italic",
+        "src": "url(\"/_next/static/media/85ef47686bd56cf6-s.p.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"Source Serif 4\"",
+        "weight": "300",
+        "style": "normal",
+        "src": "url(\"/_next/static/media/f11ffaf03a80bc19-s.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"Source Serif 4\"",
+        "weight": "300",
+        "style": "normal",
+        "src": "url(\"/_next/static/media/b818b0ea116ed117-s.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"Source Serif 4\"",
+        "weight": "300",
+        "style": "normal",
+        "src": "url(\"/_next/static/media/ed89fb4fc238c6bf-s.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"Source Serif 4\"",
+        "weight": "300",
+        "style": "normal",
+        "src": "url(\"/_next/static/media/e115bc1b6e48400d-s.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"Source Serif 4\"",
+        "weight": "300",
+        "style": "normal",
+        "src": "url(\"/_next/static/media/fc9d3723ce3bfccb-s.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"Source Serif 4\"",
+        "weight": "300",
+        "style": "normal",
+        "src": "url(\"/_next/static/media/597b6a5d799c44de-s.p.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"Source Serif 4\"",
+        "weight": "400",
+        "style": "normal",
+        "src": "url(\"/_next/static/media/f11ffaf03a80bc19-s.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"Source Serif 4\"",
+        "weight": "400",
+        "style": "normal",
+        "src": "url(\"/_next/static/media/b818b0ea116ed117-s.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"Source Serif 4\"",
+        "weight": "400",
+        "style": "normal",
+        "src": "url(\"/_next/static/media/ed89fb4fc238c6bf-s.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"Source Serif 4\"",
+        "weight": "400",
+        "style": "normal",
+        "src": "url(\"/_next/static/media/e115bc1b6e48400d-s.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"Source Serif 4\"",
+        "weight": "400",
+        "style": "normal",
+        "src": "url(\"/_next/static/media/fc9d3723ce3bfccb-s.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"Source Serif 4\"",
+        "weight": "400",
+        "style": "normal",
+        "src": "url(\"/_next/static/media/597b6a5d799c44de-s.p.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"Source Serif 4\"",
+        "weight": "600",
+        "style": "normal",
+        "src": "url(\"/_next/static/media/f11ffaf03a80bc19-s.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"Source Serif 4\"",
+        "weight": "600",
+        "style": "normal",
+        "src": "url(\"/_next/static/media/b818b0ea116ed117-s.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"Source Serif 4\"",
+        "weight": "600",
+        "style": "normal",
+        "src": "url(\"/_next/static/media/ed89fb4fc238c6bf-s.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"Source Serif 4\"",
+        "weight": "600",
+        "style": "normal",
+        "src": "url(\"/_next/static/media/e115bc1b6e48400d-s.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"Source Serif 4\"",
+        "weight": "600",
+        "style": "normal",
+        "src": "url(\"/_next/static/media/fc9d3723ce3bfccb-s.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"Source Serif 4\"",
+        "weight": "600",
+        "style": "normal",
+        "src": "url(\"/_next/static/media/597b6a5d799c44de-s.p.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"Source Serif 4 Fallback\"",
+        "weight": "",
+        "style": "",
+        "src": "local(\"Times New Roman\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"DM Mono\"",
+        "weight": "300",
+        "style": "normal",
+        "src": "url(\"/_next/static/media/8d0a1832fd3be0c8-s.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"DM Mono\"",
+        "weight": "300",
+        "style": "normal",
+        "src": "url(\"/_next/static/media/d7df244fe7b07b95-s.p.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"DM Mono\"",
+        "weight": "400",
+        "style": "normal",
+        "src": "url(\"/_next/static/media/64418ffc17e50301-s.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"DM Mono\"",
+        "weight": "400",
+        "style": "normal",
+        "src": "url(\"/_next/static/media/0e96d314a90a6138-s.p.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"DM Mono\"",
+        "weight": "500",
+        "style": "normal",
+        "src": "url(\"/_next/static/media/ba43ea3467e29870-s.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"DM Mono\"",
+        "weight": "500",
+        "style": "normal",
+        "src": "url(\"/_next/static/media/b7ea2ab4a8ad1f81-s.p.woff2\") format(\"woff2\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      },
+      {
+        "family": "\"DM Mono Fallback\"",
+        "weight": "",
+        "style": "",
+        "src": "local(\"Arial\")",
+        "sheet": "https://stairway.audio/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      }
+    ],
+    "loaded": [
+      {
+        "family": "Playfair Display",
+        "weight": "400",
+        "style": "italic",
+        "status": "unloaded"
+      },
+      {
+        "family": "Playfair Display",
+        "weight": "400",
+        "style": "italic",
+        "status": "unloaded"
+      },
+      {
+        "family": "Playfair Display",
+        "weight": "400",
+        "style": "italic",
+        "status": "unloaded"
+      },
+      {
+        "family": "Playfair Display",
+        "weight": "400",
+        "style": "italic",
+        "status": "loaded"
+      },
+      {
+        "family": "Playfair Display",
+        "weight": "700",
+        "style": "italic",
+        "status": "unloaded"
+      },
+      {
+        "family": "Playfair Display",
+        "weight": "700",
+        "style": "italic",
+        "status": "unloaded"
+      },
+      {
+        "family": "Playfair Display",
+        "weight": "700",
+        "style": "italic",
+        "status": "unloaded"
+      },
+      {
+        "family": "Playfair Display",
+        "weight": "700",
+        "style": "italic",
+        "status": "unloaded"
+      },
+      {
+        "family": "Playfair Display",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Playfair Display",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Playfair Display",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Playfair Display",
+        "weight": "400",
+        "style": "normal",
+        "status": "loaded"
+      },
+      {
+        "family": "Playfair Display",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Playfair Display",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Playfair Display",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Playfair Display",
+        "weight": "700",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Playfair Display Fallback",
+        "weight": "normal",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Source Serif 4",
+        "weight": "300",
+        "style": "italic",
+        "status": "unloaded"
+      },
+      {
+        "family": "Source Serif 4",
+        "weight": "300",
+        "style": "italic",
+        "status": "unloaded"
+      },
+      {
+        "family": "Source Serif 4",
+        "weight": "300",
+        "style": "italic",
+        "status": "unloaded"
+      },
+      {
+        "family": "Source Serif 4",
+        "weight": "300",
+        "style": "italic",
+        "status": "unloaded"
+      },
+      {
+        "family": "Source Serif 4",
+        "weight": "300",
+        "style": "italic",
+        "status": "unloaded"
+      },
+      {
+        "family": "Source Serif 4",
+        "weight": "300",
+        "style": "italic",
+        "status": "unloaded"
+      },
+      {
+        "family": "Source Serif 4",
+        "weight": "400",
+        "style": "italic",
+        "status": "unloaded"
+      },
+      {
+        "family": "Source Serif 4",
+        "weight": "400",
+        "style": "italic",
+        "status": "unloaded"
+      },
+      {
+        "family": "Source Serif 4",
+        "weight": "400",
+        "style": "italic",
+        "status": "unloaded"
+      },
+      {
+        "family": "Source Serif 4",
+        "weight": "400",
+        "style": "italic",
+        "status": "unloaded"
+      },
+      {
+        "family": "Source Serif 4",
+        "weight": "400",
+        "style": "italic",
+        "status": "unloaded"
+      },
+      {
+        "family": "Source Serif 4",
+        "weight": "400",
+        "style": "italic",
+        "status": "unloaded"
+      },
+      {
+        "family": "Source Serif 4",
+        "weight": "600",
+        "style": "italic",
+        "status": "unloaded"
+      },
+      {
+        "family": "Source Serif 4",
+        "weight": "600",
+        "style": "italic",
+        "status": "unloaded"
+      },
+      {
+        "family": "Source Serif 4",
+        "weight": "600",
+        "style": "italic",
+        "status": "unloaded"
+      },
+      {
+        "family": "Source Serif 4",
+        "weight": "600",
+        "style": "italic",
+        "status": "unloaded"
+      },
+      {
+        "family": "Source Serif 4",
+        "weight": "600",
+        "style": "italic",
+        "status": "unloaded"
+      },
+      {
+        "family": "Source Serif 4",
+        "weight": "600",
+        "style": "italic",
+        "status": "unloaded"
+      },
+      {
+        "family": "Source Serif 4",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Source Serif 4",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Source Serif 4",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Source Serif 4",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Source Serif 4",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Source Serif 4",
+        "weight": "300",
+        "style": "normal",
+        "status": "loaded"
+      },
+      {
+        "family": "Source Serif 4",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Source Serif 4",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Source Serif 4",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Source Serif 4",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Source Serif 4",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Source Serif 4",
+        "weight": "400",
+        "style": "normal",
+        "status": "loaded"
+      },
+      {
+        "family": "Source Serif 4",
+        "weight": "600",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Source Serif 4",
+        "weight": "600",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Source Serif 4",
+        "weight": "600",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Source Serif 4",
+        "weight": "600",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Source Serif 4",
+        "weight": "600",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "Source Serif 4",
+        "weight": "600",
+        "style": "normal",
+        "status": "loaded"
+      },
+      {
+        "family": "Source Serif 4 Fallback",
+        "weight": "normal",
+        "style": "normal",
+        "status": "error"
+      },
+      {
+        "family": "DM Mono",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "DM Mono",
+        "weight": "300",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "DM Mono",
+        "weight": "400",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "DM Mono",
+        "weight": "400",
+        "style": "normal",
+        "status": "loaded"
+      },
+      {
+        "family": "DM Mono",
+        "weight": "500",
+        "style": "normal",
+        "status": "unloaded"
+      },
+      {
+        "family": "DM Mono",
+        "weight": "500",
+        "style": "normal",
+        "status": "loaded"
+      },
+      {
+        "family": "DM Mono Fallback",
+        "weight": "normal",
+        "style": "normal",
+        "status": "error"
+      }
+    ]
+  },
+  "breakpoints": [
+    "(min-width: 640px)",
+    "(min-width: 768px)",
+    "(min-width: 1024px)",
+    "(min-width: 1280px)",
+    "(min-width: 1536px)",
+    "(prefers-reduced-motion: reduce)",
+    "(max-width: 1100px)",
+    "(max-width: 1000px)",
+    "(max-width: 960px)",
+    "(max-width: 900px)",
+    "(max-width: 820px)",
+    "(max-width: 800px)",
+    "(max-width: 760px)",
+    "(max-width: 700px)",
+    "(max-width: 520px)",
+    "(hover: hover)"
+  ],
+  "links": [
+    "/",
+    "/shop",
+    "/support",
+    "/shop/sa-s1",
+    "/terms",
+    "/privacy",
+    "/refunds"
+  ]
+}

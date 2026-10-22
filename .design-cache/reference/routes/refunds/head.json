@@ -1,0 +1,523 @@
+{
+  "html": {
+    "lang": "en",
+    "class": "__variable_4b2a61 __variable_8b472c __variable_e45f3f"
+  },
+  "body": {
+    "class": "font-serif antialiased"
+  },
+  "head": [
+    {
+      "tag": "meta",
+      "attrs": {
+        "charset": "utf-8"
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "name": "viewport",
+        "content": "width=device-width, initial-scale=1"
+      }
+    },
+    {
+      "tag": "link",
+      "attrs": {
+        "rel": "preload",
+        "href": "/_next/static/media/0e96d314a90a6138-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      }
+    },
+    {
+      "tag": "link",
+      "attrs": {
+        "rel": "preload",
+        "href": "/_next/static/media/597b6a5d799c44de-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      }
+    },
+    {
+      "tag": "link",
+      "attrs": {
+        "rel": "preload",
+        "href": "/_next/static/media/78d0dd042ac6d54d-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      }
+    },
+    {
+      "tag": "link",
+      "attrs": {
+        "rel": "preload",
+        "href": "/_next/static/media/85ef47686bd56cf6-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      }
+    },
+    {
+      "tag": "link",
+      "attrs": {
+        "rel": "preload",
+        "href": "/_next/static/media/b7ea2ab4a8ad1f81-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      }
+    },
+    {
+      "tag": "link",
+      "attrs": {
+        "rel": "preload",
+        "href": "/_next/static/media/d7df244fe7b07b95-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      }
+    },
+    {
+      "tag": "link",
+      "attrs": {
+        "rel": "preload",
+        "href": "/_next/static/media/eaead17c7dbfcd5d-s.p.woff2",
+        "as": "font",
+        "crossorigin": "",
+        "type": "font/woff2"
+      }
+    },
+    {
+      "tag": "link",
+      "attrs": {
+        "rel": "preload",
+        "as": "image",
+        "href": "/brand/logo-mark-white.png"
+      }
+    },
+    {
+      "tag": "link",
+      "attrs": {
+        "rel": "preload",
+        "as": "image",
+        "href": "/brand/wordmark-white.png"
+      }
+    },
+    {
+      "tag": "link",
+      "attrs": {
+        "rel": "stylesheet",
+        "href": "/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+        "data-precedence": "next"
+      }
+    },
+    {
+      "tag": "link",
+      "attrs": {
+        "rel": "stylesheet",
+        "href": "/_next/static/css/c471f790782b220e.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+        "data-precedence": "next"
+      }
+    },
+    {
+      "tag": "link",
+      "attrs": {
+        "rel": "preload",
+        "as": "script",
+        "fetchpriority": "low",
+        "href": "/_next/static/chunks/webpack-98905d0783ca6888.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC"
+      }
+    },
+    {
+      "tag": "script",
+      "attrs": {
+        "src": "/_next/static/chunks/acfafb44-5b2d50c78ab1fa6b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+        "async": ""
+      }
+    },
+    {
+      "tag": "script",
+      "attrs": {
+        "src": "/_next/static/chunks/8920-93793e9b5a0fb08a.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+        "async": ""
+      }
+    },
+    {
+      "tag": "script",
+      "attrs": {
+        "src": "/_next/static/chunks/main-app-c797ede80b04dfad.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+        "async": ""
+      }
+    },
+    {
+      "tag": "script",
+      "attrs": {
+        "src": "/_next/static/chunks/8898-bd7fc3860b73e145.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+        "async": ""
+      }
+    },
+    {
+      "tag": "script",
+      "attrs": {
+        "src": "/_next/static/chunks/3395-a922ab13384c0fd3.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+        "async": ""
+      }
+    },
+    {
+      "tag": "script",
+      "attrs": {
+        "src": "/_next/static/chunks/4950-7af88951e4bbca8b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+        "async": ""
+      }
+    },
+    {
+      "tag": "script",
+      "attrs": {
+        "src": "/_next/static/chunks/7052-b1b474a5924de875.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+        "async": ""
+      }
+    },
+    {
+      "tag": "script",
+      "attrs": {
+        "src": "/_next/static/chunks/3409-f517794a46f3c43f.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+        "async": ""
+      }
+    },
+    {
+      "tag": "script",
+      "attrs": {
+        "src": "/_next/static/chunks/1848-349fcc2e7a5dac9b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+        "async": ""
+      }
+    },
+    {
+      "tag": "script",
+      "attrs": {
+        "src": "/_next/static/chunks/app/layout-68ee9740bcacb7cc.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+        "async": ""
+      }
+    },
+    {
+      "tag": "link",
+      "attrs": {
+        "rel": "preload",
+        "href": "https://www.googletagmanager.com/gtag/js?id=G-Q3LMTFT0L8",
+        "as": "script"
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "name": "next-size-adjust",
+        "content": ""
+      }
+    },
+    {
+      "tag": "title",
+      "attrs": {}
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "name": "description",
+        "content": "How refunds work for Stairway Audio digital plugin purchases."
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "name": "application-name",
+        "content": "Stairway Audio"
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "name": "keywords",
+        "content": "Stairway Audio,analog synth sampler,VST,AU,plugin,Oberheim OB-Xa,Behringer UB-Xa,Korg Minilogue,SA-S1,SA-S2"
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "property": "og:title",
+        "content": "Stairway Audio. Analog Tone. Digital Soul."
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "property": "og:description",
+        "content": "Real analog samples from legendary synthesizers, mapped into lightweight modern plug-ins. Load, play, create."
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "property": "og:url",
+        "content": "https://stairway.audio"
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "property": "og:site_name",
+        "content": "Stairway Audio"
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "property": "og:image:alt",
+        "content": "Stairway Audio. Analog Tone. Digital Soul."
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "property": "og:image:type",
+        "content": "image/png"
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "property": "og:image",
+        "content": "https://stairway.audio/opengraph-image?83428c16fecfa0dc"
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "property": "og:image:width",
+        "content": "1200"
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "property": "og:image:height",
+        "content": "630"
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "property": "og:type",
+        "content": "website"
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "name": "twitter:card",
+        "content": "summary_large_image"
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "name": "twitter:title",
+        "content": "Stairway Audio. Analog Tone. Digital Soul."
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "name": "twitter:description",
+        "content": "Real analog samples from legendary synthesizers, mapped into lightweight modern plug-ins. Load, play, create."
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "name": "twitter:image:alt",
+        "content": "Stairway Audio. Analog Tone. Digital Soul."
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "name": "twitter:image:type",
+        "content": "image/png"
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "name": "twitter:image",
+        "content": "https://stairway.audio/opengraph-image?83428c16fecfa0dc"
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "name": "twitter:image:width",
+        "content": "1200"
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "name": "twitter:image:height",
+        "content": "630"
+      }
+    },
+    {
+      "tag": "link",
+      "attrs": {
+        "rel": "icon",
+        "href": "/icon.svg?a4247f49e3b1043a",
+        "type": "image/svg+xml",
+        "sizes": "any"
+      }
+    },
+    {
+      "tag": "link",
+      "attrs": {
+        "rel": "apple-touch-icon",
+        "href": "/apple-icon?119aaa2511e9eaf3",
+        "type": "image/png",
+        "sizes": "180x180"
+      }
+    },
+    {
+      "tag": "script",
+      "attrs": {
+        "src": "/_next/static/chunks/polyfills-42372ed130431b0a.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+        "nomodule": ""
+      }
+    }
+  ],
+  "bodyScripts": [
+    {
+      "tag": "noscript",
+      "attrs": {},
+      "html": "<style>.fade-up{opacity:1 !important;transform:none !important}</style>",
+      "topLevel": true
+    },
+    {
+      "tag": "style",
+      "attrs": {},
+      "text": ".fade-up{opacity:1 !important;transform:none !important}",
+      "topLevel": false
+    },
+    {
+      "tag": "script",
+      "attrs": {
+        "id": "ga-consent-bootstrap"
+      },
+      "text": "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\nwindow.gtag = gtag;\ngtag('consent', 'default', {\n  ad_storage: 'granted',\n  ad_user_data: 'granted',\n  ad_personalization: 'granted',\n  analytics_storage: 'granted',\n  functionality_storage: 'granted',\n  security_storage: 'granted'\n});\ngtag('consent', 'default', {\n  ad_storage: 'denied',\n  ad_user_data: 'denied',\n  ad_personalization: 'denied',\n  analytics_storage: 'denied',\n  functionality_storage: 'granted',\n  security_storage: 'granted',\n  region: [\"AT\",\"BE\",\"BG\",\"HR\",\"CY\",\"CZ\",\"DK\",\"EE\",\"FI\",\"FR\",\"DE\",\"GR\",\"HU\",\"IE\",\"IT\",\"LV\",\"LI\",\"LT\",\"LU\",\"MT\",\"NL\",\"PL\",\"PT\",\"RO\",\"SK\",\"SI\",\"ES\",\"SE\",\"IS\",\"NO\",\"GB\",\"CH\"],\n  wait_for_update: 500\n});\ntry {\n  var c = localStorage.getItem(\"stairway:consent:v1\");\n  if (c === 'granted' || c === 'denied') {\n    gtag('consent', 'update', {\n      ad_storage: c, ad_user_data: c, ad_personalization: c, analytics_storage: c\n    });\n  }\n} catch (e) {}\ngtag('set', 'url_passthrough', true);\ngtag('set', 'ads_data_redaction', true);\ngtag('js', new Date());\ngtag('config', \"G-Q3LMTFT0L8\", (function () {\n  var cfg = { send_page_view: false };\n  try {\n    var url = new URL(window.location.href);\n    [\"session_id\",\"session\",\"token\",\"email\",\"key\"].forEach(function (k) {\n      if (url.searchParams.has(k)) url.searchParams.set(k, 'redacted');\n    });\n    cfg.page_location = url.toString();\n  } catch (e) {}\n  return cfg;\n})());",
+      "topLevel": true
+    },
+    {
+      "tag": "script",
+      "attrs": {
+        "src": "/_next/static/chunks/webpack-98905d0783ca6888.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+        "id": "_R_",
+        "async": ""
+      },
+      "topLevel": true
+    },
+    {
+      "tag": "script",
+      "attrs": {},
+      "text": "(self.__next_f=self.__next_f||[]).push([0])",
+      "topLevel": true
+    },
+    {
+      "tag": "script",
+      "attrs": {},
+      "text": "self.__next_f.push([1,\"1:\\\"$Sreact.fragment\\\"\\n2:I[3418,[\\\"8898\\\",\\\"static/chunks/8898-bd7fc3860b73e145.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"3395\\\",\\\"static/chunks/3395-a922ab13384c0fd3.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"4950\\\",\\\"static/chunks/4950-7af88951e4bbca8b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"7052\\\",\\\"static/chunks/7052-b1b474a5924de875.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"3409\\\",\\\"static/chunks/3409-f517794a46f3c43f.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"1848\\\",\\\"static/chunks/1848-349fcc2e7a5dac9b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"7177\\\",\\\"static/chunks/app/layout-68ee9740bcacb7cc.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\"],\\\"GoogleAnalytics\\\"]\\n3:I[3529,[\\\"8898\\\",\\\"static/chunks/8898-bd7fc3860b73e145.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"3395\\\",\\\"static/chunks/3395-a922ab13384c0fd3.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"4950\\\",\\\"static/chunks/4950-7af88951e4bbca8b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"7052\\\",\\\"static/chunks/7052-b1b474a5924de875.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"3409\\\",\\\"static/chunks/3409-f517794a46f3c43f.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"1848\\\",\\\"static/chunks/1848-349fcc2e7a5dac9b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"7177\\\",\\\"static/chunks/app/layout-68ee9740bcacb7cc.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\"],\\\"GaPageViews\\\"]\\n4:I[4044,[\\\"8898\\\",\\\"static/chunks/8898-bd7fc3860b73e145.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"3395\\\",\\\"static/chunks/3395-a922ab13384c0fd3.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"4950\\\",\\\"static/chunks/4950-7af88951e4bbca8b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"7052\\\",\\\"static/chunks/7052-b1b474a5924de875.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"3409\\\",\\\"static/chunks/3409-f517794a46f3c43f.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"1848\\\",\\\"static/chunks/1848-349fcc2e7a5dac9b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"7177\\\",\\\"static/chunks/app/layout-68ee9740bcacb7cc.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\"],\\\"MetaPixel\\\"]\\n5:I[4380,[\\\"8898\\\",\\\"static/chunks/8898-bd7fc3860b73e145.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"3395\\\",\\\"static/chunks/3395-a922ab13384c0fd3.js?dp\"])",
+      "topLevel": true
+    },
+    {
+      "tag": "script",
+      "attrs": {},
+      "text": "self.__next_f.push([1,\"l=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"4950\\\",\\\"static/chunks/4950-7af88951e4bbca8b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"7052\\\",\\\"static/chunks/7052-b1b474a5924de875.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"3409\\\",\\\"static/chunks/3409-f517794a46f3c43f.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"1848\\\",\\\"static/chunks/1848-349fcc2e7a5dac9b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"7177\\\",\\\"static/chunks/app/layout-68ee9740bcacb7cc.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\"],\\\"CartProvider\\\"]\\n6:I[152,[\\\"8898\\\",\\\"static/chunks/8898-bd7fc3860b73e145.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"3395\\\",\\\"static/chunks/3395-a922ab13384c0fd3.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"4950\\\",\\\"static/chunks/4950-7af88951e4bbca8b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"7052\\\",\\\"static/chunks/7052-b1b474a5924de875.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"3409\\\",\\\"static/chunks/3409-f517794a46f3c43f.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"1848\\\",\\\"static/chunks/1848-349fcc2e7a5dac9b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"7177\\\",\\\"static/chunks/app/layout-68ee9740bcacb7cc.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\"],\\\"SiteChrome\\\"]\\n7:I[1309,[\\\"8898\\\",\\\"static/chunks/8898-bd7fc3860b73e145.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"3395\\\",\\\"static/chunks/3395-a922ab13384c0fd3.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"4950\\\",\\\"static/chunks/4950-7af88951e4bbca8b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"7052\\\",\\\"static/chunks/7052-b1b474a5924de875.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"3409\\\",\\\"static/chunks/3409-f517794a46f3c43f.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"1848\\\",\\\"static/chunks/1848-349fcc2e7a5dac9b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"7177\\\",\\\"static/chunks/app/layout-68ee9740bcacb7cc.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\"],\\\"Nav\\\"]\\n8:I[2716,[\\\"8898\\\",\\\"static/chunks/8898-bd7fc3860b73e145.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"3395\\\",\\\"static/chunks/3395-a922ab13384c0fd3.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"4950\\\",\\\"static/chunks/4950-7af88951e4bbca8b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"7052\\\",\\\"static/chunks/7052-b1b474a5924de875.js?dpl=dpl_\"])",
+      "topLevel": true
+    },
+    {
+      "tag": "script",
+      "attrs": {},
+      "text": "self.__next_f.push([1,\"3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"3409\\\",\\\"static/chunks/3409-f517794a46f3c43f.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"1848\\\",\\\"static/chunks/1848-349fcc2e7a5dac9b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"7177\\\",\\\"static/chunks/app/layout-68ee9740bcacb7cc.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\"],\\\"CartDrawer\\\"]\\n9:I[4827,[],\\\"\\\"]\\na:I[1063,[],\\\"\\\"]\\n11:I[6177,[],\\\"\\\"]\\n:HL[\\\"/_next/static/media/0e96d314a90a6138-s.p.woff2\\\",\\\"font\\\",{\\\"crossOrigin\\\":\\\"\\\",\\\"type\\\":\\\"font/woff2\\\"}]\\n:HL[\\\"/_next/static/media/597b6a5d799c44de-s.p.woff2\\\",\\\"font\\\",{\\\"crossOrigin\\\":\\\"\\\",\\\"type\\\":\\\"font/woff2\\\"}]\\n:HL[\\\"/_next/static/media/78d0dd042ac6d54d-s.p.woff2\\\",\\\"font\\\",{\\\"crossOrigin\\\":\\\"\\\",\\\"type\\\":\\\"font/woff2\\\"}]\\n:HL[\\\"/_next/static/media/85ef47686bd56cf6-s.p.woff2\\\",\\\"font\\\",{\\\"crossOrigin\\\":\\\"\\\",\\\"type\\\":\\\"font/woff2\\\"}]\\n:HL[\\\"/_next/static/media/b7ea2ab4a8ad1f81-s.p.woff2\\\",\\\"font\\\",{\\\"crossOrigin\\\":\\\"\\\",\\\"type\\\":\\\"font/woff2\\\"}]\\n:HL[\\\"/_next/static/media/d7df244fe7b07b95-s.p.woff2\\\",\\\"font\\\",{\\\"crossOrigin\\\":\\\"\\\",\\\"type\\\":\\\"font/woff2\\\"}]\\n:HL[\\\"/_next/static/media/eaead17c7dbfcd5d-s.p.woff2\\\",\\\"font\\\",{\\\"crossOrigin\\\":\\\"\\\",\\\"type\\\":\\\"font/woff2\\\"}]\\n:HL[\\\"/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"style\\\"]\\n:HL[\\\"/_next/static/css/c471f790782b220e.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"style\\\"]\\n\"])",
+      "topLevel": true
+    },
+    {
+      "tag": "script",
+      "attrs": {},
+      "text": "self.__next_f.push([1,\"0:{\\\"P\\\":null,\\\"b\\\":\\\"h9KZuJd8T8jQ_OVw6bMie\\\",\\\"p\\\":\\\"\\\",\\\"c\\\":[\\\"\\\",\\\"refunds\\\"],\\\"i\\\":false,\\\"f\\\":[[[\\\"\\\",{\\\"children\\\":[\\\"refunds\\\",{\\\"children\\\":[\\\"__PAGE__\\\",{}]}]},\\\"$undefined\\\",\\\"$undefined\\\",true],[\\\"\\\",[\\\"$\\\",\\\"$1\\\",\\\"c\\\",{\\\"children\\\":[[[\\\"$\\\",\\\"link\\\",\\\"0\\\",{\\\"rel\\\":\\\"stylesheet\\\",\\\"href\\\":\\\"/_next/static/css/0016082880397f0a.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"precedence\\\":\\\"next\\\",\\\"crossOrigin\\\":\\\"$undefined\\\",\\\"nonce\\\":\\\"$undefined\\\"}],[\\\"$\\\",\\\"link\\\",\\\"1\\\",{\\\"rel\\\":\\\"stylesheet\\\",\\\"href\\\":\\\"/_next/static/css/c471f790782b220e.css?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"precedence\\\":\\\"next\\\",\\\"crossOrigin\\\":\\\"$undefined\\\",\\\"nonce\\\":\\\"$undefined\\\"}]],[\\\"$\\\",\\\"html\\\",null,{\\\"lang\\\":\\\"en\\\",\\\"className\\\":\\\"__variable_4b2a61 __variable_8b472c __variable_e45f3f\\\",\\\"children\\\":[\\\"$\\\",\\\"body\\\",null,{\\\"className\\\":\\\"font-serif antialiased\\\",\\\"children\\\":[[\\\"$\\\",\\\"noscript\\\",null,{\\\"children\\\":[\\\"$\\\",\\\"style\\\",null,{\\\"children\\\":\\\".fade-up{opacity:1 !important;transform:none !important}\\\"}]}],[\\\"$\\\",\\\"a\\\",null,{\\\"href\\\":\\\"#home\\\",\\\"className\\\":\\\"sr-only focus:not-sr-only focus:fixed focus:left-3 focus:top-3 focus:z-[100] focus:rounded focus:bg-text-light focus:px-4 focus:py-2 focus:font-mono focus:text-xs focus:uppercase focus:tracking-widest focus:text-text-dark\\\",\\\"children\\\":\\\"Skip to content\\\"}],[\\\"$\\\",\\\"$L2\\\",null,{}],[\\\"$\\\",\\\"$L3\\\",null,{}],[\\\"$\\\",\\\"$L4\\\",null,{}],[\\\"$\\\",\\\"$L5\\\",null,{\\\"children\\\":[[\\\"$\\\",\\\"$L6\\\",null,{\\\"children\\\":[[\\\"$\\\",\\\"$L7\\\",null,{}],[\\\"$\\\",\\\"$L8\\\",null,{}]]}],[\\\"$\\\",\\\"$L9\\\",null,{\\\"parallelRouterKey\\\":\\\"children\\\",\\\"error\\\":\\\"$undefined\\\",\\\"errorStyles\\\":\\\"$undefined\\\",\\\"errorScripts\\\":\\\"$undefined\\\",\\\"template\\\":[\\\"$\\\",\\\"$La\\\",null,{}],\\\"templateStyles\\\":\\\"$undefined\\\",\\\"templateScripts\\\":\\\"$undefined\\\",\\\"notFound\\\":[[[\\\"$\\\",\\\"title\\\",null,{\\\"children\\\":\\\"404: This page could not be found.\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"style\\\":{\\\"fontFamily\\\":\\\"system-ui,\\\\\\\"Segoe UI\\\\\\\",Roboto,Helvetica,Arial,sans-serif,\\\\\\\"Apple Color Emoji\\\\\\\",\\\\\\\"Segoe UI Emoji\\\\\\\"\\\",\\\"height\\\":\\\"100vh\\\",\\\"textAlign\\\":\\\"center\\\",\\\"display\\\":\\\"flex\\\",\\\"flexDirection\\\":\\\"column\\\",\\\"alignItems\\\":\\\"center\\\",\\\"justifyContent\\\":\\\"center\\\"},\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"children\\\":[[\\\"$\\\",\\\"style\\\",null,{\\\"dangerouslySetInnerHTML\\\":{\\\"__html\\\":\\\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\\\"}}],[\\\"$\\\",\\\"h1\\\",null,{\\\"className\\\":\\\"next-error-h1\\\",\\\"style\\\":{\\\"display\\\":\\\"inline-block\\\",\\\"margin\\\":\\\"0 20px 0 0\\\",\\\"padding\\\":\\\"0 23px 0 0\\\",\\\"fontSize\\\":24,\\\"fontWeight\\\":500,\\\"verticalAlign\\\":\\\"top\\\",\\\"lineHeight\\\":\\\"49px\\\"},\\\"children\\\":404}],[\\\"$\\\",\\\"div\\\",null,{\\\"style\\\":{\\\"display\\\":\\\"inline-block\\\"},\\\"children\\\":[\\\"$\\\",\\\"h2\\\",null,{\\\"style\\\":{\\\"fontSize\\\":14,\\\"fontWeight\\\":400,\\\"lineHeight\\\":\\\"49px\\\",\\\"margin\\\":0},\\\"children\\\":\\\"This page could not be found.\\\"}]}]]}]}]],[]],\\\"forbidden\\\":\\\"$undefined\\\",\\\"unauthorized\\\":\\\"$undefined\\\"}],[\\\"$\\\",\\\"$L6\\\",null,{\\\"children\\\":[\\\"$\\\",\\\"footer\\\",null,{\\\"id\\\":\\\"contact\\\",\\\"className\\\":\\\"flex items-center justify-between border-t border-text-light/[0.06] bg-bg-dark p-16 text-text-light max-[900px]:flex-col max-[900px]:gap-8 max-[900px]:p-12 max-[900px]:text-center\\\",\\\"children\\\":[[\\\"$\\\",\\\"span\\\",null,{\\\"className\\\":\\\"inline-flex items-center gap-2 h-5 w-auto\\\",\\\"children\\\":[[\\\"$\\\",\\\"img\\\",null,{\\\"src\\\":\\\"/brand/logo-mark-white.png\\\",\\\"alt\\\":\\\"\\\",\\\"aria-hidden\\\":\\\"true\\\",\\\"className\\\":\\\"h-full w-auto\\\"}],[\\\"$\\\",\\\"img\\\",null,{\\\"src\\\":\\\"/brand/wordmark-white.png\\\",\\\"alt\\\":\\\"Stairway Audio\\\",\\\"className\\\":\\\"h-[80%] w-auto\\\"}]]}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"flex gap-8 max-[1100px]:gap-6 max-[900px]:flex-wrap max-[900px]:justify-center\\\",\\\"children\\\":[[\\\"$\\\",\\\"a\\\",\\\"Plugins\\\",{\\\"href\\\":\\\"/shop\\\",\\\"className\\\":\\\"font-mono text-[0.7rem] uppercase tracking-[0.12em] text-text-light/40 transition-colors duration-300 hover:text-text-light\\\",\\\"children\\\":\\\"Plugins\\\"}],[\\\"$\\\",\\\"a\\\",\\\"Support\\\",{\\\"href\\\":\\\"/support\\\",\\\"className\\\":\\\"font-mono text-[0.7rem] uppercase tracking-[0.12em] text-text-light/40 transition-colors duration-300 hover:text-text-light\\\",\\\"children\\\":\\\"Support\\\"}],[\\\"$\\\",\\\"a\\\",\\\"Instagram\\\",{\\\"href\\\":\\\"https://www.instagram.com/stairway.audio\\\",\\\"target\\\":\\\"_blank\\\",\\\"rel\\\":\\\"noopener noreferrer\\\",\\\"className\\\":\\\"font-mono text-[0.7rem] uppercase tracking-[0.12em] text-text-light/40 transition-colors duration-300 hover:text-text-light\\\",\\\"children\\\":\\\"Instagram\\\"}],[\\\"$\\\",\\\"a\\\",\\\"Terms\\\",{\\\"href\\\":\\\"/terms\\\",\\\"className\\\":\\\"font-mono text-[0.7rem] uppercase tracking-[0.12em] text-text-light/40 transition-colors duration-300 hover:text-text-light\\\",\\\"children\\\":\\\"Terms\\\"}],[\\\"$\\\",\\\"a\\\",\\\"Privacy\\\",{\\\"href\\\":\\\"/privacy\\\",\\\"className\\\":\\\"font-mono text-[0.7rem] uppercase tracking-[0.12em] text-text-light/40 transition-colors duration-300 hover:text-text-light\\\",\\\"children\\\":\\\"Privacy\\\"}],\\\"$Lb\\\"]}],\\\"$Lc\\\"]}]}]]}],\\\"$Ld\\\"]}]}]]}],{\\\"children\\\":[\\\"refunds\\\",\\\"$Le\\\",{\\\"children\\\":[\\\"__PAGE__\\\",\\\"$Lf\\\",{},null,false]},null,false]},null,false],\\\"$L10\\\",false]],\\\"m\\\":\\\"$undefined\\\",\\\"G\\\":[\\\"$11\\\",[]],\\\"s\\\":false,\\\"S\\\":true}\\n\"])",
+      "topLevel": true
+    },
+    {
+      "tag": "script",
+      "attrs": {},
+      "text": "self.__next_f.push([1,\"12:I[1801,[\\\"8898\\\",\\\"static/chunks/8898-bd7fc3860b73e145.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"3395\\\",\\\"static/chunks/3395-a922ab13384c0fd3.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"4950\\\",\\\"static/chunks/4950-7af88951e4bbca8b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"7052\\\",\\\"static/chunks/7052-b1b474a5924de875.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"3409\\\",\\\"static/chunks/3409-f517794a46f3c43f.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"1848\\\",\\\"static/chunks/1848-349fcc2e7a5dac9b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\",\\\"7177\\\",\\\"static/chunks/app/layout-68ee9740bcacb7cc.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC\\\"],\\\"ConsentBanner\\\"]\\n15:I[6050,[],\\\"ViewportBoundary\\\"]\\n17:I[6050,[],\\\"MetadataBoundary\\\"]\\n18:\\\"$Sreact.suspense\\\"\\nb:[\\\"$\\\",\\\"a\\\",\\\"Refunds\\\",{\\\"href\\\":\\\"/refunds\\\",\\\"className\\\":\\\"font-mono text-[0.7rem] uppercase tracking-[0.12em] text-text-light/40 transition-colors duration-300 hover:text-text-light\\\",\\\"children\\\":\\\"Refunds\\\"}]\\nc:[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"font-mono text-[0.65rem] tracking-[0.05em] text-text-light/25\\\",\\\"children\\\":\\\"© 2026 Stairway Audio. Made with love.\\\"}]\\nd:[\\\"$\\\",\\\"$L12\\\",null,{}]\\ne:[\\\"$\\\",\\\"$1\\\",\\\"c\\\",{\\\"children\\\":[null,[\\\"$\\\",\\\"$L9\\\",null,{\\\"parallelRouterKey\\\":\\\"children\\\",\\\"error\\\":\\\"$undefined\\\",\\\"errorStyles\\\":\\\"$undefined\\\",\\\"errorScripts\\\":\\\"$undefined\\\",\\\"template\\\":[\\\"$\\\",\\\"$La\\\",null,{}],\\\"templateStyles\\\":\\\"$undefined\\\",\\\"templateScripts\\\":\\\"$undefined\\\",\\\"notFound\\\":\\\"$undefined\\\",\\\"forbidden\\\":\\\"$undefined\\\",\\\"unauthorized\\\":\\\"$undefined\\\"}]]}]\\n\"])",
+      "topLevel": true
+    },
+    {
+      "tag": "script",
+      "attrs": {},
+      "text": "self.__next_f.push([1,\"f:[\\\"$\\\",\\\"$1\\\",\\\"c\\\",{\\\"children\\\":[[\\\"$\\\",\\\"main\\\",null,{\\\"className\\\":\\\"min-h-screen bg-bg-dark px-8 pb-28 pt-40 text-text-light max-[900px]:px-6 max-[900px]:pt-32\\\",\\\"children\\\":[\\\"$\\\",\\\"article\\\",null,{\\\"className\\\":\\\"mx-auto w-full max-w-[720px]\\\",\\\"children\\\":[[\\\"$\\\",\\\"p\\\",null,{\\\"className\\\":\\\"mb-4 font-mono text-[0.7rem] uppercase tracking-[0.2em] text-accent-gold\\\",\\\"children\\\":\\\"The fine print\\\"}],[\\\"$\\\",\\\"h1\\\",null,{\\\"className\\\":\\\"font-display text-[clamp(2.2rem,5vw,3.5rem)] font-normal leading-tight\\\",\\\"children\\\":\\\"Refund Policy\\\"}],[\\\"$\\\",\\\"p\\\",null,{\\\"className\\\":\\\"mt-4 font-mono text-[0.65rem] uppercase tracking-[0.12em] text-text-light/40\\\",\\\"children\\\":[\\\"Last updated: \\\",\\\"July 22, 2026\\\"]}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"mt-10\\\",\\\"children\\\":[[\\\"$\\\",\\\"section\\\",null,{\\\"className\\\":\\\"mt-10 first:mt-0\\\",\\\"children\\\":[[\\\"$\\\",\\\"h2\\\",null,{\\\"className\\\":\\\"font-display text-[1.35rem] font-normal leading-snug\\\",\\\"children\\\":\\\"The gist\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"mt-3 space-y-3 text-[0.95rem] leading-relaxed text-text-light/70 [\\u0026_a]:text-accent-gold [\\u0026_a]:underline [\\u0026_a]:underline-offset-2 hover:[\\u0026_a]:text-text-light [\\u0026_li]:ml-5 [\\u0026_li]:list-disc [\\u0026_ul]:space-y-2\\\",\\\"children\\\":[\\\"$\\\",\\\"p\\\",null,{\\\"children\\\":[\\\"Our plugins are digital downloads, so we can’t take a download back — but we want you to be happy with your purchase. If something is wrong, email\\\",\\\" \\\",[\\\"$\\\",\\\"a\\\",null,{\\\"href\\\":\\\"mailto:support@stairway.audio\\\",\\\"children\\\":\\\"support@stairway.audio\\\"}],\\\" \\\",\\\"within 14 days of purchase and we’ll make it right.\\\"]}]}]]}],[\\\"$\\\",\\\"section\\\",null,{\\\"className\\\":\\\"mt-10 first:mt-0\\\",\\\"children\\\":[[\\\"$\\\",\\\"h2\\\",null,{\\\"className\\\":\\\"font-display text-[1.35rem] font-normal leading-snug\\\",\\\"children\\\":\\\"When we refund\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"mt-3 space-y-3 text-[0.95rem] leading-relaxed text-text-light/70 [\\u0026_a]:text-accent-gold [\\u0026_a]:underline [\\u0026_a]:underline-offset-2 hover:[\\u0026_a]:text-text-light [\\u0026_li]:ml-5 [\\u0026_li]:list-disc [\\u0026_ul]:space-y-2\\\",\\\"children\\\":[[\\\"$\\\",\\\"ul\\\",null,{\\\"children\\\":[[\\\"$\\\",\\\"li\\\",null,{\\\"children\\\":\\\"A technical problem stops the plugin from working on a supported system and our support can’t resolve it with you.\\\"}],[\\\"$\\\",\\\"li\\\",null,{\\\"children\\\":\\\"The product is materially not as described.\\\"}],[\\\"$\\\",\\\"li\\\",null,{\\\"children\\\":\\\"You were charged twice, or bought the same plugin twice.\\\"}]]}],[\\\"$\\\",\\\"p\\\",null,{\\\"children\\\":\\\"Outside those cases refunds are at our discretion — write to us and explain what happened; we’re reasonable people.\\\"}]]}]]}],[\\\"$\\\",\\\"section\\\",null,{\\\"className\\\":\\\"mt-10 first:mt-0\\\",\\\"children\\\":[[\\\"$\\\",\\\"h2\\\",null,{\\\"className\\\":\\\"font-display text-[1.35rem] font-normal leading-snug\\\",\\\"children\\\":\\\"EU \\u0026 UK buyers\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"mt-3 space-y-3 text-[0.95rem] leading-relaxed text-text-light/70 [\\u0026_a]:text-accent-gold [\\u0026_a]:underline [\\u0026_a]:underline-offset-2 hover:[\\u0026_a]:text-text-light [\\u0026_li]:ml-5 [\\u0026_li]:list-disc [\\u0026_ul]:space-y-2\\\",\\\"children\\\":[\\\"$\\\",\\\"p\\\",null,{\\\"children\\\":\\\"By completing checkout you request immediate delivery of digital content and acknowledge that the statutory 14-day right of withdrawal ends once delivery has begun. Your statutory remedies for faulty digital content are unaffected by this policy.\\\"}]}]]}],[\\\"$\\\",\\\"section\\\",null,{\\\"className\\\":\\\"mt-10 first:mt-0\\\",\\\"children\\\":[[\\\"$\\\",\\\"h2\\\",null,{\\\"className\\\":\\\"font-display text-[1.35rem] font-normal leading-snug\\\",\\\"children\\\":\\\"How to request one\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"mt-3 space-y-3 text-[0.95rem] leading-relaxed text-text-light/70 [\\u0026_a]:text-accent-gold [\\u0026_a]:underline [\\u0026_a]:underline-offset-2 hover:[\\u0026_a]:text-text-light [\\u0026_li]:ml-5 [\\u0026_li]:list-disc [\\u0026_ul]:space-y-2\\\",\\\"children\\\":[\\\"$\\\",\\\"p\\\",null,{\\\"children\\\":[\\\"Email\\\",\\\" \\\",[\\\"$\\\",\\\"a\\\",null,{\\\"href\\\":\\\"mailto:support@stairway.audio\\\",\\\"children\\\":\\\"support@stairway.audio\\\"}],\\\" \\\",\\\"from the address you used at checkout and include your Stripe receipt (or the order reference from your delivery email). Approved refunds go back to your original payment method via Stripe, typically within 5–10 business days.\\\"]}]}]]}],\\\"$L13\\\"]}]]}]}],null,\\\"$L14\\\"]}]\\n\"])",
+      "topLevel": true
+    },
+    {
+      "tag": "script",
+      "attrs": {},
+      "text": "self.__next_f.push([1,\"10:[\\\"$\\\",\\\"$1\\\",\\\"h\\\",{\\\"children\\\":[null,[[\\\"$\\\",\\\"$L15\\\",null,{\\\"children\\\":\\\"$L16\\\"}],[\\\"$\\\",\\\"meta\\\",null,{\\\"name\\\":\\\"next-size-adjust\\\",\\\"content\\\":\\\"\\\"}]],[\\\"$\\\",\\\"$L17\\\",null,{\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"hidden\\\":true,\\\"children\\\":[\\\"$\\\",\\\"$18\\\",null,{\\\"fallback\\\":null,\\\"children\\\":\\\"$L19\\\"}]}]}]]}]\\n\"])",
+      "topLevel": true
+    },
+    {
+      "tag": "script",
+      "attrs": {},
+      "text": "self.__next_f.push([1,\"1a:I[6050,[],\\\"OutletBoundary\\\"]\\n1c:I[9479,[],\\\"AsyncMetadataOutlet\\\"]\\n\"])",
+      "topLevel": true
+    },
+    {
+      "tag": "script",
+      "attrs": {},
+      "text": "self.__next_f.push([1,\"13:[\\\"$\\\",\\\"section\\\",null,{\\\"className\\\":\\\"mt-10 first:mt-0\\\",\\\"children\\\":[[\\\"$\\\",\\\"h2\\\",null,{\\\"className\\\":\\\"font-display text-[1.35rem] font-normal leading-snug\\\",\\\"children\\\":\\\"Lost or expired download links\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"mt-3 space-y-3 text-[0.95rem] leading-relaxed text-text-light/70 [\\u0026_a]:text-accent-gold [\\u0026_a]:underline [\\u0026_a]:underline-offset-2 hover:[\\u0026_a]:text-text-light [\\u0026_li]:ml-5 [\\u0026_li]:list-disc [\\u0026_ul]:space-y-2\\\",\\\"children\\\":[\\\"$\\\",\\\"p\\\",null,{\\\"children\\\":[\\\"Download links expire 7 days after purchase. That’s not a refund matter — just email\\\",\\\" \\\",[\\\"$\\\",\\\"a\\\",null,{\\\"href\\\":\\\"mailto:support@stairway.audio\\\",\\\"children\\\":\\\"support@stairway.audio\\\"}],\\\" \\\",\\\"and we’ll re-send fresh links.\\\"]}]}]]}]\\n\"])",
+      "topLevel": true
+    },
+    {
+      "tag": "script",
+      "attrs": {},
+      "text": "self.__next_f.push([1,\"14:[\\\"$\\\",\\\"$L1a\\\",null,{\\\"children\\\":[\\\"$L1b\\\",[\\\"$\\\",\\\"$L1c\\\",null,{\\\"promise\\\":\\\"$@1d\\\"}]]}]\\n\"])",
+      "topLevel": true
+    },
+    {
+      "tag": "script",
+      "attrs": {},
+      "text": "self.__next_f.push([1,\"16:[[\\\"$\\\",\\\"meta\\\",\\\"0\\\",{\\\"charSet\\\":\\\"utf-8\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"1\\\",{\\\"name\\\":\\\"viewport\\\",\\\"content\\\":\\\"width=device-width, initial-scale=1\\\"}]]\\n\"])",
+      "topLevel": true
+    },
+    {
+      "tag": "script",
+      "attrs": {},
+      "text": "self.__next_f.push([1,\"1b:null\\n\"])",
+      "topLevel": true
+    },
+    {
+      "tag": "script",
+      "attrs": {},
+      "text": "self.__next_f.push([1,\"1e:I[1319,[],\\\"IconMark\\\"]\\n\"])",
+      "topLevel": true
+    },
+    {
+      "tag": "script",
+      "attrs": {},
+      "text": "self.__next_f.push([1,\"1d:{\\\"metadata\\\":[[\\\"$\\\",\\\"title\\\",\\\"0\\\",{\\\"children\\\":\\\"Refund Policy · Stairway Audio\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"1\\\",{\\\"name\\\":\\\"description\\\",\\\"content\\\":\\\"How refunds work for Stairway Audio digital plugin purchases.\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"2\\\",{\\\"name\\\":\\\"application-name\\\",\\\"content\\\":\\\"Stairway Audio\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"3\\\",{\\\"name\\\":\\\"keywords\\\",\\\"content\\\":\\\"Stairway Audio,analog synth sampler,VST,AU,plugin,Oberheim OB-Xa,Behringer UB-Xa,Korg Minilogue,SA-S1,SA-S2\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"4\\\",{\\\"property\\\":\\\"og:title\\\",\\\"content\\\":\\\"Stairway Audio. Analog Tone. Digital Soul.\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"5\\\",{\\\"property\\\":\\\"og:description\\\",\\\"content\\\":\\\"Real analog samples from legendary synthesizers, mapped into lightweight modern plug-ins. Load, play, create.\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"6\\\",{\\\"property\\\":\\\"og:url\\\",\\\"content\\\":\\\"https://stairway.audio\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"7\\\",{\\\"property\\\":\\\"og:site_name\\\",\\\"content\\\":\\\"Stairway Audio\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"8\\\",{\\\"property\\\":\\\"og:image:alt\\\",\\\"content\\\":\\\"Stairway Audio. Analog Tone. Digital Soul.\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"9\\\",{\\\"property\\\":\\\"og:image:type\\\",\\\"content\\\":\\\"image/png\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"10\\\",{\\\"property\\\":\\\"og:image\\\",\\\"content\\\":\\\"https://stairway.audio/opengraph-image?83428c16fecfa0dc\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"11\\\",{\\\"property\\\":\\\"og:image:width\\\",\\\"content\\\":\\\"1200\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"12\\\",{\\\"property\\\":\\\"og:image:height\\\",\\\"content\\\":\\\"630\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"13\\\",{\\\"property\\\":\\\"og:type\\\",\\\"content\\\":\\\"website\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"14\\\",{\\\"name\\\":\\\"twitter:card\\\",\\\"content\\\":\\\"summary_large_image\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"15\\\",{\\\"name\\\":\\\"twitter:title\\\",\\\"content\\\":\\\"Stairway Audio. Analog Tone. Digital Soul.\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"16\\\",{\\\"name\\\":\\\"twitter:description\\\",\\\"content\\\":\\\"Real analog samples from legendary synthesizers, mapped into lightweight modern plug-ins. Load, play, create.\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"17\\\",{\\\"name\\\":\\\"twitter:image:alt\\\",\\\"content\\\":\\\"Stairway Audio. Analog Tone. Digital Soul.\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"18\\\",{\\\"name\\\":\\\"twitter:image:type\\\",\\\"content\\\":\\\"image/png\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"19\\\",{\\\"name\\\":\\\"twitter:image\\\",\\\"content\\\":\\\"https://stairway.audio/opengraph-image?83428c16fecfa0dc\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"20\\\",{\\\"name\\\":\\\"twitter:image:width\\\",\\\"content\\\":\\\"1200\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"21\\\",{\\\"name\\\":\\\"twitter:image:height\\\",\\\"content\\\":\\\"630\\\"}],[\\\"$\\\",\\\"link\\\",\\\"22\\\",{\\\"rel\\\":\\\"icon\\\",\\\"href\\\":\\\"/icon.svg?a4247f49e3b1043a\\\",\\\"type\\\":\\\"image/svg+xml\\\",\\\"sizes\\\":\\\"any\\\"}],[\\\"$\\\",\\\"link\\\",\\\"23\\\",{\\\"rel\\\":\\\"apple-touch-icon\\\",\\\"href\\\":\\\"/apple-icon?119aaa2511e9eaf3\\\",\\\"alt\\\":\\\"$undefined\\\",\\\"type\\\":\\\"image/png\\\",\\\"sizes\\\":\\\"180x180\\\"}],[\\\"$\\\",\\\"$L1e\\\",\\\"24\\\",{}]],\\\"error\\\":null,\\\"digest\\\":\\\"$undefined\\\"}\\n\"])",
+      "topLevel": true
+    },
+    {
+      "tag": "script",
+      "attrs": {},
+      "text": "self.__next_f.push([1,\"19:\\\"$1d:metadata\\\"\\n\"])",
+      "topLevel": true
+    }
+  ]
+}

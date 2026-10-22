@@ -1,0 +1,748 @@
+[
+  {
+    "id": "0",
+    "tag": "a",
+    "className": "flex items-center",
+    "text": "",
+    "href": "/",
+    "changes": []
+  },
+  {
+    "id": "1",
+    "tag": "a",
+    "className": "font-mono text-[0.72rem] uppercase tracking-[0.15em] text-white/70 transition-colors duration-300 hover:text-white",
+    "text": "Plugins",
+    "href": "/shop",
+    "changes": [
+      {
+        "node": 0,
+        "prop": "color",
+        "from": "rgba(255, 255, 255, 0.7)",
+        "to": "rgb(255, 255, 255)"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "tag": "a",
+    "className": "font-mono text-[0.72rem] uppercase tracking-[0.15em] text-white/70 transition-colors duration-300 hover:text-white",
+    "text": "Explore",
+    "href": "/#explore",
+    "changes": [
+      {
+        "node": 0,
+        "prop": "color",
+        "from": "rgba(255, 255, 255, 0.7)",
+        "to": "rgb(255, 255, 255)"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "tag": "a",
+    "className": "font-mono text-[0.72rem] uppercase tracking-[0.15em] text-white/70 transition-colors duration-300 hover:text-white",
+    "text": "Support",
+    "href": "/support",
+    "changes": [
+      {
+        "node": 0,
+        "prop": "color",
+        "from": "rgba(255, 255, 255, 0.7)",
+        "to": "rgb(255, 255, 255)"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "tag": "button",
+    "className": "flex items-center gap-2 font-mono text-[0.72rem] uppercase tracking-[0.15em] text-white transition-opacity duration-300 hover:opacity-70 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-gold focus-visible:ring-offset-2 focus-visible:ring-offset-transparent",
+    "text": "Bag0",
+    "href": null,
+    "changes": [
+      {
+        "node": 0,
+        "prop": "opacity",
+        "from": "1",
+        "to": "0.7"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "tag": "button",
+    "className": "flex items-center gap-2 font-mono text-[0.7rem] uppercase tracking-[0.15em] text-white/60 transition-colors hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-gold",
+    "text": "Close",
+    "href": null,
+    "changes": []
+  },
+  {
+    "id": "6",
+    "tag": "a",
+    "className": "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-pill font-mono text-xs uppercase tracking-[0.12em] transition-all duration-300 cursor-pointer disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-gold focus-visible:ring-offset-2 focus-visible:ring-offset-transparent [&_svg]:pointer-events-none [&_svg]:size-3.5 [&_svg]:shrink-0 border border-[color:color-mix(in_srgb,currentColor_30%,transparent)] bg-transparent hover:border-terracotta hover:bg-terracotta hover:text-white px-[1.8rem] py-[0.9rem]",
+    "text": "Browse plugins",
+    "href": "/shop",
+    "changes": []
+  },
+  {
+    "id": "7",
+    "tag": "a",
+    "className": "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-pill font-mono text-xs uppercase tracking-[0.12em] transition-all duration-300 cursor-pointer disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-gold focus-visible:ring-offset-2 focus-visible:ring-offset-transparent [&_svg]:pointer-events-none [&_svg]:size-3.5 [&_svg]:shrink-0 border border-white/30 bg-white/10 text-white backdrop-blur-md hover:border-white hover:bg-white hover:text-text-dark px-[1.8rem] py-[0.9rem]",
+    "text": "Shop Plugins",
+    "href": "/shop",
+    "changes": [
+      {
+        "node": 0,
+        "prop": "color",
+        "from": "rgb(255, 255, 255)",
+        "to": "rgb(26, 23, 20)"
+      },
+      {
+        "node": 0,
+        "prop": "backgroundColor",
+        "from": "rgba(255, 255, 255, 0.1)",
+        "to": "rgb(255, 255, 255)"
+      },
+      {
+        "node": 0,
+        "prop": "borderColor",
+        "from": "rgba(255, 255, 255, 0.3)",
+        "to": "rgb(255, 255, 255)"
+      },
+      {
+        "node": 1,
+        "prop": "color",
+        "from": "rgb(255, 255, 255)",
+        "to": "rgb(26, 23, 20)"
+      },
+      {
+        "node": 2,
+        "prop": "color",
+        "from": "rgb(255, 255, 255)",
+        "to": "rgb(26, 23, 20)"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "tag": "button",
+    "className": "absolute inset-0 flex items-center justify-center bg-bg-dark/45 backdrop-blur-[1px] transition-colors hover:bg-bg-dark/25 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-gold disabled:cursor-default rounded-2xl shadow-[0_60px_120px_rgba(0,0,0,0.4)]",
+    "text": "Play SA-S1",
+    "href": null,
+    "changes": [
+      {
+        "node": 0,
+        "prop": "backgroundColor",
+        "from": "rgba(26, 23, 20, 0.45)",
+        "to": "rgba(26, 23, 20, 0.25)"
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "tag": "a",
+    "className": "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-pill font-mono text-xs uppercase tracking-[0.12em] transition-all duration-300 cursor-pointer disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-gold focus-visible:ring-offset-2 focus-visible:ring-offset-transparent [&_svg]:pointer-events-none [&_svg]:size-3.5 [&_svg]:shrink-0 border border-white/30 bg-white/10 text-white backdrop-blur-md hover:border-white hover:bg-white hover:text-text-dark px-[1.8rem] py-[0.9rem]",
+    "text": "Shop All",
+    "href": "/shop",
+    "changes": [
+      {
+        "node": 0,
+        "prop": "color",
+        "from": "rgb(255, 255, 255)",
+        "to": "rgb(26, 23, 20)"
+      },
+      {
+        "node": 0,
+        "prop": "backgroundColor",
+        "from": "rgba(255, 255, 255, 0.1)",
+        "to": "rgb(255, 255, 255)"
+      },
+      {
+        "node": 0,
+        "prop": "borderColor",
+        "from": "rgba(255, 255, 255, 0.3)",
+        "to": "rgb(255, 255, 255)"
+      },
+      {
+        "node": 1,
+        "prop": "color",
+        "from": "rgb(255, 255, 255)",
+        "to": "rgb(26, 23, 20)"
+      },
+      {
+        "node": 2,
+        "prop": "color",
+        "from": "rgb(255, 255, 255)",
+        "to": "rgb(26, 23, 20)"
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "tag": "a",
+    "className": "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-pill font-mono text-xs uppercase tracking-[0.12em] transition-all duration-300 cursor-pointer disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-gold focus-visible:ring-offset-2 focus-visible:ring-offset-transparent [&_svg]:pointer-events-none [&_svg]:size-3.5 [&_svg]:shrink-0 border border-[color:color-mix(in_srgb,currentColor_30%,transparent)] bg-transparent hover:border-terracotta hover:bg-terracotta hover:text-white px-[1.8rem] py-[0.9rem]",
+    "text": "Learn More",
+    "href": "#explore",
+    "changes": [
+      {
+        "node": 0,
+        "prop": "color",
+        "from": "rgb(26, 23, 20)",
+        "to": "rgb(255, 255, 255)"
+      },
+      {
+        "node": 0,
+        "prop": "backgroundColor",
+        "from": "rgba(0, 0, 0, 0)",
+        "to": "rgb(184, 92, 56)"
+      },
+      {
+        "node": 0,
+        "prop": "borderColor",
+        "from": "color(srgb 0.101961 0.0901961 0.0784314 / 0.3)",
+        "to": "rgb(184, 92, 56)"
+      },
+      {
+        "node": 1,
+        "prop": "color",
+        "from": "rgb(26, 23, 20)",
+        "to": "rgb(255, 255, 255)"
+      },
+      {
+        "node": 2,
+        "prop": "color",
+        "from": "rgb(26, 23, 20)",
+        "to": "rgb(255, 255, 255)"
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "tag": "a",
+    "className": "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-pill font-mono text-xs uppercase tracking-[0.12em] transition-all duration-300 cursor-pointer disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-gold focus-visible:ring-offset-2 focus-visible:ring-offset-transparent [&_svg]:pointer-events-none [&_svg]:size-3.5 [&_svg]:shrink-0 border border-[color:color-mix(in_srgb,currentColor_30%,transparent)] bg-transparent hover:border-terracotta hover:bg-terracotta hover:text-white px-[1.8rem] py-[0.9rem]",
+    "text": "Learn More",
+    "href": "#explore",
+    "changes": [
+      {
+        "node": 0,
+        "prop": "color",
+        "from": "rgb(245, 240, 232)",
+        "to": "rgb(255, 255, 255)"
+      },
+      {
+        "node": 0,
+        "prop": "backgroundColor",
+        "from": "rgba(0, 0, 0, 0)",
+        "to": "rgb(184, 92, 56)"
+      },
+      {
+        "node": 0,
+        "prop": "borderColor",
+        "from": "color(srgb 0.960784 0.941176 0.909804 / 0.3)",
+        "to": "rgb(184, 92, 56)"
+      },
+      {
+        "node": 1,
+        "prop": "color",
+        "from": "rgb(245, 240, 232)",
+        "to": "rgb(255, 255, 255)"
+      },
+      {
+        "node": 2,
+        "prop": "color",
+        "from": "rgb(245, 240, 232)",
+        "to": "rgb(255, 255, 255)"
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "tag": "button",
+    "className": "cursor-pointer border-b-2 px-8 py-4 font-mono text-[0.75rem] uppercase tracking-[0.12em] transition-all duration-300 border-accent-gold text-text-light",
+    "text": "SA-S1",
+    "href": null,
+    "changes": []
+  },
+  {
+    "id": "13",
+    "tag": "button",
+    "className": "cursor-pointer border-b-2 px-8 py-4 font-mono text-[0.75rem] uppercase tracking-[0.12em] transition-all duration-300 border-transparent text-text-light/35 hover:text-text-light/70",
+    "text": "SA-S2",
+    "href": null,
+    "changes": [
+      {
+        "node": 0,
+        "prop": "color",
+        "from": "rgba(245, 240, 232, 0.35)",
+        "to": "rgba(245, 240, 232, 0.7)"
+      }
+    ]
+  },
+  {
+    "id": "14",
+    "tag": "button",
+    "className": "absolute z-[5] flex h-7 w-7 items-center justify-center rounded-full font-mono text-[0.6rem] font-bold transition-all duration-300 hover:scale-[1.3] hover:shadow-[0_0_20px_rgba(230,126,34,0.5)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white bg-white text-bg-dark scale-[1.3] shadow-[0_0_20px_rgba(230,126,34,0.5)]",
+    "text": "1",
+    "href": null,
+    "changes": []
+  },
+  {
+    "id": "15",
+    "tag": "button",
+    "className": "absolute z-[5] flex h-7 w-7 items-center justify-center rounded-full font-mono text-[0.6rem] font-bold transition-all duration-300 hover:scale-[1.3] hover:shadow-[0_0_20px_rgba(230,126,34,0.5)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white bg-orange text-white ",
+    "text": "2",
+    "href": null,
+    "changes": [
+      {
+        "node": 0,
+        "prop": "transform",
+        "from": "none",
+        "to": "matrix(1.3, 0, 0, 1.3, 0, 0)"
+      },
+      {
+        "node": 0,
+        "prop": "boxShadow",
+        "from": "none",
+        "to": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(230, 126, 34, 0.5) 0px 0px 20px 0px"
+      }
+    ]
+  },
+  {
+    "id": "16",
+    "tag": "button",
+    "className": "absolute z-[5] flex h-7 w-7 items-center justify-center rounded-full font-mono text-[0.6rem] font-bold transition-all duration-300 hover:scale-[1.3] hover:shadow-[0_0_20px_rgba(230,126,34,0.5)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white bg-orange text-white ",
+    "text": "3",
+    "href": null,
+    "changes": [
+      {
+        "node": 0,
+        "prop": "transform",
+        "from": "none",
+        "to": "matrix(1.3, 0, 0, 1.3, 0, 0)"
+      },
+      {
+        "node": 0,
+        "prop": "boxShadow",
+        "from": "none",
+        "to": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(230, 126, 34, 0.5) 0px 0px 20px 0px"
+      }
+    ]
+  },
+  {
+    "id": "17",
+    "tag": "button",
+    "className": "absolute z-[5] flex h-7 w-7 items-center justify-center rounded-full font-mono text-[0.6rem] font-bold transition-all duration-300 hover:scale-[1.3] hover:shadow-[0_0_20px_rgba(230,126,34,0.5)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white bg-orange text-white ",
+    "text": "4",
+    "href": null,
+    "changes": [
+      {
+        "node": 0,
+        "prop": "transform",
+        "from": "none",
+        "to": "matrix(1.3, 0, 0, 1.3, 0, 0)"
+      },
+      {
+        "node": 0,
+        "prop": "boxShadow",
+        "from": "none",
+        "to": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(230, 126, 34, 0.5) 0px 0px 20px 0px"
+      }
+    ]
+  },
+  {
+    "id": "18",
+    "tag": "button",
+    "className": "absolute z-[5] flex h-7 w-7 items-center justify-center rounded-full font-mono text-[0.6rem] font-bold transition-all duration-300 hover:scale-[1.3] hover:shadow-[0_0_20px_rgba(230,126,34,0.5)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white bg-orange text-white ",
+    "text": "5",
+    "href": null,
+    "changes": [
+      {
+        "node": 0,
+        "prop": "transform",
+        "from": "none",
+        "to": "matrix(1.3, 0, 0, 1.3, 0, 0)"
+      },
+      {
+        "node": 0,
+        "prop": "boxShadow",
+        "from": "none",
+        "to": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(230, 126, 34, 0.5) 0px 0px 20px 0px"
+      }
+    ]
+  },
+  {
+    "id": "19",
+    "tag": "button",
+    "className": "absolute z-[5] flex h-7 w-7 items-center justify-center rounded-full font-mono text-[0.6rem] font-bold transition-all duration-300 hover:scale-[1.3] hover:shadow-[0_0_20px_rgba(230,126,34,0.5)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white bg-accent-red text-white ",
+    "text": "6",
+    "href": null,
+    "changes": [
+      {
+        "node": 0,
+        "prop": "transform",
+        "from": "none",
+        "to": "matrix(1.3, 0, 0, 1.3, 0, 0)"
+      },
+      {
+        "node": 0,
+        "prop": "boxShadow",
+        "from": "none",
+        "to": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(230, 126, 34, 0.5) 0px 0px 20px 0px"
+      }
+    ]
+  },
+  {
+    "id": "20",
+    "tag": "button",
+    "className": "absolute z-[5] flex h-7 w-7 items-center justify-center rounded-full font-mono text-[0.6rem] font-bold transition-all duration-300 hover:scale-[1.3] hover:shadow-[0_0_20px_rgba(230,126,34,0.5)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white bg-accent-red text-white ",
+    "text": "7",
+    "href": null,
+    "changes": [
+      {
+        "node": 0,
+        "prop": "transform",
+        "from": "none",
+        "to": "matrix(1.3, 0, 0, 1.3, 0, 0)"
+      },
+      {
+        "node": 0,
+        "prop": "boxShadow",
+        "from": "none",
+        "to": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(230, 126, 34, 0.5) 0px 0px 20px 0px"
+      }
+    ]
+  },
+  {
+    "id": "21",
+    "tag": "button",
+    "className": "absolute z-[5] flex h-7 w-7 items-center justify-center rounded-full font-mono text-[0.6rem] font-bold transition-all duration-300 hover:scale-[1.3] hover:shadow-[0_0_20px_rgba(230,126,34,0.5)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white bg-accent-red text-white ",
+    "text": "8",
+    "href": null,
+    "changes": [
+      {
+        "node": 0,
+        "prop": "transform",
+        "from": "none",
+        "to": "matrix(1.3, 0, 0, 1.3, 0, 0)"
+      },
+      {
+        "node": 0,
+        "prop": "boxShadow",
+        "from": "none",
+        "to": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(230, 126, 34, 0.5) 0px 0px 20px 0px"
+      }
+    ]
+  },
+  {
+    "id": "22",
+    "tag": "button",
+    "className": "absolute z-[5] flex h-7 w-7 items-center justify-center rounded-full font-mono text-[0.6rem] font-bold transition-all duration-300 hover:scale-[1.3] hover:shadow-[0_0_20px_rgba(230,126,34,0.5)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white bg-accent-red text-white ",
+    "text": "9",
+    "href": null,
+    "changes": [
+      {
+        "node": 0,
+        "prop": "transform",
+        "from": "none",
+        "to": "matrix(1.3, 0, 0, 1.3, 0, 0)"
+      },
+      {
+        "node": 0,
+        "prop": "boxShadow",
+        "from": "none",
+        "to": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(230, 126, 34, 0.5) 0px 0px 20px 0px"
+      }
+    ]
+  },
+  {
+    "id": "23",
+    "tag": "button",
+    "className": "absolute z-[5] flex h-7 w-7 items-center justify-center rounded-full font-mono text-[0.6rem] font-bold transition-all duration-300 hover:scale-[1.3] hover:shadow-[0_0_20px_rgba(230,126,34,0.5)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white bg-orange text-white ",
+    "text": "10",
+    "href": null,
+    "changes": [
+      {
+        "node": 0,
+        "prop": "transform",
+        "from": "none",
+        "to": "matrix(1.3, 0, 0, 1.3, 0, 0)"
+      },
+      {
+        "node": 0,
+        "prop": "boxShadow",
+        "from": "none",
+        "to": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(230, 126, 34, 0.5) 0px 0px 20px 0px"
+      }
+    ]
+  },
+  {
+    "id": "24",
+    "tag": "button",
+    "className": "absolute z-[5] flex h-7 w-7 items-center justify-center rounded-full font-mono text-[0.6rem] font-bold transition-all duration-300 hover:scale-[1.3] hover:shadow-[0_0_20px_rgba(230,126,34,0.5)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white bg-orange text-white ",
+    "text": "11",
+    "href": null,
+    "changes": [
+      {
+        "node": 0,
+        "prop": "transform",
+        "from": "none",
+        "to": "matrix(1.3, 0, 0, 1.3, 0, 0)"
+      },
+      {
+        "node": 0,
+        "prop": "boxShadow",
+        "from": "none",
+        "to": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(230, 126, 34, 0.5) 0px 0px 20px 0px"
+      }
+    ]
+  },
+  {
+    "id": "25",
+    "tag": "button",
+    "className": "absolute z-[5] flex h-7 w-7 items-center justify-center rounded-full font-mono text-[0.6rem] font-bold transition-all duration-300 hover:scale-[1.3] hover:shadow-[0_0_20px_rgba(230,126,34,0.5)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white bg-orange text-white ",
+    "text": "12",
+    "href": null,
+    "changes": [
+      {
+        "node": 0,
+        "prop": "transform",
+        "from": "none",
+        "to": "matrix(1.3, 0, 0, 1.3, 0, 0)"
+      },
+      {
+        "node": 0,
+        "prop": "boxShadow",
+        "from": "none",
+        "to": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(230, 126, 34, 0.5) 0px 0px 20px 0px"
+      }
+    ]
+  },
+  {
+    "id": "26",
+    "tag": "button",
+    "className": "absolute z-[5] flex h-7 w-7 items-center justify-center rounded-full font-mono text-[0.6rem] font-bold transition-all duration-300 hover:scale-[1.3] hover:shadow-[0_0_20px_rgba(230,126,34,0.5)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white bg-orange text-white ",
+    "text": "13",
+    "href": null,
+    "changes": [
+      {
+        "node": 0,
+        "prop": "transform",
+        "from": "none",
+        "to": "matrix(1.3, 0, 0, 1.3, 0, 0)"
+      },
+      {
+        "node": 0,
+        "prop": "boxShadow",
+        "from": "none",
+        "to": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(230, 126, 34, 0.5) 0px 0px 20px 0px"
+      }
+    ]
+  },
+  {
+    "id": "27",
+    "tag": "button",
+    "className": "flex h-9 w-9 items-center justify-center rounded-full border border-text-light/20 text-base text-text-light transition-all duration-300 hover:border-text-light hover:bg-text-light/5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-text-light",
+    "text": "←",
+    "href": null,
+    "changes": [
+      {
+        "node": 0,
+        "prop": "backgroundColor",
+        "from": "rgba(0, 0, 0, 0)",
+        "to": "rgba(245, 240, 232, 0.05)"
+      },
+      {
+        "node": 0,
+        "prop": "borderColor",
+        "from": "rgba(245, 240, 232, 0.2)",
+        "to": "rgb(245, 240, 232)"
+      }
+    ]
+  },
+  {
+    "id": "28",
+    "tag": "button",
+    "className": "flex h-9 w-9 items-center justify-center rounded-full border border-text-light/20 text-base text-text-light transition-all duration-300 hover:border-text-light hover:bg-text-light/5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-text-light",
+    "text": "→",
+    "href": null,
+    "changes": [
+      {
+        "node": 0,
+        "prop": "backgroundColor",
+        "from": "rgba(0, 0, 0, 0)",
+        "to": "rgba(245, 240, 232, 0.05)"
+      },
+      {
+        "node": 0,
+        "prop": "borderColor",
+        "from": "rgba(245, 240, 232, 0.2)",
+        "to": "rgb(245, 240, 232)"
+      }
+    ]
+  },
+  {
+    "id": "29",
+    "tag": "button",
+    "className": "inline-flex items-center gap-2 rounded-pill bg-terracotta px-7 py-3 font-mono text-[0.7rem] uppercase tracking-[0.15em] text-text-light transition-colors hover:bg-terracotta-light focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-gold disabled:cursor-default disabled:opacity-60",
+    "text": "Try SA-S1 now",
+    "href": null,
+    "changes": [
+      {
+        "node": 0,
+        "prop": "backgroundColor",
+        "from": "rgb(184, 92, 56)",
+        "to": "rgb(196, 106, 58)"
+      }
+    ]
+  },
+  {
+    "id": "30",
+    "tag": "button",
+    "className": "absolute left-1/2 top-1/2 aspect-square w-[440px] overflow-hidden rounded-xl bg-card-dark shadow-[0_35px_70px_rgba(0,0,0,0.35)] transition-all duration-500 ease-out focus-visible:outline-none max-[700px]:w-[260px] opacity-100  brightness-[0.55]",
+    "text": "",
+    "href": null,
+    "changes": []
+  },
+  {
+    "id": "31",
+    "tag": "button",
+    "className": "absolute left-1/2 top-1/2 aspect-square w-[440px] overflow-hidden rounded-xl bg-card-dark shadow-[0_35px_70px_rgba(0,0,0,0.35)] transition-all duration-500 ease-out focus-visible:outline-none max-[700px]:w-[260px] opacity-100 cursor-pointer ",
+    "text": "",
+    "href": null,
+    "changes": []
+  },
+  {
+    "id": "32",
+    "tag": "button",
+    "className": "absolute left-1/2 top-1/2 aspect-square w-[440px] overflow-hidden rounded-xl bg-card-dark shadow-[0_35px_70px_rgba(0,0,0,0.35)] transition-all duration-500 ease-out focus-visible:outline-none max-[700px]:w-[260px] opacity-100  brightness-[0.55]",
+    "text": "",
+    "href": null,
+    "changes": []
+  },
+  {
+    "id": "33",
+    "tag": "button",
+    "className": "absolute left-1/2 top-1/2 aspect-square w-[440px] overflow-hidden rounded-xl bg-card-dark shadow-[0_35px_70px_rgba(0,0,0,0.35)] transition-all duration-500 ease-out focus-visible:outline-none max-[700px]:w-[260px] opacity-100  brightness-[0.55]",
+    "text": "",
+    "href": null,
+    "changes": []
+  },
+  {
+    "id": "34",
+    "tag": "button",
+    "className": "absolute left-1/2 top-1/2 aspect-square w-[440px] overflow-hidden rounded-xl bg-card-dark shadow-[0_35px_70px_rgba(0,0,0,0.35)] transition-all duration-500 ease-out focus-visible:outline-none max-[700px]:w-[260px] pointer-events-none opacity-0  brightness-[0.55]",
+    "text": "",
+    "href": null,
+    "changes": []
+  },
+  {
+    "id": "35",
+    "tag": "button",
+    "className": "absolute left-0 top-1/2 -translate-y-1/2 rounded-full border border-text-dark/25 bg-cream/60 px-4 py-3 font-mono text-sm text-text-dark backdrop-blur transition-all hover:bg-cream disabled:opacity-30 max-[700px]:hidden",
+    "text": "←",
+    "href": null,
+    "changes": [
+      {
+        "node": 0,
+        "prop": "backgroundColor",
+        "from": "rgba(240, 232, 216, 0.6)",
+        "to": "rgb(240, 232, 216)"
+      }
+    ]
+  },
+  {
+    "id": "36",
+    "tag": "button",
+    "className": "absolute right-0 top-1/2 -translate-y-1/2 rounded-full border border-text-dark/25 bg-cream/60 px-4 py-3 font-mono text-sm text-text-dark backdrop-blur transition-all hover:bg-cream disabled:opacity-30 max-[700px]:hidden",
+    "text": "→",
+    "href": null,
+    "changes": [
+      {
+        "node": 0,
+        "prop": "backgroundColor",
+        "from": "rgba(240, 232, 216, 0.6)",
+        "to": "rgb(240, 232, 216)"
+      }
+    ]
+  },
+  {
+    "id": "37",
+    "tag": "button",
+    "className": "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-pill font-mono text-xs uppercase tracking-[0.12em] transition-all duration-300 cursor-pointer disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-gold focus-visible:ring-offset-2 focus-visible:ring-offset-transparent [&_svg]:pointer-events-none [&_svg]:size-3.5 [&_svg]:shrink-0 bg-text-light text-text-dark hover:bg-white hover:-translate-y-0.5 hover:shadow-[0_8px_25px_rgba(0,0,0,0.2)] px-5 py-2.5 max-[700px]:px-4 max-[700px]:py-2 max-[700px]:text-[0.62rem]",
+    "text": "Add to Bag",
+    "href": null,
+    "changes": [
+      {
+        "node": 0,
+        "prop": "transform",
+        "from": "none",
+        "to": "matrix(1, 0, 0, 1, 0, -2)"
+      },
+      {
+        "node": 0,
+        "prop": "backgroundColor",
+        "from": "rgb(245, 240, 232)",
+        "to": "rgb(255, 255, 255)"
+      },
+      {
+        "node": 0,
+        "prop": "boxShadow",
+        "from": "none",
+        "to": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.2) 0px 8px 25px 0px"
+      }
+    ]
+  },
+  {
+    "id": "38",
+    "tag": "a",
+    "className": "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-pill font-mono text-xs uppercase tracking-[0.12em] transition-all duration-300 cursor-pointer disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-gold focus-visible:ring-offset-2 focus-visible:ring-offset-transparent [&_svg]:pointer-events-none [&_svg]:size-3.5 [&_svg]:shrink-0 border bg-transparent hover:border-terracotta hover:bg-terracotta hover:text-white px-5 py-2.5 border-white/40 text-white max-[700px]:px-4 max-[700px]:py-2 max-[700px]:text-[0.62rem]",
+    "text": "Try it now",
+    "href": "/shop/sa-s1#demo",
+    "changes": [
+      {
+        "node": 0,
+        "prop": "backgroundColor",
+        "from": "rgba(0, 0, 0, 0)",
+        "to": "rgb(184, 92, 56)"
+      },
+      {
+        "node": 0,
+        "prop": "borderColor",
+        "from": "rgba(255, 255, 255, 0.4)",
+        "to": "rgb(184, 92, 56)"
+      }
+    ]
+  },
+  {
+    "id": "39",
+    "tag": "a",
+    "className": "inline-flex items-center gap-1 whitespace-nowrap font-mono text-[0.68rem] uppercase tracking-[0.15em] text-white/70 underline-offset-4 transition-colors hover:text-white hover:underline max-[700px]:text-[0.58rem]",
+    "text": "Learn more",
+    "href": "/shop/sa-s1",
+    "changes": [
+      {
+        "node": 0,
+        "prop": "color",
+        "from": "rgba(255, 255, 255, 0.7)",
+        "to": "rgb(255, 255, 255)"
+      },
+      {
+        "node": 0,
+        "prop": "textDecorationLine",
+        "from": "none",
+        "to": "underline"
+      },
+      {
+        "node": 1,
+        "prop": "color",
+        "from": "rgba(255, 255, 255, 0.7)",
+        "to": "rgb(255, 255, 255)"
+      },
+      {
+        "node": 2,
+        "prop": "color",
+        "from": "rgba(255, 255, 255, 0.7)",
+        "to": "rgb(255, 255, 255)"
+      }
+    ]
+  }
+]

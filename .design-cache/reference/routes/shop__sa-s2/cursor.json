@@ -1,0 +1,64 @@
+{
+  "followers": [],
+  "states": [
+    {
+      "over": "nothing",
+      "followers": []
+    },
+    {
+      "over": "nav link",
+      "at": {
+        "x": 271,
+        "y": 39
+      },
+      "followers": []
+    },
+    {
+      "over": "text link",
+      "at": {
+        "x": 1075,
+        "y": 533
+      },
+      "followers": []
+    },
+    {
+      "over": "button",
+      "at": {
+        "x": 1207,
+        "y": 39
+      },
+      "followers": []
+    },
+    {
+      "over": "card",
+      "at": {
+        "x": 271,
+        "y": 39
+      },
+      "followers": []
+    },
+    {
+      "over": "image",
+      "at": {
+        "x": 216,
+        "y": 39
+      },
+      "followers": []
+    }
+  ],
+  "trail": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ]
+}

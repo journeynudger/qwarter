@@ -1,0 +1,434 @@
+{
+  "slug": "sa-s1",
+  "rootNote": 60,
+  "bpm": 120,
+  "presets": [
+    {
+      "id": "bs-crocket",
+      "name": "Crocket",
+      "category": "BS",
+      "file": "bs-crocket.m4a",
+      "durationSec": 2
+    },
+    {
+      "id": "bs-evolution",
+      "name": "Evolution",
+      "category": "BS",
+      "file": "bs-evolution.m4a",
+      "durationSec": 2
+    },
+    {
+      "id": "bs-jack-city",
+      "name": "Jack City",
+      "category": "BS",
+      "file": "bs-jack-city.m4a",
+      "durationSec": 2
+    },
+    {
+      "id": "bs-prodigy",
+      "name": "Prodigy",
+      "category": "BS",
+      "file": "bs-prodigy.m4a",
+      "durationSec": 2
+    },
+    {
+      "id": "bs-rufus",
+      "name": "Rufus",
+      "category": "BS",
+      "file": "bs-rufus.m4a",
+      "durationSec": 3.25
+    },
+    {
+      "id": "bs-shorty",
+      "name": "Shorty",
+      "category": "BS",
+      "file": "bs-shorty.m4a",
+      "durationSec": 2
+    },
+    {
+      "id": "bs-ur-late",
+      "name": "Ur Late",
+      "category": "BS",
+      "file": "bs-ur-late.m4a",
+      "durationSec": 2
+    },
+    {
+      "id": "bs-wide-pulse",
+      "name": "Wide Pulse",
+      "category": "BS",
+      "file": "bs-wide-pulse.m4a",
+      "durationSec": 8.75
+    },
+    {
+      "id": "fx-in-the-box",
+      "name": "In The Box",
+      "category": "FX",
+      "file": "fx-in-the-box.m4a",
+      "durationSec": 12
+    },
+    {
+      "id": "fx-race-riser-hi",
+      "name": "Race Riser Hi",
+      "category": "FX",
+      "file": "fx-race-riser-hi.m4a",
+      "durationSec": 12
+    },
+    {
+      "id": "fx-race-riser-lo",
+      "name": "Race Riser Lo",
+      "category": "FX",
+      "file": "fx-race-riser-lo.m4a",
+      "durationSec": 12
+    },
+    {
+      "id": "fx-rave-copter",
+      "name": "Rave Copter",
+      "category": "FX",
+      "file": "fx-rave-copter.m4a",
+      "durationSec": 12
+    },
+    {
+      "id": "fx-rush-rezz",
+      "name": "Rush Rezz",
+      "category": "FX",
+      "file": "fx-rush-rezz.m4a",
+      "durationSec": 8.75
+    },
+    {
+      "id": "ld-bellish",
+      "name": "Bellish",
+      "category": "LD",
+      "file": "ld-bellish.m4a",
+      "durationSec": 12
+    },
+    {
+      "id": "ld-brass-hi",
+      "name": "Brass Hi",
+      "category": "LD",
+      "file": "ld-brass-hi.m4a",
+      "durationSec": 12
+    },
+    {
+      "id": "ld-brass-lo",
+      "name": "Brass Lo",
+      "category": "LD",
+      "file": "ld-brass-lo.m4a",
+      "durationSec": 12
+    },
+    {
+      "id": "ld-brass-mid",
+      "name": "Brass Mid",
+      "category": "LD",
+      "file": "ld-brass-mid.m4a",
+      "durationSec": 12
+    },
+    {
+      "id": "ld-disto",
+      "name": "Disto",
+      "category": "LD",
+      "file": "ld-disto.m4a",
+      "durationSec": 8.75
+    },
+    {
+      "id": "ld-heavy",
+      "name": "Heavy",
+      "category": "LD",
+      "file": "ld-heavy.m4a",
+      "durationSec": 12
+    },
+    {
+      "id": "ld-heavyy",
+      "name": "Heavyy",
+      "category": "LD",
+      "file": "ld-heavyy.m4a",
+      "durationSec": 12
+    },
+    {
+      "id": "ld-heavyyy",
+      "name": "Heavyyy",
+      "category": "LD",
+      "file": "ld-heavyyy.m4a",
+      "durationSec": 12
+    },
+    {
+      "id": "ld-heavyyyy",
+      "name": "Heavyyyy",
+      "category": "LD",
+      "file": "ld-heavyyyy.m4a",
+      "durationSec": 12
+    },
+    {
+      "id": "ld-mission-juno",
+      "name": "Mission Juno",
+      "category": "LD",
+      "file": "ld-mission-juno.m4a",
+      "durationSec": 12
+    },
+    {
+      "id": "ld-saw-mill",
+      "name": "Saw Mill",
+      "category": "LD",
+      "file": "ld-saw-mill.m4a",
+      "durationSec": 12
+    },
+    {
+      "id": "ld-totes-hi",
+      "name": "Totes Hi",
+      "category": "LD",
+      "file": "ld-totes-hi.m4a",
+      "durationSec": 12
+    },
+    {
+      "id": "ld-totes-lo",
+      "name": "Totes Lo",
+      "category": "LD",
+      "file": "ld-totes-lo.m4a",
+      "durationSec": 12
+    },
+    {
+      "id": "ld-ufo-wars",
+      "name": "Ufo Wars",
+      "category": "LD",
+      "file": "ld-ufo-wars.m4a",
+      "durationSec": 8.75
+    },
+    {
+      "id": "pd-ether-hi",
+      "name": "Ether Hi",
+      "category": "PD",
+      "file": "pd-ether-hi.m4a",
+      "durationSec": 12
+    },
+    {
+      "id": "pd-ether-lo",
+      "name": "Ether Lo",
+      "category": "PD",
+      "file": "pd-ether-lo.m4a",
+      "durationSec": 12
+    },
+    {
+      "id": "pd-ether-mid",
+      "name": "Ether Mid",
+      "category": "PD",
+      "file": "pd-ether-mid.m4a",
+      "durationSec": 12
+    },
+    {
+      "id": "pd-ikinish",
+      "name": "Ikinish",
+      "category": "PD",
+      "file": "pd-ikinish.m4a",
+      "durationSec": 12
+    },
+    {
+      "id": "pd-late-dinner-hi",
+      "name": "Late Dinner Hi",
+      "category": "PD",
+      "file": "pd-late-dinner-hi.m4a",
+      "durationSec": 12
+    },
+    {
+      "id": "pd-late-dinner-lo",
+      "name": "Late Dinner Lo",
+      "category": "PD",
+      "file": "pd-late-dinner-lo.m4a",
+      "durationSec": 12
+    },
+    {
+      "id": "pd-night-light",
+      "name": "Night Light",
+      "category": "PD",
+      "file": "pd-night-light.m4a",
+      "durationSec": 12
+    },
+    {
+      "id": "pd-rezz-o",
+      "name": "Rezz-O",
+      "category": "PD",
+      "file": "pd-rezz-o.m4a",
+      "durationSec": 12
+    },
+    {
+      "id": "pd-table-pad",
+      "name": "Table Pad",
+      "category": "PD",
+      "file": "pd-table-pad.m4a",
+      "durationSec": 12
+    },
+    {
+      "id": "pl-brahma-hi",
+      "name": "Brahma Hi",
+      "category": "PL",
+      "file": "pl-brahma-hi.m4a",
+      "durationSec": 3.25
+    },
+    {
+      "id": "pl-brahma-lo",
+      "name": "Brahma Lo",
+      "category": "PL",
+      "file": "pl-brahma-lo.m4a",
+      "durationSec": 3.25
+    },
+    {
+      "id": "pl-bug-zap",
+      "name": "Bug Zap",
+      "category": "PL",
+      "file": "pl-bug-zap.m4a",
+      "durationSec": 2
+    },
+    {
+      "id": "pl-buzzap",
+      "name": "Buzzap",
+      "category": "PL",
+      "file": "pl-buzzap.m4a",
+      "durationSec": 3.25
+    },
+    {
+      "id": "pl-chordlike",
+      "name": "Chordlike",
+      "category": "PL",
+      "file": "pl-chordlike.m4a",
+      "durationSec": 3.25
+    },
+    {
+      "id": "pl-dark",
+      "name": "Dark",
+      "category": "PL",
+      "file": "pl-dark.m4a",
+      "durationSec": 3.25
+    },
+    {
+      "id": "pl-darker",
+      "name": "Darker",
+      "category": "PL",
+      "file": "pl-darker.m4a",
+      "durationSec": 3.25
+    },
+    {
+      "id": "pl-fire",
+      "name": "Fire",
+      "category": "PL",
+      "file": "pl-fire.m4a",
+      "durationSec": 3.25
+    },
+    {
+      "id": "pl-fussin-wide",
+      "name": "Fussin Wide",
+      "category": "PL",
+      "file": "pl-fussin-wide.m4a",
+      "durationSec": 3.25
+    },
+    {
+      "id": "pl-fussin",
+      "name": "Fussin",
+      "category": "PL",
+      "file": "pl-fussin.m4a",
+      "durationSec": 2
+    },
+    {
+      "id": "pl-hard-sick",
+      "name": "Hard Sick",
+      "category": "PL",
+      "file": "pl-hard-sick.m4a",
+      "durationSec": 3.25
+    },
+    {
+      "id": "pl-harmless",
+      "name": "Harmless",
+      "category": "PL",
+      "file": "pl-harmless.m4a",
+      "durationSec": 3.25
+    },
+    {
+      "id": "pl-ikin-hi",
+      "name": "Ikin Hi",
+      "category": "PL",
+      "file": "pl-ikin-hi.m4a",
+      "durationSec": 2
+    },
+    {
+      "id": "pl-ikin-lo",
+      "name": "Ikin Lo",
+      "category": "PL",
+      "file": "pl-ikin-lo.m4a",
+      "durationSec": 2
+    },
+    {
+      "id": "pl-oh-wow",
+      "name": "Oh Wow",
+      "category": "PL",
+      "file": "pl-oh-wow.m4a",
+      "durationSec": 2
+    },
+    {
+      "id": "pl-oh-woww",
+      "name": "Oh Woww",
+      "category": "PL",
+      "file": "pl-oh-woww.m4a",
+      "durationSec": 8.75
+    },
+    {
+      "id": "pl-reptilians",
+      "name": "Reptilians",
+      "category": "PL",
+      "file": "pl-reptilians.m4a",
+      "durationSec": 3.25
+    },
+    {
+      "id": "pl-rooster",
+      "name": "Rooster",
+      "category": "PL",
+      "file": "pl-rooster.m4a",
+      "durationSec": 2
+    },
+    {
+      "id": "pl-subdivided-hi",
+      "name": "Subdivided Hi",
+      "category": "PL",
+      "file": "pl-subdivided-hi.m4a",
+      "durationSec": 3.25
+    },
+    {
+      "id": "pl-subdivided-lo",
+      "name": "Subdivided Lo",
+      "category": "PL",
+      "file": "pl-subdivided-lo.m4a",
+      "durationSec": 3.25
+    },
+    {
+      "id": "pl-table-saw-hi",
+      "name": "Table Saw Hi",
+      "category": "PL",
+      "file": "pl-table-saw-hi.m4a",
+      "durationSec": 8.75
+    },
+    {
+      "id": "pl-table-saw-lo",
+      "name": "Table Saw Lo",
+      "category": "PL",
+      "file": "pl-table-saw-lo.m4a",
+      "durationSec": 8.75
+    },
+    {
+      "id": "pl-wide-pulse",
+      "name": "Wide Pulse",
+      "category": "PL",
+      "file": "pl-wide-pulse.m4a",
+      "durationSec": 8.75
+    },
+    {
+      "id": "pl-xmas-hi",
+      "name": "Xmas Hi",
+      "category": "PL",
+      "file": "pl-xmas-hi.m4a",
+      "durationSec": 3.25
+    },
+    {
+      "id": "pl-xmas-lo",
+      "name": "Xmas Lo",
+      "category": "PL",
+      "file": "pl-xmas-lo.m4a",
+      "durationSec": 3.25
+    }
+  ]
+}

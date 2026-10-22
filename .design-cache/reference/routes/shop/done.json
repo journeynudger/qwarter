@@ -1,0 +1,74 @@
+{
+  "route": "/shop",
+  "slug": "shop",
+  "url": "https://stairway.audio/shop",
+  "widths": {
+    "390": {
+      "frames": 6,
+      "menu": true,
+      "errors": []
+    },
+    "1440": {
+      "frames": 4,
+      "menu": false,
+      "errors": []
+    }
+  },
+  "stack": {
+    "generator": null,
+    "webflow": false,
+    "webflowPage": null,
+    "webflowSite": null,
+    "nextjs": true,
+    "nuxt": false,
+    "framer": false,
+    "wordpress": false,
+    "squarespace": false,
+    "wix": false,
+    "shopify": false,
+    "gsap": null,
+    "scrollTrigger": false,
+    "splitText": false,
+    "lenis": false,
+    "locomotive": false,
+    "barba": false,
+    "swup": false,
+    "swiper": false,
+    "three": false,
+    "splitType": false,
+    "lottie": false,
+    "jquery": null,
+    "customCursorCss": false,
+    "scripts": [
+      "https://stairway.audio/_next/static/chunks/acfafb44-5b2d50c78ab1fa6b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+      "https://stairway.audio/_next/static/chunks/8920-93793e9b5a0fb08a.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+      "https://stairway.audio/_next/static/chunks/main-app-c797ede80b04dfad.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+      "https://stairway.audio/_next/static/chunks/8898-bd7fc3860b73e145.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+      "https://stairway.audio/_next/static/chunks/3395-a922ab13384c0fd3.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+      "https://stairway.audio/_next/static/chunks/4950-7af88951e4bbca8b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+      "https://stairway.audio/_next/static/chunks/7052-b1b474a5924de875.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+      "https://stairway.audio/_next/static/chunks/3409-f517794a46f3c43f.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+      "https://stairway.audio/_next/static/chunks/1848-349fcc2e7a5dac9b.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+      "https://stairway.audio/_next/static/chunks/app/layout-68ee9740bcacb7cc.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+      "https://stairway.audio/_next/static/chunks/6965-9fb82671d2b16fd6.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+      "https://stairway.audio/_next/static/chunks/app/shop/page-aa193e23018e5e64.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+      "https://stairway.audio/_next/static/chunks/polyfills-42372ed130431b0a.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+      "https://stairway.audio/_next/static/chunks/webpack-98905d0783ca6888.js?dpl=dpl_3Hokqcee37WfHz5qwp7v4JvRLwCC",
+      "https://www.googletagmanager.com/gtag/js?id=G-Q3LMTFT0L8"
+    ]
+  },
+  "title": "Shop All · Stairway Audio",
+  "status": 200,
+  "loadMs": 16427,
+  "cursorFollowers": 0,
+  "hovers": 23,
+  "links": [
+    "/shop",
+    "/",
+    "/support",
+    "/shop/sa-s1",
+    "/terms",
+    "/privacy",
+    "/refunds"
+  ]
+}

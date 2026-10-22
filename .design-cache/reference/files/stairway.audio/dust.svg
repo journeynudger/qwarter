@@ -1,0 +1,83 @@
+<svg width="1200" height="1200" viewBox="0 0 1200 1200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wood" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8a4f2c"/>
+      <stop offset="0.5" stop-color="#6e3a20"/>
+      <stop offset="1" stop-color="#54290f"/>
+    </linearGradient>
+    <radialGradient id="face" cx="0.5" cy="0.35" r="1">
+      <stop offset="0" stop-color="#282420"/>
+      <stop offset="1" stop-color="#1a1613"/>
+    </radialGradient>
+    <radialGradient id="knob" cx="0.38" cy="0.32" r="0.85">
+      <stop offset="0" stop-color="#e8e2d6"/>
+      <stop offset="0.55" stop-color="#b8b2a4"/>
+      <stop offset="1" stop-color="#7d786c"/>
+    </radialGradient>
+    <radialGradient id="vinyl" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#332d27"/>
+      <stop offset="0.6" stop-color="#211c18"/>
+      <stop offset="1" stop-color="#120f0c"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="1200" fill="url(#face)"/>
+  <rect x="0" y="0" width="46" height="1200" fill="url(#wood)"/>
+  <rect x="1154" y="0" width="46" height="1200" fill="url(#wood)" transform="translate(2354 0) scale(-1 1)"/>
+
+  <!-- header -->
+  <rect x="46" y="0" width="1108" height="150" fill="#16120f"/>
+  <line x1="46" y1="150" x2="1154" y2="150" stroke="#c9a97a" stroke-opacity="0.5" stroke-width="2"/>
+  <text x="110" y="103" font-family="Didot, 'Bodoni 72', Georgia, serif" font-style="italic" font-size="76" fill="none" stroke="#d9b98a" stroke-width="2.2" letter-spacing="2">Dust</text>
+  <text x="1090" y="95" text-anchor="end" font-family="Georgia, serif" font-weight="bold" font-size="34" fill="#d9b98a">stairway.audio</text>
+
+  <!-- vinyl -->
+  <g>
+    <circle cx="600" cy="470" r="235" fill="url(#vinyl)" stroke="#c9a97a" stroke-width="3"/>
+    <circle cx="600" cy="470" r="188" fill="none" stroke="#c9a97a" stroke-opacity="0.28" stroke-width="1.5"/>
+    <circle cx="600" cy="470" r="150" fill="none" stroke="#c9a97a" stroke-opacity="0.28" stroke-width="1.5"/>
+    <circle cx="600" cy="470" r="112" fill="none" stroke="#c9a97a" stroke-opacity="0.28" stroke-width="1.5"/>
+    <circle cx="600" cy="470" r="66" fill="#8a4f2c" stroke="#c9a97a" stroke-width="2.5"/>
+    <circle cx="600" cy="470" r="7" fill="#16120f"/>
+    <text x="600" y="452" text-anchor="middle" font-family="Menlo, monospace" font-size="17" letter-spacing="3" fill="#e8dcc4">SIDE A</text>
+  </g>
+
+  <!-- dust speckle field -->
+  <g fill="#d9c8ab">
+    <circle cx="205" cy="290" r="4"/><circle cx="286" cy="620" r="3"/><circle cx="168" cy="470" r="2.5"/>
+    <circle cx="330" cy="240" r="2.5"/><circle cx="960" cy="300" r="4"/><circle cx="1010" cy="520" r="2.5"/>
+    <circle cx="905" cy="640" r="3.5"/><circle cx="990" cy="205" r="2"/><circle cx="250" cy="540" r="2"/>
+    <circle cx="875" cy="215" r="2.5"/><circle cx="150" cy="660" r="3"/><circle cx="1035" cy="415" r="3"/>
+  </g>
+
+  <!-- crackle strip -->
+  <g stroke="#c9a97a" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round">
+    <line x1="140" y1="775" x2="1060" y2="775" stroke-opacity="0.35"/>
+    <line x1="255" y1="775" x2="255" y2="737"/><line x1="300" y1="775" x2="300" y2="795"/>
+    <line x1="438" y1="775" x2="438" y2="748"/><line x1="530" y1="775" x2="530" y2="800"/>
+    <line x1="622" y1="775" x2="622" y2="742"/><line x1="700" y1="775" x2="700" y2="791"/>
+    <line x1="810" y1="775" x2="810" y2="750"/><line x1="915" y1="775" x2="915" y2="793"/>
+  </g>
+
+  <!-- knobs -->
+  <g font-family="Menlo, 'Courier New', monospace" font-size="30" fill="#d9c8ab" text-anchor="middle" letter-spacing="4">
+    <g transform="translate(255 960)">
+      <circle r="78" fill="url(#knob)"/><line x1="0" y1="0" x2="-40" y2="-58" stroke="#26211d" stroke-width="9" stroke-linecap="round"/>
+      <text y="140">CRACKLE</text>
+    </g>
+    <g transform="translate(485 960)">
+      <circle r="78" fill="url(#knob)"/><line x1="0" y1="0" x2="30" y2="-63" stroke="#26211d" stroke-width="9" stroke-linecap="round"/>
+      <text y="140">HISS</text>
+    </g>
+    <g transform="translate(715 960)">
+      <circle r="78" fill="url(#knob)"/><line x1="0" y1="0" x2="-10" y2="-69" stroke="#26211d" stroke-width="9" stroke-linecap="round"/>
+      <text y="140">AIR</text>
+    </g>
+    <g transform="translate(945 960)">
+      <circle r="78" fill="url(#knob)"/><line x1="0" y1="0" x2="50" y2="-48" stroke="#26211d" stroke-width="9" stroke-linecap="round"/>
+      <text y="140">BLEND</text>
+    </g>
+  </g>
+
+  <rect x="46" y="0" width="1108" height="1200" fill="none" stroke="#c9a97a" stroke-opacity="0.35" stroke-width="2"/>
+</svg>

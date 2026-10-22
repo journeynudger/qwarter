@@ -1,0 +1,251 @@
+[
+  {
+    "id": "0",
+    "tag": "a",
+    "className": "flex items-center",
+    "text": "",
+    "href": "/",
+    "changes": []
+  },
+  {
+    "id": "1",
+    "tag": "a",
+    "className": "font-mono text-[0.72rem] uppercase tracking-[0.15em] text-white/70 transition-colors duration-300 hover:text-white",
+    "text": "Plugins",
+    "href": "/shop",
+    "changes": [
+      {
+        "node": 0,
+        "prop": "color",
+        "from": "rgba(255, 255, 255, 0.7)",
+        "to": "rgb(255, 255, 255)"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "tag": "a",
+    "className": "font-mono text-[0.72rem] uppercase tracking-[0.15em] text-white/70 transition-colors duration-300 hover:text-white",
+    "text": "Explore",
+    "href": "/#explore",
+    "changes": [
+      {
+        "node": 0,
+        "prop": "color",
+        "from": "rgba(255, 255, 255, 0.7)",
+        "to": "rgb(255, 255, 255)"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "tag": "a",
+    "className": "font-mono text-[0.72rem] uppercase tracking-[0.15em] text-white/70 transition-colors duration-300 hover:text-white",
+    "text": "Support",
+    "href": "/support",
+    "changes": [
+      {
+        "node": 0,
+        "prop": "color",
+        "from": "rgba(255, 255, 255, 0.7)",
+        "to": "rgb(255, 255, 255)"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "tag": "button",
+    "className": "flex items-center gap-2 font-mono text-[0.72rem] uppercase tracking-[0.15em] text-white transition-opacity duration-300 hover:opacity-70 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-gold focus-visible:ring-offset-2 focus-visible:ring-offset-transparent",
+    "text": "Bag0",
+    "href": null,
+    "changes": [
+      {
+        "node": 0,
+        "prop": "opacity",
+        "from": "1",
+        "to": "0.7"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "tag": "button",
+    "className": "flex items-center gap-2 font-mono text-[0.7rem] uppercase tracking-[0.15em] text-white/60 transition-colors hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-gold",
+    "text": "Close",
+    "href": null,
+    "changes": []
+  },
+  {
+    "id": "6",
+    "tag": "a",
+    "className": "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-pill font-mono text-xs uppercase tracking-[0.12em] transition-all duration-300 cursor-pointer disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-gold focus-visible:ring-offset-2 focus-visible:ring-offset-transparent [&_svg]:pointer-events-none [&_svg]:size-3.5 [&_svg]:shrink-0 border border-[color:color-mix(in_srgb,currentColor_30%,transparent)] bg-transparent hover:border-terracotta hover:bg-terracotta hover:text-white px-[1.8rem] py-[0.9rem]",
+    "text": "Browse plugins",
+    "href": "/shop",
+    "changes": []
+  },
+  {
+    "id": "7",
+    "tag": "a",
+    "className": "",
+    "text": "stairway.audio",
+    "href": "/",
+    "changes": [
+      {
+        "node": 0,
+        "prop": "color",
+        "from": "rgb(201, 169, 110)",
+        "to": "rgb(245, 240, 232)"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "tag": "a",
+    "className": "",
+    "text": "support@stairway.audio",
+    "href": "mailto:support@stairway.audio",
+    "changes": [
+      {
+        "node": 0,
+        "prop": "color",
+        "from": "rgb(201, 169, 110)",
+        "to": "rgb(245, 240, 232)"
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "tag": "a",
+    "className": "",
+    "text": "support@stairway.audio",
+    "href": "mailto:support@stairway.audio",
+    "changes": [
+      {
+        "node": 0,
+        "prop": "color",
+        "from": "rgb(201, 169, 110)",
+        "to": "rgb(245, 240, 232)"
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "tag": "a",
+    "className": "",
+    "text": "Refund Policy",
+    "href": "/refunds",
+    "changes": [
+      {
+        "node": 0,
+        "prop": "color",
+        "from": "rgb(201, 169, 110)",
+        "to": "rgb(245, 240, 232)"
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "tag": "a",
+    "className": "",
+    "text": "support@stairway.audio",
+    "href": "mailto:support@stairway.audio",
+    "changes": [
+      {
+        "node": 0,
+        "prop": "color",
+        "from": "rgb(201, 169, 110)",
+        "to": "rgb(245, 240, 232)"
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "tag": "a",
+    "className": "font-mono text-[0.7rem] uppercase tracking-[0.12em] text-text-light/40 transition-colors duration-300 hover:text-text-light",
+    "text": "Plugins",
+    "href": "/shop",
+    "changes": [
+      {
+        "node": 0,
+        "prop": "color",
+        "from": "rgba(245, 240, 232, 0.4)",
+        "to": "rgb(245, 240, 232)"
+      }
+    ]
+  },
+  {
+    "id": "13",
+    "tag": "a",
+    "className": "font-mono text-[0.7rem] uppercase tracking-[0.12em] text-text-light/40 transition-colors duration-300 hover:text-text-light",
+    "text": "Support",
+    "href": "/support",
+    "changes": [
+      {
+        "node": 0,
+        "prop": "color",
+        "from": "rgba(245, 240, 232, 0.4)",
+        "to": "rgb(245, 240, 232)"
+      }
+    ]
+  },
+  {
+    "id": "14",
+    "tag": "a",
+    "className": "font-mono text-[0.7rem] uppercase tracking-[0.12em] text-text-light/40 transition-colors duration-300 hover:text-text-light",
+    "text": "Instagram",
+    "href": "https://www.instagram.com/stairway.audio",
+    "changes": [
+      {
+        "node": 0,
+        "prop": "color",
+        "from": "rgba(245, 240, 232, 0.4)",
+        "to": "rgb(245, 240, 232)"
+      }
+    ]
+  },
+  {
+    "id": "15",
+    "tag": "a",
+    "className": "font-mono text-[0.7rem] uppercase tracking-[0.12em] text-text-light/40 transition-colors duration-300 hover:text-text-light",
+    "text": "Terms",
+    "href": "/terms",
+    "changes": [
+      {
+        "node": 0,
+        "prop": "color",
+        "from": "rgba(245, 240, 232, 0.4)",
+        "to": "rgb(245, 240, 232)"
+      }
+    ]
+  },
+  {
+    "id": "16",
+    "tag": "a",
+    "className": "font-mono text-[0.7rem] uppercase tracking-[0.12em] text-text-light/40 transition-colors duration-300 hover:text-text-light",
+    "text": "Privacy",
+    "href": "/privacy",
+    "changes": [
+      {
+        "node": 0,
+        "prop": "color",
+        "from": "rgba(245, 240, 232, 0.4)",
+        "to": "rgb(245, 240, 232)"
+      }
+    ]
+  },
+  {
+    "id": "17",
+    "tag": "a",
+    "className": "font-mono text-[0.7rem] uppercase tracking-[0.12em] text-text-light/40 transition-colors duration-300 hover:text-text-light",
+    "text": "Refunds",
+    "href": "/refunds",
+    "changes": [
+      {
+        "node": 0,
+        "prop": "color",
+        "from": "rgba(245, 240, 232, 0.4)",
+        "to": "rgb(245, 240, 232)"
+      }
+    ]
+  }
+]

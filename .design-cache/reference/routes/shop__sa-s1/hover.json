@@ -1,0 +1,341 @@
+[
+  {
+    "id": "0",
+    "tag": "a",
+    "className": "flex items-center",
+    "text": "",
+    "href": "/",
+    "changes": []
+  },
+  {
+    "id": "1",
+    "tag": "a",
+    "className": "font-mono text-[0.72rem] uppercase tracking-[0.15em] text-white/70 transition-colors duration-300 hover:text-white",
+    "text": "Plugins",
+    "href": "/shop",
+    "changes": [
+      {
+        "node": 0,
+        "prop": "color",
+        "from": "rgba(255, 255, 255, 0.7)",
+        "to": "rgb(255, 255, 255)"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "tag": "a",
+    "className": "font-mono text-[0.72rem] uppercase tracking-[0.15em] text-white/70 transition-colors duration-300 hover:text-white",
+    "text": "Explore",
+    "href": "/#explore",
+    "changes": [
+      {
+        "node": 0,
+        "prop": "color",
+        "from": "rgba(255, 255, 255, 0.7)",
+        "to": "rgb(255, 255, 255)"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "tag": "a",
+    "className": "font-mono text-[0.72rem] uppercase tracking-[0.15em] text-white/70 transition-colors duration-300 hover:text-white",
+    "text": "Support",
+    "href": "/support",
+    "changes": [
+      {
+        "node": 0,
+        "prop": "color",
+        "from": "rgba(255, 255, 255, 0.7)",
+        "to": "rgb(255, 255, 255)"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "tag": "button",
+    "className": "flex items-center gap-2 font-mono text-[0.72rem] uppercase tracking-[0.15em] text-white transition-opacity duration-300 hover:opacity-70 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-gold focus-visible:ring-offset-2 focus-visible:ring-offset-transparent",
+    "text": "Bag0",
+    "href": null,
+    "changes": [
+      {
+        "node": 0,
+        "prop": "opacity",
+        "from": "1",
+        "to": "0.7"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "tag": "button",
+    "className": "flex items-center gap-2 font-mono text-[0.7rem] uppercase tracking-[0.15em] text-white/60 transition-colors hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-gold",
+    "text": "Close",
+    "href": null,
+    "changes": []
+  },
+  {
+    "id": "6",
+    "tag": "a",
+    "className": "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-pill font-mono text-xs uppercase tracking-[0.12em] transition-all duration-300 cursor-pointer disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-gold focus-visible:ring-offset-2 focus-visible:ring-offset-transparent [&_svg]:pointer-events-none [&_svg]:size-3.5 [&_svg]:shrink-0 border border-[color:color-mix(in_srgb,currentColor_30%,transparent)] bg-transparent hover:border-terracotta hover:bg-terracotta hover:text-white px-[1.8rem] py-[0.9rem]",
+    "text": "Browse plugins",
+    "href": "/shop",
+    "changes": []
+  },
+  {
+    "id": "7",
+    "tag": "button",
+    "className": "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-pill font-mono text-xs uppercase tracking-[0.12em] transition-all duration-300 cursor-pointer disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-gold focus-visible:ring-offset-2 focus-visible:ring-offset-transparent [&_svg]:pointer-events-none [&_svg]:size-3.5 [&_svg]:shrink-0 bg-text-light text-text-dark hover:bg-white hover:-translate-y-0.5 hover:shadow-[0_8px_25px_rgba(0,0,0,0.2)] px-[1.8rem] py-[0.9rem] w-full",
+    "text": "Add to Bag",
+    "href": null,
+    "changes": [
+      {
+        "node": 0,
+        "prop": "transform",
+        "from": "none",
+        "to": "matrix(1, 0, 0, 1, 0, -2)"
+      },
+      {
+        "node": 0,
+        "prop": "backgroundColor",
+        "from": "rgb(245, 240, 232)",
+        "to": "rgb(255, 255, 255)"
+      },
+      {
+        "node": 0,
+        "prop": "boxShadow",
+        "from": "none",
+        "to": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.2) 0px 8px 25px 0px"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "tag": "a",
+    "className": "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-pill font-mono text-xs uppercase tracking-[0.12em] transition-all duration-300 cursor-pointer disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-gold focus-visible:ring-offset-2 focus-visible:ring-offset-transparent [&_svg]:pointer-events-none [&_svg]:size-3.5 [&_svg]:shrink-0 border border-[color:color-mix(in_srgb,currentColor_30%,transparent)] bg-transparent hover:border-terracotta hover:bg-terracotta hover:text-white px-[1.8rem] py-[0.9rem] w-full",
+    "text": "Try it now",
+    "href": "#demo",
+    "changes": [
+      {
+        "node": 0,
+        "prop": "color",
+        "from": "rgb(245, 240, 232)",
+        "to": "rgb(255, 255, 255)"
+      },
+      {
+        "node": 0,
+        "prop": "backgroundColor",
+        "from": "rgba(0, 0, 0, 0)",
+        "to": "rgb(184, 92, 56)"
+      },
+      {
+        "node": 0,
+        "prop": "borderColor",
+        "from": "color(srgb 0.960784 0.941176 0.909804 / 0.3)",
+        "to": "rgb(184, 92, 56)"
+      },
+      {
+        "node": 1,
+        "prop": "color",
+        "from": "rgb(245, 240, 232)",
+        "to": "rgb(255, 255, 255)"
+      },
+      {
+        "node": 2,
+        "prop": "color",
+        "from": "rgb(245, 240, 232)",
+        "to": "rgb(255, 255, 255)"
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "tag": "a",
+    "className": "group flex items-center gap-4 rounded-3xl border border-white/15 bg-bg-dark/35 p-4 backdrop-blur-md transition-colors hover:bg-bg-dark/50",
+    "text": "You might likeSA-S2Shop now →$29.99",
+    "href": "/shop/sa-s2",
+    "changes": [
+      {
+        "node": 0,
+        "prop": "backgroundColor",
+        "from": "rgba(26, 23, 20, 0.35)",
+        "to": "rgba(26, 23, 20, 0.5)"
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "tag": "a",
+    "className": "font-mono text-[0.7rem] uppercase tracking-[0.15em] text-white/60 underline-offset-4 transition-colors hover:text-white hover:underline",
+    "text": "← Back to Shop All",
+    "href": "/shop",
+    "changes": [
+      {
+        "node": 0,
+        "prop": "color",
+        "from": "rgba(255, 255, 255, 0.6)",
+        "to": "rgb(255, 255, 255)"
+      },
+      {
+        "node": 0,
+        "prop": "textDecorationLine",
+        "from": "none",
+        "to": "underline"
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "tag": "button",
+    "className": "absolute inset-0 flex items-center justify-center bg-bg-dark/45 backdrop-blur-[1px] transition-colors hover:bg-bg-dark/25 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-gold disabled:cursor-default rounded-md",
+    "text": "Play SA-S1",
+    "href": null,
+    "changes": [
+      {
+        "node": 0,
+        "prop": "backgroundColor",
+        "from": "rgba(26, 23, 20, 0.45)",
+        "to": "rgba(26, 23, 20, 0.25)"
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "tag": "button",
+    "className": "flex flex-1 items-center justify-between transition-all [&[data-state=open]>svg]:rotate-180 gap-6 py-5 text-left text-[1.05rem] font-normal text-text-dark hover:no-underline",
+    "text": "Which formats and platforms are supported?",
+    "href": null,
+    "changes": []
+  },
+  {
+    "id": "13",
+    "tag": "button",
+    "className": "flex flex-1 items-center justify-between transition-all [&[data-state=open]>svg]:rotate-180 gap-6 py-5 text-left text-[1.05rem] font-normal text-text-dark hover:no-underline",
+    "text": "How is it delivered?",
+    "href": null,
+    "changes": []
+  },
+  {
+    "id": "14",
+    "tag": "button",
+    "className": "flex flex-1 items-center justify-between transition-all [&[data-state=open]>svg]:rotate-180 gap-6 py-5 text-left text-[1.05rem] font-normal text-text-dark hover:no-underline",
+    "text": "Is this a one-time purchase?",
+    "href": null,
+    "changes": []
+  },
+  {
+    "id": "15",
+    "tag": "button",
+    "className": "flex flex-1 items-center justify-between transition-all [&[data-state=open]>svg]:rotate-180 gap-6 py-5 text-left text-[1.05rem] font-normal text-text-dark hover:no-underline",
+    "text": "Do I need an account?",
+    "href": null,
+    "changes": []
+  },
+  {
+    "id": "16",
+    "tag": "button",
+    "className": "flex flex-1 items-center justify-between transition-all [&[data-state=open]>svg]:rotate-180 gap-6 py-5 text-left text-[1.05rem] font-normal text-text-dark hover:no-underline",
+    "text": "What's your refund policy?",
+    "href": null,
+    "changes": []
+  },
+  {
+    "id": "17",
+    "tag": "button",
+    "className": "flex flex-1 items-center justify-between transition-all [&[data-state=open]>svg]:rotate-180 gap-6 py-5 text-left text-[1.05rem] font-normal text-text-dark hover:no-underline",
+    "text": "How do I get updates?",
+    "href": null,
+    "changes": []
+  },
+  {
+    "id": "18",
+    "tag": "a",
+    "className": "font-mono text-[0.7rem] uppercase tracking-[0.12em] text-text-light/40 transition-colors duration-300 hover:text-text-light",
+    "text": "Plugins",
+    "href": "/shop",
+    "changes": [
+      {
+        "node": 0,
+        "prop": "color",
+        "from": "rgba(245, 240, 232, 0.4)",
+        "to": "rgb(245, 240, 232)"
+      }
+    ]
+  },
+  {
+    "id": "19",
+    "tag": "a",
+    "className": "font-mono text-[0.7rem] uppercase tracking-[0.12em] text-text-light/40 transition-colors duration-300 hover:text-text-light",
+    "text": "Support",
+    "href": "/support",
+    "changes": [
+      {
+        "node": 0,
+        "prop": "color",
+        "from": "rgba(245, 240, 232, 0.4)",
+        "to": "rgb(245, 240, 232)"
+      }
+    ]
+  },
+  {
+    "id": "20",
+    "tag": "a",
+    "className": "font-mono text-[0.7rem] uppercase tracking-[0.12em] text-text-light/40 transition-colors duration-300 hover:text-text-light",
+    "text": "Instagram",
+    "href": "https://www.instagram.com/stairway.audio",
+    "changes": [
+      {
+        "node": 0,
+        "prop": "color",
+        "from": "rgba(245, 240, 232, 0.4)",
+        "to": "rgb(245, 240, 232)"
+      }
+    ]
+  },
+  {
+    "id": "21",
+    "tag": "a",
+    "className": "font-mono text-[0.7rem] uppercase tracking-[0.12em] text-text-light/40 transition-colors duration-300 hover:text-text-light",
+    "text": "Terms",
+    "href": "/terms",
+    "changes": [
+      {
+        "node": 0,
+        "prop": "color",
+        "from": "rgba(245, 240, 232, 0.4)",
+        "to": "rgb(245, 240, 232)"
+      }
+    ]
+  },
+  {
+    "id": "22",
+    "tag": "a",
+    "className": "font-mono text-[0.7rem] uppercase tracking-[0.12em] text-text-light/40 transition-colors duration-300 hover:text-text-light",
+    "text": "Privacy",
+    "href": "/privacy",
+    "changes": [
+      {
+        "node": 0,
+        "prop": "color",
+        "from": "rgba(245, 240, 232, 0.4)",
+        "to": "rgb(245, 240, 232)"
+      }
+    ]
+  },
+  {
+    "id": "23",
+    "tag": "a",
+    "className": "font-mono text-[0.7rem] uppercase tracking-[0.12em] text-text-light/40 transition-colors duration-300 hover:text-text-light",
+    "text": "Refunds",
+    "href": "/refunds",
+    "changes": [
+      {
+        "node": 0,
+        "prop": "color",
+        "from": "rgba(245, 240, 232, 0.4)",
+        "to": "rgb(245, 240, 232)"
+      }
+    ]
+  }
+]
