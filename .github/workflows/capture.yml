@@ -2,6 +2,8 @@
 # internet) and publishes them to a branch, for a build environment whose network policy allows
 # GitHub only. Run it from the Actions tab or the API (workflow_dispatch); then, locally:
 #   git fetch origin captures && git checkout origin/captures -- .design-cache .port-cache
+# Every step has its own time limit and the publish step always runs, so a site that never lets the
+# capture finish (one that streams film on every page) still leaves what was taken on the branch.
 name: Capture the reference design and the WordPress site
 
 on:
@@ -44,14 +46,17 @@ jobs:
       - name: Capture the design
         if: inputs.design_origin != 'skip' && inputs.design_origin != ''
         continue-on-error: true
+        timeout-minutes: 45
         run: node scripts/design/capture.mjs --origin "${{ inputs.design_origin }}" --out .design-cache/reference ${{ inputs.design_args }}
       - name: Snapshot WordPress
-        if: inputs.wordpress_origin != 'skip' && inputs.wordpress_origin != ''
+        if: always() && inputs.wordpress_origin != 'skip' && inputs.wordpress_origin != ''
         continue-on-error: true
+        timeout-minutes: 30
         run: python3 scripts/port/fetch.py --origin "${{ inputs.wordpress_origin }}"
       - name: Fetch files
-        if: inputs.media_urls != 'skip' && inputs.media_urls != ''
+        if: always() && inputs.media_urls != 'skip' && inputs.media_urls != ''
         continue-on-error: true
+        timeout-minutes: 20
         env:
           URLS: ${{ inputs.media_urls }}
         run: |
@@ -63,8 +68,9 @@ jobs:
           done
           du -sh .port-cache/media || true
       - name: Photograph sites
-        if: inputs.shoot_specs != 'skip' && inputs.shoot_specs != ''
+        if: always() && inputs.shoot_specs != 'skip' && inputs.shoot_specs != ''
         continue-on-error: true
+        timeout-minutes: 60
         env:
           SPECS: ${{ inputs.shoot_specs }}
         run: |
@@ -76,6 +82,8 @@ jobs:
           done
           du -sh .port-cache/shots || true
       - name: Publish the captures to the branch
+        # whatever a step managed before its time ran out is still worth having: this step always runs
+        if: always()
         run: |
           set -e
           mkdir -p .design-cache .port-cache

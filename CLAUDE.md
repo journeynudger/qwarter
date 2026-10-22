@@ -218,17 +218,22 @@ depoluxe.xyz, the clients' sites and every mirror (archive.org, Google's cache) 
 runners have the open internet, so `.github/workflows/capture.yml` (`workflow_dispatch`, from `main`;
 a workflow must be on the default branch to be dispatched) runs the tooling there and pushes the result to
 an orphan branch (artifacts cannot be downloaded from here; branches can): `scripts/design/capture.mjs`
-on `design_origin` (`design_args`: `--max`, `--frames`, `--video`, `--lean` for a first pass in minutes),
+on `design_origin` (`design_args`: `--max`, `--frames`, `--video`, `--lean` for a first pass in minutes,
+`--budget <seconds>` to stop taking routes and fetching media when the time is spent and still write the
+manifest and report; a step's own time limit sends SIGTERM, which does the same),
 `scripts/port/fetch.py` on `wordpress_origin`, `curl` for each line of `media_urls`, and
 `scripts/work/shoot.mjs` for each line of `shoot_specs` (`<slug> <base> [routes] [--discover N]`, into
-`.port-cache/shots/<slug>`). An input set to `skip` skips its step; an empty input takes the default. Files
-over 95 MB are left out and listed in `.design-cache/too-large.txt`. Then, locally:
+`.port-cache/shots/<slug>`). An input set to `skip` skips its step; an empty input takes the default. Every step has a time limit
+(capture 45 min, WordPress 30, files 20, shoots 60) and the publish step always runs, so a run always leaves
+what it took on the branch. Files over 95 MB are left out and listed in `.design-cache/too-large.txt`. Then, locally:
 `git fetch origin <branch> && git checkout origin/<branch> -- .port-cache .design-cache`.
 
 Taken so far (2026-10-22): qwarter.com's WordPress, whole (`captures-wp`: 19 pages, 21 posts, 292 media,
 206 MB, the fourteen case studies among them); Jeff's reel from jeffvhs.com (`captures-media`); the
 clients' live sites (`captures-shots-1..3`). depoluxe.xyz is the long one: a page that streams film never
-goes idle, so the full capture runs for an hour or more; `--lean` first.
+goes idle, and fetching every film whole took the first four runs past the job's two-hour limit with nothing
+published (the publish step did not run after a cancelled one); hence the budget, the step limits and
+`--lean` first.
 
 The first brief (2026-10-12) was to wear synchronized.studio's design with Qwarter's WordPress content
 swapped in; its tooling (`extract.mjs`, `swap.mjs`, `prune.mjs`, `inventory.py`, `redirects.py`,
@@ -249,7 +254,7 @@ old URLs (it fails rather than guess).
 3. **Sites that no longer answer.** thanhta.com, titaniummotorarts.com and woodco1.com do not resolve any
    more and epicesg.com answers 503, so Thanh Ta, Titanium Motor Arts, Wood Company and EPIC ESG show the
    pictures their case studies show; iotechprotect.com answers the runner with "Access Denied" (a
-   firewall; `shoot.mjs` now gives a desktop browser's name, worth one more try). Kind Footprint's case
+   firewall that refuses GitHub's runners even to a desktop browser's name; tried twice). Kind Footprint's case
    study names no site, but kindfootprint.org is it (its title says so) and is photographed. If any of the
    dead ones has a new address, one line in the shoot list brings its pictures in.
 4. **Butter, Core Rhythm Fitness, Beacon.** qwarter.com's home page links the three with a picture and
