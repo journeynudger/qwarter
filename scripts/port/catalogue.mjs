@@ -39,6 +39,7 @@ const ROMAN = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI"
 const FIRST = ["butter", "jr-pugh", "stairway", "serein", "journey"];
 /** Projects photographed from their own builds or stills: their frames stay; shots add films only. */
 const OWN_FRAMES = ["jr-pugh", "serein", "journey", "stairway"];
+const LIVE_FRAMES = ["jr-pugh"]; // photographed from its own build once; the live site replaces those frames when it has been shot
 /** Films from outside the shots: the client's own, found where the note says. */
 const FILMS = {
   "jr-pugh": { file: path.join(MEDIA, "jeffvhs.com/wp-content/uploads/2026/07/brazil-reel-tease.mp4"), from: "the reel jeffvhs.com plays (its media library, 2026/07/brazil-reel-tease.mp4)" },
@@ -156,6 +157,12 @@ function shotsOf(slug, name, url) {
   return { dir, folder: path.basename(dir), base: m.base, shot: m.shot, pages, videos, title: home.title, description: home.description };
 }
 
+/** Every frame a shoot took, by the name it is delivered under: the viewport frame, the whole page, and the same two on a phone. */
+const framesOf = (shots) => shots.pages.flatMap((pg) => {
+  const f = (file, name) => (file && fs.existsSync(path.join(shots.dir, file)) ? [{ src: path.join(shots.dir, file), name }] : []);
+  return [...f(pg.frame, `${pg.name}.png`), ...f(pg.full, `${pg.name}-full.png`), ...f(pg.phone?.frame, `m-${pg.name}.png`), ...f(pg.phone?.full, `m-${pg.name}-full.png`)];
+});
+
 // ---- assemble ---------------------------------------------------------------------------------------------
 const work = JSON.parse(read(path.join(ROOT, "content/work.json")));
 const existing = new Map(work.projects.filter((p) => !p.fromWordPress).map((p) => [p.slug, p]));
@@ -207,8 +214,7 @@ for (const p of studies) {
   const provenance = [`name, service line${f.year ? ", year" : ""}${f.url ? ", live site" : ""} and facts from ${where}`, sel?.line ? "line from qwarter.com's home page (Selected Work)" : f.blurb ? "line from qwarter.com/portfolio/ (its slider)" : place ? "line: the case study's Industry Type and Location" : f.about ? "line: the case study's first sentence about the client" : "line: the service line"];
   const project = { slug, name: f.name, url: f.url, line, made: f.made || "Case study", year: f.year || (p.date || "").slice(0, 4) || null, facts: f.facts, about: f.about ? firstSentence(f.about, 240) : undefined, cover: null, pages: [], fromWordPress: true, source: "" };
   if (shots && !shots.rejected) {
-    const frames = shots.pages.map((pg) => ({ src: path.join(shots.dir, pg.frame), name: `${pg.name}.png`, full: pg.full && fs.existsSync(path.join(shots.dir, pg.full)) ? { src: path.join(shots.dir, pg.full), name: `${pg.name}-full.png` } : null }));
-    deliver(slug, null, { frames: frames.flatMap((fr) => [fr, fr.full].filter(Boolean)) });
+    deliver(slug, null, { frames: framesOf(shots) });
     project.pages = shots.pages.map((pg) => ({ name: pg.name, title: titleOf(pg.title, pg.route, f.name) }));
     project.cover = project.pages[0].name;
     if (!project.url) { project.url = shots.base.replace(/\/+$/, "") + (shots.pages[0].route && shots.pages[0].route !== "/" ? shots.pages[0].route.replace(/\/+$/, "") : ""); provenance.push(`live site: the one photographed, ${host(project.url)}`); }
@@ -263,6 +269,15 @@ for (const slug of OWN_FRAMES) {
   const p = existing.get(slug);
   if (!p) continue;
   const shots = shotsOf(slug, p.name, p.url);
+  if (LIVE_FRAMES.includes(slug) && shots && !shots.rejected) {
+    // the live site, as it stands, replaces the frames taken from the project's own build (Lorenzo, 2026-10-22: "pull from the latest jeffvhs.com")
+    const raw = path.join(WORK, slug, "raw");
+    if (!DRY && fs.existsSync(raw)) for (const f of fs.readdirSync(raw)) if (/\.png$/.test(f)) fs.rmSync(path.join(raw, f));
+    deliver(slug, null, { frames: framesOf(shots) });
+    p.pages = shots.pages.map((pg) => ({ name: pg.name, title: titleOf(pg.title, pg.route, p.name) }));
+    p.cover = p.pages[0].name;
+    p.source = p.source.replace(/; stills from [^;]*/, "").replace(/; pictures: [^;]*/, "") + `; pictures: ${host(shots.base)} photographed on ${shots.shot.slice(0, 10)} (${shots.pages.length} pages, titles the site's own)`;
+  }
   const film = shots && !shots.rejected ? shots.videos[0] : null;
   if (film) { deliver(slug, null, { intro: { file: path.join(shots.dir, film.file) } }); p.film = { intro: `intro.${path.extname(film.file).slice(1)}`, from: filmFrom(film.src, `${host(shots.base)}${film.route} plays`) }; }
   else if (FILMS[slug] && fs.existsSync(FILMS[slug].file)) { deliver(slug, null, { intro: { file: FILMS[slug].file } }); p.film = { intro: `intro.${path.extname(FILMS[slug].file).slice(1)}`, from: FILMS[slug].from }; }
