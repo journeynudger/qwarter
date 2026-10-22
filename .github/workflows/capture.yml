@@ -16,6 +16,9 @@ on:
       wordpress_origin:
         description: The WordPress site to snapshot through its REST API (scripts/port/fetch.py); empty to skip
         default: https://qwarter.com
+      media_urls:
+        description: Files to fetch as they are (one URL per line), saved under .port-cache/media/<host>/<path>
+        default: ""
       branch:
         description: The branch the captures are pushed to (replaced each run)
         default: captures
@@ -43,6 +46,19 @@ jobs:
         if: inputs.wordpress_origin != ''
         continue-on-error: true
         run: python3 scripts/port/fetch.py --origin "${{ inputs.wordpress_origin }}"
+      - name: Fetch files
+        if: inputs.media_urls != ''
+        continue-on-error: true
+        env:
+          URLS: ${{ inputs.media_urls }}
+        run: |
+          printf '%s\n' "$URLS" | while IFS= read -r u; do
+            u="${u#"${u%%[![:space:]]*}"}"; [ -z "$u" ] && continue
+            host="${u#*://}"; host="${host%%/*}"; rel="${u#*://*/}"; rel="${rel%%\?*}"
+            mkdir -p ".port-cache/media/$host/$(dirname "$rel")"
+            curl -sfL --retry 2 -A "Mozilla/5.0 (Macintosh) AppleWebKit/537.36 Chrome/124 Safari/537.36" "$u" -o ".port-cache/media/$host/$rel" && echo "fetched $u" || echo "FAILED $u"
+          done
+          du -sh .port-cache/media || true
       - name: Publish the captures to the branch
         run: |
           set -e
