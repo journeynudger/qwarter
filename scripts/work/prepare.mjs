@@ -6,6 +6,8 @@
  *   cover.jpg, cover@2x.jpg   the frame the project is introduced with (1440×900 and 2880×1800):
  *                             the Work card and the slideshow's first frame
  *   tile.jpg, tile@2x.jpg     the same frame's centre as a square (900 and 1800), the strip's tile
+ *   <each of those>.webp      the same picture as WebP beside it (cover@2x.jpg.webp …): the carried design's
+ *                             image loader asks for "<name>.webp" next to every picture where WebP plays
  *   blur.jpg                  the same frame at 96px, blurred to a colour field and darkened to a mean
  *                             brightness of 0.3 at most, for the echo behind the focused project (Depo
  *                             Luxe's background is that soft; pre-blurred, so no page pays for a filter
@@ -67,6 +69,7 @@ for (const project of projects) {
   const side = Math.min(meta.width, meta.height), left = Math.round((meta.width - side) / 2);
   await sharp(cover).extract({ left, top: 0, width: side, height: side }).resize(900, 900).jpeg({ quality: 80, mozjpeg: true }).toFile(path.join(dir, "tile.jpg"));
   await sharp(cover).extract({ left, top: 0, width: side, height: side }).resize(1800, 1800, { withoutEnlargement: true }).jpeg({ quality: 66, mozjpeg: true }).toFile(path.join(dir, "tile@2x.jpg"));
+  for (const f of ["cover.jpg", "cover@2x.jpg", "tile.jpg", "tile@2x.jpg"]) await sharp(path.join(dir, f)).webp({ quality: 78 }).toFile(path.join(dir, `${f}.webp`));
   // the echo of a light site (a white page) is brought down to the same depth as a dark one's:
   // the field's mean brightness is held at or under 0.3, so the header reads on every one of them
   const field = sharp(cover).resize(96, 60, { fit: "cover", position: "top" }).blur(7);
@@ -90,7 +93,7 @@ for (const project of projects) {
     strips.push(`${page.name} ${height}px ${kb(out)}`);
   }
   // nothing else is delivered: a frame that is no longer listed is removed
-  const keep = new Set(["cover.jpg", "cover@2x.jpg", "tile.jpg", "tile@2x.jpg", "blur.jpg", "raw", ...keepVideo(dir), ...project.pages.map((p) => `page-${p.name}.jpg`)]);
+  const keep = new Set(["cover.jpg", "cover@2x.jpg", "tile.jpg", "tile@2x.jpg", "cover.jpg.webp", "cover@2x.jpg.webp", "tile.jpg.webp", "tile@2x.jpg.webp", "blur.jpg", "raw", ...keepVideo(dir), ...project.pages.map((p) => `page-${p.name}.jpg`)]);
   for (const f of fs.readdirSync(dir)) if (!keep.has(f)) fs.rmSync(path.join(dir, f));
   console.log(`${project.slug}: cover ${kb(path.join(dir, "cover.jpg"))} / tile ${kb(path.join(dir, "tile.jpg"))} / @2x ${kb(path.join(dir, "tile@2x.jpg"))} / blur ${kb(path.join(dir, "blur.jpg"))}\n  ${strips.join("\n  ")}`);
 }

@@ -34,20 +34,24 @@ export default async function RootLayout({
   const { path } = await params;
   const route = resolveRoute(path);
   const page = route.kind === "page" ? route.page : null;
+  // a carried page (built on the reference design's) brings its own stylesheet and scripts and takes none of
+  // ours: the two designs must not meet in one document
+  const carried = Boolean(page?.template);
   return (
     // the design's own scripts add classes to <html> and <body> before React hydrates
     <html lang={site.lang} {...props(page?.html ?? {})} suppressHydrationWarning>
       <head>
-        <Assets list={site.head} />
+        {!carried && <Assets list={site.head} />}
         {page && <Assets list={page.head} />}
         {/* the Paper shader surfaces and paper stock, after the site's own stylesheet */}
-        <link rel="stylesheet" href={versioned("/design/qwarter/paper.css")} />
+        {!carried && <link rel="stylesheet" href={versioned("/design/qwarter/paper.css")} />}
       </head>
-      <body data-page={page?.kind ?? "not-found"} {...props(page?.body ?? {})} suppressHydrationWarning>
+      {/* a carried page's script reads data-page itself (from its article), so the body carries only its own attributes */}
+      <body data-page={carried ? undefined : (page?.kind ?? "not-found")} {...props(page?.body ?? {})} suppressHydrationWarning>
         {children}
-        <Assets list={site.scripts} />
+        {!carried && <Assets list={site.scripts} />}
         {page && <Assets list={page.scripts} />}
-        <PaperShaders />
+        {!carried && <PaperShaders />}
       </body>
     </html>
   );

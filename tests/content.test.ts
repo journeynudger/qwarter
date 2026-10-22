@@ -27,8 +27,9 @@ const featuredWork = work.projects.filter((p) => p.media !== false);
 const ROOT = path.join(import.meta.dirname, "..");
 const read = (p: string) => fs.readFileSync(path.join(ROOT, p), "utf8");
 
-// The two origins this site replaces and borrows from. After the port, neither is contacted.
-const FOREIGN = /(?:https?:)?\/\/(?:[\w-]+\.)*(?:qwarter\.com|synchronized\.studio)(?=[/"'?#\s)]|$)/i;
+// The origins this site replaces and borrows from (qwarter.com's WordPress; the reference designs and the
+// servers their films and pictures came from). After the port, none is contacted.
+const FOREIGN = /(?:https?:)?\/\/(?:[\w-]+\.)*(?:qwarter\.com|synchronized\.studio|depoluxe\.xyz|vimeo\.com|vimeocdn\.com|cloudfront\.net)(?=[/"'?#\s)]|$)/i;
 
 function hasKeys(obj: Record<string, unknown>, keys: Record<string, string>, where: string) {
   for (const [key, type] of Object.entries(keys)) {
@@ -81,8 +82,10 @@ test("pages.json records are complete, and each page's markup splits cleanly", (
       assert.doesNotThrow(() => splitTopLevel(fs.readFileSync(file, "utf8")), `${where}: markup does not split`);
     }
   }
-  assert.equal(pages.filter((p) => p.kind === "featured").length, 1, "one featured page");
-  assert.equal(pages.filter((p) => p.kind === "archive").length, 1, "one work index");
+  assert.ok(pages.filter((p) => p.kind === "featured").length <= 1, "at most one featured page (the carried home replaces it)");
+  assert.ok(pages.filter((p) => p.kind === "archive").length <= 1, "at most one work index (the carried Work page replaces it)");
+  assert.equal(pages.filter((p) => p.path === "/").length, 1, "one home page");
+  assert.equal(pages.filter((p) => p.path === "/work/").length, 1, "one work index");
   assert.equal(new Set(pages.map((p) => p.path)).size, pages.length, "page paths are unique");
   assert.equal(new Set(pages.map((p) => p.slug)).size, pages.length, "page slugs are unique");
   const orphans = fs.readdirSync(path.join(ROOT, "content/pages")).filter((f) => f.endsWith(".html") && !pages.some((p) => `${p.slug}.html` === f));
@@ -175,9 +178,10 @@ test("public/media holds only files a page uses", () => {
   const refs = referenced("media");
   const base = path.join(ROOT, "public/media");
   // raw captures (public/media/work/<slug>/raw/) are not committed and never served by a page
+  // "<picture>.webp" beside a referenced picture is asked for by the carried design's image loader at run time
   const unused = walk(base)
     .map((f) => path.relative(base, f))
-    .filter((rel) => !refs.has(rel) && !rel.endsWith(".DS_Store") && !/^work\/[^/]+\/raw\//.test(rel));
+    .filter((rel) => !refs.has(rel) && !(rel.endsWith(".webp") && refs.has(rel.slice(0, -5))) && !rel.endsWith(".DS_Store") && !/^work\/[^/]+\/raw\//.test(rel));
   assert.deepEqual(unused, []);
 });
 

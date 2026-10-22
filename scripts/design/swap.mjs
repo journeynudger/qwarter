@@ -22,6 +22,10 @@
  *   ]
  * }
  *
+ * - `head` (beside `swaps`): changes to the page record in content/pages.json: `{ "remove": { "href": "/api/x" } }`
+ *   or `{ "remove": { "codeIncludes": "__videosDataReady" } }` drops a <head> asset, `{ "meta": "apple-mobile-web-app-title",
+ *   "content": "Qwarter" }` rewrites a meta; `title`, `description` and `image` set the record's own.
+ * - `prepend` puts markup first inside the matched element (a page heading the reference has none of).
  * - `select` is a CSS selector in the reference page; it must match (all matches are changed), or the run fails.
  * - `repeat` clones the first `repeat` element inside `select` once per item, fills it, and removes the
  *   originals: the cards keep their markup, classes, image treatment and animation; the content is Qwarter's.
@@ -96,6 +100,8 @@ function applySwaps({ markup, swaps }) {
   const doc = new DOMParser().parseFromString(`<!doctype html><html><head></head><body>${markup}</body></html>`, "text/html");
   const errors = [];
   const fill = (el, change) => {
+    if (change.remove) { el.remove(); return; }
+    if ("prepend" in change) el.insertAdjacentHTML("afterbegin", change.prepend);
     if ("text" in change) el.textContent = change.text;
     if ("html" in change) el.innerHTML = change.html;
     for (const [k, v] of Object.entries(change.attr ?? {})) {
@@ -168,7 +174,22 @@ for (const slug of slugs) {
     continue;
   }
   fs.writeFileSync(path.join(ROOT, "content/pages", `${slug}.html`), markup.trim() + "\n");
-  console.log(`${slug}: ${spec.swaps.length} swaps applied`);
+  // the page record: its <head> assets (a preload or script of the reference's that must not run here,
+  // a meta that names the reference) and its title and description
+  const pagesFile = path.join(ROOT, "content/pages.json");
+  const pages = JSON.parse(fs.readFileSync(pagesFile, "utf8"));
+  const record = pages.find((p) => p.slug === slug);
+  if (record) {
+    for (const h of spec.head ?? []) {
+      if (h.remove) record.head = record.head.filter((asset) => !Object.entries(h.remove).every(([k, v]) => (k === "codeIncludes" ? (asset.code || "").includes(v) : asset[k] === v || asset.attrs?.[k] === v)));
+      if (h.meta) for (const asset of record.head) if (asset.kind === "meta" && (asset.attrs.name === h.meta || asset.attrs.property === h.meta)) asset.attrs.content = h.content;
+    }
+    if (spec.title) record.title = spec.title;
+    if (spec.description !== undefined) record.description = spec.description;
+    if (spec.image !== undefined) record.image = spec.image;
+    fs.writeFileSync(pagesFile, JSON.stringify(pages, null, 2) + "\n");
+  }
+  console.log(`${slug}: ${spec.swaps.length} swaps applied${spec.head ? `, ${spec.head.length} head change(s)` : ""}`);
 }
 await browser.close();
 process.exit(failed ? 1 : 0);

@@ -2,7 +2,9 @@
  * Qwarter's content, swapped into the reference design (scripts/design/swap.mjs), is Qwarter's:
  * every swap says where it came from, every page with swaps has its untouched reference copy, and,
  * when the qwarter.com snapshot is on disk (.port-cache/qwarter, after scripts/port/fetch.py), every
- * word put on a page is found verbatim on qwarter.com. Nothing invented can pass.
+ * word put on a page is found verbatim on qwarter.com, or in content/work.json and content/site.json (whose
+ * every word is sourced in turn: the sites' own titles, qwarter.com's pages). A {{token}} the project
+ * template fills from content/work.json at render time is not a word. Nothing invented can pass.
  *
  * Run: npm test
  */
@@ -17,7 +19,7 @@ const ROOT = path.join(import.meta.dirname, "..");
 const SWAPS = path.join(ROOT, "content/swaps");
 const SNAPSHOT = path.join(ROOT, ".port-cache/qwarter");
 
-type Change = { text?: string; html?: string; attr?: Record<string, string | null>; width?: number };
+type Change = { text?: string; html?: string; prepend?: string; attr?: Record<string, string | null>; width?: number; remove?: boolean };
 type Swap = Change & { select: string; source?: string; remove?: boolean; reason?: string; repeat?: string; items?: Record<string, Change | string>[] };
 
 const specs = (fs.existsSync(SWAPS) ? fs.readdirSync(SWAPS).filter((f) => f.endsWith(".json")) : []).map((f) => ({
@@ -41,7 +43,7 @@ test("every swap is well formed and says where its content came from", () => {
         for (const item of s.items!) assert.ok(typeof item.source === "string" && item.source, `${where}: every repeated item names its source`);
         continue;
       }
-      if (s.text !== undefined || s.html !== undefined) assert.ok(s.source, `${where}: a text swap names its source`);
+      if (s.text !== undefined || s.html !== undefined || s.prepend !== undefined) assert.ok(s.source, `${where}: a text swap names its source`);
     }
   }
 });
@@ -72,23 +74,34 @@ function normalise(text: string): string {
     .toLowerCase();
 }
 
-test("every word swapped in is found on qwarter.com (when the snapshot is on disk)", (t) => {
+/** Our own content files, whose words are sourced there: a swap may quote them too. */
+function contentText(): string {
+  return normalise(["content/work.json", "content/site.json"].map((f) => fs.readFileSync(path.join(ROOT, f), "utf8")).join(" ").replace(/\\u([0-9a-f]{4})/gi, (_, h: string) => String.fromCharCode(parseInt(h, 16))).replace(/\\[nrt"\\/]/g, " "));
+}
+
+test("every word swapped in is found on qwarter.com or in the content files (when the snapshot is on disk)", (t) => {
   const corpus = snapshotText();
   if (!corpus) {
     t.skip("no .port-cache/qwarter snapshot here (scripts/port/fetch.py)");
     return;
   }
+  const own = contentText();
   const notFound: string[] = [];
-  const check = (value: string | undefined, where: string) => {
+  const check = (value: string | undefined, where: string, source?: string) => {
     if (!value) return;
-    const quote = normalise(value);
-    if (quote && !corpus.includes(quote)) notFound.push(`${where}: "${value.slice(0, 80)}"`);
+    if (source?.startsWith("UI copy")) { assert.ok(value.length < 80, `${where}: UI copy stays short`); return; } // a label, not a fact (CLAUDE.md)
+    // a template token is filled at render time from content/work.json; the words around it are checked,
+    // and html is checked paragraph by paragraph (each is one quote)
+    for (const piece of value.split(/\{\{\s*[a-zA-Z0-9]+\s*\}\}|<\/p>|<\/li>|<br\s*\/?>/)) {
+      const quote = normalise(piece).replace(/^[\s"“”'.,:;()\-–—]+|[\s"“”'.,:;()\-–—]+$/g, "");
+      if (quote && !corpus.includes(quote) && !own.includes(quote)) notFound.push(`${where}: "${piece.slice(0, 80)}"`);
+    }
   };
   for (const { slug, swaps } of specs) {
     for (const s of swaps) {
-      check(s.text ?? s.html, `${slug} ${s.select}`);
+      check(s.text ?? s.html ?? s.prepend, `${slug} ${s.select}`, s.source);
       for (const item of s.items ?? []) {
-        for (const [sel, change] of Object.entries(item)) if (sel !== "source" && typeof change === "object") check(change.text ?? change.html, `${slug} ${s.select} ${sel}`);
+        for (const [sel, change] of Object.entries(item)) if (sel !== "source" && typeof change === "object") check(change.text ?? change.html, `${slug} ${s.select} ${sel}`, typeof item.source === "string" ? item.source : undefined);
       }
     }
   }

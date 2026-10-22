@@ -3,6 +3,23 @@
 What was checked, how, and with what result. Every check ran on a production build
 (`rm -rf .next && npm run build`), after the last change it covers.
 
+## 2026-10-22, late: the site is Depo Luxe's own pages with Qwarter's content
+
+The lean capture of depoluxe.xyz landed (`captures-lean`: 24 routes, one stylesheet, one script, two fonts, 904 MB of
+their films; `captures-lean3`: the Archive page with hover and cursor probes). `extract.mjs --mode server` carried
+five of its pages (home, archive, about, contact, a project page); `swaps-from-content.mjs` wrote the swap specs from
+content/work.json and content/site.json; `swap.mjs` applied them; `prune.mjs` removed 121 MB of their media.
+Checks on a production build:
+
+| Check | How | Result |
+|---|---|---|
+| Their script runs, on our content | headless Chromium (swiftshader GL; VP9 served where the page asks for H.264), console and network watched through the home, a scroll, Work, Approach, Contact, a project page | no console error, no failed request (two `ERR_ABORTED` on films the browser dropped mid-switch); the WebGL canvas drawn at 1440×900; Butter's, Jeff's and Stairway's films playing (`readyState 4`); the article reads "Butter Website" |
+| What it took to get there | the console, iteration by iteration | our `data-page` on `<body>` stopped their page controller ("data-page [html] no existe"); `/api/videos-data` dropped from the head; `/imageLoaderWorker.js` and `/service-worker.js` served at the root; their image loader asks for `<picture>.webp` beside every picture (19 × 4 twins written by prepare.mjs); the cookie dialog's `.information` element is animated by their script, so it stays (emptied) rather than removed; the fifth menu link is hidden, not removed, for the same reason; the preloader and footer logos must have exactly four `<path>`s (their reveal animates `_items[0..3]`), hence `loader-mark.svg` and `loader-word.svg`; React's hydration undid their DOM rewrites until the carried markup went through `dangerouslySetInnerHTML` |
+| The stills | 12 frames at 1440×900 | the preloader draws our mark; at rest the focused film fills the window with "Butter" and "Website" centred; while scrolling the staircase of our tiles with numerals and years; Work lists our 19 projects by numeral and name beside the focused film; Approach opens with the statement and carries the six questions; Contact lists the email, the handles and the place in its looping columns; the project page plays Butter's film in their player |
+| Nothing of theirs | `tests/content.test.ts` (FOREIGN now includes depoluxe.xyz, vimeo.com, vimeocdn.com, cloudfront.net), grep | no page loads from or links to their servers; the only "depo" strings left are their script's path and the class name `logo-depo` (whose mask file now holds our mark); their words are gone from every page, the cookie dialog's included |
+| Every word is ours | `tests/swaps.test.ts` | every swapped word is found on qwarter.com or in content/work.json and content/site.json; UI copy (hidden headings, "OK", "This site sets no cookies.") is marked as such and kept under 80 characters |
+| Types, lint, tests, build, sweep | each by its own exit code; `scripts/qa/sweep.mjs` at 375 and 1280 | 0 / 0 / 0 / 0; 17 tests pass; 27 routes; the sweep's findings are the 404 page's own status line and, on Work, their script's click sound (`/assets/audio/tac.m4a`, see below) |
+
 ## 2026-10-22: the catalogue from qwarter.com itself, the clients' sites photographed, films that open with the site's own clip
 
 The network opened through GitHub's runners (`.github/workflows/capture.yml`, pushing to orphan branches): qwarter.com's
