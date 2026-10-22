@@ -6,6 +6,7 @@ import { Archive } from "@/components/site/archive";
 import { Contact } from "@/components/site/contact";
 import { Featured } from "@/components/site/featured";
 import { Work } from "@/components/site/work";
+import { StudyPage } from "@/components/study/study";
 import { allPaths, getSite, pageMarkup, resolveRoute } from "@/lib/content";
 import { indexingAllowed } from "@/lib/seo";
 
@@ -60,6 +61,8 @@ export default async function Page({ params }: { params: Params }) {
       return <Approach />;
     case "contact":
       return <Contact />;
+    case "study":
+      return <StudyPage slug={page.project!} />;
     default:
       // a carried page: its document's own body markup, served as it is. It is not reconciled by React
       // (dangerouslySetInnerHTML), because the design's own script rewrites this DOM as soon as it runs, and

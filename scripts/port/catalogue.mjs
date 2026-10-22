@@ -20,6 +20,7 @@
  * scripts/work/prepare.mjs and scripts/work/video.mjs. Usage:
  *   node scripts/port/catalogue.mjs [--cache .port-cache/qwarter] [--shots .port-cache/shots] [--dry]
  */
+import { execFileSync } from "node:child_process";
 import fs from "node:fs";
 import path from "node:path";
 
@@ -39,7 +40,10 @@ const ROMAN = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI"
 const FIRST = ["butter", "jr-pugh", "stairway", "serein", "journey"];
 /** Projects photographed from their own builds or stills: their frames stay; shots add films only. */
 const OWN_FRAMES = ["jr-pugh", "serein", "journey", "stairway"];
-const LIVE_FRAMES = ["jr-pugh"]; // photographed from its own build once; the live site replaces those frames when it has been shot
+const LIVE_FRAMES = ["jr-pugh"];
+// a splash a site plays on arrival, recorded from the site's own files (scripts/work/record.mjs → raw/loader.mp4): the film
+// opens with it, before the clip the site plays. raw/ is not committed, so the splash is prepended only when the recording is there
+const SPLASH = { "jr-pugh": { file: "loader.mp4", seconds: 3.9, from: "the splash jeffvhs.com plays on arrival (recorded from the site's own files, scripts/work/record.mjs)" } }; // photographed from its own build once; the live site replaces those frames when it has been shot
 /** Films from outside the shots: the client's own, found where the note says. */
 const FILMS = {
   "jr-pugh": { file: path.join(MEDIA, "jeffvhs.com/wp-content/uploads/2026/07/brazil-reel-tease.mp4"), from: "the reel jeffvhs.com plays (its media library, 2026/07/brazil-reel-tease.mp4)" },
@@ -175,7 +179,19 @@ function deliver(slug, files, { frames = [], intro = null } = {}) {
   if (DRY) return;
   fs.mkdirSync(raw, { recursive: true });
   for (const f of frames) fs.copyFileSync(f.src, path.join(raw, f.name));
-  if (intro) { const ext = path.extname(intro.file).toLowerCase() === ".webm" ? "webm" : "mp4"; fs.copyFileSync(intro.file, path.join(raw, `intro.${ext}`)); }
+  if (intro) {
+    const ext = path.extname(intro.file).toLowerCase() === ".webm" ? "webm" : "mp4";
+    const target = path.join(raw, `intro.${ext}`);
+    const splash = SPLASH[slug] && fs.existsSync(path.join(raw, SPLASH[slug].file)) ? path.join(raw, SPLASH[slug].file) : null;
+    if (splash && ext === "mp4") {
+      // the splash first, then the site's own clip, both at the same size and rate, one cross-fade between them
+      const tmp = path.join(raw, "intro.tmp.mp4");
+      execFileSync("ffmpeg", ["-y", "-loglevel", "error", "-i", splash, "-i", intro.file, "-filter_complex",
+        `[0:v]trim=0:${SPLASH[slug].seconds},setpts=PTS-STARTPTS,scale=1440:900:force_original_aspect_ratio=increase,crop=1440:900,fps=30,format=yuv420p[a];[1:v]scale=1440:900:force_original_aspect_ratio=increase,crop=1440:900,fps=30,format=yuv420p[b];[a][b]xfade=transition=fade:duration=0.6:offset=${(SPLASH[slug].seconds - 0.6).toFixed(2)}[v]`,
+        "-map", "[v]", "-an", "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", tmp]);
+      fs.renameSync(tmp, target);
+    } else fs.copyFileSync(intro.file, target);
+  }
 }
 
 async function fromUploads(slug, files, max = 6) {
@@ -281,6 +297,7 @@ for (const slug of OWN_FRAMES) {
   const film = shots && !shots.rejected ? shots.videos[0] : null;
   if (film) { deliver(slug, null, { intro: { file: path.join(shots.dir, film.file) } }); p.film = { intro: `intro.${path.extname(film.file).slice(1)}`, from: filmFrom(film.src, `${host(shots.base)}${film.route} plays`) }; }
   else if (FILMS[slug] && fs.existsSync(FILMS[slug].file)) { deliver(slug, null, { intro: { file: FILMS[slug].file } }); p.film = { intro: `intro.${path.extname(FILMS[slug].file).slice(1)}`, from: FILMS[slug].from }; }
+  if (p.film && SPLASH[slug] && fs.existsSync(path.join(WORK, slug, "raw", SPLASH[slug].file))) p.film.from = `${SPLASH[slug].from}, then ${p.film.from}`;
   p.source = p.source.replace(/; film opens with .*$/, "");
   if (p.film) p.source += `; film opens with ${p.film.from}`;
   out.push(p);

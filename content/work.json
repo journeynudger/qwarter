@@ -72,10 +72,10 @@
           "title": "Contact"
         }
       ],
-      "source": "mylife: Open/_Generated/Clients/2026-07/jeffvhs-site-final (final v2 2026-07-16, v3 2026-07-23; title 'JR Pugh | Actor, NYC'; published at jeffvhs.com per PUBLISH.md); film opens with the film jeffvhs.com/ plays (jeffvhs.com, media library 2026/07/brazil-reel-tease.mp4)",
+      "source": "mylife: Open/_Generated/Clients/2026-07/jeffvhs-site-final (final v2 2026-07-16, v3 2026-07-23; title 'JR Pugh | Actor, NYC'; published at jeffvhs.com per PUBLISH.md); film opens with the splash jeffvhs.com plays on arrival (recorded from the site's own files, scripts/work/record.mjs), then the film jeffvhs.com/ plays (jeffvhs.com, media library 2026/07/brazil-reel-tease.mp4)",
       "film": {
         "intro": "intro.mp4",
-        "from": "the film jeffvhs.com/ plays (jeffvhs.com, media library 2026/07/brazil-reel-tease.mp4)"
+        "from": "the splash jeffvhs.com plays on arrival (recorded from the site's own files, scripts/work/record.mjs), then the film jeffvhs.com/ plays (jeffvhs.com, media library 2026/07/brazil-reel-tease.mp4)"
       }
     },
     {
