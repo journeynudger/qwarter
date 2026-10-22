@@ -1,0 +1,117 @@
+{
+  "slug": "jr-pugh",
+  "base": "https://jeffvhs.com",
+  "shot": "2026-10-22T21:13:23.969Z",
+  "viewport": {
+    "width": 1440,
+    "height": 900,
+    "scale": 2
+  },
+  "pages": [
+    {
+      "name": "home",
+      "route": "/",
+      "url": "https://jeffvhs.com/",
+      "title": "JR Pugh – Actor, NYC",
+      "description": "JR Pugh, NYC-based actor with a grounded, charismatic, and intelligent on-camera presence.",
+      "height": 900,
+      "frame": "home.png",
+      "full": "home-full.png",
+      "videos": [
+        "video-01.mp4"
+      ]
+    },
+    {
+      "name": "acting",
+      "route": "/acting/",
+      "url": "https://jeffvhs.com/acting/",
+      "title": "Acting – JR Pugh",
+      "description": null,
+      "height": 1071,
+      "frame": "acting.png",
+      "full": "acting-full.png",
+      "videos": []
+    },
+    {
+      "name": "reel",
+      "route": "/reel/",
+      "url": "https://jeffvhs.com/reel/",
+      "title": "Reel – JR Pugh",
+      "description": null,
+      "height": 1385,
+      "frame": "reel.png",
+      "full": "reel-full.png",
+      "videos": [
+        "video-02.mp4",
+        "video-03.mp4",
+        "video-02.mp4"
+      ]
+    },
+    {
+      "name": "about",
+      "route": "/about/",
+      "url": "https://jeffvhs.com/about/",
+      "title": "About – JR Pugh",
+      "description": null,
+      "height": 2110,
+      "frame": "about.png",
+      "full": "about-full.png",
+      "videos": []
+    },
+    {
+      "name": "contact",
+      "route": "/contact/",
+      "url": "https://jeffvhs.com/contact/",
+      "title": "Contact – JR Pugh",
+      "description": null,
+      "height": 900,
+      "frame": "contact.png",
+      "full": "contact-full.png",
+      "videos": []
+    }
+  ],
+  "videos": [
+    {
+      "route": "/",
+      "src": "https://jeffvhs.com/wp-content/uploads/2026/07/brazil-reel-tease.mp4",
+      "sources": [
+        "https://jeffvhs.com/wp-content/uploads/2026/07/brazil-reel-tease.mp4"
+      ],
+      "poster": null,
+      "width": 1280,
+      "height": 720,
+      "autoplay": true,
+      "loop": false,
+      "file": "video-01.mp4",
+      "bytes": 7558658
+    },
+    {
+      "route": "/reel/",
+      "src": "https://jeffvhs.com/wp-content/uploads/2026/10/brazil-reel.mp4",
+      "sources": [
+        "https://jeffvhs.com/wp-content/uploads/2026/10/brazil-reel.mp4"
+      ],
+      "poster": "https://jeffvhs.com/wp-content/themes/jrpugh/assets/img/posters/brazil-reel.jpg",
+      "width": 1920,
+      "height": 1080,
+      "autoplay": true,
+      "loop": true,
+      "file": "video-02.mp4",
+      "bytes": 34861161
+    },
+    {
+      "route": "/reel/",
+      "src": "https://jeffvhs.com/wp-content/uploads/2026/10/JR-PUGH-REEL.mp4",
+      "sources": [
+        "https://jeffvhs.com/wp-content/uploads/2026/10/JR-PUGH-REEL.mp4"
+      ],
+      "poster": "https://jeffvhs.com/wp-content/themes/jrpugh/assets/img/posters/monologue.jpg",
+      "width": 1920,
+      "height": 1080,
+      "autoplay": true,
+      "loop": true,
+      "file": "video-03.mp4",
+      "bytes": 14523628
+    }
+  ]
+}
