@@ -1,0 +1,304 @@
+{
+  "slug": "jr-pugh",
+  "name": "JR Pugh",
+  "shortName": "JR Pugh",
+  "tagline": "An actor-first site, dark and cinematic.",
+  "client": "JR Pugh, actor, New York",
+  "year": "2026",
+  "role": [
+    "Website design and build",
+    "Splash and reel",
+    "WordPress theme",
+    "Business card"
+  ],
+  "statement": "JR Pugh, NYC-based actor with a grounded, charismatic, and intelligent on-camera presence.",
+  "summary": "jeffvhs.com is five pages: Featured, Acting, Reel, About and Contact. Featured opens on the tease cut from the Brazil reel, a thin rail draining beside it as it plays, and moves on to the four headshots; every page is near-black charcoal with film grain and a vignette, and the one light moment is the About page's modeling section.",
+  "brief": "Built in July 2026 as six static files, then, from August, as the jrpugh WordPress theme, so Jeff swaps the home clip, the reels, the headshots and the résumé himself in the Customizer with a native media picker, the design unchanged.",
+  "kind": "Actor's website",
+  "status": "Live at jeffvhs.com",
+  "url": "https://jeffvhs.com",
+  "address": "jeffvhs.com",
+  "figures": [
+    {
+      "value": "5",
+      "label": "Pages, each its own static file",
+      "source": "README (v2): 'The site is 6 static files (5 pages + style.css)'"
+    },
+    {
+      "value": "4",
+      "label": "Headshots: one set for the Acting page and the Featured slides",
+      "source": "CLAUDE.md: 'exactly 4 unlabeled headshots'; V5-NOTES: one list feeds both"
+    },
+    {
+      "value": "2",
+      "label": "Reels on the Reel page",
+      "source": "the live site's reel page plays two films (shoot manifest, 2026-10-22)"
+    },
+    {
+      "value": "1",
+      "label": "Splash, once per browser session",
+      "source": "CLAUDE.md: 'Plays once per browser session (sessionStorage key jrpLoaderSeen)'"
+    }
+  ],
+  "identity": [
+    {
+      "key": "wordmark",
+      "label": "Wordmark",
+      "note": "\"JR Pugh\" as every page sets it, centred over the menu: JR in the sans, Pugh in the serif (the site's CLAUDE.md: \"JR sans, Pugh serif\"). No tagline anywhere but Featured.",
+      "ground": "#0b0b0c",
+      "dark": true,
+      "wordmark": {
+        "text": "JR Pugh",
+        "family": "EB Garamond",
+        "color": "#f2ede3",
+        "parts": [
+          {
+            "text": "JR",
+            "family": "Inter",
+            "weight": "700",
+            "fallback": "sans-serif"
+          },
+          {
+            "text": " Pugh",
+            "family": "EB Garamond",
+            "weight": "400",
+            "fallback": "serif"
+          }
+        ]
+      }
+    },
+    {
+      "key": "palette",
+      "label": "Colour",
+      "note": "Near-black charcoal on every page, with film grain and a vignette over it, and cream for the words (style.css: --cream, the page #0b0b0c). The reel tiles carry a dark page tint each: oxblood, olive, umber or midnight, the palette the site's CLAUDE.md names.",
+      "colors": [
+        {
+          "hex": "#0b0b0c",
+          "name": "Charcoal",
+          "role": "every page"
+        },
+        {
+          "hex": "#f2ede3",
+          "name": "Cream",
+          "role": "the words"
+        },
+        {
+          "hex": "#7d1a12",
+          "name": "Oxblood",
+          "role": "a reel tile"
+        },
+        {
+          "hex": "#3a2f16",
+          "name": "Olive",
+          "role": "a reel tile"
+        },
+        {
+          "hex": "#241a12",
+          "name": "Umber",
+          "role": "a reel tile"
+        },
+        {
+          "hex": "#141821",
+          "name": "Midnight",
+          "role": "a reel tile"
+        }
+      ]
+    },
+    {
+      "key": "type",
+      "label": "Type",
+      "note": "EB Garamond for the words, Inter for the J and R of the monogram and the menu (style.css: --serif 'EB Garamond', --sans 'Inter'; the splash flickers every letter between the two before it settles).",
+      "faces": [
+        {
+          "role": "The words",
+          "family": "EB Garamond",
+          "weight": "400, italic",
+          "fallback": "serif"
+        },
+        {
+          "role": "Monogram and menu",
+          "family": "Inter",
+          "weight": "400, 600, 700",
+          "fallback": "sans-serif",
+          "sample": "JR PUGH · Featured Acting Reel About Contact"
+        }
+      ]
+    },
+    {
+      "key": "detail",
+      "label": "The card",
+      "note": "The business card, in the site's two faces: JR PUGH and ACTOR on the black side; the email, the phone, www.jeffvhs.com and NEW YORK, NY on the cream side (Open/_Generated/Clients/2026-07/jr-pugh-business-card, print PDFs with the type outlined).",
+      "image": "/media/work/jr-pugh/study/card.jpg",
+      "alt": "JR Pugh's business card, both sides: JR PUGH, Actor, in white on black; and on cream, JR PUGH over a rule, then jrpugh42@gmail.com, 917.741.7212, www.jeffvhs.com and NEW YORK, NY.",
+      "ground": "#e9e7e2",
+      "fit": "contain"
+    }
+  ],
+  "quote": {
+    "text": "Trained for the frame, comfortable in the room, and drawn to work with range, intensity, and emotional specificity.",
+    "source": "From the site's Acting page"
+  },
+  "steps": [
+    {
+      "title": "The splash, then the site",
+      "body": "Before the site, the monogram: J and R resolve at the centre first, then P, U, G and H breathe in around them, every letter flickering between serif and sans until the six settle on the lockup. It plays once per browser session; coming back to Featured skips it. Then the Featured page, the tease from the Brazil reel playing with the rail draining beside it, and the other four pages one after another.",
+      "device": "desktop",
+      "recording": "desktop",
+      "source": "README v3 and CLAUDE.md ('Splash: JR resolves center FIRST, then P-U-G-H breathe in around it via serif/sans swaps'; 'Plays once per browser session')"
+    },
+    {
+      "title": "Featured",
+      "body": "Slide I is the Brazil clip: the phone-call-to-head-smash tease, trimmed with baked fades. The thin rail on the left is a progress line that drains with the clip, the numeral riding its tip; when the clip ends the next slide fades in, and the four headshots follow, letterboxed on every screen so no head is cut off.",
+      "image": "/media/work/jr-pugh/study/d-home.jpg",
+      "alt": "The Featured page of jeffvhs.com: a dark frame with Actor, NYC and JR Pugh at its centre, the menu above, the rail on the left.",
+      "device": "desktop",
+      "source": "README (Structure: Featured), README v3 (the tease), CLAUDE.md (Featured slideshow, contain:true)"
+    },
+    {
+      "title": "Acting",
+      "body": "Four headshots, unlabelled: no numerals, no names, no calls to action. On a phone each is cropped 3:4 and anchored to the top, so the heads stay whole; on a desktop they are the full image at its natural aspect. Under them the blurb and the résumé.",
+      "image": "/media/work/jr-pugh/study/d-acting.jpg",
+      "alt": "The Acting page: four colour headshots in a row under the menu.",
+      "device": "desktop",
+      "source": "CLAUDE.md (Acting page), WP-NOTES (headshots uncropped on desktop)"
+    },
+    {
+      "title": "Reel",
+      "body": "The reel page plays the full Brazil clip and the JR Pugh reel as 16:9 tiles that autoplay muted, each with a dark page tint shown while it is in view: oxblood, olive, umber or midnight. The page is one commented list in its script, so a new clip is one more entry.",
+      "image": "/media/work/jr-pugh/study/d-reel.jpg",
+      "alt": "The Reel page: a wide film tile under the menu.",
+      "device": "desktop",
+      "source": "README v2 (Reel page: single 16:9 reel tile; ITEMS config array), CLAUDE.md (adding to the reel, the tints)"
+    },
+    {
+      "title": "About",
+      "body": "Paragraphs, then a black Acting section and the site's one light moment, the modeling section (\"Behind the headshots\" since the theme's fifth version), as tiles. On a phone the page keeps guaranteed side margins.",
+      "image": "/media/work/jr-pugh/study/d-about.jpg",
+      "alt": "The About page: the paragraph about JR Pugh under the menu, the Acting section below.",
+      "device": "desktop",
+      "source": "README (Structure: About), README v2 (About page margins), V5-NOTES (the heading)"
+    },
+    {
+      "title": "Contact",
+      "body": "Email, phone, NYC, and the résumé as a Download Resume button that only prints when there is a file behind it, so it can never be a dead link.",
+      "image": "/media/work/jr-pugh/study/d-contact.jpg",
+      "alt": "The Contact page: the email address, the phone number and NYC, with the résumé button.",
+      "device": "desktop",
+      "source": "README (Structure: Contact), V5-NOTES (Resume question, answered)"
+    },
+    {
+      "title": "On a phone",
+      "body": "Every page is dark with the frosted menu strip, and the Featured video autoplays on iOS: the attributes a phone needs are set on every film, with a first-touch fallback for Low Power Mode. The responsive pass went down to small phones at 390px.",
+      "device": "phone",
+      "recording": "phone",
+      "source": "README v2 (frosted menu strip, autoplay on iOS, responsive pass), CLAUDE.md (Autoplay)"
+    },
+    {
+      "title": "The theme",
+      "body": "From its fifth version the site is the jrpugh WordPress theme: the home clip, the reel, the four headshots, the four photos behind them and the résumé are Customizer fields behind a native media picker. Each stores an attachment, not a URL, and falls back to the file the site shipped with if the field is empty or the attachment is deleted, so clearing a field restores the site and can never produce an empty page. With the panel untouched, the markup is byte-identical to the version before.",
+      "image": "/media/work/jr-pugh/study/theme.jpg",
+      "alt": "The jrpugh WordPress theme's own screenshot: the Featured page.",
+      "device": "picture",
+      "source": "V5-NOTES (2026-08-28): client-editable media"
+    }
+  ],
+  "film": {
+    "src": "/media/work/jr-pugh/scroll.mp4",
+    "webm": "/media/work/jr-pugh/scroll.webm",
+    "poster": "/media/work/jr-pugh/tile.jpg",
+    "alt": "JR Pugh's film: the splash resolving, the tease the Featured page plays, then the pages scrolling."
+  },
+  "recordings": {
+    "desktop": {
+      "src": "/media/work/jr-pugh/study/desktop.mp4",
+      "poster": "/media/work/jr-pugh/study/desktop-poster.jpg",
+      "alt": "jeffvhs.com on a desktop: the splash, the Featured page with its tease, then Acting, Reel with its two reels, About and Contact."
+    },
+    "phone": {
+      "src": "/media/work/jr-pugh/study/phone.mp4",
+      "poster": "/media/work/jr-pugh/study/phone-poster.jpg",
+      "alt": "jeffvhs.com on a phone, page by page."
+    }
+  },
+  "gallery": [
+    {
+      "src": "/media/work/jr-pugh/study/gallery/01.jpg",
+      "alt": "The splash as J and R resolve at the centre of a black screen."
+    },
+    {
+      "src": "/media/work/jr-pugh/study/gallery/02.jpg",
+      "alt": "The splash settled: P and U above, J and R at the centre, G and H below."
+    },
+    {
+      "src": "/media/work/jr-pugh/study/gallery/03.jpg",
+      "alt": "A frame from the Brazil reel the Reel page plays."
+    },
+    {
+      "src": "/media/work/jr-pugh/study/gallery/04.jpg",
+      "alt": "Another frame from the Brazil reel."
+    },
+    {
+      "src": "/media/work/jr-pugh/study/gallery/05.jpg",
+      "alt": "A frame from the JR Pugh reel."
+    },
+    {
+      "src": "/media/work/jr-pugh/study/gallery/06.jpg",
+      "alt": "Another frame from the JR Pugh reel."
+    }
+  ],
+  "galleryNote": "The splash as it resolves (recorded from the site's own files), and frames from the two reels jeffvhs.com plays, from its media library (2026/10/brazil-reel.mp4, JR-PUGH-REEL.mp4). The footage is JR Pugh's.",
+  "walkthrough": {
+    "desktop": [
+      {
+        "clip": "raw/loader.mp4",
+        "seconds": 3.9
+      },
+      {
+        "clip": "raw/intro.mp4",
+        "from": 4.0,
+        "seconds": 6
+      },
+      {
+        "page": "acting"
+      },
+      {
+        "page": "reel",
+        "hold": 1.2
+      },
+      {
+        "clip": "raw/reel-01.mp4",
+        "from": 20,
+        "seconds": 5
+      },
+      {
+        "clip": "raw/reel-02.mp4",
+        "from": 16,
+        "seconds": 5
+      },
+      {
+        "page": "about"
+      },
+      {
+        "page": "contact"
+      }
+    ],
+    "phone": [
+      {
+        "page": "home"
+      },
+      {
+        "page": "acting"
+      },
+      {
+        "page": "reel"
+      },
+      {
+        "page": "about"
+      },
+      {
+        "page": "contact"
+      }
+    ]
+  },
+  "source": "mylife: Open/_Generated/2026-07-16/jeffvhs-site-final (README: v2 2026-07-16 and v3 2026-07-23, CLAUDE.md, WP-NOTES.md, PUBLISH.md, style.css) and Open/_Generated/Clients/2026-07/jrpugh-wp-theme (V5-NOTES.md 2026-08-28, V6-NOTES.md, theme-source) and jr-pugh-business-card (CARD-PRINT-SPEC.md, card-preview.png); the statement is the site's own description and the quote its Acting blurb; the pages and films photographed from jeffvhs.com on 2026-10-22 (scripts/work/shoot.mjs); the splash recorded from the site's own files with scripts/work/record.mjs. Every word is from those files or the site."
+}

@@ -37,6 +37,9 @@ const SRC = { work: "content/work.json", site: "content/site.json" };
 const host = (u) => u.replace(/^https?:\/\//, "").replace(/\/$/, "");
 const OUT = path.join(ROOT, "content/swaps");
 /** A page heading for a page whose reference has none, present for readers and search, out of the way of the design. */
+// a project with a case study (content/studies/<slug>.json) is our own page: data-internal makes the reference
+// design's script leave the link to the browser (its click handler skips links that carry it)
+const studied = (slug) => fs.existsSync(path.join(ROOT, "content/studies", `${slug}.json`));
 const hiddenH1 = (text) => `<h1 style="position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0">${text}</h1>`;
 const svg = (name) => fs.readFileSync(path.join(ROOT, "public/design/qwarter", name), "utf8").replace(/<\?xml[^>]*>\s*/, "").trim();
 fs.mkdirSync(OUT, { recursive: true });
@@ -102,7 +105,7 @@ const home = {
     ...chrome("/"),
     { select: ".visor-videos", repeat: "figure", items: twice.map((p) => ({ img: { attr: { src: media(p.slug).cover, "data-src": media(p.slug).cover2x, alt: p.name, width: "1440", height: "900" } }, video: { attr: { src: media(p.slug).film } }, source: `${SRC.work} ${p.slug}: its cover and film (scripts/work/prepare.mjs, video.mjs)` })) },
     { select: ".widget-home__ul", repeat: "li", items: twice.map((p) => ({
-      a: { attr: { href: `/work/${p.slug}/`, "data-video-url": media(p.slug).film } },
+      a: { attr: { href: `/work/${p.slug}/`, "data-video-url": media(p.slug).film, "data-internal": studied(p.slug) ? "" : null } },
       "[data-project-counter]": { text: p.numeral },
       "[data-project-title]": { text: p.name, attr: { "data-project-title": p.name } },
       "[data-project-director]": { text: p.made, attr: { "data-project-director": p.made } },
@@ -123,7 +126,7 @@ const workPage = {
     { select: ".block-project-list .visor-videos", repeat: "figure", items: twice.map((p) => ({ img: { attr: { src: media(p.slug).cover, "data-src": media(p.slug).cover2x, alt: p.name, width: "1440", height: "900" } }, video: { attr: { src: media(p.slug).film } }, source: `${SRC.work} ${p.slug}: its cover and film` })) },
     // the list: numeral and name (where the reference lists the client), the name as the title, what was made where it names the director
     { select: ".block-project-list__ul", repeat: "li", items: twice.map((p) => ({
-      a: { attr: { href: `/work/${p.slug}/` } },
+      a: { attr: { href: `/work/${p.slug}/`, "data-internal": studied(p.slug) ? "" : null } },
       ".__roman": { text: p.numeral },
       ".__client": { text: p.name },
       ".__title": { text: p.name, attr: { href: null } },

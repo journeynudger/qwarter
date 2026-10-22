@@ -357,9 +357,9 @@
     {
       "select": "section.block-title.--type_2 figure.media-2 img",
       "attr": {
-        "src": "/media/work/2020-insights/cover.jpg",
-        "data-src": "/media/work/2020-insights/cover@2x.jpg",
-        "alt": "20/20 Insights",
+        "src": "/media/work/theroom/cover.jpg",
+        "data-src": "/media/work/theroom/cover@2x.jpg",
+        "alt": "The Room",
         "width": "1440",
         "height": "900"
       }
@@ -367,15 +367,15 @@
     {
       "select": "section.block-title.--type_2 figure.media-2 video",
       "attr": {
-        "data-src": "/media/work/2020-insights/scroll.mp4"
+        "data-src": "/media/work/theroom/scroll.mp4"
       }
     },
     {
       "select": "section.block-title.--type_2 figure.media-3 img",
       "attr": {
-        "src": "/media/work/mzaero/cover.jpg",
-        "data-src": "/media/work/mzaero/cover@2x.jpg",
-        "alt": "Mzaero",
+        "src": "/media/work/bambino/cover.jpg",
+        "data-src": "/media/work/bambino/cover@2x.jpg",
+        "alt": "Bambino",
         "width": "1440",
         "height": "900"
       }
@@ -383,15 +383,15 @@
     {
       "select": "section.block-title.--type_2 figure.media-3 video",
       "attr": {
-        "data-src": "/media/work/mzaero/scroll.mp4"
+        "data-src": "/media/work/bambino/scroll.mp4"
       }
     },
     {
       "select": "section.block-title.--type_2 figure.media-4 img",
       "attr": {
-        "src": "/media/work/thanh-ta/cover.jpg",
-        "data-src": "/media/work/thanh-ta/cover@2x.jpg",
-        "alt": "Thanh Ta",
+        "src": "/media/work/lorenzo-type/cover.jpg",
+        "data-src": "/media/work/lorenzo-type/cover@2x.jpg",
+        "alt": "Lorenzo Type",
         "width": "1440",
         "height": "900"
       }
@@ -399,7 +399,7 @@
     {
       "select": "section.block-title.--type_2 figure.media-4 video",
       "attr": {
-        "data-src": "/media/work/thanh-ta/scroll.mp4"
+        "data-src": "/media/work/lorenzo-type/scroll.mp4"
       }
     },
     {
@@ -420,6 +420,54 @@
     {
       "select": "section.block-title.--type_3 figure.media-1 img",
       "attr": {
+        "src": "/media/work/2020-insights/cover.jpg",
+        "data-src": "/media/work/2020-insights/cover@2x.jpg",
+        "alt": "20/20 Insights",
+        "width": "1440",
+        "height": "900"
+      }
+    },
+    {
+      "select": "section.block-title.--type_3 figure.media-1 video",
+      "attr": {
+        "data-src": "/media/work/2020-insights/scroll.mp4"
+      }
+    },
+    {
+      "select": "section.block-title.--type_3 figure.media-2 img",
+      "attr": {
+        "src": "/media/work/mzaero/cover.jpg",
+        "data-src": "/media/work/mzaero/cover@2x.jpg",
+        "alt": "Mzaero",
+        "width": "1440",
+        "height": "900"
+      }
+    },
+    {
+      "select": "section.block-title.--type_3 figure.media-2 video",
+      "attr": {
+        "data-src": "/media/work/mzaero/scroll.mp4"
+      }
+    },
+    {
+      "select": "section.block-title.--type_3 figure.media-3 img",
+      "attr": {
+        "src": "/media/work/thanh-ta/cover.jpg",
+        "data-src": "/media/work/thanh-ta/cover@2x.jpg",
+        "alt": "Thanh Ta",
+        "width": "1440",
+        "height": "900"
+      }
+    },
+    {
+      "select": "section.block-title.--type_3 figure.media-3 video",
+      "attr": {
+        "data-src": "/media/work/thanh-ta/scroll.mp4"
+      }
+    },
+    {
+      "select": "section.block-title.--type_3 figure.media-4 img",
+      "attr": {
         "src": "/media/work/ion-insurance/cover.jpg",
         "data-src": "/media/work/ion-insurance/cover@2x.jpg",
         "alt": "Ion Insurance",
@@ -428,57 +476,9 @@
       }
     },
     {
-      "select": "section.block-title.--type_3 figure.media-1 video",
-      "attr": {
-        "data-src": "/media/work/ion-insurance/scroll.mp4"
-      }
-    },
-    {
-      "select": "section.block-title.--type_3 figure.media-2 img",
-      "attr": {
-        "src": "/media/work/iotech-protect/cover.jpg",
-        "data-src": "/media/work/iotech-protect/cover@2x.jpg",
-        "alt": "IoTech Protect",
-        "width": "1440",
-        "height": "900"
-      }
-    },
-    {
-      "select": "section.block-title.--type_3 figure.media-2 video",
-      "attr": {
-        "data-src": "/media/work/iotech-protect/scroll.mp4"
-      }
-    },
-    {
-      "select": "section.block-title.--type_3 figure.media-3 img",
-      "attr": {
-        "src": "/media/work/tima/cover.jpg",
-        "data-src": "/media/work/tima/cover@2x.jpg",
-        "alt": "Titanium Motor Arts",
-        "width": "1440",
-        "height": "900"
-      }
-    },
-    {
-      "select": "section.block-title.--type_3 figure.media-3 video",
-      "attr": {
-        "data-src": "/media/work/tima/scroll.mp4"
-      }
-    },
-    {
-      "select": "section.block-title.--type_3 figure.media-4 img",
-      "attr": {
-        "src": "/media/work/ekaterina-sky/cover.jpg",
-        "data-src": "/media/work/ekaterina-sky/cover@2x.jpg",
-        "alt": "Ekaterina Sky",
-        "width": "1440",
-        "height": "900"
-      }
-    },
-    {
       "select": "section.block-title.--type_3 figure.media-4 video",
       "attr": {
-        "data-src": "/media/work/ekaterina-sky/scroll.mp4"
+        "data-src": "/media/work/ion-insurance/scroll.mp4"
       }
     },
     {
@@ -499,6 +499,54 @@
     {
       "select": "section.block-title.--type_4 figure.media-1 img",
       "attr": {
+        "src": "/media/work/iotech-protect/cover.jpg",
+        "data-src": "/media/work/iotech-protect/cover@2x.jpg",
+        "alt": "IoTech Protect",
+        "width": "1440",
+        "height": "900"
+      }
+    },
+    {
+      "select": "section.block-title.--type_4 figure.media-1 video",
+      "attr": {
+        "data-src": "/media/work/iotech-protect/scroll.mp4"
+      }
+    },
+    {
+      "select": "section.block-title.--type_4 figure.media-2 img",
+      "attr": {
+        "src": "/media/work/tima/cover.jpg",
+        "data-src": "/media/work/tima/cover@2x.jpg",
+        "alt": "Titanium Motor Arts",
+        "width": "1440",
+        "height": "900"
+      }
+    },
+    {
+      "select": "section.block-title.--type_4 figure.media-2 video",
+      "attr": {
+        "data-src": "/media/work/tima/scroll.mp4"
+      }
+    },
+    {
+      "select": "section.block-title.--type_4 figure.media-3 img",
+      "attr": {
+        "src": "/media/work/ekaterina-sky/cover.jpg",
+        "data-src": "/media/work/ekaterina-sky/cover@2x.jpg",
+        "alt": "Ekaterina Sky",
+        "width": "1440",
+        "height": "900"
+      }
+    },
+    {
+      "select": "section.block-title.--type_4 figure.media-3 video",
+      "attr": {
+        "data-src": "/media/work/ekaterina-sky/scroll.mp4"
+      }
+    },
+    {
+      "select": "section.block-title.--type_4 figure.media-4 img",
+      "attr": {
         "src": "/media/work/epic-esg/cover.jpg",
         "data-src": "/media/work/epic-esg/cover@2x.jpg",
         "alt": "EPIC ESG",
@@ -507,57 +555,9 @@
       }
     },
     {
-      "select": "section.block-title.--type_4 figure.media-1 video",
-      "attr": {
-        "data-src": "/media/work/epic-esg/scroll.mp4"
-      }
-    },
-    {
-      "select": "section.block-title.--type_4 figure.media-2 img",
-      "attr": {
-        "src": "/media/work/wood-company/cover.jpg",
-        "data-src": "/media/work/wood-company/cover@2x.jpg",
-        "alt": "Wood Company",
-        "width": "1440",
-        "height": "900"
-      }
-    },
-    {
-      "select": "section.block-title.--type_4 figure.media-2 video",
-      "attr": {
-        "data-src": "/media/work/wood-company/scroll.mp4"
-      }
-    },
-    {
-      "select": "section.block-title.--type_4 figure.media-3 img",
-      "attr": {
-        "src": "/media/work/boujee-healer/cover.jpg",
-        "data-src": "/media/work/boujee-healer/cover@2x.jpg",
-        "alt": "Boujee Healer",
-        "width": "1440",
-        "height": "900"
-      }
-    },
-    {
-      "select": "section.block-title.--type_4 figure.media-3 video",
-      "attr": {
-        "data-src": "/media/work/boujee-healer/scroll.mp4"
-      }
-    },
-    {
-      "select": "section.block-title.--type_4 figure.media-4 img",
-      "attr": {
-        "src": "/media/work/kind-footprint/cover.jpg",
-        "data-src": "/media/work/kind-footprint/cover@2x.jpg",
-        "alt": "Kind Footprint",
-        "width": "1440",
-        "height": "900"
-      }
-    },
-    {
       "select": "section.block-title.--type_4 figure.media-4 video",
       "attr": {
-        "data-src": "/media/work/kind-footprint/scroll.mp4"
+        "data-src": "/media/work/epic-esg/scroll.mp4"
       }
     },
     {
@@ -578,6 +578,54 @@
     {
       "select": "section.block-title.--type_5 figure.media-1 img",
       "attr": {
+        "src": "/media/work/wood-company/cover.jpg",
+        "data-src": "/media/work/wood-company/cover@2x.jpg",
+        "alt": "Wood Company",
+        "width": "1440",
+        "height": "900"
+      }
+    },
+    {
+      "select": "section.block-title.--type_5 figure.media-1 video",
+      "attr": {
+        "data-src": "/media/work/wood-company/scroll.mp4"
+      }
+    },
+    {
+      "select": "section.block-title.--type_5 figure.media-2 img",
+      "attr": {
+        "src": "/media/work/boujee-healer/cover.jpg",
+        "data-src": "/media/work/boujee-healer/cover@2x.jpg",
+        "alt": "Boujee Healer",
+        "width": "1440",
+        "height": "900"
+      }
+    },
+    {
+      "select": "section.block-title.--type_5 figure.media-2 video",
+      "attr": {
+        "data-src": "/media/work/boujee-healer/scroll.mp4"
+      }
+    },
+    {
+      "select": "section.block-title.--type_5 figure.media-3 img",
+      "attr": {
+        "src": "/media/work/kind-footprint/cover.jpg",
+        "data-src": "/media/work/kind-footprint/cover@2x.jpg",
+        "alt": "Kind Footprint",
+        "width": "1440",
+        "height": "900"
+      }
+    },
+    {
+      "select": "section.block-title.--type_5 figure.media-3 video",
+      "attr": {
+        "data-src": "/media/work/kind-footprint/scroll.mp4"
+      }
+    },
+    {
+      "select": "section.block-title.--type_5 figure.media-4 img",
+      "attr": {
         "src": "/media/work/pineapple-club/cover.jpg",
         "data-src": "/media/work/pineapple-club/cover@2x.jpg",
         "alt": "Pineapple Club",
@@ -586,57 +634,9 @@
       }
     },
     {
-      "select": "section.block-title.--type_5 figure.media-1 video",
-      "attr": {
-        "data-src": "/media/work/pineapple-club/scroll.mp4"
-      }
-    },
-    {
-      "select": "section.block-title.--type_5 figure.media-2 img",
-      "attr": {
-        "src": "/media/work/ignite-beacon/cover.jpg",
-        "data-src": "/media/work/ignite-beacon/cover@2x.jpg",
-        "alt": "Beacon",
-        "width": "1440",
-        "height": "900"
-      }
-    },
-    {
-      "select": "section.block-title.--type_5 figure.media-2 video",
-      "attr": {
-        "data-src": "/media/work/ignite-beacon/scroll.mp4"
-      }
-    },
-    {
-      "select": "section.block-title.--type_5 figure.media-3 img",
-      "attr": {
-        "src": "/media/work/core-rhythm-fitness/cover.jpg",
-        "data-src": "/media/work/core-rhythm-fitness/cover@2x.jpg",
-        "alt": "Core Rhythm Fitness",
-        "width": "1440",
-        "height": "900"
-      }
-    },
-    {
-      "select": "section.block-title.--type_5 figure.media-3 video",
-      "attr": {
-        "data-src": "/media/work/core-rhythm-fitness/scroll.mp4"
-      }
-    },
-    {
-      "select": "section.block-title.--type_5 figure.media-4 img",
-      "attr": {
-        "src": "/media/work/butter/cover.jpg",
-        "data-src": "/media/work/butter/cover@2x.jpg",
-        "alt": "Butter",
-        "width": "1440",
-        "height": "900"
-      }
-    },
-    {
       "select": "section.block-title.--type_5 figure.media-4 video",
       "attr": {
-        "data-src": "/media/work/butter/scroll.mp4"
+        "data-src": "/media/work/pineapple-club/scroll.mp4"
       }
     },
     {
@@ -657,6 +657,54 @@
     {
       "select": "section.block-title.--type_6 figure.media-1 img",
       "attr": {
+        "src": "/media/work/ignite-beacon/cover.jpg",
+        "data-src": "/media/work/ignite-beacon/cover@2x.jpg",
+        "alt": "Beacon",
+        "width": "1440",
+        "height": "900"
+      }
+    },
+    {
+      "select": "section.block-title.--type_6 figure.media-1 video",
+      "attr": {
+        "data-src": "/media/work/ignite-beacon/scroll.mp4"
+      }
+    },
+    {
+      "select": "section.block-title.--type_6 figure.media-2 img",
+      "attr": {
+        "src": "/media/work/core-rhythm-fitness/cover.jpg",
+        "data-src": "/media/work/core-rhythm-fitness/cover@2x.jpg",
+        "alt": "Core Rhythm Fitness",
+        "width": "1440",
+        "height": "900"
+      }
+    },
+    {
+      "select": "section.block-title.--type_6 figure.media-2 video",
+      "attr": {
+        "data-src": "/media/work/core-rhythm-fitness/scroll.mp4"
+      }
+    },
+    {
+      "select": "section.block-title.--type_6 figure.media-3 img",
+      "attr": {
+        "src": "/media/work/butter/cover.jpg",
+        "data-src": "/media/work/butter/cover@2x.jpg",
+        "alt": "Butter",
+        "width": "1440",
+        "height": "900"
+      }
+    },
+    {
+      "select": "section.block-title.--type_6 figure.media-3 video",
+      "attr": {
+        "data-src": "/media/work/butter/scroll.mp4"
+      }
+    },
+    {
+      "select": "section.block-title.--type_6 figure.media-4 img",
+      "attr": {
         "src": "/media/work/jr-pugh/cover.jpg",
         "data-src": "/media/work/jr-pugh/cover@2x.jpg",
         "alt": "JR Pugh",
@@ -665,57 +713,9 @@
       }
     },
     {
-      "select": "section.block-title.--type_6 figure.media-1 video",
-      "attr": {
-        "data-src": "/media/work/jr-pugh/scroll.mp4"
-      }
-    },
-    {
-      "select": "section.block-title.--type_6 figure.media-2 img",
-      "attr": {
-        "src": "/media/work/stairway/cover.jpg",
-        "data-src": "/media/work/stairway/cover@2x.jpg",
-        "alt": "Stairway Audio",
-        "width": "1440",
-        "height": "900"
-      }
-    },
-    {
-      "select": "section.block-title.--type_6 figure.media-2 video",
-      "attr": {
-        "data-src": "/media/work/stairway/scroll.mp4"
-      }
-    },
-    {
-      "select": "section.block-title.--type_6 figure.media-3 img",
-      "attr": {
-        "src": "/media/work/serein/cover.jpg",
-        "data-src": "/media/work/serein/cover@2x.jpg",
-        "alt": "Serein",
-        "width": "1440",
-        "height": "900"
-      }
-    },
-    {
-      "select": "section.block-title.--type_6 figure.media-3 video",
-      "attr": {
-        "data-src": "/media/work/serein/scroll.mp4"
-      }
-    },
-    {
-      "select": "section.block-title.--type_6 figure.media-4 img",
-      "attr": {
-        "src": "/media/work/journey/cover.jpg",
-        "data-src": "/media/work/journey/cover@2x.jpg",
-        "alt": "Journey",
-        "width": "1440",
-        "height": "900"
-      }
-    },
-    {
       "select": "section.block-title.--type_6 figure.media-4 video",
       "attr": {
-        "data-src": "/media/work/journey/scroll.mp4"
+        "data-src": "/media/work/jr-pugh/scroll.mp4"
       }
     },
     {

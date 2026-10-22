@@ -1,0 +1,58 @@
+{
+  "shortName": "Lorenzo Type",
+  "tagline": "Four families, seventeen styles, from the mailroom.",
+  "client": "Lorenzo Scardicchio, his own",
+  "year": "2026",
+  "role": ["Four type families", "The foundry site", "The mailroom: paintings, writing, muses"],
+  "statement": "Type drawn and traced from Lorenzo Scardicchio's own hand: Lorenzo Hand, Longhand, Typewriter and Meadow, served from the mailroom on paper photographed from his desk.",
+  "summary": "Lorenzo Type is four families from one desk, seventeen styles in all, each free: Lorenzo Hand, traced letter by letter from the writing on an order sheet; Lorenzo Longhand, the pen-stroke hand in Ballpoint, Graphite and Inkwell; Lorenzo Typewriter, serif and sans in Thin, Light, Regular and Bold; Lorenzo Meadow, Script, Stitched, Sans Light and Regular, and Ornaments.",
+  "brief": "The home page is the order sheet itself, on gingham: date, name, Rural Route 2 Box 17, Low Moon KS, and the four families as its lines. Lorenzo Hand is a blue-ballpoint cursive lifted from two pages written by hand, an order sheet filled in for Far Light Gardens and the captions pencilled beside a pressed spurge; every word on those pages is in the font whole, as the hand wrote it. The mailroom files the paintings, the writing and the muses, and the whole site can be read on the meadow paper instead.",
+  "kind": "Type foundry and site",
+  "status": "Built from its own files, October 2026",
+  "url": "https://lorenzoscardicchio.com",
+  "address": "lorenzoscardicchio.com",
+  "figures": [
+    { "value": "4", "label": "Families: Hand, Longhand, Typewriter, Meadow", "source": "the home page: 'Four families · seventeen styles from the mailroom'" },
+    { "value": "17", "label": "Styles, all free", "source": "the home page's order sheet" },
+    { "value": "3", "label": "Weights of Lorenzo Hand: Regular, As Written, Fine", "source": "assets/lorenzo-hand/README.md" },
+    { "value": "2", "label": "Pages of handwriting the Hand was traced from", "source": "the Hand page: 'lifted from two pages written by hand'" }
+  ],
+  "identity": [
+    { "key": "wordmark", "label": "The name, in his hand", "note": "Lorenzo Type set in Lorenzo Hand, the ballpoint cursive traced from his own order sheet, at the Regular weight; the font file is the site's own.", "wordmark": { "text": "Lorenzo Type", "family": "Lorenzo Hand", "weight": "400", "fallback": "cursive", "color": "#3d376f", "parts": [{ "text": "Lorenzo Type", "family": "Lorenzo Hand", "weight": "400", "fallback": "cursive" }] }, "ground": "#F3EEDB", "dark": false, "source": "assets/lorenzo-hand/LorenzoHand-Regular.woff2 (the site's own font, OFL-like free release per its order sheet); the ballpoint colour --ballpoint #3d376f from assets/foundry.css" },
+    { "key": "palette", "label": "Colour", "note": "Paper from the desk: the gingham and kraft of the order sheet, the cream sheets, the ballpoint blue and the letterpress brown the stylesheet names (--ballpoint, --letterpress, --sheet-ink).", "colors": [
+      { "hex": "#D9CFA6", "name": "Kraft", "role": "the order sheet's ground" },
+      { "hex": "#F3EEDB", "name": "Cream", "role": "the sheet" },
+      { "hex": "#ECE6C6", "name": "Mailroom paper", "role": "the pages" },
+      { "hex": "#3D376F", "name": "Ballpoint", "role": "the Hand" },
+      { "hex": "#4A4036", "name": "Letterpress", "role": "printed words" },
+      { "hex": "#5B5346", "name": "Sheet ink", "role": "the form's ink" }
+    ], "source": "assets/foundry.css (the tokens); the shoot's colour census" },
+    { "key": "type", "label": "The families", "note": "Lorenzo Hand, Longhand, Typewriter and Meadow, each served from the site's own files; the specimen here uses those files.", "faces": [
+      { "role": "Lorenzo Hand", "family": "Lorenzo Hand", "weight": "Regular · As Written · Fine", "fallback": "cursive", "sample": "Mrs. Celeste Rousseau, Rural Route 2 Box 17, Low Moon KS. Around Sept. 1" },
+      { "role": "Lorenzo Longhand", "family": "Lorenzo Longhand", "weight": "Ballpoint · Graphite · Inkwell", "fallback": "cursive", "sample": "the pen-stroke hand" },
+      { "role": "Lorenzo Typewriter", "family": "Lorenzo Typewriter", "weight": "Thin · Light · Regular · Bold", "fallback": "monospace", "sample": "THIRD NOTICE OVERDUE PIECE(S) ARE LISTED AS FOLLOWS:" }
+    ], "source": "the home page's order sheet (the styles of each family); the font files in assets/" },
+    { "key": "detail", "label": "The feather card", "note": "A white feather taped to a torn kraft card, written '36 in the corner: one of the scans the site is cut from.", "image": { "$pic": "04-feather-card.png" }, "alt": "A white feather taped to a torn kraft card, written '36 in the corner.", "ground": "#F3EEDB", "dark": false, "fit": "contain", "source": "the site's own picture (assets/scan/feather-card.png)" }
+  ],
+  "quote": { "text": "Every word on those pages is in the font whole, as the hand wrote it.", "source": "From the Lorenzo Hand page" },
+  "steps": [
+    { "title": "The site, page by page", "body": "Type drawn and traced from Lorenzo Scardicchio's own hand, served from the mailroom on paper photographed from his desk. The home page is the order sheet on gingham; each family has its specimen page with a tester, every glyph and the files to take.", "device": "desktop", "recording": "desktop", "source": "the site's own description and home page" },
+    { "title": "Lorenzo Hand", "body": "A blue-ballpoint cursive, lifted from two pages written by hand: an order sheet filled in for Far Light Gardens, and the captions pencilled beside a pressed spurge. Every word on those pages is in the font whole, as the hand wrote it, and the ligature sets the scan's own word, joins, slips and all. Three weights: Regular is the order sheet's ballpoint set a little heavier than it wrote; As Written is that ballpoint at the weight it has on the page; Fine is the thinner pen of the captions.", "image": "/media/work/lorenzo-type/study/d-hand.jpg", "alt": "The Lorenzo Hand page: the keepsake card, the pressed plant, the tester.", "device": "desktop", "source": "the Hand page's own words" },
+    { "title": "Drawn as the pen made it", "body": "Every word and letter is redrawn from its pen strokes, not traced around the scan's ink: each glyph's ink is reduced to its centre lines, joined into strokes wherever the hand went straight on through a crossing, smoothed by a spline that may stray only a tenth of a pen width from the ink's own middle, and drawn back as discs at the pen's width. A ballpoint pools where it pauses, so in Regular each knob is put back in the ink's own shape.", "image": { "$pic": "10-pressed-plant.png" }, "alt": "A pressed spurge, its round leaves fanned out flat, from the scans.", "device": "picture", "source": "assets/lorenzo-hand/README.md (Drawn as the pen made it)" },
+    { "title": "Lorenzo Typewriter", "body": "Serif and sans in Thin, Light, Regular and Bold; the tester is the line below the heading, drafted by hand: THIRD NOTICE OVERDUE PIECE(S) ARE LISTED AS FOLLOWS.", "image": "/media/work/lorenzo-type/study/d-typewriter.jpg", "alt": "The Lorenzo Typewriter page: the tester and the specimen.", "device": "desktop", "source": "the Typewriter page's own words; the order sheet" },
+    { "title": "On a phone", "body": "The order sheet, the Hand and the mailroom on a phone.", "device": "phone", "recording": "phone", "source": "the phone frames of the shoot" },
+    { "title": "Lorenzo Meadow", "body": "Script, Stitched, Sans Light and Regular, Ornaments; and the whole mailroom can be read on the meadow paper: ruled lines, the photo mount, the kraft envelope.", "image": "/media/work/lorenzo-type/study/d-meadow.jpg", "alt": "The Lorenzo Meadow page.", "device": "desktop", "source": "the Meadow page's own words; the order sheet" },
+    { "title": "The mailroom", "body": "Paintings, writing, and muses, filed: the latest piece, the whole index, articles, posts, artwork, one at random, by muse, by year; the type, the handwriting, the typewriter, the meadow, the paper.", "image": "/media/work/lorenzo-type/study/d-mailroom.jpg", "alt": "The mailroom page: the ways to choose a piece.", "device": "desktop", "source": "the mailroom page's own menu" }
+  ],
+  "gallery": [
+    { "src": { "$pic": "04-feather-card.png" }, "alt": "The feather card.", "source": "the site's own scans" },
+    { "src": { "$pic": "07-polaroid.png" }, "alt": "A faded square photograph of a kitchen garden in summer.", "source": "the site's own scans" },
+    { "src": { "$pic": "10-pressed-plant.png" }, "alt": "A pressed spurge, its round leaves fanned out flat.", "source": "the site's own scans" }
+  ],
+  "galleryNote": "The scans the site is cut from (assets/scan): the feather card, the polaroid, the pressed plant.",
+  "walkthrough": {
+    "desktop": [{ "still": "home", "seconds": 3 }, { "page": "hand" }, { "page": "typewriter", "pan": 7 }, { "page": "meadow", "pan": 6 }, { "page": "mailroom" }],
+    "phone": [{ "page": "home" }, { "page": "hand" }, { "page": "mailroom" }]
+  },
+  "source": "the words are the site's own (journeynudger/lorenzo: index.html, hand/index.html, the specimen pages, mailroom.html, assets/lorenzo-hand/README.md, read 2026-10-22); the pictures its own scans; photographed from its own files on 2026-10-22. The address is the one the site itself names (www.lorenzoscardicchio.com); the runner met a Cloudflare challenge there, so whether this version is live could not be checked from here."
+}

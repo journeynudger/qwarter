@@ -21,7 +21,7 @@ import { splitTopLevel } from "@/lib/html";
 const pages = pagesJson as unknown as Page[];
 const redirects = redirectsJson as Redirects;
 const work = workJson as unknown as Work;
-const KINDS = ["html", "featured", "archive", "work", "approach", "contact"];
+const KINDS = ["html", "featured", "archive", "work", "approach", "contact", "study"];
 const featuredWork = work.projects.filter((p) => p.media !== false);
 
 const ROOT = path.join(import.meta.dirname, "..");
@@ -104,9 +104,11 @@ function sources(): { file: string; text: string }[] {
     .map((f) => `content/pages/${f}`);
   if (fs.existsSync(path.join(ROOT, "content/not-found.html"))) files.push("content/not-found.html");
   files.push("content/pages.json", "content/site.json", "content/work.json");
+  // the case studies name their own pictures and recordings (lib/studies.ts)
+  if (fs.existsSync(path.join(ROOT, "content/studies"))) for (const f of fs.readdirSync(path.join(ROOT, "content/studies"))) if (f.endsWith(".json") && !f.startsWith("_")) files.push(`content/studies/${f}`);
   const texts = files.map((file) => ({ file, text: read(file) }));
   // the views (components/site/) link the chrome's nav and each project's pages and pictures
-  texts.push({ file: "components/site", text: [...(site.chrome.nav as { href: string }[]).map((n) => `href="${n.href}"`), ...workLinks()].join("\n") });
+  texts.push({ file: "components/site", text: [...(site.chrome.nav as { href: string }[]).map((n) => `href="${n.href}"`), ...workLinks(), ...studyLinks()].join("\n") });
   return texts;
 }
 
@@ -123,6 +125,20 @@ function workLinks(): string[] {
     `src="/media/work/${p.slug}/scroll.webm"`,
     ...p.pages.map((pg) => `src="/media/work/${p.slug}/page-${pg.name}.jpg"`),
   ]);
+}
+
+/** What the case-study page references of its own accord (components/study/study.tsx): its stylesheet, script and fonts, and each project's film. */
+function studyLinks(): string[] {
+  const dir = path.join(ROOT, "content/studies");
+  if (!fs.existsSync(dir)) return [];
+  const slugs = fs.readdirSync(dir).filter((f) => f.endsWith(".json") && !f.startsWith("_")).map((f) => f.slice(0, -5));
+  if (!slugs.length) return [];
+  return [
+    'href="/design/qwarter/study.css"', 'src="/design/qwarter/study.js"', 'href="/design/qwarter/fonts/fonts.css"',
+    'href="/design/qwarter/fonts/ebgaramond-normal-400-800-latin.woff2"', 'href="/design/qwarter/fonts/ebgaramond-italic-400-800-latin.woff2"',
+    'href="/contact/"', 'href="/work/"',
+    ...slugs.flatMap((s) => [`href="/work/${s}/"`, `src="/media/work/${s}/study/desktop-poster.jpg"`]),
+  ];
 }
 
 test("nothing is loaded from or links to qwarter.com's WordPress or the reference design's servers", () => {
@@ -179,9 +195,12 @@ test("public/media holds only files a page uses", () => {
   const base = path.join(ROOT, "public/media");
   // raw captures (public/media/work/<slug>/raw/) are not committed and never served by a page
   // "<picture>.webp" beside a referenced picture is asked for by the carried design's image loader at run time
+  // the walkthrough writes every page's still and both recordings into study/ (scripts/work/walkthrough.mjs); a study shows a
+  // subset of them, so those are the renderer's to keep (tests/studies.test.ts checks the pictures a study delivers itself)
+  const walkthrough = /^work\/[^/]+\/study\/((d|m)-[a-z0-9-]+\.jpg|(desktop|phone)(-poster\.jpg|\.mp4|\.webm))$/;
   const unused = walk(base)
     .map((f) => path.relative(base, f))
-    .filter((rel) => !refs.has(rel) && !(rel.endsWith(".webp") && refs.has(rel.slice(0, -5))) && !rel.endsWith(".DS_Store") && !/^work\/[^/]+\/raw\//.test(rel));
+    .filter((rel) => !refs.has(rel) && !(rel.endsWith(".webp") && refs.has(rel.slice(0, -5))) && !rel.endsWith(".DS_Store") && !/^work\/[^/]+\/raw\//.test(rel) && !walkthrough.test(rel));
   assert.deepEqual(unused, []);
 });
 

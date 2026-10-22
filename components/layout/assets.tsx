@@ -16,7 +16,7 @@ export function Assets({ list }: { list: Asset[] }) {
         return <link key={i} rel="stylesheet" href={versioned(asset.href)} media={asset.media} />;
       case "preload":
         return (
-          <link key={i} rel="preload" href={versioned(asset.href)} as={asset.as} type={asset.type} crossOrigin={asset.crossOrigin as "anonymous" | undefined} />
+          <link key={i} rel="preload" href={asset.plain ? asset.href : versioned(asset.href)} as={asset.as} type={asset.type} crossOrigin={asset.crossOrigin as "anonymous" | undefined} />
         );
       case "style":
         return <style key={i} {...attrs(asset.attrs)} dangerouslySetInnerHTML={{ __html: asset.css }} />;

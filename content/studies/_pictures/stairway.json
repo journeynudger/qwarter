@@ -1,0 +1,74 @@
+[
+  {
+    "file": "/media/work/stairway/study/pic-01.jpg",
+    "from": "stairway.audio (the site's own picture)",
+    "source": "03-opengraph-image.png",
+    "kind": "card",
+    "width": 1200,
+    "height": 630
+  },
+  {
+    "file": "/media/work/stairway/study/pic-02.png",
+    "from": "stairway.audio (the site's own picture)",
+    "source": "04-logo-mark-white.png",
+    "kind": "logo",
+    "width": 597,
+    "height": 563
+  },
+  {
+    "file": "/media/work/stairway/study/pic-04.jpg",
+    "from": "stairway.audio (the site's own picture)",
+    "source": "06-image.jpg",
+    "kind": "picture",
+    "width": 1083,
+    "height": 1452
+  },
+  {
+    "file": "/media/work/stairway/study/pic-05.jpg",
+    "from": "stairway.audio (the site's own picture)",
+    "source": "07-image.jpg",
+    "kind": "picture",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "file": "/media/work/stairway/study/pic-06.jpg",
+    "from": "stairway.audio (the site's own picture: SA-S1 front panel)",
+    "source": "08-image.jpg",
+    "kind": "picture",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "file": "/media/work/stairway/study/pic-07.jpg",
+    "from": "stairway.audio (the site's own picture: SA-S1 plug-in ADSR envelope controls)",
+    "source": "09-image.jpg",
+    "kind": "picture",
+    "width": 1094,
+    "height": 1092
+  },
+  {
+    "file": "/media/work/stairway/study/pic-08.jpg",
+    "from": "stairway.audio (the site's own picture: SA-S2 plug-in built-in effects)",
+    "source": "10-image.jpg",
+    "kind": "picture",
+    "width": 1101,
+    "height": 1092
+  },
+  {
+    "file": "/media/work/stairway/study/pic-09.jpg",
+    "from": "stairway.audio (the site's own picture: Dust plug-in)",
+    "source": "11-dust.svg",
+    "kind": "picture",
+    "width": 1200,
+    "height": 1200
+  },
+  {
+    "file": "/media/work/stairway/study/pic-10.jpg",
+    "from": "stairway.audio (the site's own picture: SA-S1 plug-in)",
+    "source": "12-image.jpg",
+    "kind": "picture",
+    "width": 1094,
+    "height": 1092
+  }
+]

@@ -75,7 +75,8 @@ const queue = specs.length ? specs.slice() : ["home=/"];
 /**
  * Close what sits over the page: the probes' dismissal (buttons that say accept, close, got it…), then a
  * close button that only shows a cross (×, ✕, an aria-label), Escape, and last, a fixed layer that covers
- * most of the window and is not the site's header is hidden (a newsletter popup with no button we can read).
+ * most of the window and is not the site's header is hidden (a newsletter popup with no button we can read),
+ * unless the page itself does not scroll: a site drawn in fixed layers (Bambino's wall) keeps them.
  */
 async function closePopups(page) {
   await dismissOverlays(page);
@@ -89,6 +90,9 @@ async function closePopups(page) {
   await sleep(300);
   const hidden = await page.evaluate(() => {
     const vw = innerWidth, vh = innerHeight, gone = [];
+    // a page that does not scroll and is drawn in fixed layers (a wall, a stage, a canvas) is the page: only a layer
+    // that names itself a popup is taken off it
+    const stage = (document.scrollingElement || document.documentElement).scrollHeight <= vh + 4;
     for (const el of document.querySelectorAll("body *")) {
       const cs = getComputedStyle(el);
       if (cs.position !== "fixed" || cs.display === "none" || cs.visibility === "hidden" || Number(cs.opacity) === 0) continue;
@@ -96,7 +100,7 @@ async function closePopups(page) {
       const covers = (Math.min(r.right, vw) - Math.max(r.left, 0)) * (Math.min(r.bottom, vh) - Math.max(r.top, 0)) / (vw * vh);
       const header = r.top <= 2 && r.height < vh * 0.25; // a fixed header or announcement bar stays
       const modal = /modal|popup|pop-up|overlay|lightbox|newsletter|subscribe|backdrop|dialog/i.test(el.className + " " + el.id + " " + (el.getAttribute("role") || ""));
-      if (!header && (covers > 0.35 || (modal && covers > 0.08))) { el.style.setProperty("display", "none", "important"); gone.push((el.className || el.tagName).toString().slice(0, 60)); }
+      if (!header && ((covers > 0.35 && !stage) || (modal && covers > 0.08))) { el.style.setProperty("display", "none", "important"); gone.push((el.className || el.tagName).toString().slice(0, 60)); }
     }
     return gone;
   }).catch(() => []);

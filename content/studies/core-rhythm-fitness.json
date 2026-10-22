@@ -1,0 +1,198 @@
+{
+  "slug": "core-rhythm-fitness",
+  "name": "Core Rhythm Fitness",
+  "shortName": "Core Rhythm Fitness",
+  "tagline": "We help people build the rhythm for a healthy, longer life.",
+  "client": "Core Rhythm Fitness",
+  "year": null,
+  "role": [
+    "Website"
+  ],
+  "statement": "New York’s #1 Personal Training for Leaders",
+  "summary": "Core Rhythm Fitness",
+  "kind": "Website",
+  "status": "Live at corerhythmfitness.net",
+  "url": "https://corerhythmfitness.net",
+  "address": "corerhythmfitness.net",
+  "figures": [
+    {
+      "value": "4",
+      "label": "Pages photographed from the live site",
+      "source": "the shoot / the case study"
+    },
+    {
+      "value": "4",
+      "label": "Colours in the palette",
+      "source": "observed"
+    }
+  ],
+  "identity": [
+    {
+      "key": "logo",
+      "label": "Logo",
+      "note": "Core Rhythm Fitness's logo as the site shows it (corerhythmfitness.net).",
+      "image": "/media/work/core-rhythm-fitness/study/pic-03.png",
+      "alt": "Image 1",
+      "ground": "#000000",
+      "dark": true,
+      "fit": "contain"
+    },
+    {
+      "key": "palette",
+      "label": "Colour",
+      "note": "The colours corerhythmfitness.net is set in, by the area they cover and the words they carry, as observed on 2026-10-22.",
+      "colors": [
+        {
+          "hex": "#FFFFFF",
+          "role": "the page"
+        },
+        {
+          "hex": "#000000",
+          "role": "a surface"
+        },
+        {
+          "hex": "#333333",
+          "role": "the words"
+        },
+        {
+          "hex": "#E8C869",
+          "role": "links"
+        }
+      ]
+    },
+    {
+      "key": "type",
+      "label": "Type",
+      "note": "The typefaces corerhythmfitness.net is set in, as observed: RiccioneSerial Regular and Inter.",
+      "faces": [
+        {
+          "role": "Headings",
+          "family": "RiccioneSerial Regular",
+          "fallback": "sans-serif"
+        },
+        {
+          "role": "Text",
+          "family": "Inter",
+          "fallback": "sans-serif"
+        }
+      ]
+    },
+    {
+      "key": "detail",
+      "label": "On a phone",
+      "note": "corerhythmfitness.net on a phone, its home page as photographed on 2026-10-22.",
+      "image": "/media/work/core-rhythm-fitness/study/m-home.jpg",
+      "alt": "Core Rhythm Fitness's home page on a phone.",
+      "ground": "#FFFFFF",
+      "dark": false,
+      "fit": "cover"
+    }
+  ],
+  "quote": {
+    "text": "This is for people who've given deeply to their work and are now ready for health that gives back.",
+    "source": "From the site's CORE RHYTHM FITNESS page"
+  },
+  "steps": [
+    {
+      "title": "corerhythmfitness.net, page by page",
+      "body": "Core Rhythm Fitness, as corerhythmfitness.net stands today.",
+      "device": "desktop",
+      "recording": "desktop",
+      "source": ""
+    },
+    {
+      "title": "About",
+      "body": "“Health that works inside your life” #1 Private Personal Training & Nutrition for Leaders | NYC",
+      "image": "/media/work/core-rhythm-fitness/study/d-about.jpg",
+      "alt": "corerhythmfitness.net: the About page.",
+      "device": "desktop",
+      "source": "the page's own heading and first paragraph, as photographed"
+    },
+    {
+      "title": "How It Works",
+      "body": "“How it works” The Rhythm Reset is a paid assessment.",
+      "image": "/media/work/core-rhythm-fitness/study/d-how-it-works.jpg",
+      "alt": "corerhythmfitness.net: the How It Works page.",
+      "device": "desktop",
+      "source": "the page's own heading and first paragraph, as photographed"
+    },
+    {
+      "title": "Connect",
+      "body": "“Join the CRF Community” Scale 1-10 and why did you choose that number?",
+      "image": "/media/work/core-rhythm-fitness/study/d-connect.jpg",
+      "alt": "corerhythmfitness.net: the Connect page.",
+      "device": "desktop",
+      "source": "the page's own heading and first paragraph, as photographed"
+    },
+    {
+      "title": "On a phone",
+      "body": "corerhythmfitness.net on a phone, 4 pages as photographed on 2026-10-22.",
+      "device": "phone",
+      "recording": "phone",
+      "source": "the phone frames of the shoot"
+    }
+  ],
+  "film": {
+    "src": "/media/work/core-rhythm-fitness/scroll.mp4",
+    "webm": "/media/work/core-rhythm-fitness/scroll.webm",
+    "poster": "/media/work/core-rhythm-fitness/tile.jpg",
+    "alt": "Core Rhythm Fitness's film: the site scrolling."
+  },
+  "recordings": {
+    "desktop": {
+      "src": "/media/work/core-rhythm-fitness/study/desktop.mp4",
+      "poster": "/media/work/core-rhythm-fitness/study/desktop-poster.jpg",
+      "alt": "Core Rhythm Fitness on a desktop: Home, About, How It Works, Connect."
+    },
+    "phone": {
+      "src": "/media/work/core-rhythm-fitness/study/phone.mp4",
+      "poster": "/media/work/core-rhythm-fitness/study/phone-poster.jpg",
+      "alt": "Core Rhythm Fitness on a phone."
+    }
+  },
+  "gallery": [
+    {
+      "src": "/media/work/core-rhythm-fitness/study/pic-02.jpg",
+      "alt": "Core Rhythm Fitness: a picture from the site",
+      "source": "corerhythmfitness.net (the site's own picture)"
+    },
+    {
+      "src": "/media/work/core-rhythm-fitness/study/pic-12.png",
+      "alt": "Core Rhythm Fitness: a picture from the site",
+      "source": "corerhythmfitness.net (the site's own picture)"
+    },
+    {
+      "src": "/media/work/core-rhythm-fitness/study/pic-13.png",
+      "alt": "Core Rhythm Fitness: a picture from the site",
+      "source": "corerhythmfitness.net (the site's own picture)"
+    },
+    {
+      "src": "/media/work/core-rhythm-fitness/study/pic-14.jpg",
+      "alt": "Core Rhythm Fitness: a picture from the site",
+      "source": "corerhythmfitness.net (the site's own picture)"
+    },
+    {
+      "src": "/media/work/core-rhythm-fitness/study/pic-15.jpg",
+      "alt": "Slider Image",
+      "source": "corerhythmfitness.net (the site's own picture: Slider Image)"
+    },
+    {
+      "src": "/media/work/core-rhythm-fitness/study/pic-16.jpg",
+      "alt": "Slider Image",
+      "source": "corerhythmfitness.net (the site's own picture: Slider Image)"
+    },
+    {
+      "src": "/media/work/core-rhythm-fitness/study/pic-17.jpg",
+      "alt": "Slider Image",
+      "source": "corerhythmfitness.net (the site's own picture: Slider Image)"
+    },
+    {
+      "src": "/media/work/core-rhythm-fitness/study/pic-18.jpg",
+      "alt": "Slider Image",
+      "source": "corerhythmfitness.net (the site's own picture: Slider Image)"
+    }
+  ],
+  "galleryNote": "The site's own pictures, from corerhythmfitness.net.",
+  "source": "The statement is the site's own: its home page's first heading or first paragraph.; The line under the name is the site's own first heading (its home page's h1).; corerhythmfitness.net photographed on 2026-10-22 (scripts/work/shoot.mjs): page titles and first words, typefaces and colours observed, the logo and pictures the pages show, the phone frames. Every word is qwarter.com's, the site's own or observed; nothing is written here.",
+  "generated": true
+}

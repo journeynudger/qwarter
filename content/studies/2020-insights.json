@@ -1,0 +1,224 @@
+{
+  "slug": "2020-insights",
+  "name": "20/20 Insights",
+  "shortName": "20/20 Insights",
+  "tagline": "Human Resources Technology, California",
+  "client": "20/20 Insights, human resources technology, California",
+  "year": "2024",
+  "role": [
+    "Software Development",
+    "UI/UX Design",
+    "Thoughtspot Integration"
+  ],
+  "statement": "20/20 Insights is designed to seamlessly fit into the organization’s daily life, providing real-time management and actionable insights.",
+  "summary": "20/20 Insights is designed to seamlessly fit into the organization’s daily life, providing real-time management and actionable insights. By utilizing organizational insights and algorithms, 20/20 Insights not only tracks key metrics including goal achievement, employee well-being and engagement, strategic plan execution, and utilization rates, but also interprets this data to provide personalized recommendations and alerts.",
+  "brief": "Deliverables: Software Development, UI/UX Design, Thoughtspot Integration. Strategy: Cross Platform Integration, AI Personalization, Integrate Consulting Transcripts, .",
+  "kind": "Software development & design",
+  "status": "Live at 2020insights.net",
+  "url": "https://2020insights.net",
+  "address": "2020insights.net",
+  "figures": [
+    {
+      "value": "3",
+      "label": "Pages photographed from the live site",
+      "source": "the shoot / the case study"
+    },
+    {
+      "value": "3",
+      "label": "Deliverables: Software Development, UI/UX Design, Thoughtspot Integration",
+      "source": "qwarter.com's case study"
+    },
+    {
+      "value": "2024",
+      "label": "The year qwarter.com's case study gives",
+      "source": "Project Info"
+    },
+    {
+      "value": "5",
+      "label": "Colours in the palette",
+      "source": "Style & Imagery"
+    }
+  ],
+  "identity": [
+    {
+      "key": "logo",
+      "label": "Logo",
+      "note": "20/20 Insights's logo as the site shows it (2020insights.net).",
+      "image": "/media/work/2020-insights/study/pic-09.png",
+      "alt": "Insights Logo",
+      "ground": "#00326C",
+      "dark": true,
+      "fit": "contain"
+    },
+    {
+      "key": "palette",
+      "label": "Colour",
+      "note": "The five colours qwarter.com's case study lists under Style & Imagery.",
+      "colors": [
+        {
+          "hex": "#007DDB"
+        },
+        {
+          "hex": "#04C1D4"
+        },
+        {
+          "hex": "#00326C"
+        },
+        {
+          "hex": "#FF0C31"
+        },
+        {
+          "hex": "#FFAA00"
+        }
+      ]
+    },
+    {
+      "key": "type",
+      "label": "Type",
+      "note": "The type samples qwarter.com's case study sets under Style & Imagery; Sofia Pro is what 2020insights.net renders its headings in today.",
+      "faces": [
+        {
+          "role": "Headings",
+          "family": "Lato",
+          "weight": "Semibold",
+          "fallback": "sans-serif"
+        },
+        {
+          "role": "Subheadings",
+          "family": "Open sans",
+          "fallback": "sans-serif"
+        },
+        {
+          "role": "Headings",
+          "family": "Sofia Pro",
+          "fallback": "sans-serif"
+        }
+      ]
+    },
+    {
+      "key": "detail",
+      "label": "On a phone",
+      "note": "2020insights.net on a phone, its home page as photographed on 2026-10-22.",
+      "image": "/media/work/2020-insights/study/m-home.jpg",
+      "alt": "20/20 Insights's home page on a phone.",
+      "ground": "#007DDB",
+      "dark": true,
+      "fit": "cover"
+    }
+  ],
+  "quote": {
+    "text": "PURPOSE-POWERED PERFORMANCE",
+    "source": "From the site's Insights page"
+  },
+  "steps": [
+    {
+      "title": "2020insights.net, page by page",
+      "body": "20/20 Insights is designed to seamlessly fit into the organization’s daily life, providing real-time management and actionable insights. By utilizing organizational insights and algorithms, 20/20 Insights not only tracks key metrics including goal achievement, employee well-being and engagement, strategic plan execution, and utilization rates, but also interprets this data to provide personalized recommendations and alerts.",
+      "device": "desktop",
+      "recording": "desktop",
+      "source": "qwarter.com's case study, its first paragraph about the client"
+    },
+    {
+      "title": "Our Story",
+      "body": "“Our Story” Driven by a passion to help mission-focused organizations succeed.",
+      "image": "/media/work/2020-insights/study/d-our-story.jpg",
+      "alt": "2020insights.net: the Our Story page.",
+      "device": "desktop",
+      "source": "the page's own heading and first paragraph, as photographed"
+    },
+    {
+      "title": "Perspectives",
+      "body": "“Perspectives” Exploring Strategy, Mission, Engagement, and Leadership",
+      "image": "/media/work/2020-insights/study/d-perspectives.jpg",
+      "alt": "2020insights.net: the Perspectives page.",
+      "device": "desktop",
+      "source": "the page's own heading and first paragraph, as photographed"
+    },
+    {
+      "title": "On a phone",
+      "body": "2020insights.net on a phone, 4 pages as photographed on 2026-10-22.",
+      "device": "phone",
+      "recording": "phone",
+      "source": "the phone frames of the shoot"
+    },
+    {
+      "title": "The challenge",
+      "body": "20/20 Insights addresses a critical challenge in the modern workplace: bridging the gap between individual employee growth and overarching organizational strategy. Traditional personal development and wellness programs often operate in silos, failing to align with business objectives or adapt to individual needs. This disconnect not only hinders personal growth but also limits organizational effectiveness and adaptability in a rapidly changing business environment.",
+      "image": "/media/work/2020-insights/study/pic-01.png",
+      "alt": "20/20 Insights: a picture as qwarter.com's case study shows it",
+      "device": "picture",
+      "source": "qwarter.com's case study"
+    },
+    {
+      "title": "The solution",
+      "body": "Create a comprehensive solution by integrating AI-driven insights with personalized development strategies, fostering a culture of continuous improvement and strategic alignment. Its platform acts as a dynamic coach, offering real-time, actionable guidance tailored to individual and organizational goals. Where personal growth directly contributes to business success, making the journey towards well-being and efficiency both measurable and meaningful. 20/20 Insights has positioned itself as an indispensable companion for both individuals and organizations navigating the complexities of modern work life. Its brand strategy emphasizes the fusion of technology with human-centric design, showcasing 20/20 Insights as a pioneering force in predictive personal development. By focusing on empowerment, adaptability, and actionable insights, 20/20 Insights differentiates itself as not just another wellness platform but as a transformative tool for achieving personal clarity, purpose, and passion while aligning with organizational objectives. 20/20 Insights is the bridge to a future where personal development and corporate success are inextricably linked, driving forward a new standard for workplace wellness and efficiency. “Needing to create software in today’s AI driven world for such a complex use case was a difficult challenge. We felt it was especially difficult to get right. QWARTER responded with knowledge about current technologies and the best way to get to the most sustainable outcome, combining AI with Holistic Human Coaching and creating an all in one place to track all of it. Now, that.. is delightful.” Kirsti Tcherkoyan, CEO",
+      "image": "/media/work/2020-insights/study/pic-02.jpg",
+      "alt": "20/20 Insights: a picture as qwarter.com's case study shows it",
+      "device": "picture",
+      "source": "qwarter.com's case study"
+    }
+  ],
+  "film": {
+    "src": "/media/work/2020-insights/scroll.mp4",
+    "webm": "/media/work/2020-insights/scroll.webm",
+    "poster": "/media/work/2020-insights/tile.jpg",
+    "alt": "20/20 Insights's film: the site scrolling."
+  },
+  "recordings": {
+    "desktop": {
+      "src": "/media/work/2020-insights/study/desktop.mp4",
+      "poster": "/media/work/2020-insights/study/desktop-poster.jpg",
+      "alt": "20/20 Insights on a desktop: Home, Our Story, Perspectives."
+    },
+    "phone": {
+      "src": "/media/work/2020-insights/study/phone.mp4",
+      "poster": "/media/work/2020-insights/study/phone-poster.jpg",
+      "alt": "20/20 Insights on a phone."
+    }
+  },
+  "gallery": [
+    {
+      "src": "/media/work/2020-insights/study/pic-01.png",
+      "alt": "20/20 Insights: a picture as qwarter.com's case study shows it",
+      "source": "qwarter.com's case study (its media library)"
+    },
+    {
+      "src": "/media/work/2020-insights/study/pic-02.jpg",
+      "alt": "20/20 Insights: a picture as qwarter.com's case study shows it",
+      "source": "qwarter.com's case study (its media library)"
+    },
+    {
+      "src": "/media/work/2020-insights/study/pic-03.jpg",
+      "alt": "20/20 Insights: a picture as qwarter.com's case study shows it",
+      "source": "qwarter.com's case study (its media library)"
+    },
+    {
+      "src": "/media/work/2020-insights/study/pic-04.jpg",
+      "alt": "20/20 Insights: a picture as qwarter.com's case study shows it",
+      "source": "qwarter.com's case study (its media library)"
+    },
+    {
+      "src": "/media/work/2020-insights/study/pic-05.jpg",
+      "alt": "20/20 Insights: a picture as qwarter.com's case study shows it",
+      "source": "qwarter.com's case study (its media library)"
+    },
+    {
+      "src": "/media/work/2020-insights/study/pic-06.jpg",
+      "alt": "20/20 Insights: a picture as qwarter.com's case study shows it",
+      "source": "qwarter.com's case study (its media library)"
+    },
+    {
+      "src": "/media/work/2020-insights/study/pic-07.png",
+      "alt": "20/20 Insights: a picture as qwarter.com's case study shows it",
+      "source": "qwarter.com's case study (its media library)"
+    },
+    {
+      "src": "/media/work/2020-insights/study/pic-08.png",
+      "alt": "20/20 Insights: a picture as qwarter.com's case study shows it",
+      "source": "qwarter.com's case study (its media library)"
+    }
+  ],
+  "galleryNote": "Pictures from qwarter.com's case study (its media library).",
+  "source": "qwarter.com/portfolio/2020-insights/ (WordPress snapshot 2026-10-22): the service line, facts, Style & Imagery, Deliverables/Services/Strategy, Project Info, challenge, solution and design strategy where they are this client's own (a paragraph pasted on another case study is left out), and its pictures; 2020insights.net photographed on 2026-10-22 (scripts/work/shoot.mjs): page titles and first words, typefaces and colours observed, the logo and pictures the pages show, the phone frames. Every word is qwarter.com's, the site's own or observed; nothing is written here.",
+  "generated": true
+}

@@ -28,11 +28,14 @@ when the strip comes to rest, ours play the website scrolling; black Paper-shade
 | Dev server | `npm run dev` |
 | Production build / start | `npm run build` · `npm start -- -p 3102` |
 | Types / lint / unit tests | `npm run typecheck` · `npm run lint` · `npm test` |
-| Photograph a site Qwarter built (raw PNGs, not committed) | `node scripts/work/shoot.mjs <slug> <base> [name=route[\|click:selector] …] [--discover N] [--out dir]` |
+| Photograph a site Qwarter built (raw PNGs, not committed; a local Next dev server through `localhost`, not `127.0.0.1`, whose chunks it answers with 403 so nothing hydrates; a page drawn in fixed layers that does not scroll, Bambino's wall, keeps them) | `node scripts/work/shoot.mjs <slug> <base> [name=route[\|click:selector] …] [--discover N] [--out dir] [--phone] [--assets] [--settle ms]` |
 | Fetch what the build environment cannot reach, through a GitHub runner | Actions → *Capture the reference design and the WordPress site* → Run workflow (`design_origin`, `wordpress_origin`, `media_urls`, `shoot_specs`, `branch`); then `git fetch origin <branch> && git checkout origin/<branch> -- .port-cache .design-cache` |
 | The catalogue from the WordPress snapshot and the clients' live sites | `node scripts/port/catalogue.mjs [--dry]`, then `prepare.mjs`, `video.mjs`, `npm test` |
 | Make the delivered pictures from the raw ones | `node scripts/work/prepare.mjs [slug …]` |
 | Render each site scrolling, as the strip's film | `node scripts/work/video.mjs [slug …]` → `scroll.mp4` + `scroll.webm` |
+| The case studies' recordings: each site on a desktop and on a phone, 60 fps, plus the stills (scenes from the study's or its override's `walkthrough`, else the first pages) | `node scripts/work/walkthrough.mjs [--no-webm \| --webm-only] [slug …]` → `study/{desktop,phone}.{mp4,webm}`, posters, `d-*.jpg`, `m-*.jpg` |
+| Record a page's own motion deterministically (a splash, a reveal) | `node scripts/work/record.mjs <url> <out.mp4> [--seconds 6] [--until <selector>] [--font-css <file>]` |
+| The case studies from qwarter.com's case studies and the shoots (hand-written ones kept) | `node scripts/port/studies.mjs [slug …]`, after catalogue → prepare → walkthrough; then `npm test` |
 | Icons and the social card from the brand's marks | `node scripts/brand/icons.mjs <white wordmark png>` (mark: `scripts/brand/trace-mark.mjs`) |
 | Stills of every page, both widths, loader and slideshow mid-way | `node scripts/qa/shots.mjs --base http://localhost:3102` → `qa-out/shots/` |
 | Rendered-page sweep (console errors, images, alt, overflow, h1, links) | `node scripts/qa/sweep.mjs --base http://localhost:3102` |
@@ -62,15 +65,20 @@ components/site/work.tsx     the viewer (/work/<slug>/): one site at a time, sli
 components/site/approach.tsx the statement, the facts, an index of the work, over a Paper shader
 components/site/contact.tsx  the address
 components/paper/            Paper shaders for markup that asks for one (data-paper-shader), pause + reduced motion
+components/study/study.tsx   a case study (/work/<slug>/ when content/studies/<slug>.json exists): the whole page, on the server
 components/layout/assets.tsx the <link>s, <style>s and <script>s a page lists, in order
 lib/content.ts               types, accessors, resolveRoute(): the single source of routing truth; /work/<slug>/ pages
+lib/studies.ts               the case studies' types and loader (content/studies/*.json), studyMedia()
 lib/html.ts                  carried markup → React elements (kind "html" pages; none at the moment)
 content/                     everything the site says (see below)
-public/design/qwarter/       site.css, site.js, fonts/, paper.css, q-mark.svg, icon.svg, apple-touch-icon.png
+public/design/qwarter/       site.css, site.js, study.css, study.js, fonts/, paper.css, q-mark.svg, icon.svg, apple-touch-icon.png
+public/media/work/<slug>/study/  a case study's own pictures and its recordings (walkthrough.mjs, studies.mjs)
 public/media/work/<slug>/    the delivered pictures of each project; raw/ holds the captures (ignored by git)
 public/media/og.jpg          the social card
-scripts/work/                shoot.mjs (photograph a site), prepare.mjs (deliver the pictures), video.mjs (the film)
+scripts/work/                shoot.mjs (photograph a site, --phone --assets), prepare.mjs (deliver the pictures), video.mjs (the film),
+                             walkthrough.mjs (the case studies' recordings), record.mjs (a page's own motion, frame by frame)
 scripts/port/catalogue.mjs   the catalogue: qwarter.com's case studies + the clients' live sites → content/work.json, raw frames
+scripts/port/studies.mjs     the case studies: qwarter.com's case studies + each site's shoot (+ _overrides) → content/studies/*.json
 .github/workflows/capture.yml  a GitHub runner fetches what this environment cannot (Depo Luxe, qwarter.com, client sites) → a captures branch
 scripts/brand/               trace-mark.mjs (the pixel Q as squares), icons.mjs
 scripts/qa/                  shots.mjs, sweep.mjs, compare-design.mjs (parked), sheet.mjs
@@ -126,6 +134,76 @@ reconciles what their script rewrites. To redo the port after a new capture:
 then `swaps-from-content.mjs`, `swap.mjs`, `prune.mjs`, `npm test`, build. The sections below describe the
 hand-built site that preceded this (its code remains in `components/site/` and `public/design/qwarter/`
 and is not served); they stay as the record of how the staircase was measured.
+
+## The case studies (2026-10-22)
+
+Lorenzo asked for "smooth walkthroughs of each site… like these case studies" and pointed at the Valerin
+site's project pages (valerin-umber.vercel.app/our-work/south-howard-flood-relief, which he designed after
+Mouthwash's Seed and Casa), then for rich studies of JR Pugh (the splash, every page, the reels), Butter (the
+store's film used as the store uses it, a Visit, the packaging and the brand), Serein (the brand, withserein.com,
+the app), The Room, his artist site and Bambino, and Thanh Ta from its case study alone, with its logo and no
+link. So `/work/<slug>/` is a case study wherever `content/studies/<slug>.json` exists (all 22 projects now),
+in place of Depo Luxe's project player; the carried pages' links to a study carry `data-internal`, which
+Cuchillo's click handler leaves to the browser, so the page loads whole.
+
+**The page** (`components/study/study.tsx`, `study.css`, `study.js`): the name and a line, the facts in a row
+(Client · Year · Made · Status), the project's film (the strip's own, square), one sentence set large with its
+figures under it and the overview behind Read more, the identity as a mosaic of four tiles (the logo or
+wordmark on its own ground, the colours as named bands, the type as a specimen, one detail), the site
+recorded on a desktop in a browser frame, each design note as the screen it shaped (desktop, phone or a
+picture) with its first sentence shown and the whole note a "+" away, the gallery with notches after the
+first pair, a line from the site itself, the close (Visit <address> where there is one, Start a project, the
+next study on its two screens) and the footer. Set in Depo Luxe's language so it belongs beside the carried
+pages: black, EB Garamond, roman numerals, a numeral rail on the left from 1240px. Everything renders on the
+server; study.js adds the motion (the veil, the title's lines rising, reveals, the statement word by word,
+the figures counting, parallax on the screens, films playing in view with their own pause, the sheets lifted
+into a `<dialog>` that swipes away on a phone, the gallery's drag with inertia, buttons that lean to the
+pointer); `prefers-reduced-motion` keeps the page whole and still, and without the script the notes are
+`<details>`.
+
+**The recordings** (`scripts/work/walkthrough.mjs`): each page holds at its top, eases down it and holds at its
+foot, with a cross-fade to the next; 1440×900 and 780×1688 at 60 frames a second, rendered at twice the size
+and scaled down so the glide moves by half pixels; H.264 and VP9, 1–5 MB. A study can script its scenes
+(`walkthrough.desktop` / `.phone`: pages, the site's own films under `raw/`, stills). JR Pugh's opens with
+its splash, recorded from the site's own files in the vault with `scripts/work/record.mjs` (Chromium's virtual
+time advanced one frame between screenshots, so nothing is dropped however slow the capture), then the tease
+the home page plays, then the pages and the two reels; the catalogue prepends the same splash to its strip
+film (`SPLASH` in catalogue.mjs; raw/ is not committed, so record it again before a catalogue run or the
+film opens on the tease alone).
+
+**The words.** Every study says in `source` where each line comes from, and nothing is written here:
+- `scripts/port/studies.mjs` writes a study for every project from qwarter.com's own case study (the service
+  line, the facts, the description, Style & Imagery's five colours and type samples, the Deliverables /
+  Services / Strategy lists, Project Info, the challenge, the solution and the design strategy, the line it
+  quotes, its pictures) and from the site's shoot (each page's title and first words, the typefaces and
+  colours observed, its logo and pictures, the phone frames). A paragraph that appears word for word on two
+  case studies was pasted and is left out, the catalogue's rule. The result carries `generated: true` and is
+  rebuilt, never edited.
+- What is written by hand about a generated study lives in `content/studies/_overrides/<slug>.json` and is
+  laid over it on every run (a key given there replaces the generated one; `{"$pic": "<file>"}` names one of
+  the shoot's or the snapshot's pictures, `{"$copy": "<absolute path>"}` brings a file from the project's own
+  repository). Butter (the store's own words and pictures, the packaging), Thanh Ta (the case study's words,
+  its logo in three settings, no link), Serein (the app's README, the brand files in `SereinLife/serein`, the
+  site's own words, the brand references and brief in the vault), The Room (`journeynudger/theroom`: README,
+  the wall's own interface strings, its plaster figures), Bambino (`journeynudger/bambino`: README, the
+  chapters' own titles) and Lorenzo Type (`journeynudger/lorenzo`: the order sheet, the Hand page, the
+  scans) are written that way. JR Pugh's study is written whole (`content/studies/jr-pugh.json`, no
+  `generated`) from the project's files in the vault.
+- `content/studies/_pictures/<slug>.json` says which source file each delivered picture came from;
+  `_pending/` parks a step whose recording does not exist yet.
+
+**Photographed from their own builds**, because the runner could not see them: The Room (its Vercel preview is
+behind Vercel's login; `site/server.mjs` from the repository), Lorenzo Type (lorenzoscardicchio.com answered
+the runner with a Cloudflare challenge; the static files), Serein's Product and Manifesto pages (client-side
+routes on withserein.com; the vault's `Serein/serein-site` run locally, with the live site's home for the
+rest). Bambino from bambino-1dtu.vercel.app, the address Lorenzo gave. Their records in `content/work.json`
+are written by hand; the catalogue keeps them (`OWN_FRAMES`, `LIVE_FRAMES` for Bambino) and orders them after
+Journey (`FIRST`).
+
+**Fonts.** The specimens set each site's faces in the face itself where it is ours to ship: Inter (fontsource,
+OFL) for Butter, Serein and JR Pugh's monogram; Lorenzo Hand, Longhand and Typewriter (the site's own files,
+free per its order sheet) for Lorenzo Type. A face that is not shipped (TANS PEARL, Old Claude LP, Cormorant
+Garamond) falls through EB Garamond, and the tile's note says so where it matters.
 
 ## The design (the hand-built version, 2026-10-17, no longer served)
 
@@ -224,6 +302,11 @@ can be captured (`npm run capture:design -- --origin https://depoluxe.xyz`, need
 | `content/reference/<slug>.html` | Depo Luxe's pages as captured (their content, never served): what the swaps are applied to | `extract.mjs` from the capture | Never edit; re-extract |
 | `content/swaps/<slug>.json` | what of each reference page becomes Qwarter's, with each value's source | `scripts/design/swaps-from-content.mjs` from `content/work.json` and `content/site.json` | Regenerate, never edit |
 | `public/design/depoluxe.xyz/`, `public/imageLoaderWorker.js`, `public/assets/audio/tac.m4a` | Cuchillo's stylesheet, script, fonts, worker, the archive's click sound | the capture, byte for byte (`extract.mjs`; the worker and the sound copied by hand to the paths the script asks for) | Never edit |
+| `content/studies/<slug>.json` | a case study: the words, the tiles, the steps, the recordings and pictures it shows, `walkthrough` scenes, `source` | `scripts/port/studies.mjs` from qwarter.com's case study and the shoot (`generated: true`), or written whole (JR Pugh) | A generated one: never; change `_overrides/<slug>.json`. A hand-written one: yes, keep `source` true |
+| `content/studies/_overrides/<slug>.json`, `_pictures/`, `_pending/` | what is written by hand over a generated study; where each delivered picture came from; a step waiting for its recording | written here / `studies.mjs` | Overrides yes, with their `source`; `_pictures` regenerated |
+| `public/media/work/<slug>/study/` | the recordings and stills (`walkthrough.mjs`), the pictures the study shows (`studies.mjs`) | the raw captures; the snapshot's media; the projects' own repositories (`$copy`) | Regenerate, never edit |
+| `public/design/qwarter/study.css`, `study.js` | the case study's design and motion | written here | Yes |
+| `public/design/qwarter/fonts/inter-*`, `Lorenzo*.woff2` | Inter (fontsource, OFL); Lorenzo Type's own families | npm `@fontsource/inter`; `journeynudger/lorenzo` assets/ | — |
 | `content/redirects.json` | WordPress redirects | `redirects.py` from the snapshot (not yet run) | Via `redirects.py` |
 
 - **Never invent a fact.** No made-up client, project, number, quote, name, date or placeholder. Everything
@@ -323,5 +406,19 @@ old URLs (it fails rather than guess).
    from. If the public address is another (hello@, studio@), it is one value in `content/site.json`.
 8. **The founder facts** (Founded 2023 · Las Vegas, Nevada · Lorenzo Scardicchio) come from Qwarter LLC's
    registration; LinkedIn says founded 2016. Which year is Qwarter's?
-9. **The Oct 6 porting prompt** ("Next/Vercel/WordPress") was not in `journeynudger/mylife` on GitHub; this
+9. **The Room's address.** The link you gave is a Vercel preview behind Vercel's login, so its study shows no
+   Visit button (status "In preview on Vercel, behind its login"). A public address is one value in
+   `content/studies/_overrides/theroom.json` (`url`, `address`, `status`) and `content/work.json`.
+10. **lorenzoscardicchio.com.** The runner was met by a Cloudflare challenge there, so whether the foundry site
+    (`journeynudger/lorenzo`, pushed 2026-10-22) is what the address serves could not be checked; the study is
+    photographed from its files and its Visit button goes to the address the site itself names. Bambino's
+    study links the alias its README calls live, `bambino-five.vercel.app`; the address you gave,
+    `bambino-1dtu.vercel.app`, is the one photographed.
+11. **The order of the strip** now runs Butter, JR Pugh, Stairway, Serein, Journey, The Room, Bambino, Lorenzo
+    Type, then qwarter.com's catalogue (`FIRST` in `scripts/port/catalogue.mjs`). Say the word to move the three.
+12. **The generated studies' words are qwarter.com's and the sites' own**, so where qwarter.com's challenge and
+    solution were pasted from another client's page (Boujee Healer and Pineapple Club share theirs, 20/20
+    Insights and IoTech their descriptions) the study says less rather than something false. If you have the
+    real text for any of them, an override is one file.
+13. **The Oct 6 porting prompt** ("Next/Vercel/WordPress") was not in `journeynudger/mylife` on GitHub; this
    port follows journeysite's CLAUDE.md and Verowater's `docs/site-kit/sources/PORT-PLAYBOOK-v1.md` instead.

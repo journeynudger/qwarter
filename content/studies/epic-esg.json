@@ -1,0 +1,163 @@
+{
+  "slug": "epic-esg",
+  "name": "EPIC ESG",
+  "shortName": "EPIC ESG",
+  "tagline": "Renewable Energy, Princetone, NJ",
+  "client": "EPIC ESG, renewable energy, Princetone, NJ",
+  "year": "2021",
+  "role": [
+    "Custom 10 Page Website",
+    "Investor Intake Form",
+    "Brand Package",
+    "Icons"
+  ],
+  "statement": "EPIC is pioneering the way forward to a clean, affordable, renewable energy future through a catalog of cutting-edge technology projects around the world.",
+  "summary": "EPIC is pioneering the way forward to a clean, affordable, renewable energy future through a catalog of cutting-edge technology projects around the world. From recycled green energy generation, transitional power sourcing, and renewable wind, solar, and hydro energies to organic agricultural initiatives, hydroponics, and clean water solutions — EPIC innovation is driving new opportunities to align vision and values-driven investment with socially responsible impact.",
+  "brief": "Deliverables: Custom 10 Page Website, Investor Intake Form, Brand Package, Icons, 3D Mockups. Strategy: Go-to-market strategy, SEO, Sales Funnel, .",
+  "kind": "Web design & branding",
+  "status": "Live at epicesg.com",
+  "url": "https://epicesg.com",
+  "address": "epicesg.com",
+  "figures": [
+    {
+      "value": "5",
+      "label": "Deliverables: Custom 10 Page Website, Investor Intake Form, Brand Package…",
+      "source": "qwarter.com's case study"
+    },
+    {
+      "value": "2021",
+      "label": "The year qwarter.com's case study gives",
+      "source": "Project Info"
+    },
+    {
+      "value": "5",
+      "label": "Colours in the palette",
+      "source": "Style & Imagery"
+    }
+  ],
+  "identity": [
+    {
+      "key": "logo",
+      "label": "Logo",
+      "note": "EPIC ESG's logo as qwarter.com's case study shows it.",
+      "image": "/media/work/epic-esg/study/pic-02.png",
+      "alt": "EPIC ESG: the logo as qwarter.com's case study shows it",
+      "ground": "#203956",
+      "dark": true,
+      "fit": "contain"
+    },
+    {
+      "key": "palette",
+      "label": "Colour",
+      "note": "The five colours qwarter.com's case study lists under Style & Imagery.",
+      "colors": [
+        {
+          "hex": "#203956"
+        },
+        {
+          "hex": "#0099E6"
+        },
+        {
+          "hex": "#0DDB5F"
+        },
+        {
+          "hex": "#666666"
+        },
+        {
+          "hex": "#40859D"
+        }
+      ]
+    },
+    {
+      "key": "type",
+      "label": "Type",
+      "note": "The type samples qwarter.com's case study sets under Style & Imagery.",
+      "faces": [
+        {
+          "role": "Headings",
+          "family": "Nunito",
+          "weight": "Semibold",
+          "fallback": "sans-serif"
+        },
+        {
+          "role": "Subheadings",
+          "family": "DM Sans",
+          "weight": "Regular",
+          "fallback": "sans-serif"
+        }
+      ]
+    },
+    {
+      "key": "detail",
+      "label": "Detail",
+      "note": "EPIC ESG: a screen of the site as qwarter.com's case study shows it.",
+      "image": "/media/work/epic-esg/study/pic-03.jpg",
+      "alt": "EPIC ESG: a screen of the site as qwarter.com's case study shows it",
+      "ground": "#0B0B0C",
+      "dark": true,
+      "fit": "cover"
+    }
+  ],
+  "quote": {
+    "text": "EPIC is pioneering the way forward to a clean, affordable, renewable energy future through a curated array of cutting-edge technology projects around the world. From recycled green energy generation, transitional power sourcing, and renewable wind, solar, and hydro energies to organic agricultural initiatives, hydroponics, and clean water solutions, and green energy workforce education — EPIC innovation is driving new opportunities to align vision and values-driven commitment with socially responsible impact — powering the world for good.",
+    "source": "From qwarter.com's case study, the client's own words"
+  },
+  "steps": [
+    {
+      "title": "epicesg.com, page by page",
+      "body": "EPIC is pioneering the way forward to a clean, affordable, renewable energy future through a catalog of cutting-edge technology projects around the world. From recycled green energy generation, transitional power sourcing, and renewable wind, solar, and hydro energies to organic agricultural initiatives, hydroponics, and clean water solutions — EPIC innovation is driving new opportunities to align vision and values-driven investment with socially responsible impact.",
+      "device": "desktop",
+      "recording": "desktop",
+      "source": "qwarter.com's case study, its first paragraph about the client"
+    },
+    {
+      "title": "The challenge",
+      "body": "QWARTER led digital strategy, product design and development for the website, which reduced the confusion created by fragmented projects and laid the foundation to make ESG insights and data more accessible to everyone. The new website was designed to help the EPIC ESG investment team better serve investors while creating more manageable workflows. Reduce confusion and automate workflows",
+      "image": "/media/work/epic-esg/study/pic-03.jpg",
+      "alt": "EPIC ESG: a screen of the site as qwarter.com's case study shows it",
+      "device": "picture",
+      "source": "qwarter.com's case study"
+    },
+    {
+      "title": "The solution",
+      "body": "QWARTER partnered with EPIC to launch the new epicesg.com as part of the agency’s broader digital transformation. The next phase of our work together focused on simplifying the IEA ecosystem by integrating its sales platform with the website. Enhancing access to values driven renewable energy investment Innovation EPIC investors can now view information and updates about their investments, term agreements, and selected projects; are able to edit users to licenses, and can access information that centralizes current and future project information. The customer database, built using Airtable, QWARTER’s CMS toolkit, gives the EPIC enrollment team a direct handle on investor information, preferences, and project interests and considers which aspects of management can be automated or user-initiated versus those requiring enrollment team intervention. A unified experience for all types of investors Working hand-in-hand with Dr. Greg Finch, QWARTER designed a streamlined prospect-investor flow that supports multiple formats including, the website, social platforms, and email newsletters allowing EPIC to nurture new investor relationships with ease. Copywriting Brand Presentation Storytelling Creative Direction Custom Intake Form",
+      "image": "/media/work/epic-esg/study/pic-04.jpg",
+      "alt": "EPIC ESG: a screen of the site as qwarter.com's case study shows it",
+      "device": "picture",
+      "source": "qwarter.com's case study"
+    }
+  ],
+  "film": {
+    "src": "/media/work/epic-esg/scroll.mp4",
+    "webm": "/media/work/epic-esg/scroll.webm",
+    "poster": "/media/work/epic-esg/tile.jpg",
+    "alt": "EPIC ESG's film: the site scrolling."
+  },
+  "recordings": {
+    "desktop": {
+      "src": "/media/work/epic-esg/study/desktop.mp4",
+      "poster": "/media/work/epic-esg/study/desktop-poster.jpg",
+      "alt": "EPIC ESG on a desktop: Picture 1."
+    }
+  },
+  "gallery": [
+    {
+      "src": "/media/work/epic-esg/study/pic-01.png",
+      "alt": "EPIC ESG: a picture as qwarter.com's case study shows it",
+      "source": "qwarter.com's case study (its media library)"
+    },
+    {
+      "src": "/media/work/epic-esg/study/pic-03.jpg",
+      "alt": "EPIC ESG: a screen of the site as qwarter.com's case study shows it",
+      "source": "qwarter.com's case study (its media library)"
+    },
+    {
+      "src": "/media/work/epic-esg/study/pic-04.jpg",
+      "alt": "EPIC ESG: a screen of the site as qwarter.com's case study shows it",
+      "source": "qwarter.com's case study (its media library)"
+    }
+  ],
+  "galleryNote": "Pictures from qwarter.com's case study (its media library).",
+  "source": "qwarter.com/portfolio/epic-esg/ (WordPress snapshot 2026-10-22): the service line, facts, Style & Imagery, Deliverables/Services/Strategy, Project Info, challenge, solution and design strategy where they are this client's own (a paragraph pasted on another case study is left out), and its pictures; epicesg.com photographed on 2026-10-22 (scripts/work/shoot.mjs): page titles and first words, typefaces and colours observed, the logo and pictures the pages show, the phone frames. Every word is qwarter.com's, the site's own or observed; nothing is written here.",
+  "generated": true
+}

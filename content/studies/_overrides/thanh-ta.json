@@ -1,0 +1,48 @@
+{
+  "shortName": "Thanh Ta",
+  "tagline": "Website design and Acuity integration for a Pilates method in New York.",
+  "client": "Thanh Ta, Pilates, New York",
+  "role": ["Website", "Brand guide", "Booking portal (Acuity)"],
+  "statement": "Thanh's method focuses on four pillars of wellness: alignment, positioning, movement, and bodywork.",
+  "summary": "Thanh's method focuses on four pillars of wellness: alignment, positioning, movement, and bodywork. Our singular goal was to achieve a holistic design that incorporated all four of the pillars through the use of color and lines.",
+  "brief": "QWARTER designed Thanh's website, brand guide, and created a booking portal for Thanh's clients to book directly on the website. Using her four pillars as design inspiration, Thanh's vision was to create an experience that was a balance between structure and flow.",
+  "kind": "Website design and Acuity integration",
+  "status": "thanhta.com is no longer online; the pictures are the case study's",
+  "url": "",
+  "figures": [
+    { "value": "4", "label": "Pillars of the method: alignment, positioning, movement, bodywork", "source": "qwarter.com/portfolio/thanh-ta/" },
+    { "value": "3", "label": "Ways to book: in-studio, in-home, virtual", "source": "qwarter.com/portfolio/thanh-ta/: 'Clients have the option to book a virtual, in-studio, in-home session or package straight from the menu'" },
+    { "value": "2023", "label": "The year qwarter.com's case study gives", "source": "Project Info" },
+    { "value": "5", "label": "Colours in the brand guide", "source": "Style & Imagery" }
+  ],
+  "identity": [
+    { "key": "logo", "label": "Logo", "note": "THANH, as the brand guide draws it: the letters with the open A, the mark qwarter.com's case study shows on white, on black and on its own.", "image": { "$pic": "Thanhlogotrans.png" }, "alt": "The THANH logo: five capital letters in a high-contrast serif, the A open at its top.", "ground": "#C1C1C1", "dark": false, "fit": "contain", "source": "qwarter.com/portfolio/thanh-ta/ (Thanhlogotrans.png)" },
+    { "key": "palette", "label": "Colour", "note": "The five colours qwarter.com's case study lists under Style & Imagery: the terracotta and the steel blue of the four pillars, with near-black and two greys.", "colors": [
+      { "hex": "#975030", "role": "terracotta" }, { "hex": "#476D82", "role": "steel blue" }, { "hex": "#0A0606", "role": "near black" }, { "hex": "#6B6B6B", "role": "grey" }, { "hex": "#C1C1C1", "role": "light grey" }
+    ], "source": "Style & Imagery" },
+    { "key": "type", "label": "Type", "note": "The type samples the case study sets: TANS PEARL at 32 and 24 points, Comfortaa Ultra Light at 16.", "faces": [
+      { "role": "Headings", "family": "TANS PEARL", "weight": "32pt and Semi Bold 24pt", "fallback": "serif", "sample": "THANH · BOOK A SESSION TODAY · CONTACT" },
+      { "role": "Text", "family": "Comfortaa", "weight": "Ultra Light 16pt", "fallback": "sans-serif" }
+    ], "source": "Style & Imagery" },
+    { "key": "detail", "label": "The home page", "note": "The home page as the case study shows it: THANH over the studio, In studio · In home · Virtual under it, the three sessions below.", "image": { "$pic": "thanhta-square-home-page.png" }, "alt": "Thanh's home page: the THANH mark over a photograph of a Pilates studio with a brick wall, and three session descriptions below.", "ground": "#F4F2EE", "dark": false, "fit": "cover", "source": "qwarter.com/portfolio/thanh-ta/" }
+  ],
+  "quote": { "text": "Connect with your body and tap into its innate healing abilities in a safe and supportive environment. From calming your nervous system to improving digestion, each session is tailored to address your unique needs.", "source": "From the site, as qwarter.com's case study quotes it" },
+  "steps": [
+    { "title": "The site, as the case study shows it", "body": "Thanh's method focuses on four pillars of wellness: alignment, positioning, movement, and bodywork. Our singular goal was to achieve a holistic design that incorporated all four of the pillars through the use of color and lines.", "device": "desktop", "recording": "desktop", "source": "qwarter.com/portfolio/thanh-ta/" },
+    { "title": "The challenge", "body": "Syncing calendar of already booked clients while enabling new clients to book recurring and one off sessions on-demand.", "image": { "$pic": "qwarter_websiteclient-e1685381523563.png" }, "alt": "Thanh's home page in full: the mark over the studio, the three sessions, the booking call to action.", "device": "picture", "source": "qwarter.com/portfolio/thanh-ta/, CHALLENGE" },
+    { "title": "The solution", "body": "Leveraging Acuity and developing an integration for booking and scheduling directly on the website was part of solving the challenge. The next challenge was creating an easy way to navigate between in-studio, in-home, virtual single sessions or packages. Clients have the option to book a virtual, in-studio, in-home session or package straight from the menu.", "image": { "$pic": "qwarter_websiteclient3.jpg" }, "alt": "Book a Session Today over a field of dotted waves, and the Contact form below it.", "device": "picture", "source": "qwarter.com/portfolio/thanh-ta/, SOLUTION" },
+    { "title": "Design strategy", "body": "QWARTER designed Thanh's website, brand guide, and created a booking portal for Thanh's clients to book directly on the website. Using her four pillars as design inspiration, Thanh's vision was to create an experience that was a balance between structure and flow.", "image": { "$pic": "qwarter_websiteclient2-e1685381501317.png" }, "alt": "A screen of Thanh's site as the case study shows it.", "device": "picture", "source": "qwarter.com/portfolio/thanh-ta/, Design Strategy" },
+    { "title": "The logo on black and on white", "body": "The mark in both settings, as the brand guide shows it.", "image": { "$pic": "thanhlogoblkbg.png" }, "alt": "The THANH logo in white on a black square.", "device": "picture", "source": "qwarter.com/portfolio/thanh-ta/ (thanhlogoblkbg.png, thanhlogowhitebg.png)" },
+    { "title": "Wellness", "body": "The square tile qwarter.com shows for the project, labelled Wellness.", "image": { "$pic": "qwarterthanh.png" }, "alt": "The THANH mark on a grey square with a Wellness label.", "device": "picture", "source": "qwarter.com (qwarterthanh.png)" }
+  ],
+  "gallery": [
+    { "src": { "$pic": "qwarter_websiteclient-e1685381523563.png" }, "alt": "Thanh's home page in full.", "source": "qwarter.com/portfolio/thanh-ta/" },
+    { "src": { "$pic": "qwarter_websiteclient3.jpg" }, "alt": "Book a Session Today and the contact form.", "source": "qwarter.com/portfolio/thanh-ta/" },
+    { "src": { "$pic": "qwarter_websiteclient2-e1685381501317.png" }, "alt": "A screen of Thanh's site.", "source": "qwarter.com/portfolio/thanh-ta/" },
+    { "src": { "$pic": "thanhTaPilates.jpg" }, "alt": "Thanh at the Pilates apparatus, as the case study shows her.", "source": "qwarter.com/portfolio/thanh-ta/" },
+    { "src": { "$pic": "thanhlogowhitebg.png" }, "alt": "The THANH logo in black on white.", "source": "qwarter.com/portfolio/thanh-ta/" },
+    { "src": { "$pic": "thanhlogoblkbg.png" }, "alt": "The THANH logo in white on black.", "source": "qwarter.com/portfolio/thanh-ta/" }
+  ],
+  "galleryNote": "Pictures from qwarter.com's case study of Thanh Ta (its media library): the screens of the site, the logo in its three settings, and Thanh in the studio.",
+  "source": "every word is qwarter.com/portfolio/thanh-ta/'s (the description, the challenge, the solution, the design strategy, the quoted line, Style & Imagery); thanhta.com no longer answers, so there is no link (Lorenzo, 2026-10-22: 'no need to link to page but use the image')."
+}

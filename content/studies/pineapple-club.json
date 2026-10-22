@@ -1,0 +1,234 @@
+{
+  "slug": "pineapple-club",
+  "name": "Pineapple Club",
+  "shortName": "Pineapple Club",
+  "tagline": "Tropical design, visual identity, and photography for a cocktail bar in New York City.",
+  "client": "Pineapple Club, restaurant, East Village, NY",
+  "year": "2020",
+  "role": [
+    "Custom Website",
+    "Google My Business",
+    "Calligraphy"
+  ],
+  "statement": "Pineapple Club was founded to create a tropical speakeasy with drinks, food, and vibe in the heart of New York City’s East Village.",
+  "summary": "Pineapple Club was founded to create a tropical speakeasy with drinks, food, and vibe in the heart of New York City’s East Village. Every space in the restaurant has its own identity, evoking a different feeling in each room, and delivering a unique experience and story.",
+  "brief": "Deliverables: Custom Website, Google My Business, Calligraphy. Strategy: SEO, Analytics, Email Newsletter, .",
+  "kind": "Website design & google my business",
+  "status": "Live at pineappleclub.com",
+  "url": "https://pineappleclub.com",
+  "address": "pineappleclub.com",
+  "figures": [
+    {
+      "value": "4",
+      "label": "Pages photographed from the live site",
+      "source": "the shoot / the case study"
+    },
+    {
+      "value": "3",
+      "label": "Deliverables: Custom Website, Google My Business, Calligraphy",
+      "source": "qwarter.com's case study"
+    },
+    {
+      "value": "2020",
+      "label": "The year qwarter.com's case study gives",
+      "source": "Project Info"
+    },
+    {
+      "value": "5",
+      "label": "Colours in the palette",
+      "source": "Style & Imagery"
+    }
+  ],
+  "identity": [
+    {
+      "key": "wordmark",
+      "label": "Wordmark",
+      "note": "The top of pineappleclub.com's home page as it stands: the name as the site itself sets it.",
+      "image": "/media/work/pineapple-club/study/header.jpg",
+      "alt": "The header of pineappleclub.com: the site's name and menu.",
+      "ground": "#F8F4F1",
+      "dark": false,
+      "fit": "cover"
+    },
+    {
+      "key": "palette",
+      "label": "Colour",
+      "note": "The five colours qwarter.com's case study lists under Style & Imagery.",
+      "colors": [
+        {
+          "hex": "#FF9E9E"
+        },
+        {
+          "hex": "#6A8A4A"
+        },
+        {
+          "hex": "#1F2021"
+        },
+        {
+          "hex": "#AFAFAF"
+        },
+        {
+          "hex": "#444444"
+        }
+      ]
+    },
+    {
+      "key": "type",
+      "label": "Type",
+      "note": "The type samples qwarter.com's case study sets under Style & Imagery; Cormorantgaramond Semibold is what pineappleclub.com renders its headings in today.",
+      "faces": [
+        {
+          "role": "Headings",
+          "family": "Emblema 10",
+          "fallback": "serif"
+        },
+        {
+          "role": "Headings",
+          "family": "Cormorantgaramond Semibold",
+          "fallback": "serif"
+        },
+        {
+          "role": "Text",
+          "family": "Playfair Display",
+          "fallback": "serif"
+        }
+      ]
+    },
+    {
+      "key": "detail",
+      "label": "On a phone",
+      "note": "pineappleclub.com on a phone, its home page as photographed on 2026-10-22.",
+      "image": "/media/work/pineapple-club/study/m-home.jpg",
+      "alt": "Pineapple Club's home page on a phone.",
+      "ground": "#FF9E9E",
+      "dark": false,
+      "fit": "cover"
+    }
+  ],
+  "quote": {
+    "text": "Crafted cocktails by the industries finest, our cocktails may or may not give you super powers.",
+    "source": "From qwarter.com's case study, the client's own words"
+  },
+  "steps": [
+    {
+      "title": "pineappleclub.com, page by page",
+      "body": "Pineapple Club was founded to create a tropical speakeasy with drinks, food, and vibe in the heart of New York City’s East Village. Every space in the restaurant has its own identity, evoking a different feeling in each room, and delivering a unique experience and story. Welcome to Pineapple Club! Visit East Village's premier, cocktail-focused restaurant.",
+      "device": "desktop",
+      "recording": "desktop",
+      "source": "qwarter.com's case study, its first paragraph about the client"
+    },
+    {
+      "title": "Menus",
+      "body": "“Menus”",
+      "image": "/media/work/pineapple-club/study/d-menus.jpg",
+      "alt": "pineappleclub.com: the Menus page.",
+      "device": "desktop",
+      "source": "the page's own heading and first paragraph, as photographed"
+    },
+    {
+      "title": "Reservations",
+      "body": "“RESERVATIONS”",
+      "image": "/media/work/pineapple-club/study/d-reservations.jpg",
+      "alt": "pineappleclub.com: the Reservations page.",
+      "device": "desktop",
+      "source": "the page's own heading and first paragraph, as photographed"
+    },
+    {
+      "title": "Hosted Events",
+      "body": "“No events at the moment” Want to book a private event?",
+      "image": "/media/work/pineapple-club/study/d-hosted-events.jpg",
+      "alt": "pineappleclub.com: the Hosted Events page.",
+      "device": "desktop",
+      "source": "the page's own heading and first paragraph, as photographed"
+    },
+    {
+      "title": "On a phone",
+      "body": "pineappleclub.com on a phone, 4 pages as photographed on 2026-10-22.",
+      "device": "phone",
+      "recording": "phone",
+      "source": "the phone frames of the shoot"
+    },
+    {
+      "title": "The challenge",
+      "body": "Pineapple Club was founded and born during the peak of the pandemic and found themselves in a ‘new normal.’ With emergent technology disrupting the restaurant industry , changing consumer behavior and dining preferences, and the extraordinary staffing challenges, the pressure was on.",
+      "image": "/media/work/pineapple-club/study/pic-03.jpg",
+      "alt": "Pineapple Club: a screen of the site as qwarter.com's case study shows it",
+      "device": "picture",
+      "source": "qwarter.com's case study"
+    },
+    {
+      "title": "The solution",
+      "body": "Our goal was to overcome this challenge was to turn to technology to ease staffing shortages. Leveraging the website to sell merchandise, developing a highly-active Google My Business delivering and offering to-go food and cocktails leveraging Toast, Grub Hub, and Door Dash — remained a small part of solving the challenge. Since recovering from the pandemic, Pineapple Club has maintained a strong lead in the East Village, NY. Pineapple Club — A Tropical Speakeasy with Drinks, Food, and Vibe",
+      "image": "/media/work/pineapple-club/study/pic-04.jpg",
+      "alt": "Pineapple Club: a screen of the site as qwarter.com's case study shows it",
+      "device": "picture",
+      "source": "qwarter.com's case study"
+    },
+    {
+      "title": "Design strategy",
+      "body": "A tropical-fusion cuisine QWARTER designed the new Pineapple Club, a tropical American fusion destination in the East Village, using pineapples and tropical design inspiration, the outcome was a website that showcases Pineapple Club’s specialty cocktail and their unique multifunctional space that feels sexy, tropical, and fun",
+      "image": "/media/work/pineapple-club/study/pic-01.png",
+      "alt": "Pineapple Club: a picture as qwarter.com's case study shows it",
+      "device": "picture",
+      "source": "qwarter.com's case study"
+    }
+  ],
+  "film": {
+    "src": "/media/work/pineapple-club/scroll.mp4",
+    "webm": "/media/work/pineapple-club/scroll.webm",
+    "poster": "/media/work/pineapple-club/tile.jpg",
+    "alt": "Pineapple Club's film: the site scrolling."
+  },
+  "recordings": {
+    "desktop": {
+      "src": "/media/work/pineapple-club/study/desktop.mp4",
+      "poster": "/media/work/pineapple-club/study/desktop-poster.jpg",
+      "alt": "Pineapple Club on a desktop: Home, Menus, Reservations, Hosted Events."
+    },
+    "phone": {
+      "src": "/media/work/pineapple-club/study/phone.mp4",
+      "poster": "/media/work/pineapple-club/study/phone-poster.jpg",
+      "alt": "Pineapple Club on a phone."
+    }
+  },
+  "gallery": [
+    {
+      "src": "/media/work/pineapple-club/study/pic-01.png",
+      "alt": "Pineapple Club: a picture as qwarter.com's case study shows it",
+      "source": "qwarter.com's case study (its media library)"
+    },
+    {
+      "src": "/media/work/pineapple-club/study/pic-02.jpg",
+      "alt": "Pineapple Club: a picture as qwarter.com's case study shows it",
+      "source": "qwarter.com's case study (its media library)"
+    },
+    {
+      "src": "/media/work/pineapple-club/study/pic-03.jpg",
+      "alt": "Pineapple Club: a screen of the site as qwarter.com's case study shows it",
+      "source": "qwarter.com's case study (its media library)"
+    },
+    {
+      "src": "/media/work/pineapple-club/study/pic-04.jpg",
+      "alt": "Pineapple Club: a screen of the site as qwarter.com's case study shows it",
+      "source": "qwarter.com's case study (its media library)"
+    },
+    {
+      "src": "/media/work/pineapple-club/study/pic-05.jpg",
+      "alt": "Pineapple Club Banquets",
+      "source": "pineappleclub.com (the site's own picture: Pineapple Club Banquets)"
+    },
+    {
+      "src": "/media/work/pineapple-club/study/pic-06.jpg",
+      "alt": "OT_PineappleClub_JonahRosenberg_FB_170 Medium.jpeg",
+      "source": "pineappleclub.com (the site's own picture: OT_PineappleClub_JonahRosenberg_FB_170 Medium.jpeg)"
+    },
+    {
+      "src": "/media/work/pineapple-club/study/pic-07.jpg",
+      "alt": "Interior Image of Atreum",
+      "source": "pineappleclub.com (the site's own picture: Interior Image of Atreum)"
+    }
+  ],
+  "galleryNote": "Pictures from qwarter.com's case study (its media library); the site's own pictures, from pineappleclub.com.",
+  "source": "qwarter.com/portfolio/pineapple-club/ (WordPress snapshot 2026-10-22): the service line, facts, Style & Imagery, Deliverables/Services/Strategy, Project Info, challenge, solution and design strategy where they are this client's own (a paragraph pasted on another case study is left out), and its pictures; pineappleclub.com photographed on 2026-10-22 (scripts/work/shoot.mjs): page titles and first words, typefaces and colours observed, the logo and pictures the pages show, the phone frames. Every word is qwarter.com's, the site's own or observed; nothing is written here.",
+  "generated": true
+}

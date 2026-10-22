@@ -1,0 +1,34 @@
+[
+  {
+    "file": "/media/work/ignite-beacon/study/pic-01.png",
+    "from": "ignitebeacon.com (the site's own picture: Beacon)",
+    "source": "02-image.png",
+    "kind": "logo",
+    "width": 908,
+    "height": 206
+  },
+  {
+    "file": "/media/work/ignite-beacon/study/pic-02.jpg",
+    "from": "ignitebeacon.com (the site's own picture: Friends gathered on a beach at sunset)",
+    "source": "03-image.png",
+    "kind": "picture",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "file": "/media/work/ignite-beacon/study/pic-03.jpg",
+    "from": "ignitebeacon.com (the site's own picture: Beacon app — hold to ignite your beacon)",
+    "source": "04-image.png",
+    "kind": "picture",
+    "width": 620,
+    "height": 1348
+  },
+  {
+    "file": "/media/work/ignite-beacon/study/pic-04.jpg",
+    "from": "ignitebeacon.com (the site's own picture: Beacon app — friends out on the map with directions)",
+    "source": "05-image.png",
+    "kind": "picture",
+    "width": 620,
+    "height": 1348
+  }
+]

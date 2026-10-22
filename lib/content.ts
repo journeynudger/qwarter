@@ -5,6 +5,7 @@ import pagesData from "@/content/pages.json";
 import redirectsData from "@/content/redirects.json";
 import siteData from "@/content/site.json";
 import workData from "@/content/work.json";
+import { getStudy, hasStudy, studyMedia } from "@/lib/studies";
 
 // ---------------------------------------------------------------------------
 // Shapes. Every content file under content/ is read through one of these.
@@ -17,7 +18,7 @@ export type Asset =
   | { kind: "stylesheet"; href: string; media?: string }
   | { kind: "style"; css: string; attrs?: Record<string, string> }
   | { kind: "script"; src?: string; code?: string; attrs?: Record<string, string> }
-  | { kind: "preload"; href: string; as: string; type?: string; crossOrigin?: string }
+  | { kind: "preload"; href: string; as: string; type?: string; crossOrigin?: string; plain?: boolean } // plain: no ?v= (a URL a stylesheet also names)
   | { kind: "meta"; attrs: Record<string, string> };
 
 export interface NavItem {
@@ -54,7 +55,7 @@ export interface Site {
  * What a page is. "html" renders content/pages/<slug>.html verbatim (markup carried from
  * elsewhere); the others are this site's own views (components/site/), fed from content/.
  */
-export type PageKind = "html" | "featured" | "archive" | "work" | "approach" | "contact";
+export type PageKind = "html" | "featured" | "archive" | "work" | "approach" | "contact" | "study";
 
 export interface Page {
   slug: string;
@@ -159,7 +160,7 @@ export function projectPages(): Page[] {
   // the carried project template (content/pages/project.html, from the reference design's project page) when
   // there is one: every project is that page with its own words and film filled in (pageMarkup); else the viewer
   const template = (pagesData as unknown as Page[]).find((p) => p.slug === "project");
-  return getFeatured().map((p) => ({
+  return getFeatured().map((p) => (hasStudy(p.slug) ? studyPage(p) : {
     ...(template ?? { html: {}, body: {}, head: [], scripts: [] }),
     slug: template ? "project" : `work-${p.slug}`,
     path: `/work/${p.slug}/`,
@@ -170,6 +171,37 @@ export function projectPages(): Page[] {
     image: workMedia(p.slug).cover,
     modified: null,
   }));
+}
+
+/**
+ * A project with a case study (content/studies/<slug>.json) is served as that study at /work/<slug>/,
+ * our own page (components/study/study.tsx) with its own stylesheet and script, in place of the carried
+ * project template. The links to it on the carried pages carry data-internal, so the reference design's
+ * script lets the browser load it whole (scripts/design/swaps-from-content.mjs).
+ */
+function studyPage(p: Project): Page {
+  const site = getSite();
+  const study = getStudy(p.slug)!;
+  const m = studyMedia(p.slug);
+  return {
+    slug: `study-${p.slug}`,
+    path: `/work/${p.slug}/`,
+    kind: "study",
+    project: p.slug,
+    title: `${study.name}, a case study – ${site.name}`,
+    description: study.summary,
+    html: {},
+    body: { class: "st" },
+    head: [
+      { kind: "preload", href: "/design/qwarter/fonts/ebgaramond-normal-400-800-latin.woff2", as: "font", type: "font/woff2", crossOrigin: "anonymous", plain: true },
+      { kind: "preload", href: "/design/qwarter/fonts/ebgaramond-italic-400-800-latin.woff2", as: "font", type: "font/woff2", crossOrigin: "anonymous", plain: true },
+      { kind: "stylesheet", href: "/design/qwarter/fonts/fonts.css" },
+      { kind: "stylesheet", href: "/design/qwarter/study.css" },
+    ],
+    scripts: [{ kind: "script", src: "/design/qwarter/study.js", attrs: { defer: "" } }],
+    image: study.film?.poster ?? (study.recordings.desktop ? m.desktopPoster : workMedia(p.slug).cover),
+    modified: null,
+  };
 }
 
 /** The pages served: the records (a "project" record is a template, not a route) and one page per project. */

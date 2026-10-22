@@ -1,0 +1,257 @@
+{
+  "slug": "theroom",
+  "name": "The Room",
+  "shortName": "The Room",
+  "tagline": "What if the people who shaped how you think were still in the room?",
+  "client": "The Room, Lorenzo Scardicchio's own",
+  "year": "2026",
+  "role": [
+    "The wall: website",
+    "The conversation, kept by Mnemosyne",
+    "The reliefs"
+  ],
+  "statement": "Books gave us access to great minds. The Room gives us a conversation with them.",
+  "summary": "The Room is a source-grounded library of books, talks, interviews, notes, frameworks, and reusable AI instructions. It turns a static body of thought into a conversation without pretending that the person is literally present.",
+  "kind": "Website and conversation",
+  "status": "In preview on Vercel, behind its login",
+  "url": "",
+  "address": "",
+  "figures": [
+    {
+      "value": "81",
+      "label": "People on the wall, each with a dossier",
+      "source": "site/data/people.json"
+    },
+    {
+      "value": "4",
+      "label": "Seats at the table",
+      "source": "site/README.md: 'seats up to four people from the wall'"
+    },
+    {
+      "value": "8",
+      "label": "Languages the wall speaks",
+      "source": "site/data/i18n"
+    },
+    {
+      "value": "1",
+      "label": "Verbatim line per person, re-verified at build",
+      "source": "site/README.md: 'every quote is re-verified at build time'"
+    }
+  ],
+  "identity": [
+    {
+      "key": "wordmark",
+      "label": "Wordmark",
+      "note": "THE ROOM, in spaced capitals, over the wall; the page is the colour of paper and the reliefs are white plaster, so the words sit quietly.",
+      "wordmark": {
+        "text": "THE ROOM",
+        "family": "Cormorant Garamond",
+        "weight": "500",
+        "fallback": "serif",
+        "letterSpacing": "0.22em",
+        "color": "#1a1a1a",
+        "parts": [
+          {
+            "text": "THE ROOM",
+            "family": "Cormorant Garamond",
+            "weight": "500",
+            "fallback": "serif"
+          }
+        ]
+      },
+      "ground": "#F3F1EC",
+      "dark": false,
+      "source": "the site's header (#wordmark); the type census: Cormorant Garamond for the navigation"
+    },
+    {
+      "key": "palette",
+      "label": "Colour",
+      "note": "Paper, plaster and ink: the page a warm off-white, the reliefs white plaster bas-relief on paper, the words near-black. Observed on the wall as built on 2026-10-22.",
+      "colors": [
+        {
+          "hex": "#F3F1EC",
+          "name": "Paper",
+          "role": "the page"
+        },
+        {
+          "hex": "#F4F2ED",
+          "name": "Paper, lit",
+          "role": "the surface"
+        },
+        {
+          "hex": "#FFFFFF",
+          "name": "Plaster",
+          "role": "the reliefs"
+        },
+        {
+          "hex": "#1A1A1A",
+          "name": "Ink",
+          "role": "the words"
+        }
+      ],
+      "source": "the shoot's colour census; site/README.md (white plaster bas-relief, on paper)"
+    },
+    {
+      "key": "type",
+      "label": "Type",
+      "note": "EB Garamond for the labels and the conversation, Cormorant Garamond for the navigation and the buttons, as the census found them.",
+      "faces": [
+        {
+          "role": "The words",
+          "family": "EB Garamond",
+          "weight": "400",
+          "fallback": "serif",
+          "sample": "I am here. Bring a question, or a name."
+        },
+        {
+          "role": "Navigation and buttons",
+          "family": "Cormorant Garamond",
+          "weight": "500",
+          "fallback": "serif",
+          "sample": "THE TABLE · CARVE A NAME · ASK THEM"
+        }
+      ],
+      "source": "the shoot's type census"
+    },
+    {
+      "key": "detail",
+      "label": "A relief",
+      "note": "Steve Jobs, as the wall carves him: a portrait bust in white plaster, three-quarter view, on paper.",
+      "image": "/media/work/theroom/study/relief-steve-jobs.png",
+      "alt": "A white plaster bust of Steve Jobs on a paper ground.",
+      "ground": "#F3F1EC",
+      "dark": false,
+      "fit": "contain",
+      "source": "journeynudger/theroom site/figures/steve-jobs.png"
+    }
+  ],
+  "steps": [
+    {
+      "title": "The wall",
+      "body": "A wall of carved reliefs you can stand before and question. Each person has a From the wall label: biography, timeline, sources and one verbatim line. The Room's own brains were written from each person's SIGNAL file and every quote is re-verified at build time.",
+      "device": "desktop",
+      "recording": "desktop",
+      "source": "site/README.md"
+    },
+    {
+      "title": "The table",
+      "body": "Seat up to four from the wall and let them talk to each other. The stage draws the seats around a round top: two face each other across it, three put one at the head, four take the corners. The conversation then goes to the whole table: they answer in turn and to each other, keeping disagreement.",
+      "image": "/media/work/theroom/study/d-table.jpg",
+      "alt": "The table panel open over the wall: the wall in small, four seats, Ask the table.",
+      "device": "desktop",
+      "source": "site/README.md (The table); the panel's own line: 'Seat up to four from the wall and let them talk to each other.'"
+    },
+    {
+      "title": "Ask them",
+      "body": "\"I am here. Bring a question, or a name.\" The conversation is kept by Mnemosyne, keeper of the Room; stand before a person and they speak for themselves. A copy of the Room with no server behind it asks for an Anthropic API key, which stays in the browser only.",
+      "image": "/media/work/theroom/study/d-ask.jpg",
+      "alt": "The Ask them panel open over the wall, with Mnemosyne's greeting.",
+      "device": "desktop",
+      "source": "site/data/i18n/en/ui.json (keeper_hello, key_lede)"
+    },
+    {
+      "title": "Carve a name",
+      "body": "The wall has room. Name someone who shaped how you think, and say why they belong here: a name, the years, what they did, in their words with the source, and why they belong in the Room.",
+      "image": "/media/work/theroom/study/relief-hannah-arendt.png",
+      "alt": "A white plaster bust of Hannah Arendt on a paper ground.",
+      "device": "picture",
+      "source": "site/data/i18n/en/ui.json (carve_lede, the form's fields)"
+    },
+    {
+      "title": "On a phone",
+      "body": "The wall and the table on a phone, the reliefs two across.",
+      "device": "phone",
+      "recording": "phone",
+      "source": "the phone frames of the shoot"
+    },
+    {
+      "title": "The rule of the Room",
+      "body": "A direct quote is the person's own language and must carry a source. A summary is a compact account of documented material. An application is present-day inference and must be labeled as such. Private journals, meetings, relationships and captures are not in the Room.",
+      "image": "/media/work/theroom/study/relief-dieter-rams.png",
+      "alt": "A white plaster bust of Dieter Rams on a paper ground.",
+      "device": "picture",
+      "source": "README.md (What this is; What was intentionally left out)"
+    }
+  ],
+  "film": {
+    "src": "/media/work/theroom/scroll.mp4",
+    "webm": "/media/work/theroom/scroll.webm",
+    "poster": "/media/work/theroom/tile.jpg",
+    "alt": "The Room's film: the site scrolling."
+  },
+  "recordings": {
+    "desktop": {
+      "src": "/media/work/theroom/study/desktop.mp4",
+      "poster": "/media/work/theroom/study/desktop-poster.jpg",
+      "alt": "The Room on a desktop: The wall, The table, Ask them."
+    },
+    "phone": {
+      "src": "/media/work/theroom/study/phone.mp4",
+      "poster": "/media/work/theroom/study/phone-poster.jpg",
+      "alt": "The Room on a phone."
+    }
+  },
+  "gallery": [
+    {
+      "src": "/media/work/theroom/study/relief-charlie-munger.png",
+      "alt": "Charlie Munger, in white plaster.",
+      "source": "journeynudger/theroom site/figures"
+    },
+    {
+      "src": "/media/work/theroom/study/relief-rory-sutherland.png",
+      "alt": "Rory Sutherland, in white plaster.",
+      "source": "journeynudger/theroom site/figures"
+    },
+    {
+      "src": "/media/work/theroom/study/relief-simone-de-beauvoir.png",
+      "alt": "Simone de Beauvoir, in white plaster.",
+      "source": "journeynudger/theroom site/figures"
+    },
+    {
+      "src": "/media/work/theroom/study/relief-david-ogilvy.png",
+      "alt": "David Ogilvy, in white plaster.",
+      "source": "journeynudger/theroom site/figures"
+    },
+    {
+      "src": "/media/work/theroom/study/relief-martin-buber.png",
+      "alt": "Martin Buber, in white plaster.",
+      "source": "journeynudger/theroom site/figures"
+    },
+    {
+      "src": "/media/work/theroom/study/relief-carl-jung.png",
+      "alt": "Carl Jung, in white plaster.",
+      "source": "journeynudger/theroom site/figures"
+    }
+  ],
+  "galleryNote": "The figures as the wall shows them: portrait busts in white plaster, from the repository's site/figures.",
+  "source": "The Room's own build photographed on 2026-10-22 (scripts/work/shoot.mjs): page titles and first words, typefaces and colours observed, the logo and pictures the pages show, the phone frames. Every word is qwarter.com's, the site's own or observed; nothing is written here. By hand (content/studies/_overrides/theroom.json): the words are the repository's own (journeynudger/theroom: README.md, site/README.md, site/data/i18n/en/ui.json, read 2026-10-22); the pictures its site/figures; photographed from its own build on 2026-10-22. The deployment Lorenzo linked is a Vercel preview behind Vercel's login, so there is no address to send a reader to yet.",
+  "generated": true,
+  "brief": "The wall is a web version of the Room: a wall of carved reliefs you can stand before and question, a From the wall label for each person with biography, timeline, sources and one verbatim line, an Ask them conversation kept by Mnemosyne, and Carve a name for nominating who belongs next. The table seats up to four people from the wall around a round table, facing each other, and lets them answer a question together and answer one another. The governing distinction: a direct quote is the person's own language and must carry a source; a summary is a compact account of documented material; an application is present-day inference and must be labeled as such.",
+  "quote": {
+    "text": "I am here. Bring a question, or a name.",
+    "source": "Mnemosyne, keeper of the Room, as the wall greets you"
+  },
+  "walkthrough": {
+    "desktop": [
+      {
+        "page": "home"
+      },
+      {
+        "page": "table",
+        "hold": 1.4
+      },
+      {
+        "page": "ask",
+        "hold": 1.4
+      }
+    ],
+    "phone": [
+      {
+        "page": "home"
+      },
+      {
+        "page": "table"
+      }
+    ]
+  }
+}

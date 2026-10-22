@@ -15,7 +15,7 @@ import type { Work } from "@/lib/content";
 
 const { projects } = workJson as unknown as Work;
 const ROOT = path.join(import.meta.dirname, "..");
-const ROMAN = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII", "XIII", "XIV", "XV", "XVI", "XVII", "XVIII", "XIX", "XX"];
+const ROMAN = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII", "XIII", "XIV", "XV", "XVI", "XVII", "XVIII", "XIX", "XX", "XXI", "XXII", "XXIII", "XXIV", "XXV", "XXVI", "XXVII", "XXVIII", "XXIX", "XXX"];
 
 const featured = projects.filter((p) => p.media !== false);
 const catalogue = projects.filter((p) => p.media === false);
@@ -65,7 +65,8 @@ test("every frame a project names was delivered, and nothing delivered is unname
   for (const p of featured) {
     const dir = path.join(ROOT, "public/media/work", p.slug);
     const expected = new Set(["cover.jpg", "cover@2x.jpg", "tile.jpg", "tile@2x.jpg", "cover.jpg.webp", "cover@2x.jpg.webp", "tile.jpg.webp", "tile@2x.jpg.webp", "blur.jpg", "scroll.mp4", "scroll.webm", ...p.pages.map((pg) => `page-${pg.name}.jpg`)]);
-    const actual = new Set(fs.readdirSync(dir).filter((f) => f !== "raw" && f !== ".DS_Store"));
+    // raw/ holds the captures (not committed); study/ the case study's own pictures and recordings (tests/studies.test.ts)
+    const actual = new Set(fs.readdirSync(dir).filter((f) => f !== "raw" && f !== "study" && f !== ".DS_Store"));
     assert.deepEqual([...actual].sort(), [...expected].sort(), `public/media/work/${p.slug}: run scripts/work/prepare.mjs and video.mjs`);
   }
   const dirs = fs.readdirSync(path.join(ROOT, "public/media/work")).filter((f) => !f.startsWith("."));

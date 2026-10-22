@@ -20,6 +20,7 @@
  * scripts/work/prepare.mjs and scripts/work/video.mjs. Usage:
  *   node scripts/port/catalogue.mjs [--cache .port-cache/qwarter] [--shots .port-cache/shots] [--dry]
  */
+import { execFileSync } from "node:child_process";
 import fs from "node:fs";
 import path from "node:path";
 
@@ -36,10 +37,13 @@ const WORK = path.join(ROOT, "public/media/work");
 const ROMAN = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII", "XIII", "XIV", "XV", "XVI", "XVII", "XVIII", "XIX", "XX", "XXI", "XXII", "XXIII", "XXIV", "XXV", "XXVI", "XXVII", "XXVIII", "XXIX", "XXX"];
 
 /** The strip's order, Lorenzo's (2026-10-22): Butter's and Jeff's films open it, then Stairway and the rest. */
-const FIRST = ["butter", "jr-pugh", "stairway", "serein", "journey"];
+const FIRST = ["butter", "jr-pugh", "stairway", "serein", "journey", "theroom", "bambino", "lorenzo-type"];
 /** Projects photographed from their own builds or stills: their frames stay; shots add films only. */
-const OWN_FRAMES = ["jr-pugh", "serein", "journey", "stairway"];
-const LIVE_FRAMES = ["jr-pugh"]; // photographed from its own build once; the live site replaces those frames when it has been shot
+const OWN_FRAMES = ["jr-pugh", "serein", "journey", "stairway", "theroom", "bambino", "lorenzo-type"];
+const LIVE_FRAMES = ["jr-pugh", "bambino"];
+// a splash a site plays on arrival, recorded from the site's own files (scripts/work/record.mjs → raw/loader.mp4): the film
+// opens with it, before the clip the site plays. raw/ is not committed, so the splash is prepended only when the recording is there
+const SPLASH = { "jr-pugh": { file: "loader.mp4", seconds: 3.9, from: "the splash jeffvhs.com plays on arrival (recorded from the site's own files, scripts/work/record.mjs)" } }; // photographed from its own build once; the live site replaces those frames when it has been shot
 /** Films from outside the shots: the client's own, found where the note says. */
 const FILMS = {
   "jr-pugh": { file: path.join(MEDIA, "jeffvhs.com/wp-content/uploads/2026/07/brazil-reel-tease.mp4"), from: "the reel jeffvhs.com plays (its media library, 2026/07/brazil-reel-tease.mp4)" },
@@ -175,7 +179,19 @@ function deliver(slug, files, { frames = [], intro = null } = {}) {
   if (DRY) return;
   fs.mkdirSync(raw, { recursive: true });
   for (const f of frames) fs.copyFileSync(f.src, path.join(raw, f.name));
-  if (intro) { const ext = path.extname(intro.file).toLowerCase() === ".webm" ? "webm" : "mp4"; fs.copyFileSync(intro.file, path.join(raw, `intro.${ext}`)); }
+  if (intro) {
+    const ext = path.extname(intro.file).toLowerCase() === ".webm" ? "webm" : "mp4";
+    const target = path.join(raw, `intro.${ext}`);
+    const splash = SPLASH[slug] && fs.existsSync(path.join(raw, SPLASH[slug].file)) ? path.join(raw, SPLASH[slug].file) : null;
+    if (splash && ext === "mp4") {
+      // the splash first, then the site's own clip, both at the same size and rate, one cross-fade between them
+      const tmp = path.join(raw, "intro.tmp.mp4");
+      execFileSync("ffmpeg", ["-y", "-loglevel", "error", "-i", splash, "-i", intro.file, "-filter_complex",
+        `[0:v]trim=0:${SPLASH[slug].seconds},setpts=PTS-STARTPTS,scale=1440:900:force_original_aspect_ratio=increase,crop=1440:900,fps=30,format=yuv420p[a];[1:v]scale=1440:900:force_original_aspect_ratio=increase,crop=1440:900,fps=30,format=yuv420p[b];[a][b]xfade=transition=fade:duration=0.6:offset=${(SPLASH[slug].seconds - 0.6).toFixed(2)}[v]`,
+        "-map", "[v]", "-an", "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", tmp]);
+      fs.renameSync(tmp, target);
+    } else fs.copyFileSync(intro.file, target);
+  }
 }
 
 async function fromUploads(slug, files, max = 6) {
@@ -246,8 +262,7 @@ for (const s of selected) {
   if (shots && !shots.rejected) {
     if (!s.name) { project.name = nameFrom(shots.title) || h; provenance.push(`name: the site's own title "${shots.title}"`); }
     if (!project.line) { project.line = shots.description ? firstSentence(shots.description) : (plain(shots.title || "").split(/\s+[|–—·-]\s+/)[1] || project.name); provenance.push(shots.description ? "line: the site's own description" : "line: the site's own title"); }
-    const frames = shots.pages.map((pg) => ({ src: path.join(shots.dir, pg.frame), name: `${pg.name}.png`, full: pg.full && fs.existsSync(path.join(shots.dir, pg.full)) ? { src: path.join(shots.dir, pg.full), name: `${pg.name}-full.png` } : null }));
-    deliver(slug, null, { frames: frames.flatMap((fr) => [fr, fr.full].filter(Boolean)) });
+    deliver(slug, null, { frames: framesOf(shots) });
     project.pages = shots.pages.map((pg) => ({ name: pg.name, title: titleOf(pg.title, pg.route, project.name) }));
     project.cover = project.pages[0].name;
     provenance.push(`pictures: ${h} photographed on ${shots.shot.slice(0, 10)} (${shots.pages.length} pages)`);
@@ -278,9 +293,12 @@ for (const slug of OWN_FRAMES) {
     p.cover = p.pages[0].name;
     p.source = p.source.replace(/; stills from [^;]*/, "").replace(/; pictures: [^;]*/, "") + `; pictures: ${host(shots.base)} photographed on ${shots.shot.slice(0, 10)} (${shots.pages.length} pages, titles the site's own)`;
   }
+  // a project photographed from its own build keeps those frames, and takes the live site's phone frames for the pages whose names match
+  if (!LIVE_FRAMES.includes(slug) && shots && !shots.rejected) deliver(slug, null, { frames: framesOf(shots).filter((f) => /^m-/.test(f.name) && p.pages.some((pg) => f.name === `m-${pg.name}.png` || f.name === `m-${pg.name}-full.png`)) });
   const film = shots && !shots.rejected ? shots.videos[0] : null;
   if (film) { deliver(slug, null, { intro: { file: path.join(shots.dir, film.file) } }); p.film = { intro: `intro.${path.extname(film.file).slice(1)}`, from: filmFrom(film.src, `${host(shots.base)}${film.route} plays`) }; }
   else if (FILMS[slug] && fs.existsSync(FILMS[slug].file)) { deliver(slug, null, { intro: { file: FILMS[slug].file } }); p.film = { intro: `intro.${path.extname(FILMS[slug].file).slice(1)}`, from: FILMS[slug].from }; }
+  if (p.film && SPLASH[slug] && fs.existsSync(path.join(WORK, slug, "raw", SPLASH[slug].file))) p.film.from = `${SPLASH[slug].from}, then ${p.film.from}`;
   p.source = p.source.replace(/; film opens with .*$/, "");
   if (p.film) p.source += `; film opens with ${p.film.from}`;
   out.push(p);

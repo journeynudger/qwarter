@@ -1,0 +1,232 @@
+{
+  "slug": "boujee-healer",
+  "name": "Boujee Healer",
+  "shortName": "Boujee Healer",
+  "tagline": "Wellness, Beverly Hills, CA",
+  "client": "Boujee Healer, wellness, Beverly Hills, CA",
+  "year": "2020",
+  "role": [
+    "Custom Website",
+    "Brand Book",
+    "Logo Mark"
+  ],
+  "statement": "The Boujee Healer was founded to create transformative conversations with the intention to help others experience peace of mind in knowing that we are not alone in some of the things we may be experiencing.",
+  "summary": "The Boujee Healer was founded to create transformative conversations with the intention to help others experience peace of mind in knowing that we are not alone in some of the things we may be experiencing.",
+  "brief": "Deliverables: Custom Website, Brand Book, Logo Mark. Strategy: SEO, Social Media Promotion, Email Newsletters, .",
+  "kind": "Website design & web app integration",
+  "status": "Live at theboujeehealer.com",
+  "url": "https://theboujeehealer.com",
+  "address": "theboujeehealer.com",
+  "figures": [
+    {
+      "value": "3",
+      "label": "Pages photographed from the live site",
+      "source": "the shoot / the case study"
+    },
+    {
+      "value": "3",
+      "label": "Deliverables: Custom Website, Brand Book, Logo Mark",
+      "source": "qwarter.com's case study"
+    },
+    {
+      "value": "2020",
+      "label": "The year qwarter.com's case study gives",
+      "source": "Project Info"
+    },
+    {
+      "value": "5",
+      "label": "Colours in the palette",
+      "source": "Style & Imagery"
+    }
+  ],
+  "identity": [
+    {
+      "key": "logo",
+      "label": "Logo",
+      "note": "Boujee Healer's logo as the site shows it (theboujeehealer.com).",
+      "image": "/media/work/boujee-healer/study/pic-10.png",
+      "alt": "The Boujee Healer",
+      "ground": "#826D91",
+      "dark": true,
+      "fit": "contain"
+    },
+    {
+      "key": "palette",
+      "label": "Colour",
+      "note": "The five colours qwarter.com's case study lists under Style & Imagery.",
+      "colors": [
+        {
+          "hex": "#FF9E9E"
+        },
+        {
+          "hex": "#36B3C4"
+        },
+        {
+          "hex": "#F9E995"
+        },
+        {
+          "hex": "#826D91"
+        },
+        {
+          "hex": "#7A7A7A"
+        }
+      ]
+    },
+    {
+      "key": "type",
+      "label": "Type",
+      "note": "The type samples qwarter.com's case study sets under Style & Imagery; Nohemi is what theboujeehealer.com renders its headings in today.",
+      "faces": [
+        {
+          "role": "Headings",
+          "family": "Comfortaa",
+          "fallback": "sans-serif"
+        },
+        {
+          "role": "Subheadings",
+          "family": "Nunito sans 10",
+          "weight": "Bold",
+          "fallback": "sans-serif"
+        },
+        {
+          "role": "Headings",
+          "family": "Nohemi",
+          "fallback": "sans-serif"
+        }
+      ]
+    },
+    {
+      "key": "detail",
+      "label": "On a phone",
+      "note": "theboujeehealer.com on a phone, its home page as photographed on 2026-10-22.",
+      "image": "/media/work/boujee-healer/study/m-home.jpg",
+      "alt": "Boujee Healer's home page on a phone.",
+      "ground": "#FF9E9E",
+      "dark": false,
+      "fit": "cover"
+    }
+  ],
+  "quote": {
+    "text": "Facilitating meditations and space for healing is held very close to Gayle’s heart and has allowed her to connect lifetime friends while building a strong spiritually aligned community.",
+    "source": "From qwarter.com's case study, the client's own words"
+  },
+  "steps": [
+    {
+      "title": "theboujeehealer.com, page by page",
+      "body": "The Boujee Healer was founded to create transformative conversations with the intention to help others experience peace of mind in knowing that we are not alone in some of the things we may be experiencing. Gayle Fuller, The Boujee Healer™, guides awakened women out of healing mode and into embodied remembrance - alignment sessions, divine feminine & sexual energy containers, and the Family of Light community. Luxury, softness, and sovereignty as your spiritual birthright.",
+      "device": "desktop",
+      "recording": "desktop",
+      "source": "qwarter.com's case study, its first paragraph about the client"
+    },
+    {
+      "title": "Family of Light",
+      "body": "“Welcome to the Family of Light” A sacred multidimensional space for starseeds, visionaries, and light-bearers who are ready to rise into their mission, together.",
+      "image": "/media/work/boujee-healer/study/d-family-of-light-html.jpg",
+      "alt": "theboujeehealer.com: the Family of Light page.",
+      "device": "desktop",
+      "source": "the page's own heading and first paragraph, as photographed"
+    },
+    {
+      "title": "Meditation Bundles",
+      "body": "“Meditation Bundles” Frequency-coded journeys designed to activate, align, and awaken the divine light within you.",
+      "image": "/media/work/boujee-healer/study/d-meditation-bundles-html.jpg",
+      "alt": "theboujeehealer.com: the Meditation Bundles page.",
+      "device": "desktop",
+      "source": "the page's own heading and first paragraph, as photographed"
+    },
+    {
+      "title": "On a phone",
+      "body": "theboujeehealer.com on a phone, 4 pages as photographed on 2026-10-22.",
+      "device": "phone",
+      "recording": "phone",
+      "source": "the phone frames of the shoot"
+    },
+    {
+      "title": "The challenge",
+      "body": "The Boujee Healer was founded and born during the peak of the pandemic to help others navigate their health and wellness journey. Given emergent technology, changing consumer behavior and dining preferences, and the extraordinary staffing challenges.",
+      "image": "/media/work/boujee-healer/study/pic-03.jpg",
+      "alt": "Boujee Healer: a screen of the site as qwarter.com's case study shows it",
+      "device": "picture",
+      "source": "qwarter.com's case study"
+    },
+    {
+      "title": "The solution",
+      "body": "Our goal was to overcome this challenge was to turn to technology to ease staffing shortages. Leveraging the website to sell merchandise, developing a highly-active Google My Business, delivering and offering to-go food and cocktails using Grub Hub and Door Dash — remained a small part of solving the challenge. Since recovering from the pandemic, Pineapple Club has maintained a strong lead in the East Village, NY. The Boujee Healer – A Boujee Meditation Experience",
+      "image": "/media/work/boujee-healer/study/pic-04.jpg",
+      "alt": "Boujee Healer: a screen of the site as qwarter.com's case study shows it",
+      "device": "picture",
+      "source": "qwarter.com's case study"
+    },
+    {
+      "title": "Design strategy",
+      "body": "A Boujee Meditation Experience QWARTER designed the Boujee Healer’s website, brand book, and created a membership portal for Gayle’s clients to have access to exclusive content and classes. Using the Beverly Hills Hotel as design inspiration, Gayle’s vision was to create an experience that was peaceful and calming. The outcome was a website that feels like the beaches in LA and the high-end luxury feel of the iconic Beverly Hills Hotel.",
+      "image": "/media/work/boujee-healer/study/pic-05.jpg",
+      "alt": "Boujee Healer: a screen of the site as qwarter.com's case study shows it",
+      "device": "picture",
+      "source": "qwarter.com's case study"
+    }
+  ],
+  "film": {
+    "src": "/media/work/boujee-healer/scroll.mp4",
+    "webm": "/media/work/boujee-healer/scroll.webm",
+    "poster": "/media/work/boujee-healer/tile.jpg",
+    "alt": "Boujee Healer's film: the site scrolling."
+  },
+  "recordings": {
+    "desktop": {
+      "src": "/media/work/boujee-healer/study/desktop.mp4",
+      "poster": "/media/work/boujee-healer/study/desktop-poster.jpg",
+      "alt": "Boujee Healer on a desktop: Home, Family of Light, Meditation Bundles."
+    },
+    "phone": {
+      "src": "/media/work/boujee-healer/study/phone.mp4",
+      "poster": "/media/work/boujee-healer/study/phone-poster.jpg",
+      "alt": "Boujee Healer on a phone."
+    }
+  },
+  "gallery": [
+    {
+      "src": "/media/work/boujee-healer/study/pic-01.png",
+      "alt": "Boujee Healer: a picture as qwarter.com's case study shows it",
+      "source": "qwarter.com's case study (its media library)"
+    },
+    {
+      "src": "/media/work/boujee-healer/study/pic-02.png",
+      "alt": "Boujee Healer: a picture as qwarter.com's case study shows it",
+      "source": "qwarter.com's case study (its media library)"
+    },
+    {
+      "src": "/media/work/boujee-healer/study/pic-03.jpg",
+      "alt": "Boujee Healer: a screen of the site as qwarter.com's case study shows it",
+      "source": "qwarter.com's case study (its media library)"
+    },
+    {
+      "src": "/media/work/boujee-healer/study/pic-04.jpg",
+      "alt": "Boujee Healer: a screen of the site as qwarter.com's case study shows it",
+      "source": "qwarter.com's case study (its media library)"
+    },
+    {
+      "src": "/media/work/boujee-healer/study/pic-05.jpg",
+      "alt": "Boujee Healer: a screen of the site as qwarter.com's case study shows it",
+      "source": "qwarter.com's case study (its media library)"
+    },
+    {
+      "src": "/media/work/boujee-healer/study/pic-06.jpg",
+      "alt": "Boujee Healer: a screen of the site as qwarter.com's case study shows it",
+      "source": "qwarter.com's case study (its media library)"
+    },
+    {
+      "src": "/media/work/boujee-healer/study/pic-07.jpg",
+      "alt": "Boujee Healer: a picture as qwarter.com's case study shows it",
+      "source": "qwarter.com's case study (its media library)"
+    },
+    {
+      "src": "/media/work/boujee-healer/study/pic-09.jpg",
+      "alt": "Boujee Healer: a picture from the site",
+      "source": "theboujeehealer.com (the site's own picture)"
+    }
+  ],
+  "galleryNote": "Pictures from qwarter.com's case study (its media library); the site's own pictures, from theboujeehealer.com.",
+  "source": "qwarter.com/portfolio/boujee-healer/ (WordPress snapshot 2026-10-22): the service line, facts, Style & Imagery, Deliverables/Services/Strategy, Project Info, challenge, solution and design strategy where they are this client's own (a paragraph pasted on another case study is left out), and its pictures; theboujeehealer.com photographed on 2026-10-22 (scripts/work/shoot.mjs): page titles and first words, typefaces and colours observed, the logo and pictures the pages show, the phone frames. Every word is qwarter.com's, the site's own or observed; nothing is written here.",
+  "generated": true
+}
