@@ -1,0 +1,62 @@
+{
+  "route": "/contact/",
+  "slug": "contact",
+  "url": "https://depoluxe.xyz/contact/",
+  "widths": {
+    "390": {
+      "frames": 7,
+      "menu": false,
+      "errors": []
+    },
+    "1440": {
+      "frames": 25,
+      "menu": false,
+      "errors": []
+    }
+  },
+  "stack": {
+    "generator": null,
+    "webflow": false,
+    "webflowPage": null,
+    "webflowSite": null,
+    "nextjs": false,
+    "nuxt": false,
+    "framer": false,
+    "wordpress": false,
+    "squarespace": false,
+    "wix": false,
+    "shopify": false,
+    "gsap": null,
+    "scrollTrigger": false,
+    "splitText": false,
+    "lenis": false,
+    "locomotive": false,
+    "barba": false,
+    "swup": false,
+    "swiper": false,
+    "three": false,
+    "splitType": false,
+    "lottie": false,
+    "jquery": null,
+    "customCursorCss": false,
+    "scripts": [
+      "https://depoluxe.xyz/assets/main.d4f10deae0b58c57225e.js"
+    ]
+  },
+  "title": "Information - Depo Luxe",
+  "status": 200,
+  "loadMs": 26102,
+  "cursorFollowers": 0,
+  "hovers": 26,
+  "links": [
+    "/",
+    "/archive/",
+    "/talent/",
+    "/about/",
+    "/contact/",
+    "/information-security-policy/",
+    "/privacy-policy/",
+    "/legal-notice/",
+    "/cookies-policy/"
+  ]
+}

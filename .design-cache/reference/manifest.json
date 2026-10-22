@@ -1,0 +1,404 @@
+{
+  "origin": "https://depoluxe.xyz",
+  "routes": {
+    "/": {
+      "route": "/",
+      "slug": "home",
+      "url": "https://depoluxe.xyz/",
+      "widths": {
+        "390": {
+          "frames": 25,
+          "menu": false,
+          "errors": []
+        },
+        "1440": {
+          "frames": 25,
+          "menu": false,
+          "errors": []
+        }
+      },
+      "stack": {
+        "generator": null,
+        "webflow": false,
+        "webflowPage": null,
+        "webflowSite": null,
+        "nextjs": false,
+        "nuxt": false,
+        "framer": false,
+        "wordpress": false,
+        "squarespace": false,
+        "wix": false,
+        "shopify": false,
+        "gsap": null,
+        "scrollTrigger": false,
+        "splitText": false,
+        "lenis": false,
+        "locomotive": false,
+        "barba": false,
+        "swup": false,
+        "swiper": false,
+        "three": false,
+        "splitType": false,
+        "lottie": false,
+        "jquery": null,
+        "customCursorCss": false,
+        "scripts": [
+          "https://depoluxe.xyz/assets/main.d4f10deae0b58c57225e.js"
+        ]
+      },
+      "title": "Depo Luxe",
+      "status": 200,
+      "loadMs": 38162,
+      "cursorFollowers": 0,
+      "hovers": 29,
+      "fonts": {
+        "faces": [
+          {
+            "family": "\"EB Garamond\"",
+            "weight": "400",
+            "style": "normal",
+            "src": "url(\"/assets/fonts/eb-garamond-v32-latin-regular.woff2\") format(\"woff2\")",
+            "sheet": null
+          },
+          {
+            "family": "\"EB Garamond\"",
+            "weight": "400",
+            "style": "italic",
+            "src": "url(\"/assets/fonts/eb-garamond-v32-latin-italic.woff2\") format(\"woff2\")",
+            "sheet": null
+          }
+        ],
+        "loaded": [
+          {
+            "family": "EB Garamond",
+            "weight": "400",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "EB Garamond",
+            "weight": "400",
+            "style": "italic",
+            "status": "loaded"
+          }
+        ]
+      },
+      "breakpoints": [
+        "(max-width: 480px)",
+        "(min-width: 1400px)",
+        "(min-width: 1650px)",
+        "(min-width: 1900px)",
+        "(hover: none)",
+        "(min-width: 480px)",
+        "(hover: hover)"
+      ]
+    },
+    "/talent/": {
+      "route": "/talent/",
+      "slug": "talent",
+      "url": "https://depoluxe.xyz/talent/",
+      "widths": {
+        "390": {
+          "frames": 7,
+          "menu": false,
+          "errors": []
+        },
+        "1440": {
+          "frames": 24,
+          "menu": false,
+          "errors": []
+        }
+      },
+      "stack": {
+        "generator": null,
+        "webflow": false,
+        "webflowPage": null,
+        "webflowSite": null,
+        "nextjs": false,
+        "nuxt": false,
+        "framer": false,
+        "wordpress": false,
+        "squarespace": false,
+        "wix": false,
+        "shopify": false,
+        "gsap": null,
+        "scrollTrigger": false,
+        "splitText": false,
+        "lenis": false,
+        "locomotive": false,
+        "barba": false,
+        "swup": false,
+        "swiper": false,
+        "three": false,
+        "splitType": false,
+        "lottie": false,
+        "jquery": null,
+        "customCursorCss": false,
+        "scripts": [
+          "https://depoluxe.xyz/assets/main.d4f10deae0b58c57225e.js"
+        ]
+      },
+      "title": "Talent - Depo Luxe",
+      "status": 200,
+      "loadMs": 25246,
+      "cursorFollowers": 0,
+      "hovers": 23
+    },
+    "/about/": {
+      "route": "/about/",
+      "slug": "about",
+      "url": "https://depoluxe.xyz/about/",
+      "widths": {
+        "390": {
+          "frames": 25,
+          "menu": false,
+          "errors": []
+        },
+        "1440": {
+          "frames": 25,
+          "menu": false,
+          "errors": []
+        }
+      },
+      "stack": {
+        "generator": null,
+        "webflow": false,
+        "webflowPage": null,
+        "webflowSite": null,
+        "nextjs": false,
+        "nuxt": false,
+        "framer": false,
+        "wordpress": false,
+        "squarespace": false,
+        "wix": false,
+        "shopify": false,
+        "gsap": null,
+        "scrollTrigger": false,
+        "splitText": false,
+        "lenis": false,
+        "locomotive": false,
+        "barba": false,
+        "swup": false,
+        "swiper": false,
+        "three": false,
+        "splitType": false,
+        "lottie": false,
+        "jquery": null,
+        "customCursorCss": false,
+        "scripts": [
+          "https://depoluxe.xyz/assets/main.d4f10deae0b58c57225e.js"
+        ]
+      },
+      "title": "Approach - Depo Luxe",
+      "status": 200,
+      "loadMs": 21797,
+      "cursorFollowers": 0,
+      "hovers": 14
+    },
+    "/contact/": {
+      "route": "/contact/",
+      "slug": "contact",
+      "url": "https://depoluxe.xyz/contact/",
+      "widths": {
+        "390": {
+          "frames": 7,
+          "menu": false,
+          "errors": []
+        },
+        "1440": {
+          "frames": 25,
+          "menu": false,
+          "errors": []
+        }
+      },
+      "stack": {
+        "generator": null,
+        "webflow": false,
+        "webflowPage": null,
+        "webflowSite": null,
+        "nextjs": false,
+        "nuxt": false,
+        "framer": false,
+        "wordpress": false,
+        "squarespace": false,
+        "wix": false,
+        "shopify": false,
+        "gsap": null,
+        "scrollTrigger": false,
+        "splitText": false,
+        "lenis": false,
+        "locomotive": false,
+        "barba": false,
+        "swup": false,
+        "swiper": false,
+        "three": false,
+        "splitType": false,
+        "lottie": false,
+        "jquery": null,
+        "customCursorCss": false,
+        "scripts": [
+          "https://depoluxe.xyz/assets/main.d4f10deae0b58c57225e.js"
+        ]
+      },
+      "title": "Information - Depo Luxe",
+      "status": 200,
+      "loadMs": 26102,
+      "cursorFollowers": 0,
+      "hovers": 26
+    },
+    "/jonas-akerlund/zzzaro-pour-homme/": {
+      "route": "/jonas-akerlund/zzzaro-pour-homme/",
+      "slug": "jonas-akerlund__zzzaro-pour-homme",
+      "url": "https://depoluxe.xyz/jonas-akerlund/zzzaro-pour-homme/",
+      "widths": {
+        "390": {
+          "frames": 25,
+          "menu": false,
+          "errors": []
+        },
+        "1440": {
+          "frames": 25,
+          "menu": false,
+          "errors": []
+        }
+      },
+      "stack": {
+        "generator": null,
+        "webflow": false,
+        "webflowPage": null,
+        "webflowSite": null,
+        "nextjs": false,
+        "nuxt": false,
+        "framer": false,
+        "wordpress": false,
+        "squarespace": false,
+        "wix": false,
+        "shopify": false,
+        "gsap": null,
+        "scrollTrigger": false,
+        "splitText": false,
+        "lenis": false,
+        "locomotive": false,
+        "barba": false,
+        "swup": false,
+        "swiper": false,
+        "three": false,
+        "splitType": false,
+        "lottie": false,
+        "jquery": null,
+        "customCursorCss": false,
+        "scripts": [
+          "https://depoluxe.xyz/assets/main.d4f10deae0b58c57225e.js"
+        ]
+      },
+      "title": "Azzaro pour homme - Depo Luxe",
+      "status": 200,
+      "loadMs": 21881,
+      "cursorFollowers": 8,
+      "hovers": 34
+    },
+    "/jonas-akerlund/john-wayne/": {
+      "route": "/jonas-akerlund/john-wayne/",
+      "slug": "jonas-akerlund__john-wayne",
+      "url": "https://depoluxe.xyz/jonas-akerlund/john-wayne/",
+      "widths": {
+        "390": {
+          "frames": 25,
+          "menu": false,
+          "errors": []
+        },
+        "1440": {
+          "frames": 25,
+          "menu": false,
+          "errors": []
+        }
+      },
+      "stack": {
+        "generator": null,
+        "webflow": false,
+        "webflowPage": null,
+        "webflowSite": null,
+        "nextjs": false,
+        "nuxt": false,
+        "framer": false,
+        "wordpress": false,
+        "squarespace": false,
+        "wix": false,
+        "shopify": false,
+        "gsap": null,
+        "scrollTrigger": false,
+        "splitText": false,
+        "lenis": false,
+        "locomotive": false,
+        "barba": false,
+        "swup": false,
+        "swiper": false,
+        "three": false,
+        "splitType": false,
+        "lottie": false,
+        "jquery": null,
+        "customCursorCss": false,
+        "scripts": [
+          "https://depoluxe.xyz/assets/main.d4f10deae0b58c57225e.js"
+        ]
+      },
+      "title": "John Wayne - Depo Luxe",
+      "status": 200,
+      "loadMs": 32198,
+      "cursorFollowers": 8,
+      "hovers": 34
+    },
+    "/guslo/woman-md-studio/": {
+      "route": "/guslo/woman-md-studio/",
+      "slug": "guslo__woman-md-studio",
+      "url": "https://depoluxe.xyz/guslo/woman-md-studio/",
+      "widths": {
+        "390": {
+          "frames": 25,
+          "menu": false,
+          "errors": []
+        },
+        "1440": {
+          "frames": 25,
+          "menu": false,
+          "errors": []
+        }
+      },
+      "stack": {
+        "generator": null,
+        "webflow": false,
+        "webflowPage": null,
+        "webflowSite": null,
+        "nextjs": false,
+        "nuxt": false,
+        "framer": false,
+        "wordpress": false,
+        "squarespace": false,
+        "wix": false,
+        "shopify": false,
+        "gsap": null,
+        "scrollTrigger": false,
+        "splitText": false,
+        "lenis": false,
+        "locomotive": false,
+        "barba": false,
+        "swup": false,
+        "swiper": false,
+        "three": false,
+        "splitType": false,
+        "lottie": false,
+        "jquery": null,
+        "customCursorCss": false,
+        "scripts": [
+          "https://depoluxe.xyz/assets/main.d4f10deae0b58c57225e.js"
+        ]
+      },
+      "title": "Woman MD Studio - Depo Luxe",
+      "status": 200,
+      "loadMs": 32129,
+      "cursorFollowers": 0,
+      "hovers": 34
+    }
+  },
+  "captured": "2026-10-22T19:21:28.307Z"
+}

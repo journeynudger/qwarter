@@ -1,0 +1,210 @@
+[
+  {
+    "id": "0",
+    "tag": "a",
+    "className": "title __title",
+    "text": "Depo Luxe",
+    "href": "/",
+    "changes": []
+  },
+  {
+    "id": "1",
+    "tag": "a",
+    "className": "link-underline",
+    "text": "Featured",
+    "href": "/",
+    "changes": []
+  },
+  {
+    "id": "2",
+    "tag": "a",
+    "className": "link-underline",
+    "text": "Archive",
+    "href": "/archive/",
+    "changes": []
+  },
+  {
+    "id": "3",
+    "tag": "a",
+    "className": "link-underline",
+    "text": "Talent",
+    "href": "/talent/",
+    "changes": []
+  },
+  {
+    "id": "4",
+    "tag": "a",
+    "className": "link-underline",
+    "text": "Approach",
+    "href": "/about/",
+    "changes": []
+  },
+  {
+    "id": "5",
+    "tag": "a",
+    "className": "link-underline",
+    "text": "Contact",
+    "href": "/contact/",
+    "changes": []
+  },
+  {
+    "id": "6",
+    "tag": "a",
+    "className": "logo-depo __logo",
+    "text": "",
+    "href": "/",
+    "changes": []
+  },
+  {
+    "id": "13",
+    "tag": "a",
+    "className": "email",
+    "text": "Depo Founder/EP EnderSevim EnderSevim ender@depoluxe.com",
+    "href": "mailto:ender@depoluxe.com",
+    "changes": []
+  },
+  {
+    "id": "14",
+    "tag": "a",
+    "className": "email",
+    "text": "Depo Luxe EP MerveSuYalçınkaya MerveSuYalçınkaya merve@depol",
+    "href": "mailto:merve@depoluxe.com",
+    "changes": []
+  },
+  {
+    "id": "15",
+    "tag": "a",
+    "className": "email",
+    "text": "Depo Luxe EP MelisaDivanoğlu MelisaDivanoğlu melisa@depofilm",
+    "href": "mailto:melisa@depofilm.com",
+    "changes": []
+  },
+  {
+    "id": "16",
+    "tag": "a",
+    "className": "email --hide-mobile",
+    "text": "Depo Founder/EP EnderSevim EnderSevim ender@depoluxe.com",
+    "href": "mailto:ender@depoluxe.com",
+    "changes": []
+  },
+  {
+    "id": "17",
+    "tag": "a",
+    "className": "email --hide-mobile",
+    "text": "Depo Luxe EP MerveSuYalçınkaya MerveSuYalçınkaya merve@depol",
+    "href": "mailto:merve@depoluxe.com",
+    "changes": []
+  },
+  {
+    "id": "18",
+    "tag": "a",
+    "className": "email --hide-mobile",
+    "text": "Depo Luxe EP MelisaDivanoğlu MelisaDivanoğlu melisa@depofilm",
+    "href": "mailto:melisa@depofilm.com",
+    "changes": []
+  },
+  {
+    "id": "19",
+    "tag": "a",
+    "className": "email",
+    "text": "Depo Luxe EP MelisaDivanoğlu MelisaDivanoğlu melisa@depofilm",
+    "href": "mailto:melisa@depofilm.com",
+    "changes": []
+  },
+  {
+    "id": "20",
+    "tag": "a",
+    "className": "email",
+    "text": "Depo Luxe EP MerveSuYalçınkaya MerveSuYalçınkaya merve@depol",
+    "href": "mailto:merve@depoluxe.com",
+    "changes": []
+  },
+  {
+    "id": "21",
+    "tag": "a",
+    "className": "email",
+    "text": "Depo Founder/EP EnderSevim EnderSevim ender@depoluxe.com",
+    "href": "mailto:ender@depoluxe.com",
+    "changes": []
+  },
+  {
+    "id": "22",
+    "tag": "a",
+    "className": "email",
+    "text": "Depo Founder/EP EnderSevim EnderSevim ender@depoluxe.com",
+    "href": "mailto:ender@depoluxe.com",
+    "changes": []
+  },
+  {
+    "id": "23",
+    "tag": "a",
+    "className": "email",
+    "text": "Depo Luxe EP MerveSuYalçınkaya MerveSuYalçınkaya merve@depol",
+    "href": "mailto:merve@depoluxe.com",
+    "changes": []
+  },
+  {
+    "id": "24",
+    "tag": "a",
+    "className": "email",
+    "text": "Depo Luxe EP MelisaDivanoğlu MelisaDivanoğlu melisa@depofilm",
+    "href": "mailto:melisa@depofilm.com",
+    "changes": []
+  },
+  {
+    "id": "25",
+    "tag": "a",
+    "className": "",
+    "text": "Instagram",
+    "href": "https://www.instagram.com/depofilm/?hl=es",
+    "changes": []
+  },
+  {
+    "id": "26",
+    "tag": "a",
+    "className": "",
+    "text": "Vimeo",
+    "href": "https://vimeo.com/depofilm",
+    "changes": []
+  },
+  {
+    "id": "27",
+    "tag": "a",
+    "className": "",
+    "text": "Linkedin",
+    "href": "https://www.linkedin.com/company/depofilm/",
+    "changes": []
+  },
+  {
+    "id": "28",
+    "tag": "a",
+    "className": "",
+    "text": "Information Security Policy",
+    "href": "/information-security-policy/",
+    "changes": []
+  },
+  {
+    "id": "29",
+    "tag": "a",
+    "className": "",
+    "text": "Privacy Policy",
+    "href": "/privacy-policy/",
+    "changes": []
+  },
+  {
+    "id": "30",
+    "tag": "a",
+    "className": "",
+    "text": "Legal Notice",
+    "href": "/legal-notice/",
+    "changes": []
+  },
+  {
+    "id": "31",
+    "tag": "a",
+    "className": "",
+    "text": "Cookies Policy",
+    "href": "/cookies-policy/",
+    "changes": []
+  }
+]
