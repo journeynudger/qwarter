@@ -1,0 +1,263 @@
+{
+  "html": {
+    "class": "",
+    "lang": "en"
+  },
+  "body": {
+    "class": ""
+  },
+  "head": [
+    {
+      "tag": "meta",
+      "attrs": {
+        "charset": "utf-8"
+      }
+    },
+    {
+      "tag": "title",
+      "attrs": {}
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "name": "viewport",
+        "content": "width=device-width,initial-scale=1"
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "name": "description",
+        "content": "A strategic and cinematic approach to contemporary luxury"
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "name": "referrer",
+        "content": "no-referrer-when-downgrade"
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "name": "robots",
+        "content": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+      }
+    },
+    {
+      "tag": "link",
+      "attrs": {
+        "rel": "canonical",
+        "href": "http://depoluxe.cuchillo-pink.xyz/addict/"
+      }
+    },
+    {
+      "tag": "link",
+      "attrs": {
+        "rel": "alternate",
+        "hreflang": "x-default",
+        "href": ""
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "property": "og:locale",
+        "content": "en_US"
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "property": "og:title",
+        "content": "Addict - Depo Luxe"
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "property": "og:type",
+        "content": "article"
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "property": "og:description",
+        "content": "A strategic and cinematic approach to contemporary luxury"
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "property": "og:url",
+        "content": "http://depoluxe.cuchillo-pink.xyz/addict/"
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "property": "og:site_name",
+        "content": "Depo Luxe"
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "property": "article:modified_time",
+        "content": "2026-05-18T10:08:05+00:00"
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "property": "og:image",
+        "content": "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18100546/Captura-de-pantalla-2026-05-18-a-las-12.05.19-1200x650.jpg"
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "property": "og:image:width",
+        "content": "1200"
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "property": "og:image:height",
+        "content": "650"
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "property": "og:image:type",
+        "content": "image/jpeg"
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "name": "twitter:card",
+        "content": "summary_large_image"
+      }
+    },
+    {
+      "tag": "link",
+      "attrs": {
+        "rel": "preload",
+        "as": "fetch",
+        "href": "/api/videos-data",
+        "crossorigin": "anonymous"
+      }
+    },
+    {
+      "tag": "script",
+      "attrs": {
+        "type": "module"
+      },
+      "text": "// Exponemos una Promise que Main.js puede awaitar\n      window.__videosDataReady = (async function() {\n        try {\n          const response = await fetch('/api/videos-data');\n          const arrayData = await response.json();\n\n          window.__videosData = arrayData.reduce((obj, urls) => {\n            obj[urls[0]] = urls[1];\n            return obj;\n          }, {});\n\n          return window.__videosData;\n        } catch (error) {\n          console.error('❌ Error cargando videos:', error);\n          window.__videosData = {};\n          return {};\n        }\n      })();"
+    },
+    {
+      "tag": "link",
+      "attrs": {
+        "rel": "icon",
+        "type": "image/png",
+        "href": "/assets/favicons/favicon-96x96.png",
+        "sizes": "96x96"
+      }
+    },
+    {
+      "tag": "link",
+      "attrs": {
+        "rel": "icon",
+        "type": "image/svg+xml",
+        "href": "/assets/favicons/favicon.svg"
+      }
+    },
+    {
+      "tag": "link",
+      "attrs": {
+        "rel": "shortcut icon",
+        "href": "/assets/favicons/favicon.ico"
+      }
+    },
+    {
+      "tag": "link",
+      "attrs": {
+        "rel": "apple-touch-icon",
+        "sizes": "180x180",
+        "href": "/assets/favicons/apple-touch-icon.png"
+      }
+    },
+    {
+      "tag": "meta",
+      "attrs": {
+        "name": "apple-mobile-web-app-title",
+        "content": "Depo Luxe"
+      }
+    },
+    {
+      "tag": "link",
+      "attrs": {
+        "rel": "manifest",
+        "href": "/assets/favicons/site.webmanifest"
+      }
+    },
+    {
+      "tag": "link",
+      "attrs": {
+        "rel": "preload",
+        "href": "/assets/fonts/eb-garamond-v32-latin-regular.woff2",
+        "as": "font",
+        "type": "font/woff2",
+        "crossorigin": ""
+      }
+    },
+    {
+      "tag": "link",
+      "attrs": {
+        "rel": "preload",
+        "href": "/assets/fonts/eb-garamond-v32-latin-italic.woff2",
+        "as": "font",
+        "type": "font/woff2",
+        "crossorigin": ""
+      }
+    },
+    {
+      "tag": "style",
+      "attrs": {},
+      "text": "@font-face {\n  font-display: swap;\n  font-family: 'EB Garamond';\n  font-style: normal;\n  font-weight: 400;\n  src: url('/assets/fonts/eb-garamond-v32-latin-regular.woff2') format('woff2');\n}\n\n@font-face {\n  font-display: swap;\n  font-family: 'EB Garamond';\n  font-style: italic;\n  font-weight: 400;\n  src: url('/assets/fonts/eb-garamond-v32-latin-italic.woff2') format('woff2');\n}"
+    },
+    {
+      "tag": "link",
+      "attrs": {
+        "rel": "stylesheet",
+        "href": "/assets/main.b0b97476d709cb690ddf.css"
+      }
+    },
+    {
+      "tag": "style",
+      "attrs": {},
+      "text": "[aria-expanded='false'] {\n    visibility: hidden;\n    pointer-events: none;\n  }\n\n  \n    .palette-primary {\n      --primary-color: #ffffff;\n      --primary-bg: #000000;\n      --primary-aux: #7d7d7d;\n      --secondary-color: #8e8e93;\n      --secondary-bg: #aeaeb2;\n      --secondary-aux: #000000;\n    }\n  \n    .palette-secondary {\n      --primary-color: #000000;\n      --primary-bg: #ffffff;\n      --primary-aux: #000000;\n      --secondary-color: #FFFFFF;\n      --secondary-bg: #000000;\n      --secondary-aux: #000000;\n    }"
+    },
+    {
+      "tag": "script",
+      "attrs": {},
+      "text": "var IS_WEBP_SUPPORTED = false;\n  var WEBP_EXTENSION = \"\";\n  var webp = new Image();\n  webp.onerror = function(){IS_WEBP_SUPPORTED = false};\n  webp.onload = () => {IS_WEBP_SUPPORTED = true; WEBP_EXTENSION=\".webp\"};\n  webp.src = 'data:image/webp;base64,UklGRjIAAABXRUJQVlA4ICYAAACyAgCdASoBAAEALmk0mk0iIiIiIgBoSygABc6zbAAA/v56QAAAAA==';\n\n  const CMS_COLORS = {\n    \n      \"primary\": {\n        hex: 0x000000,\n        css: \"#000000\",\n        str: \"palette-primary\"\n      },\n    \n      \"secondary\": {\n        hex: 0xffffff,\n        css: \"#ffffff\",\n        str: \"palette-secondary\"\n      },\n    \n  }\n\n  var LOADING_TIMER = new Date().getTime();"
+    }
+  ],
+  "bodyScripts": [
+    {
+      "tag": "script",
+      "attrs": {
+        "async": "",
+        "defer": "",
+        "src": "/assets/main.d4f10deae0b58c57225e.js"
+      },
+      "topLevel": true
+    }
+  ]
+}

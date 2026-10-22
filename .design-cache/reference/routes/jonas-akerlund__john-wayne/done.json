@@ -1,0 +1,63 @@
+{
+  "route": "/jonas-akerlund/john-wayne/",
+  "slug": "jonas-akerlund__john-wayne",
+  "url": "https://depoluxe.xyz/jonas-akerlund/john-wayne/",
+  "widths": {
+    "1440": {
+      "frames": 17,
+      "menu": false,
+      "errors": []
+    }
+  },
+  "stack": {
+    "generator": null,
+    "webflow": false,
+    "webflowPage": null,
+    "webflowSite": null,
+    "nextjs": false,
+    "nuxt": false,
+    "framer": false,
+    "wordpress": false,
+    "squarespace": false,
+    "wix": false,
+    "shopify": false,
+    "gsap": null,
+    "scrollTrigger": false,
+    "splitText": false,
+    "lenis": false,
+    "locomotive": false,
+    "barba": false,
+    "swup": false,
+    "swiper": false,
+    "three": false,
+    "splitType": false,
+    "lottie": false,
+    "jquery": null,
+    "customCursorCss": false,
+    "scripts": [
+      "https://depoluxe.xyz/assets/main.d4f10deae0b58c57225e.js"
+    ]
+  },
+  "title": "John Wayne - Depo Luxe",
+  "status": 200,
+  "loadMs": 7173,
+  "links": [
+    "/",
+    "/archive/",
+    "/talent/",
+    "/about/",
+    "/contact/",
+    "/jonas-akerlund/zzzaro-pour-homme/",
+    "/jonas-akerlund/john-wayne/",
+    "/jonas-akerlund/god-control/",
+    "/jonas-akerlund/fall-fashion/",
+    "/jonas-akerlund/addict/",
+    "/jonas-akerlund/itau-madonna/",
+    "/jonas-akerlund/o2/",
+    "/jonas-akerlund/spring-summer/",
+    "/information-security-policy/",
+    "/privacy-policy/",
+    "/legal-notice/",
+    "/cookies-policy/"
+  ]
+}

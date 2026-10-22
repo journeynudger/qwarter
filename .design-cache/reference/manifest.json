@@ -1,0 +1,950 @@
+{
+  "origin": "https://depoluxe.xyz",
+  "routes": {
+    "/": {
+      "route": "/",
+      "slug": "home",
+      "url": "https://depoluxe.xyz/",
+      "widths": {
+        "1440": {
+          "frames": 17,
+          "menu": false,
+          "errors": []
+        }
+      },
+      "stack": {
+        "generator": null,
+        "webflow": false,
+        "webflowPage": null,
+        "webflowSite": null,
+        "nextjs": false,
+        "nuxt": false,
+        "framer": false,
+        "wordpress": false,
+        "squarespace": false,
+        "wix": false,
+        "shopify": false,
+        "gsap": null,
+        "scrollTrigger": false,
+        "splitText": false,
+        "lenis": false,
+        "locomotive": false,
+        "barba": false,
+        "swup": false,
+        "swiper": false,
+        "three": false,
+        "splitType": false,
+        "lottie": false,
+        "jquery": null,
+        "customCursorCss": false,
+        "scripts": [
+          "https://depoluxe.xyz/assets/main.d4f10deae0b58c57225e.js"
+        ]
+      },
+      "title": "Depo Luxe",
+      "status": 200,
+      "loadMs": 9099,
+      "fonts": {
+        "faces": [
+          {
+            "family": "\"EB Garamond\"",
+            "weight": "400",
+            "style": "normal",
+            "src": "url(\"/assets/fonts/eb-garamond-v32-latin-regular.woff2\") format(\"woff2\")",
+            "sheet": null
+          },
+          {
+            "family": "\"EB Garamond\"",
+            "weight": "400",
+            "style": "italic",
+            "src": "url(\"/assets/fonts/eb-garamond-v32-latin-italic.woff2\") format(\"woff2\")",
+            "sheet": null
+          }
+        ],
+        "loaded": [
+          {
+            "family": "EB Garamond",
+            "weight": "400",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "EB Garamond",
+            "weight": "400",
+            "style": "italic",
+            "status": "loaded"
+          }
+        ]
+      },
+      "breakpoints": [
+        "(max-width: 480px)",
+        "(min-width: 1400px)",
+        "(min-width: 1650px)",
+        "(min-width: 1900px)",
+        "(hover: none)",
+        "(min-width: 480px)",
+        "(hover: hover)"
+      ]
+    },
+    "/talent/": {
+      "route": "/talent/",
+      "slug": "talent",
+      "url": "https://depoluxe.xyz/talent/",
+      "widths": {
+        "1440": {
+          "frames": 17,
+          "menu": false,
+          "errors": []
+        }
+      },
+      "stack": {
+        "generator": null,
+        "webflow": false,
+        "webflowPage": null,
+        "webflowSite": null,
+        "nextjs": false,
+        "nuxt": false,
+        "framer": false,
+        "wordpress": false,
+        "squarespace": false,
+        "wix": false,
+        "shopify": false,
+        "gsap": null,
+        "scrollTrigger": false,
+        "splitText": false,
+        "lenis": false,
+        "locomotive": false,
+        "barba": false,
+        "swup": false,
+        "swiper": false,
+        "three": false,
+        "splitType": false,
+        "lottie": false,
+        "jquery": null,
+        "customCursorCss": false,
+        "scripts": [
+          "https://depoluxe.xyz/assets/main.d4f10deae0b58c57225e.js"
+        ]
+      },
+      "title": "Talent - Depo Luxe",
+      "status": 200,
+      "loadMs": 4904
+    },
+    "/about/": {
+      "route": "/about/",
+      "error": "TimeoutError: page.screenshot: Timeout 30000ms exceeded.\nCall log:\n  - taking page screenshot\n  - waiting for fonts to load...\n  - fonts loaded\n"
+    },
+    "/contact/": {
+      "route": "/contact/",
+      "slug": "contact",
+      "url": "https://depoluxe.xyz/contact/",
+      "widths": {
+        "1440": {
+          "frames": 17,
+          "menu": false,
+          "errors": []
+        }
+      },
+      "stack": {
+        "generator": null,
+        "webflow": false,
+        "webflowPage": null,
+        "webflowSite": null,
+        "nextjs": false,
+        "nuxt": false,
+        "framer": false,
+        "wordpress": false,
+        "squarespace": false,
+        "wix": false,
+        "shopify": false,
+        "gsap": null,
+        "scrollTrigger": false,
+        "splitText": false,
+        "lenis": false,
+        "locomotive": false,
+        "barba": false,
+        "swup": false,
+        "swiper": false,
+        "three": false,
+        "splitType": false,
+        "lottie": false,
+        "jquery": null,
+        "customCursorCss": false,
+        "scripts": [
+          "https://depoluxe.xyz/assets/main.d4f10deae0b58c57225e.js"
+        ]
+      },
+      "title": "Information - Depo Luxe",
+      "status": 200,
+      "loadMs": 91604
+    },
+    "/jonas-akerlund/zzzaro-pour-homme/": {
+      "route": "/jonas-akerlund/zzzaro-pour-homme/",
+      "slug": "jonas-akerlund__zzzaro-pour-homme",
+      "url": "https://depoluxe.xyz/jonas-akerlund/zzzaro-pour-homme/",
+      "widths": {
+        "1440": {
+          "frames": 17,
+          "menu": false,
+          "errors": []
+        }
+      },
+      "stack": {
+        "generator": null,
+        "webflow": false,
+        "webflowPage": null,
+        "webflowSite": null,
+        "nextjs": false,
+        "nuxt": false,
+        "framer": false,
+        "wordpress": false,
+        "squarespace": false,
+        "wix": false,
+        "shopify": false,
+        "gsap": null,
+        "scrollTrigger": false,
+        "splitText": false,
+        "lenis": false,
+        "locomotive": false,
+        "barba": false,
+        "swup": false,
+        "swiper": false,
+        "three": false,
+        "splitType": false,
+        "lottie": false,
+        "jquery": null,
+        "customCursorCss": false,
+        "scripts": [
+          "https://depoluxe.xyz/assets/main.d4f10deae0b58c57225e.js"
+        ]
+      },
+      "title": "Azzaro pour homme - Depo Luxe",
+      "status": 200,
+      "loadMs": 11677
+    },
+    "/jonas-akerlund/john-wayne/": {
+      "route": "/jonas-akerlund/john-wayne/",
+      "slug": "jonas-akerlund__john-wayne",
+      "url": "https://depoluxe.xyz/jonas-akerlund/john-wayne/",
+      "widths": {
+        "1440": {
+          "frames": 17,
+          "menu": false,
+          "errors": []
+        }
+      },
+      "stack": {
+        "generator": null,
+        "webflow": false,
+        "webflowPage": null,
+        "webflowSite": null,
+        "nextjs": false,
+        "nuxt": false,
+        "framer": false,
+        "wordpress": false,
+        "squarespace": false,
+        "wix": false,
+        "shopify": false,
+        "gsap": null,
+        "scrollTrigger": false,
+        "splitText": false,
+        "lenis": false,
+        "locomotive": false,
+        "barba": false,
+        "swup": false,
+        "swiper": false,
+        "three": false,
+        "splitType": false,
+        "lottie": false,
+        "jquery": null,
+        "customCursorCss": false,
+        "scripts": [
+          "https://depoluxe.xyz/assets/main.d4f10deae0b58c57225e.js"
+        ]
+      },
+      "title": "John Wayne - Depo Luxe",
+      "status": 200,
+      "loadMs": 7173
+    },
+    "/guslo/woman-md-studio/": {
+      "route": "/guslo/woman-md-studio/",
+      "slug": "guslo__woman-md-studio",
+      "url": "https://depoluxe.xyz/guslo/woman-md-studio/",
+      "widths": {
+        "1440": {
+          "frames": 17,
+          "menu": false,
+          "errors": []
+        }
+      },
+      "stack": {
+        "generator": null,
+        "webflow": false,
+        "webflowPage": null,
+        "webflowSite": null,
+        "nextjs": false,
+        "nuxt": false,
+        "framer": false,
+        "wordpress": false,
+        "squarespace": false,
+        "wix": false,
+        "shopify": false,
+        "gsap": null,
+        "scrollTrigger": false,
+        "splitText": false,
+        "lenis": false,
+        "locomotive": false,
+        "barba": false,
+        "swup": false,
+        "swiper": false,
+        "three": false,
+        "splitType": false,
+        "lottie": false,
+        "jquery": null,
+        "customCursorCss": false,
+        "scripts": [
+          "https://depoluxe.xyz/assets/main.d4f10deae0b58c57225e.js"
+        ]
+      },
+      "title": "Woman MD Studio - Depo Luxe",
+      "status": 200,
+      "loadMs": 7725
+    },
+    "/guslo/garbine-muguruza/": {
+      "route": "/guslo/garbine-muguruza/",
+      "slug": "guslo__garbine-muguruza",
+      "url": "https://depoluxe.xyz/guslo/garbine-muguruza/",
+      "widths": {
+        "1440": {
+          "frames": 17,
+          "menu": false,
+          "errors": []
+        }
+      },
+      "stack": {
+        "generator": null,
+        "webflow": false,
+        "webflowPage": null,
+        "webflowSite": null,
+        "nextjs": false,
+        "nuxt": false,
+        "framer": false,
+        "wordpress": false,
+        "squarespace": false,
+        "wix": false,
+        "shopify": false,
+        "gsap": null,
+        "scrollTrigger": false,
+        "splitText": false,
+        "lenis": false,
+        "locomotive": false,
+        "barba": false,
+        "swup": false,
+        "swiper": false,
+        "three": false,
+        "splitType": false,
+        "lottie": false,
+        "jquery": null,
+        "customCursorCss": false,
+        "scripts": [
+          "https://depoluxe.xyz/assets/main.d4f10deae0b58c57225e.js"
+        ]
+      },
+      "title": "Garbiñe Muguruza - Depo Luxe",
+      "status": 200,
+      "loadMs": 11635
+    },
+    "/guslo/live-the-unforgettable/": {
+      "route": "/guslo/live-the-unforgettable/",
+      "slug": "guslo__live-the-unforgettable",
+      "url": "https://depoluxe.xyz/guslo/live-the-unforgettable/",
+      "widths": {
+        "1440": {
+          "frames": 17,
+          "menu": false,
+          "errors": []
+        }
+      },
+      "stack": {
+        "generator": null,
+        "webflow": false,
+        "webflowPage": null,
+        "webflowSite": null,
+        "nextjs": false,
+        "nuxt": false,
+        "framer": false,
+        "wordpress": false,
+        "squarespace": false,
+        "wix": false,
+        "shopify": false,
+        "gsap": null,
+        "scrollTrigger": false,
+        "splitText": false,
+        "lenis": false,
+        "locomotive": false,
+        "barba": false,
+        "swup": false,
+        "swiper": false,
+        "three": false,
+        "splitType": false,
+        "lottie": false,
+        "jquery": null,
+        "customCursorCss": false,
+        "scripts": [
+          "https://depoluxe.xyz/assets/main.d4f10deae0b58c57225e.js"
+        ]
+      },
+      "title": "Live the unforgettable - Depo Luxe",
+      "status": 200,
+      "loadMs": 7939
+    },
+    "/guslo/studio-man-collection/": {
+      "route": "/guslo/studio-man-collection/",
+      "slug": "guslo__studio-man-collection",
+      "url": "https://depoluxe.xyz/guslo/studio-man-collection/",
+      "widths": {
+        "1440": {
+          "frames": 17,
+          "menu": false,
+          "errors": []
+        }
+      },
+      "stack": {
+        "generator": null,
+        "webflow": false,
+        "webflowPage": null,
+        "webflowSite": null,
+        "nextjs": false,
+        "nuxt": false,
+        "framer": false,
+        "wordpress": false,
+        "squarespace": false,
+        "wix": false,
+        "shopify": false,
+        "gsap": null,
+        "scrollTrigger": false,
+        "splitText": false,
+        "lenis": false,
+        "locomotive": false,
+        "barba": false,
+        "swup": false,
+        "swiper": false,
+        "three": false,
+        "splitType": false,
+        "lottie": false,
+        "jquery": null,
+        "customCursorCss": false,
+        "scripts": [
+          "https://depoluxe.xyz/assets/main.d4f10deae0b58c57225e.js"
+        ]
+      },
+      "title": "Studio Man Collection - Depo Luxe",
+      "status": 200,
+      "loadMs": 7835
+    },
+    "/guslo/gift-collection/": {
+      "route": "/guslo/gift-collection/",
+      "slug": "guslo__gift-collection",
+      "url": "https://depoluxe.xyz/guslo/gift-collection/",
+      "widths": {
+        "1440": {
+          "frames": 17,
+          "menu": false,
+          "errors": []
+        }
+      },
+      "stack": {
+        "generator": null,
+        "webflow": false,
+        "webflowPage": null,
+        "webflowSite": null,
+        "nextjs": false,
+        "nuxt": false,
+        "framer": false,
+        "wordpress": false,
+        "squarespace": false,
+        "wix": false,
+        "shopify": false,
+        "gsap": null,
+        "scrollTrigger": false,
+        "splitText": false,
+        "lenis": false,
+        "locomotive": false,
+        "barba": false,
+        "swup": false,
+        "swiper": false,
+        "three": false,
+        "splitType": false,
+        "lottie": false,
+        "jquery": null,
+        "customCursorCss": false,
+        "scripts": [
+          "https://depoluxe.xyz/assets/main.d4f10deae0b58c57225e.js"
+        ]
+      },
+      "title": "Gift Collection - Depo Luxe",
+      "status": 200,
+      "loadMs": 7780
+    },
+    "/guslo/otono-invierno-2023/": {
+      "route": "/guslo/otono-invierno-2023/",
+      "slug": "guslo__otono-invierno-2023",
+      "url": "https://depoluxe.xyz/guslo/otono-invierno-2023/",
+      "widths": {
+        "1440": {
+          "frames": 17,
+          "menu": false,
+          "errors": []
+        }
+      },
+      "stack": {
+        "generator": null,
+        "webflow": false,
+        "webflowPage": null,
+        "webflowSite": null,
+        "nextjs": false,
+        "nuxt": false,
+        "framer": false,
+        "wordpress": false,
+        "squarespace": false,
+        "wix": false,
+        "shopify": false,
+        "gsap": null,
+        "scrollTrigger": false,
+        "splitText": false,
+        "lenis": false,
+        "locomotive": false,
+        "barba": false,
+        "swup": false,
+        "swiper": false,
+        "three": false,
+        "splitType": false,
+        "lottie": false,
+        "jquery": null,
+        "customCursorCss": false,
+        "scripts": [
+          "https://depoluxe.xyz/assets/main.d4f10deae0b58c57225e.js"
+        ]
+      },
+      "title": "Otoño / Invierno 2023 - Depo Luxe",
+      "status": 200,
+      "loadMs": 7754
+    },
+    "/guslo/lanvin-collection/": {
+      "route": "/guslo/lanvin-collection/",
+      "slug": "guslo__lanvin-collection",
+      "url": "https://depoluxe.xyz/guslo/lanvin-collection/",
+      "widths": {
+        "1440": {
+          "frames": 17,
+          "menu": false,
+          "errors": [
+            "AbortError: The play() request was interrupted by a call to pause(). https://goo.gl/LdLk22",
+            "AbortError: The play() request was interrupted by a call to pause(). https://goo.gl/LdLk22",
+            "AbortError: The play() request was interrupted by a call to pause(). https://goo.gl/LdLk22",
+            "AbortError: The play() request was interrupted by a call to pause(). https://goo.gl/LdLk22",
+            "AbortError: The play() request was interrupted by a call to pause(). https://goo.gl/LdLk22",
+            "AbortError: The play() request was interrupted by a call to pause(). https://goo.gl/LdLk22"
+          ]
+        }
+      },
+      "stack": {
+        "generator": null,
+        "webflow": false,
+        "webflowPage": null,
+        "webflowSite": null,
+        "nextjs": false,
+        "nuxt": false,
+        "framer": false,
+        "wordpress": false,
+        "squarespace": false,
+        "wix": false,
+        "shopify": false,
+        "gsap": null,
+        "scrollTrigger": false,
+        "splitText": false,
+        "lenis": false,
+        "locomotive": false,
+        "barba": false,
+        "swup": false,
+        "swiper": false,
+        "three": false,
+        "splitType": false,
+        "lottie": false,
+        "jquery": null,
+        "customCursorCss": false,
+        "scripts": [
+          "https://depoluxe.xyz/assets/main.d4f10deae0b58c57225e.js"
+        ]
+      },
+      "title": "Lanvin Collection - Depo Luxe",
+      "status": 200,
+      "loadMs": 8626
+    },
+    "/guslo/nano-balloon/": {
+      "route": "/guslo/nano-balloon/",
+      "slug": "guslo__nano-balloon",
+      "url": "https://depoluxe.xyz/guslo/nano-balloon/",
+      "widths": {
+        "1440": {
+          "frames": 17,
+          "menu": false,
+          "errors": []
+        }
+      },
+      "stack": {
+        "generator": null,
+        "webflow": false,
+        "webflowPage": null,
+        "webflowSite": null,
+        "nextjs": false,
+        "nuxt": false,
+        "framer": false,
+        "wordpress": false,
+        "squarespace": false,
+        "wix": false,
+        "shopify": false,
+        "gsap": null,
+        "scrollTrigger": false,
+        "splitText": false,
+        "lenis": false,
+        "locomotive": false,
+        "barba": false,
+        "swup": false,
+        "swiper": false,
+        "three": false,
+        "splitType": false,
+        "lottie": false,
+        "jquery": null,
+        "customCursorCss": false,
+        "scripts": [
+          "https://depoluxe.xyz/assets/main.d4f10deae0b58c57225e.js"
+        ]
+      },
+      "title": "Nano Balloon - Depo Luxe",
+      "status": 200,
+      "loadMs": 7520
+    },
+    "/guslo/zara-basez/": {
+      "route": "/guslo/zara-basez/",
+      "slug": "guslo__zara-basez",
+      "url": "https://depoluxe.xyz/guslo/zara-basez/",
+      "widths": {
+        "1440": {
+          "frames": 17,
+          "menu": false,
+          "errors": []
+        }
+      },
+      "stack": {
+        "generator": null,
+        "webflow": false,
+        "webflowPage": null,
+        "webflowSite": null,
+        "nextjs": false,
+        "nuxt": false,
+        "framer": false,
+        "wordpress": false,
+        "squarespace": false,
+        "wix": false,
+        "shopify": false,
+        "gsap": null,
+        "scrollTrigger": false,
+        "splitText": false,
+        "lenis": false,
+        "locomotive": false,
+        "barba": false,
+        "swup": false,
+        "swiper": false,
+        "three": false,
+        "splitType": false,
+        "lottie": false,
+        "jquery": null,
+        "customCursorCss": false,
+        "scripts": [
+          "https://depoluxe.xyz/assets/main.d4f10deae0b58c57225e.js"
+        ]
+      },
+      "title": "Zara Basez - Depo Luxe",
+      "status": 200,
+      "loadMs": 8299
+    },
+    "/guslo/numero-france/": {
+      "route": "/guslo/numero-france/",
+      "slug": "guslo__numero-france",
+      "url": "https://depoluxe.xyz/guslo/numero-france/",
+      "widths": {
+        "1440": {
+          "frames": 17,
+          "menu": false,
+          "errors": []
+        }
+      },
+      "stack": {
+        "generator": null,
+        "webflow": false,
+        "webflowPage": null,
+        "webflowSite": null,
+        "nextjs": false,
+        "nuxt": false,
+        "framer": false,
+        "wordpress": false,
+        "squarespace": false,
+        "wix": false,
+        "shopify": false,
+        "gsap": null,
+        "scrollTrigger": false,
+        "splitText": false,
+        "lenis": false,
+        "locomotive": false,
+        "barba": false,
+        "swup": false,
+        "swiper": false,
+        "three": false,
+        "splitType": false,
+        "lottie": false,
+        "jquery": null,
+        "customCursorCss": false,
+        "scripts": [
+          "https://depoluxe.xyz/assets/main.d4f10deae0b58c57225e.js"
+        ]
+      },
+      "title": "Número France - Depo Luxe",
+      "status": 200,
+      "loadMs": 7740
+    },
+    "/jonas-akerlund/god-control/": {
+      "route": "/jonas-akerlund/god-control/",
+      "error": "TimeoutError: page.screenshot: Timeout 30000ms exceeded.\nCall log:\n  - taking page screenshot\n  - waiting for fonts to load...\n  - fonts loaded\n"
+    },
+    "/jonas-akerlund/fall-fashion/": {
+      "route": "/jonas-akerlund/fall-fashion/",
+      "error": "TimeoutError: page.screenshot: Timeout 30000ms exceeded.\nCall log:\n  - taking page screenshot\n  - waiting for fonts to load...\n  - fonts loaded\n"
+    },
+    "/jonas-akerlund/addict/": {
+      "route": "/jonas-akerlund/addict/",
+      "error": "TimeoutError: page.screenshot: Timeout 30000ms exceeded.\nCall log:\n  - taking page screenshot\n  - waiting for fonts to load...\n  - fonts loaded\n"
+    },
+    "/jonas-akerlund/itau-madonna/": {
+      "route": "/jonas-akerlund/itau-madonna/",
+      "slug": "jonas-akerlund__itau-madonna",
+      "url": "https://depoluxe.xyz/jonas-akerlund/itau-madonna/",
+      "widths": {
+        "1440": {
+          "frames": 17,
+          "menu": false,
+          "errors": []
+        }
+      },
+      "stack": {
+        "generator": null,
+        "webflow": false,
+        "webflowPage": null,
+        "webflowSite": null,
+        "nextjs": false,
+        "nuxt": false,
+        "framer": false,
+        "wordpress": false,
+        "squarespace": false,
+        "wix": false,
+        "shopify": false,
+        "gsap": null,
+        "scrollTrigger": false,
+        "splitText": false,
+        "lenis": false,
+        "locomotive": false,
+        "barba": false,
+        "swup": false,
+        "swiper": false,
+        "three": false,
+        "splitType": false,
+        "lottie": false,
+        "jquery": null,
+        "customCursorCss": false,
+        "scripts": [
+          "https://depoluxe.xyz/assets/main.d4f10deae0b58c57225e.js"
+        ]
+      },
+      "title": "Itau Madonna - Depo Luxe",
+      "status": 200,
+      "loadMs": 16906
+    },
+    "/jonas-akerlund/o2/": {
+      "route": "/jonas-akerlund/o2/",
+      "slug": "jonas-akerlund__o2",
+      "url": "https://depoluxe.xyz/jonas-akerlund/o2/",
+      "widths": {
+        "1440": {
+          "frames": 17,
+          "menu": false,
+          "errors": []
+        }
+      },
+      "stack": {
+        "generator": null,
+        "webflow": false,
+        "webflowPage": null,
+        "webflowSite": null,
+        "nextjs": false,
+        "nuxt": false,
+        "framer": false,
+        "wordpress": false,
+        "squarespace": false,
+        "wix": false,
+        "shopify": false,
+        "gsap": null,
+        "scrollTrigger": false,
+        "splitText": false,
+        "lenis": false,
+        "locomotive": false,
+        "barba": false,
+        "swup": false,
+        "swiper": false,
+        "three": false,
+        "splitType": false,
+        "lottie": false,
+        "jquery": null,
+        "customCursorCss": false,
+        "scripts": [
+          "https://depoluxe.xyz/assets/main.d4f10deae0b58c57225e.js"
+        ]
+      },
+      "title": "Jonas Åkerlund - Depo Luxe",
+      "status": 200,
+      "loadMs": 15047
+    },
+    "/jonas-akerlund/spring-summer/": {
+      "route": "/jonas-akerlund/spring-summer/",
+      "slug": "jonas-akerlund__spring-summer",
+      "url": "https://depoluxe.xyz/jonas-akerlund/spring-summer/",
+      "widths": {
+        "1440": {
+          "frames": 17,
+          "menu": false,
+          "errors": []
+        }
+      },
+      "stack": {
+        "generator": null,
+        "webflow": false,
+        "webflowPage": null,
+        "webflowSite": null,
+        "nextjs": false,
+        "nuxt": false,
+        "framer": false,
+        "wordpress": false,
+        "squarespace": false,
+        "wix": false,
+        "shopify": false,
+        "gsap": null,
+        "scrollTrigger": false,
+        "splitText": false,
+        "lenis": false,
+        "locomotive": false,
+        "barba": false,
+        "swup": false,
+        "swiper": false,
+        "three": false,
+        "splitType": false,
+        "lottie": false,
+        "jquery": null,
+        "customCursorCss": false,
+        "scripts": [
+          "https://depoluxe.xyz/assets/main.d4f10deae0b58c57225e.js"
+        ]
+      },
+      "title": "Spring / Summer - Depo Luxe",
+      "status": 200,
+      "loadMs": 10375
+    },
+    "/mar-regas/kids-editorial/": {
+      "route": "/mar-regas/kids-editorial/",
+      "slug": "mar-regas__kids-editorial",
+      "url": "https://depoluxe.xyz/mar-regas/kids-editorial/",
+      "widths": {
+        "1440": {
+          "frames": 17,
+          "menu": false,
+          "errors": []
+        }
+      },
+      "stack": {
+        "generator": null,
+        "webflow": false,
+        "webflowPage": null,
+        "webflowSite": null,
+        "nextjs": false,
+        "nuxt": false,
+        "framer": false,
+        "wordpress": false,
+        "squarespace": false,
+        "wix": false,
+        "shopify": false,
+        "gsap": null,
+        "scrollTrigger": false,
+        "splitText": false,
+        "lenis": false,
+        "locomotive": false,
+        "barba": false,
+        "swup": false,
+        "swiper": false,
+        "three": false,
+        "splitType": false,
+        "lottie": false,
+        "jquery": null,
+        "customCursorCss": false,
+        "scripts": [
+          "https://depoluxe.xyz/assets/main.d4f10deae0b58c57225e.js"
+        ]
+      },
+      "title": "Kids Editorial - Depo Luxe",
+      "status": 200,
+      "loadMs": 9635
+    },
+    "/mar-regas/dior-ss18-digital/": {
+      "route": "/mar-regas/dior-ss18-digital/",
+      "slug": "mar-regas__dior-ss18-digital",
+      "url": "https://depoluxe.xyz/mar-regas/dior-ss18-digital/",
+      "widths": {
+        "1440": {
+          "frames": 17,
+          "menu": false,
+          "errors": []
+        }
+      },
+      "stack": {
+        "generator": null,
+        "webflow": false,
+        "webflowPage": null,
+        "webflowSite": null,
+        "nextjs": false,
+        "nuxt": false,
+        "framer": false,
+        "wordpress": false,
+        "squarespace": false,
+        "wix": false,
+        "shopify": false,
+        "gsap": null,
+        "scrollTrigger": false,
+        "splitText": false,
+        "lenis": false,
+        "locomotive": false,
+        "barba": false,
+        "swup": false,
+        "swiper": false,
+        "three": false,
+        "splitType": false,
+        "lottie": false,
+        "jquery": null,
+        "customCursorCss": false,
+        "scripts": [
+          "https://depoluxe.xyz/assets/main.d4f10deae0b58c57225e.js"
+        ]
+      },
+      "title": "Dior SS18 Digital - Depo Luxe",
+      "status": 200,
+      "loadMs": 9758
+    }
+  },
+  "captured": "2026-10-22T18:27:50.574Z"
+}

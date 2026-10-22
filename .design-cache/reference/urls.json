@@ -1,0 +1,3370 @@
+{
+  "https://depoluxe.xyz/": {
+    "file": "files/depoluxe.xyz/index.html",
+    "status": 200,
+    "type": "text/html",
+    "bytes": 44824,
+    "routes": [
+      "/"
+    ]
+  },
+  "https://depoluxe.xyz/assets/main.b0b97476d709cb690ddf.css": {
+    "file": "files/depoluxe.xyz/assets/main.b0b97476d709cb690ddf.css",
+    "status": 200,
+    "type": "text/css",
+    "bytes": 76444,
+    "routes": [
+      "/",
+      "/talent/",
+      "/about/",
+      "/contact/",
+      "/jonas-akerlund/zzzaro-pour-homme/",
+      "/jonas-akerlund/john-wayne/",
+      "/guslo/woman-md-studio/",
+      "/guslo/garbine-muguruza/",
+      "/guslo/live-the-unforgettable/",
+      "/guslo/studio-man-collection/",
+      "/guslo/gift-collection/",
+      "/guslo/otono-invierno-2023/",
+      "/guslo/lanvin-collection/",
+      "/guslo/nano-balloon/",
+      "/guslo/zara-basez/",
+      "/guslo/numero-france/",
+      "/jonas-akerlund/god-control/",
+      "/jonas-akerlund/fall-fashion/",
+      "/jonas-akerlund/addict/",
+      "/jonas-akerlund/itau-madonna/",
+      "/jonas-akerlund/o2/",
+      "/jonas-akerlund/spring-summer/",
+      "/mar-regas/kids-editorial/",
+      "/mar-regas/dior-ss18-digital/"
+    ]
+  },
+  "https://depoluxe.xyz/assets/fonts/eb-garamond-v32-latin-regular.woff2": {
+    "file": "files/depoluxe.xyz/assets/fonts/eb-garamond-v32-latin-regular.woff2",
+    "status": 200,
+    "type": "font/woff2",
+    "bytes": 21704,
+    "routes": [
+      "/",
+      "/talent/",
+      "/about/",
+      "/contact/",
+      "/jonas-akerlund/zzzaro-pour-homme/",
+      "/jonas-akerlund/john-wayne/",
+      "/guslo/woman-md-studio/",
+      "/guslo/garbine-muguruza/",
+      "/guslo/live-the-unforgettable/",
+      "/guslo/studio-man-collection/",
+      "/guslo/gift-collection/",
+      "/guslo/otono-invierno-2023/",
+      "/guslo/lanvin-collection/",
+      "/guslo/nano-balloon/",
+      "/guslo/zara-basez/",
+      "/guslo/numero-france/",
+      "/jonas-akerlund/god-control/",
+      "/jonas-akerlund/fall-fashion/",
+      "/jonas-akerlund/addict/",
+      "/jonas-akerlund/itau-madonna/",
+      "/jonas-akerlund/o2/",
+      "/jonas-akerlund/spring-summer/",
+      "/mar-regas/kids-editorial/",
+      "/mar-regas/dior-ss18-digital/"
+    ]
+  },
+  "https://depoluxe.xyz/assets/fonts/eb-garamond-v32-latin-italic.woff2": {
+    "file": "files/depoluxe.xyz/assets/fonts/eb-garamond-v32-latin-italic.woff2",
+    "status": 200,
+    "type": "font/woff2",
+    "bytes": 22172,
+    "routes": [
+      "/",
+      "/talent/",
+      "/about/",
+      "/contact/",
+      "/jonas-akerlund/zzzaro-pour-homme/",
+      "/jonas-akerlund/john-wayne/",
+      "/guslo/woman-md-studio/",
+      "/guslo/garbine-muguruza/",
+      "/guslo/live-the-unforgettable/",
+      "/guslo/studio-man-collection/",
+      "/guslo/gift-collection/",
+      "/guslo/otono-invierno-2023/",
+      "/guslo/lanvin-collection/",
+      "/guslo/nano-balloon/",
+      "/guslo/zara-basez/",
+      "/guslo/numero-france/",
+      "/jonas-akerlund/god-control/",
+      "/jonas-akerlund/fall-fashion/",
+      "/jonas-akerlund/addict/",
+      "/jonas-akerlund/itau-madonna/",
+      "/jonas-akerlund/o2/",
+      "/jonas-akerlund/spring-summer/",
+      "/mar-regas/kids-editorial/",
+      "/mar-regas/dior-ss18-digital/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07144202/Captura-de-pantalla-2026-05-07-a-las-16.41.52-20x9.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07144202/Captura-de-pantalla-2026-05-07-a-las-16.41.52-20x9.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 130,
+    "routes": [
+      "/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18113209/Captura-de-pantalla-2026-05-18-a-las-13.31.53-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18113209/Captura-de-pantalla-2026-05-18-a-las-13.31.53-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 142,
+    "routes": [
+      "/",
+      "/guslo/woman-md-studio/",
+      "/guslo/live-the-unforgettable/",
+      "/guslo/gift-collection/",
+      "/guslo/otono-invierno-2023/",
+      "/guslo/lanvin-collection/",
+      "/guslo/nano-balloon/",
+      "/guslo/numero-france/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07110610/Captura-de-pantalla-2026-05-07-a-las-13.06.03-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07110610/Captura-de-pantalla-2026-05-07-a-las-13.06.03-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 192,
+    "routes": [
+      "/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18090700/Captura-de-pantalla-2026-05-18-a-las-11.06.50-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18090700/Captura-de-pantalla-2026-05-18-a-las-11.06.50-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 150,
+    "routes": [
+      "/",
+      "/jonas-akerlund/john-wayne/",
+      "/jonas-akerlund/o2/"
+    ]
+  },
+  "https://depoluxe.xyz/assets/svg/depo-luxe-box.svg": {
+    "file": "files/depoluxe.xyz/assets/svg/depo-luxe-box.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 5994,
+    "routes": [
+      "/",
+      "/talent/",
+      "/about/",
+      "/contact/",
+      "/jonas-akerlund/zzzaro-pour-homme/",
+      "/jonas-akerlund/john-wayne/",
+      "/guslo/woman-md-studio/",
+      "/guslo/garbine-muguruza/",
+      "/guslo/live-the-unforgettable/",
+      "/guslo/studio-man-collection/",
+      "/guslo/gift-collection/",
+      "/guslo/otono-invierno-2023/",
+      "/guslo/lanvin-collection/",
+      "/guslo/nano-balloon/",
+      "/guslo/zara-basez/",
+      "/guslo/numero-france/",
+      "/jonas-akerlund/god-control/",
+      "/jonas-akerlund/fall-fashion/",
+      "/jonas-akerlund/addict/",
+      "/jonas-akerlund/itau-madonna/",
+      "/jonas-akerlund/o2/",
+      "/jonas-akerlund/spring-summer/",
+      "/mar-regas/kids-editorial/",
+      "/mar-regas/dior-ss18-digital/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17175218/Captura-de-pantalla-2026-03-17-a-las-18.51.35-20x13.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17175218/Captura-de-pantalla-2026-03-17-a-las-18.51.35-20x13.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 192,
+    "routes": [
+      "/",
+      "/about/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16103055/Captura-de-pantalla-2026-03-16-a-las-11.29.59-20x10.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16103055/Captura-de-pantalla-2026-03-16-a-las-11.29.59-20x10.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 148,
+    "routes": [
+      "/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/18100957/Captura-de-pantalla-2026-03-18-a-las-11.09.37-20x14.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/18100957/Captura-de-pantalla-2026-03-18-a-las-11.09.37-20x14.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 142,
+    "routes": [
+      "/"
+    ]
+  },
+  "https://depoluxe.xyz/assets/main.d4f10deae0b58c57225e.js": {
+    "file": "files/depoluxe.xyz/assets/main.d4f10deae0b58c57225e.js",
+    "status": 200,
+    "type": "application/javascript",
+    "bytes": 796486,
+    "routes": [
+      "/",
+      "/talent/",
+      "/about/",
+      "/contact/",
+      "/jonas-akerlund/zzzaro-pour-homme/",
+      "/jonas-akerlund/john-wayne/",
+      "/guslo/woman-md-studio/",
+      "/guslo/garbine-muguruza/",
+      "/guslo/live-the-unforgettable/",
+      "/guslo/studio-man-collection/",
+      "/guslo/gift-collection/",
+      "/guslo/otono-invierno-2023/",
+      "/guslo/lanvin-collection/",
+      "/guslo/nano-balloon/",
+      "/guslo/zara-basez/",
+      "/guslo/numero-france/",
+      "/jonas-akerlund/god-control/",
+      "/jonas-akerlund/fall-fashion/",
+      "/jonas-akerlund/addict/",
+      "/jonas-akerlund/itau-madonna/",
+      "/jonas-akerlund/o2/",
+      "/jonas-akerlund/spring-summer/",
+      "/mar-regas/kids-editorial/",
+      "/mar-regas/dior-ss18-digital/"
+    ]
+  },
+  "https://depoluxe.xyz/imageLoaderWorker.js": {
+    "file": "files/depoluxe.xyz/imageLoaderWorker.js",
+    "status": 200,
+    "type": "application/javascript",
+    "bytes": 727,
+    "routes": [
+      "/",
+      "/talent/",
+      "/about/",
+      "/contact/",
+      "/jonas-akerlund/zzzaro-pour-homme/",
+      "/jonas-akerlund/john-wayne/",
+      "/guslo/woman-md-studio/",
+      "/guslo/garbine-muguruza/",
+      "/guslo/live-the-unforgettable/",
+      "/guslo/studio-man-collection/",
+      "/guslo/gift-collection/",
+      "/guslo/otono-invierno-2023/",
+      "/guslo/lanvin-collection/",
+      "/guslo/nano-balloon/",
+      "/guslo/zara-basez/",
+      "/guslo/numero-france/",
+      "/jonas-akerlund/god-control/",
+      "/jonas-akerlund/fall-fashion/",
+      "/jonas-akerlund/addict/",
+      "/jonas-akerlund/itau-madonna/",
+      "/jonas-akerlund/o2/",
+      "/jonas-akerlund/spring-summer/",
+      "/mar-regas/kids-editorial/",
+      "/mar-regas/dior-ss18-digital/"
+    ]
+  },
+  "https://depoluxe.xyz/api/videos-data": {
+    "file": "files/depoluxe.xyz/api/videos-data/__index",
+    "status": 502,
+    "type": "text/plain",
+    "bytes": 0,
+    "routes": [
+      "/",
+      "/talent/",
+      "/about/",
+      "/contact/",
+      "/jonas-akerlund/zzzaro-pour-homme/",
+      "/jonas-akerlund/john-wayne/",
+      "/guslo/woman-md-studio/",
+      "/guslo/garbine-muguruza/",
+      "/guslo/live-the-unforgettable/",
+      "/guslo/studio-man-collection/",
+      "/guslo/gift-collection/",
+      "/guslo/otono-invierno-2023/",
+      "/guslo/lanvin-collection/",
+      "/guslo/nano-balloon/",
+      "/guslo/zara-basez/",
+      "/guslo/numero-france/",
+      "/jonas-akerlund/god-control/",
+      "/jonas-akerlund/fall-fashion/",
+      "/jonas-akerlund/addict/",
+      "/jonas-akerlund/itau-madonna/",
+      "/jonas-akerlund/o2/",
+      "/jonas-akerlund/spring-summer/",
+      "/mar-regas/kids-editorial/",
+      "/mar-regas/dior-ss18-digital/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18113209/Captura-de-pantalla-2026-05-18-a-las-13.31.53-1832x1023.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18113209/Captura-de-pantalla-2026-05-18-a-las-13.31.53-1832x1023.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18090700/Captura-de-pantalla-2026-05-18-a-las-11.06.50-1832x1008.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18090700/Captura-de-pantalla-2026-05-18-a-las-11.06.50-1832x1008.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07110610/Captura-de-pantalla-2026-05-07-a-las-13.06.03-1832x1030.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07110610/Captura-de-pantalla-2026-05-07-a-las-13.06.03-1832x1030.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07144202/Captura-de-pantalla-2026-05-07-a-las-16.41.52-1832x792.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07144202/Captura-de-pantalla-2026-05-07-a-las-16.41.52-1832x792.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16103055/Captura-de-pantalla-2026-03-16-a-las-11.29.59-1832x948.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16103055/Captura-de-pantalla-2026-03-16-a-las-11.29.59-1832x948.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/18100957/Captura-de-pantalla-2026-03-18-a-las-11.09.37-916x642.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/18100957/Captura-de-pantalla-2026-03-18-a-las-11.09.37-916x642.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17175218/Captura-de-pantalla-2026-03-17-a-las-18.51.35.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17175218/Captura-de-pantalla-2026-03-17-a-las-18.51.35.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/"
+    ]
+  },
+  "https://player.vimeo.com/progressive_redirect/playback/1193224808/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&signature=cb2e0d055cd07f38ca1ac47b53bbafedc78c3674a935a5419564d18763c01bab": {
+    "file": null,
+    "status": 302,
+    "type": "",
+    "bytes": 0,
+    "routes": [
+      "/",
+      "/guslo/woman-md-studio/",
+      "/guslo/live-the-unforgettable/",
+      "/guslo/gift-collection/",
+      "/guslo/otono-invierno-2023/",
+      "/guslo/lanvin-collection/",
+      "/guslo/nano-balloon/",
+      "/guslo/numero-france/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/0345e706-1e82-44fd-b4b7-6790f4d6388c/214eca9e-410cc303?__token__=st=1792693672~exp=1792697272~acl=%2Fv3-1%2Fplayback%2F0345e706-1e82-44fd-b4b7-6790f4d6388c%2F214eca9e-410cc303%2A~hmac=b22d2bd9e07c62c26d806073053d919596d856903f787926992f8ca75e27bd0e&r=dXMtd2VzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/0345e706-1e82-44fd-b4b7-6790f4d6388c/214eca9e-410cc303/__index__q5316cffa",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 7541530,
+    "routes": [
+      "/"
+    ]
+  },
+  "https://player.vimeo.com/progressive_redirect/playback/1174458434/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&signature=8b36505daf367e8755319c670cd0fbc45f2d427f130e903ca72bb0f289629519": {
+    "file": null,
+    "status": 302,
+    "type": "",
+    "bytes": 0,
+    "routes": [
+      "/",
+      "/about/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/5a80805a-60db-452c-9db9-c014c101aea5/8c4ff004-5ae84b91?__token__=st=1792693676~exp=1792697276~acl=%2Fv3-1%2Fplayback%2F5a80805a-60db-452c-9db9-c014c101aea5%2F8c4ff004-5ae84b91%2A~hmac=e4983d111b4ef43bc10bd140b30807fb6d301fd0410cb8f0011eded3caad019a&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/5a80805a-60db-452c-9db9-c014c101aea5/8c4ff004-5ae84b91/__index__qbfafcee6",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 10237613,
+    "routes": [
+      "/"
+    ]
+  },
+  "https://player.vimeo.com/progressive_redirect/playback/1172510200/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&signature=18448234dc6d895af8b865cd1c2a2fd7cb4df696d58ec894f4e8e0908602631d": {
+    "file": null,
+    "status": 302,
+    "type": "",
+    "bytes": 0,
+    "routes": [
+      "/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/b17cfe78-c4bb-495d-bb58-4216112612f8/08577b90-dd6eab97?__token__=st=1792693677~exp=1792697277~acl=%2Fv3-1%2Fplayback%2Fb17cfe78-c4bb-495d-bb58-4216112612f8%2F08577b90-dd6eab97%2A~hmac=9f504ee8465c8429c765b34afcd1ccd32c67a3d0f614813b98ffc26e42738cc1&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/b17cfe78-c4bb-495d-bb58-4216112612f8/08577b90-dd6eab97/__index__qc9725f51",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 5899856,
+    "routes": [
+      "/"
+    ]
+  },
+  "https://player.vimeo.com/progressive_redirect/playback/1173375390/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&signature=5e4acad556f01ee935bde49da1baa3936194d03c390cbafdb1cfd55a6a675702": {
+    "file": null,
+    "status": 302,
+    "type": "",
+    "bytes": 0,
+    "routes": [
+      "/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/f46c28d5-f4cd-4bcb-9e8c-01b19e3e7635/3df30526-f6f61b29?__token__=st=1792693696~exp=1792697296~acl=%2Fv3-1%2Fplayback%2Ff46c28d5-f4cd-4bcb-9e8c-01b19e3e7635%2F3df30526-f6f61b29%2A~hmac=0a8fbe925d6e63fe839333a9c741063131e41839214c97ec795bb264954654bc&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/f46c28d5-f4cd-4bcb-9e8c-01b19e3e7635/3df30526-f6f61b29/__index__q8b53403c",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 4257672,
+    "routes": [
+      "/"
+    ]
+  },
+  "https://player.vimeo.com/progressive_redirect/playback/1193185865/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&signature=7608502f54db58987fdb03f9ea94596316b0e5424fecfb9330d44507232c6c83": {
+    "file": null,
+    "status": 302,
+    "type": "",
+    "bytes": 0,
+    "routes": [
+      "/",
+      "/jonas-akerlund/john-wayne/",
+      "/jonas-akerlund/o2/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/3fd43989-310f-439c-bd1f-d0116688f550/711a495d-41a2163c?__token__=st=1792693725~exp=1792697325~acl=%2Fv3-1%2Fplayback%2F3fd43989-310f-439c-bd1f-d0116688f550%2F711a495d-41a2163c%2A~hmac=78462cf0c95f8ca52f9d18098dfec5a646996f15a843bc9b1ea2d273257b142c&r=dXMtY2VudHJhbDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/3fd43989-310f-439c-bd1f-d0116688f550/711a495d-41a2163c/__index__qa2c60803",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 6613912,
+    "routes": [
+      "/"
+    ]
+  },
+  "https://player.vimeo.com/progressive_redirect/playback/1190079362/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&signature=21aa4b10b5c895416d71936bb0d3522c2856d9ffd365c565ee3ec1fce9c77493": {
+    "file": null,
+    "status": 302,
+    "type": "",
+    "bytes": 0,
+    "routes": [
+      "/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/eb4cc894-6215-45f7-a5ee-f538f38ad64c/f648e84e-850fa115?__token__=st=1792693754~exp=1792697354~acl=%2Fv3-1%2Fplayback%2Feb4cc894-6215-45f7-a5ee-f538f38ad64c%2Ff648e84e-850fa115%2A~hmac=8177d3375590311db7aacb5a4e6ae837bda89f4990db727f66477c946cb09f0d&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/eb4cc894-6215-45f7-a5ee-f538f38ad64c/f648e84e-850fa115/__index__q63251d06",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 7759655,
+    "routes": [
+      "/"
+    ]
+  },
+  "https://depoluxe.xyz/talent/": {
+    "file": "files/depoluxe.xyz/talent/index.html",
+    "status": 200,
+    "type": "text/html",
+    "bytes": 29622,
+    "routes": [
+      "/talent/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/14100257/TURBO-Profile-Picture-1-1-20x23.png.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/14100257/TURBO-Profile-Picture-1-1-20x23.png.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 612,
+    "routes": [
+      "/talent/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/13074938/DMC_Photo_DEPO-1-20x27.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/13074938/DMC_Photo_DEPO-1-20x27.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 212,
+    "routes": [
+      "/talent/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07085114/MR_AM_221103_0003_-20x30.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07085114/MR_AM_221103_0003_-20x30.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 162,
+    "routes": [
+      "/talent/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18122031/8643476_640x640-20x15.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18122031/8643476_640x640-20x15.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 164,
+    "routes": [
+      "/talent/",
+      "/guslo/woman-md-studio/",
+      "/guslo/live-the-unforgettable/",
+      "/guslo/gift-collection/",
+      "/guslo/otono-invierno-2023/",
+      "/guslo/lanvin-collection/",
+      "/guslo/nano-balloon/",
+      "/guslo/numero-france/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18083327/jonas-akerlund-bio-image-885x990-1-20x22.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18083327/jonas-akerlund-bio-image-885x990-1-20x22.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 220,
+    "routes": [
+      "/talent/",
+      "/jonas-akerlund/john-wayne/",
+      "/jonas-akerlund/o2/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07142835/655206384_18000979787733156_8485704272956957135_n-20x15.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07142835/655206384_18000979787733156_8485704272956957135_n-20x15.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 160,
+    "routes": [
+      "/talent/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07093854/christian-larson-headshot-20x13.jpeg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07093854/christian-larson-headshot-20x13.jpeg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 156,
+    "routes": [
+      "/talent/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/25120129/images-1-2-20x20.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/25120129/images-1-2-20x20.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 178,
+    "routes": [
+      "/talent/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/25120129/images-1-2-916x916.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/25120129/images-1-2-916x916.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/talent/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07085114/MR_AM_221103_0003_-916x1374.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07085114/MR_AM_221103_0003_-916x1374.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/talent/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/18154710/RRR-916x916.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/18154710/RRR-916x916.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/talent/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18122031/8643476_640x640.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18122031/8643476_640x640.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/talent/",
+      "/guslo/woman-md-studio/",
+      "/guslo/live-the-unforgettable/",
+      "/guslo/gift-collection/",
+      "/guslo/otono-invierno-2023/",
+      "/guslo/lanvin-collection/",
+      "/guslo/nano-balloon/",
+      "/guslo/numero-france/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18083327/jonas-akerlund-bio-image-885x990-1.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18083327/jonas-akerlund-bio-image-885x990-1.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/talent/",
+      "/jonas-akerlund/john-wayne/",
+      "/jonas-akerlund/o2/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/13074938/DMC_Photo_DEPO-1-916x1221.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/13074938/DMC_Photo_DEPO-1-916x1221.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/talent/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/18154710/RRR-20x20.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/18154710/RRR-20x20.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 218,
+    "routes": [
+      "/talent/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/14100257/TURBO-Profile-Picture-1-1.png.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/14100257/TURBO-Profile-Picture-1-1.png.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/talent/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07093854/christian-larson-headshot-916x611.jpeg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07093854/christian-larson-headshot-916x611.jpeg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/talent/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07142835/655206384_18000979787733156_8485704272956957135_n-916x699.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07142835/655206384_18000979787733156_8485704272956957135_n-916x699.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/talent/"
+    ]
+  },
+  "https://depoluxe.xyz/about/": {
+    "file": "files/depoluxe.xyz/about/index.html",
+    "status": 200,
+    "type": "text/html",
+    "bytes": 54619,
+    "routes": [
+      "/about/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17174358/Captura-de-pantalla-2026-03-17-a-las-18.42.25-20x9.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17174358/Captura-de-pantalla-2026-03-17-a-las-18.42.25-20x9.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 148,
+    "routes": [
+      "/about/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/18095141/Captura-de-pantalla-2026-03-18-a-las-10.49.52-20x15.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/18095141/Captura-de-pantalla-2026-03-18-a-las-10.49.52-20x15.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 172,
+    "routes": [
+      "/about/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17123246/Captura-de-pantalla-2026-03-17-a-las-13.30.22-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17123246/Captura-de-pantalla-2026-03-17-a-las-13.30.22-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 188,
+    "routes": [
+      "/about/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16101217/Captura-de-pantalla-2026-03-16-a-las-11.12.02-20x14.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16101217/Captura-de-pantalla-2026-03-16-a-las-11.12.02-20x14.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 206,
+    "routes": [
+      "/about/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16162323/Captura-de-pantalla-2026-03-16-a-las-17.22.51-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16162323/Captura-de-pantalla-2026-03-16-a-las-17.22.51-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 180,
+    "routes": [
+      "/about/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17180205/Captura-de-pantalla-2026-03-17-a-las-19.01.04-20x10.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17180205/Captura-de-pantalla-2026-03-17-a-las-19.01.04-20x10.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 154,
+    "routes": [
+      "/about/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17174030/Captura-de-pantalla-2026-03-17-a-las-18.36.39-20x8.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17174030/Captura-de-pantalla-2026-03-17-a-las-18.36.39-20x8.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 126,
+    "routes": [
+      "/about/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16095627/Captura-de-pantalla-2026-03-16-a-las-10.55.41-20x13.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16095627/Captura-de-pantalla-2026-03-16-a-las-10.55.41-20x13.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 188,
+    "routes": [
+      "/about/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16100909/Captura-de-pantalla-2026-03-16-a-las-11.08.57-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16100909/Captura-de-pantalla-2026-03-16-a-las-11.08.57-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 156,
+    "routes": [
+      "/about/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16152005/Captura-de-pantalla-2026-03-16-a-las-16.19.56-20x10.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16152005/Captura-de-pantalla-2026-03-16-a-las-16.19.56-20x10.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 168,
+    "routes": [
+      "/about/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17165110/Captura-de-pantalla-2026-03-17-a-las-17.43.14-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17165110/Captura-de-pantalla-2026-03-17-a-las-17.43.14-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 188,
+    "routes": [
+      "/about/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16161842/Captura-de-pantalla-2026-03-16-a-las-17.17.18-20x36.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16161842/Captura-de-pantalla-2026-03-16-a-las-17.17.18-20x36.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 328,
+    "routes": [
+      "/about/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17112230/Captura-de-pantalla-2026-03-17-a-las-12.20.04-20x17.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17112230/Captura-de-pantalla-2026-03-17-a-las-12.20.04-20x17.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 142,
+    "routes": [
+      "/about/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17162221/Captura-de-pantalla-2026-03-17-a-las-17.18.49-20x8.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17162221/Captura-de-pantalla-2026-03-17-a-las-17.18.49-20x8.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 106,
+    "routes": [
+      "/about/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16095953/Captura-de-pantalla-2026-03-16-a-las-10.59.25-20x15.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16095953/Captura-de-pantalla-2026-03-16-a-las-10.59.25-20x15.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 104,
+    "routes": [
+      "/about/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17104630/Captura-de-pantalla-2026-03-17-a-las-11.46.02-20x12.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17104630/Captura-de-pantalla-2026-03-17-a-las-11.46.02-20x12.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 198,
+    "routes": [
+      "/about/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16103831/Captura-de-pantalla-2026-03-16-a-las-11.38.03-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16103831/Captura-de-pantalla-2026-03-16-a-las-11.38.03-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 106,
+    "routes": [
+      "/about/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17104642/Captura-de-pantalla-2026-03-17-a-las-11.43.54-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17104642/Captura-de-pantalla-2026-03-17-a-las-11.43.54-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 182,
+    "routes": [
+      "/about/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16121858/Captura-de-pantalla-2026-03-16-a-las-11.48.59-1-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16121858/Captura-de-pantalla-2026-03-16-a-las-11.48.59-1-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 158,
+    "routes": [
+      "/about/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17160024/Captura-de-pantalla-2026-03-17-a-las-16.58.09-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17160024/Captura-de-pantalla-2026-03-17-a-las-16.58.09-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 218,
+    "routes": [
+      "/about/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17110503/Captura-de-pantalla-2026-03-17-a-las-12.04.21-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17110503/Captura-de-pantalla-2026-03-17-a-las-12.04.21-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 156,
+    "routes": [
+      "/about/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16100425/Captura-de-pantalla-2026-03-16-a-las-11.03.33-20x13.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16100425/Captura-de-pantalla-2026-03-16-a-las-11.03.33-20x13.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 170,
+    "routes": [
+      "/about/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17160031/Captura-de-pantalla-2026-03-17-a-las-16.57.56-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17160031/Captura-de-pantalla-2026-03-17-a-las-16.57.56-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 108,
+    "routes": [
+      "/about/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16101217/Captura-de-pantalla-2026-03-16-a-las-11.12.02-916x632.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16101217/Captura-de-pantalla-2026-03-16-a-las-11.12.02-916x632.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/about/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16162323/Captura-de-pantalla-2026-03-16-a-las-17.22.51-916x511.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16162323/Captura-de-pantalla-2026-03-16-a-las-17.22.51-916x511.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/about/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17180205/Captura-de-pantalla-2026-03-17-a-las-19.01.04-916x475.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17180205/Captura-de-pantalla-2026-03-17-a-las-19.01.04-916x475.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/about/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16100909/Captura-de-pantalla-2026-03-16-a-las-11.08.57-916x501.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16100909/Captura-de-pantalla-2026-03-16-a-las-11.08.57-916x501.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/about/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17165110/Captura-de-pantalla-2026-03-17-a-las-17.43.14-916x506.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17165110/Captura-de-pantalla-2026-03-17-a-las-17.43.14-916x506.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/about/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16095953/Captura-de-pantalla-2026-03-16-a-las-10.59.25-916x680.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16095953/Captura-de-pantalla-2026-03-16-a-las-10.59.25-916x680.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/about/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17104630/Captura-de-pantalla-2026-03-17-a-las-11.46.02-916x550.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17104630/Captura-de-pantalla-2026-03-17-a-las-11.46.02-916x550.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/about/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16152005/Captura-de-pantalla-2026-03-16-a-las-16.19.56-916x478.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16152005/Captura-de-pantalla-2026-03-16-a-las-16.19.56-916x478.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/about/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17160031/Captura-de-pantalla-2026-03-17-a-las-16.57.56-916x488.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17160031/Captura-de-pantalla-2026-03-17-a-las-16.57.56-916x488.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/about/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16161842/Captura-de-pantalla-2026-03-16-a-las-17.17.18.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16161842/Captura-de-pantalla-2026-03-16-a-las-17.17.18.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/about/"
+    ]
+  },
+  "https://player.vimeo.com/progressive_redirect/playback/1174482396/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&signature=379a3ce7ffb990f3b3aecaa5034a79fa535847b6d5b45c6a443043f55edf3ea3": {
+    "file": null,
+    "status": 302,
+    "type": "",
+    "bytes": 0,
+    "routes": [
+      "/about/"
+    ]
+  },
+  "https://player.vimeo.com/progressive_redirect/playback/1174373225/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&signature=2fa5c24e2d7d8e79c1a8cb6673523f3cd7553da9d1139b36d05f13cd4ba252a5": {
+    "file": null,
+    "status": 302,
+    "type": "",
+    "bytes": 0,
+    "routes": [
+      "/about/"
+    ]
+  },
+  "https://player.vimeo.com/progressive_redirect/playback/1174451212/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&signature=0a29ef2d66015de9a59cd824d849c88bf05a093ea4ce6c6c60cfa317e9048492": {
+    "file": null,
+    "status": 302,
+    "type": "",
+    "bytes": 0,
+    "routes": [
+      "/about/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/5a80805a-60db-452c-9db9-c014c101aea5/8c4ff004-5ae84b91?__token__=st=1792694111~exp=1792697711~acl=%2Fv3-1%2Fplayback%2F5a80805a-60db-452c-9db9-c014c101aea5%2F8c4ff004-5ae84b91%2A~hmac=3cdf77441bc7aed2a4efd7e608e049a986af60a6b197eb23fa81e4743cfabf84&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/5a80805a-60db-452c-9db9-c014c101aea5/8c4ff004-5ae84b91/__index__q3bd07c9a",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 10237613,
+    "routes": [
+      "/about/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/b626d543-96b1-4d54-818e-3efdb7cf8ae0/126b4c1d-93fc3af6?__token__=st=1792694111~exp=1792697711~acl=%2Fv3-1%2Fplayback%2Fb626d543-96b1-4d54-818e-3efdb7cf8ae0%2F126b4c1d-93fc3af6%2A~hmac=305ad6eead3b7cb31d2860aeda47930824e0f34973bc4d22b97d055bd3e8ca00&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/b626d543-96b1-4d54-818e-3efdb7cf8ae0/126b4c1d-93fc3af6/__index__qc0882f39",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 8674652,
+    "routes": [
+      "/about/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/d56eb3db-b257-452d-8bf6-81027bf9a61a/968b379f-f9a136bf?__token__=st=1792694111~exp=1792697711~acl=%2Fv3-1%2Fplayback%2Fd56eb3db-b257-452d-8bf6-81027bf9a61a%2F968b379f-f9a136bf%2A~hmac=c17e64e218af714ea46bb78f8d8ba33a86535f95e795109a48afd5bcdd1f47fd&r=dXMtY2VudHJhbDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/d56eb3db-b257-452d-8bf6-81027bf9a61a/968b379f-f9a136bf/__index__q88ab59bd",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 7728838,
+    "routes": [
+      "/about/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/c0d9dd99-e97e-45aa-bd56-fc9186c6175d/a6581c05-16794bd0?__token__=st=1792694111~exp=1792697711~acl=%2Fv3-1%2Fplayback%2Fc0d9dd99-e97e-45aa-bd56-fc9186c6175d%2Fa6581c05-16794bd0%2A~hmac=6c42802b5d5cfa35876e5f3c48231bd6d49b8fd44c923f5558b555b7b3d84c67&r=dXMtY2VudHJhbDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/c0d9dd99-e97e-45aa-bd56-fc9186c6175d/a6581c05-16794bd0/__index__q2c7feee3",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 2550398,
+    "routes": [
+      "/about/"
+    ]
+  },
+  "https://depoluxe.xyz/contact/": {
+    "file": "files/depoluxe.xyz/contact/index.html",
+    "status": 200,
+    "type": "text/html",
+    "bytes": 34847,
+    "routes": [
+      "/contact/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/20095414/PORTADA_ALL-SORTS-OF-THINGS_DAZED_ALE-RUIZ-ZORRILLA.00_00_14_00.Imagen-fija001-1-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/20095414/PORTADA_ALL-SORTS-OF-THINGS_DAZED_ALE-RUIZ-ZORRILLA.00_00_14_00.Imagen-fija001-1-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 156,
+    "routes": [
+      "/contact/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/20104110/S-1-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/20104110/S-1-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 142,
+    "routes": [
+      "/contact/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/20095411/D-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/20095411/D-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 174,
+    "routes": [
+      "/contact/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/20104110/S-1-916x515.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/20104110/S-1-916x515.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/contact/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/20095414/PORTADA_ALL-SORTS-OF-THINGS_DAZED_ALE-RUIZ-ZORRILLA.00_00_14_00.Imagen-fija001-1-916x515.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/20095414/PORTADA_ALL-SORTS-OF-THINGS_DAZED_ALE-RUIZ-ZORRILLA.00_00_14_00.Imagen-fija001-1-916x515.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/contact/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/20095411/D-916x515.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/20095411/D-916x515.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/contact/"
+    ]
+  },
+  "https://depoluxe.xyz/jonas-akerlund/zzzaro-pour-homme/": {
+    "file": "files/depoluxe.xyz/jonas-akerlund/zzzaro-pour-homme/index.html",
+    "status": 200,
+    "type": "text/html",
+    "bytes": 23641,
+    "routes": [
+      "/jonas-akerlund/zzzaro-pour-homme/"
+    ]
+  },
+  "https://depoluxe.xyz/assets/images/blank.png": {
+    "file": "files/depoluxe.xyz/assets/images/blank.png",
+    "status": 200,
+    "type": "image/png",
+    "bytes": 82,
+    "routes": [
+      "/jonas-akerlund/zzzaro-pour-homme/",
+      "/jonas-akerlund/john-wayne/",
+      "/guslo/woman-md-studio/",
+      "/guslo/garbine-muguruza/",
+      "/guslo/live-the-unforgettable/",
+      "/guslo/studio-man-collection/",
+      "/guslo/gift-collection/",
+      "/guslo/otono-invierno-2023/",
+      "/guslo/lanvin-collection/",
+      "/guslo/nano-balloon/",
+      "/guslo/zara-basez/",
+      "/guslo/numero-france/",
+      "/jonas-akerlund/god-control/",
+      "/jonas-akerlund/fall-fashion/",
+      "/jonas-akerlund/addict/",
+      "/jonas-akerlund/itau-madonna/",
+      "/jonas-akerlund/o2/",
+      "/jonas-akerlund/spring-summer/"
+    ]
+  },
+  "https://player.vimeo.com/progressive_redirect/playback/1193514015/rendition/720p/file.mp4%20%28720p%29.mp4?loc=external&signature=a51dda83346d61fa8b65fba4ed3d2f4b76abc398a8af22e6d664e25d718c7efe": {
+    "file": null,
+    "status": 302,
+    "type": "",
+    "bytes": 0,
+    "routes": [
+      "/jonas-akerlund/zzzaro-pour-homme/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/e8ad6de0-8d85-4d03-8d91-2a7e58320d08/c6cb7b9d-aec1b1aa?__token__=st=1792694475~exp=1792698075~acl=%2Fv3-1%2Fplayback%2Fe8ad6de0-8d85-4d03-8d91-2a7e58320d08%2Fc6cb7b9d-aec1b1aa%2A~hmac=82faea5f187b715b64c4c67785769d471df5771a1f4dfd4e61acbc343d292845&r=dXMtY2VudHJhbDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/e8ad6de0-8d85-4d03-8d91-2a7e58320d08/c6cb7b9d-aec1b1aa/__index__q94b6088a",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 9334988,
+    "routes": [
+      "/jonas-akerlund/zzzaro-pour-homme/"
+    ]
+  },
+  "https://depoluxe.xyz/jonas-akerlund/john-wayne/": {
+    "file": "files/depoluxe.xyz/jonas-akerlund/john-wayne/index.html",
+    "status": 200,
+    "type": "text/html",
+    "bytes": 23611,
+    "routes": [
+      "/jonas-akerlund/john-wayne/"
+    ]
+  },
+  "https://player.vimeo.com/progressive_redirect/playback/1193514453/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&signature=c723ec31ad8b3574933e39914a604b60e7fae225c376f58fa754ce969a0704ad": {
+    "file": null,
+    "status": 302,
+    "type": "",
+    "bytes": 0,
+    "routes": [
+      "/jonas-akerlund/john-wayne/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/9ac0d841-2427-4120-8190-a68be4749923/426959ee-bf730ae6?__token__=st=1792694630~exp=1792698230~acl=%2Fv3-1%2Fplayback%2F9ac0d841-2427-4120-8190-a68be4749923%2F426959ee-bf730ae6%2A~hmac=781dc58eb691e8e5b236411279df8b18233c2c9929df5df10b2a02a00f4e83cf&r=dXMtY2VudHJhbDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/9ac0d841-2427-4120-8190-a68be4749923/426959ee-bf730ae6/__index__q6336ed7a",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 124856018,
+    "routes": [
+      "/jonas-akerlund/john-wayne/"
+    ]
+  },
+  "https://depoluxe.xyz/jonas-akerlund/": {
+    "file": "files/depoluxe.xyz/jonas-akerlund/index.html",
+    "status": 200,
+    "type": "text/html",
+    "bytes": 68098,
+    "routes": [
+      "/jonas-akerlund/john-wayne/",
+      "/jonas-akerlund/o2/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/19081749/Captura-de-pantalla-2026-05-19-a-las-10.17.37-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/19081749/Captura-de-pantalla-2026-05-19-a-las-10.17.37-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 164,
+    "routes": [
+      "/jonas-akerlund/john-wayne/",
+      "/jonas-akerlund/o2/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/19081532/Captura-de-pantalla-2026-05-19-a-las-10.15.22-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/19081532/Captura-de-pantalla-2026-05-19-a-las-10.15.22-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 208,
+    "routes": [
+      "/jonas-akerlund/john-wayne/",
+      "/jonas-akerlund/o2/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18102903/Captura-de-pantalla-2026-05-18-a-las-12.28.26-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18102903/Captura-de-pantalla-2026-05-18-a-las-12.28.26-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 188,
+    "routes": [
+      "/jonas-akerlund/john-wayne/",
+      "/jonas-akerlund/o2/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18100546/Captura-de-pantalla-2026-05-18-a-las-12.05.19-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18100546/Captura-de-pantalla-2026-05-18-a-las-12.05.19-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 196,
+    "routes": [
+      "/jonas-akerlund/john-wayne/",
+      "/jonas-akerlund/o2/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18111513/Captura-de-pantalla-2026-05-18-a-las-13.15.05-20x9.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18111513/Captura-de-pantalla-2026-05-18-a-las-13.15.05-20x9.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 206,
+    "routes": [
+      "/jonas-akerlund/john-wayne/",
+      "/jonas-akerlund/o2/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18103358/Captura-de-pantalla-2026-05-18-a-las-12.33.49-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18103358/Captura-de-pantalla-2026-05-18-a-las-12.33.49-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 226,
+    "routes": [
+      "/jonas-akerlund/john-wayne/",
+      "/jonas-akerlund/o2/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18092347/Captura-de-pantalla-2026-05-18-a-las-11.23.41-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18092347/Captura-de-pantalla-2026-05-18-a-las-11.23.41-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 178,
+    "routes": [
+      "/jonas-akerlund/john-wayne/",
+      "/jonas-akerlund/o2/"
+    ]
+  },
+  "https://player.vimeo.com/progressive_redirect/playback/1193513998/rendition/720p/file.mp4%20%28720p%29.mp4?loc=external&signature=8166a6918a50b0cb38cd736bfc4f959fca98aac840557d32f1a4249f61c9ee80": {
+    "file": null,
+    "status": 302,
+    "type": "",
+    "bytes": 0,
+    "routes": [
+      "/jonas-akerlund/john-wayne/",
+      "/jonas-akerlund/o2/"
+    ]
+  },
+  "https://player.vimeo.com/progressive_redirect/playback/1193206114/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&signature=0ccbcfa8a2a7b350baa794c5190e182d7eb8548f029e4acbf04ce5ecf603f1cd": {
+    "file": null,
+    "status": 302,
+    "type": "",
+    "bytes": 0,
+    "routes": [
+      "/jonas-akerlund/john-wayne/",
+      "/jonas-akerlund/o2/"
+    ]
+  },
+  "https://player.vimeo.com/progressive_redirect/playback/1193514452/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&signature=f428593a0087b64833ef0f621308fc0edba64a5ea1bd4f80a534d255a898da82": {
+    "file": null,
+    "status": 302,
+    "type": "",
+    "bytes": 0,
+    "routes": [
+      "/jonas-akerlund/john-wayne/",
+      "/jonas-akerlund/o2/"
+    ]
+  },
+  "https://player.vimeo.com/progressive_redirect/playback/1193220383/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&signature=7b41b92f4ae5873667a35fde055d0228bdb773ad6a2a520072ad2c2c7a6213b4": {
+    "file": null,
+    "status": 302,
+    "type": "",
+    "bytes": 0,
+    "routes": [
+      "/jonas-akerlund/john-wayne/",
+      "/jonas-akerlund/o2/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/ac0e034e-bc9c-4717-a260-6123a182046e/c2fb65ea-f15d6057?__token__=st=1792694641~exp=1792698241~acl=%2Fv3-1%2Fplayback%2Fac0e034e-bc9c-4717-a260-6123a182046e%2Fc2fb65ea-f15d6057%2A~hmac=be4dcdc1832a2436c9cd2df85aa378a370f7e9d870d6eb5306832d9c86a39c75&r=dXMtd2VzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/ac0e034e-bc9c-4717-a260-6123a182046e/c2fb65ea-f15d6057/__index__qa9e33770",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 3799250,
+    "routes": [
+      "/jonas-akerlund/john-wayne/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/a9d18ab2-e63d-4865-9a0e-8d3d0c34e78d/c9104369-428e9bbf?__token__=st=1792694641~exp=1792698241~acl=%2Fv3-1%2Fplayback%2Fa9d18ab2-e63d-4865-9a0e-8d3d0c34e78d%2Fc9104369-428e9bbf%2A~hmac=f0ec29259fc53a89b81f4b399301eaad4b891efcc724df3136514f4f41139174&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/a9d18ab2-e63d-4865-9a0e-8d3d0c34e78d/c9104369-428e9bbf/__index__qac8b8ee0",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 6577868,
+    "routes": [
+      "/jonas-akerlund/john-wayne/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/8521d29f-dc12-4e9f-ad02-5e6d1108506e/8819ae76-214cd106?__token__=st=1792694641~exp=1792698241~acl=%2Fv3-1%2Fplayback%2F8521d29f-dc12-4e9f-ad02-5e6d1108506e%2F8819ae76-214cd106%2A~hmac=1717740bb1e3e1eab260ca33ea2211f69b20d913da4796a599706bd0a092d12c&r=dXMtd2VzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/8521d29f-dc12-4e9f-ad02-5e6d1108506e/8819ae76-214cd106/__index__q2aaa9bb0",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 7712471,
+    "routes": [
+      "/jonas-akerlund/john-wayne/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18102903/Captura-de-pantalla-2026-05-18-a-las-12.28.26-916x511.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18102903/Captura-de-pantalla-2026-05-18-a-las-12.28.26-916x511.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/jonas-akerlund/john-wayne/",
+      "/jonas-akerlund/o2/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/19081532/Captura-de-pantalla-2026-05-19-a-las-10.15.22-916x490.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/19081532/Captura-de-pantalla-2026-05-19-a-las-10.15.22-916x490.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/jonas-akerlund/john-wayne/",
+      "/jonas-akerlund/o2/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18111513/Captura-de-pantalla-2026-05-18-a-las-13.15.05-916x424.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18111513/Captura-de-pantalla-2026-05-18-a-las-13.15.05-916x424.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/jonas-akerlund/john-wayne/",
+      "/jonas-akerlund/o2/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18100546/Captura-de-pantalla-2026-05-18-a-las-12.05.19-916x515.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18100546/Captura-de-pantalla-2026-05-18-a-las-12.05.19-916x515.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/jonas-akerlund/john-wayne/",
+      "/jonas-akerlund/o2/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18090700/Captura-de-pantalla-2026-05-18-a-las-11.06.50-916x504.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18090700/Captura-de-pantalla-2026-05-18-a-las-11.06.50-916x504.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/jonas-akerlund/john-wayne/",
+      "/jonas-akerlund/o2/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18092347/Captura-de-pantalla-2026-05-18-a-las-11.23.41-916x487.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18092347/Captura-de-pantalla-2026-05-18-a-las-11.23.41-916x487.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/jonas-akerlund/john-wayne/",
+      "/jonas-akerlund/o2/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18103358/Captura-de-pantalla-2026-05-18-a-las-12.33.49-916x505.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18103358/Captura-de-pantalla-2026-05-18-a-las-12.33.49-916x505.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/jonas-akerlund/john-wayne/",
+      "/jonas-akerlund/o2/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/19081749/Captura-de-pantalla-2026-05-19-a-las-10.17.37-916x489.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/19081749/Captura-de-pantalla-2026-05-19-a-las-10.17.37-916x489.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/jonas-akerlund/john-wayne/",
+      "/jonas-akerlund/o2/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/d4ccc52e-a0bd-48f2-a2ae-fae957bd7d71/aadff068-fe402e20?__token__=st=1792694641~exp=1792698241~acl=%2Fv3-1%2Fplayback%2Fd4ccc52e-a0bd-48f2-a2ae-fae957bd7d71%2Faadff068-fe402e20%2A~hmac=11a6cb5b38930f39aaa733d72d72870c3df494bc5c5c656ebe58c5c30a603914&r=dXMtY2VudHJhbDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/d4ccc52e-a0bd-48f2-a2ae-fae957bd7d71/aadff068-fe402e20/__index__qe9b26a92",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 7730756,
+    "routes": [
+      "/jonas-akerlund/john-wayne/"
+    ]
+  },
+  "https://player.vimeo.com/progressive_redirect/playback/1193202843/rendition/720p/file.mp4%20%28720p%29.mp4?loc=external&signature=c3ada2698da67a2ad25e6d22fb6365b9b5e8c39ad59844d93a4a2588c4cd6e6c": {
+    "file": null,
+    "status": 302,
+    "type": "",
+    "bytes": 0,
+    "routes": [
+      "/jonas-akerlund/john-wayne/",
+      "/jonas-akerlund/o2/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/ddd07cb8-2355-473a-9128-d00f7a2b3a5b/ce1e355e-05d0a950?__token__=st=1792694657~exp=1792698257~acl=%2Fv3-1%2Fplayback%2Fddd07cb8-2355-473a-9128-d00f7a2b3a5b%2Fce1e355e-05d0a950%2A~hmac=8d412a43f1ac7e8df589b00feda1ab94ecdd579e9f4d8b069c33890a3bbb7b37&r=dXMtY2VudHJhbDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/ddd07cb8-2355-473a-9128-d00f7a2b3a5b/ce1e355e-05d0a950/__index__q04531700",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 3995820,
+    "routes": [
+      "/jonas-akerlund/john-wayne/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/3fd43989-310f-439c-bd1f-d0116688f550/711a495d-41a2163c?__token__=st=1792694671~exp=1792698271~acl=%2Fv3-1%2Fplayback%2F3fd43989-310f-439c-bd1f-d0116688f550%2F711a495d-41a2163c%2A~hmac=6eec92898f6e951225f0207e769ffd2546fe5b7016f4409512f7c54b8b4f6681&r=dXMtY2VudHJhbDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/3fd43989-310f-439c-bd1f-d0116688f550/711a495d-41a2163c/__index__q5658b55f",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 6613912,
+    "routes": [
+      "/jonas-akerlund/john-wayne/"
+    ]
+  },
+  "https://player.vimeo.com/progressive_redirect/playback/1193210172/rendition/540p/file.mp4%20%28540p%29.mp4?loc=external&signature=938a95da606ed91877e58911b5daf6d82b99b510b522dc84c5b532742d5b90db": {
+    "file": null,
+    "status": 302,
+    "type": "",
+    "bytes": 0,
+    "routes": [
+      "/jonas-akerlund/john-wayne/",
+      "/jonas-akerlund/o2/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/1cf3477d-698d-4864-8d31-724378d98dab/0650cdd2-ef60fbf8?__token__=st=1792694678~exp=1792698278~acl=%2Fv3-1%2Fplayback%2F1cf3477d-698d-4864-8d31-724378d98dab%2F0650cdd2-ef60fbf8%2A~hmac=8cd96158d2941a1e6926b8d46148362d2ea01277af21d4e191743a9c7efde79e&r=dXMtY2VudHJhbDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/1cf3477d-698d-4864-8d31-724378d98dab/0650cdd2-ef60fbf8/__index__q12eb030b",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 2179363,
+    "routes": [
+      "/jonas-akerlund/john-wayne/"
+    ]
+  },
+  "https://player.vimeo.com/progressive_redirect/playback/1193188531/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&signature=42b352f358177718df6da2ff806064ca785772156c2645d12e4af4332b2e6c79": {
+    "file": null,
+    "status": 302,
+    "type": "",
+    "bytes": 0,
+    "routes": [
+      "/jonas-akerlund/john-wayne/",
+      "/jonas-akerlund/o2/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/249ddf59-5b8c-4571-9dfe-877b48be2565/a680d162-f8de4339?__token__=st=1792694691~exp=1792698291~acl=%2Fv3-1%2Fplayback%2F249ddf59-5b8c-4571-9dfe-877b48be2565%2Fa680d162-f8de4339%2A~hmac=a1e037d89143e38d2b91f1163ba7f67b50b7b18540a51081873e976f39d39ec1&r=dXMtd2VzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/249ddf59-5b8c-4571-9dfe-877b48be2565/a680d162-f8de4339/__index__qe491dffb",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 7519163,
+    "routes": [
+      "/jonas-akerlund/john-wayne/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/249ddf59-5b8c-4571-9dfe-877b48be2565/a680d162-f8de4339?__token__=st=1792694699~exp=1792698299~acl=%2Fv3-1%2Fplayback%2F249ddf59-5b8c-4571-9dfe-877b48be2565%2Fa680d162-f8de4339%2A~hmac=b7b68a9c2060bbe30739196697cf9bf926be9a7d3e30c7c27a8b5c16421a3a6d&r=dXMtd2VzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/249ddf59-5b8c-4571-9dfe-877b48be2565/a680d162-f8de4339/__index__q611fd680",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 7519163,
+    "routes": [
+      "/jonas-akerlund/john-wayne/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/8521d29f-dc12-4e9f-ad02-5e6d1108506e/8819ae76-214cd106?__token__=st=1792694714~exp=1792698314~acl=%2Fv3-1%2Fplayback%2F8521d29f-dc12-4e9f-ad02-5e6d1108506e%2F8819ae76-214cd106%2A~hmac=7343065986e14a275f404ea4c4a631426a3ad57d27a24b09ec65b494406ff820&r=dXMtd2VzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/8521d29f-dc12-4e9f-ad02-5e6d1108506e/8819ae76-214cd106/__index__q17de4dc5",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 7712471,
+    "routes": [
+      "/jonas-akerlund/john-wayne/"
+    ]
+  },
+  "https://depoluxe.xyz/guslo/woman-md-studio/": {
+    "file": "files/depoluxe.xyz/guslo/woman-md-studio/index.html",
+    "status": 200,
+    "type": "text/html",
+    "bytes": 23624,
+    "routes": [
+      "/guslo/woman-md-studio/"
+    ]
+  },
+  "https://player.vimeo.com/progressive_redirect/playback/1193248098/rendition/720p/file.mp4%20%28720p%29.mp4?loc=external&signature=7ef1f3aa57416d5529af8cd84c2bba4ce34818714c55c82991519efd955d6e1a": {
+    "file": null,
+    "status": 302,
+    "type": "",
+    "bytes": 0,
+    "routes": [
+      "/guslo/woman-md-studio/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/13701efe-115e-4dfd-93a3-2b40149cf467/5d613748-ef4c5c60?__token__=st=1792694721~exp=1792698321~acl=%2Fv3-1%2Fplayback%2F13701efe-115e-4dfd-93a3-2b40149cf467%2F5d613748-ef4c5c60%2A~hmac=fd44649765e234d5b1e6e95790ac446afd3b1e9923118c1e2d7b91b4281209f3&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/13701efe-115e-4dfd-93a3-2b40149cf467/5d613748-ef4c5c60/__index__q08c132cc",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 11697984,
+    "routes": [
+      "/guslo/woman-md-studio/"
+    ]
+  },
+  "https://depoluxe.xyz/guslo/": {
+    "file": "files/depoluxe.xyz/guslo/index.html",
+    "status": 200,
+    "type": "text/html",
+    "bytes": 51131,
+    "routes": [
+      "/guslo/woman-md-studio/",
+      "/guslo/live-the-unforgettable/",
+      "/guslo/gift-collection/",
+      "/guslo/otono-invierno-2023/",
+      "/guslo/lanvin-collection/",
+      "/guslo/nano-balloon/",
+      "/guslo/numero-france/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18125537/Captura-de-pantalla-2026-05-18-a-las-14.55.27-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18125537/Captura-de-pantalla-2026-05-18-a-las-14.55.27-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 124,
+    "routes": [
+      "/guslo/woman-md-studio/",
+      "/guslo/live-the-unforgettable/",
+      "/guslo/gift-collection/",
+      "/guslo/otono-invierno-2023/",
+      "/guslo/lanvin-collection/",
+      "/guslo/nano-balloon/",
+      "/guslo/numero-france/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18125110/Captura-de-pantalla-2026-05-18-a-las-14.51.03-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18125110/Captura-de-pantalla-2026-05-18-a-las-14.51.03-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 162,
+    "routes": [
+      "/guslo/woman-md-studio/",
+      "/guslo/live-the-unforgettable/",
+      "/guslo/gift-collection/",
+      "/guslo/otono-invierno-2023/",
+      "/guslo/lanvin-collection/",
+      "/guslo/nano-balloon/",
+      "/guslo/numero-france/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18120827/Captura-de-pantalla-2026-05-18-a-las-14.08.17-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18120827/Captura-de-pantalla-2026-05-18-a-las-14.08.17-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 170,
+    "routes": [
+      "/guslo/woman-md-studio/",
+      "/guslo/live-the-unforgettable/",
+      "/guslo/gift-collection/",
+      "/guslo/otono-invierno-2023/",
+      "/guslo/lanvin-collection/",
+      "/guslo/nano-balloon/",
+      "/guslo/numero-france/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18115223/Captura-de-pantalla-2026-05-18-a-las-13.52.13-20x10.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18115223/Captura-de-pantalla-2026-05-18-a-las-13.52.13-20x10.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 152,
+    "routes": [
+      "/guslo/woman-md-studio/",
+      "/guslo/live-the-unforgettable/",
+      "/guslo/gift-collection/",
+      "/guslo/otono-invierno-2023/",
+      "/guslo/lanvin-collection/",
+      "/guslo/nano-balloon/",
+      "/guslo/numero-france/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18114624/Captura-de-pantalla-2026-05-18-a-las-13.45.02-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18114624/Captura-de-pantalla-2026-05-18-a-las-13.45.02-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 174,
+    "routes": [
+      "/guslo/woman-md-studio/",
+      "/guslo/live-the-unforgettable/",
+      "/guslo/gift-collection/",
+      "/guslo/otono-invierno-2023/",
+      "/guslo/lanvin-collection/",
+      "/guslo/nano-balloon/",
+      "/guslo/numero-france/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18114220/Captura-de-pantalla-2026-05-18-a-las-13.41.53-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18114220/Captura-de-pantalla-2026-05-18-a-las-13.41.53-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 108,
+    "routes": [
+      "/guslo/woman-md-studio/",
+      "/guslo/live-the-unforgettable/",
+      "/guslo/gift-collection/",
+      "/guslo/otono-invierno-2023/",
+      "/guslo/lanvin-collection/",
+      "/guslo/nano-balloon/",
+      "/guslo/numero-france/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18113659/Captura-de-pantalla-2026-05-18-a-las-13.34.09-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18113659/Captura-de-pantalla-2026-05-18-a-las-13.34.09-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 188,
+    "routes": [
+      "/guslo/woman-md-studio/",
+      "/guslo/live-the-unforgettable/",
+      "/guslo/gift-collection/",
+      "/guslo/otono-invierno-2023/",
+      "/guslo/lanvin-collection/",
+      "/guslo/nano-balloon/",
+      "/guslo/numero-france/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18121715/Captura-de-pantalla-2026-05-18-a-las-14.13.35-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18121715/Captura-de-pantalla-2026-05-18-a-las-14.13.35-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 182,
+    "routes": [
+      "/guslo/woman-md-studio/",
+      "/guslo/live-the-unforgettable/",
+      "/guslo/gift-collection/",
+      "/guslo/otono-invierno-2023/",
+      "/guslo/lanvin-collection/",
+      "/guslo/nano-balloon/",
+      "/guslo/numero-france/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18120350/Captura-de-pantalla-2026-05-18-a-las-14.03.45-20x13.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18120350/Captura-de-pantalla-2026-05-18-a-las-14.03.45-20x13.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 100,
+    "routes": [
+      "/guslo/woman-md-studio/",
+      "/guslo/live-the-unforgettable/",
+      "/guslo/gift-collection/",
+      "/guslo/otono-invierno-2023/",
+      "/guslo/lanvin-collection/",
+      "/guslo/nano-balloon/",
+      "/guslo/numero-france/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18115223/Captura-de-pantalla-2026-05-18-a-las-13.52.13-916x439.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18115223/Captura-de-pantalla-2026-05-18-a-las-13.52.13-916x439.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/guslo/woman-md-studio/",
+      "/guslo/live-the-unforgettable/",
+      "/guslo/gift-collection/",
+      "/guslo/otono-invierno-2023/",
+      "/guslo/lanvin-collection/",
+      "/guslo/nano-balloon/",
+      "/guslo/numero-france/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18114624/Captura-de-pantalla-2026-05-18-a-las-13.45.02-916x509.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18114624/Captura-de-pantalla-2026-05-18-a-las-13.45.02-916x509.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/guslo/woman-md-studio/",
+      "/guslo/live-the-unforgettable/",
+      "/guslo/gift-collection/",
+      "/guslo/otono-invierno-2023/",
+      "/guslo/lanvin-collection/",
+      "/guslo/nano-balloon/",
+      "/guslo/numero-france/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18121715/Captura-de-pantalla-2026-05-18-a-las-14.13.35-916x495.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18121715/Captura-de-pantalla-2026-05-18-a-las-14.13.35-916x495.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/guslo/woman-md-studio/",
+      "/guslo/live-the-unforgettable/",
+      "/guslo/gift-collection/",
+      "/guslo/otono-invierno-2023/",
+      "/guslo/lanvin-collection/",
+      "/guslo/nano-balloon/",
+      "/guslo/numero-france/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18125110/Captura-de-pantalla-2026-05-18-a-las-14.51.03-916x506.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18125110/Captura-de-pantalla-2026-05-18-a-las-14.51.03-916x506.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/guslo/woman-md-studio/",
+      "/guslo/live-the-unforgettable/",
+      "/guslo/gift-collection/",
+      "/guslo/otono-invierno-2023/",
+      "/guslo/lanvin-collection/",
+      "/guslo/nano-balloon/",
+      "/guslo/numero-france/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18125537/Captura-de-pantalla-2026-05-18-a-las-14.55.27-916x496.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18125537/Captura-de-pantalla-2026-05-18-a-las-14.55.27-916x496.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/guslo/woman-md-studio/",
+      "/guslo/live-the-unforgettable/",
+      "/guslo/gift-collection/",
+      "/guslo/otono-invierno-2023/",
+      "/guslo/lanvin-collection/",
+      "/guslo/nano-balloon/",
+      "/guslo/numero-france/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18120350/Captura-de-pantalla-2026-05-18-a-las-14.03.45-916x610.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18120350/Captura-de-pantalla-2026-05-18-a-las-14.03.45-916x610.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/guslo/woman-md-studio/",
+      "/guslo/live-the-unforgettable/",
+      "/guslo/gift-collection/",
+      "/guslo/otono-invierno-2023/",
+      "/guslo/lanvin-collection/",
+      "/guslo/nano-balloon/",
+      "/guslo/numero-france/"
+    ]
+  },
+  "https://player.vimeo.com/progressive_redirect/playback/1193248097/rendition/720p/file.mp4%20%28720p%29.mp4?loc=external&signature=68e6fb1da13fd6754c0853baac9042da280edbf98c9ccd80232e1a69d437cf4f": {
+    "file": null,
+    "status": 302,
+    "type": "",
+    "bytes": 0,
+    "routes": [
+      "/guslo/woman-md-studio/",
+      "/guslo/live-the-unforgettable/",
+      "/guslo/gift-collection/",
+      "/guslo/otono-invierno-2023/",
+      "/guslo/lanvin-collection/",
+      "/guslo/nano-balloon/",
+      "/guslo/numero-france/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18114220/Captura-de-pantalla-2026-05-18-a-las-13.41.53-916x492.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18114220/Captura-de-pantalla-2026-05-18-a-las-13.41.53-916x492.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/guslo/woman-md-studio/",
+      "/guslo/live-the-unforgettable/",
+      "/guslo/gift-collection/",
+      "/guslo/otono-invierno-2023/",
+      "/guslo/lanvin-collection/",
+      "/guslo/nano-balloon/",
+      "/guslo/numero-france/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18113659/Captura-de-pantalla-2026-05-18-a-las-13.34.09-916x506.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18113659/Captura-de-pantalla-2026-05-18-a-las-13.34.09-916x506.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/guslo/woman-md-studio/",
+      "/guslo/live-the-unforgettable/",
+      "/guslo/gift-collection/",
+      "/guslo/otono-invierno-2023/",
+      "/guslo/lanvin-collection/",
+      "/guslo/nano-balloon/",
+      "/guslo/numero-france/"
+    ]
+  },
+  "https://player.vimeo.com/progressive_redirect/playback/1193237889/rendition/720p/file.mp4%20%28720p%29.mp4?loc=external&signature=cdd110739824cc057a717c2de68b991e88e6bacd63ab134bc0624e9393540f5e": {
+    "file": null,
+    "status": 302,
+    "type": "",
+    "bytes": 0,
+    "routes": [
+      "/guslo/woman-md-studio/",
+      "/guslo/live-the-unforgettable/",
+      "/guslo/gift-collection/",
+      "/guslo/otono-invierno-2023/",
+      "/guslo/lanvin-collection/",
+      "/guslo/nano-balloon/",
+      "/guslo/numero-france/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18120827/Captura-de-pantalla-2026-05-18-a-las-14.08.17-916x506.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18120827/Captura-de-pantalla-2026-05-18-a-las-14.08.17-916x506.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/guslo/woman-md-studio/",
+      "/guslo/live-the-unforgettable/",
+      "/guslo/gift-collection/",
+      "/guslo/otono-invierno-2023/",
+      "/guslo/lanvin-collection/",
+      "/guslo/nano-balloon/",
+      "/guslo/numero-france/"
+    ]
+  },
+  "https://player.vimeo.com/progressive_redirect/playback/1193235411/rendition/720p/file.mp4%20%28720p%29.mp4?loc=external&signature=280f015879308662999c82bccf3ccc2851927c73f25fcfe69492dd8db5e602c8": {
+    "file": null,
+    "status": 302,
+    "type": "",
+    "bytes": 0,
+    "routes": [
+      "/guslo/woman-md-studio/",
+      "/guslo/live-the-unforgettable/",
+      "/guslo/gift-collection/",
+      "/guslo/otono-invierno-2023/",
+      "/guslo/lanvin-collection/",
+      "/guslo/nano-balloon/",
+      "/guslo/numero-france/"
+    ]
+  },
+  "https://player.vimeo.com/progressive_redirect/playback/1193246890/rendition/720p/file.mp4%20%28720p%29.mp4?loc=external&signature=a259561e9e1c5796f89910234e2aa44806b0985cf40a7cc7035d06902a047a15": {
+    "file": null,
+    "status": 302,
+    "type": "",
+    "bytes": 0,
+    "routes": [
+      "/guslo/woman-md-studio/",
+      "/guslo/live-the-unforgettable/",
+      "/guslo/gift-collection/",
+      "/guslo/otono-invierno-2023/",
+      "/guslo/lanvin-collection/",
+      "/guslo/nano-balloon/",
+      "/guslo/numero-france/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18113209/Captura-de-pantalla-2026-05-18-a-las-13.31.53-916x512.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18113209/Captura-de-pantalla-2026-05-18-a-las-13.31.53-916x512.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/guslo/woman-md-studio/",
+      "/guslo/live-the-unforgettable/",
+      "/guslo/gift-collection/",
+      "/guslo/otono-invierno-2023/",
+      "/guslo/lanvin-collection/",
+      "/guslo/nano-balloon/",
+      "/guslo/numero-france/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/f393d920-1c34-4e74-862d-bcaa149b3477/52715a18-2263f015?__token__=st=1792694733~exp=1792698333~acl=%2Fv3-1%2Fplayback%2Ff393d920-1c34-4e74-862d-bcaa149b3477%2F52715a18-2263f015%2A~hmac=ccc72da3cfd8cf031a9571f178f9a9015ba1c006f9aee8144de6cbc67753f6f8&r=dXMtY2VudHJhbDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/f393d920-1c34-4e74-862d-bcaa149b3477/52715a18-2263f015/__index__qee43962a",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 2185531,
+    "routes": [
+      "/guslo/woman-md-studio/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/adc4086f-84cb-4960-95c2-244c7570772f/072ab151-27fb3bfe?__token__=st=1792694734~exp=1792698334~acl=%2Fv3-1%2Fplayback%2Fadc4086f-84cb-4960-95c2-244c7570772f%2F072ab151-27fb3bfe%2A~hmac=010bad0142d78139f37a423a5d3df74f2fdeee2fae19f93ef4266cbc963f8e5d&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/adc4086f-84cb-4960-95c2-244c7570772f/072ab151-27fb3bfe/__index__qdda2bc0f",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 3250360,
+    "routes": [
+      "/guslo/woman-md-studio/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/7a5a1948-1efb-4eed-b910-b7dd03752f30/7b63ac64-7a13694e?__token__=st=1792694733~exp=1792698333~acl=%2Fv3-1%2Fplayback%2F7a5a1948-1efb-4eed-b910-b7dd03752f30%2F7b63ac64-7a13694e%2A~hmac=4896faf7c80913619a2aeb884ed78d966faee7a690ee5ca6dc2eadcbe2537fdf&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/7a5a1948-1efb-4eed-b910-b7dd03752f30/7b63ac64-7a13694e/__index__qf9d533ab",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 3348308,
+    "routes": [
+      "/guslo/woman-md-studio/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/27803b4d-3395-471d-a0c7-c5b870823cb2/d36088a5-4124cc99?__token__=st=1792694734~exp=1792698334~acl=%2Fv3-1%2Fplayback%2F27803b4d-3395-471d-a0c7-c5b870823cb2%2Fd36088a5-4124cc99%2A~hmac=9eeaa3a98750ed4b40feb03a4d25dd8745c64e422e0fbcfd6c51dbf923e11986&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/27803b4d-3395-471d-a0c7-c5b870823cb2/d36088a5-4124cc99/__index__q8499eadd",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 2935551,
+    "routes": [
+      "/guslo/woman-md-studio/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/7a5a1948-1efb-4eed-b910-b7dd03752f30/7b63ac64-7a13694e?__token__=st=1792694734~exp=1792698334~acl=%2Fv3-1%2Fplayback%2F7a5a1948-1efb-4eed-b910-b7dd03752f30%2F7b63ac64-7a13694e%2A~hmac=0f818dcce8d7b1f00c94579d8d93b57ac9ccfa8bc6adf52aebf652274cf35680&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/7a5a1948-1efb-4eed-b910-b7dd03752f30/7b63ac64-7a13694e/__index__qcee5b686",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 3348308,
+    "routes": [
+      "/guslo/woman-md-studio/"
+    ]
+  },
+  "https://player.vimeo.com/progressive_redirect/playback/1193232577/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&signature=2d2a2be499ddcea54d41a20751fb130307c2b98a6ffe24c1c4502264d9d031fd": {
+    "file": null,
+    "status": 302,
+    "type": "",
+    "bytes": 0,
+    "routes": [
+      "/guslo/woman-md-studio/",
+      "/guslo/live-the-unforgettable/",
+      "/guslo/gift-collection/",
+      "/guslo/otono-invierno-2023/",
+      "/guslo/lanvin-collection/",
+      "/guslo/nano-balloon/",
+      "/guslo/numero-france/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/9d474633-8b10-49b3-bf1d-63ef7f02aa49/9abdac2f-384f30fe?__token__=st=1792694746~exp=1792698346~acl=%2Fv3-1%2Fplayback%2F9d474633-8b10-49b3-bf1d-63ef7f02aa49%2F9abdac2f-384f30fe%2A~hmac=dd3c1ceb89da0d391ecaaa093d1b2eac0d53f14288aea1b826febfee5826bba7&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/9d474633-8b10-49b3-bf1d-63ef7f02aa49/9abdac2f-384f30fe/__index__qd177cbab",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 2068811,
+    "routes": [
+      "/guslo/woman-md-studio/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/0345e706-1e82-44fd-b4b7-6790f4d6388c/214eca9e-410cc303?__token__=st=1792694756~exp=1792698356~acl=%2Fv3-1%2Fplayback%2F0345e706-1e82-44fd-b4b7-6790f4d6388c%2F214eca9e-410cc303%2A~hmac=86b014b41a2348f7e672c4ace24a7fa586afeeb9c22848ee6bda9b2b45af9afd&r=dXMtd2VzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/0345e706-1e82-44fd-b4b7-6790f4d6388c/214eca9e-410cc303/__index__q398e1bc1",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 7541530,
+    "routes": [
+      "/guslo/woman-md-studio/"
+    ]
+  },
+  "https://player.vimeo.com/progressive_redirect/playback/1193229970/rendition/540p/file.mp4%20%28540p%29.mp4?loc=external&signature=4bfe9d1d14845a8b4494dd36065a0e5d17442954eff5331851a26a8439b50ce3": {
+    "file": null,
+    "status": 302,
+    "type": "",
+    "bytes": 0,
+    "routes": [
+      "/guslo/woman-md-studio/",
+      "/guslo/live-the-unforgettable/",
+      "/guslo/gift-collection/",
+      "/guslo/otono-invierno-2023/",
+      "/guslo/lanvin-collection/",
+      "/guslo/nano-balloon/",
+      "/guslo/numero-france/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/ce161e6d-f684-4920-9a9c-727708d0373d/c65f2768-0686f80a?__token__=st=1792694763~exp=1792698363~acl=%2Fv3-1%2Fplayback%2Fce161e6d-f684-4920-9a9c-727708d0373d%2Fc65f2768-0686f80a%2A~hmac=a4f18ca92c7443c0f82feed716b21fd11ef57bab951752df9035523196091b74&r=dXMtd2VzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/ce161e6d-f684-4920-9a9c-727708d0373d/c65f2768-0686f80a/__index__qa3d6f33d",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 2190259,
+    "routes": [
+      "/guslo/woman-md-studio/"
+    ]
+  },
+  "https://player.vimeo.com/progressive_redirect/playback/1193226134/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&signature=e0ca4133ff4cb3adff81a50b582b3be3cebd00bd529808ccd80d6055ee4d6cbc": {
+    "file": null,
+    "status": 302,
+    "type": "",
+    "bytes": 0,
+    "routes": [
+      "/guslo/woman-md-studio/",
+      "/guslo/live-the-unforgettable/",
+      "/guslo/gift-collection/",
+      "/guslo/otono-invierno-2023/",
+      "/guslo/lanvin-collection/",
+      "/guslo/nano-balloon/",
+      "/guslo/numero-france/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/6f54265d-0576-4ae7-b7e8-817a44ffa709/ad2720a3-9a0e6247?__token__=st=1792694773~exp=1792698373~acl=%2Fv3-1%2Fplayback%2F6f54265d-0576-4ae7-b7e8-817a44ffa709%2Fad2720a3-9a0e6247%2A~hmac=d0527c696b3c59ae0638fccb79d563b5fd95326c91e850c1f19fd39f32045b63&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/6f54265d-0576-4ae7-b7e8-817a44ffa709/ad2720a3-9a0e6247/__index__q2fa118a3",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 7345643,
+    "routes": [
+      "/guslo/woman-md-studio/"
+    ]
+  },
+  "https://player.vimeo.com/progressive_redirect/playback/1193228578/rendition/360p/file.mp4%20%28360p%29.mp4?loc=external&signature=67895e4bd8fb9e27027c4a35cbe509fb7ffdba5634d0566b50c8f3c794758db4": {
+    "file": null,
+    "status": 302,
+    "type": "",
+    "bytes": 0,
+    "routes": [
+      "/guslo/woman-md-studio/",
+      "/guslo/live-the-unforgettable/",
+      "/guslo/gift-collection/",
+      "/guslo/otono-invierno-2023/",
+      "/guslo/lanvin-collection/",
+      "/guslo/nano-balloon/",
+      "/guslo/numero-france/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/779b97e8-42a9-4831-a580-e895a41cbcac/4d02b141-d11e76fe?__token__=st=1792694780~exp=1792698380~acl=%2Fv3-1%2Fplayback%2F779b97e8-42a9-4831-a580-e895a41cbcac%2F4d02b141-d11e76fe%2A~hmac=2329deb106cafb2f827005304394138503de7a7af1f0a051dbb3c2b2ce9f37a1&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/779b97e8-42a9-4831-a580-e895a41cbcac/4d02b141-d11e76fe/__index__q15ee2c40",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 1111312,
+    "routes": [
+      "/guslo/woman-md-studio/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/27803b4d-3395-471d-a0c7-c5b870823cb2/d36088a5-4124cc99?__token__=st=1792694793~exp=1792698393~acl=%2Fv3-1%2Fplayback%2F27803b4d-3395-471d-a0c7-c5b870823cb2%2Fd36088a5-4124cc99%2A~hmac=f70875be99c802574f659b051ea298d990831e2c7609052d422c1f5997e5293e&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/27803b4d-3395-471d-a0c7-c5b870823cb2/d36088a5-4124cc99/__index__q90d3c36e",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 2935551,
+    "routes": [
+      "/guslo/woman-md-studio/"
+    ]
+  },
+  "https://depoluxe.xyz/guslo/garbine-muguruza/": {
+    "file": "files/depoluxe.xyz/guslo/garbine-muguruza/index.html",
+    "status": 200,
+    "type": "text/html",
+    "bytes": 23638,
+    "routes": [
+      "/guslo/garbine-muguruza/"
+    ]
+  },
+  "https://player.vimeo.com/progressive_redirect/playback/1193246889/rendition/720p/file.mp4%20%28720p%29.mp4?loc=external&signature=d93fd76cb55e61898d7f612ba7c6d3cc2da8b0e3bd0d9d328511024337ac7c46": {
+    "file": null,
+    "status": 302,
+    "type": "",
+    "bytes": 0,
+    "routes": [
+      "/guslo/garbine-muguruza/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/f6417513-53f9-4926-b373-6b0dab2ef8cd/749f21a7-ee5e139c?__token__=st=1792694798~exp=1792698398~acl=%2Fv3-1%2Fplayback%2Ff6417513-53f9-4926-b373-6b0dab2ef8cd%2F749f21a7-ee5e139c%2A~hmac=284631c367a1b3f5e44e274ad2920a34c18c1f21102e8d2563acd4c5e044c923&r=dXMtd2VzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/f6417513-53f9-4926-b373-6b0dab2ef8cd/749f21a7-ee5e139c/__index__q5a0f5bd3",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 7213128,
+    "routes": [
+      "/guslo/garbine-muguruza/"
+    ]
+  },
+  "https://depoluxe.xyz/guslo/live-the-unforgettable/": {
+    "file": "files/depoluxe.xyz/guslo/live-the-unforgettable/index.html",
+    "status": 200,
+    "type": "text/html",
+    "bytes": 23657,
+    "routes": [
+      "/guslo/live-the-unforgettable/"
+    ]
+  },
+  "https://player.vimeo.com/progressive_redirect/playback/1193237890/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&signature=64ddb22aa2ec9b7286c8d4086ca0ef1208b224e771ebdc3b07b583bd2a44ba7f": {
+    "file": null,
+    "status": 302,
+    "type": "",
+    "bytes": 0,
+    "routes": [
+      "/guslo/live-the-unforgettable/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/58925842-39e5-4978-9922-7403261af67b/11660f51-c3b5f53c?__token__=st=1792694950~exp=1792698550~acl=%2Fv3-1%2Fplayback%2F58925842-39e5-4978-9922-7403261af67b%2F11660f51-c3b5f53c%2A~hmac=f1d02b399014d12920b1c026af76ed5f9d142a9c065b6f656e21f7d22bc457e5&r=dXMtY2VudHJhbDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/58925842-39e5-4978-9922-7403261af67b/11660f51-c3b5f53c/__index__q0cbf0d98",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 17175743,
+    "routes": [
+      "/guslo/live-the-unforgettable/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/adc4086f-84cb-4960-95c2-244c7570772f/072ab151-27fb3bfe?__token__=st=1792694963~exp=1792698563~acl=%2Fv3-1%2Fplayback%2Fadc4086f-84cb-4960-95c2-244c7570772f%2F072ab151-27fb3bfe%2A~hmac=6d8f673131119cfa424cfce887541508249a1a6b45be4c10dbbc0d93fef5403e&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/adc4086f-84cb-4960-95c2-244c7570772f/072ab151-27fb3bfe/__index__qf23ac4d4",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 3250360,
+    "routes": [
+      "/guslo/live-the-unforgettable/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/27803b4d-3395-471d-a0c7-c5b870823cb2/d36088a5-4124cc99?__token__=st=1792694963~exp=1792698563~acl=%2Fv3-1%2Fplayback%2F27803b4d-3395-471d-a0c7-c5b870823cb2%2Fd36088a5-4124cc99%2A~hmac=4ff761de0ac967d8219081f700a3b8ad27f76f0cb440ecd69bbb6a0989282613&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/27803b4d-3395-471d-a0c7-c5b870823cb2/d36088a5-4124cc99/__index__q15541e18",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 2935551,
+    "routes": [
+      "/guslo/live-the-unforgettable/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/7a5a1948-1efb-4eed-b910-b7dd03752f30/7b63ac64-7a13694e?__token__=st=1792694963~exp=1792698563~acl=%2Fv3-1%2Fplayback%2F7a5a1948-1efb-4eed-b910-b7dd03752f30%2F7b63ac64-7a13694e%2A~hmac=a3853b870829cff649c63b0e5a373411145b8083e05d1eeda33cfc1254f4675c&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/7a5a1948-1efb-4eed-b910-b7dd03752f30/7b63ac64-7a13694e/__index__q6d060d44",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 3348308,
+    "routes": [
+      "/guslo/live-the-unforgettable/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/f393d920-1c34-4e74-862d-bcaa149b3477/52715a18-2263f015?__token__=st=1792694963~exp=1792698563~acl=%2Fv3-1%2Fplayback%2Ff393d920-1c34-4e74-862d-bcaa149b3477%2F52715a18-2263f015%2A~hmac=ba45ad9fda82f554bd76cb01239c7b1a1196a945bb95b7a981d509a29d6661fb&r=dXMtY2VudHJhbDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/f393d920-1c34-4e74-862d-bcaa149b3477/52715a18-2263f015/__index__qb31c7c1c",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 2185531,
+    "routes": [
+      "/guslo/live-the-unforgettable/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/9d474633-8b10-49b3-bf1d-63ef7f02aa49/9abdac2f-384f30fe?__token__=st=1792694974~exp=1792698574~acl=%2Fv3-1%2Fplayback%2F9d474633-8b10-49b3-bf1d-63ef7f02aa49%2F9abdac2f-384f30fe%2A~hmac=f42c524783aeb256e2bf83277966002543816315a58d5f3d6e3879d8d510fb6b&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/9d474633-8b10-49b3-bf1d-63ef7f02aa49/9abdac2f-384f30fe/__index__qb7f3f1ad",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 2068811,
+    "routes": [
+      "/guslo/live-the-unforgettable/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/0345e706-1e82-44fd-b4b7-6790f4d6388c/214eca9e-410cc303?__token__=st=1792694985~exp=1792698585~acl=%2Fv3-1%2Fplayback%2F0345e706-1e82-44fd-b4b7-6790f4d6388c%2F214eca9e-410cc303%2A~hmac=59bfbd4fbda68b58b209679afaeda9091aa9a975391b45d8969306c0247c88af&r=dXMtd2VzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/0345e706-1e82-44fd-b4b7-6790f4d6388c/214eca9e-410cc303/__index__q7d428179",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 7541530,
+    "routes": [
+      "/guslo/live-the-unforgettable/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/ce161e6d-f684-4920-9a9c-727708d0373d/c65f2768-0686f80a?__token__=st=1792694991~exp=1792698591~acl=%2Fv3-1%2Fplayback%2Fce161e6d-f684-4920-9a9c-727708d0373d%2Fc65f2768-0686f80a%2A~hmac=8d7278d93b750a57e3a85569e71fb094f021b44fdf886aacf70e4064eca33c49&r=dXMtd2VzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/ce161e6d-f684-4920-9a9c-727708d0373d/c65f2768-0686f80a/__index__qbf8c1d95",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 2190259,
+    "routes": [
+      "/guslo/live-the-unforgettable/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/6f54265d-0576-4ae7-b7e8-817a44ffa709/ad2720a3-9a0e6247?__token__=st=1792695002~exp=1792698602~acl=%2Fv3-1%2Fplayback%2F6f54265d-0576-4ae7-b7e8-817a44ffa709%2Fad2720a3-9a0e6247%2A~hmac=40991cc3cdbaab2f82a8d8e9765ccadc5ecfc812e3b581e299f4f5fa0c18c07e&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/6f54265d-0576-4ae7-b7e8-817a44ffa709/ad2720a3-9a0e6247/__index__q3a98de71",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 7345643,
+    "routes": [
+      "/guslo/live-the-unforgettable/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/779b97e8-42a9-4831-a580-e895a41cbcac/4d02b141-d11e76fe?__token__=st=1792695008~exp=1792698608~acl=%2Fv3-1%2Fplayback%2F779b97e8-42a9-4831-a580-e895a41cbcac%2F4d02b141-d11e76fe%2A~hmac=167a05093bffd9229576cc77d03a25329cfb436decd7d56c78730df8ce51d2bc&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/779b97e8-42a9-4831-a580-e895a41cbcac/4d02b141-d11e76fe/__index__q6770f658",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 1111312,
+    "routes": [
+      "/guslo/live-the-unforgettable/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/27803b4d-3395-471d-a0c7-c5b870823cb2/d36088a5-4124cc99?__token__=st=1792695021~exp=1792698621~acl=%2Fv3-1%2Fplayback%2F27803b4d-3395-471d-a0c7-c5b870823cb2%2Fd36088a5-4124cc99%2A~hmac=5c5cc1c1ee4d13c4f47b345d4a59f3bfdf8fc11555cd3bbc6957df9dd25203d3&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/27803b4d-3395-471d-a0c7-c5b870823cb2/d36088a5-4124cc99/__index__qb75af7b0",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 2935551,
+    "routes": [
+      "/guslo/live-the-unforgettable/"
+    ]
+  },
+  "https://depoluxe.xyz/guslo/studio-man-collection/": {
+    "file": "files/depoluxe.xyz/guslo/studio-man-collection/index.html",
+    "status": 200,
+    "type": "text/html",
+    "bytes": 23654,
+    "routes": [
+      "/guslo/studio-man-collection/"
+    ]
+  },
+  "https://player.vimeo.com/progressive_redirect/playback/1193235410/rendition/720p/file.mp4%20%28720p%29.mp4?loc=external&signature=2b1207793c5f76fb45a620c52d832f1a038f60133913b75d52d170108a065d05": {
+    "file": null,
+    "status": 302,
+    "type": "",
+    "bytes": 0,
+    "routes": [
+      "/guslo/studio-man-collection/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/66e3536f-e347-48a5-afa8-f485ebe45c77/730d8863-7986f9ca?__token__=st=1792695028~exp=1792698628~acl=%2Fv3-1%2Fplayback%2F66e3536f-e347-48a5-afa8-f485ebe45c77%2F730d8863-7986f9ca%2A~hmac=9cb43f505e3c3ab98eee1b61a817d3879341bc655e387200dad4c2df0c4832a2&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/66e3536f-e347-48a5-afa8-f485ebe45c77/730d8863-7986f9ca/__index__qb0876130",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 16625412,
+    "routes": [
+      "/guslo/studio-man-collection/"
+    ]
+  },
+  "https://depoluxe.xyz/guslo/gift-collection/": {
+    "file": "files/depoluxe.xyz/guslo/gift-collection/index.html",
+    "status": 200,
+    "type": "text/html",
+    "bytes": 23611,
+    "routes": [
+      "/guslo/gift-collection/"
+    ]
+  },
+  "https://player.vimeo.com/progressive_redirect/playback/1193232578/rendition/540p/file.mp4%20%28540p%29.mp4?loc=external&signature=620c62e3e63a70adffbcb9f5554df729f056517e939c9b3fd670a0a39795f8ee": {
+    "file": null,
+    "status": 302,
+    "type": "",
+    "bytes": 0,
+    "routes": [
+      "/guslo/gift-collection/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/6372f4e6-ebcc-4eef-8c8a-f7e8764f8768/d72dc717-0d4aded8?__token__=st=1792695174~exp=1792698774~acl=%2Fv3-1%2Fplayback%2F6372f4e6-ebcc-4eef-8c8a-f7e8764f8768%2Fd72dc717-0d4aded8%2A~hmac=8a22a7ebb800da1a714987d57ace9e8c11084a42a15357d92ccc54328382a5e1&r=dXMtd2VzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/6372f4e6-ebcc-4eef-8c8a-f7e8764f8768/d72dc717-0d4aded8/__index__q712990ca",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 4314711,
+    "routes": [
+      "/guslo/gift-collection/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/f393d920-1c34-4e74-862d-bcaa149b3477/52715a18-2263f015?__token__=st=1792695186~exp=1792698786~acl=%2Fv3-1%2Fplayback%2Ff393d920-1c34-4e74-862d-bcaa149b3477%2F52715a18-2263f015%2A~hmac=4af09ee5722d8cb96fa3bf3ec4e98bfaad1c1a49122827612329e0f6204339f7&r=dXMtY2VudHJhbDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/f393d920-1c34-4e74-862d-bcaa149b3477/52715a18-2263f015/__index__q0c4fac91",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 2185531,
+    "routes": [
+      "/guslo/gift-collection/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/27803b4d-3395-471d-a0c7-c5b870823cb2/d36088a5-4124cc99?__token__=st=1792695186~exp=1792698786~acl=%2Fv3-1%2Fplayback%2F27803b4d-3395-471d-a0c7-c5b870823cb2%2Fd36088a5-4124cc99%2A~hmac=13f0b4bb7923e24228db45fe86fc1a37d532b289a981a2061f0e44f9271527d7&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/27803b4d-3395-471d-a0c7-c5b870823cb2/d36088a5-4124cc99/__index__qfd3a7dce",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 2935551,
+    "routes": [
+      "/guslo/gift-collection/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/7a5a1948-1efb-4eed-b910-b7dd03752f30/7b63ac64-7a13694e?__token__=st=1792695186~exp=1792698786~acl=%2Fv3-1%2Fplayback%2F7a5a1948-1efb-4eed-b910-b7dd03752f30%2F7b63ac64-7a13694e%2A~hmac=6328074b64716f306399fac7816b5449f57c24965249a08941e5303aa0f24413&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/7a5a1948-1efb-4eed-b910-b7dd03752f30/7b63ac64-7a13694e/__index__qfdb898d5",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 3348308,
+    "routes": [
+      "/guslo/gift-collection/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/adc4086f-84cb-4960-95c2-244c7570772f/072ab151-27fb3bfe?__token__=st=1792695186~exp=1792698786~acl=%2Fv3-1%2Fplayback%2Fadc4086f-84cb-4960-95c2-244c7570772f%2F072ab151-27fb3bfe%2A~hmac=7520514e08eedc19db8088c1d3a201ae167fb3ec0834d511122775aebedf3f49&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/adc4086f-84cb-4960-95c2-244c7570772f/072ab151-27fb3bfe/__index__qbd81e5de",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 3250360,
+    "routes": [
+      "/guslo/gift-collection/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/7a5a1948-1efb-4eed-b910-b7dd03752f30/7b63ac64-7a13694e?__token__=st=1792695187~exp=1792698787~acl=%2Fv3-1%2Fplayback%2F7a5a1948-1efb-4eed-b910-b7dd03752f30%2F7b63ac64-7a13694e%2A~hmac=3d6914bc267454d799c7d98a27343d035b8e33d5ff6c8496c075cb439a7ae82d&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/7a5a1948-1efb-4eed-b910-b7dd03752f30/7b63ac64-7a13694e/__index__q5fe9fbd5",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 3348308,
+    "routes": [
+      "/guslo/gift-collection/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/27803b4d-3395-471d-a0c7-c5b870823cb2/d36088a5-4124cc99?__token__=st=1792695187~exp=1792698787~acl=%2Fv3-1%2Fplayback%2F27803b4d-3395-471d-a0c7-c5b870823cb2%2Fd36088a5-4124cc99%2A~hmac=d95c3fc055273441ffaa60f7f0ea94eae50bf484b06162a5aaf0a0d21187e590&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/27803b4d-3395-471d-a0c7-c5b870823cb2/d36088a5-4124cc99/__index__q8f6c863d",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 2935551,
+    "routes": [
+      "/guslo/gift-collection/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/adc4086f-84cb-4960-95c2-244c7570772f/072ab151-27fb3bfe?__token__=st=1792695187~exp=1792698787~acl=%2Fv3-1%2Fplayback%2Fadc4086f-84cb-4960-95c2-244c7570772f%2F072ab151-27fb3bfe%2A~hmac=0928b90e065691793fd576326f5380e22ac9f4b89ecae9902f4a9a8aabc57ac7&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/adc4086f-84cb-4960-95c2-244c7570772f/072ab151-27fb3bfe/__index__q2462af0b",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 3250360,
+    "routes": [
+      "/guslo/gift-collection/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/9d474633-8b10-49b3-bf1d-63ef7f02aa49/9abdac2f-384f30fe?__token__=st=1792695199~exp=1792698799~acl=%2Fv3-1%2Fplayback%2F9d474633-8b10-49b3-bf1d-63ef7f02aa49%2F9abdac2f-384f30fe%2A~hmac=186991d398b3318a53b91d93bb229acaf63afd786459e0e4d442e4e18f953ec7&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/9d474633-8b10-49b3-bf1d-63ef7f02aa49/9abdac2f-384f30fe/__index__q5281981c",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 2068811,
+    "routes": [
+      "/guslo/gift-collection/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/0345e706-1e82-44fd-b4b7-6790f4d6388c/214eca9e-410cc303?__token__=st=1792695210~exp=1792698810~acl=%2Fv3-1%2Fplayback%2F0345e706-1e82-44fd-b4b7-6790f4d6388c%2F214eca9e-410cc303%2A~hmac=50566b5b1e4dd4849b7c3e902343a99dd8fc2491fc71a00a8511172b189b36ec&r=dXMtd2VzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/0345e706-1e82-44fd-b4b7-6790f4d6388c/214eca9e-410cc303/__index__qb29a193c",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 7541530,
+    "routes": [
+      "/guslo/gift-collection/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/ce161e6d-f684-4920-9a9c-727708d0373d/c65f2768-0686f80a?__token__=st=1792695217~exp=1792698817~acl=%2Fv3-1%2Fplayback%2Fce161e6d-f684-4920-9a9c-727708d0373d%2Fc65f2768-0686f80a%2A~hmac=7200238963ce80a41c8b94e0d0f6af1982de2f538852ce80f9ac0fda2e5cd133&r=dXMtd2VzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/ce161e6d-f684-4920-9a9c-727708d0373d/c65f2768-0686f80a/__index__qe7899a0d",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 2190259,
+    "routes": [
+      "/guslo/gift-collection/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/6f54265d-0576-4ae7-b7e8-817a44ffa709/ad2720a3-9a0e6247?__token__=st=1792695228~exp=1792698828~acl=%2Fv3-1%2Fplayback%2F6f54265d-0576-4ae7-b7e8-817a44ffa709%2Fad2720a3-9a0e6247%2A~hmac=8d1a4c1b4956a25f6b519b6915a3393187836d2ef6a432dcd8064a40811f9af3&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/6f54265d-0576-4ae7-b7e8-817a44ffa709/ad2720a3-9a0e6247/__index__q122233d1",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 7345643,
+    "routes": [
+      "/guslo/gift-collection/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/779b97e8-42a9-4831-a580-e895a41cbcac/4d02b141-d11e76fe?__token__=st=1792695234~exp=1792698834~acl=%2Fv3-1%2Fplayback%2F779b97e8-42a9-4831-a580-e895a41cbcac%2F4d02b141-d11e76fe%2A~hmac=70d8817343b12e6c26b1fc400e9c4bf56272c356eda05a7f51f55cb30276d068&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/779b97e8-42a9-4831-a580-e895a41cbcac/4d02b141-d11e76fe/__index__q1e63b567",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 1111312,
+    "routes": [
+      "/guslo/gift-collection/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/27803b4d-3395-471d-a0c7-c5b870823cb2/d36088a5-4124cc99?__token__=st=1792695246~exp=1792698846~acl=%2Fv3-1%2Fplayback%2F27803b4d-3395-471d-a0c7-c5b870823cb2%2Fd36088a5-4124cc99%2A~hmac=0ddf87808c4de4b5437c5608f5f6c92eddae1c9023ee673c2a91394127a2580e&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/27803b4d-3395-471d-a0c7-c5b870823cb2/d36088a5-4124cc99/__index__q20919453",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 2935551,
+    "routes": [
+      "/guslo/gift-collection/"
+    ]
+  },
+  "https://depoluxe.xyz/guslo/otono-invierno-2023/": {
+    "file": "files/depoluxe.xyz/guslo/otono-invierno-2023/index.html",
+    "status": 200,
+    "type": "text/html",
+    "bytes": 23659,
+    "routes": [
+      "/guslo/otono-invierno-2023/"
+    ]
+  },
+  "https://player.vimeo.com/progressive_redirect/playback/1193229971/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&signature=5cd95ee12211d0219b4d9e64fe12b7e4db48605d6150f8680b3f1601b7c7d717": {
+    "file": null,
+    "status": 302,
+    "type": "",
+    "bytes": 0,
+    "routes": [
+      "/guslo/otono-invierno-2023/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/2152a98e-76c7-48a7-bcc3-e1cd847ccab4/643fac6c-b36b1687?__token__=st=1792695252~exp=1792698852~acl=%2Fv3-1%2Fplayback%2F2152a98e-76c7-48a7-bcc3-e1cd847ccab4%2F643fac6c-b36b1687%2A~hmac=b0d931dd4d7c786b38e7491018f2ef52d1acaa8929fe83d802f887545e8d89e8&r=dXMtd2VzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/2152a98e-76c7-48a7-bcc3-e1cd847ccab4/643fac6c-b36b1687/__index__q52011893",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 19054510,
+    "routes": [
+      "/guslo/otono-invierno-2023/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/27803b4d-3395-471d-a0c7-c5b870823cb2/d36088a5-4124cc99?__token__=st=1792695265~exp=1792698865~acl=%2Fv3-1%2Fplayback%2F27803b4d-3395-471d-a0c7-c5b870823cb2%2Fd36088a5-4124cc99%2A~hmac=6dfc84729a962cc16f91a8a095b7f330093d9eb638323bb1b0d52c569e362a66&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/27803b4d-3395-471d-a0c7-c5b870823cb2/d36088a5-4124cc99/__index__q4da44a89",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 2935551,
+    "routes": [
+      "/guslo/otono-invierno-2023/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/7a5a1948-1efb-4eed-b910-b7dd03752f30/7b63ac64-7a13694e?__token__=st=1792695265~exp=1792698865~acl=%2Fv3-1%2Fplayback%2F7a5a1948-1efb-4eed-b910-b7dd03752f30%2F7b63ac64-7a13694e%2A~hmac=bdbc734140d2caabc75f016f1d735ad5a13d1744d6449e6ea1058b41b4d1a5b9&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/7a5a1948-1efb-4eed-b910-b7dd03752f30/7b63ac64-7a13694e/__index__qa4f4c81e",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 3348308,
+    "routes": [
+      "/guslo/otono-invierno-2023/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/f393d920-1c34-4e74-862d-bcaa149b3477/52715a18-2263f015?__token__=st=1792695265~exp=1792698865~acl=%2Fv3-1%2Fplayback%2Ff393d920-1c34-4e74-862d-bcaa149b3477%2F52715a18-2263f015%2A~hmac=394a1a7f6303cc4d6867b682428416fee0f98fb6c6413434bca3ba9f866328f1&r=dXMtY2VudHJhbDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/f393d920-1c34-4e74-862d-bcaa149b3477/52715a18-2263f015/__index__q13256a3f",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 2185531,
+    "routes": [
+      "/guslo/otono-invierno-2023/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/adc4086f-84cb-4960-95c2-244c7570772f/072ab151-27fb3bfe?__token__=st=1792695265~exp=1792698865~acl=%2Fv3-1%2Fplayback%2Fadc4086f-84cb-4960-95c2-244c7570772f%2F072ab151-27fb3bfe%2A~hmac=d5b4799b7bc603f221be6ee9383185629ee72dbc2d98a9152e5aa21dd629d7fb&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/adc4086f-84cb-4960-95c2-244c7570772f/072ab151-27fb3bfe/__index__q1105d590",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 3250360,
+    "routes": [
+      "/guslo/otono-invierno-2023/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/adc4086f-84cb-4960-95c2-244c7570772f/072ab151-27fb3bfe?__token__=st=1792695266~exp=1792698866~acl=%2Fv3-1%2Fplayback%2Fadc4086f-84cb-4960-95c2-244c7570772f%2F072ab151-27fb3bfe%2A~hmac=ec4e376168d147515b0b7ad922b3936d7048e43bd1fa6bb57d2397afa80a1e5d&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/adc4086f-84cb-4960-95c2-244c7570772f/072ab151-27fb3bfe/__index__qc7d36b16",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 3250360,
+    "routes": [
+      "/guslo/otono-invierno-2023/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/9d474633-8b10-49b3-bf1d-63ef7f02aa49/9abdac2f-384f30fe?__token__=st=1792695278~exp=1792698878~acl=%2Fv3-1%2Fplayback%2F9d474633-8b10-49b3-bf1d-63ef7f02aa49%2F9abdac2f-384f30fe%2A~hmac=526e01996cf678d15f5064fd0cf8029b2ef3b41a3f5bca30573da214b837c855&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/9d474633-8b10-49b3-bf1d-63ef7f02aa49/9abdac2f-384f30fe/__index__qa11dbd47",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 2068811,
+    "routes": [
+      "/guslo/otono-invierno-2023/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/0345e706-1e82-44fd-b4b7-6790f4d6388c/214eca9e-410cc303?__token__=st=1792695289~exp=1792698889~acl=%2Fv3-1%2Fplayback%2F0345e706-1e82-44fd-b4b7-6790f4d6388c%2F214eca9e-410cc303%2A~hmac=9510b42250d13b4243e1069de8600533d1876b89988ffc86b6772879c68f59cc&r=dXMtd2VzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/0345e706-1e82-44fd-b4b7-6790f4d6388c/214eca9e-410cc303/__index__qb2c56c01",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 7541530,
+    "routes": [
+      "/guslo/otono-invierno-2023/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/ce161e6d-f684-4920-9a9c-727708d0373d/c65f2768-0686f80a?__token__=st=1792695295~exp=1792698895~acl=%2Fv3-1%2Fplayback%2Fce161e6d-f684-4920-9a9c-727708d0373d%2Fc65f2768-0686f80a%2A~hmac=f85db7b517bfa17cb5d908df1c955114a5a1a27bf9f47921b06a4fdeaf521c8e&r=dXMtd2VzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/ce161e6d-f684-4920-9a9c-727708d0373d/c65f2768-0686f80a/__index__qf5e28950",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 2190259,
+    "routes": [
+      "/guslo/otono-invierno-2023/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/6f54265d-0576-4ae7-b7e8-817a44ffa709/ad2720a3-9a0e6247?__token__=st=1792695306~exp=1792698906~acl=%2Fv3-1%2Fplayback%2F6f54265d-0576-4ae7-b7e8-817a44ffa709%2Fad2720a3-9a0e6247%2A~hmac=b15e821a5ea764fb1830fd2ae97dcda7814b58f4b071a96d5c2dfb26db2145a2&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/6f54265d-0576-4ae7-b7e8-817a44ffa709/ad2720a3-9a0e6247/__index__qfc4d0b30",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 7345643,
+    "routes": [
+      "/guslo/otono-invierno-2023/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/779b97e8-42a9-4831-a580-e895a41cbcac/4d02b141-d11e76fe?__token__=st=1792695312~exp=1792698912~acl=%2Fv3-1%2Fplayback%2F779b97e8-42a9-4831-a580-e895a41cbcac%2F4d02b141-d11e76fe%2A~hmac=c4a918067ab5d20cc87ef321ddfb399651998ecc2b76f58f07e272b6a132b520&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/779b97e8-42a9-4831-a580-e895a41cbcac/4d02b141-d11e76fe/__index__qc7794365",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 1111312,
+    "routes": [
+      "/guslo/otono-invierno-2023/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/27803b4d-3395-471d-a0c7-c5b870823cb2/d36088a5-4124cc99?__token__=st=1792695326~exp=1792698926~acl=%2Fv3-1%2Fplayback%2F27803b4d-3395-471d-a0c7-c5b870823cb2%2Fd36088a5-4124cc99%2A~hmac=1b6c8d289193765704273a5f392286c93ecdd67b3df7965fb1739ea064bf49c9&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/27803b4d-3395-471d-a0c7-c5b870823cb2/d36088a5-4124cc99/__index__q377dbf5f",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 2935551,
+    "routes": [
+      "/guslo/otono-invierno-2023/"
+    ]
+  },
+  "https://depoluxe.xyz/guslo/lanvin-collection/": {
+    "file": "files/depoluxe.xyz/guslo/lanvin-collection/index.html",
+    "status": 200,
+    "type": "text/html",
+    "bytes": 23627,
+    "routes": [
+      "/guslo/lanvin-collection/"
+    ]
+  },
+  "https://player.vimeo.com/progressive_redirect/playback/1193228577/rendition/720p/file.mp4%20%28720p%29.mp4?loc=external&signature=271ee9bb20259c27577ccab9c36185781115a7e4f0a8e9ba259043692d5b4f83": {
+    "file": null,
+    "status": 302,
+    "type": "",
+    "bytes": 0,
+    "routes": [
+      "/guslo/lanvin-collection/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/47fc9e6a-6945-4cd9-8b60-6f9e0ea243a1/47a444cf-412850eb?__token__=st=1792695331~exp=1792698931~acl=%2Fv3-1%2Fplayback%2F47fc9e6a-6945-4cd9-8b60-6f9e0ea243a1%2F47a444cf-412850eb%2A~hmac=4f28236684b08d604362edab57b3b7a2c93bf2717618df9a496cbbb494639cd8&r=dXMtY2VudHJhbDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/47fc9e6a-6945-4cd9-8b60-6f9e0ea243a1/47a444cf-412850eb/__index__q0e9b0cb7",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 23973897,
+    "routes": [
+      "/guslo/lanvin-collection/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/adc4086f-84cb-4960-95c2-244c7570772f/072ab151-27fb3bfe?__token__=st=1792695344~exp=1792698944~acl=%2Fv3-1%2Fplayback%2Fadc4086f-84cb-4960-95c2-244c7570772f%2F072ab151-27fb3bfe%2A~hmac=05f119357d7dfbfbee272eee81c7aabb73c838359a0e31d51eac7e4ea8ab5615&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/adc4086f-84cb-4960-95c2-244c7570772f/072ab151-27fb3bfe/__index__q59596905",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 3250360,
+    "routes": [
+      "/guslo/lanvin-collection/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/27803b4d-3395-471d-a0c7-c5b870823cb2/d36088a5-4124cc99?__token__=st=1792695344~exp=1792698944~acl=%2Fv3-1%2Fplayback%2F27803b4d-3395-471d-a0c7-c5b870823cb2%2Fd36088a5-4124cc99%2A~hmac=224128300bc6e15ceb3a5f5807cd8ca27c1e817a1aa0e90c1c0fec0903d7beb7&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/27803b4d-3395-471d-a0c7-c5b870823cb2/d36088a5-4124cc99/__index__qb7772284",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 2935551,
+    "routes": [
+      "/guslo/lanvin-collection/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/7a5a1948-1efb-4eed-b910-b7dd03752f30/7b63ac64-7a13694e?__token__=st=1792695344~exp=1792698944~acl=%2Fv3-1%2Fplayback%2F7a5a1948-1efb-4eed-b910-b7dd03752f30%2F7b63ac64-7a13694e%2A~hmac=8c1272e851a7ca12a10d533d34ccb244777888783f8c43595adb35fc630e7ce2&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/7a5a1948-1efb-4eed-b910-b7dd03752f30/7b63ac64-7a13694e/__index__q7cad37cc",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 3348308,
+    "routes": [
+      "/guslo/lanvin-collection/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/f393d920-1c34-4e74-862d-bcaa149b3477/52715a18-2263f015?__token__=st=1792695344~exp=1792698944~acl=%2Fv3-1%2Fplayback%2Ff393d920-1c34-4e74-862d-bcaa149b3477%2F52715a18-2263f015%2A~hmac=0273d462eee39827aba61fc1487db243857828109d92ff368002ab1213df5806&r=dXMtY2VudHJhbDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/f393d920-1c34-4e74-862d-bcaa149b3477/52715a18-2263f015/__index__q7b6b3225",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 2185531,
+    "routes": [
+      "/guslo/lanvin-collection/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/9d474633-8b10-49b3-bf1d-63ef7f02aa49/9abdac2f-384f30fe?__token__=st=1792695357~exp=1792698957~acl=%2Fv3-1%2Fplayback%2F9d474633-8b10-49b3-bf1d-63ef7f02aa49%2F9abdac2f-384f30fe%2A~hmac=3311210c543f2b5032c7731160abb8125b6660d697983fcb751750249b18efe7&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/9d474633-8b10-49b3-bf1d-63ef7f02aa49/9abdac2f-384f30fe/__index__q8b930552",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 2068811,
+    "routes": [
+      "/guslo/lanvin-collection/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/0345e706-1e82-44fd-b4b7-6790f4d6388c/214eca9e-410cc303?__token__=st=1792695368~exp=1792698968~acl=%2Fv3-1%2Fplayback%2F0345e706-1e82-44fd-b4b7-6790f4d6388c%2F214eca9e-410cc303%2A~hmac=25fc6a5796ff9a6551dfed6fd76f8fa6a5bab48228d706538cc22d3a87480c3a&r=dXMtd2VzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/0345e706-1e82-44fd-b4b7-6790f4d6388c/214eca9e-410cc303/__index__q5050c6dd",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 7541530,
+    "routes": [
+      "/guslo/lanvin-collection/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/ce161e6d-f684-4920-9a9c-727708d0373d/c65f2768-0686f80a?__token__=st=1792695374~exp=1792698974~acl=%2Fv3-1%2Fplayback%2Fce161e6d-f684-4920-9a9c-727708d0373d%2Fc65f2768-0686f80a%2A~hmac=7570632df547c856526ad142ad72e83c277d57714d7b56b321755e4e28d1ae7b&r=dXMtd2VzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/ce161e6d-f684-4920-9a9c-727708d0373d/c65f2768-0686f80a/__index__q99df8595",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 2190259,
+    "routes": [
+      "/guslo/lanvin-collection/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/6f54265d-0576-4ae7-b7e8-817a44ffa709/ad2720a3-9a0e6247?__token__=st=1792695386~exp=1792698986~acl=%2Fv3-1%2Fplayback%2F6f54265d-0576-4ae7-b7e8-817a44ffa709%2Fad2720a3-9a0e6247%2A~hmac=1e42cc9b4b9d9b91f2834863b585eb30529a899bc789ab15dcd8f3b73be941d3&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/6f54265d-0576-4ae7-b7e8-817a44ffa709/ad2720a3-9a0e6247/__index__q16a1e4e7",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 7345643,
+    "routes": [
+      "/guslo/lanvin-collection/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/779b97e8-42a9-4831-a580-e895a41cbcac/4d02b141-d11e76fe?__token__=st=1792695392~exp=1792698992~acl=%2Fv3-1%2Fplayback%2F779b97e8-42a9-4831-a580-e895a41cbcac%2F4d02b141-d11e76fe%2A~hmac=7752acd6449f6401722f03525d9cb8f481d23c1dd75cc67cd77fee591cf87bed&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/779b97e8-42a9-4831-a580-e895a41cbcac/4d02b141-d11e76fe/__index__q08e3a456",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 1111312,
+    "routes": [
+      "/guslo/lanvin-collection/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/27803b4d-3395-471d-a0c7-c5b870823cb2/d36088a5-4124cc99?__token__=st=1792695405~exp=1792699005~acl=%2Fv3-1%2Fplayback%2F27803b4d-3395-471d-a0c7-c5b870823cb2%2Fd36088a5-4124cc99%2A~hmac=084ae69ec758e32be8c70f5055ad7a263186d1a4cfa9fe5f5b0a91be00db3aaa&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/27803b4d-3395-471d-a0c7-c5b870823cb2/d36088a5-4124cc99/__index__q0b83515d",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 2935551,
+    "routes": [
+      "/guslo/lanvin-collection/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/adc4086f-84cb-4960-95c2-244c7570772f/072ab151-27fb3bfe?__token__=st=1792695405~exp=1792699005~acl=%2Fv3-1%2Fplayback%2Fadc4086f-84cb-4960-95c2-244c7570772f%2F072ab151-27fb3bfe%2A~hmac=34842aaa8cad7931cabf89520b9f5c9b329218c3c65199de9d155f58bae7f5d2&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/adc4086f-84cb-4960-95c2-244c7570772f/072ab151-27fb3bfe/__index__q38c6760a",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 3250360,
+    "routes": [
+      "/guslo/lanvin-collection/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/779b97e8-42a9-4831-a580-e895a41cbcac/4d02b141-d11e76fe?__token__=st=1792695405~exp=1792699005~acl=%2Fv3-1%2Fplayback%2F779b97e8-42a9-4831-a580-e895a41cbcac%2F4d02b141-d11e76fe%2A~hmac=b572e4a9010f425bebc87e24936fb6524164556f3e47cb0f017167e333a7e5de&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/779b97e8-42a9-4831-a580-e895a41cbcac/4d02b141-d11e76fe/__index__qfc009db3",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 1111312,
+    "routes": [
+      "/guslo/lanvin-collection/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/ce161e6d-f684-4920-9a9c-727708d0373d/c65f2768-0686f80a?__token__=st=1792695405~exp=1792699005~acl=%2Fv3-1%2Fplayback%2Fce161e6d-f684-4920-9a9c-727708d0373d%2Fc65f2768-0686f80a%2A~hmac=6efce2182bb9d5b67741beae1ac956e83ba87f39234132a24921333a4577635c&r=dXMtd2VzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/ce161e6d-f684-4920-9a9c-727708d0373d/c65f2768-0686f80a/__index__qceecaf17",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 2190259,
+    "routes": [
+      "/guslo/lanvin-collection/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/9d474633-8b10-49b3-bf1d-63ef7f02aa49/9abdac2f-384f30fe?__token__=st=1792695405~exp=1792699005~acl=%2Fv3-1%2Fplayback%2F9d474633-8b10-49b3-bf1d-63ef7f02aa49%2F9abdac2f-384f30fe%2A~hmac=1bf392e0da434a3f1c2c33ce466d56b340ab06eb8f0a64fd3562d12caf235ce0&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/9d474633-8b10-49b3-bf1d-63ef7f02aa49/9abdac2f-384f30fe/__index__q911c1b49",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 2068811,
+    "routes": [
+      "/guslo/lanvin-collection/"
+    ]
+  },
+  "https://depoluxe.xyz/guslo/nano-balloon/": {
+    "file": "files/depoluxe.xyz/guslo/nano-balloon/index.html",
+    "status": 200,
+    "type": "text/html",
+    "bytes": 23601,
+    "routes": [
+      "/guslo/nano-balloon/"
+    ]
+  },
+  "https://player.vimeo.com/progressive_redirect/playback/1193227388/rendition/720p/file.mp4%20%28720p%29.mp4?loc=external&signature=868d000f0e07d86f77f1dbdfc7850b1895323d4eb6aea18e612e859619dd9243": {
+    "file": null,
+    "status": 302,
+    "type": "",
+    "bytes": 0,
+    "routes": [
+      "/guslo/nano-balloon/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/d8db851a-50e2-4742-a3cf-7618e0ce175a/5fcc5071-fa5ca44c?__token__=st=1792695411~exp=1792699011~acl=%2Fv3-1%2Fplayback%2Fd8db851a-50e2-4742-a3cf-7618e0ce175a%2F5fcc5071-fa5ca44c%2A~hmac=846aa6f055d0da45ecead2e418888172c3d5bd9723f35323932618cac429b344&r=dXMtd2VzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/d8db851a-50e2-4742-a3cf-7618e0ce175a/5fcc5071-fa5ca44c/__index__q6a653531",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 4556714,
+    "routes": [
+      "/guslo/nano-balloon/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/adc4086f-84cb-4960-95c2-244c7570772f/072ab151-27fb3bfe?__token__=st=1792695423~exp=1792699023~acl=%2Fv3-1%2Fplayback%2Fadc4086f-84cb-4960-95c2-244c7570772f%2F072ab151-27fb3bfe%2A~hmac=71670fcd84959fb66185e9ef9406dbf1ce46464e07f120866c7ed52e17338a50&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/adc4086f-84cb-4960-95c2-244c7570772f/072ab151-27fb3bfe/__index__q70bfffcc",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 3250360,
+    "routes": [
+      "/guslo/nano-balloon/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/27803b4d-3395-471d-a0c7-c5b870823cb2/d36088a5-4124cc99?__token__=st=1792695423~exp=1792699023~acl=%2Fv3-1%2Fplayback%2F27803b4d-3395-471d-a0c7-c5b870823cb2%2Fd36088a5-4124cc99%2A~hmac=cf6df5cbd529886d3569cc0bfa7a678cfcb75286bb04ddbfc7a1d04e671dd2f3&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/27803b4d-3395-471d-a0c7-c5b870823cb2/d36088a5-4124cc99/__index__q78204030",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 2935551,
+    "routes": [
+      "/guslo/nano-balloon/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/f393d920-1c34-4e74-862d-bcaa149b3477/52715a18-2263f015?__token__=st=1792695423~exp=1792699023~acl=%2Fv3-1%2Fplayback%2Ff393d920-1c34-4e74-862d-bcaa149b3477%2F52715a18-2263f015%2A~hmac=de17e456b4537aa211742400805b171a7532133fdc2c6049cbda38117768e727&r=dXMtY2VudHJhbDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/f393d920-1c34-4e74-862d-bcaa149b3477/52715a18-2263f015/__index__q58ae1324",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 2185531,
+    "routes": [
+      "/guslo/nano-balloon/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/7a5a1948-1efb-4eed-b910-b7dd03752f30/7b63ac64-7a13694e?__token__=st=1792695423~exp=1792699023~acl=%2Fv3-1%2Fplayback%2F7a5a1948-1efb-4eed-b910-b7dd03752f30%2F7b63ac64-7a13694e%2A~hmac=0d503085c30b184949668e20c59cdc0dc2a5b7d7e5f93d3a2789d7ac30df0373&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/7a5a1948-1efb-4eed-b910-b7dd03752f30/7b63ac64-7a13694e/__index__q169887da",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 3348308,
+    "routes": [
+      "/guslo/nano-balloon/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/9d474633-8b10-49b3-bf1d-63ef7f02aa49/9abdac2f-384f30fe?__token__=st=1792695435~exp=1792699035~acl=%2Fv3-1%2Fplayback%2F9d474633-8b10-49b3-bf1d-63ef7f02aa49%2F9abdac2f-384f30fe%2A~hmac=33dd0dfba1c5ee237085a391c79dae50af076fef7cf88ad1514d33e19cef392b&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/9d474633-8b10-49b3-bf1d-63ef7f02aa49/9abdac2f-384f30fe/__index__q2057f325",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 2068811,
+    "routes": [
+      "/guslo/nano-balloon/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/0345e706-1e82-44fd-b4b7-6790f4d6388c/214eca9e-410cc303?__token__=st=1792695445~exp=1792699045~acl=%2Fv3-1%2Fplayback%2F0345e706-1e82-44fd-b4b7-6790f4d6388c%2F214eca9e-410cc303%2A~hmac=7e8597d44ede1cddbe65ed1a3c8efd394fa7093f2886bfe219fb1958cc9df3de&r=dXMtd2VzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/0345e706-1e82-44fd-b4b7-6790f4d6388c/214eca9e-410cc303/__index__qb3acd5a3",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 7541530,
+    "routes": [
+      "/guslo/nano-balloon/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/ce161e6d-f684-4920-9a9c-727708d0373d/c65f2768-0686f80a?__token__=st=1792695452~exp=1792699052~acl=%2Fv3-1%2Fplayback%2Fce161e6d-f684-4920-9a9c-727708d0373d%2Fc65f2768-0686f80a%2A~hmac=80989a25be253d3e546696caa88dbef2e207efacdb818856ed886f120a798c04&r=dXMtd2VzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/ce161e6d-f684-4920-9a9c-727708d0373d/c65f2768-0686f80a/__index__qbd7ab827",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 2190259,
+    "routes": [
+      "/guslo/nano-balloon/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/6f54265d-0576-4ae7-b7e8-817a44ffa709/ad2720a3-9a0e6247?__token__=st=1792695462~exp=1792699062~acl=%2Fv3-1%2Fplayback%2F6f54265d-0576-4ae7-b7e8-817a44ffa709%2Fad2720a3-9a0e6247%2A~hmac=34927b12c4e31d60118b799fd8e49509d87f75e3cddec2e3b15cfd94c51c4d79&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/6f54265d-0576-4ae7-b7e8-817a44ffa709/ad2720a3-9a0e6247/__index__qec678df9",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 7345643,
+    "routes": [
+      "/guslo/nano-balloon/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/779b97e8-42a9-4831-a580-e895a41cbcac/4d02b141-d11e76fe?__token__=st=1792695469~exp=1792699069~acl=%2Fv3-1%2Fplayback%2F779b97e8-42a9-4831-a580-e895a41cbcac%2F4d02b141-d11e76fe%2A~hmac=d151f3fbf04410393c116f37b73063f94897ae08ab1b3307c85c91e7c673ea89&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/779b97e8-42a9-4831-a580-e895a41cbcac/4d02b141-d11e76fe/__index__q04b37fc1",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 1111312,
+    "routes": [
+      "/guslo/nano-balloon/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/27803b4d-3395-471d-a0c7-c5b870823cb2/d36088a5-4124cc99?__token__=st=1792695482~exp=1792699082~acl=%2Fv3-1%2Fplayback%2F27803b4d-3395-471d-a0c7-c5b870823cb2%2Fd36088a5-4124cc99%2A~hmac=1a6078d1014f0be8d094eb846cf35a49a41575c04e361d90c90ee006f0143ddb&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/27803b4d-3395-471d-a0c7-c5b870823cb2/d36088a5-4124cc99/__index__q74804b19",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 2935551,
+    "routes": [
+      "/guslo/nano-balloon/"
+    ]
+  },
+  "https://depoluxe.xyz/guslo/zara-basez/": {
+    "file": "files/depoluxe.xyz/guslo/zara-basez/index.html",
+    "status": 200,
+    "type": "text/html",
+    "bytes": 23596,
+    "routes": [
+      "/guslo/zara-basez/"
+    ]
+  },
+  "https://player.vimeo.com/progressive_redirect/playback/1193226136/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&signature=2ae047a49d6bfb4e960f9abdc84a58da6207c68d018fe12137ddb0d3515ce97a": {
+    "file": null,
+    "status": 302,
+    "type": "",
+    "bytes": 0,
+    "routes": [
+      "/guslo/zara-basez/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/466cb61c-9117-4bf0-89a6-843f3a2ff0fe/3ad360f5-33b34a6b?__token__=st=1792695488~exp=1792699088~acl=%2Fv3-1%2Fplayback%2F466cb61c-9117-4bf0-89a6-843f3a2ff0fe%2F3ad360f5-33b34a6b%2A~hmac=2baef4ffd212339f48137e6eacf7e84b38f82c132d920aa5bdc6042a2f36fd79&r=dXMtd2VzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/466cb61c-9117-4bf0-89a6-843f3a2ff0fe/3ad360f5-33b34a6b/__index__qb49409bf",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 18194462,
+    "routes": [
+      "/guslo/zara-basez/"
+    ]
+  },
+  "https://depoluxe.xyz/guslo/numero-france/": {
+    "file": "files/depoluxe.xyz/guslo/numero-france/index.html",
+    "status": 200,
+    "type": "text/html",
+    "bytes": 23606,
+    "routes": [
+      "/guslo/numero-france/"
+    ]
+  },
+  "https://player.vimeo.com/progressive_redirect/playback/1193224806/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&signature=39fe15e1a0760803a0631a455b64d56f94fe031f430dcdac33b768b53c1efde2": {
+    "file": null,
+    "status": 302,
+    "type": "",
+    "bytes": 0,
+    "routes": [
+      "/guslo/numero-france/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/2d13b9eb-0edb-45d2-9210-7bf31513caac/af69c5a2-7938d303?__token__=st=1792695637~exp=1792699237~acl=%2Fv3-1%2Fplayback%2F2d13b9eb-0edb-45d2-9210-7bf31513caac%2Faf69c5a2-7938d303%2A~hmac=84798655ad3c5afa1538426ac69133ee6b9ef1e99d0d6f61d33eaa3f960e8d6a&r=dXMtd2VzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/2d13b9eb-0edb-45d2-9210-7bf31513caac/af69c5a2-7938d303/__index__qec1b400a",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 21264075,
+    "routes": [
+      "/guslo/numero-france/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/f393d920-1c34-4e74-862d-bcaa149b3477/52715a18-2263f015?__token__=st=1792695650~exp=1792699250~acl=%2Fv3-1%2Fplayback%2Ff393d920-1c34-4e74-862d-bcaa149b3477%2F52715a18-2263f015%2A~hmac=b69d8b26ad289ab173025fdb899153b8b93104eb09590981b003708c7ab55cad&r=dXMtY2VudHJhbDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/f393d920-1c34-4e74-862d-bcaa149b3477/52715a18-2263f015/__index__q19d02a6e",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 2185531,
+    "routes": [
+      "/guslo/numero-france/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/7a5a1948-1efb-4eed-b910-b7dd03752f30/7b63ac64-7a13694e?__token__=st=1792695650~exp=1792699250~acl=%2Fv3-1%2Fplayback%2F7a5a1948-1efb-4eed-b910-b7dd03752f30%2F7b63ac64-7a13694e%2A~hmac=e9faba1212a770f36c368bebaa43b3dd86ecb1982d12824652c6bb87467b72be&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/7a5a1948-1efb-4eed-b910-b7dd03752f30/7b63ac64-7a13694e/__index__q5e134a35",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 3348308,
+    "routes": [
+      "/guslo/numero-france/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/adc4086f-84cb-4960-95c2-244c7570772f/072ab151-27fb3bfe?__token__=st=1792695650~exp=1792699250~acl=%2Fv3-1%2Fplayback%2Fadc4086f-84cb-4960-95c2-244c7570772f%2F072ab151-27fb3bfe%2A~hmac=1b555625dfd83a667fe5372cb1a1f07f743e94ceebe2ef5ef33825e499dc8fd4&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/adc4086f-84cb-4960-95c2-244c7570772f/072ab151-27fb3bfe/__index__q5cd10c78",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 3250360,
+    "routes": [
+      "/guslo/numero-france/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/27803b4d-3395-471d-a0c7-c5b870823cb2/d36088a5-4124cc99?__token__=st=1792695650~exp=1792699250~acl=%2Fv3-1%2Fplayback%2F27803b4d-3395-471d-a0c7-c5b870823cb2%2Fd36088a5-4124cc99%2A~hmac=2a1151a8d0f6c9f910fb15c0b76ceeeaa2ffd8a14b2ca67830b05f135c0b637c&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/27803b4d-3395-471d-a0c7-c5b870823cb2/d36088a5-4124cc99/__index__qfc88be17",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 2935551,
+    "routes": [
+      "/guslo/numero-france/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/adc4086f-84cb-4960-95c2-244c7570772f/072ab151-27fb3bfe?__token__=st=1792695651~exp=1792699251~acl=%2Fv3-1%2Fplayback%2Fadc4086f-84cb-4960-95c2-244c7570772f%2F072ab151-27fb3bfe%2A~hmac=953e960a9f97a7e4ab2c3ece9f977edacadb5eeb1d62d212a4bd5f6108b6b633&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/adc4086f-84cb-4960-95c2-244c7570772f/072ab151-27fb3bfe/__index__qf78f184e",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 3250360,
+    "routes": [
+      "/guslo/numero-france/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/27803b4d-3395-471d-a0c7-c5b870823cb2/d36088a5-4124cc99?__token__=st=1792695651~exp=1792699251~acl=%2Fv3-1%2Fplayback%2F27803b4d-3395-471d-a0c7-c5b870823cb2%2Fd36088a5-4124cc99%2A~hmac=df626f520ff171ec4012ff9a1a2d34780b5afb5d91f70fc16f28112ae4fe1ba7&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/27803b4d-3395-471d-a0c7-c5b870823cb2/d36088a5-4124cc99/__index__q632fbb4b",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 2935551,
+    "routes": [
+      "/guslo/numero-france/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/9d474633-8b10-49b3-bf1d-63ef7f02aa49/9abdac2f-384f30fe?__token__=st=1792695663~exp=1792699263~acl=%2Fv3-1%2Fplayback%2F9d474633-8b10-49b3-bf1d-63ef7f02aa49%2F9abdac2f-384f30fe%2A~hmac=da7df34674147be6d44b08ff83b8e592698b573be12e82911aabe19750ded508&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/9d474633-8b10-49b3-bf1d-63ef7f02aa49/9abdac2f-384f30fe/__index__q9a951560",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 2068811,
+    "routes": [
+      "/guslo/numero-france/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/0345e706-1e82-44fd-b4b7-6790f4d6388c/214eca9e-410cc303?__token__=st=1792695674~exp=1792699274~acl=%2Fv3-1%2Fplayback%2F0345e706-1e82-44fd-b4b7-6790f4d6388c%2F214eca9e-410cc303%2A~hmac=2732ba51c26431e6121d1bced57f5b96420d1c0412efb3a7767229d6a46849c4&r=dXMtd2VzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/0345e706-1e82-44fd-b4b7-6790f4d6388c/214eca9e-410cc303/__index__q67b3c748",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 7541530,
+    "routes": [
+      "/guslo/numero-france/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/ce161e6d-f684-4920-9a9c-727708d0373d/c65f2768-0686f80a?__token__=st=1792695681~exp=1792699281~acl=%2Fv3-1%2Fplayback%2Fce161e6d-f684-4920-9a9c-727708d0373d%2Fc65f2768-0686f80a%2A~hmac=d51a7b6781d0f878872a957949d270eeec95d362008b16e39fd4e43d86d06d4b&r=dXMtd2VzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/ce161e6d-f684-4920-9a9c-727708d0373d/c65f2768-0686f80a/__index__qc120a7ff",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 2190259,
+    "routes": [
+      "/guslo/numero-france/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/6f54265d-0576-4ae7-b7e8-817a44ffa709/ad2720a3-9a0e6247?__token__=st=1792695691~exp=1792699291~acl=%2Fv3-1%2Fplayback%2F6f54265d-0576-4ae7-b7e8-817a44ffa709%2Fad2720a3-9a0e6247%2A~hmac=fe1e504947ce472c08a700d964408b8c5b4afb3c41f7391d1371ac472680dbcc&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/6f54265d-0576-4ae7-b7e8-817a44ffa709/ad2720a3-9a0e6247/__index__qc0880273",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 7345643,
+    "routes": [
+      "/guslo/numero-france/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/779b97e8-42a9-4831-a580-e895a41cbcac/4d02b141-d11e76fe?__token__=st=1792695698~exp=1792699298~acl=%2Fv3-1%2Fplayback%2F779b97e8-42a9-4831-a580-e895a41cbcac%2F4d02b141-d11e76fe%2A~hmac=da458655c748bef07db4eb247beaac41d5fd1a5bbd08256576cbbdf881533de5&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/779b97e8-42a9-4831-a580-e895a41cbcac/4d02b141-d11e76fe/__index__qac2dd6a4",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 1111312,
+    "routes": [
+      "/guslo/numero-france/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/27803b4d-3395-471d-a0c7-c5b870823cb2/d36088a5-4124cc99?__token__=st=1792695711~exp=1792699311~acl=%2Fv3-1%2Fplayback%2F27803b4d-3395-471d-a0c7-c5b870823cb2%2Fd36088a5-4124cc99%2A~hmac=c876280497f7ce41d3f2bde101343a723ce0dc234a530279863f74a917e35800&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/27803b4d-3395-471d-a0c7-c5b870823cb2/d36088a5-4124cc99/__index__qf43b003d",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 2935551,
+    "routes": [
+      "/guslo/numero-france/"
+    ]
+  },
+  "https://depoluxe.xyz/jonas-akerlund/god-control/": {
+    "file": "files/depoluxe.xyz/jonas-akerlund/god-control/index.html",
+    "status": 200,
+    "type": "text/html",
+    "bytes": 23614,
+    "routes": [
+      "/jonas-akerlund/god-control/"
+    ]
+  },
+  "https://depoluxe.xyz/jonas-akerlund/fall-fashion/": {
+    "file": "files/depoluxe.xyz/jonas-akerlund/fall-fashion/index.html",
+    "status": 200,
+    "type": "text/html",
+    "bytes": 23614,
+    "routes": [
+      "/jonas-akerlund/fall-fashion/"
+    ]
+  },
+  "https://player.vimeo.com/progressive_redirect/playback/1193206115/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&signature=c3280ec85bbbcce18501dbdfaa697e14fe164fa631847476c956493084cf9a0e": {
+    "file": null,
+    "status": 302,
+    "type": "",
+    "bytes": 0,
+    "routes": [
+      "/jonas-akerlund/fall-fashion/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/8a2892cc-a276-4315-8a5f-f3fac63d4b66/a4d1905c-f78502b2?__token__=st=1792695764~exp=1792699364~acl=%2Fv3-1%2Fplayback%2F8a2892cc-a276-4315-8a5f-f3fac63d4b66%2Fa4d1905c-f78502b2%2A~hmac=9c02c9c235aff78aa86d52f1987d6f316a2d6d6e2525046ae1cbb9b9194dcd80&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/8a2892cc-a276-4315-8a5f-f3fac63d4b66/a4d1905c-f78502b2/__index__q56822436",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 30503897,
+    "routes": [
+      "/jonas-akerlund/fall-fashion/"
+    ]
+  },
+  "https://depoluxe.xyz/jonas-akerlund/addict/": {
+    "file": "files/depoluxe.xyz/jonas-akerlund/addict/index.html",
+    "status": 200,
+    "type": "text/html",
+    "bytes": 23584,
+    "routes": [
+      "/jonas-akerlund/addict/"
+    ]
+  },
+  "https://player.vimeo.com/progressive_redirect/playback/1193202837/rendition/720p/file.mp4%20%28720p%29.mp4?loc=external&signature=3e9dfc71b369138eee5f656cf1e9baaaba9df92043ff1aa3fe3b463c3adb69e7": {
+    "file": null,
+    "status": 302,
+    "type": "",
+    "bytes": 0,
+    "routes": [
+      "/jonas-akerlund/addict/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/8d9e8e9a-12ae-4335-9e80-9e32c3d527ba/e06d6f11-a8c16a43?__token__=st=1792695807~exp=1792699407~acl=%2Fv3-1%2Fplayback%2F8d9e8e9a-12ae-4335-9e80-9e32c3d527ba%2Fe06d6f11-a8c16a43%2A~hmac=e5b2a145563844a7c21b404daf7f08045ae56055017b0c0a6f70482c86e11421&r=dXMtY2VudHJhbDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/8d9e8e9a-12ae-4335-9e80-9e32c3d527ba/e06d6f11-a8c16a43/__index__qb9cabe76",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 10066863,
+    "routes": [
+      "/jonas-akerlund/addict/"
+    ]
+  },
+  "https://depoluxe.xyz/jonas-akerlund/itau-madonna/": {
+    "file": "files/depoluxe.xyz/jonas-akerlund/itau-madonna/index.html",
+    "status": 200,
+    "type": "text/html",
+    "bytes": 23617,
+    "routes": [
+      "/jonas-akerlund/itau-madonna/"
+    ]
+  },
+  "https://player.vimeo.com/progressive_redirect/playback/1193210174/rendition/540p/file.mp4%20%28540p%29.mp4?loc=external&signature=bce9a41994a874c8af864db89c9403f6f3661f6fcc149ebed8179ba05e2f7765": {
+    "file": null,
+    "status": 302,
+    "type": "",
+    "bytes": 0,
+    "routes": [
+      "/jonas-akerlund/itau-madonna/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/f36e5f82-938f-4dff-b55d-fe220da5e88d/fbb2d865-50fe7e2f?__token__=st=1792695848~exp=1792699448~acl=%2Fv3-1%2Fplayback%2Ff36e5f82-938f-4dff-b55d-fe220da5e88d%2Ffbb2d865-50fe7e2f%2A~hmac=fea78d2a9a5c6c806f88062245b427384e49c6152e6bf165fdff1888791fe720&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/f36e5f82-938f-4dff-b55d-fe220da5e88d/fbb2d865-50fe7e2f/__index__qde553f97",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 12992654,
+    "routes": [
+      "/jonas-akerlund/itau-madonna/"
+    ]
+  },
+  "https://depoluxe.xyz/jonas-akerlund/o2/": {
+    "file": "files/depoluxe.xyz/jonas-akerlund/o2/index.html",
+    "status": 200,
+    "type": "text/html",
+    "bytes": 23569,
+    "routes": [
+      "/jonas-akerlund/o2/"
+    ]
+  },
+  "https://player.vimeo.com/progressive_redirect/playback/1193188530/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&signature=c7b182d11cb80ad152587075af43cc5d40a4e990edb60fe0b5f3397606a6d075": {
+    "file": null,
+    "status": 302,
+    "type": "",
+    "bytes": 0,
+    "routes": [
+      "/jonas-akerlund/o2/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/2588f7fa-3302-4af5-b967-89f01054eac6/fe232e7d-b1628ff6?__token__=st=1792696026~exp=1792699626~acl=%2Fv3-1%2Fplayback%2F2588f7fa-3302-4af5-b967-89f01054eac6%2Ffe232e7d-b1628ff6%2A~hmac=4ea204567a71b3a942bd7cdb1495725a0395fd005788406f47c8d657e8709ecc&r=dXMtY2VudHJhbDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/2588f7fa-3302-4af5-b967-89f01054eac6/fe232e7d-b1628ff6/__index__q6fbf5e6b",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 82151213,
+    "routes": [
+      "/jonas-akerlund/o2/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/ac0e034e-bc9c-4717-a260-6123a182046e/c2fb65ea-f15d6057?__token__=st=1792696041~exp=1792699641~acl=%2Fv3-1%2Fplayback%2Fac0e034e-bc9c-4717-a260-6123a182046e%2Fc2fb65ea-f15d6057%2A~hmac=e6f30d7feda97c3bdffc7e3afd03eb4bfa5929a5b1b734a0b48162aacaad2194&r=dXMtd2VzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/ac0e034e-bc9c-4717-a260-6123a182046e/c2fb65ea-f15d6057/__index__qbb68cf62",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 3799250,
+    "routes": [
+      "/jonas-akerlund/o2/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/d4ccc52e-a0bd-48f2-a2ae-fae957bd7d71/aadff068-fe402e20?__token__=st=1792696041~exp=1792699641~acl=%2Fv3-1%2Fplayback%2Fd4ccc52e-a0bd-48f2-a2ae-fae957bd7d71%2Faadff068-fe402e20%2A~hmac=4e86be6282eefacb8d7ac027e167fd7e41b139a525f8b6c526efc64c18906eb7&r=dXMtY2VudHJhbDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/d4ccc52e-a0bd-48f2-a2ae-fae957bd7d71/aadff068-fe402e20/__index__q1896b848",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 7730756,
+    "routes": [
+      "/jonas-akerlund/o2/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/8521d29f-dc12-4e9f-ad02-5e6d1108506e/8819ae76-214cd106?__token__=st=1792696041~exp=1792699641~acl=%2Fv3-1%2Fplayback%2F8521d29f-dc12-4e9f-ad02-5e6d1108506e%2F8819ae76-214cd106%2A~hmac=dd126d6c211917dfb28b6908c9dec0bd1d11ca125975d3b038072453aa32a811&r=dXMtd2VzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/8521d29f-dc12-4e9f-ad02-5e6d1108506e/8819ae76-214cd106/__index__qb2cd3bfd",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 7712471,
+    "routes": [
+      "/jonas-akerlund/o2/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/a9d18ab2-e63d-4865-9a0e-8d3d0c34e78d/c9104369-428e9bbf?__token__=st=1792696041~exp=1792699641~acl=%2Fv3-1%2Fplayback%2Fa9d18ab2-e63d-4865-9a0e-8d3d0c34e78d%2Fc9104369-428e9bbf%2A~hmac=f2ab5d865a9425d4dfe0b38185c63d6e599b3bcad7fcaf372357b1d1ab8ba279&r=dXMtZWFzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/a9d18ab2-e63d-4865-9a0e-8d3d0c34e78d/c9104369-428e9bbf/__index__q9ec1a56c",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 6577868,
+    "routes": [
+      "/jonas-akerlund/o2/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/ddd07cb8-2355-473a-9128-d00f7a2b3a5b/ce1e355e-05d0a950?__token__=st=1792696073~exp=1792699673~acl=%2Fv3-1%2Fplayback%2Fddd07cb8-2355-473a-9128-d00f7a2b3a5b%2Fce1e355e-05d0a950%2A~hmac=b4dc5b69bde64e73e18d8a69c28780c45816dd0d945fefff0273b61732e3984e&r=dXMtY2VudHJhbDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/ddd07cb8-2355-473a-9128-d00f7a2b3a5b/ce1e355e-05d0a950/__index__q5c4d1365",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 3995820,
+    "routes": [
+      "/jonas-akerlund/o2/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/3fd43989-310f-439c-bd1f-d0116688f550/711a495d-41a2163c?__token__=st=1792696101~exp=1792699701~acl=%2Fv3-1%2Fplayback%2F3fd43989-310f-439c-bd1f-d0116688f550%2F711a495d-41a2163c%2A~hmac=6d4a4efd89ecfdd8ad4e879a79e818658ff4cab04dd2373e3bdd5c159b211626&r=dXMtY2VudHJhbDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/3fd43989-310f-439c-bd1f-d0116688f550/711a495d-41a2163c/__index__q25a37eaa",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 6613912,
+    "routes": [
+      "/jonas-akerlund/o2/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/1cf3477d-698d-4864-8d31-724378d98dab/0650cdd2-ef60fbf8?__token__=st=1792696116~exp=1792699716~acl=%2Fv3-1%2Fplayback%2F1cf3477d-698d-4864-8d31-724378d98dab%2F0650cdd2-ef60fbf8%2A~hmac=c3b66154bc8e7f5e6deb5a89262f9b326724fdc1b5bb8af662cda5e9a0f1a0cc&r=dXMtY2VudHJhbDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/1cf3477d-698d-4864-8d31-724378d98dab/0650cdd2-ef60fbf8/__index__q98b1d07b",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 2179363,
+    "routes": [
+      "/jonas-akerlund/o2/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/249ddf59-5b8c-4571-9dfe-877b48be2565/a680d162-f8de4339?__token__=st=1792696141~exp=1792699741~acl=%2Fv3-1%2Fplayback%2F249ddf59-5b8c-4571-9dfe-877b48be2565%2Fa680d162-f8de4339%2A~hmac=b08f3229cf125fdf25229296b024a4b00e03e715bfdd516db5905c0281d7fd3b&r=dXMtd2VzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/249ddf59-5b8c-4571-9dfe-877b48be2565/a680d162-f8de4339/__index__q86353826",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 7519163,
+    "routes": [
+      "/jonas-akerlund/o2/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/249ddf59-5b8c-4571-9dfe-877b48be2565/a680d162-f8de4339?__token__=st=1792696155~exp=1792699755~acl=%2Fv3-1%2Fplayback%2F249ddf59-5b8c-4571-9dfe-877b48be2565%2Fa680d162-f8de4339%2A~hmac=3981439cb9116f980369c17b66be1be9b37cbaae6ac76cfdf3bf5d07de6cf0a2&r=dXMtd2VzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/249ddf59-5b8c-4571-9dfe-877b48be2565/a680d162-f8de4339/__index__q7a7acaf3",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 7519163,
+    "routes": [
+      "/jonas-akerlund/o2/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/8521d29f-dc12-4e9f-ad02-5e6d1108506e/8819ae76-214cd106?__token__=st=1792696183~exp=1792699783~acl=%2Fv3-1%2Fplayback%2F8521d29f-dc12-4e9f-ad02-5e6d1108506e%2F8819ae76-214cd106%2A~hmac=9be8e9ad49453a6fe41f17e31bb3326200d62e86429289f3c3d533904a8e4f2a&r=dXMtd2VzdDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/8521d29f-dc12-4e9f-ad02-5e6d1108506e/8819ae76-214cd106/__index__q831c810c",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 7712471,
+    "routes": [
+      "/jonas-akerlund/o2/"
+    ]
+  },
+  "https://depoluxe.xyz/jonas-akerlund/spring-summer/": {
+    "file": "files/depoluxe.xyz/jonas-akerlund/spring-summer/index.html",
+    "status": 200,
+    "type": "text/html",
+    "bytes": 23638,
+    "routes": [
+      "/jonas-akerlund/spring-summer/"
+    ]
+  },
+  "https://player.vimeo.com/progressive_redirect/playback/1193185866/rendition/720p/file.mp4%20%28720p%29.mp4?loc=external&signature=c3a02c4cb0ea929db644dd8bcc5deb25813d9b808b5cadbc69aa359dc46a1eea": {
+    "file": null,
+    "status": 302,
+    "type": "",
+    "bytes": 0,
+    "routes": [
+      "/jonas-akerlund/spring-summer/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/1268b333-8b42-43a7-813b-40a0ae7f4eb2/14037518-13588334?__token__=st=1792696197~exp=1792699797~acl=%2Fv3-1%2Fplayback%2F1268b333-8b42-43a7-813b-40a0ae7f4eb2%2F14037518-13588334%2A~hmac=4b4321df6e4c3c48425805b6c8e0e6f4ba0f0a2e96b0226915e505a16e283708&r=dXMtY2VudHJhbDE%3D": {
+    "file": "files/download-video-ak.vimeocdn.com/v3-1/playback/1268b333-8b42-43a7-813b-40a0ae7f4eb2/14037518-13588334/__index__q0fdb4fc9",
+    "status": 200,
+    "type": "video/mp4",
+    "bytes": 20422000,
+    "routes": [
+      "/jonas-akerlund/spring-summer/"
+    ]
+  },
+  "https://depoluxe.xyz/mar-regas/kids-editorial/": {
+    "file": "files/depoluxe.xyz/mar-regas/kids-editorial/index.html",
+    "status": 200,
+    "type": "text/html",
+    "bytes": 31011,
+    "routes": [
+      "/mar-regas/kids-editorial/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13110231/DALSTON_KIDS__94A0955-20x30.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13110231/DALSTON_KIDS__94A0955-20x30.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 256,
+    "routes": [
+      "/mar-regas/kids-editorial/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13110248/DALSTON_KIDS__94A2803-20x30.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13110248/DALSTON_KIDS__94A2803-20x30.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 414,
+    "routes": [
+      "/mar-regas/kids-editorial/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13110235/DALSTON_KIDS__94A0994-20x30.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13110235/DALSTON_KIDS__94A0994-20x30.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 338,
+    "routes": [
+      "/mar-regas/kids-editorial/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13110222/94A2122-2-768x1152-1-20x30.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13110222/94A2122-2-768x1152-1-20x30.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 338,
+    "routes": [
+      "/mar-regas/kids-editorial/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13110244/DALSTON_KIDS__94A2754-20x30.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13110244/DALSTON_KIDS__94A2754-20x30.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 368,
+    "routes": [
+      "/mar-regas/kids-editorial/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13110239/DALSTON_KIDS__94A1013-copia-20x30.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13110239/DALSTON_KIDS__94A1013-copia-20x30.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 376,
+    "routes": [
+      "/mar-regas/kids-editorial/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13110227/DALSTON_KIDS__94A0514-768x1152-1-20x30.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13110227/DALSTON_KIDS__94A0514-768x1152-1-20x30.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 388,
+    "routes": [
+      "/mar-regas/kids-editorial/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13110250/unnamed-file-768x1152-1-20x30.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13110250/unnamed-file-768x1152-1-20x30.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 316,
+    "routes": [
+      "/mar-regas/kids-editorial/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13110241/DALSTON_KIDS__94A2282b-768x1152-1-20x30.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13110241/DALSTON_KIDS__94A2282b-768x1152-1-20x30.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 392,
+    "routes": [
+      "/mar-regas/kids-editorial/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13110224/DALSTON_KIDS__94A0299-20x30.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13110224/DALSTON_KIDS__94A0299-20x30.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 342,
+    "routes": [
+      "/mar-regas/kids-editorial/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13110229/DALSTON_KIDS__94A0733-20x30.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13110229/DALSTON_KIDS__94A0733-20x30.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 296,
+    "routes": [
+      "/mar-regas/kids-editorial/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13110231/DALSTON_KIDS__94A0955-916x1374.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13110231/DALSTON_KIDS__94A0955-916x1374.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/mar-regas/kids-editorial/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13110248/DALSTON_KIDS__94A2803-916x1374.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13110248/DALSTON_KIDS__94A2803-916x1374.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/mar-regas/kids-editorial/"
+    ]
+  },
+  "https://depoluxe.xyz/mar-regas/dior-ss18-digital/": {
+    "file": "files/depoluxe.xyz/mar-regas/dior-ss18-digital/index.html",
+    "status": 200,
+    "type": "text/html",
+    "bytes": 27626,
+    "routes": [
+      "/mar-regas/dior-ss18-digital/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13105856/Shot_06_Jadior_Heel_023_01_QC_RGB-1-20x13.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13105856/Shot_06_Jadior_Heel_023_01_QC_RGB-1-20x13.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 144,
+    "routes": [
+      "/mar-regas/dior-ss18-digital/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13105853/Shot_05_Baby_Shoe_075_02_QC_RGB-20x13.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13105853/Shot_05_Baby_Shoe_075_02_QC_RGB-20x13.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 188,
+    "routes": [
+      "/mar-regas/dior-ss18-digital/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13105846/Shot_03_Bag_with_Strap_013_02_QC_RGB-20x30.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13105846/Shot_03_Bag_with_Strap_013_02_QC_RGB-20x30.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 324,
+    "routes": [
+      "/mar-regas/dior-ss18-digital/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13105843/Shot_02_Checkered_051_02_QC_RGB-20x30.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13105843/Shot_02_Checkered_051_02_QC_RGB-20x30.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 294,
+    "routes": [
+      "/mar-regas/dior-ss18-digital/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13105849/Shot_04_Checkered_Tote_Sneaker_104_02_QC_RGB-1-20x13.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13105849/Shot_04_Checkered_Tote_Sneaker_104_02_QC_RGB-1-20x13.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 166,
+    "routes": [
+      "/mar-regas/dior-ss18-digital/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13105859/Shot_12_Lady_Dior_010_03_QC_RGB-20x30.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13105859/Shot_12_Lady_Dior_010_03_QC_RGB-20x30.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 316,
+    "routes": [
+      "/mar-regas/dior-ss18-digital/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13105849/Shot_04_Checkered_Tote_Sneaker_104_02_QC_RGB-1-916x611.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13105849/Shot_04_Checkered_Tote_Sneaker_104_02_QC_RGB-1-916x611.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/mar-regas/dior-ss18-digital/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13105843/Shot_02_Checkered_051_02_QC_RGB-916x1374.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13105843/Shot_02_Checkered_051_02_QC_RGB-916x1374.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/mar-regas/dior-ss18-digital/"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "route": "/guslo/lanvin-collection/",
+  "slug": "guslo__lanvin-collection",
+  "url": "https://depoluxe.xyz/guslo/lanvin-collection/",
+  "widths": {
+    "1440": {
+      "frames": 17,
+      "menu": false,
+      "errors": [
+        "AbortError: The play() request was interrupted by a call to pause(). https://goo.gl/LdLk22",
+        "AbortError: The play() request was interrupted by a call to pause(). https://goo.gl/LdLk22",
+        "AbortError: The play() request was interrupted by a call to pause(). https://goo.gl/LdLk22",
+        "AbortError: The play() request was interrupted by a call to pause(). https://goo.gl/LdLk22",
+        "AbortError: The play() request was interrupted by a call to pause(). https://goo.gl/LdLk22",
+        "AbortError: The play() request was interrupted by a call to pause(). https://goo.gl/LdLk22"
+      ]
+    }
+  },
+  "stack": {
+    "generator": null,
+    "webflow": false,
+    "webflowPage": null,
+    "webflowSite": null,
+    "nextjs": false,
+    "nuxt": false,
+    "framer": false,
+    "wordpress": false,
+    "squarespace": false,
+    "wix": false,
+    "shopify": false,
+    "gsap": null,
+    "scrollTrigger": false,
+    "splitText": false,
+    "lenis": false,
+    "locomotive": false,
+    "barba": false,
+    "swup": false,
+    "swiper": false,
+    "three": false,
+    "splitType": false,
+    "lottie": false,
+    "jquery": null,
+    "customCursorCss": false,
+    "scripts": [
+      "https://depoluxe.xyz/assets/main.d4f10deae0b58c57225e.js"
+    ]
+  },
+  "title": "Lanvin Collection - Depo Luxe",
+  "status": 200,
+  "loadMs": 8626,
+  "links": [
+    "/",
+    "/archive/",
+    "/talent/",
+    "/about/",
+    "/contact/",
+    "/guslo/woman-md-studio/",
+    "/guslo/garbine-muguruza/",
+    "/guslo/live-the-unforgettable/",
+    "/guslo/studio-man-collection/",
+    "/guslo/gift-collection/",
+    "/guslo/otono-invierno-2023/",
+    "/guslo/lanvin-collection/",
+    "/guslo/nano-balloon/",
+    "/guslo/zara-basez/",
+    "/guslo/numero-france/",
+    "/information-security-policy/",
+    "/privacy-policy/",
+    "/legal-notice/",
+    "/cookies-policy/"
+  ]
+}
