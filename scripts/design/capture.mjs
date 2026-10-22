@@ -30,6 +30,8 @@
  * Usage:
  *   node scripts/design/capture.mjs --origin https://synchronized.studio [--out .design-cache/synchronized]
  *     [--max 200] [--widths 1440,390] [--only /,/work/] [--frames 40] [--force] [--video]
+ *     [--lean]   the documents, assets, layout and scroll frames only: no intro frames, no pointer,
+ *                hover or menu probes (a first pass in minutes; the full capture can follow)
  * Re-running skips routes already captured unless --force.
  */
 import crypto from "node:crypto";
@@ -53,6 +55,7 @@ const OUT = opt("out", path.join(".design-cache", ORIGIN_URL.hostname.replace(/^
 const MAX = Number(opt("max", 200));
 const WIDTHS = opt("widths", "1440,390").split(",").map(Number);
 const MAX_FRAMES = Number(opt("frames", 40));
+const LEAN = flag("lean");
 const ONLY = opt("only") ? opt("only").split(",") : null;
 const FORCE = flag("force");
 const UA_DESKTOP =
@@ -204,14 +207,15 @@ async function captureRoute(browser, route, manifest) {
       errors.push(`goto: ${e}`);
       return null;
     });
-    if (!phone) {
+    if (!phone && !LEAN) {
       for (let k = 0; k < 16; k++) {
         await page.screenshot({ path: path.join(dir, "intro", `${String(k).padStart(3, "0")}.png`) }).catch(() => {});
         await sleep(250);
       }
     }
     await page.waitForLoadState("load", { timeout: 60000 }).catch(() => {});
-    await page.waitForLoadState("networkidle", { timeout: 15000 }).catch(() => {});
+    // a page that streams video never goes idle: a short wait, then on
+    await page.waitForLoadState("networkidle", { timeout: LEAN ? 3000 : 15000 }).catch(() => {});
     await sleep(1500);
     await dismissOverlays(page);
     const status = response?.status() ?? 0;
@@ -242,16 +246,18 @@ async function captureRoute(browser, route, manifest) {
 
     // 4. pointer and menu (the pointer only where there is one)
     if (!phone) {
-      summary.cursorFollowers = await cursorProbe(page, path.join(dir, "cursor")).catch((e) => (errors.push(`cursor: ${e}`), 0));
-      await scrollToTop(page);
-      summary.hovers = await hoverProbe(page, path.join(dir, "hover")).catch((e) => (errors.push(`hover: ${e}`), 0));
-      await scrollToTop(page);
+      if (!LEAN) {
+        summary.cursorFollowers = await cursorProbe(page, path.join(dir, "cursor")).catch((e) => (errors.push(`cursor: ${e}`), 0));
+        await scrollToTop(page);
+        summary.hovers = await hoverProbe(page, path.join(dir, "hover")).catch((e) => (errors.push(`hover: ${e}`), 0));
+        await scrollToTop(page);
+      }
       if (route === "/") {
         summary.fonts = await page.evaluate(fontsOf);
         summary.breakpoints = await page.evaluate(breakpointsOf);
       }
     }
-    summary.widths[width] = { frames, menu: await menuProbe(page, path.join(dir, `menu-${width}.png`)).catch(() => false), errors };
+    summary.widths[width] = { frames, menu: LEAN ? false : await menuProbe(page, path.join(dir, `menu-${width}.png`)).catch(() => false), errors };
     await context.close();
   }
 
