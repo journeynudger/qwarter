@@ -8,13 +8,13 @@ on:
   workflow_dispatch:
     inputs:
       design_origin:
-        description: The reference design to capture completely (scripts/design/capture.mjs); empty to skip
+        description: The reference design to capture completely (scripts/design/capture.mjs); "skip" to skip
         default: https://depoluxe.xyz
       design_args:
         description: Extra arguments for capture.mjs (routes, frames, video)
         default: --max 80 --video
       wordpress_origin:
-        description: The WordPress site to snapshot through its REST API (scripts/port/fetch.py); empty to skip
+        description: The WordPress site to snapshot through its REST API (scripts/port/fetch.py); "skip" to skip
         default: https://qwarter.com
       media_urls:
         description: Files to fetch as they are (one URL per line), saved under .port-cache/media/<host>/<path>
@@ -39,15 +39,15 @@ jobs:
       - run: npm ci
       - run: npx playwright install --with-deps chromium
       - name: Capture the design
-        if: inputs.design_origin != ''
+        if: inputs.design_origin != 'skip' && inputs.design_origin != ''
         continue-on-error: true
         run: node scripts/design/capture.mjs --origin "${{ inputs.design_origin }}" --out .design-cache/reference ${{ inputs.design_args }}
       - name: Snapshot WordPress
-        if: inputs.wordpress_origin != ''
+        if: inputs.wordpress_origin != 'skip' && inputs.wordpress_origin != ''
         continue-on-error: true
         run: python3 scripts/port/fetch.py --origin "${{ inputs.wordpress_origin }}"
       - name: Fetch files
-        if: inputs.media_urls != ''
+        if: inputs.media_urls != 'skip' && inputs.media_urls != ''
         continue-on-error: true
         env:
           URLS: ${{ inputs.media_urls }}
