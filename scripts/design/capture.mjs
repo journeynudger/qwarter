@@ -30,6 +30,8 @@
  * Usage:
  *   node scripts/design/capture.mjs --origin https://synchronized.studio [--out .design-cache/synchronized]
  *     [--max 200] [--widths 1440,390] [--only /,/work/] [--frames 40] [--force] [--video]
+ *     [--budget 1500] (seconds for the whole run; it stops taking routes and fetching media when spent, and
+ *     still writes the manifest, URL index and report; a SIGTERM does the same) [--media-max 95] (MB)
  *     [--lean]   the documents, assets, layout and scroll frames only: no intro frames, no pointer,
  *                hover or menu probes (a first pass in minutes; the full capture can follow)
  * Re-running skips routes already captured unless --force.
@@ -56,6 +58,10 @@ const MAX = Number(opt("max", 200));
 const WIDTHS = opt("widths", "1440,390").split(",").map(Number);
 const MAX_FRAMES = Number(opt("frames", 40));
 const LEAN = flag("lean");
+const BUDGET = Number(opt("budget", 0)); // seconds for the whole run; 0 = no limit
+const MEDIA_MAX = Number(opt("media-max", 95)) * 1e6; // a file fetched whole is dropped above this (GitHub refuses 100 MB)
+const DEADLINE = BUDGET ? Date.now() + BUDGET * 1000 : Infinity;
+const timeLeft = () => Math.max(0, DEADLINE - Date.now());
 const ONLY = opt("only") ? opt("only").split(",") : null;
 const FORCE = flag("force");
 const UA_DESKTOP =
@@ -269,14 +275,19 @@ async function captureRoute(browser, route, manifest) {
 }
 
 async function fetchWhole(browser) {
-  // media that only ever streamed in ranges (video), fetched whole for the archive
+  // media that only ever streamed in ranges (video), fetched whole for the archive: each within two
+  // minutes and the run's budget, and only kept under MEDIA_MAX (a site that plays a film on every page
+  // can hold hours of this; what matters is on the branch either way)
   if (!partial.size) return;
   const context = await browser.newContext({ userAgent: UA_DESKTOP });
   for (const u of partial) {
     if (urls[u]?.file) continue;
-    const res = await context.request.get(u, { timeout: 300000 }).catch(() => null);
+    if (timeLeft() < 15000) { log(`budget spent: ${partial.size} ranged media left unfetched`); break; }
+    const res = await context.request.get(u, { timeout: Math.min(120000, timeLeft()) }).catch(() => null);
     if (res && res.ok()) {
-      const body = await res.body();
+      const body = await res.body().catch(() => null);
+      if (!body) continue;
+      if (body.length > MEDIA_MAX) { log(`not kept ${u}: ${(body.length / 1e6).toFixed(0)} MB`); continue; }
       record(u, res.status(), (res.headers()["content-type"] || "").split(";")[0], body, urls[u]?.routes?.[0] ?? "/");
       log(`fetched whole ${u} (${(body.length / 1e6).toFixed(1)} MB)`);
     }
@@ -299,7 +310,8 @@ async function fetchCssReferences(browser) {
         continue;
       }
       if (urls[abs]?.file) continue;
-      const res = await context.request.get(abs, { timeout: 60000 }).catch(() => null);
+      if (timeLeft() < 5000) break;
+      const res = await context.request.get(abs, { timeout: Math.min(60000, timeLeft()) }).catch(() => null);
       if (res && res.ok()) record(abs, res.status(), (res.headers()["content-type"] || "").split(";")[0], await res.body(), entry.routes[0]);
     }
   }
@@ -368,7 +380,20 @@ if (first instanceof Error) {
 const queue = ONLY ? [...ONLY] : ["/", ...(await sitemapRoutes(probe))];
 await probe.close();
 const done = new Set();
+// whatever has been taken is written when the process is told to stop (a step's time limit): the manifest,
+// the URL index and the report, so a capture cut short is still a capture
+let finishing = false;
+const finish = (why) => {
+  if (finishing) return;
+  finishing = true;
+  writeJson(manifestFile, manifest);
+  writeJson(path.join(OUT, "urls.json"), urls);
+  try { report(manifest); } catch { /* the report is a courtesy */ }
+  log(`${why}: ${Object.keys(manifest.routes).length} routes, ${Object.keys(urls).length} URLs → ${OUT}`);
+};
+for (const sig of ["SIGTERM", "SIGINT", "SIGHUP"]) process.on(sig, () => { finish(`stopped (${sig})`); process.exit(0); });
 while (queue.length && done.size < MAX) {
+  if (timeLeft() < 20000) { log(`budget of ${BUDGET}s spent after ${done.size} routes; ${queue.length} left`); break; }
   const route = queue.shift();
   if (done.has(route)) continue;
   done.add(route);
@@ -385,7 +410,4 @@ while (queue.length && done.size < MAX) {
 await fetchWhole(browser);
 await fetchCssReferences(browser);
 await browser.close();
-writeJson(manifestFile, manifest);
-writeJson(path.join(OUT, "urls.json"), urls);
-report(manifest);
-log(`done: ${Object.keys(manifest.routes).length} routes, ${Object.keys(urls).length} URLs → ${OUT}`);
+finish("done");

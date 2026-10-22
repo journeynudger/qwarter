@@ -54,6 +54,37 @@ const savedVideos = new Map(); // src → file
 const used = new Set();
 const queue = specs.length ? specs.slice() : ["home=/"];
 
+/**
+ * Close what sits over the page: the probes' dismissal (buttons that say accept, close, got it…), then a
+ * close button that only shows a cross (×, ✕, an aria-label), Escape, and last, a fixed layer that covers
+ * most of the window and is not the site's header is hidden (a newsletter popup with no button we can read).
+ */
+async function closePopups(page) {
+  await dismissOverlays(page);
+  const crosses = page.locator('button, a, [role=button], [aria-label]').filter({ has: page.locator(':scope') }).filter({ hasText: /^\s*[×✕✖xX]\s*$/ });
+  const labelled = page.locator('[aria-label*="close" i], [aria-label*="dismiss" i], [class*="close" i]:not([class*="closed" i]), [data-dismiss], .mfp-close, .pum-close');
+  for (const loc of [crosses, labelled]) {
+    const n = Math.min(await loc.count().catch(() => 0), 3);
+    for (let i = 0; i < n; i++) await loc.nth(i).click({ timeout: 800, force: true }).catch(() => {});
+  }
+  await page.keyboard.press("Escape").catch(() => {});
+  await sleep(300);
+  const hidden = await page.evaluate(() => {
+    const vw = innerWidth, vh = innerHeight, gone = [];
+    for (const el of document.querySelectorAll("body *")) {
+      const cs = getComputedStyle(el);
+      if (cs.position !== "fixed" || cs.display === "none" || cs.visibility === "hidden" || Number(cs.opacity) === 0) continue;
+      const r = el.getBoundingClientRect();
+      const covers = (Math.min(r.right, vw) - Math.max(r.left, 0)) * (Math.min(r.bottom, vh) - Math.max(r.top, 0)) / (vw * vh);
+      const header = r.top <= 2 && r.height < vh * 0.25; // a fixed header or announcement bar stays
+      const modal = /modal|popup|pop-up|overlay|lightbox|newsletter|subscribe|backdrop|dialog/i.test(el.className + " " + el.id + " " + (el.getAttribute("role") || ""));
+      if (!header && (covers > 0.35 || (modal && covers > 0.08))) { el.style.setProperty("display", "none", "important"); gone.push((el.className || el.tagName).toString().slice(0, 60)); }
+    }
+    return gone;
+  }).catch(() => []);
+  if (hidden.length) console.log(`${slug}: hid ${hidden.length} fixed layer(s) over the page: ${hidden.join(", ")}`);
+}
+
 async function saveVideos(page, route) {
   const found = await page.evaluate(() => [...document.querySelectorAll("video")].map((v) => {
     const sources = [v.currentSrc, v.getAttribute("src"), ...[...v.querySelectorAll("source")].map((s) => s.getAttribute("src"))].filter(Boolean).map((s) => new URL(s, location.href).href);
@@ -102,7 +133,7 @@ while (queue.length) {
     continue;
   }
   await page.waitForLoadState("networkidle", { timeout: 8000 }).catch(() => {});
-  await dismissOverlays(page); // a cookie banner or a newsletter popup would sit over every frame
+  await closePopups(page); // a cookie banner or a newsletter popup would sit over every frame
   for (const step of steps) {
     const [kind, ...arg] = step.split(":");
     const sel = arg.join(":"); // "click:text=Product" — the selector may itself contain ":"
@@ -139,7 +170,7 @@ while (queue.length) {
     // a site that animates its scrolling (Lenis, Locomotive) takes its time coming back: wait until it has
     for (let i = 0; i < 40 && (window.scrollY > 2 || document.documentElement.scrollTop > 2); i++) { window.scrollTo(0, 0); await new Promise((r) => setTimeout(r, 100)); }
   }).catch(() => {});
-  await dismissOverlays(page); // one that opened on scroll
+  await closePopups(page); // one that opened on scroll
   await sleep(1200);
   await page.evaluate(() => document.fonts.ready).catch(() => {});
   const frame = path.join(out, `${name}.png`);
