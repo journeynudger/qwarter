@@ -19,6 +19,9 @@ on:
       media_urls:
         description: Files to fetch as they are (one URL per line), saved under .port-cache/media/<host>/<path>
         default: ""
+      shoot_specs:
+        description: Sites to photograph (scripts/work/shoot.mjs), one per line — "<slug> <base> [name=route …] [--discover N]"; saved under .port-cache/shots/<slug>
+        default: ""
       branch:
         description: The branch the captures are pushed to (replaced each run)
         default: captures
@@ -59,6 +62,19 @@ jobs:
             curl -sfL --retry 2 -A "Mozilla/5.0 (Macintosh) AppleWebKit/537.36 Chrome/124 Safari/537.36" "$u" -o ".port-cache/media/$host/$rel" && echo "fetched $u" || echo "FAILED $u"
           done
           du -sh .port-cache/media || true
+      - name: Photograph sites
+        if: inputs.shoot_specs != 'skip' && inputs.shoot_specs != ''
+        continue-on-error: true
+        env:
+          SPECS: ${{ inputs.shoot_specs }}
+        run: |
+          printf '%s\n' "$SPECS" | while IFS= read -r line; do
+            line="${line#"${line%%[![:space:]]*}"}"; [ -z "$line" ] && continue
+            slug="${line%% *}"
+            # shellcheck disable=SC2086
+            timeout 1200 node scripts/work/shoot.mjs $line --out ".port-cache/shots/$slug" || echo "FAILED $slug"
+          done
+          du -sh .port-cache/shots || true
       - name: Publish the captures to the branch
         run: |
           set -e
@@ -72,5 +88,5 @@ jobs:
           git checkout -q --orphan "${{ inputs.branch }}"
           git rm -rq --cached .
           git add -f .design-cache .port-cache
-          git -c commit.gpgsign=false commit -qm "Captures $(date -u +%FT%TZ): ${{ inputs.design_origin }} and ${{ inputs.wordpress_origin }}"
+          git -c commit.gpgsign=false commit -qm "Captures $(date -u +%FT%TZ): ${{ inputs.design_origin }}, ${{ inputs.wordpress_origin }}, $(ls .port-cache/shots 2>/dev/null | tr '\n' ' ')"
           git push -f origin "${{ inputs.branch }}"
