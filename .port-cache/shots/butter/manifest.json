@@ -1,0 +1,1380 @@
+{
+  "slug": "butter",
+  "base": "https://butterspreads.com",
+  "shot": "2026-10-22T21:34:06.965Z",
+  "viewport": {
+    "width": 1440,
+    "height": 900,
+    "scale": 2
+  },
+  "phone": {
+    "width": 390,
+    "height": 844,
+    "scale": 3
+  },
+  "pages": [
+    {
+      "name": "home",
+      "route": "/",
+      "url": "https://butterspreads.com/",
+      "title": "My Store",
+      "description": null,
+      "height": 4392,
+      "frame": "home.png",
+      "full": "home-full.png",
+      "videos": [
+        "video-01.mp4",
+        "video-02.mp4"
+      ],
+      "phone": {
+        "frame": "m-home.png",
+        "full": "m-home-full.png",
+        "height": 5459
+      },
+      "text": [
+        {
+          "tag": "p",
+          "text": "Free Shipping On Orders Over $75",
+          "where": "main"
+        },
+        {
+          "tag": "h1",
+          "text": "My Store",
+          "where": "header"
+        },
+        {
+          "tag": "p",
+          "text": "butter that loves you back",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "The Original Edible Has Evolved",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Baking With Butter",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Turning any recipe into a ritual",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Feeling Butter",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Unwind the day, one spread at a time.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Magic Mornings",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "The original edible, reborn. Make bulletproof coffee magic.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Cooking Just Got Butter",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "✓ Faster Absorption ✓ Healthier Fat Source ✓ Versatile Use",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Products",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Join our email list",
+          "where": "footer"
+        },
+        {
+          "tag": "p",
+          "text": "Get exclusive deals and early access to new products.",
+          "where": "footer"
+        }
+      ],
+      "design": {
+        "fonts": {
+          "headings": "Inter",
+          "headingsWeight": "700",
+          "body": "Inter",
+          "bodyWeight": "500",
+          "nav": "Inter",
+          "buttons": "Inter"
+        },
+        "faces": [
+          "Inter"
+        ],
+        "page": "#FFFFFF",
+        "backgrounds": [
+          {
+            "hex": "#FFFFFF",
+            "weight": 8998128
+          },
+          {
+            "hex": "#EEF1EA",
+            "weight": 2508153
+          },
+          {
+            "hex": "#FFE900",
+            "weight": 795690
+          },
+          {
+            "hex": "#000000",
+            "weight": 17187
+          }
+        ],
+        "inks": [
+          {
+            "hex": "#000000",
+            "weight": 301
+          },
+          {
+            "hex": "#333333",
+            "weight": 77
+          },
+          {
+            "hex": "#FFFFFF",
+            "weight": 50
+          }
+        ],
+        "link": "#000000"
+      }
+    },
+    {
+      "name": "collections-all",
+      "route": "/collections/all",
+      "url": "https://butterspreads.com/collections/all",
+      "title": "Products – My Store",
+      "description": null,
+      "height": 900,
+      "frame": "collections-all.png",
+      "full": "collections-all-full.png",
+      "videos": [],
+      "phone": {
+        "frame": "m-collections-all.png",
+        "full": "m-collections-all-full.png",
+        "height": 1088
+      },
+      "text": [
+        {
+          "tag": "p",
+          "text": "Free Shipping On Orders Over $75",
+          "where": "main"
+        },
+        {
+          "tag": "h1",
+          "text": "Products",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "Cookie Butter ADD Cookie Butter $25.00",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "Ghee Butter ADD Ghee Butter $25.00",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "Hazelnut Butter ADD Hazelnut Butter $25.00",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Join our email list",
+          "where": "footer"
+        },
+        {
+          "tag": "p",
+          "text": "Get exclusive deals and early access to new products.",
+          "where": "footer"
+        }
+      ],
+      "design": {
+        "fonts": {
+          "headings": "Inter",
+          "headingsWeight": "700",
+          "body": "Inter",
+          "bodyWeight": "500",
+          "nav": "Inter",
+          "buttons": "Inter"
+        },
+        "faces": [
+          "Inter"
+        ],
+        "page": "#FFFFFF",
+        "backgrounds": [
+          {
+            "hex": "#FFFFFF",
+            "weight": 2804290
+          }
+        ],
+        "inks": [
+          {
+            "hex": "#000000",
+            "weight": 1399
+          }
+        ],
+        "link": "#000000"
+      }
+    },
+    {
+      "name": "blogs-news",
+      "route": "/blogs/news",
+      "url": "https://butterspreads.com/blogs/news",
+      "title": "Education – My Store",
+      "description": null,
+      "height": 1023,
+      "frame": "blogs-news.png",
+      "full": "blogs-news-full.png",
+      "videos": [],
+      "phone": {
+        "frame": "m-blogs-news.png",
+        "full": "m-blogs-news-full.png",
+        "height": 1540
+      },
+      "text": [
+        {
+          "tag": "p",
+          "text": "Free Shipping On Orders Over $75",
+          "where": "main"
+        },
+        {
+          "tag": "h1",
+          "text": "Education",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Join our email list",
+          "where": "footer"
+        },
+        {
+          "tag": "p",
+          "text": "Get exclusive deals and early access to new products.",
+          "where": "footer"
+        }
+      ],
+      "design": {
+        "fonts": {
+          "headings": "Inter",
+          "headingsWeight": "700",
+          "body": "Inter",
+          "bodyWeight": "500",
+          "nav": "Inter",
+          "buttons": "Inter"
+        },
+        "faces": [
+          "Inter"
+        ],
+        "page": "#FFFFFF",
+        "backgrounds": [
+          {
+            "hex": "#FFFFFF",
+            "weight": 2985045
+          }
+        ],
+        "inks": [
+          {
+            "hex": "#000000",
+            "weight": 303
+          }
+        ],
+        "link": "#000000"
+      }
+    },
+    {
+      "name": "pages-contact",
+      "route": "/pages/contact",
+      "url": "https://butterspreads.com/pages/contact",
+      "title": "Contact – My Store",
+      "description": null,
+      "height": 989,
+      "frame": "pages-contact.png",
+      "full": "pages-contact-full.png",
+      "videos": [],
+      "phone": {
+        "frame": "m-pages-contact.png",
+        "full": "m-pages-contact-full.png",
+        "height": 1139
+      },
+      "text": [
+        {
+          "tag": "p",
+          "text": "Free Shipping On Orders Over $75",
+          "where": "main"
+        },
+        {
+          "tag": "h1",
+          "text": "Contact",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Join our email list",
+          "where": "footer"
+        },
+        {
+          "tag": "p",
+          "text": "Get exclusive deals and early access to new products.",
+          "where": "footer"
+        }
+      ],
+      "design": {
+        "fonts": {
+          "headings": "Inter",
+          "headingsWeight": "700",
+          "body": "Inter",
+          "bodyWeight": "500",
+          "nav": "Inter",
+          "buttons": "Inter"
+        },
+        "faces": [
+          "Inter"
+        ],
+        "page": "#FFFFFF",
+        "backgrounds": [
+          {
+            "hex": "#FFFFFF",
+            "weight": 3139236
+          },
+          {
+            "hex": "#000000",
+            "weight": 5548
+          }
+        ],
+        "inks": [
+          {
+            "hex": "#000000",
+            "weight": 139
+          },
+          {
+            "hex": "#FFFFFF",
+            "weight": 6
+          }
+        ],
+        "link": null
+      }
+    },
+    {
+      "name": "products-2-pack-infused-ghee-butter",
+      "route": "/products/2-pack-infused-ghee-butter",
+      "url": "https://butterspreads.com/products/2-pack-infused-ghee-butter",
+      "title": "Cookie Butter – My Store",
+      "description": "Live Rosin Infused Cookie Butter 100MG Delta-9 THC per jar | 3.5oz Our Live Rosin infused Cookie Butter combines decadent flavor with functional cannabinoids for a balanced experience. Each jar contains 100MG hemp-derived Delta-9 THC, carefully blended with effect-focused cannabinoids tailored for day or night use. Pro",
+      "height": 1904,
+      "frame": "products-2-pack-infused-ghee-butter.png",
+      "full": "products-2-pack-infused-ghee-butter-full.png",
+      "videos": [],
+      "phone": {
+        "frame": "m-products-2-pack-infused-ghee-butter.png",
+        "full": "m-products-2-pack-infused-ghee-butter-full.png",
+        "height": 2167
+      },
+      "text": [
+        {
+          "tag": "p",
+          "text": "Free Shipping On Orders Over $75",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Cookie Butter",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "OPEN IMAGE IN FULL SCREEN",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Live Rosin Infused Cookie Butter",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "100MG Delta-9 THC per jar | 3.5oz",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Our Live Rosin infused Cookie Butter combines decadent flavor with functional cannabinoids for a balanced experience.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Each jar contains 100MG hemp-derived Delta-9 THC, carefully blended with effect-focused cannabinoids tailored for day or night use.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Product Details:",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "100MG Delta-9 THC per jar",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "Great for desserts, baking, spreading, or spoonful rituals",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "Reusable & recyclable glass jar",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Smooth. Indulgent. Elevated.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "You may also like",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Join our email list",
+          "where": "footer"
+        },
+        {
+          "tag": "p",
+          "text": "Get exclusive deals and early access to new products.",
+          "where": "footer"
+        }
+      ],
+      "design": {
+        "fonts": {
+          "headings": "Inter",
+          "headingsWeight": "700",
+          "body": "Inter",
+          "bodyWeight": "500",
+          "nav": "Inter",
+          "buttons": "Inter"
+        },
+        "faces": [
+          "Inter"
+        ],
+        "page": "#FFFFFF",
+        "backgrounds": [
+          {
+            "hex": "#FFFFFF",
+            "weight": 6709857
+          },
+          {
+            "hex": "#000000",
+            "weight": 46295
+          }
+        ],
+        "inks": [
+          {
+            "hex": "#000000",
+            "weight": 1122
+          },
+          {
+            "hex": "#FFFFFF",
+            "weight": 49
+          },
+          {
+            "hex": "#333333",
+            "weight": 34
+          }
+        ],
+        "link": "#000000"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "route": "/",
+      "src": "https://butterspreads.com/cdn/shop/videos/c/vp/779437caafbc49aaa3ffcd25e96d16c5/779437caafbc49aaa3ffcd25e96d16c5.HD-720p-1.6Mbps-60748436.mp4?v=0",
+      "sources": [
+        "https://butterspreads.com/cdn/shop/videos/c/vp/779437caafbc49aaa3ffcd25e96d16c5/779437caafbc49aaa3ffcd25e96d16c5.HD-720p-1.6Mbps-60748436.mp4?v=0"
+      ],
+      "poster": null,
+      "width": 1280,
+      "height": 720,
+      "autoplay": true,
+      "loop": true,
+      "file": "video-01.mp4",
+      "bytes": 2458646
+    },
+    {
+      "route": "/",
+      "src": "https://butterspreads.com/cdn/shop/videos/c/vp/baacc10b71b74097b409dd50148973e3/baacc10b71b74097b409dd50148973e3.HD-1080p-2.5Mbps-63157547.mp4?v=0",
+      "sources": [
+        "https://butterspreads.com/cdn/shop/videos/c/vp/baacc10b71b74097b409dd50148973e3/baacc10b71b74097b409dd50148973e3.HD-1080p-2.5Mbps-63157547.mp4?v=0"
+      ],
+      "poster": "https://butterspreads.com/cdn/shop/files/preview_images/baacc10b71b74097b409dd50148973e3.thumbnail.0000000000_2500x.jpg?v=1763483785",
+      "width": 606,
+      "height": 1080,
+      "autoplay": true,
+      "loop": true,
+      "file": "video-02.mp4",
+      "bytes": 2468077
+    }
+  ],
+  "assets": [
+    {
+      "file": "assets/01-butter-logo-stick-wordmark.jpg",
+      "url": "https://butterspreads.com/cdn/shop/files/BUTTER_LOGO_STICK_WORDMARK.jpg?height=108&v=1761268552",
+      "page": "home",
+      "kind": "img",
+      "where": "header",
+      "logo": true,
+      "alt": "",
+      "width": 108,
+      "height": 36,
+      "natural": [
+        108,
+        36
+      ],
+      "bytes": 10551,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/02-butterinfusedcanna.png",
+      "url": "https://butterspreads.com/cdn/shop/files/ButterInfusedCanna.png?v=1761741547&width=1200",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 200,
+      "height": 200,
+      "natural": [
+        921,
+        921
+      ],
+      "bytes": 1587260,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/03-butterinfusedbutter.png",
+      "url": "https://butterspreads.com/cdn/shop/files/ButterInfusedButter.png?v=1761743114&width=1200",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 200,
+      "height": 200,
+      "natural": [
+        921,
+        921
+      ],
+      "bytes": 1650476,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/04-butterbrandinfusedgheebutter.png",
+      "url": "https://butterspreads.com/cdn/shop/files/ButterBrandInfusedGheeButter.png?v=1761747099&width=1200",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": true,
+      "alt": "",
+      "width": 200,
+      "height": 200,
+      "natural": [
+        921,
+        921
+      ],
+      "bytes": 1333456,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/05-9c2d3706-151f-4edd-8119-6163f8817198.jpg",
+      "url": "https://butterspreads.com/cdn/shop/files/9c2d3706-151f-4edd-8119-6163f8817198.jpg?height=5760&v=1762436251",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 720,
+      "height": 713,
+      "natural": [
+        864,
+        1152
+      ],
+      "bytes": 371622,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/06-bw-site-logo.png",
+      "url": "https://butterspreads.com/cdn/shop/files/BW_Site-Logo.webp?v=1763392469&width=3840",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": true,
+      "alt": "",
+      "width": 640,
+      "height": 214,
+      "natural": [
+        280,
+        93
+      ],
+      "bytes": 6841,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/07-productbuttergheeinfused.png",
+      "url": "https://butterspreads.com/cdn/shop/files/productbuttergheeinfused.png?v=1762437818&width=3840",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 664,
+      "height": 664,
+      "natural": [
+        664,
+        664
+      ],
+      "bytes": 9857517,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/08-img-11212.jpg",
+      "url": "https://butterspreads.com/cdn/shop/files/IMG_11212.jpg?v=1771429573&width=3840",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Cookie Butter",
+      "width": 334,
+      "height": 334,
+      "natural": [
+        334,
+        334
+      ],
+      "bytes": 2448999,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/09-img-1124.jpg",
+      "url": "https://butterspreads.com/cdn/shop/files/IMG_1124.jpg?v=1771429573&width=3840",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Cookie Butter",
+      "width": 334,
+      "height": 334,
+      "natural": [
+        334,
+        334
+      ],
+      "bytes": 2083051,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/10-img-1125.jpg",
+      "url": "https://butterspreads.com/cdn/shop/files/IMG_1125.jpg?v=1771429573&width=3840",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Cookie Butter",
+      "width": 334,
+      "height": 334,
+      "natural": [
+        334,
+        334
+      ],
+      "bytes": 1700570,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/11-productshot2packinfusedbutter.png",
+      "url": "https://butterspreads.com/cdn/shop/files/ProductShot2PackInfusedButter.png?v=1771429573&width=3840",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Cookie Butter",
+      "width": 334,
+      "height": 334,
+      "natural": [
+        334,
+        455
+      ],
+      "bytes": 470992,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/12-butter-ghee-no-shadow.png",
+      "url": "https://butterspreads.com/cdn/shop/files/butter_Ghee_No_Shadow.png?v=1771429217&width=3840",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Ghee Butter",
+      "width": 334,
+      "height": 334,
+      "natural": [
+        334,
+        334
+      ],
+      "bytes": 592949,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/13-singlebutterinfusedbutter.png",
+      "url": "https://butterspreads.com/cdn/shop/files/SingleButterInfusedButter.png?v=1771430153&width=3840",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Ghee Butter",
+      "width": 334,
+      "height": 334,
+      "natural": [
+        334,
+        455
+      ],
+      "bytes": 456165,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/14-butter-ghee-shadow.png",
+      "url": "https://butterspreads.com/cdn/shop/files/butter_Ghee_Shadow.png?v=1771430153&width=3840",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Ghee Butter",
+      "width": 334,
+      "height": 334,
+      "natural": [
+        334,
+        334
+      ],
+      "bytes": 620255,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/15-lifestyle-shoot2.jpg",
+      "url": "https://butterspreads.com/cdn/shop/files/Lifestyle_shoot2.jpg?v=1771429886&width=3840",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Hazelnut Butter",
+      "width": 334,
+      "height": 334,
+      "natural": [
+        334,
+        334
+      ],
+      "bytes": 1015201,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/16-butterhazelnutspread-noshadow.png",
+      "url": "https://butterspreads.com/cdn/shop/files/butterHazelnutSpread-Noshadow.png?v=1771429886&width=3840",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Hazelnut Butter",
+      "width": 334,
+      "height": 334,
+      "natural": [
+        334,
+        334
+      ],
+      "bytes": 580202,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/17-infusedspreadghee.png",
+      "url": "https://butterspreads.com/cdn/shop/files/InfusedSpreadGhee.png?v=1771429464&width=3840",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Hazelnut Butter",
+      "width": 334,
+      "height": 334,
+      "natural": [
+        334,
+        455
+      ],
+      "bytes": 550758,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/18-lifestyle-shoot3.jpg",
+      "url": "https://butterspreads.com/cdn/shop/files/Lifestyle_shoot3.jpg?v=1771429293&width=3840",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Hazelnut Butter",
+      "width": 334,
+      "height": 334,
+      "natural": [
+        334,
+        334
+      ],
+      "bytes": 1226404,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/19-baacc10b71b74097b409dd50148973e3-thumbnail-00000.jpg",
+      "url": "https://butterspreads.com/cdn/shop/files/preview_images/baacc10b71b74097b409dd50148973e3.thumbnail.0000000000.jpg?v=1763483785&width=3840",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 720,
+      "height": 745,
+      "natural": [
+        324,
+        576
+      ],
+      "bytes": 77079,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/20-inline-mark.svg",
+      "url": null,
+      "page": "home",
+      "kind": "svg",
+      "where": "footer",
+      "logo": false,
+      "alt": "",
+      "width": 24,
+      "height": 24,
+      "natural": null
+    },
+    {
+      "file": "assets/01-butter-logo-stick-wordmark.jpg",
+      "url": "https://butterspreads.com/cdn/shop/files/BUTTER_LOGO_STICK_WORDMARK.jpg?height=108&v=1761268552",
+      "page": "collections-all",
+      "kind": "img",
+      "where": "header",
+      "logo": true,
+      "alt": "",
+      "width": 108,
+      "height": 36,
+      "natural": [
+        108,
+        36
+      ]
+    },
+    {
+      "file": "assets/08-img-11212.jpg",
+      "url": "https://butterspreads.com/cdn/shop/files/IMG_11212.jpg?v=1771429573&width=3840",
+      "page": "collections-all",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Cookie Butter",
+      "width": 260,
+      "height": 260,
+      "natural": [
+        288,
+        288
+      ]
+    },
+    {
+      "file": "assets/09-img-1124.jpg",
+      "url": "https://butterspreads.com/cdn/shop/files/IMG_1124.jpg?v=1771429573&width=3840",
+      "page": "collections-all",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Cookie Butter",
+      "width": 260,
+      "height": 260,
+      "natural": [
+        260,
+        260
+      ]
+    },
+    {
+      "file": "assets/10-img-1125.jpg",
+      "url": "https://butterspreads.com/cdn/shop/files/IMG_1125.jpg?v=1771429573&width=3840",
+      "page": "collections-all",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Cookie Butter",
+      "width": 260,
+      "height": 260,
+      "natural": [
+        260,
+        260
+      ]
+    },
+    {
+      "file": "assets/11-productshot2packinfusedbutter.png",
+      "url": "https://butterspreads.com/cdn/shop/files/ProductShot2PackInfusedButter.png?v=1771429573&width=3840",
+      "page": "collections-all",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Cookie Butter",
+      "width": 260,
+      "height": 260,
+      "natural": [
+        260,
+        354
+      ]
+    },
+    {
+      "file": "assets/12-butter-ghee-no-shadow.png",
+      "url": "https://butterspreads.com/cdn/shop/files/butter_Ghee_No_Shadow.png?v=1771429217&width=3840",
+      "page": "collections-all",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Ghee Butter",
+      "width": 260,
+      "height": 260,
+      "natural": [
+        288,
+        288
+      ]
+    },
+    {
+      "file": "assets/13-singlebutterinfusedbutter.png",
+      "url": "https://butterspreads.com/cdn/shop/files/SingleButterInfusedButter.png?v=1771430153&width=3840",
+      "page": "collections-all",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Ghee Butter",
+      "width": 260,
+      "height": 260,
+      "natural": [
+        260,
+        354
+      ]
+    },
+    {
+      "file": "assets/14-butter-ghee-shadow.png",
+      "url": "https://butterspreads.com/cdn/shop/files/butter_Ghee_Shadow.png?v=1771430153&width=3840",
+      "page": "collections-all",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Ghee Butter",
+      "width": 260,
+      "height": 260,
+      "natural": [
+        260,
+        260
+      ]
+    },
+    {
+      "file": "assets/15-lifestyle-shoot2.jpg",
+      "url": "https://butterspreads.com/cdn/shop/files/Lifestyle_shoot2.jpg?v=1771429886&width=3840",
+      "page": "collections-all",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Hazelnut Butter",
+      "width": 260,
+      "height": 260,
+      "natural": [
+        288,
+        288
+      ]
+    },
+    {
+      "file": "assets/16-butterhazelnutspread-noshadow.png",
+      "url": "https://butterspreads.com/cdn/shop/files/butterHazelnutSpread-Noshadow.png?v=1771429886&width=3840",
+      "page": "collections-all",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Hazelnut Butter",
+      "width": 260,
+      "height": 260,
+      "natural": [
+        260,
+        260
+      ]
+    },
+    {
+      "file": "assets/17-infusedspreadghee.png",
+      "url": "https://butterspreads.com/cdn/shop/files/InfusedSpreadGhee.png?v=1771429464&width=3840",
+      "page": "collections-all",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Hazelnut Butter",
+      "width": 260,
+      "height": 260,
+      "natural": [
+        260,
+        354
+      ]
+    },
+    {
+      "file": "assets/18-lifestyle-shoot3.jpg",
+      "url": "https://butterspreads.com/cdn/shop/files/Lifestyle_shoot3.jpg?v=1771429293&width=3840",
+      "page": "collections-all",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Hazelnut Butter",
+      "width": 260,
+      "height": 260,
+      "natural": [
+        260,
+        260
+      ]
+    },
+    {
+      "file": "assets/21-inline-mark.svg",
+      "url": null,
+      "page": "collections-all",
+      "kind": "svg",
+      "where": "footer",
+      "logo": false,
+      "alt": "",
+      "width": 24,
+      "height": 24,
+      "natural": null
+    },
+    {
+      "file": "assets/01-butter-logo-stick-wordmark.jpg",
+      "url": "https://butterspreads.com/cdn/shop/files/BUTTER_LOGO_STICK_WORDMARK.jpg?height=108&v=1761268552",
+      "page": "blogs-news",
+      "kind": "img",
+      "where": "header",
+      "logo": true,
+      "alt": "",
+      "width": 108,
+      "height": 36,
+      "natural": [
+        108,
+        36
+      ]
+    },
+    {
+      "file": "assets/22-butterbrandinfusedgheebutter.png",
+      "url": "https://butterspreads.com/cdn/shop/articles/ButterBrandInfusedGheeButter.png?v=1763655454",
+      "page": "blogs-news",
+      "kind": "img",
+      "where": "main",
+      "logo": true,
+      "alt": "Infused Ghee Butter Is the Perfect Upgrade for Your Bulletproof Coffee Routine",
+      "width": 662,
+      "height": 320,
+      "natural": [
+        1440,
+        1440
+      ],
+      "bytes": 1286546,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/23-butterliving.png",
+      "url": "https://butterspreads.com/cdn/shop/articles/ButterLiving.png?v=1763487506",
+      "page": "blogs-news",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "The Secret Superfood You’re Not Using… But Totally Should Be",
+      "width": 662,
+      "height": 320,
+      "natural": [
+        1440,
+        570
+      ],
+      "bytes": 1043147,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/24-inline-mark.svg",
+      "url": null,
+      "page": "blogs-news",
+      "kind": "svg",
+      "where": "footer",
+      "logo": false,
+      "alt": "",
+      "width": 24,
+      "height": 24,
+      "natural": null
+    },
+    {
+      "file": "assets/01-butter-logo-stick-wordmark.jpg",
+      "url": "https://butterspreads.com/cdn/shop/files/BUTTER_LOGO_STICK_WORDMARK.jpg?height=108&v=1761268552",
+      "page": "pages-contact",
+      "kind": "img",
+      "where": "header",
+      "logo": true,
+      "alt": "",
+      "width": 108,
+      "height": 36,
+      "natural": [
+        108,
+        36
+      ]
+    },
+    {
+      "file": "assets/25-inline-mark.svg",
+      "url": null,
+      "page": "pages-contact",
+      "kind": "svg",
+      "where": "footer",
+      "logo": false,
+      "alt": "",
+      "width": 24,
+      "height": 24,
+      "natural": null
+    },
+    {
+      "file": "assets/26-img-11212.jpg",
+      "url": "http://butterspreads.com/cdn/shop/files/IMG_11212.jpg?v=1771429573",
+      "page": "products-2-pack-infused-ghee-butter",
+      "kind": "og",
+      "where": "head",
+      "logo": false,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null,
+      "bytes": 2448999,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/01-butter-logo-stick-wordmark.jpg",
+      "url": "https://butterspreads.com/cdn/shop/files/BUTTER_LOGO_STICK_WORDMARK.jpg?height=108&v=1761268552",
+      "page": "products-2-pack-infused-ghee-butter",
+      "kind": "img",
+      "where": "header",
+      "logo": true,
+      "alt": "",
+      "width": 108,
+      "height": 36,
+      "natural": [
+        108,
+        36
+      ]
+    },
+    {
+      "file": "assets/27-img-11212.jpg",
+      "url": "https://butterspreads.com/cdn/shop/files/IMG_11212.jpg?v=1771429573&width=120",
+      "page": "products-2-pack-infused-ghee-butter",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Cookie Butter",
+      "width": 52,
+      "height": 52,
+      "natural": [
+        120,
+        120
+      ],
+      "bytes": 9305,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/08-img-11212.jpg",
+      "url": "https://butterspreads.com/cdn/shop/files/IMG_11212.jpg?v=1771429573&width=3840",
+      "page": "products-2-pack-infused-ghee-butter",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Cookie Butter",
+      "width": 440,
+      "height": 440,
+      "natural": [
+        466,
+        466
+      ]
+    },
+    {
+      "file": "assets/09-img-1124.jpg",
+      "url": "https://butterspreads.com/cdn/shop/files/IMG_1124.jpg?v=1771429573&width=3840",
+      "page": "products-2-pack-infused-ghee-butter",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Cookie Butter",
+      "width": 440,
+      "height": 440,
+      "natural": [
+        466,
+        466
+      ]
+    },
+    {
+      "file": "assets/10-img-1125.jpg",
+      "url": "https://butterspreads.com/cdn/shop/files/IMG_1125.jpg?v=1771429573&width=3840",
+      "page": "products-2-pack-infused-ghee-butter",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Cookie Butter",
+      "width": 440,
+      "height": 600,
+      "natural": [
+        466,
+        466
+      ]
+    },
+    {
+      "file": "assets/11-productshot2packinfusedbutter.png",
+      "url": "https://butterspreads.com/cdn/shop/files/ProductShot2PackInfusedButter.png?v=1771429573&width=3840",
+      "page": "products-2-pack-infused-ghee-butter",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Cookie Butter",
+      "width": 440,
+      "height": 600,
+      "natural": [
+        466,
+        635
+      ]
+    },
+    {
+      "file": "assets/12-butter-ghee-no-shadow.png",
+      "url": "https://butterspreads.com/cdn/shop/files/butter_Ghee_No_Shadow.png?v=1771429217&width=3840",
+      "page": "products-2-pack-infused-ghee-butter",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Ghee Butter",
+      "width": 331,
+      "height": 331,
+      "natural": [
+        360,
+        360
+      ]
+    },
+    {
+      "file": "assets/13-singlebutterinfusedbutter.png",
+      "url": "https://butterspreads.com/cdn/shop/files/SingleButterInfusedButter.png?v=1771430153&width=3840",
+      "page": "products-2-pack-infused-ghee-butter",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Ghee Butter",
+      "width": 331,
+      "height": 331,
+      "natural": [
+        331,
+        451
+      ]
+    },
+    {
+      "file": "assets/14-butter-ghee-shadow.png",
+      "url": "https://butterspreads.com/cdn/shop/files/butter_Ghee_Shadow.png?v=1771430153&width=3840",
+      "page": "products-2-pack-infused-ghee-butter",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Ghee Butter",
+      "width": 331,
+      "height": 331,
+      "natural": [
+        331,
+        331
+      ]
+    },
+    {
+      "file": "assets/15-lifestyle-shoot2.jpg",
+      "url": "https://butterspreads.com/cdn/shop/files/Lifestyle_shoot2.jpg?v=1771429886&width=3840",
+      "page": "products-2-pack-infused-ghee-butter",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Hazelnut Butter",
+      "width": 331,
+      "height": 331,
+      "natural": [
+        360,
+        360
+      ]
+    },
+    {
+      "file": "assets/16-butterhazelnutspread-noshadow.png",
+      "url": "https://butterspreads.com/cdn/shop/files/butterHazelnutSpread-Noshadow.png?v=1771429886&width=3840",
+      "page": "products-2-pack-infused-ghee-butter",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Hazelnut Butter",
+      "width": 331,
+      "height": 331,
+      "natural": [
+        331,
+        331
+      ]
+    },
+    {
+      "file": "assets/17-infusedspreadghee.png",
+      "url": "https://butterspreads.com/cdn/shop/files/InfusedSpreadGhee.png?v=1771429464&width=3840",
+      "page": "products-2-pack-infused-ghee-butter",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Hazelnut Butter",
+      "width": 331,
+      "height": 331,
+      "natural": [
+        331,
+        451
+      ]
+    },
+    {
+      "file": "assets/18-lifestyle-shoot3.jpg",
+      "url": "https://butterspreads.com/cdn/shop/files/Lifestyle_shoot3.jpg?v=1771429293&width=3840",
+      "page": "products-2-pack-infused-ghee-butter",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Hazelnut Butter",
+      "width": 331,
+      "height": 331,
+      "natural": [
+        331,
+        331
+      ]
+    },
+    {
+      "file": "assets/28-inline-mark.svg",
+      "url": null,
+      "page": "products-2-pack-infused-ghee-butter",
+      "kind": "svg",
+      "where": "footer",
+      "logo": false,
+      "alt": "",
+      "width": 24,
+      "height": 24,
+      "natural": null
+    }
+  ]
+}

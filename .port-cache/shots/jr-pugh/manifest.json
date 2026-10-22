@@ -1,0 +1,635 @@
+{
+  "slug": "jr-pugh",
+  "base": "https://jeffvhs.com",
+  "shot": "2026-10-22T21:36:04.083Z",
+  "viewport": {
+    "width": 1440,
+    "height": 900,
+    "scale": 2
+  },
+  "phone": {
+    "width": 390,
+    "height": 844,
+    "scale": 3
+  },
+  "pages": [
+    {
+      "name": "home",
+      "route": "/",
+      "url": "https://jeffvhs.com/",
+      "title": "JR Pugh – Actor, NYC",
+      "description": "JR Pugh, NYC-based actor with a grounded, charismatic, and intelligent on-camera presence.",
+      "height": 900,
+      "frame": "home.png",
+      "full": "home-full.png",
+      "videos": [
+        "video-01.mp4"
+      ],
+      "phone": {
+        "frame": "m-home.png",
+        "full": "m-home-full.png",
+        "height": 844
+      },
+      "text": [],
+      "design": {
+        "fonts": {
+          "headings": null,
+          "headingsWeight": null,
+          "body": "EB Garamond",
+          "bodyWeight": "400",
+          "nav": "EB Garamond",
+          "buttons": null
+        },
+        "faces": [
+          "EB Garamond",
+          "Inter"
+        ],
+        "page": "#0B0B0C",
+        "backgrounds": [
+          {
+            "hex": "#0B0B0C",
+            "weight": 1296000
+          }
+        ],
+        "inks": [],
+        "link": null
+      }
+    },
+    {
+      "name": "acting",
+      "route": "/acting/",
+      "url": "https://jeffvhs.com/acting/",
+      "title": "Acting – JR Pugh",
+      "description": null,
+      "height": 1071,
+      "frame": "acting.png",
+      "full": "acting-full.png",
+      "videos": [],
+      "phone": {
+        "frame": "m-acting.png",
+        "full": "m-acting-full.png",
+        "height": 1097
+      },
+      "text": [
+        {
+          "tag": "p",
+          "text": "NYC-based actor with a grounded, charismatic, and intelligent on-camera presence. Trained for the frame, comfortable in the room, and drawn to work with range, intensity, and emotional specificity.",
+          "where": "main"
+        }
+      ],
+      "design": {
+        "fonts": {
+          "headings": null,
+          "headingsWeight": null,
+          "body": "EB Garamond",
+          "bodyWeight": "400",
+          "nav": "EB Garamond",
+          "buttons": null
+        },
+        "faces": [
+          "EB Garamond"
+        ],
+        "page": "#0B0B0C",
+        "backgrounds": [
+          {
+            "hex": "#0B0B0C",
+            "weight": 1542555
+          },
+          {
+            "hex": "#141416",
+            "weight": 635399
+          }
+        ],
+        "inks": [
+          {
+            "hex": "#F2EDE3",
+            "weight": 216
+          }
+        ],
+        "link": null
+      }
+    },
+    {
+      "name": "reel",
+      "route": "/reel/",
+      "url": "https://jeffvhs.com/reel/",
+      "title": "Reel – JR Pugh",
+      "description": null,
+      "height": 1385,
+      "frame": "reel.png",
+      "full": "reel-full.png",
+      "videos": [
+        "video-02.mp4",
+        "video-03.mp4",
+        "video-02.mp4"
+      ],
+      "phone": {
+        "frame": "m-reel.png",
+        "full": "m-reel-full.png",
+        "height": 1026
+      },
+      "text": [],
+      "design": {
+        "fonts": {
+          "headings": null,
+          "headingsWeight": null,
+          "body": "EB Garamond",
+          "bodyWeight": "400",
+          "nav": "EB Garamond",
+          "buttons": null
+        },
+        "faces": [
+          "EB Garamond"
+        ],
+        "page": "#0B0B0C",
+        "backgrounds": [
+          {
+            "hex": "#0B0B0C",
+            "weight": 1994400
+          },
+          {
+            "hex": "#141416",
+            "weight": 583200
+          },
+          {
+            "hex": "#000000",
+            "weight": 64377
+          }
+        ],
+        "inks": [],
+        "link": null
+      }
+    },
+    {
+      "name": "about",
+      "route": "/about/",
+      "url": "https://jeffvhs.com/about/",
+      "title": "About – JR Pugh",
+      "description": null,
+      "height": 2110,
+      "frame": "about.png",
+      "full": "about-full.png",
+      "videos": [],
+      "phone": {
+        "frame": "m-about.png",
+        "full": "m-about-full.png",
+        "height": 2434
+      },
+      "text": [
+        {
+          "tag": "p",
+          "text": "JR Pugh is a New York City-based actor focused on film, television, and commercial work. His approach is grounded in curiosity: for people, for the small physical truths of a scene, and for the moment just before a character decides something.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Beyond the headshots",
+          "where": "main"
+        }
+      ],
+      "design": {
+        "fonts": {
+          "headings": "EB Garamond",
+          "headingsWeight": "400",
+          "body": "EB Garamond",
+          "bodyWeight": "400",
+          "nav": "EB Garamond",
+          "buttons": null
+        },
+        "faces": [
+          "EB Garamond"
+        ],
+        "page": "#0B0B0C",
+        "backgrounds": [
+          {
+            "hex": "#0B0B0C",
+            "weight": 5491643
+          },
+          {
+            "hex": "#141416",
+            "weight": 1615411
+          }
+        ],
+        "inks": [
+          {
+            "hex": "#F2EDE3",
+            "weight": 280
+          }
+        ],
+        "link": null
+      }
+    },
+    {
+      "name": "contact",
+      "route": "/contact/",
+      "url": "https://jeffvhs.com/contact/",
+      "title": "Contact – JR Pugh",
+      "description": null,
+      "height": 900,
+      "frame": "contact.png",
+      "full": "contact-full.png",
+      "videos": [],
+      "phone": {
+        "frame": "m-contact.png",
+        "full": "m-contact-full.png",
+        "height": 844
+      },
+      "text": [],
+      "design": {
+        "fonts": {
+          "headings": null,
+          "headingsWeight": null,
+          "body": "EB Garamond",
+          "bodyWeight": "400",
+          "nav": "EB Garamond",
+          "buttons": null
+        },
+        "faces": [
+          "EB Garamond"
+        ],
+        "page": "#0B0B0C",
+        "backgrounds": [
+          {
+            "hex": "#0B0B0C",
+            "weight": 1296000
+          }
+        ],
+        "inks": [
+          {
+            "hex": "#F2EDE3",
+            "weight": 41
+          }
+        ],
+        "link": null
+      }
+    }
+  ],
+  "videos": [
+    {
+      "route": "/",
+      "src": "https://jeffvhs.com/wp-content/uploads/2026/07/brazil-reel-tease.mp4",
+      "sources": [
+        "https://jeffvhs.com/wp-content/uploads/2026/07/brazil-reel-tease.mp4"
+      ],
+      "poster": null,
+      "width": 1280,
+      "height": 720,
+      "autoplay": true,
+      "loop": false,
+      "file": "video-01.mp4",
+      "bytes": 7558658
+    },
+    {
+      "route": "/reel/",
+      "src": "https://jeffvhs.com/wp-content/uploads/2026/10/brazil-reel.mp4",
+      "sources": [
+        "https://jeffvhs.com/wp-content/uploads/2026/10/brazil-reel.mp4"
+      ],
+      "poster": "https://jeffvhs.com/wp-content/themes/jrpugh/assets/img/posters/brazil-reel.jpg",
+      "width": 1920,
+      "height": 1080,
+      "autoplay": true,
+      "loop": true,
+      "file": "video-02.mp4",
+      "bytes": 34861161
+    },
+    {
+      "route": "/reel/",
+      "src": "https://jeffvhs.com/wp-content/uploads/2026/10/JR-PUGH-REEL.mp4",
+      "sources": [
+        "https://jeffvhs.com/wp-content/uploads/2026/10/JR-PUGH-REEL.mp4"
+      ],
+      "poster": "https://jeffvhs.com/wp-content/themes/jrpugh/assets/img/posters/monologue.jpg",
+      "width": 1920,
+      "height": 1080,
+      "autoplay": true,
+      "loop": true,
+      "file": "video-03.mp4",
+      "bytes": 14523628
+    }
+  ],
+  "assets": [
+    {
+      "file": "assets/01-cropped-screenshot-2026-07-14-at-3-42-03-pm-32x3.png",
+      "url": "https://jeffvhs.com/wp-content/uploads/2026/07/cropped-Screenshot-2026-07-14-at-3.42.03-PM-32x32.png",
+      "page": "home",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null,
+      "bytes": 250,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/02-cropped-screenshot-2026-07-14-at-3-42-03-pm-192x.png",
+      "url": "https://jeffvhs.com/wp-content/uploads/2026/07/cropped-Screenshot-2026-07-14-at-3.42.03-PM-192x192.png",
+      "page": "home",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null,
+      "bytes": 1319,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/03-cropped-screenshot-2026-07-14-at-3-42-03-pm-180x.png",
+      "url": "https://jeffvhs.com/wp-content/uploads/2026/07/cropped-Screenshot-2026-07-14-at-3.42.03-PM-180x180.png",
+      "page": "home",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null,
+      "bytes": 1243,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/01-cropped-screenshot-2026-07-14-at-3-42-03-pm-32x3.png",
+      "url": "https://jeffvhs.com/wp-content/uploads/2026/07/cropped-Screenshot-2026-07-14-at-3.42.03-PM-32x32.png",
+      "page": "acting",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/02-cropped-screenshot-2026-07-14-at-3-42-03-pm-192x.png",
+      "url": "https://jeffvhs.com/wp-content/uploads/2026/07/cropped-Screenshot-2026-07-14-at-3.42.03-PM-192x192.png",
+      "page": "acting",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/03-cropped-screenshot-2026-07-14-at-3-42-03-pm-180x.png",
+      "url": "https://jeffvhs.com/wp-content/uploads/2026/07/cropped-Screenshot-2026-07-14-at-3.42.03-PM-180x180.png",
+      "page": "acting",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/04-headshot6-scaled.png",
+      "url": "https://jeffvhs.com/wp-content/uploads/2026/07/headshot6-scaled.png",
+      "page": "acting",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "JR Pugh headshot",
+      "width": 325,
+      "height": 488,
+      "natural": [
+        1707,
+        2560
+      ],
+      "bytes": 3807988,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/05-jeffheadshot2-scaled.png",
+      "url": "https://jeffvhs.com/wp-content/uploads/2026/07/JeffHeadshot2-scaled.png",
+      "page": "acting",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "JR Pugh headshot",
+      "width": 325,
+      "height": 488,
+      "natural": [
+        1707,
+        2560
+      ],
+      "bytes": 3707096,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/06-headshot4-scaled.png",
+      "url": "https://jeffvhs.com/wp-content/uploads/2026/07/headshot4-scaled.png",
+      "page": "acting",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "JR Pugh headshot",
+      "width": 325,
+      "height": 488,
+      "natural": [
+        1707,
+        2560
+      ],
+      "bytes": 3520614,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/07-headshot7-scaled.png",
+      "url": "https://jeffvhs.com/wp-content/uploads/2026/07/headshot7-scaled.png",
+      "page": "acting",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "JR Pugh headshot",
+      "width": 325,
+      "height": 488,
+      "natural": [
+        1707,
+        2560
+      ],
+      "bytes": 3966340,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/01-cropped-screenshot-2026-07-14-at-3-42-03-pm-32x3.png",
+      "url": "https://jeffvhs.com/wp-content/uploads/2026/07/cropped-Screenshot-2026-07-14-at-3.42.03-PM-32x32.png",
+      "page": "reel",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/02-cropped-screenshot-2026-07-14-at-3-42-03-pm-192x.png",
+      "url": "https://jeffvhs.com/wp-content/uploads/2026/07/cropped-Screenshot-2026-07-14-at-3.42.03-PM-192x192.png",
+      "page": "reel",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/03-cropped-screenshot-2026-07-14-at-3-42-03-pm-180x.png",
+      "url": "https://jeffvhs.com/wp-content/uploads/2026/07/cropped-Screenshot-2026-07-14-at-3.42.03-PM-180x180.png",
+      "page": "reel",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/01-cropped-screenshot-2026-07-14-at-3-42-03-pm-32x3.png",
+      "url": "https://jeffvhs.com/wp-content/uploads/2026/07/cropped-Screenshot-2026-07-14-at-3.42.03-PM-32x32.png",
+      "page": "about",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/02-cropped-screenshot-2026-07-14-at-3-42-03-pm-192x.png",
+      "url": "https://jeffvhs.com/wp-content/uploads/2026/07/cropped-Screenshot-2026-07-14-at-3.42.03-PM-192x192.png",
+      "page": "about",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/03-cropped-screenshot-2026-07-14-at-3-42-03-pm-180x.png",
+      "url": "https://jeffvhs.com/wp-content/uploads/2026/07/cropped-Screenshot-2026-07-14-at-3.42.03-PM-180x180.png",
+      "page": "about",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/08-merrebel-scaled.jpg",
+      "url": "https://jeffvhs.com/wp-content/uploads/2026/10/Merrebel-scaled.jpg",
+      "page": "about",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 568,
+      "height": 711,
+      "natural": [
+        1707,
+        2560
+      ],
+      "bytes": 744939,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/09-img-4861-1-scaled.jpg",
+      "url": "https://jeffvhs.com/wp-content/uploads/2022/08/IMG_4861-1-scaled.jpg",
+      "page": "about",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 568,
+      "height": 711,
+      "natural": [
+        1706,
+        2560
+      ],
+      "bytes": 196556,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/10-bb2293c5-b181-4227-b3c9-22358e235b2f-scaled.jpg",
+      "url": "https://jeffvhs.com/wp-content/uploads/2022/06/BB2293C5-B181-4227-B3C9-22358E235B2F-scaled.jpeg",
+      "page": "about",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 568,
+      "height": 711,
+      "natural": [
+        1706,
+        2560
+      ],
+      "bytes": 320164,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/11-dscf6659-scaled.jpg",
+      "url": "https://jeffvhs.com/wp-content/uploads/2022/12/DSCF6659-scaled.jpg",
+      "page": "about",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 568,
+      "height": 711,
+      "natural": [
+        1707,
+        2560
+      ],
+      "bytes": 199387,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/01-cropped-screenshot-2026-07-14-at-3-42-03-pm-32x3.png",
+      "url": "https://jeffvhs.com/wp-content/uploads/2026/07/cropped-Screenshot-2026-07-14-at-3.42.03-PM-32x32.png",
+      "page": "contact",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/02-cropped-screenshot-2026-07-14-at-3-42-03-pm-192x.png",
+      "url": "https://jeffvhs.com/wp-content/uploads/2026/07/cropped-Screenshot-2026-07-14-at-3.42.03-PM-192x192.png",
+      "page": "contact",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/03-cropped-screenshot-2026-07-14-at-3-42-03-pm-180x.png",
+      "url": "https://jeffvhs.com/wp-content/uploads/2026/07/cropped-Screenshot-2026-07-14-at-3.42.03-PM-180x180.png",
+      "page": "contact",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    }
+  ]
+}

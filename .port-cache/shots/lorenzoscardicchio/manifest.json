@@ -1,0 +1,64 @@
+{
+  "slug": "lorenzoscardicchio",
+  "base": "https://lorenzoscardicchio.com",
+  "shot": "2026-10-22T22:00:23.827Z",
+  "viewport": {
+    "width": 1440,
+    "height": 900,
+    "scale": 2
+  },
+  "phone": null,
+  "pages": [
+    {
+      "name": "home",
+      "route": "/",
+      "url": "https://x.com/lorenzo_scardi",
+      "title": "Just a moment...",
+      "description": null,
+      "height": 900,
+      "frame": "home.png",
+      "full": "home-full.png",
+      "videos": [],
+      "phone": null,
+      "text": [
+        {
+          "tag": "h1",
+          "text": "x.com",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Performing security verification",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.",
+          "where": "main"
+        }
+      ],
+      "design": {
+        "fonts": {
+          "headings": "system-ui",
+          "headingsWeight": "600",
+          "body": "system-ui",
+          "bodyWeight": "400",
+          "nav": null,
+          "buttons": null
+        },
+        "faces": [],
+        "page": null,
+        "backgrounds": [],
+        "inks": [
+          {
+            "hex": "#313131",
+            "weight": 177
+          }
+        ],
+        "link": null
+      }
+    }
+  ],
+  "videos": [],
+  "assets": []
+}

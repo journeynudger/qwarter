@@ -1,0 +1,1172 @@
+{
+  "slug": "stairway",
+  "base": "https://stairway.audio",
+  "shot": "2026-10-22T21:39:14.273Z",
+  "viewport": {
+    "width": 1440,
+    "height": 900,
+    "scale": 2
+  },
+  "phone": {
+    "width": 390,
+    "height": 844,
+    "scale": 3
+  },
+  "pages": [
+    {
+      "name": "home",
+      "route": "/",
+      "url": "https://stairway.audio/",
+      "title": "Stairway Audio. Analog Tone. Digital Soul.",
+      "description": "Real analog samples from legendary synthesizers, mapped into lightweight modern plug-ins. Load, play, create.",
+      "height": 6232,
+      "frame": "home.png",
+      "full": "home-full.png",
+      "videos": [],
+      "phone": {
+        "frame": "m-home.png",
+        "full": "m-home-full.png",
+        "height": 6818
+      },
+      "text": [
+        {
+          "tag": "h1",
+          "text": "Real analog sound",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "From legendary synthesizers, mapped into lightweight modern plug-ins. Load, play, create.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "For Synths",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Shape every single note.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Full ADSR envelope control puts you in charge of how every sound breathes. Set the Attack for a slow swell or a sharp hit. Dial the Decay and Sustain to control how notes hold. Adjust Release for short staccato stabs or long, fading tails.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "No menu diving. Just four knobs and total control.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "More than just a preset.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Four built-in effects (Drive, Phaser, Delay, and Reverb) turn any patch into something entirely new. Push a clean pad into saturation. Add phaser movement to a static lead. Layer delay and reverb for ambient soundscapes that fill every corner of the mix.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Add some grit to make your DAW proud.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Explore SA-S1",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Preset Browser",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Browse all 61 presets from a dropdown menu. Select from Bass, Leads, FX, Pads, and Plucks categories. Use the arrow buttons to flip through sounds instantly while you play.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Play it right here in the page. The real presets, the real signal chain.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Our Plugins",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "SA-S1",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Community",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Producers are building with Stairway every day. Join the community for first access to new plugins, sample packs, and behind-the-scenes drops.",
+          "where": "main"
+        },
+        {
+          "tag": "blockquote",
+          "text": "“These are the most usable analog samples I've touched. Dropped SA-S1 on a pad bus and instantly had that OB-Xa width.”",
+          "where": "main"
+        },
+        {
+          "tag": "blockquote",
+          "text": "“SA-S2 nails the Minilogue grit without the menu diving. It's basically my go-to for lo-fi keys now.”",
+          "where": "main"
+        },
+        {
+          "tag": "blockquote",
+          "text": "“I wasn't expecting a plugin at this price to sound this expensive. The release tails are gorgeous.”",
+          "where": "main"
+        },
+        {
+          "tag": "blockquote",
+          "text": "“Finally, analog character that doesn't melt my CPU. Ten instances open and my laptop didn't blink.”",
+          "where": "main"
+        },
+        {
+          "tag": "blockquote",
+          "text": "“The presets are actually usable out of the box. Half my last beat is just SA-S1 with the drive turned up.”",
+          "where": "main"
+        },
+        {
+          "tag": "blockquote",
+          "text": "“Bought both on a whim and they've been in every session since. The VU meter is a nice touch, too.”",
+          "where": "main"
+        }
+      ],
+      "design": {
+        "fonts": {
+          "headings": "Playfair Display",
+          "headingsWeight": "400",
+          "body": "Source Serif 4",
+          "bodyWeight": "400",
+          "nav": "DM Mono",
+          "buttons": "DM Mono"
+        },
+        "faces": [
+          "Playfair Display",
+          "Source Serif 4",
+          "DM Mono"
+        ],
+        "page": "#1A1714",
+        "backgrounds": [
+          {
+            "hex": "#1A1714",
+            "weight": 11428723
+          },
+          {
+            "hex": "#000000",
+            "weight": 1296000
+          },
+          {
+            "hex": "#D4C8B0",
+            "weight": 1166400
+          },
+          {
+            "hex": "#6B6B4E",
+            "weight": 1166400
+          },
+          {
+            "hex": "#B85C38",
+            "weight": 15272
+          },
+          {
+            "hex": "#F5F0E8",
+            "weight": 5271
+          },
+          {
+            "hex": "#F0E8D8",
+            "weight": 3901
+          }
+        ],
+        "inks": [
+          {
+            "hex": "#FFFFFF",
+            "weight": 1532
+          },
+          {
+            "hex": "#F5F0E8",
+            "weight": 901
+          },
+          {
+            "hex": "#1A1714",
+            "weight": 344
+          }
+        ],
+        "link": "#FFFFFF"
+      }
+    },
+    {
+      "name": "shop",
+      "route": "/shop",
+      "url": "https://stairway.audio/shop",
+      "title": "Shop All · Stairway Audio",
+      "description": "Browse every Stairway Audio plugin — real analog samples mapped into lightweight modern plug-ins.",
+      "height": 1188,
+      "frame": "shop.png",
+      "full": "shop-full.png",
+      "videos": [],
+      "phone": {
+        "frame": "m-shop.png",
+        "full": "m-shop-full.png",
+        "height": 1174
+      },
+      "text": [
+        {
+          "tag": "h1",
+          "text": "Shop All",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "SA-S1",
+          "where": "main"
+        }
+      ],
+      "design": {
+        "fonts": {
+          "headings": "Source Serif 4",
+          "headingsWeight": "400",
+          "body": "Source Serif 4",
+          "bodyWeight": "400",
+          "nav": "DM Mono",
+          "buttons": "DM Mono"
+        },
+        "faces": [
+          "Playfair Display",
+          "Source Serif 4",
+          "DM Mono"
+        ],
+        "page": "#1A1714",
+        "backgrounds": [
+          {
+            "hex": "#1A1714",
+            "weight": 2371663
+          },
+          {
+            "hex": "#000000",
+            "weight": 1296000
+          },
+          {
+            "hex": "#F5F0E8",
+            "weight": 5271
+          },
+          {
+            "hex": "#F0E8D8",
+            "weight": 3901
+          }
+        ],
+        "inks": [
+          {
+            "hex": "#FFFFFF",
+            "weight": 54
+          },
+          {
+            "hex": "#1A1714",
+            "weight": 12
+          }
+        ],
+        "link": "#FFFFFF"
+      }
+    },
+    {
+      "name": "support",
+      "route": "/support",
+      "url": "https://stairway.audio/support",
+      "title": "Support · Stairway Audio",
+      "description": "Get in touch with the Stairway Audio team.",
+      "height": 1067,
+      "frame": "support.png",
+      "full": "support-full.png",
+      "videos": [],
+      "phone": {
+        "frame": "m-support.png",
+        "full": "m-support-full.png",
+        "height": 1114
+      },
+      "text": [
+        {
+          "tag": "h1",
+          "text": "Support",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Questions about a plugin, a download link, or anything else — send it here and a real person on the team will get back to you.",
+          "where": "main"
+        }
+      ],
+      "design": {
+        "fonts": {
+          "headings": "Playfair Display",
+          "headingsWeight": "400",
+          "body": "Source Serif 4",
+          "bodyWeight": "400",
+          "nav": "DM Mono",
+          "buttons": "DM Mono"
+        },
+        "faces": [
+          "Playfair Display",
+          "Source Serif 4",
+          "DM Mono"
+        ],
+        "page": "#1A1714",
+        "backgrounds": [
+          {
+            "hex": "#1A1714",
+            "weight": 3519321
+          },
+          {
+            "hex": "#000000",
+            "weight": 1296000
+          },
+          {
+            "hex": "#F5F0E8",
+            "weight": 8100
+          }
+        ],
+        "inks": [
+          {
+            "hex": "#F5F0E8",
+            "weight": 133
+          },
+          {
+            "hex": "#FFFFFF",
+            "weight": 39
+          },
+          {
+            "hex": "#1A1714",
+            "weight": 12
+          }
+        ],
+        "link": null
+      }
+    },
+    {
+      "name": "shop-sa-s1",
+      "route": "/shop/sa-s1",
+      "url": "https://stairway.audio/shop/sa-s1",
+      "title": "SA-S1 · Stairway Audio",
+      "description": "61 real analog samples. Pads, leads, bass, plucks, and FX with the full character of the Oberheim OB-Xa. 16-voice polyphony, ADSR envelope, 4 built-in effects.",
+      "height": 6344,
+      "frame": "shop-sa-s1.png",
+      "full": "shop-sa-s1-full.png",
+      "videos": [],
+      "phone": {
+        "frame": "m-shop-sa-s1.png",
+        "full": "m-shop-sa-s1-full.png",
+        "height": 5652
+      },
+      "text": [
+        {
+          "tag": "h1",
+          "text": "SA-S1",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "61 real analog samples. Pads, leads, bass, plucks, and FX with the full character of the Oberheim OB-Xa. 16-voice polyphony, ADSR envelope, 4 built-in effects.",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "4 built-in effects: Drive, Phaser, Delay, Reverb",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "macOS + Windows · VST3, AU",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Play SA-S1 in your browser",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "The real presets. The real signal chain. Press a key to try it.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Preset Browser",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Flip through every preset from the on-board dropdown — pads, leads, bass, plucks, and FX — and audition sounds in real time while you play.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "ADSR Envelope",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Shape every note with Attack, Decay, Sustain, and Release. Go from sharp, percussive plucks to slow, swelling pads with four knobs.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Built-in Effects",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Drive, Phaser, Delay, and Reverb are built right in. Add grit, movement, and space without ever leaving the plugin.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "VU Meter",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "A classic analog VU meter shows your real-time output level, so every patch sits in the sweet spot — clean and punchy.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Filters & Output",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Sculpt the tone with Lo Cut and Hi Cut, then set the level with Output Gain for consistent gain staging in any mix.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Specifications",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "Attack · Decay · Sustain · Release",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "Drive · Phaser · Delay · Reverb",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "Lo Cut · Hi Cut · Output Gain",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Which formats and platforms are supported?",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "How is it delivered?",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Is this a one-time purchase?",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Do I need an account?",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "What's your refund policy?",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "How do I get updates?",
+          "where": "main"
+        }
+      ],
+      "design": {
+        "fonts": {
+          "headings": "Playfair Display",
+          "headingsWeight": "400",
+          "body": "Source Serif 4",
+          "bodyWeight": "400",
+          "nav": "DM Mono",
+          "buttons": "DM Mono"
+        },
+        "faces": [
+          "Playfair Display",
+          "Source Serif 4",
+          "DM Mono"
+        ],
+        "page": "#1A1714",
+        "backgrounds": [
+          {
+            "hex": "#0F0D0B",
+            "weight": 13422173
+          },
+          {
+            "hex": "#1A1714",
+            "weight": 11040553
+          },
+          {
+            "hex": "#000000",
+            "weight": 1296000
+          },
+          {
+            "hex": "#D4C8B0",
+            "weight": 849780
+          },
+          {
+            "hex": "#F0E8D8",
+            "weight": 792090
+          },
+          {
+            "hex": "#F5F0E8",
+            "weight": 18241
+          },
+          {
+            "hex": "#B85C38",
+            "weight": 7568
+          }
+        ],
+        "inks": [
+          {
+            "hex": "#F5F0E8",
+            "weight": 834
+          },
+          {
+            "hex": "#1A1714",
+            "weight": 559
+          },
+          {
+            "hex": "#FFFFFF",
+            "weight": 198
+          }
+        ],
+        "link": "#F5F0E8"
+      }
+    }
+  ],
+  "videos": [],
+  "assets": [
+    {
+      "file": "assets/01-icon.svg",
+      "url": "https://stairway.audio/icon.svg?a4247f49e3b1043a",
+      "page": "home",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null,
+      "bytes": 466,
+      "type": "image/svg+xml"
+    },
+    {
+      "file": "assets/02-apple-icon.png",
+      "url": "https://stairway.audio/apple-icon?119aaa2511e9eaf3",
+      "page": "home",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null,
+      "bytes": 3040,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/03-opengraph-image.png",
+      "url": "https://stairway.audio/opengraph-image?83428c16fecfa0dc",
+      "page": "home",
+      "kind": "og",
+      "where": "head",
+      "logo": false,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null,
+      "bytes": 42659,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/04-logo-mark-white.png",
+      "url": "https://stairway.audio/brand/logo-mark-white.png",
+      "page": "home",
+      "kind": "img",
+      "where": "nav",
+      "logo": true,
+      "alt": "",
+      "width": 21,
+      "height": 20,
+      "natural": [
+        597,
+        563
+      ],
+      "bytes": 38371,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/05-wordmark-white.png",
+      "url": "https://stairway.audio/brand/wordmark-white.png",
+      "page": "home",
+      "kind": "img",
+      "where": "nav",
+      "logo": true,
+      "alt": "Stairway Audio",
+      "width": 103,
+      "height": 16,
+      "natural": [
+        1224,
+        190
+      ],
+      "bytes": 42558,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/06-image.jpg",
+      "url": "https://stairway.audio/_next/image?url=%2Fcommunity-studio.jpg&w=3840&q=75",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 1440,
+      "height": 828,
+      "natural": [
+        406,
+        544
+      ],
+      "bytes": 140809,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/07-image.jpg",
+      "url": "https://stairway.audio/_next/image?url=%2Fdemo%2Fsa-s1%2Fvu-face.webp&w=3840&q=75",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 600,
+      "height": 600,
+      "natural": [
+        512,
+        512
+      ],
+      "bytes": 13122,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/08-image.jpg",
+      "url": "https://stairway.audio/_next/image?url=%2Fdemo%2Fsa-s1%2Ffaceplate.webp&w=3840&q=75",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "SA-S1 front panel",
+      "width": 600,
+      "height": 600,
+      "natural": [
+        512,
+        512
+      ],
+      "bytes": 81135,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/09-image.jpg",
+      "url": "https://stairway.audio/_next/image?url=%2Fsa-s1.jpg&w=1200&q=75",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "SA-S1 plug-in ADSR envelope controls",
+      "width": 592,
+      "height": 591,
+      "natural": [
+        547,
+        546
+      ],
+      "bytes": 80485,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/10-image.jpg",
+      "url": "https://stairway.audio/_next/image?url=%2Fsa-s2.jpg&w=1200&q=75",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "SA-S2 plug-in built-in effects",
+      "width": 592,
+      "height": 587,
+      "natural": [
+        550,
+        546
+      ],
+      "bytes": 120806,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/11-dust.svg",
+      "url": "https://stairway.audio/dust.svg",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Dust plug-in",
+      "width": 324,
+      "height": 387,
+      "natural": [
+        1200,
+        1200
+      ],
+      "bytes": 4608,
+      "type": "image/svg+xml"
+    },
+    {
+      "file": "assets/12-image.jpg",
+      "url": "https://stairway.audio/_next/image?url=%2Fsa-s1.jpg&w=3840&q=75",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "SA-S1 plug-in",
+      "width": 440,
+      "height": 440,
+      "natural": [
+        401,
+        400
+      ],
+      "bytes": 80485,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/13-image.jpg",
+      "url": "https://stairway.audio/_next/image?url=%2Fsa-s2.jpg&w=3840&q=75",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "SA-S2 plug-in",
+      "width": 294,
+      "height": 349,
+      "natural": [
+        403,
+        400
+      ],
+      "bytes": 120806,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/14-image.png",
+      "url": "https://stairway.audio/_next/image?url=%2Fkickspace.png&w=3840&q=75",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Kick Space plug-in",
+      "width": 364,
+      "height": 387,
+      "natural": [
+        440,
+        247
+      ],
+      "bytes": 353492,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/15-flutter.svg",
+      "url": "https://stairway.audio/flutter.svg",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Flutter plug-in",
+      "width": 405,
+      "height": 387,
+      "natural": [
+        1200,
+        1200
+      ],
+      "bytes": 4133,
+      "type": "image/svg+xml"
+    },
+    {
+      "file": "assets/01-icon.svg",
+      "url": "https://stairway.audio/icon.svg?a4247f49e3b1043a",
+      "page": "shop",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/02-apple-icon.png",
+      "url": "https://stairway.audio/apple-icon?119aaa2511e9eaf3",
+      "page": "shop",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/03-opengraph-image.png",
+      "url": "https://stairway.audio/opengraph-image?83428c16fecfa0dc",
+      "page": "shop",
+      "kind": "og",
+      "where": "head",
+      "logo": false,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/04-logo-mark-white.png",
+      "url": "https://stairway.audio/brand/logo-mark-white.png",
+      "page": "shop",
+      "kind": "img",
+      "where": "nav",
+      "logo": true,
+      "alt": "",
+      "width": 21,
+      "height": 20,
+      "natural": [
+        597,
+        563
+      ]
+    },
+    {
+      "file": "assets/05-wordmark-white.png",
+      "url": "https://stairway.audio/brand/wordmark-white.png",
+      "page": "shop",
+      "kind": "img",
+      "where": "nav",
+      "logo": true,
+      "alt": "Stairway Audio",
+      "width": 103,
+      "height": 16,
+      "natural": [
+        1224,
+        190
+      ]
+    },
+    {
+      "file": "assets/11-dust.svg",
+      "url": "https://stairway.audio/dust.svg",
+      "page": "shop",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Dust plug-in",
+      "width": 324,
+      "height": 387,
+      "natural": [
+        1200,
+        1200
+      ]
+    },
+    {
+      "file": "assets/12-image.jpg",
+      "url": "https://stairway.audio/_next/image?url=%2Fsa-s1.jpg&w=3840&q=75",
+      "page": "shop",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "SA-S1 plug-in",
+      "width": 440,
+      "height": 440,
+      "natural": [
+        440,
+        439
+      ]
+    },
+    {
+      "file": "assets/13-image.jpg",
+      "url": "https://stairway.audio/_next/image?url=%2Fsa-s2.jpg&w=3840&q=75",
+      "page": "shop",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "SA-S2 plug-in",
+      "width": 294,
+      "height": 349,
+      "natural": [
+        440,
+        436
+      ]
+    },
+    {
+      "file": "assets/14-image.png",
+      "url": "https://stairway.audio/_next/image?url=%2Fkickspace.png&w=3840&q=75",
+      "page": "shop",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Kick Space plug-in",
+      "width": 364,
+      "height": 387,
+      "natural": [
+        440,
+        247
+      ]
+    },
+    {
+      "file": "assets/15-flutter.svg",
+      "url": "https://stairway.audio/flutter.svg",
+      "page": "shop",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Flutter plug-in",
+      "width": 405,
+      "height": 387,
+      "natural": [
+        1200,
+        1200
+      ]
+    },
+    {
+      "file": "assets/01-icon.svg",
+      "url": "https://stairway.audio/icon.svg?a4247f49e3b1043a",
+      "page": "support",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/02-apple-icon.png",
+      "url": "https://stairway.audio/apple-icon?119aaa2511e9eaf3",
+      "page": "support",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/03-opengraph-image.png",
+      "url": "https://stairway.audio/opengraph-image?83428c16fecfa0dc",
+      "page": "support",
+      "kind": "og",
+      "where": "head",
+      "logo": false,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/04-logo-mark-white.png",
+      "url": "https://stairway.audio/brand/logo-mark-white.png",
+      "page": "support",
+      "kind": "img",
+      "where": "nav",
+      "logo": true,
+      "alt": "",
+      "width": 21,
+      "height": 20,
+      "natural": [
+        597,
+        563
+      ]
+    },
+    {
+      "file": "assets/05-wordmark-white.png",
+      "url": "https://stairway.audio/brand/wordmark-white.png",
+      "page": "support",
+      "kind": "img",
+      "where": "nav",
+      "logo": true,
+      "alt": "Stairway Audio",
+      "width": 103,
+      "height": 16,
+      "natural": [
+        1224,
+        190
+      ]
+    },
+    {
+      "file": "assets/01-icon.svg",
+      "url": "https://stairway.audio/icon.svg?a4247f49e3b1043a",
+      "page": "shop-sa-s1",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/02-apple-icon.png",
+      "url": "https://stairway.audio/apple-icon?119aaa2511e9eaf3",
+      "page": "shop-sa-s1",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/16-sa-s1.jpg",
+      "url": "https://stairway.audio/sa-s1.jpg",
+      "page": "shop-sa-s1",
+      "kind": "og",
+      "where": "head",
+      "logo": false,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null,
+      "bytes": 139189,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/04-logo-mark-white.png",
+      "url": "https://stairway.audio/brand/logo-mark-white.png",
+      "page": "shop-sa-s1",
+      "kind": "img",
+      "where": "nav",
+      "logo": true,
+      "alt": "",
+      "width": 21,
+      "height": 20,
+      "natural": [
+        597,
+        563
+      ]
+    },
+    {
+      "file": "assets/05-wordmark-white.png",
+      "url": "https://stairway.audio/brand/wordmark-white.png",
+      "page": "shop-sa-s1",
+      "kind": "img",
+      "where": "nav",
+      "logo": true,
+      "alt": "Stairway Audio",
+      "width": 103,
+      "height": 16,
+      "natural": [
+        1224,
+        190
+      ]
+    },
+    {
+      "file": "assets/12-image.jpg",
+      "url": "https://stairway.audio/_next/image?url=%2Fsa-s1.jpg&w=3840&q=75",
+      "page": "shop-sa-s1",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "SA-S1 plug-in interface",
+      "width": 663,
+      "height": 661,
+      "natural": [
+        451,
+        450
+      ]
+    },
+    {
+      "file": "assets/17-image.jpg",
+      "url": "https://stairway.audio/_next/image?url=%2Fsa-s2.jpg&w=256&q=75",
+      "page": "shop-sa-s1",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 60,
+      "height": 60,
+      "natural": [
+        128,
+        127
+      ],
+      "bytes": 10012,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/07-image.jpg",
+      "url": "https://stairway.audio/_next/image?url=%2Fdemo%2Fsa-s1%2Fvu-face.webp&w=3840&q=75",
+      "page": "shop-sa-s1",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 560,
+      "height": 560,
+      "natural": [
+        477,
+        477
+      ]
+    },
+    {
+      "file": "assets/08-image.jpg",
+      "url": "https://stairway.audio/_next/image?url=%2Fdemo%2Fsa-s1%2Ffaceplate.webp&w=3840&q=75",
+      "page": "shop-sa-s1",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "SA-S1 front panel",
+      "width": 560,
+      "height": 560,
+      "natural": [
+        477,
+        477
+      ]
+    },
+    {
+      "file": "assets/09-image.jpg",
+      "url": "https://stairway.audio/_next/image?url=%2Fsa-s1.jpg&w=1200&q=75",
+      "page": "shop-sa-s1",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "SA-S1 interface",
+      "width": 520,
+      "height": 519,
+      "natural": [
+        547,
+        546
+      ]
+    }
+  ]
+}

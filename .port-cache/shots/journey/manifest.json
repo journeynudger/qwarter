@@ -1,0 +1,2672 @@
+{
+  "slug": "journey",
+  "base": "https://journeynudge.com",
+  "shot": "2026-10-22T21:44:04.105Z",
+  "viewport": {
+    "width": 1440,
+    "height": 900,
+    "scale": 2
+  },
+  "phone": {
+    "width": 390,
+    "height": 844,
+    "scale": 3
+  },
+  "pages": [
+    {
+      "name": "home",
+      "route": "/",
+      "url": "https://journeynudge.com/",
+      "title": "journey – The nudge you need, when you need it.",
+      "description": null,
+      "height": 8278,
+      "frame": "home.png",
+      "full": "home-full.png",
+      "videos": [],
+      "phone": {
+        "frame": "m-home.png",
+        "full": "m-home-full.png",
+        "height": 10077
+      },
+      "text": [
+        {
+          "tag": "h1",
+          "text": "Most retention tools talk at students. Journey helps you listen to them.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "The right message at the right moment. At UNH, 74% of first-years write back, and at-risk retention went from 50% to 94%.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Journey is like a friend that texts first.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Ask it when you need something. It also knows when to check in.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Works inside the platforms you already use.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "No app to install. No new password. No fight with IT. Journey is the glue, it gets your students to the resources you already invest in.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Nudges for whatever they’re working on.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Stories from the cohort.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Discover how Journey helps students and the team supporting them.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Built on the science of the nudge.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "“Nudge” comes from the behavioral economics of Richard Thaler and Cass Sunstein, who showed that the structure of a choice moves behavior more than information or willpower ever do.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Choice architecture",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Thaler & Sunstein, 2008. Structure the moment, not the sermon. One tap takes a student from “I’m overwhelmed” to a booked appointment.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Just-in-time adaptive intervention",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "The right nudge in the right window, capped at a few per week. Attention gets respected, not captured.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Tinto’s persistence research",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Every check-in maps to the four drivers of whether a student stays: financial, academic, wellness, and engagement.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "What students say.",
+          "where": "main"
+        },
+        {
+          "tag": "blockquote",
+          "text": "“5 minutes with Journey helps me with my entire week. It let me do things I’d never done before, be more social with people in person.”",
+          "where": "main"
+        },
+        {
+          "tag": "blockquote",
+          "text": "“Joined NAACP, Animation Club, and Theater auditions. I went from 0 clubs to 4 in a month.”",
+          "where": "main"
+        },
+        {
+          "tag": "figcaption",
+          "text": "JB Janiya B. Pathfinder · UNH",
+          "where": "main"
+        },
+        {
+          "tag": "blockquote",
+          "text": "“Journey help me doing things I already wanted to do.”",
+          "where": "main"
+        },
+        {
+          "tag": "blockquote",
+          "text": "“Universities are clumsy with how they communicate. Journey is the first thing I’ve seen that students will actually answer.”",
+          "where": "main"
+        },
+        {
+          "tag": "figcaption",
+          "text": "JF Jens Frederiksen · President University of New Haven",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Questions and answers",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "See Journey on your campus.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Start the conversation and see what Journey can bring to your students and the people supporting them.",
+          "where": "main"
+        },
+        {
+          "tag": "h4",
+          "text": "Product",
+          "where": "footer"
+        },
+        {
+          "tag": "h4",
+          "text": "Company",
+          "where": "footer"
+        },
+        {
+          "tag": "p",
+          "text": "© 2026 Journey. All rights reserved.",
+          "where": "footer"
+        }
+      ],
+      "design": {
+        "fonts": {
+          "headings": "Lora",
+          "headingsWeight": "400",
+          "body": "Inter",
+          "bodyWeight": "400",
+          "nav": "Inter",
+          "buttons": "Inter"
+        },
+        "faces": [
+          "Inter",
+          "Lora"
+        ],
+        "page": "#FCFBF9",
+        "backgrounds": [
+          {
+            "hex": "#FFFFFF",
+            "weight": 15701647
+          },
+          {
+            "hex": "#FCFBF9",
+            "weight": 12865995
+          },
+          {
+            "hex": "#F8F6F1",
+            "weight": 4270097
+          },
+          {
+            "hex": "#0A0A0A",
+            "weight": 475875
+          },
+          {
+            "hex": "#14756A",
+            "weight": 406713
+          },
+          {
+            "hex": "#ECE9DC",
+            "weight": 390986
+          },
+          {
+            "hex": "#F6F3EB",
+            "weight": 245831
+          },
+          {
+            "hex": "#FBFAF7",
+            "weight": 158382
+          }
+        ],
+        "inks": [
+          {
+            "hex": "#0F0F0F",
+            "weight": 1872
+          },
+          {
+            "hex": "#5E5E5C",
+            "weight": 1479
+          },
+          {
+            "hex": "#3A3A36",
+            "weight": 892
+          },
+          {
+            "hex": "#FFFFFF",
+            "weight": 883
+          },
+          {
+            "hex": "#99886E",
+            "weight": 59
+          },
+          {
+            "hex": "#4A5A1F",
+            "weight": 2
+          }
+        ],
+        "link": "#FFFFFF"
+      }
+    },
+    {
+      "name": "features",
+      "route": "/features",
+      "url": "https://journeynudge.com/features/",
+      "title": "Features – journey",
+      "description": null,
+      "height": 4794,
+      "frame": "features.png",
+      "full": "features-full.png",
+      "videos": [],
+      "phone": {
+        "frame": "m-features.png",
+        "full": "m-features-full.png",
+        "height": 6762
+      },
+      "text": [
+        {
+          "tag": "h1",
+          "text": "AI that understands your campus.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Journey Chat pairs your campus context, schedules, advisors, archetypes, history, with the world’s best AI. So your students get answers that actually fit their week.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Contextually aware chat.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Every answer is grounded in the resources your campus actually has, the buildings, hours, advisors, and people. Not a generic chatbot.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Get nudges about any goal.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Pick what matters this week. Journey sends 3 of the right texts at 3 of the right moments.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Students ask away.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Any campus question, any moment, any week. Journey answers in the language they already speak.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Across the semester.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "The voice Gen-Zs answer.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "See what your preferred AI says about Journey",
+          "where": "main"
+        },
+        {
+          "tag": "h4",
+          "text": "Features",
+          "where": "footer"
+        },
+        {
+          "tag": "h4",
+          "text": "Product",
+          "where": "footer"
+        },
+        {
+          "tag": "h4",
+          "text": "Company",
+          "where": "footer"
+        },
+        {
+          "tag": "p",
+          "text": "© 2026 Journey. All rights reserved.",
+          "where": "footer"
+        }
+      ],
+      "design": {
+        "fonts": {
+          "headings": "Lora",
+          "headingsWeight": "400",
+          "body": "Inter",
+          "bodyWeight": "400",
+          "nav": "Inter",
+          "buttons": null
+        },
+        "faces": [
+          "Inter",
+          "Lora"
+        ],
+        "page": "#FCFBF9",
+        "backgrounds": [
+          {
+            "hex": "#FFFFFF",
+            "weight": 7678467
+          },
+          {
+            "hex": "#FCFBF9",
+            "weight": 7063988
+          },
+          {
+            "hex": "#F6F3EB",
+            "weight": 814185
+          },
+          {
+            "hex": "#FAF8F2",
+            "weight": 626153
+          },
+          {
+            "hex": "#F4F1E8",
+            "weight": 488216
+          },
+          {
+            "hex": "#14756A",
+            "weight": 251160
+          },
+          {
+            "hex": "#F4E3E0",
+            "weight": 152187
+          },
+          {
+            "hex": "#E8EEEA",
+            "weight": 143787
+          }
+        ],
+        "inks": [
+          {
+            "hex": "#0F0F0F",
+            "weight": 1387
+          },
+          {
+            "hex": "#5E5E5C",
+            "weight": 579
+          },
+          {
+            "hex": "#FFFFFF",
+            "weight": 45
+          },
+          {
+            "hex": "#99886E",
+            "weight": 37
+          }
+        ],
+        "link": "#0F0F0F"
+      }
+    },
+    {
+      "name": "nudge",
+      "route": "/nudge",
+      "url": "https://journeynudge.com/nudge/",
+      "title": "Nudge – journey",
+      "description": null,
+      "height": 5194,
+      "frame": "nudge.png",
+      "full": "nudge-full.png",
+      "videos": [],
+      "phone": {
+        "frame": "m-nudge.png",
+        "full": "m-nudge-full.png",
+        "height": 5996
+      },
+      "text": [
+        {
+          "tag": "h1",
+          "text": "Students get proactive nudges synced to their schedule.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Students choose a goal for the week. Journey sends 3 of the right texts at 3 of the right moments.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "How it works",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Journey is like a friend, but it also texts first.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "When the moment matters, Journey remembers for next time.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Students get nudges based on their goals.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "During onboarding, every student tells Journey what they’re working on. Then nudges arrive on the day they actually need them, not on the day a calendar says they should.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "The first week, in their own thread.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Onboarding takes about 90 seconds. We collect two goals. That’s it. From there, the nudges build on what they told us.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "One semester. 100 students. $15K. See it on your campus.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "The same playbook that brought UNH from 50% retention to 94% for at-risk students.",
+          "where": "main"
+        },
+        {
+          "tag": "h4",
+          "text": "Product",
+          "where": "footer"
+        },
+        {
+          "tag": "h4",
+          "text": "Company",
+          "where": "footer"
+        },
+        {
+          "tag": "p",
+          "text": "© 2026 Journey. All rights reserved.",
+          "where": "footer"
+        }
+      ],
+      "design": {
+        "fonts": {
+          "headings": "Lora",
+          "headingsWeight": "500",
+          "body": "Inter",
+          "bodyWeight": "400",
+          "nav": "Inter",
+          "buttons": "Inter"
+        },
+        "faces": [
+          "Inter",
+          "Lora"
+        ],
+        "page": "#FCFBF9",
+        "backgrounds": [
+          {
+            "hex": "#FFFFFF",
+            "weight": 8739740
+          },
+          {
+            "hex": "#FCFBF9",
+            "weight": 7640325
+          },
+          {
+            "hex": "#F6F3EB",
+            "weight": 3544265
+          },
+          {
+            "hex": "#FAF8F2",
+            "weight": 115200
+          },
+          {
+            "hex": "#14756A",
+            "weight": 71658
+          },
+          {
+            "hex": "#ECE9DC",
+            "weight": 64373
+          },
+          {
+            "hex": "#F1F4E2",
+            "weight": 37962
+          },
+          {
+            "hex": "#F1E4C3",
+            "weight": 37691
+          }
+        ],
+        "inks": [
+          {
+            "hex": "#0F0F0F",
+            "weight": 852
+          },
+          {
+            "hex": "#FFFFFF",
+            "weight": 488
+          },
+          {
+            "hex": "#5E5E5C",
+            "weight": 487
+          },
+          {
+            "hex": "#9A9892",
+            "weight": 305
+          },
+          {
+            "hex": "#99886E",
+            "weight": 37
+          },
+          {
+            "hex": "#8C6E2B",
+            "weight": 28
+          }
+        ],
+        "link": "#8C6E2B"
+      }
+    },
+    {
+      "name": "chat",
+      "route": "/chat",
+      "url": "https://journeynudge.com/chat/",
+      "title": "Chat – journey",
+      "description": null,
+      "height": 7647,
+      "frame": "chat.png",
+      "full": "chat-full.png",
+      "videos": [],
+      "phone": {
+        "frame": "m-chat.png",
+        "full": "m-chat-full.png",
+        "height": 9471
+      },
+      "text": [
+        {
+          "tag": "h1",
+          "text": "AI that understands your campus and students.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "So your students get support that actually fits their week.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Students get nudges about any goal.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Pick what matters this week. Journey sends 3 of the right texts at 3 of the right moments.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Stories from the cohort.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Discover how Journey helps students and the team supporting them.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Contextually aware chat.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Every answer is grounded in the resources your campus actually has, the buildings, hours, advisors, and people. Not a generic chatbot.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "LIGHTWEIGHT IMPLEMENTATION",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "From contract to live conversations in 14 days.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "No IT lift. No app to install. No new password. Send your roster, Journey runs the conversation.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "One CSV. We segment by Tinto’s four drivers and your archetypes overnight.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "We write your first week.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "A campus-specific welcome thread, drafted by Journey, reviewed by you.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Students start replying.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "First nudges land. Reply rate hits 62–74% in the first week, every time.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Live dashboard for your team.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Risk signals, Student Voice Score, advisor routing, all live in your CRM.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "SVS report, retention lift, intervention log. The receipts your provost asks for.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Average time-to-live: 14 days. Smoothest software implementation UNH had in 30 years.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Sits on top of the platforms you already use.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Blackboard. Slack. Workday. Canvas. Navigate. OneStop. Starfish. Teams. Journey is the glue, not another tab your team has to learn.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Across the semester.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "The voice Gen-Zs answer.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Built for students, with students.",
+          "where": "main"
+        },
+        {
+          "tag": "blockquote",
+          "text": "“5 minutes with Journey helps me with my entire week. It let me do things I’d never done before, be more social with people in person.”",
+          "where": "main"
+        },
+        {
+          "tag": "blockquote",
+          "text": "“Joined NAACP, Animation Club, and Theater auditions. I went from 0 friends to 6 in a month.”",
+          "where": "main"
+        },
+        {
+          "tag": "figcaption",
+          "text": "AB Alexa B. Pathfinder · UNH",
+          "where": "main"
+        },
+        {
+          "tag": "blockquote",
+          "text": "“It booked the CAPS appointment for me at 1 AM. I’d been putting it off for weeks.”",
+          "where": "main"
+        },
+        {
+          "tag": "blockquote",
+          "text": "“The night before my chem final Journey helped me be less distracted. It nudged me to tackle one problem at a time. That helped. I didn’t open Reddit once.”",
+          "where": "main"
+        },
+        {
+          "tag": "blockquote",
+          "text": "“The breathing nudge actually works. I’d never have tried it if it wasn’t already on my phone.”",
+          "where": "main"
+        },
+        {
+          "tag": "blockquote",
+          "text": "“Texted the person I’d been meaning to text. We grabbed coffee that week. I forgot what that felt like.”",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "See what Journey can do for your students.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "A lightweight pilot. 100 students. One semester. The numbers your board has been waiting for.",
+          "where": "main"
+        },
+        {
+          "tag": "h4",
+          "text": "Product",
+          "where": "footer"
+        },
+        {
+          "tag": "h4",
+          "text": "Company",
+          "where": "footer"
+        },
+        {
+          "tag": "p",
+          "text": "© 2026 Journey. All rights reserved.",
+          "where": "footer"
+        }
+      ],
+      "design": {
+        "fonts": {
+          "headings": "Lora",
+          "headingsWeight": "400",
+          "body": "Inter",
+          "bodyWeight": "400",
+          "nav": "Inter",
+          "buttons": "Inter"
+        },
+        "faces": [
+          "Inter",
+          "Lora"
+        ],
+        "page": "#FCFBF9",
+        "backgrounds": [
+          {
+            "hex": "#FFFFFF",
+            "weight": 12870620
+          },
+          {
+            "hex": "#FCFBF9",
+            "weight": 12314408
+          },
+          {
+            "hex": "#F6F3EB",
+            "weight": 1838921
+          },
+          {
+            "hex": "#F4F1E8",
+            "weight": 488216
+          },
+          {
+            "hex": "#0A0A0A",
+            "weight": 455625
+          },
+          {
+            "hex": "#14756A",
+            "weight": 251095
+          },
+          {
+            "hex": "#F4E3E0",
+            "weight": 152187
+          },
+          {
+            "hex": "#E8EEEA",
+            "weight": 142300
+          }
+        ],
+        "inks": [
+          {
+            "hex": "#0F0F0F",
+            "weight": 2636
+          },
+          {
+            "hex": "#5E5E5C",
+            "weight": 1063
+          },
+          {
+            "hex": "#FFFFFF",
+            "weight": 529
+          },
+          {
+            "hex": "#99886E",
+            "weight": 37
+          }
+        ],
+        "link": "#0F0F0F"
+      }
+    },
+    {
+      "name": "how-journey-works",
+      "route": "/how-journey-works",
+      "url": "https://journeynudge.com/how-journey-works/",
+      "title": "How Journey Works – journey",
+      "description": null,
+      "height": 6628,
+      "frame": "how-journey-works.png",
+      "full": "how-journey-works-full.png",
+      "videos": [],
+      "phone": {
+        "frame": "m-how-journey-works.png",
+        "full": "m-how-journey-works-full.png",
+        "height": 8221
+      },
+      "text": [
+        {
+          "tag": "h1",
+          "text": "The nudge students need. When they need it.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Three texts a week. The right moment. The voice they actually answer.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "How it works",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Journey is like a friend, but it also texts first.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "When the moment matters, Journey remembers for next time.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Students get nudges based on their goals.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "During onboarding, every student tells Journey what they’re working on. Then nudges arrive on the day they actually need them, not on the day a calendar says they should.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "April mid-semester pulse check.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "One question. The student picks. Journey routes them to the right resource, every time.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Works inside the platforms you already use.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "No app to install. No new password. No fight with IT. Journey is the glue, it gets your students to the resources you already invest in.",
+          "where": "main"
+        },
+        {
+          "tag": "h4",
+          "text": "This week with Maya",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Pick the moment. Journey shows up in the right voice.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Onboarding is gentle. Weekly check-ins are short. Mid-panic replies are immediate. The CARE-team handoff is structured. Same product, four different jobs, each native to the moment.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "The first week, in their own thread.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Onboarding takes about 90 seconds. We collect two goals. That’s it. From there, the nudges build on what they told us.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "One semester. 100 students. $15K. See it on your campus.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "The same playbook that brought UNH from 50% retention to 94% for at-risk students.",
+          "where": "main"
+        },
+        {
+          "tag": "h4",
+          "text": "Product",
+          "where": "footer"
+        },
+        {
+          "tag": "h4",
+          "text": "Company",
+          "where": "footer"
+        },
+        {
+          "tag": "p",
+          "text": "© 2026 Journey. All rights reserved.",
+          "where": "footer"
+        }
+      ],
+      "design": {
+        "fonts": {
+          "headings": "Lora",
+          "headingsWeight": "400",
+          "body": "Inter",
+          "bodyWeight": "400",
+          "nav": "Inter",
+          "buttons": "Inter"
+        },
+        "faces": [
+          "Inter",
+          "Lora"
+        ],
+        "page": "#FCFBF9",
+        "backgrounds": [
+          {
+            "hex": "#FFFFFF",
+            "weight": 10831699
+          },
+          {
+            "hex": "#FCFBF9",
+            "weight": 9706230
+          },
+          {
+            "hex": "#F6F3EB",
+            "weight": 5012879
+          },
+          {
+            "hex": "#FAF8F2",
+            "weight": 115200
+          },
+          {
+            "hex": "#ECE9DC",
+            "weight": 79309
+          },
+          {
+            "hex": "#F1F4E2",
+            "weight": 37962
+          },
+          {
+            "hex": "#14756A",
+            "weight": 36916
+          },
+          {
+            "hex": "#F1E4C3",
+            "weight": 36775
+          }
+        ],
+        "inks": [
+          {
+            "hex": "#0F0F0F",
+            "weight": 1129
+          },
+          {
+            "hex": "#5E5E5C",
+            "weight": 898
+          },
+          {
+            "hex": "#FFFFFF",
+            "weight": 503
+          },
+          {
+            "hex": "#9A9892",
+            "weight": 315
+          },
+          {
+            "hex": "#99886E",
+            "weight": 37
+          },
+          {
+            "hex": "#8C6E2B",
+            "weight": 28
+          }
+        ],
+        "link": "#8C6E2B"
+      }
+    },
+    {
+      "name": "students",
+      "route": "/students",
+      "url": "https://journeynudge.com/students/",
+      "title": "Students – journey",
+      "description": null,
+      "height": 6620,
+      "frame": "students.png",
+      "full": "students-full.png",
+      "videos": [],
+      "phone": {
+        "frame": "m-students.png",
+        "full": "m-students-full.png",
+        "height": 9606
+      },
+      "text": [
+        {
+          "tag": "h1",
+          "text": "The friend that texts first.",
+          "where": "header"
+        },
+        {
+          "tag": "p",
+          "text": "5 minutes a week. The part of you that knows what to do, finally getting a nudge to actually do it.",
+          "where": "header"
+        },
+        {
+          "tag": "h2",
+          "text": "Built for the days nothing’s going right.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Most of college isn’t the big things. It’s the small ones nobody else sees. Journey is built for those.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "3 texts a week. The right 3.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Light by design. Journey doesn’t fill your inbox. It sends what a thoughtful friend would send, at the moment you’d actually thank them for it.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Text back anytime. Get answered.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Journey doesn’t disappear after the nudge. Reply when you need it, 1 AM, mid-panic, mid-procrastination, mid-anything.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "What students say.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Student replies. Anonymized for privacy.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Stories from the cohort.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Discover how Journey helps students and the team supporting them.",
+          "where": "main"
+        },
+        {
+          "tag": "blockquote",
+          "text": "“Universities are clumsy with how they communicate. Journey is the first thing I’ve seen that students will actually answer.”",
+          "where": "main"
+        },
+        {
+          "tag": "figcaption",
+          "text": "J Jens President, University of New Haven",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Want this at your school?",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Journey lives at your university, or it doesn’t. Want it to? Tell your dean. Tell your advisor. Tell your roommate to tell theirs.",
+          "where": "main"
+        },
+        {
+          "tag": "h4",
+          "text": "Product",
+          "where": "footer"
+        },
+        {
+          "tag": "h4",
+          "text": "Company",
+          "where": "footer"
+        },
+        {
+          "tag": "p",
+          "text": "© 2026 Journey. All rights reserved.",
+          "where": "footer"
+        }
+      ],
+      "design": {
+        "fonts": {
+          "headings": "Lora",
+          "headingsWeight": "500",
+          "body": "Inter",
+          "bodyWeight": "400",
+          "nav": "Inter",
+          "buttons": "Inter"
+        },
+        "faces": [
+          "Inter",
+          "Lora"
+        ],
+        "page": "#FCFBF9",
+        "backgrounds": [
+          {
+            "hex": "#FFFFFF",
+            "weight": 10119823
+          },
+          {
+            "hex": "#FCFBF9",
+            "weight": 9693990
+          },
+          {
+            "hex": "#F4F1E8",
+            "weight": 1336278
+          },
+          {
+            "hex": "#0A0A0A",
+            "weight": 475875
+          },
+          {
+            "hex": "#14756A",
+            "weight": 227947
+          },
+          {
+            "hex": "#FAF8F2",
+            "weight": 115200
+          },
+          {
+            "hex": "#F5EBD9",
+            "weight": 88822
+          },
+          {
+            "hex": "#E8EEEA",
+            "weight": 88822
+          }
+        ],
+        "inks": [
+          {
+            "hex": "#0F0F0F",
+            "weight": 877
+          },
+          {
+            "hex": "#FFFFFF",
+            "weight": 855
+          },
+          {
+            "hex": "#5E5E5C",
+            "weight": 698
+          },
+          {
+            "hex": "#99886E",
+            "weight": 37
+          },
+          {
+            "hex": "#8C6E2B",
+            "weight": 18
+          }
+        ],
+        "link": "#8C6E2B"
+      }
+    },
+    {
+      "name": "student-success",
+      "route": "/student-success",
+      "url": "https://journeynudge.com/student-success/",
+      "title": "Student Success – journey",
+      "description": null,
+      "height": 10154,
+      "frame": "student-success.png",
+      "full": "student-success-full.png",
+      "videos": [],
+      "phone": {
+        "frame": "m-student-success.png",
+        "full": "m-student-success-full.png",
+        "height": 12507
+      },
+      "text": [
+        {
+          "tag": "h1",
+          "text": "The one system your student success team wishes they had.",
+          "where": "header"
+        },
+        {
+          "tag": "p",
+          "text": "Ask anything about any student. Save a note from any meeting. Retire the spreadsheet.",
+          "where": "header"
+        },
+        {
+          "tag": "h2",
+          "text": "Every text, a signal.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Watch a student text in, and the team’s read of her week build itself in real time.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Sits on top of what you already own.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "No app to install. No new password. No fight with IT. Journey is the glue, it gets your students to the resources you already invest in.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "“It didn’t ask my team to learn anything new.”",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Student insights in the format your team needs.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Customizable reports for CARE rounds, advisor 1:1s, weekly at-risk lists, and board updates.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Weekly at-risk",
+          "where": "main"
+        },
+        {
+          "tag": "h4",
+          "text": "Top risks",
+          "where": "main"
+        },
+        {
+          "tag": "h4",
+          "text": "Pattern flags",
+          "where": "main"
+        },
+        {
+          "tag": "h4",
+          "text": "Recommended actions",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Put your existing resources to work.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Journey routes the right student to the right resource at the right moment.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "“5 minutes with Journey helps me with an entire week.”",
+          "where": "main"
+        },
+        {
+          "tag": "h4",
+          "text": "Recent challenges",
+          "where": "main"
+        },
+        {
+          "tag": "h4",
+          "text": "Already engaged",
+          "where": "main"
+        },
+        {
+          "tag": "h4",
+          "text": "Recommended next",
+          "where": "main"
+        },
+        {
+          "tag": "blockquote",
+          "text": "“Journey didn’t ask my team to learn anything new. It dropped into Teams, surfaced the students who needed us, and gave us the line to open with. That’s all I ever wanted.”",
+          "where": "main"
+        },
+        {
+          "tag": "figcaption",
+          "text": "OR Ophelia · Dean of Students University of New Haven",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Retire the spreadsheet.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Met with a student? Tell Journey. Updates flow into one thread the whole team can see, search, and reference.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "AI that actually knows your risk signals.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Ask Journey anything about your at-risk cohort. It pulls health scores, missed touchpoints, archetypes, and pattern flags, in seconds.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Stories from the cohort.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Discover how Journey helps students and the team supporting them.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "What students say.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "We’ve helped thousands of students get unblocked.",
+          "where": "main"
+        },
+        {
+          "tag": "blockquote",
+          "text": "“Universities are clumsy with how they communicate. Journey is the first thing I’ve seen that students will actually answer.”",
+          "where": "main"
+        },
+        {
+          "tag": "figcaption",
+          "text": "J Jens Title, University of New Haven",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "One chat. Every student.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Two weeks to deployed. Zero new logins. The spreadsheet quietly retires itself.",
+          "where": "main"
+        },
+        {
+          "tag": "h4",
+          "text": "Product",
+          "where": "footer"
+        },
+        {
+          "tag": "h4",
+          "text": "Company",
+          "where": "footer"
+        },
+        {
+          "tag": "p",
+          "text": "© 2026 Journey. All rights reserved.",
+          "where": "footer"
+        }
+      ],
+      "design": {
+        "fonts": {
+          "headings": "Lora",
+          "headingsWeight": "500",
+          "body": "Inter",
+          "bodyWeight": "400",
+          "nav": "Inter",
+          "buttons": "Inter"
+        },
+        "faces": [
+          "Inter",
+          "Lora"
+        ],
+        "page": "#FCFBF9",
+        "backgrounds": [
+          {
+            "hex": "#FFFFFF",
+            "weight": 16626959
+          },
+          {
+            "hex": "#FCFBF9",
+            "weight": 15578055
+          },
+          {
+            "hex": "#F7F4EB",
+            "weight": 1551779
+          },
+          {
+            "hex": "#0A0A0A",
+            "weight": 475875
+          },
+          {
+            "hex": "#F4F1E8",
+            "weight": 462186
+          },
+          {
+            "hex": "#EBE9D2",
+            "weight": 268727
+          },
+          {
+            "hex": "#E8EEEA",
+            "weight": 154787
+          },
+          {
+            "hex": "#F1E4C3",
+            "weight": 144400
+          }
+        ],
+        "inks": [
+          {
+            "hex": "#0F0F0F",
+            "weight": 1412
+          },
+          {
+            "hex": "#6E6C68",
+            "weight": 1053
+          },
+          {
+            "hex": "#FFFFFF",
+            "weight": 923
+          },
+          {
+            "hex": "#99886E",
+            "weight": 59
+          },
+          {
+            "hex": "#4A5A1F",
+            "weight": 21
+          },
+          {
+            "hex": "#8E342E",
+            "weight": 15
+          }
+        ],
+        "link": "#FFFFFF"
+      }
+    },
+    {
+      "name": "universities",
+      "route": "/universities",
+      "url": "https://journeynudge.com/universities/",
+      "title": "Universities – journey",
+      "description": null,
+      "height": 8859,
+      "frame": "universities.png",
+      "full": "universities-full.png",
+      "videos": [],
+      "phone": {
+        "frame": "m-universities.png",
+        "full": "m-universities-full.png",
+        "height": 10339
+      },
+      "text": [
+        {
+          "tag": "h1",
+          "text": "Most retention tools speak. Journey listens.",
+          "where": "header"
+        },
+        {
+          "tag": "p",
+          "text": "Every system you’ve bought talks AT students. Journey is the listening layer, the only daily two-way surface your students actually trust.",
+          "where": "header"
+        },
+        {
+          "tag": "h4",
+          "text": "Maya wants to book an appt with her academic advisor.",
+          "where": "header"
+        },
+        {
+          "tag": "h4",
+          "text": "Ben H. → CAPS booking confirmed.",
+          "where": "header"
+        },
+        {
+          "tag": "h2",
+          "text": "Sits on top of what you already own.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "No app to install. No new dashboard for staff to learn. No new password for students to forget. No fight with your IT team.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "April mid-semester pulse check.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "One question. The student picks. Journey routes them to the right resource, every time.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "What your CARE team sees in Teams.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Five seconds, not a meeting. The student’s score, the top risk, the recommended next step, already pulled, already reasoned, already routable.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "One student. Five seconds.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Type a name in Teams. Get the health score, top risk, last contact, and recommended next step, without leaving the chat or learning a new dashboard.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Who needs you this week.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "A prioritized list of 8-12 students per advisor, ranked by composite risk. Journey tells you who, why, and what to say in the first 30 seconds of the call.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Already packaged. Already defensible.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "A monthly one-pager and a semester board deck. The retention number, the wellbeing trend, the AI deployment story, written so the president doesn’t have to.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "From discovery call to deployed in 4 weeks.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Lightweight implementation. Very little work to get a pilot started.",
+          "where": "main"
+        },
+        {
+          "tag": "h4",
+          "text": "Discovery",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "30-min intro call. Identify the cohort. Match each student to a Journey archetype. Set the goals.",
+          "where": "main"
+        },
+        {
+          "tag": "h4",
+          "text": "Onboard",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "SMS opt-ins go out. Staff get Teams panel access. First-week nudges calibrate to actual student replies.",
+          "where": "main"
+        },
+        {
+          "tag": "h4",
+          "text": "Calibrate",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Nudges tune to the cohort. Routing logic activates. CARE team starts pulling daily reads.",
+          "where": "main"
+        },
+        {
+          "tag": "h4",
+          "text": "Readout",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Monthly board-ready report. Risk profile, retention deltas, intervention outcomes. Ready to present to trustees.",
+          "where": "main"
+        },
+        {
+          "tag": "blockquote",
+          "text": "“Journey didn’t ask my team to learn anything new. It dropped into Teams, surfaced the students who needed us, and gave us the line to open with.”",
+          "where": "main"
+        },
+        {
+          "tag": "figcaption",
+          "text": "OR Ophelia · Dean of Students University of New Haven",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Why UNH renewed at 18× scale.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "A 100-student pilot in fall ’25 became an 1,800-student deployment in fall ’26. No new procurement. No new install. Just a number the president read to his board.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "One semester. The number that triggered the expansion.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "“Universities are clumsy with how they communicate. Journey is the first thing I’ve seen that students actually answer.”",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "JENS FREDERIKSEN · PRESIDENT · UNIVERSITY OF NEW HAVEN",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Stories from the cohort.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Discover how Journey helps students and the team supporting them.",
+          "where": "main"
+        },
+        {
+          "tag": "blockquote",
+          "text": "“Universities are clumsy with how they communicate. Journey is the first thing I’ve seen that students will actually answer.”",
+          "where": "main"
+        },
+        {
+          "tag": "figcaption",
+          "text": "J Jens Title, University of New Haven",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Plan your retention, the modern way.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "100 students. One semester. $15K. No installation. No new training. One number to put in front of your board.",
+          "where": "main"
+        },
+        {
+          "tag": "h4",
+          "text": "Product",
+          "where": "footer"
+        },
+        {
+          "tag": "h4",
+          "text": "Company",
+          "where": "footer"
+        },
+        {
+          "tag": "p",
+          "text": "© 2026 Journey. All rights reserved.",
+          "where": "footer"
+        }
+      ],
+      "design": {
+        "fonts": {
+          "headings": "Lora",
+          "headingsWeight": "500",
+          "body": "Inter",
+          "bodyWeight": "400",
+          "nav": "Inter",
+          "buttons": "Inter"
+        },
+        "faces": [
+          "Inter",
+          "Lora"
+        ],
+        "page": "#FCFBF9",
+        "backgrounds": [
+          {
+            "hex": "#FFFFFF",
+            "weight": 15791076
+          },
+          {
+            "hex": "#FCFBF9",
+            "weight": 13712850
+          },
+          {
+            "hex": "#F4F1E8",
+            "weight": 877854
+          },
+          {
+            "hex": "#0A0A0A",
+            "weight": 475875
+          },
+          {
+            "hex": "#F6F3EB",
+            "weight": 169575
+          },
+          {
+            "hex": "#FAF8F2",
+            "weight": 115200
+          },
+          {
+            "hex": "#F3F2F8",
+            "weight": 103950
+          },
+          {
+            "hex": "#4B4A8F",
+            "weight": 35471
+          }
+        ],
+        "inks": [
+          {
+            "hex": "#0F0F0F",
+            "weight": 1721
+          },
+          {
+            "hex": "#5E5E5C",
+            "weight": 1353
+          },
+          {
+            "hex": "#FFFFFF",
+            "weight": 858
+          },
+          {
+            "hex": "#99886E",
+            "weight": 59
+          },
+          {
+            "hex": "#9A9892",
+            "weight": 10
+          },
+          {
+            "hex": "#4A5A1F",
+            "weight": 2
+          }
+        ],
+        "link": "#FFFFFF"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "route": "/",
+      "src": null,
+      "sources": [],
+      "poster": null,
+      "width": 0,
+      "height": 0,
+      "autoplay": false,
+      "loop": false,
+      "file": null
+    },
+    {
+      "route": "/chat",
+      "src": null,
+      "sources": [],
+      "poster": null,
+      "width": 0,
+      "height": 0,
+      "autoplay": false,
+      "loop": false,
+      "file": null
+    },
+    {
+      "route": "/students",
+      "src": null,
+      "sources": [],
+      "poster": null,
+      "width": 0,
+      "height": 0,
+      "autoplay": false,
+      "loop": false,
+      "file": null
+    },
+    {
+      "route": "/student-success",
+      "src": null,
+      "sources": [],
+      "poster": null,
+      "width": 0,
+      "height": 0,
+      "autoplay": false,
+      "loop": false,
+      "file": null
+    },
+    {
+      "route": "/universities",
+      "src": null,
+      "sources": [],
+      "poster": null,
+      "width": 0,
+      "height": 0,
+      "autoplay": false,
+      "loop": false,
+      "file": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "assets/01-cropped-nudge-photos-3-32x32.png",
+      "url": "https://journeynudge.com/wp-content/uploads/2024/12/cropped-Nudge-Photos-3-32x32.png",
+      "page": "home",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null,
+      "bytes": 1576,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/02-cropped-nudge-photos-3-192x192.png",
+      "url": "https://journeynudge.com/wp-content/uploads/2024/12/cropped-Nudge-Photos-3-192x192.png",
+      "page": "home",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null,
+      "bytes": 28682,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/03-cropped-nudge-photos-3-180x180.png",
+      "url": "https://journeynudge.com/wp-content/uploads/2024/12/cropped-Nudge-Photos-3-180x180.png",
+      "page": "home",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null,
+      "bytes": 27300,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/04-journey2026logo.png",
+      "url": "https://journeynudge.com/wp-content/uploads/2025/10/journey2026logo.png",
+      "page": "home",
+      "kind": "img",
+      "where": "header",
+      "logo": true,
+      "alt": "Journey",
+      "width": 285,
+      "height": 96,
+      "natural": [
+        951,
+        320
+      ],
+      "bytes": 183683,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/05-unhtrans.png",
+      "url": "https://journeynudge.com/wp-content/uploads/2026/05/UNHtrans.png",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "University of New Haven",
+      "width": 124,
+      "height": 70,
+      "natural": [
+        1920,
+        1080
+      ],
+      "bytes": 475202,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/06-unlvtrans.png",
+      "url": "https://journeynudge.com/wp-content/uploads/2026/05/UNLVtrans.png",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "University of Nevada, Las Vegas",
+      "width": 124,
+      "height": 70,
+      "natural": [
+        1920,
+        1080
+      ],
+      "bytes": 70294,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/07-uofm.png",
+      "url": "https://journeynudge.com/wp-content/uploads/2026/05/UofM.png",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "University of Michigan",
+      "width": 124,
+      "height": 70,
+      "natural": [
+        1920,
+        1080
+      ],
+      "bytes": 186735,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/08-modotrans.png",
+      "url": "https://journeynudge.com/wp-content/uploads/2026/05/modotrans.png",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Modo",
+      "width": 124,
+      "height": 70,
+      "natural": [
+        1920,
+        1080
+      ],
+      "bytes": 98558,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/09-platforms.png",
+      "url": "https://journeynudge.com/wp-content/uploads/2026/05/platforms.png",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Blackboard, Slack, Workday, Microsoft Teams, Canvas, Navigate, OneStop, Starfish",
+      "width": 422,
+      "height": 379,
+      "natural": [
+        865,
+        776
+      ],
+      "bytes": 84608,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/10-ben-thumb.png",
+      "url": "https://journeynudge.com/wp-content/uploads/2026/05/ben-thumb.png",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Ben, Student",
+      "width": 900,
+      "height": 529,
+      "natural": [
+        1672,
+        941
+      ],
+      "bytes": 482201,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/11-ben-thumb-vert.png",
+      "url": "https://journeynudge.com/wp-content/uploads/2026/05/ben-thumb-vert.png",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Ben",
+      "width": 285,
+      "height": 177,
+      "natural": [
+        1672,
+        941
+      ],
+      "bytes": 1719743,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/01-cropped-nudge-photos-3-32x32.png",
+      "url": "https://journeynudge.com/wp-content/uploads/2024/12/cropped-Nudge-Photos-3-32x32.png",
+      "page": "features",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/02-cropped-nudge-photos-3-192x192.png",
+      "url": "https://journeynudge.com/wp-content/uploads/2024/12/cropped-Nudge-Photos-3-192x192.png",
+      "page": "features",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/03-cropped-nudge-photos-3-180x180.png",
+      "url": "https://journeynudge.com/wp-content/uploads/2024/12/cropped-Nudge-Photos-3-180x180.png",
+      "page": "features",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/04-journey2026logo.png",
+      "url": "https://journeynudge.com/wp-content/uploads/2025/10/journey2026logo.png",
+      "page": "features",
+      "kind": "img",
+      "where": "header",
+      "logo": true,
+      "alt": "Journey",
+      "width": 285,
+      "height": 96,
+      "natural": [
+        951,
+        320
+      ]
+    },
+    {
+      "file": "assets/01-cropped-nudge-photos-3-32x32.png",
+      "url": "https://journeynudge.com/wp-content/uploads/2024/12/cropped-Nudge-Photos-3-32x32.png",
+      "page": "nudge",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/02-cropped-nudge-photos-3-192x192.png",
+      "url": "https://journeynudge.com/wp-content/uploads/2024/12/cropped-Nudge-Photos-3-192x192.png",
+      "page": "nudge",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/03-cropped-nudge-photos-3-180x180.png",
+      "url": "https://journeynudge.com/wp-content/uploads/2024/12/cropped-Nudge-Photos-3-180x180.png",
+      "page": "nudge",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/04-journey2026logo.png",
+      "url": "https://journeynudge.com/wp-content/uploads/2025/10/journey2026logo.png",
+      "page": "nudge",
+      "kind": "img",
+      "where": "header",
+      "logo": true,
+      "alt": "Journey",
+      "width": 285,
+      "height": 96,
+      "natural": [
+        951,
+        320
+      ]
+    },
+    {
+      "file": "assets/05-unhtrans.png",
+      "url": "https://journeynudge.com/wp-content/uploads/2026/05/UNHtrans.png",
+      "page": "nudge",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "University of New Haven",
+      "width": 124,
+      "height": 70,
+      "natural": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "file": "assets/06-unlvtrans.png",
+      "url": "https://journeynudge.com/wp-content/uploads/2026/05/UNLVtrans.png",
+      "page": "nudge",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "University of Nevada, Las Vegas",
+      "width": 124,
+      "height": 70,
+      "natural": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "file": "assets/07-uofm.png",
+      "url": "https://journeynudge.com/wp-content/uploads/2026/05/UofM.png",
+      "page": "nudge",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "University of Michigan",
+      "width": 124,
+      "height": 70,
+      "natural": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "file": "assets/08-modotrans.png",
+      "url": "https://journeynudge.com/wp-content/uploads/2026/05/modotrans.png",
+      "page": "nudge",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Modo",
+      "width": 124,
+      "height": 70,
+      "natural": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "file": "assets/01-cropped-nudge-photos-3-32x32.png",
+      "url": "https://journeynudge.com/wp-content/uploads/2024/12/cropped-Nudge-Photos-3-32x32.png",
+      "page": "chat",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/02-cropped-nudge-photos-3-192x192.png",
+      "url": "https://journeynudge.com/wp-content/uploads/2024/12/cropped-Nudge-Photos-3-192x192.png",
+      "page": "chat",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/03-cropped-nudge-photos-3-180x180.png",
+      "url": "https://journeynudge.com/wp-content/uploads/2024/12/cropped-Nudge-Photos-3-180x180.png",
+      "page": "chat",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/04-journey2026logo.png",
+      "url": "https://journeynudge.com/wp-content/uploads/2025/10/journey2026logo.png",
+      "page": "chat",
+      "kind": "img",
+      "where": "header",
+      "logo": true,
+      "alt": "Journey",
+      "width": 285,
+      "height": 96,
+      "natural": [
+        951,
+        320
+      ]
+    },
+    {
+      "file": "assets/10-ben-thumb.png",
+      "url": "https://journeynudge.com/wp-content/uploads/2026/05/ben-thumb.png",
+      "page": "chat",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Ben, Student",
+      "width": 900,
+      "height": 506,
+      "natural": [
+        1672,
+        941
+      ]
+    },
+    {
+      "file": "assets/11-ben-thumb-vert.png",
+      "url": "https://journeynudge.com/wp-content/uploads/2026/05/ben-thumb-vert.png",
+      "page": "chat",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Ben",
+      "width": 285,
+      "height": 177,
+      "natural": [
+        1672,
+        941
+      ]
+    },
+    {
+      "file": "assets/12-jade-thumb-vert.png",
+      "url": "https://journeynudge.com/wp-content/uploads/2026/05/jade-thumb-vert.png",
+      "page": "chat",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Jade",
+      "width": 285,
+      "height": 177,
+      "natural": [
+        1672,
+        941
+      ],
+      "bytes": 488693,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/13-dean-thumb.png",
+      "url": "https://journeynudge.com/wp-content/uploads/2026/05/dean-thumb.png",
+      "page": "chat",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Ophelia",
+      "width": 285,
+      "height": 177,
+      "natural": [
+        800,
+        453
+      ],
+      "bytes": 124872,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/01-cropped-nudge-photos-3-32x32.png",
+      "url": "https://journeynudge.com/wp-content/uploads/2024/12/cropped-Nudge-Photos-3-32x32.png",
+      "page": "how-journey-works",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/02-cropped-nudge-photos-3-192x192.png",
+      "url": "https://journeynudge.com/wp-content/uploads/2024/12/cropped-Nudge-Photos-3-192x192.png",
+      "page": "how-journey-works",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/03-cropped-nudge-photos-3-180x180.png",
+      "url": "https://journeynudge.com/wp-content/uploads/2024/12/cropped-Nudge-Photos-3-180x180.png",
+      "page": "how-journey-works",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/04-journey2026logo.png",
+      "url": "https://journeynudge.com/wp-content/uploads/2025/10/journey2026logo.png",
+      "page": "how-journey-works",
+      "kind": "img",
+      "where": "header",
+      "logo": true,
+      "alt": "Journey",
+      "width": 285,
+      "height": 96,
+      "natural": [
+        951,
+        320
+      ]
+    },
+    {
+      "file": "assets/09-platforms.png",
+      "url": "https://journeynudge.com/wp-content/uploads/2026/05/platforms.png",
+      "page": "how-journey-works",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Blackboard, Slack, Workday, Microsoft Teams, Canvas, Navigate, OneStop, Starfish",
+      "width": 422,
+      "height": 379,
+      "natural": [
+        865,
+        776
+      ]
+    },
+    {
+      "file": "assets/01-cropped-nudge-photos-3-32x32.png",
+      "url": "https://journeynudge.com/wp-content/uploads/2024/12/cropped-Nudge-Photos-3-32x32.png",
+      "page": "students",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/02-cropped-nudge-photos-3-192x192.png",
+      "url": "https://journeynudge.com/wp-content/uploads/2024/12/cropped-Nudge-Photos-3-192x192.png",
+      "page": "students",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/03-cropped-nudge-photos-3-180x180.png",
+      "url": "https://journeynudge.com/wp-content/uploads/2024/12/cropped-Nudge-Photos-3-180x180.png",
+      "page": "students",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/04-journey2026logo.png",
+      "url": "https://journeynudge.com/wp-content/uploads/2025/10/journey2026logo.png",
+      "page": "students",
+      "kind": "img",
+      "where": "header",
+      "logo": true,
+      "alt": "Journey",
+      "width": 285,
+      "height": 96,
+      "natural": [
+        951,
+        320
+      ]
+    },
+    {
+      "file": "assets/10-ben-thumb.png",
+      "url": "https://journeynudge.com/wp-content/uploads/2026/05/ben-thumb.png",
+      "page": "students",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Ben, Student",
+      "width": 900,
+      "height": 529,
+      "natural": [
+        1672,
+        941
+      ]
+    },
+    {
+      "file": "assets/11-ben-thumb-vert.png",
+      "url": "https://journeynudge.com/wp-content/uploads/2026/05/ben-thumb-vert.png",
+      "page": "students",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Ben",
+      "width": 285,
+      "height": 177,
+      "natural": [
+        1672,
+        941
+      ]
+    },
+    {
+      "file": "assets/01-cropped-nudge-photos-3-32x32.png",
+      "url": "https://journeynudge.com/wp-content/uploads/2024/12/cropped-Nudge-Photos-3-32x32.png",
+      "page": "student-success",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/02-cropped-nudge-photos-3-192x192.png",
+      "url": "https://journeynudge.com/wp-content/uploads/2024/12/cropped-Nudge-Photos-3-192x192.png",
+      "page": "student-success",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/03-cropped-nudge-photos-3-180x180.png",
+      "url": "https://journeynudge.com/wp-content/uploads/2024/12/cropped-Nudge-Photos-3-180x180.png",
+      "page": "student-success",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/04-journey2026logo.png",
+      "url": "https://journeynudge.com/wp-content/uploads/2025/10/journey2026logo.png",
+      "page": "student-success",
+      "kind": "img",
+      "where": "header",
+      "logo": true,
+      "alt": "Journey",
+      "width": 285,
+      "height": 96,
+      "natural": [
+        951,
+        320
+      ]
+    },
+    {
+      "file": "assets/09-platforms.png",
+      "url": "https://journeynudge.com/wp-content/uploads/2026/05/platforms.png",
+      "page": "student-success",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Blackboard, Slack, Workday, University Events, Microsoft Teams, Canvas, Navigate, OneStop, Starfish",
+      "width": 442,
+      "height": 397,
+      "natural": [
+        865,
+        776
+      ]
+    },
+    {
+      "file": "assets/01-cropped-nudge-photos-3-32x32.png",
+      "url": "https://journeynudge.com/wp-content/uploads/2024/12/cropped-Nudge-Photos-3-32x32.png",
+      "page": "universities",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/02-cropped-nudge-photos-3-192x192.png",
+      "url": "https://journeynudge.com/wp-content/uploads/2024/12/cropped-Nudge-Photos-3-192x192.png",
+      "page": "universities",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/03-cropped-nudge-photos-3-180x180.png",
+      "url": "https://journeynudge.com/wp-content/uploads/2024/12/cropped-Nudge-Photos-3-180x180.png",
+      "page": "universities",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/04-journey2026logo.png",
+      "url": "https://journeynudge.com/wp-content/uploads/2025/10/journey2026logo.png",
+      "page": "universities",
+      "kind": "img",
+      "where": "header",
+      "logo": true,
+      "alt": "Journey",
+      "width": 285,
+      "height": 96,
+      "natural": [
+        951,
+        320
+      ]
+    },
+    {
+      "file": "assets/05-unhtrans.png",
+      "url": "https://journeynudge.com/wp-content/uploads/2026/05/UNHtrans.png",
+      "page": "universities",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "University of New Haven",
+      "width": 124,
+      "height": 70,
+      "natural": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "file": "assets/06-unlvtrans.png",
+      "url": "https://journeynudge.com/wp-content/uploads/2026/05/UNLVtrans.png",
+      "page": "universities",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "University of Nevada, Las Vegas",
+      "width": 124,
+      "height": 70,
+      "natural": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "file": "assets/07-uofm.png",
+      "url": "https://journeynudge.com/wp-content/uploads/2026/05/UofM.png",
+      "page": "universities",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "University of Michigan",
+      "width": 124,
+      "height": 70,
+      "natural": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "file": "assets/08-modotrans.png",
+      "url": "https://journeynudge.com/wp-content/uploads/2026/05/modotrans.png",
+      "page": "universities",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Modo",
+      "width": 124,
+      "height": 70,
+      "natural": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "file": "assets/09-platforms.png",
+      "url": "https://journeynudge.com/wp-content/uploads/2026/05/platforms.png",
+      "page": "universities",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Blackboard, Slack, Workday, University Events, Microsoft Teams, Canvas, Navigate, OneStop, Starfish",
+      "width": 760,
+      "height": 682,
+      "natural": [
+        865,
+        776
+      ]
+    }
+  ]
+}

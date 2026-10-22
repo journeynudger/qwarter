@@ -1,0 +1,347 @@
+{
+  "slug": "theroom",
+  "base": "https://theroom-git-claude-ecstatic-ride-1swldb-journeynudgers-projects.vercel.app",
+  "shot": "2026-10-22T21:47:35.966Z",
+  "viewport": {
+    "width": 1440,
+    "height": 900,
+    "scale": 2
+  },
+  "phone": {
+    "width": 390,
+    "height": 844,
+    "scale": 3
+  },
+  "pages": [
+    {
+      "name": "home",
+      "route": "/",
+      "url": "https://vercel.com/login?next=%2Fsso-api%3Furl%3Dhttps%253A%252F%252Ftheroom-git-claude-ecstatic-ride-1swldb-journeynudgers-projects.vercel.app%252F%26nonce%3D4e6702fa8ceeed7e3f308ee1dfa8081d9bf953c52907afcafeaa8dde6aada9b5",
+      "title": "Login – Vercel",
+      "description": null,
+      "height": 900,
+      "frame": "home.png",
+      "full": "home-full.png",
+      "videos": [],
+      "phone": {
+        "frame": "m-home.png",
+        "full": "m-home-full.png",
+        "height": 844
+      },
+      "text": [
+        {
+          "tag": "h1",
+          "text": "Log in to Vercel",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Don't have an account? Sign Up",
+          "where": "main"
+        }
+      ],
+      "design": {
+        "fonts": {
+          "headings": "GeistSans",
+          "headingsWeight": "600",
+          "body": "GeistSans",
+          "bodyWeight": "500",
+          "nav": "GeistSans",
+          "buttons": "GeistSans"
+        },
+        "faces": [
+          "GeistSans"
+        ],
+        "page": "#FAFAFA",
+        "backgrounds": [
+          {
+            "hex": "#FAFAFA",
+            "weight": 2592000
+          },
+          {
+            "hex": "#FFFFFF",
+            "weight": 82064
+          },
+          {
+            "hex": "#171717",
+            "weight": 12800
+          }
+        ],
+        "inks": [
+          {
+            "hex": "#171717",
+            "weight": 297
+          },
+          {
+            "hex": "#FFFFFF",
+            "weight": 38
+          },
+          {
+            "hex": "#0072F5",
+            "weight": 15
+          }
+        ],
+        "link": "#0072F5"
+      }
+    }
+  ],
+  "videos": [],
+  "assets": [
+    {
+      "file": "assets/01-apple-touch-icon-57x57.png",
+      "url": "https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/apple-touch-icon-57x57.png",
+      "page": "home",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null,
+      "bytes": 265,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/02-apple-touch-icon-60x60.png",
+      "url": "https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/apple-touch-icon-60x60.png",
+      "page": "home",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null,
+      "bytes": 272,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/03-apple-touch-icon-72x72.png",
+      "url": "https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/apple-touch-icon-72x72.png",
+      "page": "home",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null,
+      "bytes": 294,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/04-apple-touch-icon-76x76.png",
+      "url": "https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/apple-touch-icon-76x76.png",
+      "page": "home",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null,
+      "bytes": 304,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/05-apple-touch-icon-114x114.png",
+      "url": "https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/apple-touch-icon-114x114.png",
+      "page": "home",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null,
+      "bytes": 375,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/06-apple-touch-icon-120x120.png",
+      "url": "https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/apple-touch-icon-120x120.png",
+      "page": "home",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null,
+      "bytes": 391,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/07-apple-touch-icon-144x144.png",
+      "url": "https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/apple-touch-icon-144x144.png",
+      "page": "home",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null,
+      "bytes": 466,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/08-apple-touch-icon-152x152.png",
+      "url": "https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/apple-touch-icon-152x152.png",
+      "page": "home",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null,
+      "bytes": 474,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/09-apple-touch-icon-180x180.png",
+      "url": "https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/apple-touch-icon-180x180.png",
+      "page": "home",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null,
+      "bytes": 534,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/10-apple-touch-icon-256x256.png",
+      "url": "https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/apple-touch-icon-256x256.png",
+      "page": "home",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null,
+      "bytes": 745,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/11-favicon.ico",
+      "url": "https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/favicon.ico",
+      "page": "home",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null,
+      "bytes": 15086,
+      "type": "image/x-icon"
+    },
+    {
+      "file": "assets/12-logo-google-color-light-2x6g4y99zlarz.svg",
+      "url": "https://vercel.com/_next/static/immutable/media/logo-google-color-light.2x6g4y99zlarz.svg",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": true,
+      "alt": "",
+      "width": 20,
+      "height": 20,
+      "natural": [
+        16,
+        16
+      ],
+      "bytes": 710,
+      "type": "image/svg+xml"
+    },
+    {
+      "file": "assets/13-logo-google-color-dark-3nr-e0zdganvm.svg",
+      "url": "https://vercel.com/_next/static/immutable/media/logo-google-color-dark.3nr_e0zdganvm.svg",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": [
+        16,
+        16
+      ],
+      "bytes": 573,
+      "type": "image/svg+xml"
+    },
+    {
+      "file": "assets/14-logo-github-color-light-1184n6l5g07-6.svg",
+      "url": "https://vercel.com/_next/static/immutable/media/logo-github-color-light.1184n6l5g07-6.svg",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": true,
+      "alt": "",
+      "width": 20,
+      "height": 20,
+      "natural": [
+        16,
+        16
+      ],
+      "bytes": 806,
+      "type": "image/svg+xml"
+    },
+    {
+      "file": "assets/15-logo-github-color-dark-1k-70sin-m3qn.svg",
+      "url": "https://vercel.com/_next/static/immutable/media/logo-github-color-dark.1k-70sin_m3qn.svg",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": [
+        16,
+        16
+      ],
+      "bytes": 804,
+      "type": "image/svg+xml"
+    },
+    {
+      "file": "assets/16-logo-open-ai-color-light-19-d6xia9t-gb.svg",
+      "url": "https://vercel.com/_next/static/immutable/media/logo-open-ai-color-light.19_d6xia9t_gb.svg",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": true,
+      "alt": "",
+      "width": 20,
+      "height": 20,
+      "natural": [
+        16,
+        16
+      ],
+      "bytes": 1210,
+      "type": "image/svg+xml"
+    },
+    {
+      "file": "assets/17-logo-open-ai-color-dark-2s69z6l-k1q-7.svg",
+      "url": "https://vercel.com/_next/static/immutable/media/logo-open-ai-color-dark.2s69z6l-k1q-7.svg",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": [
+        16,
+        16
+      ],
+      "bytes": 1210,
+      "type": "image/svg+xml"
+    }
+  ]
+}

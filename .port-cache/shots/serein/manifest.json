@@ -1,0 +1,298 @@
+{
+  "slug": "serein",
+  "base": "https://withserein.com",
+  "shot": "2026-10-22T21:42:49.761Z",
+  "viewport": {
+    "width": 1440,
+    "height": 900,
+    "scale": 2
+  },
+  "phone": {
+    "width": 390,
+    "height": 844,
+    "scale": 3
+  },
+  "pages": [
+    {
+      "name": "home",
+      "route": "/",
+      "url": "https://withserein.com/",
+      "title": "Serein",
+      "description": "Your thoughts, always with you. Capture freely. Retrieve effortlessly.",
+      "height": 6927,
+      "frame": "home.png",
+      "full": "home-full.png",
+      "videos": [],
+      "phone": {
+        "frame": "m-home.png",
+        "full": "m-home-full.png",
+        "height": 6810
+      },
+      "text": [
+        {
+          "tag": "h1",
+          "text": "Your thoughts, always with you",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "One place for your journals",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "The fleeting thought on a walk.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "The insight from a conversation.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "The thing you told yourself — twice — not to forget.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Like the reminder to call mom.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Your best thinking already happened.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Hover over any prompt to see what you can ask and what Serein might say back.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "The ones that connect things you didn’t realize were connected",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "“What have I said about feeling stuck in the last 3 months — and what was I doing right before each time?”",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "You’ve said “I feel stuck” or “I’m spinning my wheels” four times since December. Three of those came the Monday after a weekend you described as “just stayed in, didn’t really do anything.” The fourth was after you cancelled dinner with Marcus and said “I don’t know why I keep doing that.” But in January you also said: “My best weeks always start with something physical — even just a walk.” You’ve noticed the pattern yourself. You just haven’t seen it from above yet.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "“When’s the last time I was genuinely excited about something? What was it?”",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "February 14th. You came back from coffee with Priya and recorded a voice note where you said: “This is the first thing in months that made me forget to check my phone.” It was a workshop idea for first-generation founders. You talked about it for six minutes straight. You called it “the thing I didn’t know I was looking for.” You haven’t mentioned it since.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "“What keeps coming up in my conversations that I haven’t actually done anything about?”",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Three things. You’ve mentioned writing that letter to your dad five times since October — the last time you said “I just need to sit down and do it.” You’ve talked about wanting a morning routine that isn’t “checking Slack in bed” (your exact words, twice). And reaching out to Elena about the mentorship program — that one has come up in three separate conversations with three different people. You told Marcus: “I keep saying I’ll email her.”",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "The ones that pull from your own wisdom",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "“What did I tell myself after the last time this happened?”",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "After the project fell through in November, you recorded a note: “I keep expecting the outcome to validate the effort. But the effort was the point. I knew that this time, even before it ended.” You also told Sarah: “I wish I’d trusted myself two weeks earlier instead of waiting for permission.” And on the walk home that night you said: “Next time, I’m going to remember this feeling — the part where it’s actually fine.”",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "“What’s the best advice I’ve given someone else that I’m not following right now?”",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Last week you told Jordan: “Stop optimizing and just start. You’ll figure out the shape of it by doing it.” In January you told your sister: “You don’t owe anyone an explanation for changing your mind.” And you said to Anika: “The perfect version of this doesn’t exist — the real one is the one you ship.” All three sound like they might be relevant to what you’ve been circling around with the new role.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "“I’m about to make a big decision — what have I said in the past about how I make decisions when I’m stressed?”",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "You’ve said: “When I’m stressed I pick the option that kills the anxiety fastest, not the one I actually want.” You told Bill in December: “My gut is usually right, but I need 48 hours before I can hear it.” And after the last big call, you reflected: “Every good decision I’ve made had one thing in common — I slept on it twice.” You’ve already told yourself what to do here. You just said it a few months ago.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "The ones that prep you",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "“I’m meeting with Sarah in 20 minutes. What did we leave off on and what did I say I’d follow up on?”",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Last time (Feb 26), you talked about the Q2 budget reallocation. Sarah said she was “concerned about Austin” and you said: “Let me send you the updated scope doc by Friday.” That hasn’t happened yet. You also wrote after the meeting: “She seems stressed — check in on the personal stuff too.” Her daughter’s recital was last weekend. You might want to ask how it went.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "“What’s the context I need before this board call?”",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "From your own prep notes: the board expects a hiring update (you wrote “we’re 2 behind target, need to frame this carefully”), the Meridian partnership (you described it as “promising but not signed — don’t oversell”), and the roadmap shift you told the team about but said “I haven’t figured out how to present this externally yet.” David asked a pointed question about burn rate last time. You wrote: “Have a number ready next time.”",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "The ones that surface patterns you can’t see yourself",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "“Am I actually making progress on the thing I said mattered most to me in January?”",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "In January you said: “The most important thing this year is being more present with the people I love and less reactive to work.” Since then, you’ve mentioned work stress in 80% of your captures. You’ve talked about your relationships unprompted twice. The intention you set was clear. The attention may have drifted.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "“What do I talk about on weekends vs. weekdays?”",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Weekdays you say things like: “I need to get through this week,” “I should really...,” and “I’m behind on everything.” Weekends you talk about ideas, your childhood, what you’re reading, and what you want your life to look like. You once said on a Sunday: “This is the version of me I actually like.” Your weekend self sounds a lot like the person you described wanting to become.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "“What have I stopped mentioning?”",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "You talked about meditation almost daily in November. You said: “This is the first habit that actually feels like mine.” It hasn’t come up since January 12th. Your morning journal — you called it “the best 15 minutes of my day” — last mentioned three weeks ago. And the Spanish lessons you were excited about in October, when you said “I’m finally doing something just for fun” — they quietly disappeared.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Your thoughts are waiting.",
+          "where": "main"
+        }
+      ],
+      "design": {
+        "fonts": {
+          "headings": "Inter",
+          "headingsWeight": "200",
+          "body": "Inter",
+          "bodyWeight": "300",
+          "nav": null,
+          "buttons": "Inter"
+        },
+        "faces": [
+          "Inter"
+        ],
+        "page": null,
+        "backgrounds": [
+          {
+            "hex": "#FAFAF8",
+            "weight": 17770320
+          },
+          {
+            "hex": "#0C1E3A",
+            "weight": 23759
+          }
+        ],
+        "inks": [
+          {
+            "hex": "#5A6E85",
+            "weight": 4403
+          },
+          {
+            "hex": "#0C1E3A",
+            "weight": 270
+          },
+          {
+            "hex": "#FFFFFF",
+            "weight": 166
+          },
+          {
+            "hex": "#3B6FA0",
+            "weight": 55
+          }
+        ],
+        "link": null
+      }
+    }
+  ],
+  "videos": [],
+  "assets": [
+    {
+      "file": "assets/01-favicon.ico",
+      "url": "https://withserein.com/favicon.ico",
+      "page": "home",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null,
+      "bytes": 1605,
+      "type": "image/vnd.microsoft.icon"
+    },
+    {
+      "file": "assets/02-icon-192.png",
+      "url": "https://withserein.com/icon-192.png",
+      "page": "home",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null,
+      "bytes": 8792,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/03-apple-icon.png",
+      "url": "https://withserein.com/apple-icon.png",
+      "page": "home",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null,
+      "bytes": 8392,
+      "type": "image/png"
+    }
+  ]
+}

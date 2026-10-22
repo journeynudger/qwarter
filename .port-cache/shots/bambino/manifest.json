@@ -1,0 +1,1894 @@
+{
+  "slug": "bambino",
+  "base": "https://bambino-1dtu.vercel.app",
+  "shot": "2026-10-22T21:47:50.087Z",
+  "viewport": {
+    "width": 1440,
+    "height": 900,
+    "scale": 2
+  },
+  "phone": {
+    "width": 390,
+    "height": 844,
+    "scale": 3
+  },
+  "pages": [
+    {
+      "name": "home",
+      "route": "/",
+      "url": "https://bambino-1dtu.vercel.app/",
+      "title": "Lorenzo Scardicchio",
+      "description": "Essays & artwork by Lorenzo Scardicchio — on attention, technology, and becoming who you want to be.",
+      "height": 3476,
+      "frame": "home.png",
+      "full": "home-full.png",
+      "videos": [],
+      "phone": {
+        "frame": "m-home.png",
+        "full": "m-home-full.png",
+        "height": 4063
+      },
+      "text": [
+        {
+          "tag": "h1",
+          "text": "Lorenzo",
+          "where": "header"
+        },
+        {
+          "tag": "p",
+          "text": "ESSAYS & ARTWORK BY LORENZO SCARDICCHIO",
+          "where": "header"
+        },
+        {
+          "tag": "p",
+          "text": "Behind every feed refresh there is a design decision, and behind every design decision there is a wager about what a human being is. These notebooks collect essays on attention, technology, and the quiet work of becoming who you want to be — set among paintings and other things made by hand. Read them slowly. They were written that way.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "CH. 14 • MAY 26, 2026 • 7MIN READ",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "The Algorithmic Self",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "how AI is reshaping human identity, introspection, and agency",
+          "where": "main"
+        }
+      ],
+      "design": {
+        "fonts": {
+          "headings": "longhand",
+          "headingsWeight": "600",
+          "body": "Old Claude LP",
+          "bodyWeight": "400",
+          "nav": "paperMono",
+          "buttons": "paperMono"
+        },
+        "faces": [
+          "Source Serif 4",
+          "paperMono",
+          "longhand",
+          "Old Claude LP"
+        ],
+        "page": "#F2EFE9",
+        "backgrounds": [
+          {
+            "hex": "#F2EFE9",
+            "weight": 9102645
+          },
+          {
+            "hex": "#101216",
+            "weight": 387000
+          },
+          {
+            "hex": "#C3DDB6",
+            "weight": 373882
+          }
+        ],
+        "inks": [
+          {
+            "hex": "#2D2D2D",
+            "weight": 3718
+          },
+          {
+            "hex": "#F2EFE9",
+            "weight": 1524
+          },
+          {
+            "hex": "#111111",
+            "weight": 7
+          }
+        ],
+        "link": null
+      }
+    },
+    {
+      "name": "gallery",
+      "route": "/gallery",
+      "url": "https://bambino-1dtu.vercel.app/gallery",
+      "title": "Lorenzo Scardicchio — Paintings",
+      "description": "The paintings of Lorenzo Scardicchio, cast in white on a paper wall. Hover to see the colour; open one to read about it.",
+      "height": 900,
+      "frame": "gallery.png",
+      "full": "gallery-full.png",
+      "videos": [],
+      "phone": {
+        "frame": "m-gallery.png",
+        "full": "m-gallery-full.png",
+        "height": 844
+      },
+      "text": [],
+      "design": {
+        "fonts": {
+          "headings": null,
+          "headingsWeight": null,
+          "body": "Cormorant Garamond",
+          "bodyWeight": "400",
+          "nav": "longhand",
+          "buttons": null
+        },
+        "faces": [
+          "Cormorant Garamond",
+          "longhand"
+        ],
+        "page": "#EFECE4",
+        "backgrounds": [
+          {
+            "hex": "#EFECE4",
+            "weight": 2592000
+          }
+        ],
+        "inks": [
+          {
+            "hex": "#8A887F",
+            "weight": 36
+          },
+          {
+            "hex": "#3A3934",
+            "weight": 19
+          },
+          {
+            "hex": "#66645C",
+            "weight": 19
+          }
+        ],
+        "link": null
+      }
+    },
+    {
+      "name": "gallery-3",
+      "route": "/gallery",
+      "url": "https://bambino-1dtu.vercel.app/gallery",
+      "title": "Lorenzo Scardicchio — Paintings",
+      "description": "The paintings of Lorenzo Scardicchio, cast in white on a paper wall. Hover to see the colour; open one to read about it.",
+      "height": 900,
+      "frame": "gallery-3.png",
+      "full": "gallery-3-full.png",
+      "videos": [],
+      "phone": {
+        "frame": "m-gallery-3.png",
+        "full": "m-gallery-3-full.png",
+        "height": 844
+      },
+      "text": [],
+      "design": {
+        "fonts": {
+          "headings": null,
+          "headingsWeight": null,
+          "body": "Cormorant Garamond",
+          "bodyWeight": "400",
+          "nav": "longhand",
+          "buttons": null
+        },
+        "faces": [
+          "Cormorant Garamond",
+          "longhand"
+        ],
+        "page": "#EFECE4",
+        "backgrounds": [
+          {
+            "hex": "#EFECE4",
+            "weight": 2592000
+          }
+        ],
+        "inks": [
+          {
+            "hex": "#8A887F",
+            "weight": 36
+          },
+          {
+            "hex": "#3A3934",
+            "weight": 19
+          },
+          {
+            "hex": "#66645C",
+            "weight": 19
+          }
+        ],
+        "link": null
+      }
+    },
+    {
+      "name": "posts-the-algorithmic-self",
+      "route": "/posts/the-algorithmic-self",
+      "url": "https://bambino-1dtu.vercel.app/posts/the-algorithmic-self?progress=2.23%",
+      "title": "The Algorithmic Self — Lorenzo Scardicchio",
+      "description": "how AI is reshaping human identity, introspection, and agency",
+      "height": 8311,
+      "frame": "posts-the-algorithmic-self.png",
+      "full": "posts-the-algorithmic-self-full.png",
+      "videos": [],
+      "phone": {
+        "frame": "m-posts-the-algorithmic-self.png",
+        "full": "m-posts-the-algorithmic-self-full.png",
+        "height": 10829
+      },
+      "text": [
+        {
+          "tag": "h1",
+          "text": "The Algorithmic Self",
+          "where": "header"
+        },
+        {
+          "tag": "p",
+          "text": "how AI is reshaping human identity, introspection, and agency",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "I’m sitting at Pandos, the coffee shop down the street, with my partner Becca. We’re writing side by side, looking out at the street: trees, concrete, a bright flower or two doing the heavy lifting of making the whole picture feel alive.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Earlier today I caught myself doing a small, semi embarrassing thing.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "I woke up, felt a little tired, and reached for my phone and opened the Oura ring app to find out how tired I was. The number told me what I had already noticed: short night, slightly elevated temperature, low readiness.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Becca watched me do a version of this a few months back and said something that has been sitting in me since:",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "“The body is the primary source. The ring is the interpreter. Both have value, but don’t outsource the awareness to the device.”",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "The more I pay attention, the more I notice how many of my awarenesses are getting handed back to me, pre-chewed, by something that didn’t have them first.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "We used to figure ourselves out through life.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Friends. Family. Journals. Therapy. Long walks. Bad dates. Good books. Crying in the shower like a respectable adult.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Now Spotify tells me what kind of music I like. TikTok tells me what I’m into. A smartwatch tells me how my body is doing. A chatbot tells me how I feel. A feed tells me what matters. Predictive text finishes my sentences before I’ve decided what I think.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "I’m calling this the Algorithmic Self, a version of identity shaped by constant feedback from AI systems. Not just reflected by technology. Co-created by it.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "The mirror became a mold",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Algorithms used to sit behind the screen. Now they actively participate.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "I notice it most in the small moments. The way I look at my Spotify Wrapped at the end of the year and feel a quiet yes, that’s who I am, as if a marketing recap had become a personality test with better branding.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Cute? Sure. Harmless? I’m not so sure about that.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Because once the machine starts saying here’s who you are, a lot of us start nodding.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "The danger of outsourcing your inner life",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "A few weeks ago I sat across from the president of a major university and asked him, directly:",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "“What do you think we should be working on?”",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "I caught the shape of it as soon as it left my mouth. That is the absolute shadow version of the right question.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Any wise mentor would have flipped it back: well, what do you care about?",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Only I have that answer. But I outsourced it. To an advisor with a hefty title. Because somewhere along the way I’d gotten more practiced at asking than at knowing.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Help me think is one thing. Think for me is another.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "When we outsource too much reflection to anything, whether it’s a mentor, an app, or a model, we start trusting the interpretation more than the feeling. The result isn’t just less introspection. It’s a thinner relationship with the self.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Or, said less politely: your app should not know you better than you know you.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Personalization is a velvet cage",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "There’s a metaphor I keep using lately, half-joking and half not: the rat in the maze.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "You teach a rat where the cheese is. The rat finds the cheese. The rat keeps going back to the same place. Move the cheese, and the rat still returns to where the cheese used to be. It stops seeing the edges of the maze. The route eats the curiosity.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "That’s what predictive personalization does to me on a long day.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "I click introvert content, so it gives me more introvert content. I watch one anxious-productivity video at 11pm, and suddenly my whole feed becomes anxious-productivity. The algorithm keeps feeding me back a version of the self I had yesterday, and slowly today’s version gets thinner.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Soon I’m not choosing. I’m consenting to a menu the machine already narrowed for me. The illusion of choice. The cheese where the cheese used to be.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "The quantified self becomes a tiny little prison",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Back to the Oura. Sleep score. Step count. Mood rating. Productivity metric. Focus score. Readiness score.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Numbers are useful until they become a personality.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "I have watched myself, more than once, wake up, see a 64 readiness score, and decide the day is ruined before I have tasted coffee. The number became more trusted than the body.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Becca’s line again: the ring is the interpreter, not the source.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "My body said you slept short, you’re a little dehydrated, drink water.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "The ring said you are a 64 today.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "I metabolized these as information from a “truthful” source.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "That’s the trap. The data says you are tired, so you become tired.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "AI as co-author of your life story",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "I make sense of my life by telling it to myself, to Becca, to a notebook, to a few close friends.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "But now Instagram memories, Spotify Wrapped, fitness milestones, photo recaps, and AI summaries are quietly packaging my year into clean little highlight reels. The shiny parts. The optimized parts. The parts that fit.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Growth is messy. Contradictory. Awkward. Weird. Full of bad decisions and half-finished thoughts and strange Friday night at a concert that somehow changed everything.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "The algorithmically edited version of my year flattens that. It captures the shiny. It misses the contradiction.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "And contradiction, I’ve come to believe, is where most of the meaning lives.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "The shadow side of self-knowledge",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "There’s a thing I’ve started calling the shadow of self-knowledge, and it isn’t AI’s fault. It’s mine.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "I read the book. I take the assessment. I learn my human design type. I do the breathwork. I file the insight away. Then I move on.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Forward motion. Felt productive. Felt like growth.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "But forward motion isn’t the same as digestion.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "You can put in all the reps of building a knowledge base of self and never actually allow time and space to sit with it. It’s very easy to let self-awareness become another productivity loop. At least it’s felt that way for me.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "AI just makes this cheaper and faster. You can have ten frameworks by lunchtime. None of them have legs.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "The way out is not anti-machine",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "I don’t think the answer is throwing my phone into a lake, although it is tempting.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "The answer is agency. Algorithmic literacy. Noticing how systems shape my perception, my preferences, my mood, my sense of myself, and treating each nudge as an invitation instead of a verdict.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Becca described what an honest tool does after I left a dish on the counter and she pinged me about it without making me feel bad:",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "“It reminded me without making me feel like I was bad for having forgotten.”",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "It points. It doesn’t author.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Or, as she said about another product I’m working on:",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "“It’s an interface between you and you.”",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "In my own language, which I keep coming back to:",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Knowledge + Embodiment + Repetition = an authentic life.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Knowledge alone becomes intellectualization. Knowledge plus embodiment without repetition becomes a one-off insight that fades.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "The whole point is to slow down enough to let what you’ve learned actually land in your body, and then live the same small thing on repeat until it becomes you.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "You need to slow down before you can speed up.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "The sticky takeaway",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "AI and these platforms should be a flashlight. Not a mirror. Not a priest. Not a parent. Not the author of your soul with a push notification budget.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "The more I let algorithms tell me who I am, the less practice I get becoming myself.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Will I quietly let it convince me to replace my connection with my writing, my work, my reflection practice?",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "The most powerful moment was a question Becca asked me while we were sitting at our kitchen table:",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "“Is this the work you actually want to be doing?”",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Instead of producing the smart answer I usually produce, I sat with it for a long minute and said:",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "That sentence is what no algorithm can generate for me.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "That sentence was the way back in. It was the invitation I needed to actually sit with that and give it space.",
+          "where": "main"
+        }
+      ],
+      "design": {
+        "fonts": {
+          "headings": "Old Claude LP",
+          "headingsWeight": "400",
+          "body": "Source Serif 4",
+          "bodyWeight": "400",
+          "nav": null,
+          "buttons": "Source Serif 4"
+        },
+        "faces": [
+          "Source Serif 4",
+          "paperMono",
+          "longhand",
+          "Old Claude LP"
+        ],
+        "page": "#F2EFE9",
+        "backgrounds": [
+          {
+            "hex": "#F2EFE9",
+            "weight": 22750493
+          },
+          {
+            "hex": "#C9D6E2",
+            "weight": 407197
+          },
+          {
+            "hex": "#EFEFEF",
+            "weight": 97920
+          }
+        ],
+        "inks": [
+          {
+            "hex": "#2D2D2D",
+            "weight": 7865
+          }
+        ],
+        "link": null
+      }
+    },
+    {
+      "name": "posts-were-part-of-the-race",
+      "route": "/posts/were-part-of-the-race",
+      "url": "https://bambino-1dtu.vercel.app/posts/were-part-of-the-race?progress=2.64%",
+      "title": "We're part of the race. — Lorenzo Scardicchio",
+      "description": "On phones, attention, and a conversation with Dr. Thekla Brumder Ross.",
+      "height": 5785,
+      "frame": "posts-were-part-of-the-race.png",
+      "full": "posts-were-part-of-the-race-full.png",
+      "videos": [],
+      "phone": {
+        "frame": null,
+        "full": null,
+        "height": 7068
+      },
+      "text": [
+        {
+          "tag": "h1",
+          "text": "We're part of the race.",
+          "where": "header"
+        },
+        {
+          "tag": "p",
+          "text": "On phones, attention, and a conversation with Dr. Thekla Brumder Ross.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Last week, my partner, Becca, and I watched an AI documentary called AI Doc on our couch.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "By the end, she turned to me and said something that really hit.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "“We’re part of the race.”",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "She wasn’t wrong. We had spent two hours watching the smartest people in the world describe a technology they don’t fully understand, that they’re building anyway, because the other guys are building it too. Somewhere in the second hour we both realized we weren’t watching it from the outside. We were in it. Had been for years. Just hadn’t picked our heads up to ask whether we wanted to be.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "The room was quiet for a long time after she said it.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "A few weeks prior, I was in line at Prospect Park with twenty strangers and right on cue, like a synchronized dance, every single one of us pulled out our phone at the exact same moment.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "I am not exaggerating. It was choreography.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "None of us looked at each other. None of us looked up. The line moved. The phones rose. The reels played.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "When I noticed the move my own hand was making, I realized I hadn’t decided to do it.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Wendell Berry has a line about what he calls the rational mind — the kind that runs everything modern. He says the rational mind will always forfeit the past and the present for the sake of the future. Its whole purpose is to outrun loss. Risk. Hurt. Pain. So it builds. It optimizes. It races. It never sits still long enough to ask whether the thing it’s racing toward is the thing it actually wants.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "That is what your phone is.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "The rational mind in your pocket.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "It’s built meticulously by the smartest people in the world to make sure you never have to sit with a single uncomfortable feeling again. To make sure the space between stimulus and response collapses to zero.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "I’ve written about the pattern before. Cigarettes. Processed food. Easy credit. Every time we invent a new way to overrun our own instincts, we eventually have to invent a new way to push back.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "But here is what’s different this time.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "This time, you cannot tech your way out of being run by tech.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "This is why I sat down with Dr. Thekla Brumder Ross.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Thekla has spent twenty years inside addiction medicine. Kaiser Permanente. The NIH. The American Psychological Association’s digital harm reduction committee.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "She is one of the most credentialed people in the country on what makes a substance addictive — and she does not think the answer to phone addiction is a better phone.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "She thinks the answer is two things.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "The first is human connection.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "“The opposite of addiction isn’t sobriety. It’s human connection.”",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "The second is what she calls the longer arc.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "A phone gives you twenty small hits of dopamine per minutes. Sharp little spikes. Each one fires, fades, and leaves you reaching for the next.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "A walk through the neighborhood gives you one slow bloom. A flower noticed on the way to the coffee shop. The dog at your heel. The line with your hands in your pockets and nothing to do with them.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "The hit isn’t as sharp but it lasts the rest of the afternoon.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Distance between hits = depth of the hit.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "My partner and I are planning a move out of the city. Slower neighborhood. More yard for Cora, our wonderful dog. Less velocity. We’re doing it because somewhere between the documentary and the line at Prospect Park, we figured out we are part of the race — and we don’t want to be anymore.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "This conversation with Thekla was a permission slip.",
+          "where": "main"
+        }
+      ],
+      "design": {
+        "fonts": {
+          "headings": "Old Claude LP",
+          "headingsWeight": "400",
+          "body": "Source Serif 4",
+          "bodyWeight": "400",
+          "nav": null,
+          "buttons": "Source Serif 4"
+        },
+        "faces": [
+          "Source Serif 4",
+          "paperMono",
+          "longhand",
+          "Old Claude LP"
+        ],
+        "page": "#F2EFE9",
+        "backgrounds": [
+          {
+            "hex": "#F2EFE9",
+            "weight": 15477833
+          },
+          {
+            "hex": "#C9DDBE",
+            "weight": 407197
+          },
+          {
+            "hex": "#EFEFEF",
+            "weight": 97920
+          }
+        ],
+        "inks": [
+          {
+            "hex": "#2D2D2D",
+            "weight": 3570
+          }
+        ],
+        "link": "#2D2D2D"
+      }
+    },
+    {
+      "name": "posts-racing-to-the-bottom-of-the-brains",
+      "route": "/posts/racing-to-the-bottom-of-the-brainstem",
+      "url": "https://bambino-1dtu.vercel.app/posts/racing-to-the-bottom-of-the-brainstem?progress=3.29%",
+      "title": "Racing to the bottom of the brainstem — Lorenzo Scardicchio",
+      "description": "what happened to the last twenty years of human attention",
+      "height": 9126,
+      "frame": "posts-racing-to-the-bottom-of-the-brains.png",
+      "full": "posts-racing-to-the-bottom-of-the-brains-full.png",
+      "videos": [],
+      "phone": {
+        "frame": null,
+        "full": null,
+        "height": 13071
+      },
+      "text": [
+        {
+          "tag": "h1",
+          "text": "Racing to the bottom of the brainstem",
+          "where": "header"
+        },
+        {
+          "tag": "p",
+          "text": "what happened to the last twenty years of human attention",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "There is a phrase the founders of the Center of Humane Technology, Tristan and Aza use now, when they describe the attention economy. They call it the race to the bottom of the brain stem.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "It is one of the more accurate descriptions I have ever read of what happened to the last twenty years of human attention. They mean it almost literally. There are layers of the human brain. There is the prefrontal cortex, which is where you decide things, where you reflect. There is the limbic system, which is where you feel things, where you love and grieve and get angry. And there is, underneath all of that, the brain stem, which is where you simply react. Threat. Reward. Threat. Reward. Lower-frequency cycles, much faster, much harder to interrupt.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "What the social media companies discovered, what infinite scroll let them discover, was that the brain stem is much cheaper to engage than the prefrontal cortex. The prefrontal cortex requires that you actually think about whether you want to be here. The brain stem just keeps you here. Refresh. New thing. Refresh. New thing. There is no end-of-page, so there is no moment at which the prefrontal cortex gets called in to ask, do I want to keep doing this?",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "When you have multiple companies all competing for the same human eyeballs, and the company that gets more eyeballs wins, and the eyeballs are easier to get by engaging the brain stem than the prefrontal cortex, then the entire industry, by the simple ruthless logic of the Munger sentence, races to the bottom of the brain stem.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "I want to slow down here, because I think this is the part that matters most.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "It would be very easy, reading what I have written so far, to land in a place that sounds something like, the technology is bad, let us return to the soil, let us throw the phones into the river, let us light the candles and read the books and sit in the kitchen. I have flirted with that place. Kingsnorth, author of Against the Machine, lives in that place full-time and writes very beautifully from it. There is a real pull there, especially for someone like me, someone who is Italian enough on the inside to feel that the most honest thing in any house is the table and the bread and the people sitting around it.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "But the Munger sentence does not let you off the hook that easily.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Because the Munger sentence is not a sentence about technology. It is a sentence about systems. And every system has incentives, including the kitchen, including the table, including the candle. The reason the candle on my table this morning is honest is not because candles are inherently honest. It is because the incentive structure that produced this candle, which is me reaching for it at six in the morning when I want to write to you, is aligned with the outcome I want, which is to write to you. The candle and I are on the same side.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "The problem with infinite scroll is that the incentive structure it entered, advertising-funded social media in an uncoordinated competitive market, was a structure in which the candle was on the other side of the table from me. The candle was being paid by someone else. The candle had a quota.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "This is the thing Aza is trying to teach now. He is not trying to teach that technology is bad. He is trying to teach that technology, released into the wrong incentive structure, will be ground by that structure into a shape that is not its original shape, and that the original designer almost never sees this coming, because the original designer is looking at the candle and not at the room.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "So what do I do with Serein.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "I have been sitting with this for months. I do not have a clean answer. I have a few small things, and I want to say them to you out loud here, because saying them out loud is how I find out whether I actually believe them.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "The first thing is that I cannot get away with the Aza defense. I cannot say, I am building this with good intentions, therefore the outcome will be good. The Munger sentence has read me my rights on that one. It does not matter what I believe. It matters what the system Serein lives inside will pay it to do.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "The second thing is that the work, then, is not at the level of the feature. It is at the level of the incentive. The question is not, does Serein have a feature called REMEMBERING that surfaces your own words back to you, although it does. The question is, what is paying Serein to exist. If the thing that pays Serein to exist is engagement, time on screen, an advertising business model that needs your eyeballs to keep going down a feed, then over five or ten years, no matter what I or anyone else builds, the body of that incentive structure will grind Serein into a brain-stem product. It will. I am not flattering myself that I am special enough to escape it. Aza was not special enough. I am",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "The third thing, and this is the one I have actually been losing sleep over, is that the only honest answer is to design the incentive structure first and the product second. Subscription rather than ads, so the customer is the user and not the advertiser. A clear refusal to optimize for engagement. A willingness to lose users to better sleep. A willingness to look at metrics like did this person feel more themselves at the end of the week rather than did this person open the app and reflect twelve more times this week. The Munger sentence is not asking me what I believe. It is asking me what I am being paid for. That has to be the first decision and not the last.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "The fourth thing is the honest one, and it is that I do not yet know if I will be able to hold this. The pressure to grow, the pressure to take money on certain terms, the pressure to compete with companies that have already accepted the brain-stem race and made their peace with it, that pressure is going to come. It is going to be very strong. I am going to have a board, eventually. The Munger sentence is going to start whispering in my ear about my own incentives, not just the product’s. Show me the incentive, Lorenzo, and I will show you the outcome. And I do not yet know what I will do.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "What I know is that I want to tell you the question, before I know the answer to it. Because the people who got us into the last twenty years are the people who waited until they had the answer before they told you the question. They got rich first and confessed second. I do not want to do that. I want to write the confession in advance, in case it helps me hold the line later.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "I have been thinking, while I write to you, about a thing Bill said to me on a Tuesday afternoon in his office, with his glasses slightly fogged and his hands folded the way they fold when he is about to give me a sentence I will be using for the rest of my life.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "He said, the work is not what you do, it is what you decline to do.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "I sat with that for a long time. He meant a lot of things by it, but one of the things he meant, I am sure, is that the most important decisions in any practice are subtractive. They are about the things you say no to. They are about what you refuse to do even when refusing costs you. The shape of an integrated person, or an integrated company, is not the list of things they have done. It is the list of things they could have done and did not, because they understood that doing those things would have ground them into a different shape than the one they were trying to be.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "The Munger sentence and Bill’s sentence are the same sentence, said from different angles. Show me the incentive, and I will show you the outcome. If you want a different outcome, you have to refuse certain incentives, even ones that look like opportunities, even ones that everyone around you is taking. You have to be willing to be smaller, slower, less-funded, less-celebrated, more obscure, in order to be the thing you actually want to be. You have to trust that the body wins, and arrange your incentive structure so that when the body wins, the body wins in the direction you wanted to go.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "This is, by the way, also yoga. This is also what Pamela was trying to teach me last week, when she had me in a pose I wanted to push past, and she said, the pose is not where you are trying to go. The pose is where you are right now. She meant that the entire shape of a practice is determined by what you refuse to push through. The body wins. So you arrange the practice so that the body’s winning is the same thing as your growing.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "I am trying to do this with Serein. I do not know yet whether I will succeed. I think I have a real chance, because I am one of the only people I know in the AI space who has gone to the trouble of reading Munger and Kingsnorth and Larry and Bill all at the same time, and who has sat in front of enough candles, and who has been on enough mats, to know that the body wins. Most people in the space have not yet learned this. They still think the ego wins. They still think the intention wins. They still think a press release wins.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "It does not. It never has.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "There is one more thing I want to say to you, dear reader, before the espresso has cooled and the day has fully arrived and the candle has gone out on its own.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "It is something Aza said, in the middle of telling the infinite-scroll story, that I keep going back to. He said, focusing on the individual, or focusing just on one company, blinds you to thinking about how an entire ecosystem will work.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "I think this is the deepest thing he said, and I think most of us, including me, are still not ready for it.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "What he is saying is that the unit of analysis that matters is not the company. It is not the product. It is not even the founder. It is the ecosystem. The web of incentives in which the thing lives. And almost every conversation we have about technology is happening at the wrong level. We argue about whether Mark Zuckerberg is a good person or a bad person, whether Elon is a genius or a crank, whether OpenAI is being responsible or reckless. These are the wrong arguments. These are arguments about candles. The room is on fire.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "If the entire ecosystem is racing to the bottom of the brain stem, then the question of whether any individual candle in that room is well-intentioned is a small question. The room will burn. The Munger sentence will not allow otherwise. The only useful work, at the level of the room, is the work of changing the room. Changing what gets paid for. Changing what gets celebrated. Changing what gets investment. Changing the laws, even, in some cases. Changing the cultural pressure on the founders, so that the founders themselves face an incentive to refuse certain incentives.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "I think this is going to be the work of the next twenty years for a lot of us. The work of changing the room becomes just as important as the work of building the next product. Because if we do not change the room, then the next product will go the same way infinite scroll went, and we will look up in 2046 and find that another two hundred thousand lifetimes a day have been quietly redirected somewhere none of us, individually, ever wanted them to go.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "I am not sure how to do this. I am sure that I have to learn how. I am sure that I cannot do it alone. I am sure that the people who are going to be useful, in the next twenty years, are not the ones who are loudest right now. They are the ones who are sitting in front of half-burned candles at six in the morning, asking what the body of the system is actually being paid for, and what they themselves are actually being paid for, and what they are willing to refuse.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "I would like to be one of those people. I am not yet. I am writing this letter to you partly so I can become one.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Thank you for reading, Lorenzo",
+          "where": "main"
+        }
+      ],
+      "design": {
+        "fonts": {
+          "headings": "Old Claude LP",
+          "headingsWeight": "400",
+          "body": "Source Serif 4",
+          "bodyWeight": "400",
+          "nav": "Old Claude LP",
+          "buttons": "Source Serif 4"
+        },
+        "faces": [
+          "EB Garamond",
+          "Source Serif 4",
+          "paperMono",
+          "longhand",
+          "Old Claude LP"
+        ],
+        "page": "#F2EFE9",
+        "backgrounds": [
+          {
+            "hex": "#F2EFE9",
+            "weight": 26892355
+          },
+          {
+            "hex": "#F0CDC9",
+            "weight": 407197
+          }
+        ],
+        "inks": [
+          {
+            "hex": "#2D2D2D",
+            "weight": 10080
+          }
+        ],
+        "link": "#2D2D2D"
+      }
+    }
+  ],
+  "videos": [],
+  "assets": [
+    {
+      "file": "assets/01-icon.svg",
+      "url": "https://bambino-1dtu.vercel.app/icon.svg?icon.0cagjd6jxxvj8.svg",
+      "page": "home",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null,
+      "bytes": 267,
+      "type": "image/svg+xml"
+    },
+    {
+      "file": "assets/02-img-0.jpg",
+      "url": "https://bambino-1dtu.vercel.app/posts/the-algorithmic-self/img-0.jpg",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "The Algorithmic Self",
+      "width": 535,
+      "height": 301,
+      "natural": [
+        1600,
+        900
+      ],
+      "bytes": 417234,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/03-img-0.jpg",
+      "url": "https://bambino-1dtu.vercel.app/posts/were-part-of-the-race/img-0.jpg",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "We're part of the race.",
+      "width": 96,
+      "height": 72,
+      "natural": [
+        1600,
+        900
+      ],
+      "bytes": 467179,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/04-img-0.jpg",
+      "url": "https://bambino-1dtu.vercel.app/posts/racing-to-the-bottom-of-the-brainstem/img-0.jpg",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Racing to the bottom of the brainstem",
+      "width": 96,
+      "height": 72,
+      "natural": [
+        1600,
+        900
+      ],
+      "bytes": 467784,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/05-img-0.jpg",
+      "url": "https://bambino-1dtu.vercel.app/posts/the-invention-of-infinite-scroll/img-0.jpg",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "The invention of infinite scroll",
+      "width": 96,
+      "height": 72,
+      "natural": [
+        1600,
+        900
+      ],
+      "bytes": 450965,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/06-img-0.jpg",
+      "url": "https://bambino-1dtu.vercel.app/posts/show-me-the-incentive-ill-show-you/img-0.jpg",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Show me the incentive, I'll show you the outcome",
+      "width": 96,
+      "height": 72,
+      "natural": [
+        1600,
+        900
+      ],
+      "bytes": 425646,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/07-img-0.jpg",
+      "url": "https://bambino-1dtu.vercel.app/posts/reclaiming-attention/img-0.jpg",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Reclaiming Attention",
+      "width": 96,
+      "height": 72,
+      "natural": [
+        1600,
+        900
+      ],
+      "bytes": 211452,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/08-img-0.jpg",
+      "url": "https://bambino-1dtu.vercel.app/posts/playing-the-game-of-life-on-expert/img-0.jpg",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Playing the game of life (on expert mode)",
+      "width": 96,
+      "height": 72,
+      "natural": [
+        1600,
+        900
+      ],
+      "bytes": 542255,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/09-img-0.jpg",
+      "url": "https://bambino-1dtu.vercel.app/posts/7-spheres-of-life/img-0.jpg",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "7 Spheres of Life",
+      "width": 96,
+      "height": 72,
+      "natural": [
+        1600,
+        900
+      ],
+      "bytes": 284840,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/10-img-0.jpg",
+      "url": "https://bambino-1dtu.vercel.app/posts/your-emotional-realm/img-0.jpg",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Your Emotional Sphere",
+      "width": 96,
+      "height": 72,
+      "natural": [
+        1600,
+        900
+      ],
+      "bytes": 283372,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/11-img-0.jpg",
+      "url": "https://bambino-1dtu.vercel.app/posts/social-realm/img-0.jpg",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Your Social Realm",
+      "width": 96,
+      "height": 72,
+      "natural": [
+        1600,
+        900
+      ],
+      "bytes": 364526,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/12-img-0.jpg",
+      "url": "https://bambino-1dtu.vercel.app/posts/your-physical-realm/img-0.jpg",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Your Physical Realm",
+      "width": 96,
+      "height": 72,
+      "natural": [
+        1600,
+        900
+      ],
+      "bytes": 340173,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/13-img-0.jpg",
+      "url": "https://bambino-1dtu.vercel.app/posts/your-spiritual-realm/img-0.jpg",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Your Spiritual Realm",
+      "width": 96,
+      "height": 72,
+      "natural": [
+        1600,
+        900
+      ],
+      "bytes": 291584,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/14-img-0.jpg",
+      "url": "https://bambino-1dtu.vercel.app/posts/your-core-values/img-0.jpg",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Your Core Values",
+      "width": 96,
+      "height": 72,
+      "natural": [
+        1600,
+        900
+      ],
+      "bytes": 224112,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/15-img-0.jpg",
+      "url": "https://bambino-1dtu.vercel.app/posts/lifes-journey/img-0.jpg",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Life's journey",
+      "width": 96,
+      "height": 72,
+      "natural": [
+        1600,
+        900
+      ],
+      "bytes": 186473,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/01-icon.svg",
+      "url": "https://bambino-1dtu.vercel.app/icon.svg?icon.0cagjd6jxxvj8.svg",
+      "page": "gallery",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/01-icon.svg",
+      "url": "https://bambino-1dtu.vercel.app/icon.svg?icon.0cagjd6jxxvj8.svg",
+      "page": "gallery-3",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/01-icon.svg",
+      "url": "https://bambino-1dtu.vercel.app/icon.svg?icon.0cagjd6jxxvj8.svg",
+      "page": "posts-the-algorithmic-self",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/16-img-1.jpg",
+      "url": "https://bambino-1dtu.vercel.app/posts/the-algorithmic-self/img-1.jpg",
+      "page": "posts-the-algorithmic-self",
+      "kind": "img",
+      "where": "header",
+      "logo": false,
+      "alt": "",
+      "width": 450,
+      "height": 266,
+      "natural": [
+        1600,
+        900
+      ],
+      "bytes": 417234,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/17-burgundy-rose.jpg",
+      "url": "https://bambino-1dtu.vercel.app/art/burgundy-rose.jpg",
+      "page": "posts-the-algorithmic-self",
+      "kind": "img",
+      "where": "header",
+      "logo": false,
+      "alt": "",
+      "width": 299,
+      "height": 564,
+      "natural": [
+        702,
+        1391
+      ],
+      "bytes": 422332,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/18-journey-nudge-designs-4.png",
+      "url": "https://bambino-1dtu.vercel.app/art/Journey-Nudge-Designs-4.png",
+      "page": "posts-the-algorithmic-self",
+      "kind": "img",
+      "where": "header",
+      "logo": false,
+      "alt": "",
+      "width": 215,
+      "height": 267,
+      "natural": [
+        1119,
+        1400
+      ],
+      "bytes": 1420554,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/02-img-0.jpg",
+      "url": "https://bambino-1dtu.vercel.app/posts/the-algorithmic-self/img-0.jpg",
+      "page": "posts-the-algorithmic-self",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 150,
+      "height": 188,
+      "natural": [
+        1600,
+        900
+      ]
+    },
+    {
+      "file": "assets/19-misty-harbor.jpg",
+      "url": "https://bambino-1dtu.vercel.app/art/misty-harbor.jpg",
+      "page": "posts-the-algorithmic-self",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Misty Harbor in Charcoal and Ochre",
+      "width": 76,
+      "height": 76,
+      "natural": [
+        1254,
+        1254
+      ],
+      "bytes": 477757,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/20-six-windows.jpg",
+      "url": "https://bambino-1dtu.vercel.app/art/six-windows.jpg",
+      "page": "posts-the-algorithmic-self",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Six Windows",
+      "width": 76,
+      "height": 76,
+      "natural": [
+        1080,
+        728
+      ],
+      "bytes": 325123,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/21-mountain.jpg",
+      "url": "https://bambino-1dtu.vercel.app/art/mountain.jpg",
+      "page": "posts-the-algorithmic-self",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Mountain",
+      "width": 76,
+      "height": 76,
+      "natural": [
+        818,
+        1511
+      ],
+      "bytes": 439670,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/01-icon.svg",
+      "url": "https://bambino-1dtu.vercel.app/icon.svg?icon.0cagjd6jxxvj8.svg",
+      "page": "posts-were-part-of-the-race",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/03-img-0.jpg",
+      "url": "https://bambino-1dtu.vercel.app/posts/were-part-of-the-race/img-0.jpg",
+      "page": "posts-were-part-of-the-race",
+      "kind": "img",
+      "where": "header",
+      "logo": false,
+      "alt": "",
+      "width": 450,
+      "height": 266,
+      "natural": [
+        1600,
+        900
+      ]
+    },
+    {
+      "file": "assets/22-bionic.jpg",
+      "url": "https://bambino-1dtu.vercel.app/art/bionic.jpg",
+      "page": "posts-were-part-of-the-race",
+      "kind": "img",
+      "where": "header",
+      "logo": false,
+      "alt": "",
+      "width": 287,
+      "height": 219,
+      "natural": [
+        1376,
+        1030
+      ],
+      "bytes": 792269,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/18-journey-nudge-designs-4.png",
+      "url": "https://bambino-1dtu.vercel.app/art/Journey-Nudge-Designs-4.png",
+      "page": "posts-were-part-of-the-race",
+      "kind": "img",
+      "where": "header",
+      "logo": false,
+      "alt": "",
+      "width": 215,
+      "height": 267,
+      "natural": [
+        1119,
+        1400
+      ]
+    },
+    {
+      "file": "assets/23-img-1.jpg",
+      "url": "https://bambino-1dtu.vercel.app/posts/were-part-of-the-race/img-1.jpg",
+      "page": "posts-were-part-of-the-race",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "We're part of the race.",
+      "width": 1100,
+      "height": 619,
+      "natural": [
+        1600,
+        900
+      ],
+      "bytes": 467179,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/24-img-2.jpg",
+      "url": "https://bambino-1dtu.vercel.app/posts/were-part-of-the-race/img-2.jpg",
+      "page": "posts-were-part-of-the-race",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "We're part of the race.",
+      "width": 520,
+      "height": 390,
+      "natural": [
+        1600,
+        1200
+      ],
+      "bytes": 201473,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/19-misty-harbor.jpg",
+      "url": "https://bambino-1dtu.vercel.app/art/misty-harbor.jpg",
+      "page": "posts-were-part-of-the-race",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Misty Harbor in Charcoal and Ochre",
+      "width": 76,
+      "height": 76,
+      "natural": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "file": "assets/20-six-windows.jpg",
+      "url": "https://bambino-1dtu.vercel.app/art/six-windows.jpg",
+      "page": "posts-were-part-of-the-race",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Six Windows",
+      "width": 76,
+      "height": 76,
+      "natural": [
+        1080,
+        728
+      ]
+    },
+    {
+      "file": "assets/21-mountain.jpg",
+      "url": "https://bambino-1dtu.vercel.app/art/mountain.jpg",
+      "page": "posts-were-part-of-the-race",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Mountain",
+      "width": 76,
+      "height": 76,
+      "natural": [
+        818,
+        1511
+      ]
+    },
+    {
+      "file": "assets/01-icon.svg",
+      "url": "https://bambino-1dtu.vercel.app/icon.svg?icon.0cagjd6jxxvj8.svg",
+      "page": "posts-racing-to-the-bottom-of-the-brains",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/25-img-1.jpg",
+      "url": "https://bambino-1dtu.vercel.app/posts/racing-to-the-bottom-of-the-brainstem/img-1.jpg",
+      "page": "posts-racing-to-the-bottom-of-the-brains",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Racing to the bottom of the brainstem",
+      "width": 520,
+      "height": 293,
+      "natural": [
+        1600,
+        900
+      ],
+      "bytes": 467784,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/26-img-2.jpg",
+      "url": "https://bambino-1dtu.vercel.app/posts/racing-to-the-bottom-of-the-brainstem/img-2.jpg",
+      "page": "posts-racing-to-the-bottom-of-the-brains",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Racing to the bottom of the brainstem",
+      "width": 1100,
+      "height": 619,
+      "natural": [
+        1600,
+        900
+      ],
+      "bytes": 136866,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/15-img-0.jpg",
+      "url": "https://bambino-1dtu.vercel.app/posts/lifes-journey/img-0.jpg",
+      "page": "posts-racing-to-the-bottom-of-the-brains",
+      "kind": "img",
+      "where": "nav",
+      "logo": false,
+      "alt": "",
+      "width": 64,
+      "height": 48,
+      "natural": [
+        1600,
+        900
+      ]
+    },
+    {
+      "file": "assets/14-img-0.jpg",
+      "url": "https://bambino-1dtu.vercel.app/posts/your-core-values/img-0.jpg",
+      "page": "posts-racing-to-the-bottom-of-the-brains",
+      "kind": "img",
+      "where": "nav",
+      "logo": false,
+      "alt": "",
+      "width": 64,
+      "height": 48,
+      "natural": [
+        1600,
+        900
+      ]
+    },
+    {
+      "file": "assets/13-img-0.jpg",
+      "url": "https://bambino-1dtu.vercel.app/posts/your-spiritual-realm/img-0.jpg",
+      "page": "posts-racing-to-the-bottom-of-the-brains",
+      "kind": "img",
+      "where": "nav",
+      "logo": false,
+      "alt": "",
+      "width": 64,
+      "height": 48,
+      "natural": [
+        1600,
+        900
+      ]
+    },
+    {
+      "file": "assets/12-img-0.jpg",
+      "url": "https://bambino-1dtu.vercel.app/posts/your-physical-realm/img-0.jpg",
+      "page": "posts-racing-to-the-bottom-of-the-brains",
+      "kind": "img",
+      "where": "nav",
+      "logo": false,
+      "alt": "",
+      "width": 64,
+      "height": 48,
+      "natural": [
+        1600,
+        900
+      ]
+    },
+    {
+      "file": "assets/11-img-0.jpg",
+      "url": "https://bambino-1dtu.vercel.app/posts/social-realm/img-0.jpg",
+      "page": "posts-racing-to-the-bottom-of-the-brains",
+      "kind": "img",
+      "where": "nav",
+      "logo": false,
+      "alt": "",
+      "width": 64,
+      "height": 48,
+      "natural": [
+        1600,
+        900
+      ]
+    },
+    {
+      "file": "assets/10-img-0.jpg",
+      "url": "https://bambino-1dtu.vercel.app/posts/your-emotional-realm/img-0.jpg",
+      "page": "posts-racing-to-the-bottom-of-the-brains",
+      "kind": "img",
+      "where": "nav",
+      "logo": false,
+      "alt": "",
+      "width": 64,
+      "height": 48,
+      "natural": [
+        1600,
+        900
+      ]
+    },
+    {
+      "file": "assets/09-img-0.jpg",
+      "url": "https://bambino-1dtu.vercel.app/posts/7-spheres-of-life/img-0.jpg",
+      "page": "posts-racing-to-the-bottom-of-the-brains",
+      "kind": "img",
+      "where": "nav",
+      "logo": false,
+      "alt": "",
+      "width": 64,
+      "height": 48,
+      "natural": [
+        1600,
+        900
+      ]
+    },
+    {
+      "file": "assets/08-img-0.jpg",
+      "url": "https://bambino-1dtu.vercel.app/posts/playing-the-game-of-life-on-expert/img-0.jpg",
+      "page": "posts-racing-to-the-bottom-of-the-brains",
+      "kind": "img",
+      "where": "nav",
+      "logo": false,
+      "alt": "",
+      "width": 64,
+      "height": 48,
+      "natural": [
+        1600,
+        900
+      ]
+    },
+    {
+      "file": "assets/07-img-0.jpg",
+      "url": "https://bambino-1dtu.vercel.app/posts/reclaiming-attention/img-0.jpg",
+      "page": "posts-racing-to-the-bottom-of-the-brains",
+      "kind": "img",
+      "where": "nav",
+      "logo": false,
+      "alt": "",
+      "width": 64,
+      "height": 48,
+      "natural": [
+        1600,
+        900
+      ]
+    },
+    {
+      "file": "assets/06-img-0.jpg",
+      "url": "https://bambino-1dtu.vercel.app/posts/show-me-the-incentive-ill-show-you/img-0.jpg",
+      "page": "posts-racing-to-the-bottom-of-the-brains",
+      "kind": "img",
+      "where": "nav",
+      "logo": false,
+      "alt": "",
+      "width": 64,
+      "height": 48,
+      "natural": [
+        1600,
+        900
+      ]
+    },
+    {
+      "file": "assets/05-img-0.jpg",
+      "url": "https://bambino-1dtu.vercel.app/posts/the-invention-of-infinite-scroll/img-0.jpg",
+      "page": "posts-racing-to-the-bottom-of-the-brains",
+      "kind": "img",
+      "where": "nav",
+      "logo": false,
+      "alt": "",
+      "width": 64,
+      "height": 48,
+      "natural": [
+        1600,
+        900
+      ]
+    },
+    {
+      "file": "assets/04-img-0.jpg",
+      "url": "https://bambino-1dtu.vercel.app/posts/racing-to-the-bottom-of-the-brainstem/img-0.jpg",
+      "page": "posts-racing-to-the-bottom-of-the-brains",
+      "kind": "img",
+      "where": "nav",
+      "logo": false,
+      "alt": "",
+      "width": 64,
+      "height": 48,
+      "natural": [
+        1600,
+        900
+      ]
+    },
+    {
+      "file": "assets/03-img-0.jpg",
+      "url": "https://bambino-1dtu.vercel.app/posts/were-part-of-the-race/img-0.jpg",
+      "page": "posts-racing-to-the-bottom-of-the-brains",
+      "kind": "img",
+      "where": "nav",
+      "logo": false,
+      "alt": "",
+      "width": 64,
+      "height": 48,
+      "natural": [
+        1600,
+        900
+      ]
+    },
+    {
+      "file": "assets/02-img-0.jpg",
+      "url": "https://bambino-1dtu.vercel.app/posts/the-algorithmic-self/img-0.jpg",
+      "page": "posts-racing-to-the-bottom-of-the-brains",
+      "kind": "img",
+      "where": "nav",
+      "logo": false,
+      "alt": "",
+      "width": 64,
+      "height": 48,
+      "natural": [
+        1600,
+        900
+      ]
+    }
+  ]
+}
