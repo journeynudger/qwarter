@@ -110,8 +110,37 @@
       "source": "journeynudger/journeysite (CLAUDE.md: 'journeynudge.com, moved off WordPress onto Next.js on Vercel without changing its design', WordPress snapshot of 2026-10-06); its own <title> 'journey – The nudge you need, when you need it.'; page titles from content/pages.json; photographed from its own build"
     },
     {
-      "slug": "ekaterina-sky",
+      "slug": "stairway",
       "numeral": "IV",
+      "name": "Stairway Audio",
+      "url": "https://stairway.audio",
+      "line": "Analog Tone. Digital Soul.",
+      "made": "Website",
+      "year": "2026",
+      "cover": "home",
+      "pages": [
+        {
+          "name": "home",
+          "title": "Home"
+        },
+        {
+          "name": "shop",
+          "title": "Shop All"
+        },
+        {
+          "name": "sa-s1",
+          "title": "SA-S1"
+        },
+        {
+          "name": "support",
+          "title": "Support"
+        }
+      ],
+      "source": "Stairway-Audio/stairway-monorepo web/ (Next.js 15, 'the marketing + commerce site for stairway.audio'), photographed from its own build in stub mode on 2026-10-22; its <title> 'Stairway Audio. Analog Tone. Digital Soul.'; page titles from each page's <title>"
+    },
+    {
+      "slug": "ekaterina-sky",
+      "numeral": "V",
       "name": "Ekaterina Sky",
       "url": null,
       "line": "E-commerce for an artist's prints and hand-painted jackets",
@@ -124,7 +153,7 @@
     },
     {
       "slug": "epic-esg",
-      "numeral": "V",
+      "numeral": "VI",
       "name": "EPIC ESG",
       "url": null,
       "line": "Digital strategy, product design and a new website for a renewable energy organization",
@@ -137,7 +166,7 @@
     },
     {
       "slug": "tima",
-      "numeral": "VI",
+      "numeral": "VII",
       "name": "Titanium Motor Arts",
       "url": null,
       "line": "Brand strategy and product design for 3D-printed titanium lug nuts",
@@ -150,7 +179,7 @@
     },
     {
       "slug": "iotech-protect",
-      "numeral": "VII",
+      "numeral": "VIII",
       "name": "IoTech Protect",
       "url": null,
       "line": "A brand redesign and website for a security services company",
@@ -163,7 +192,7 @@
     },
     {
       "slug": "2020-insights",
-      "numeral": "VIII",
+      "numeral": "IX",
       "name": "20/20 Insights",
       "url": null,
       "line": "A software platform that combines AI with human coaching for workplace wellness",
@@ -176,7 +205,7 @@
     },
     {
       "slug": "pineapple-club",
-      "numeral": "IX",
+      "numeral": "X",
       "name": "Pineapple Club",
       "url": null,
       "line": "A tropical-fusion restaurant and bar in New York's East Village: website with online ordering, visual identity and photography",
@@ -189,7 +218,7 @@
     },
     {
       "slug": "ion-insurance",
-      "numeral": "X",
+      "numeral": "XI",
       "name": "ION Insurance",
       "url": null,
       "line": "Website, brand kit and SEO for an insurance group",
@@ -202,7 +231,7 @@
     },
     {
       "slug": "thanh-ta",
-      "numeral": "XI",
+      "numeral": "XII",
       "name": "Thanh Ta",
       "url": null,
       "line": "Website, brand guide and a client booking portal (Acuity) for a wellness studio",
@@ -215,7 +244,7 @@
     },
     {
       "slug": "boujee-healer",
-      "numeral": "XII",
+      "numeral": "XIII",
       "name": "Boujee Healer",
       "url": null,
       "line": "Website, brand book and a members-only portal for a wellness business",
@@ -228,7 +257,7 @@
     },
     {
       "slug": "wood-company",
-      "numeral": "XIII",
+      "numeral": "XIV",
       "name": "Wood Company",
       "url": null,
       "line": "Identity and a live auction recording for an auctioneer of high-ticket cars",
