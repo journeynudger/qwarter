@@ -15,7 +15,7 @@ import type { Work } from "@/lib/content";
 
 const { projects } = workJson as unknown as Work;
 const ROOT = path.join(import.meta.dirname, "..");
-const ROMAN = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII", "XIII", "XIV", "XV", "XVI", "XVII", "XVIII", "XIX", "XX"];
+const ROMAN = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII", "XIII", "XIV", "XV", "XVI", "XVII", "XVIII", "XIX", "XX", "XXI", "XXII", "XXIII", "XXIV", "XXV", "XXVI", "XXVII", "XXVIII", "XXIX", "XXX"];
 
 const featured = projects.filter((p) => p.media !== false);
 const catalogue = projects.filter((p) => p.media === false);

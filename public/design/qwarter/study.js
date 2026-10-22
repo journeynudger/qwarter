@@ -6,15 +6,16 @@
 (() => {
   "use strict";
   const html = document.documentElement;
-  html.classList.add("js");
   const still = matchMedia("(prefers-reduced-motion: reduce)").matches;
   const EASE = "cubic-bezier(.22,1,.36,1)";
+  const start = () => {
+  if (html.classList.contains("js")) return;
+  html.classList.add("js");
 
   /* ---------------------------------------------------------------- reveals */
   const revealed = new IntersectionObserver((entries) => {
     for (const e of entries) if (e.isIntersecting) { e.target.classList.add("in"); revealed.unobserve(e.target); }
   }, { threshold: 0.12, rootMargin: "0px 0px -6% 0px" });
-  document.querySelectorAll(".reveal").forEach((el) => (still ? el.classList.add("in") : revealed.observe(el)));
 
   /* the statement: its words, one after another */
   const say = document.querySelector(".st-say");
@@ -28,6 +29,15 @@
       say.append(s, document.createTextNode(" "));
     });
   }
+
+  // (after the words, so their first style is the hidden one and they still arrive one by one)
+  // what is already on screen is shown at once (the page was visible before this script took over: no blink);
+  // what is below arrives as it scrolls in
+  const vh = innerHeight;
+  document.querySelectorAll(".reveal").forEach((el) => {
+    const r = el.getBoundingClientRect();
+    if (still || (r.top < vh * 0.94 && r.bottom > 0)) el.classList.add("in"); else revealed.observe(el);
+  });
 
   /* the figures count up once, as they arrive */
   const counters = new IntersectionObserver((entries) => {
@@ -210,4 +220,15 @@
     });
     el.addEventListener("pointerleave", () => { el.style.transition = `transform .6s ${EASE}`; el.style.transform = ""; });
   });
+  };
+
+  /* React hydrates the page after this script has run (its chunks load on their own): everything above rewrites the
+     page's text, and hydration arriving after that would find text that no longer matches and render the page again
+     over this script's work. components/study/hydrated.tsx says when hydration is done; should it never say so (a chunk
+     that failed to load), the motion starts after a while anyway, over a page that was whole and readable all along. */
+  if (html.dataset.hydrated) start();
+  else {
+    document.addEventListener("qw:hydrated", start, { once: true });
+    setTimeout(start, 6000);
+  }
 })();

@@ -1,0 +1,238 @@
+{
+  "shortName": "Butter",
+  "tagline": "A store that loves you back.",
+  "client": "Butter, infused spreads",
+  "role": [
+    "Shopify store",
+    "Packaging",
+    "Brand",
+    "Photography and film"
+  ],
+  "statement": "butter that loves you back",
+  "summary": "Butter, but better. Butter sells CBD-infused ghee formulated to soothe the nervous system while elevating your everyday toast.",
+  "brief": "The store at butterspreads.com: a film at the top, the yellow, the wordmark in black on it, the jars and the box with \"Let's build a butter world.\" on it, three spreads at $25 (Cookie Butter, Ghee Butter, Hazelnut Butter), an Education blog and a contact page.",
+  "kind": "Shopify store, packaging and brand",
+  "status": "Live at butterspreads.com",
+  "figures": [
+    {
+      "value": "3",
+      "label": "Spreads: Cookie Butter, Ghee Butter, Hazelnut Butter",
+      "source": "butterspreads.com/collections/all"
+    },
+    {
+      "value": "25",
+      "label": "Dollars a jar, every spread",
+      "source": "butterspreads.com/collections/all: $25.00 each"
+    },
+    {
+      "value": "100",
+      "label": "Milligrams of hemp-derived Delta-9 THC a jar",
+      "source": "the Cookie Butter page: '100MG Delta-9 THC per jar | 3.5oz'"
+    },
+    {
+      "value": "2",
+      "label": "Films on the home page",
+      "source": "the shoot: two films play on butterspreads.com/"
+    }
+  ],
+  "identity": [
+    {
+      "key": "logo",
+      "label": "Wordmark",
+      "note": "butter, lower case, in black on the brand's yellow: the wordmark as the store sets it in its header and across the home page.",
+      "image": {
+        "$pic": "06-bw-site-logo.png"
+      },
+      "alt": "The butter wordmark: the word butter in black lower-case letters on a yellow field.",
+      "ground": "#FFE900",
+      "dark": false,
+      "fit": "contain",
+      "source": "the store's own logo file (bw-site-logo.png) and the home page"
+    },
+    {
+      "key": "palette",
+      "label": "Colour",
+      "note": "The yellow the store is built on, with black for the words and white for the page; the pale green behind the three product stories. Observed on butterspreads.com on 2026-10-22 by the area each covers.",
+      "colors": [
+        {
+          "hex": "#FFE900",
+          "name": "Butter yellow",
+          "role": "the brand, the box, the lids"
+        },
+        {
+          "hex": "#000000",
+          "name": "Black",
+          "role": "the words"
+        },
+        {
+          "hex": "#FFFFFF",
+          "name": "White",
+          "role": "the page"
+        },
+        {
+          "hex": "#EEF1EA",
+          "name": "Pale green",
+          "role": "behind the product stories"
+        }
+      ],
+      "source": "the shoot's colour census of butterspreads.com"
+    },
+    {
+      "key": "type",
+      "label": "Type",
+      "note": "Inter throughout, bold for the headings (\"The Original Edible Has Evolved\", \"Cooking Just Got Butter\") and medium for the text, as observed on the store.",
+      "faces": [
+        {
+          "role": "Headings",
+          "family": "Inter",
+          "weight": "700",
+          "fallback": "sans-serif",
+          "sample": "butter that loves you back · The Original Edible Has Evolved"
+        },
+        {
+          "role": "Text and menu",
+          "family": "Inter",
+          "weight": "500",
+          "fallback": "sans-serif"
+        }
+      ],
+      "source": "the shoot's type census of butterspreads.com (Inter 700 / 500)"
+    },
+    {
+      "key": "detail",
+      "label": "The packaging",
+      "note": "The box: \"Let's build a butter world.\" set large on the yellow, with the claims around it: fast onset time, all natural, infused ghee butter, smooth, euphoric lift. From the store's own picture.",
+      "image": {
+        "$pic": "07-productbuttergheeinfused.png"
+      },
+      "alt": "Butter's yellow box, standing, with Let's build a butter world. printed large on its face, and the claims Fast onset time, All natural, Infused ghee butter and Smooth, euphoric lift set around it.",
+      "ground": "#F2F2F2",
+      "dark": false,
+      "fit": "cover",
+      "source": "butterspreads.com, the home page's product picture"
+    }
+  ],
+  "quote": {
+    "text": "Let's build a butter world.",
+    "source": "On the box, and on the store's home page"
+  },
+  "gallery": [
+    {
+      "src": {
+        "$pic": "07-productbuttergheeinfused.png"
+      },
+      "alt": "The yellow box with Let's build a butter world. on its face.",
+      "source": "butterspreads.com"
+    },
+    {
+      "src": {
+        "$pic": "05-9c2d3706-151f-4edd-8119-6163f8817198.jpg"
+      },
+      "alt": "Two people kissing a jar of butter between them, the open box in front.",
+      "source": "butterspreads.com"
+    },
+    {
+      "src": {
+        "$pic": "02-butterinfusedcanna.png"
+      },
+      "alt": "A jar of butter on a wooden board with crackers, the spread on them.",
+      "source": "butterspreads.com, Baking With Butter"
+    },
+    {
+      "src": {
+        "$pic": "03-butterinfusedbutter.png"
+      },
+      "alt": "A woman smiling with a jar of butter in her hand.",
+      "source": "butterspreads.com, Feeling Butter"
+    },
+    {
+      "src": {
+        "$pic": "04-butterbrandinfusedgheebutter.png"
+      },
+      "alt": "A cup of coffee with a knob of butter going in, the jar beside it.",
+      "source": "butterspreads.com, Magic Mornings"
+    },
+    {
+      "src": {
+        "$pic": "22-butterbrandinfusedgheebutter.png"
+      },
+      "alt": "A spoon lowering butter into a cup of coffee, the yellow jar beside it.",
+      "source": "butterspreads.com, Education: Infused Ghee Butter Is the Perfect Upgrade for Your Bulletproof Coffee"
+    },
+    {
+      "src": {
+        "$pic": "23-butterliving.png"
+      },
+      "alt": "A picture from the Education blog: The Secret Superfood You're Not Using… But Totally Should Be.",
+      "source": "butterspreads.com, Education"
+    }
+  ],
+  "galleryNote": "The store's own pictures, from butterspreads.com: the packaging, the jars, the product stories and the Education blog.",
+  "source": "the words are the store's own (butterspreads.com, photographed 2026-10-22: 'butter that loves you back', 'The Original Edible Has Evolved', the product pages) and qwarter.com's home page (Selected Work: 'Butter, but better. Butter sells CBD-infused ghee…'); the colours and type as observed; the pictures the store's own; what Qwarter made is Lorenzo's account (2026-10-22: the website, the packaging, the branding).",
+  "steps": [
+    {
+      "title": "butterspreads.com, page by page",
+      "body": "butter that loves you back. The store opens on its film, the wordmark in black on the yellow, then The Original Edible Has Evolved: Baking With Butter (turning any recipe into a ritual), Feeling Butter (unwind the day, one spread at a time), Magic Mornings (the original edible, reborn; make bulletproof coffee magic). Cooking Just Got Butter: faster absorption, healthier fat source, versatile use.",
+      "device": "desktop",
+      "recording": "desktop",
+      "source": "butterspreads.com, the home page's own words (photographed 2026-10-22)"
+    },
+    {
+      "title": "The film, as the store uses it",
+      "body": "The store's own film plays full-bleed at the top of the home page, under the line butter that loves you back and a Shop now; a second, portrait film plays further down. The same film opens this study and the project's tile on the home page.",
+      "image": "/media/work/butter/study/d-home.jpg",
+      "alt": "The top of butterspreads.com: a woman in yellow holding out a jar of butter, over the film, with butter that loves you back across it.",
+      "device": "desktop",
+      "source": "butterspreads.com/ (two films, the shoot's manifest)"
+    },
+    {
+      "title": "Products",
+      "body": "Three spreads at $25.00 each: Cookie Butter, Ghee Butter, Hazelnut Butter, each photographed on the yellow, in the jar and in the box.",
+      "image": "/media/work/butter/study/d-collections-all.jpg",
+      "alt": "The Products page of butterspreads.com: three jars in a row with their names and prices.",
+      "device": "desktop",
+      "source": "butterspreads.com/collections/all"
+    },
+    {
+      "title": "Cookie Butter",
+      "body": "Live Rosin Infused Cookie Butter. 100MG Delta-9 THC per jar | 3.5oz. Our Live Rosin infused Cookie Butter combines decadent flavor with functional cannabinoids for a balanced experience. Each jar contains 100MG hemp-derived Delta-9 THC, carefully blended with effect-focused cannabinoids tailored for day or night use. Great for desserts, baking, spreading, or spoonful rituals; a reusable and recyclable glass jar. Smooth. Indulgent. Elevated.",
+      "image": "/media/work/butter/study/d-products-2-pack-infused-ghee-butter.jpg",
+      "alt": "The Cookie Butter page: four photographs of the jar and the spread, the description and the Add to cart beside them.",
+      "device": "desktop",
+      "source": "butterspreads.com/products/2-pack-infused-ghee-butter, the page's own words"
+    },
+    {
+      "title": "On a phone",
+      "body": "The store on a phone: the film, the yellow, the three spreads, the product page.",
+      "device": "phone",
+      "recording": "phone",
+      "source": "the phone frames of the shoot (2026-10-22)"
+    },
+    {
+      "title": "The packaging",
+      "body": "The box in the brand's yellow with Let's build a butter world. set large on its face and the claims around it: fast onset time, all natural, infused ghee butter, smooth, euphoric lift; the jar in the same yellow with the wordmark around it, a yellow lid.",
+      "image": {
+        "$pic": "07-productbuttergheeinfused.png"
+      },
+      "alt": "Butter's yellow box, standing, with Let's build a butter world. on its face.",
+      "device": "picture",
+      "source": "butterspreads.com, the home page's product picture"
+    },
+    {
+      "title": "Education",
+      "body": "The Education blog: Infused Ghee Butter Is the Perfect Upgrade for Your Bulletproof Coffee; The Secret Superfood You're Not Using… But Totally Should Be.",
+      "image": "/media/work/butter/study/d-blogs-news.jpg",
+      "alt": "The Education page of butterspreads.com: two articles with their pictures.",
+      "device": "desktop",
+      "source": "butterspreads.com/blogs/news (the articles' own titles)"
+    },
+    {
+      "title": "Contact",
+      "body": "The contact page, and under every page the line Join our email list: get exclusive deals and early access to new products.",
+      "image": "/media/work/butter/study/d-pages-contact.jpg",
+      "alt": "The Contact page of butterspreads.com.",
+      "device": "desktop",
+      "source": "butterspreads.com/pages/contact"
+    }
+  ]
+}

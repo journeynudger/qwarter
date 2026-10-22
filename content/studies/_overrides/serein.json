@@ -1,0 +1,61 @@
+{
+  "shortName": "Serein",
+  "tagline": "A place to put your thoughts so you can get them back.",
+  "client": "Serein, Lorenzo Scardicchio's own",
+  "year": "2026",
+  "role": ["Brand and wordmark", "Website, withserein.com", "iOS app and Serein for Mac"],
+  "statement": "Your thoughts, always with you. Capture freely. Retrieve effortlessly. Never lose a good thought again.",
+  "summary": "Serein is a personal capture system for iOS. Press the Action Button (or type, or share) and your words are recorded, transcribed on this iPhone, and saved as ordinary files in your own iCloud Drive. No server, no account, no API key.",
+  "brief": "A serein is the fine, almost invisible rain that falls in clear sky after sunset in tropical climates: a 14th-century French word, from the Latin serenus. The wordmark is the word in lower case, soft and rounded, with generous tracking; the mark two forms like hills or waves; the colours are an ocean horizon at blue hour, deep navy water under a lighter sky. The site at withserein.com is the same navy and a warm white, set in Inter at its lightest weights, with a field of stars behind the hero.",
+  "kind": "Brand, website and app",
+  "status": "Live at withserein.com",
+  "url": "https://withserein.com",
+  "address": "withserein.com",
+  "figures": [
+    { "value": "1", "label": "Tap to start talking: the phone's Action Button, the Watch, the Mac", "source": "withserein.com, Product: 'One tap. Start talking.'" },
+    { "value": "3", "label": "Verbs: speak, keep, ask", "source": "withserein.com, Product: 'That's it. Speak, keep, ask.'" },
+    { "value": "0", "label": "Servers, accounts or API keys behind a capture", "source": "the app's README: 'No server, no account, no API key.'" },
+    { "value": "14", "label": "The century the word is from", "source": "Serein Brand Brief (May 2026): 'Serein is a 14th-century word'" }
+  ],
+  "identity": [
+    { "key": "logo", "label": "Wordmark", "note": "serein, lower case, in white on black: a clean, soft sans with generous tracking and the dot of the i set a little high. The brand references of 3 March 2026 call it the definitive wordmark.", "image": { "$copy": "/home/user/serein/assets/brand/logo-white-on-black.png", "as": "wordmark", "max": 1080 }, "alt": "The serein wordmark: the word serein in thin white lower-case letters on black.", "ground": "#000000", "dark": true, "fit": "cover", "source": "SereinLife/serein assets/brand/logo-white-on-black.png; mylife Projects/Serein/Brand-References/README.md" },
+    { "key": "palette", "label": "Colour", "note": "The site's two grounds, deep navy and warm white, with its blue accents (src/components/SereinWebsite.tsx), and the colours the brand references drew from the ocean horizon: deep navy, medium blue, soft sky, horizon pink, water light.", "colors": [
+      { "hex": "#0C1A2E", "name": "Deep navy", "role": "the dark site" },
+      { "hex": "#FAFAF8", "name": "Warm white", "role": "the light site" },
+      { "hex": "#6E9ECF", "name": "Blue", "role": "accent, dark" },
+      { "hex": "#3B6FA0", "name": "Medium blue", "role": "accent, light" },
+      { "hex": "#7DADD4", "name": "Soft sky", "role": "the horizon" },
+      { "hex": "#D4BFC8", "name": "Horizon pink", "role": "first light" },
+      { "hex": "#B8D4E8", "name": "Water light", "role": "the surface" }
+    ], "source": "mylife Serein/serein-site (CLAUDE.md and SereinWebsite.tsx: the theme tokens); Brand-References/README.md (colour extraction from the ocean image)" },
+    { "key": "type", "label": "Type", "note": "Inter, at extralight and light weights, for everything on the site (layout.tsx loads it; the census found 200 and 300 on the home page).", "faces": [
+      { "role": "Headings", "family": "Inter", "weight": "200", "fallback": "sans-serif", "sample": "Your thoughts, always with you" },
+      { "role": "Text", "family": "Inter", "weight": "300", "fallback": "sans-serif", "sample": "Capture freely. Retrieve effortlessly. Never lose a good thought again." }
+    ], "source": "mylife Serein/serein-site/src/app/layout.tsx (Inter); the shoot's type census (weights 200 and 300)" },
+    { "key": "detail", "label": "The app", "note": "Three screens of the phone app as the brand references set them: the wordmark on the ocean at blue hour, the recording indicator, and the one button to talk.", "image": { "$copy": "/home/user/serein/assets/brand/ref-capture-screenshots.png", "as": "app-screens", "max": 1600 }, "alt": "Three phones on a warm white ground, each showing an ocean horizon at dusk: the first with the word serein, the second with a recording level and a stop button, the third with a microphone button.", "ground": "#F8F6F2", "dark": false, "fit": "cover", "source": "SereinLife/serein assets/brand/ref-capture-screenshots.png" }
+  ],
+  "quote": { "text": "We believe technology should listen more than it speaks.", "source": "From the manifesto on withserein.com" },
+  "steps": [
+    { "title": "withserein.com, page by page", "body": "Your thoughts, always with you. Capture freely. Retrieve effortlessly. Never lose a good thought again. The home page opens on a field of stars, then tells the story on the scroll (\"Gone before you kept it.\") and offers the prompts a life might ask, each with what Serein would say back.", "device": "desktop", "recording": "desktop", "source": "withserein.com, the home page's own words (photographed 2026-10-22)" },
+    { "title": "Product", "body": "\"Capture is the beginning, not the destination.\" Speak, keep, ask: \"One tap. Start talking.\" Press the button on your phone, Apple Watch, or Mac. Start talking. That's it. No app to open, no note to title, no folder to choose. \"Your captures are in safekeeping.\" \"Ask a question. Hear your own answer.\"", "image": "/media/work/serein/study/d-product.jpg", "alt": "The Product page of withserein.com: Speak, Keep, Ask, one after another, on the navy ground.", "device": "desktop", "source": "withserein.com, Product" },
+    { "title": "Manifesto", "body": "We live in a world where the more connected we are, the more scattered we become. The more technology promises to help us, the less time we have to think at all. Serein offers a different path. We believe technology should listen more than it speaks. We believe your data should belong to you. The goal isn't engagement; it's helping you become more yourself, then getting out of the way.", "image": "/media/work/serein/study/d-manifesto.jpg", "alt": "The Manifesto page of withserein.com: the text in three columns.", "device": "desktop", "source": "withserein.com, Manifesto (the paragraphs as the site sets them)" },
+    { "title": "The mark and the app icon", "body": "The mark: two soft forms, hills or waves, one rising behind the other, in white on black for the app icon and in sky blue, gold, green and grey in the brand's set. The app records with the iPhone's Action Button, transcribes on the phone and keeps every capture as ordinary files in iCloud Drive; Serein for Mac sits beside it.", "image": { "$copy": "/home/user/serein/assets/brand/app-icon.png", "as": "app-icon", "max": 1024 }, "alt": "Serein's app icon: two rounded white forms, like hills, on a black rounded square.", "device": "picture", "source": "SereinLife/serein assets/brand (app-icon.png, mark-*.png); the app's README" },
+    { "title": "Blog", "body": "Essays on the site's blog, set on the warm white: On curiosity, On simplicity, The great mystery, Name the state, Sensitivity is intelligence, and more.", "image": "/media/work/serein/study/d-blog.jpg", "alt": "The Blog page of withserein.com: a list of essays on a warm white ground.", "device": "desktop", "source": "mylife Serein/serein-site/content/blog (the essays' titles)" },
+    { "title": "On a phone", "body": "The home page and the blog on a phone, the navy and the warm white.", "device": "phone", "recording": "phone", "source": "the phone frames of the shoot (2026-10-22)" },
+    { "title": "The horizon", "body": "The ocean horizon at blue hour the brand is drawn from: deep navy water gradating into a lighter sky, a little pink at the upper right, light on the water. The references call it tonalist: soft atmospheric gradients, ambiguous edges, colours that bleed into each other.", "image": { "$copy": "/home/user/serein/assets/brand/wordmark-ocean-bg.png", "as": "horizon", "max": 1600 }, "alt": "The serein wordmark over a photograph of the sea at dusk, the water deep blue under a paler sky.", "device": "picture", "source": "SereinLife/serein assets/brand/wordmark-ocean-bg.png; Brand-References/README.md" }
+  ],
+  "gallery": [
+    { "src": { "$copy": "/home/user/serein/assets/brand/ref-capture-screenshots.png", "as": "app-screens", "max": 1600 }, "alt": "Three screens of the app on an ocean ground.", "source": "SereinLife/serein assets/brand" },
+    { "src": { "$copy": "/home/user/serein/assets/brand/wordmark-ocean-bg.png", "as": "horizon", "max": 1600 }, "alt": "The wordmark over the ocean horizon.", "source": "SereinLife/serein assets/brand" },
+    { "src": { "$copy": "/home/user/serein/assets/brand/mark-sky-blue.png", "as": "mark-sky", "max": 1080 }, "alt": "The mark in sky blue.", "source": "SereinLife/serein assets/brand" },
+    { "src": { "$copy": "/home/user/serein/assets/brand/mark-gold.png", "as": "mark-gold", "max": 1080 }, "alt": "The mark in gold.", "source": "SereinLife/serein assets/brand" },
+    { "src": { "$copy": "/home/user/serein/assets/brand/ref-color-palette.png", "as": "palette-page", "max": 1600 }, "alt": "A page of the brand guidelines: the supporting palette, eight swatches from pale grey through blues, tan, coral and rust to sage.", "source": "SereinLife/serein assets/brand/ref-color-palette.png (Brand guidelines v1.0, 01/01/2026)" },
+    { "src": { "$copy": "/home/user/serein/assets/brand/logo-black-on-white.png", "as": "wordmark-light", "max": 1080 }, "alt": "The wordmark in black on white.", "source": "SereinLife/serein assets/brand" }
+  ],
+  "galleryNote": "Serein's own brand files (the SereinLife/serein repository, assets/brand): the app screens, the horizon, the mark in its colours, a page of the brand guidelines, the wordmark.",
+  "walkthrough": {
+    "desktop": [{ "page": "home" }, { "page": "product" }, { "page": "manifesto" }, { "page": "blog" }],
+    "phone": [{ "page": "home" }, { "page": "blog" }]
+  },
+  "source": "withserein.com's own words (its home, Product and Manifesto pages, photographed from the site's source in the vault, mylife Serein/serein-site, on 2026-10-22, and live the same day); the app's README (SereinLife/serein); the brand files in that repository (assets/brand); mylife Projects/Serein/Brand-References/README.md (3 March 2026) and Serein-Brand-Brief-2026-05.md (the name's meaning); the blog titles from the site's content. Nothing is written here."
+}

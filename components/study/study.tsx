@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element -- the study's stills are served as they are, at the sizes the recordings share; next/image would wrap and restyle them */
+import { Hydrated } from "@/components/study/hydrated";
 import type { CSSProperties, ReactNode } from "react";
 
 import { QMark } from "@/components/site/chrome";
@@ -27,6 +28,8 @@ function luminance(hex: string) {
   return 0.2126 * r + 0.7152 * g + 0.0722 * b;
 }
 const onColor = (hex: string) => (luminance(hex) > 0.4 ? "#111111" : "#ffffff");
+/** A face and what stands in for it: a serif falls through the page's own EB Garamond before the browser's. */
+const stack = (family: string, fallback?: string) => `"${family}", ${fallback === "serif" || !fallback ? '"EB Garamond", serif' : fallback}`;
 
 /**
  * A silent film: `muted` written as an attribute (React drops it from server markup, and a phone will not
@@ -127,11 +130,11 @@ function Tile({ tile, index, name }: { tile: StudyTile; index: number; name: str
       <div className="st-type">
         {tile.faces.map((f) => (
           <div className="st-face" key={f.role + f.family}>
-            <p className="st-face__glyph" aria-hidden="true" style={{ fontFamily: `"${f.family}", ${f.fallback ?? "serif"}`, fontWeight: f.weight?.split(",")[0].trim().replace(/[^0-9]/g, "") || 400 }}>Aa</p>
+            <p className="st-face__glyph" aria-hidden="true" style={{ fontFamily: stack(f.family, f.fallback), fontWeight: f.weight?.split(",")[0].trim().replace(/[^0-9]/g, "") || 400 }}>Aa</p>
             <div className="st-face__text">
               <p className="st-face__name">{f.family}</p>
               <p className="st-annot">{f.role}{f.weight ? ` · ${f.weight}` : ""}</p>
-              <p className="st-face__sample" style={{ fontFamily: `"${f.family}", ${f.fallback ?? "serif"}` }}>{f.sample ?? "ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 0123456789"}</p>
+              <p className="st-face__sample" style={{ fontFamily: stack(f.family, f.fallback) }}>{f.sample ?? "ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 0123456789"}</p>
             </div>
           </div>
         ))}
@@ -143,7 +146,7 @@ function Tile({ tile, index, name }: { tile: StudyTile; index: number; name: str
     stage = (
       <p className="st-wordmark" style={{ color: w.color, letterSpacing: w.letterSpacing, textTransform: w.transform as CSSProperties["textTransform"] }}>
         {parts.map((p, i) => (
-          <span key={i} style={{ fontFamily: `"${p.family}", ${p.fallback ?? "serif"}`, fontWeight: p.weight, fontStyle: p.italic ? "italic" : undefined }}>{p.text}</span>
+          <span key={i} style={{ fontFamily: stack(p.family, p.fallback), fontWeight: p.weight, fontStyle: p.italic ? "italic" : undefined }}>{p.text}</span>
         ))}
       </p>
     );
@@ -359,6 +362,7 @@ export function StudyPage({ slug }: { slug: string }) {
         </ul>
         <p className="st-foot__line">{footer}</p>
       </footer>
+      <Hydrated />
       <dialog className="st-dialog" data-dialog aria-label="Note">
         <div className="st-dialog__card">
           <button type="button" className="st-dialog__close" data-close aria-label="Close"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round"><path d="M6 6l12 12M18 6 6 18" /></svg></button>

@@ -195,9 +195,12 @@ test("public/media holds only files a page uses", () => {
   const base = path.join(ROOT, "public/media");
   // raw captures (public/media/work/<slug>/raw/) are not committed and never served by a page
   // "<picture>.webp" beside a referenced picture is asked for by the carried design's image loader at run time
+  // the walkthrough writes every page's still and both recordings into study/ (scripts/work/walkthrough.mjs); a study shows a
+  // subset of them, so those are the renderer's to keep (tests/studies.test.ts checks the pictures a study delivers itself)
+  const walkthrough = /^work\/[^/]+\/study\/((d|m)-[a-z0-9-]+\.jpg|(desktop|phone)(-poster\.jpg|\.mp4|\.webm))$/;
   const unused = walk(base)
     .map((f) => path.relative(base, f))
-    .filter((rel) => !refs.has(rel) && !(rel.endsWith(".webp") && refs.has(rel.slice(0, -5))) && !rel.endsWith(".DS_Store") && !/^work\/[^/]+\/raw\//.test(rel));
+    .filter((rel) => !refs.has(rel) && !(rel.endsWith(".webp") && refs.has(rel.slice(0, -5))) && !rel.endsWith(".DS_Store") && !/^work\/[^/]+\/raw\//.test(rel) && !walkthrough.test(rel));
   assert.deepEqual(unused, []);
 });
 

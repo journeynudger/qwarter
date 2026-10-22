@@ -18,7 +18,7 @@ export type Asset =
   | { kind: "stylesheet"; href: string; media?: string }
   | { kind: "style"; css: string; attrs?: Record<string, string> }
   | { kind: "script"; src?: string; code?: string; attrs?: Record<string, string> }
-  | { kind: "preload"; href: string; as: string; type?: string; crossOrigin?: string }
+  | { kind: "preload"; href: string; as: string; type?: string; crossOrigin?: string; plain?: boolean } // plain: no ?v= (a URL a stylesheet also names)
   | { kind: "meta"; attrs: Record<string, string> };
 
 export interface NavItem {
@@ -193,8 +193,8 @@ function studyPage(p: Project): Page {
     html: {},
     body: { class: "st" },
     head: [
-      { kind: "preload", href: "/design/qwarter/fonts/ebgaramond-normal-400-800-latin.woff2", as: "font", type: "font/woff2", crossOrigin: "anonymous" },
-      { kind: "preload", href: "/design/qwarter/fonts/ebgaramond-italic-400-800-latin.woff2", as: "font", type: "font/woff2", crossOrigin: "anonymous" },
+      { kind: "preload", href: "/design/qwarter/fonts/ebgaramond-normal-400-800-latin.woff2", as: "font", type: "font/woff2", crossOrigin: "anonymous", plain: true },
+      { kind: "preload", href: "/design/qwarter/fonts/ebgaramond-italic-400-800-latin.woff2", as: "font", type: "font/woff2", crossOrigin: "anonymous", plain: true },
       { kind: "stylesheet", href: "/design/qwarter/fonts/fonts.css" },
       { kind: "stylesheet", href: "/design/qwarter/study.css" },
     ],

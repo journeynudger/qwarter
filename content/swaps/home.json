@@ -337,6 +337,57 @@
         {
           "img": {
             "attr": {
+              "src": "/media/work/theroom/cover.jpg",
+              "data-src": "/media/work/theroom/cover@2x.jpg",
+              "alt": "The Room",
+              "width": "1440",
+              "height": "900"
+            }
+          },
+          "video": {
+            "attr": {
+              "src": "/media/work/theroom/scroll.mp4"
+            }
+          },
+          "source": "content/work.json theroom: its cover and film (scripts/work/prepare.mjs, video.mjs)"
+        },
+        {
+          "img": {
+            "attr": {
+              "src": "/media/work/bambino/cover.jpg",
+              "data-src": "/media/work/bambino/cover@2x.jpg",
+              "alt": "Bambino",
+              "width": "1440",
+              "height": "900"
+            }
+          },
+          "video": {
+            "attr": {
+              "src": "/media/work/bambino/scroll.mp4"
+            }
+          },
+          "source": "content/work.json bambino: its cover and film (scripts/work/prepare.mjs, video.mjs)"
+        },
+        {
+          "img": {
+            "attr": {
+              "src": "/media/work/lorenzo-type/cover.jpg",
+              "data-src": "/media/work/lorenzo-type/cover@2x.jpg",
+              "alt": "Lorenzo Type",
+              "width": "1440",
+              "height": "900"
+            }
+          },
+          "video": {
+            "attr": {
+              "src": "/media/work/lorenzo-type/scroll.mp4"
+            }
+          },
+          "source": "content/work.json lorenzo-type: its cover and film (scripts/work/prepare.mjs, video.mjs)"
+        },
+        {
+          "img": {
+            "attr": {
               "src": "/media/work/2020-insights/cover.jpg",
               "data-src": "/media/work/2020-insights/cover@2x.jpg",
               "alt": "20/20 Insights",
@@ -660,6 +711,57 @@
         {
           "img": {
             "attr": {
+              "src": "/media/work/theroom/cover.jpg",
+              "data-src": "/media/work/theroom/cover@2x.jpg",
+              "alt": "The Room",
+              "width": "1440",
+              "height": "900"
+            }
+          },
+          "video": {
+            "attr": {
+              "src": "/media/work/theroom/scroll.mp4"
+            }
+          },
+          "source": "content/work.json theroom: its cover and film (scripts/work/prepare.mjs, video.mjs)"
+        },
+        {
+          "img": {
+            "attr": {
+              "src": "/media/work/bambino/cover.jpg",
+              "data-src": "/media/work/bambino/cover@2x.jpg",
+              "alt": "Bambino",
+              "width": "1440",
+              "height": "900"
+            }
+          },
+          "video": {
+            "attr": {
+              "src": "/media/work/bambino/scroll.mp4"
+            }
+          },
+          "source": "content/work.json bambino: its cover and film (scripts/work/prepare.mjs, video.mjs)"
+        },
+        {
+          "img": {
+            "attr": {
+              "src": "/media/work/lorenzo-type/cover.jpg",
+              "data-src": "/media/work/lorenzo-type/cover@2x.jpg",
+              "alt": "Lorenzo Type",
+              "width": "1440",
+              "height": "900"
+            }
+          },
+          "video": {
+            "attr": {
+              "src": "/media/work/lorenzo-type/scroll.mp4"
+            }
+          },
+          "source": "content/work.json lorenzo-type: its cover and film (scripts/work/prepare.mjs, video.mjs)"
+        },
+        {
+          "img": {
+            "attr": {
               "src": "/media/work/2020-insights/cover.jpg",
               "data-src": "/media/work/2020-insights/cover@2x.jpg",
               "alt": "20/20 Insights",
@@ -905,7 +1007,8 @@
           "a": {
             "attr": {
               "href": "/work/butter/",
-              "data-video-url": "/media/work/butter/scroll.mp4"
+              "data-video-url": "/media/work/butter/scroll.mp4",
+              "data-internal": ""
             }
           },
           "[data-project-counter]": {
@@ -935,7 +1038,8 @@
           "a": {
             "attr": {
               "href": "/work/jr-pugh/",
-              "data-video-url": "/media/work/jr-pugh/scroll.mp4"
+              "data-video-url": "/media/work/jr-pugh/scroll.mp4",
+              "data-internal": ""
             }
           },
           "[data-project-counter]": {
@@ -965,7 +1069,8 @@
           "a": {
             "attr": {
               "href": "/work/stairway/",
-              "data-video-url": "/media/work/stairway/scroll.mp4"
+              "data-video-url": "/media/work/stairway/scroll.mp4",
+              "data-internal": ""
             }
           },
           "[data-project-counter]": {
@@ -995,7 +1100,8 @@
           "a": {
             "attr": {
               "href": "/work/serein/",
-              "data-video-url": "/media/work/serein/scroll.mp4"
+              "data-video-url": "/media/work/serein/scroll.mp4",
+              "data-internal": ""
             }
           },
           "[data-project-counter]": {
@@ -1025,7 +1131,8 @@
           "a": {
             "attr": {
               "href": "/work/journey/",
-              "data-video-url": "/media/work/journey/scroll.mp4"
+              "data-video-url": "/media/work/journey/scroll.mp4",
+              "data-internal": ""
             }
           },
           "[data-project-counter]": {
@@ -1054,12 +1161,106 @@
         {
           "a": {
             "attr": {
-              "href": "/work/2020-insights/",
-              "data-video-url": "/media/work/2020-insights/scroll.mp4"
+              "href": "/work/theroom/",
+              "data-video-url": "/media/work/theroom/scroll.mp4",
+              "data-internal": ""
             }
           },
           "[data-project-counter]": {
             "text": "VI"
+          },
+          "[data-project-title]": {
+            "text": "The Room",
+            "attr": {
+              "data-project-title": "The Room"
+            }
+          },
+          "[data-project-director]": {
+            "text": "Website",
+            "attr": {
+              "data-project-director": "Website"
+            }
+          },
+          "[data-project-client]": {
+            "text": "2026",
+            "attr": {
+              "data-project-client": "2026"
+            }
+          },
+          "source": "content/work.json theroom: numeral, name, made, year"
+        },
+        {
+          "a": {
+            "attr": {
+              "href": "/work/bambino/",
+              "data-video-url": "/media/work/bambino/scroll.mp4",
+              "data-internal": ""
+            }
+          },
+          "[data-project-counter]": {
+            "text": "VII"
+          },
+          "[data-project-title]": {
+            "text": "Bambino",
+            "attr": {
+              "data-project-title": "Bambino"
+            }
+          },
+          "[data-project-director]": {
+            "text": "Website",
+            "attr": {
+              "data-project-director": "Website"
+            }
+          },
+          "[data-project-client]": {
+            "text": "2026",
+            "attr": {
+              "data-project-client": "2026"
+            }
+          },
+          "source": "content/work.json bambino: numeral, name, made, year"
+        },
+        {
+          "a": {
+            "attr": {
+              "href": "/work/lorenzo-type/",
+              "data-video-url": "/media/work/lorenzo-type/scroll.mp4",
+              "data-internal": ""
+            }
+          },
+          "[data-project-counter]": {
+            "text": "VIII"
+          },
+          "[data-project-title]": {
+            "text": "Lorenzo Type",
+            "attr": {
+              "data-project-title": "Lorenzo Type"
+            }
+          },
+          "[data-project-director]": {
+            "text": "Website and type",
+            "attr": {
+              "data-project-director": "Website and type"
+            }
+          },
+          "[data-project-client]": {
+            "text": "2026",
+            "attr": {
+              "data-project-client": "2026"
+            }
+          },
+          "source": "content/work.json lorenzo-type: numeral, name, made, year"
+        },
+        {
+          "a": {
+            "attr": {
+              "href": "/work/2020-insights/",
+              "data-video-url": "/media/work/2020-insights/scroll.mp4",
+              "data-internal": ""
+            }
+          },
+          "[data-project-counter]": {
+            "text": "IX"
           },
           "[data-project-title]": {
             "text": "20/20 Insights",
@@ -1085,11 +1286,12 @@
           "a": {
             "attr": {
               "href": "/work/mzaero/",
-              "data-video-url": "/media/work/mzaero/scroll.mp4"
+              "data-video-url": "/media/work/mzaero/scroll.mp4",
+              "data-internal": ""
             }
           },
           "[data-project-counter]": {
-            "text": "VII"
+            "text": "X"
           },
           "[data-project-title]": {
             "text": "Mzaero",
@@ -1115,11 +1317,12 @@
           "a": {
             "attr": {
               "href": "/work/thanh-ta/",
-              "data-video-url": "/media/work/thanh-ta/scroll.mp4"
+              "data-video-url": "/media/work/thanh-ta/scroll.mp4",
+              "data-internal": ""
             }
           },
           "[data-project-counter]": {
-            "text": "VIII"
+            "text": "XI"
           },
           "[data-project-title]": {
             "text": "Thanh Ta",
@@ -1145,11 +1348,12 @@
           "a": {
             "attr": {
               "href": "/work/ion-insurance/",
-              "data-video-url": "/media/work/ion-insurance/scroll.mp4"
+              "data-video-url": "/media/work/ion-insurance/scroll.mp4",
+              "data-internal": ""
             }
           },
           "[data-project-counter]": {
-            "text": "IX"
+            "text": "XII"
           },
           "[data-project-title]": {
             "text": "Ion Insurance",
@@ -1175,11 +1379,12 @@
           "a": {
             "attr": {
               "href": "/work/iotech-protect/",
-              "data-video-url": "/media/work/iotech-protect/scroll.mp4"
+              "data-video-url": "/media/work/iotech-protect/scroll.mp4",
+              "data-internal": ""
             }
           },
           "[data-project-counter]": {
-            "text": "X"
+            "text": "XIII"
           },
           "[data-project-title]": {
             "text": "IoTech Protect",
@@ -1205,11 +1410,12 @@
           "a": {
             "attr": {
               "href": "/work/tima/",
-              "data-video-url": "/media/work/tima/scroll.mp4"
+              "data-video-url": "/media/work/tima/scroll.mp4",
+              "data-internal": ""
             }
           },
           "[data-project-counter]": {
-            "text": "XI"
+            "text": "XIV"
           },
           "[data-project-title]": {
             "text": "Titanium Motor Arts",
@@ -1235,11 +1441,12 @@
           "a": {
             "attr": {
               "href": "/work/ekaterina-sky/",
-              "data-video-url": "/media/work/ekaterina-sky/scroll.mp4"
+              "data-video-url": "/media/work/ekaterina-sky/scroll.mp4",
+              "data-internal": ""
             }
           },
           "[data-project-counter]": {
-            "text": "XII"
+            "text": "XV"
           },
           "[data-project-title]": {
             "text": "Ekaterina Sky",
@@ -1265,11 +1472,12 @@
           "a": {
             "attr": {
               "href": "/work/epic-esg/",
-              "data-video-url": "/media/work/epic-esg/scroll.mp4"
+              "data-video-url": "/media/work/epic-esg/scroll.mp4",
+              "data-internal": ""
             }
           },
           "[data-project-counter]": {
-            "text": "XIII"
+            "text": "XVI"
           },
           "[data-project-title]": {
             "text": "EPIC ESG",
@@ -1295,11 +1503,12 @@
           "a": {
             "attr": {
               "href": "/work/wood-company/",
-              "data-video-url": "/media/work/wood-company/scroll.mp4"
+              "data-video-url": "/media/work/wood-company/scroll.mp4",
+              "data-internal": ""
             }
           },
           "[data-project-counter]": {
-            "text": "XIV"
+            "text": "XVII"
           },
           "[data-project-title]": {
             "text": "Wood Company",
@@ -1325,11 +1534,12 @@
           "a": {
             "attr": {
               "href": "/work/boujee-healer/",
-              "data-video-url": "/media/work/boujee-healer/scroll.mp4"
+              "data-video-url": "/media/work/boujee-healer/scroll.mp4",
+              "data-internal": ""
             }
           },
           "[data-project-counter]": {
-            "text": "XV"
+            "text": "XVIII"
           },
           "[data-project-title]": {
             "text": "Boujee Healer",
@@ -1355,11 +1565,12 @@
           "a": {
             "attr": {
               "href": "/work/kind-footprint/",
-              "data-video-url": "/media/work/kind-footprint/scroll.mp4"
+              "data-video-url": "/media/work/kind-footprint/scroll.mp4",
+              "data-internal": ""
             }
           },
           "[data-project-counter]": {
-            "text": "XVI"
+            "text": "XIX"
           },
           "[data-project-title]": {
             "text": "Kind Footprint",
@@ -1385,11 +1596,12 @@
           "a": {
             "attr": {
               "href": "/work/pineapple-club/",
-              "data-video-url": "/media/work/pineapple-club/scroll.mp4"
+              "data-video-url": "/media/work/pineapple-club/scroll.mp4",
+              "data-internal": ""
             }
           },
           "[data-project-counter]": {
-            "text": "XVII"
+            "text": "XX"
           },
           "[data-project-title]": {
             "text": "Pineapple Club",
@@ -1415,11 +1627,12 @@
           "a": {
             "attr": {
               "href": "/work/ignite-beacon/",
-              "data-video-url": "/media/work/ignite-beacon/scroll.mp4"
+              "data-video-url": "/media/work/ignite-beacon/scroll.mp4",
+              "data-internal": ""
             }
           },
           "[data-project-counter]": {
-            "text": "XVIII"
+            "text": "XXI"
           },
           "[data-project-title]": {
             "text": "Beacon",
@@ -1445,11 +1658,12 @@
           "a": {
             "attr": {
               "href": "/work/core-rhythm-fitness/",
-              "data-video-url": "/media/work/core-rhythm-fitness/scroll.mp4"
+              "data-video-url": "/media/work/core-rhythm-fitness/scroll.mp4",
+              "data-internal": ""
             }
           },
           "[data-project-counter]": {
-            "text": "XIX"
+            "text": "XXII"
           },
           "[data-project-title]": {
             "text": "Core Rhythm Fitness",
@@ -1475,7 +1689,8 @@
           "a": {
             "attr": {
               "href": "/work/butter/",
-              "data-video-url": "/media/work/butter/scroll.mp4"
+              "data-video-url": "/media/work/butter/scroll.mp4",
+              "data-internal": ""
             }
           },
           "[data-project-counter]": {
@@ -1505,7 +1720,8 @@
           "a": {
             "attr": {
               "href": "/work/jr-pugh/",
-              "data-video-url": "/media/work/jr-pugh/scroll.mp4"
+              "data-video-url": "/media/work/jr-pugh/scroll.mp4",
+              "data-internal": ""
             }
           },
           "[data-project-counter]": {
@@ -1535,7 +1751,8 @@
           "a": {
             "attr": {
               "href": "/work/stairway/",
-              "data-video-url": "/media/work/stairway/scroll.mp4"
+              "data-video-url": "/media/work/stairway/scroll.mp4",
+              "data-internal": ""
             }
           },
           "[data-project-counter]": {
@@ -1565,7 +1782,8 @@
           "a": {
             "attr": {
               "href": "/work/serein/",
-              "data-video-url": "/media/work/serein/scroll.mp4"
+              "data-video-url": "/media/work/serein/scroll.mp4",
+              "data-internal": ""
             }
           },
           "[data-project-counter]": {
@@ -1595,7 +1813,8 @@
           "a": {
             "attr": {
               "href": "/work/journey/",
-              "data-video-url": "/media/work/journey/scroll.mp4"
+              "data-video-url": "/media/work/journey/scroll.mp4",
+              "data-internal": ""
             }
           },
           "[data-project-counter]": {
@@ -1624,12 +1843,106 @@
         {
           "a": {
             "attr": {
-              "href": "/work/2020-insights/",
-              "data-video-url": "/media/work/2020-insights/scroll.mp4"
+              "href": "/work/theroom/",
+              "data-video-url": "/media/work/theroom/scroll.mp4",
+              "data-internal": ""
             }
           },
           "[data-project-counter]": {
             "text": "VI"
+          },
+          "[data-project-title]": {
+            "text": "The Room",
+            "attr": {
+              "data-project-title": "The Room"
+            }
+          },
+          "[data-project-director]": {
+            "text": "Website",
+            "attr": {
+              "data-project-director": "Website"
+            }
+          },
+          "[data-project-client]": {
+            "text": "2026",
+            "attr": {
+              "data-project-client": "2026"
+            }
+          },
+          "source": "content/work.json theroom: numeral, name, made, year"
+        },
+        {
+          "a": {
+            "attr": {
+              "href": "/work/bambino/",
+              "data-video-url": "/media/work/bambino/scroll.mp4",
+              "data-internal": ""
+            }
+          },
+          "[data-project-counter]": {
+            "text": "VII"
+          },
+          "[data-project-title]": {
+            "text": "Bambino",
+            "attr": {
+              "data-project-title": "Bambino"
+            }
+          },
+          "[data-project-director]": {
+            "text": "Website",
+            "attr": {
+              "data-project-director": "Website"
+            }
+          },
+          "[data-project-client]": {
+            "text": "2026",
+            "attr": {
+              "data-project-client": "2026"
+            }
+          },
+          "source": "content/work.json bambino: numeral, name, made, year"
+        },
+        {
+          "a": {
+            "attr": {
+              "href": "/work/lorenzo-type/",
+              "data-video-url": "/media/work/lorenzo-type/scroll.mp4",
+              "data-internal": ""
+            }
+          },
+          "[data-project-counter]": {
+            "text": "VIII"
+          },
+          "[data-project-title]": {
+            "text": "Lorenzo Type",
+            "attr": {
+              "data-project-title": "Lorenzo Type"
+            }
+          },
+          "[data-project-director]": {
+            "text": "Website and type",
+            "attr": {
+              "data-project-director": "Website and type"
+            }
+          },
+          "[data-project-client]": {
+            "text": "2026",
+            "attr": {
+              "data-project-client": "2026"
+            }
+          },
+          "source": "content/work.json lorenzo-type: numeral, name, made, year"
+        },
+        {
+          "a": {
+            "attr": {
+              "href": "/work/2020-insights/",
+              "data-video-url": "/media/work/2020-insights/scroll.mp4",
+              "data-internal": ""
+            }
+          },
+          "[data-project-counter]": {
+            "text": "IX"
           },
           "[data-project-title]": {
             "text": "20/20 Insights",
@@ -1655,11 +1968,12 @@
           "a": {
             "attr": {
               "href": "/work/mzaero/",
-              "data-video-url": "/media/work/mzaero/scroll.mp4"
+              "data-video-url": "/media/work/mzaero/scroll.mp4",
+              "data-internal": ""
             }
           },
           "[data-project-counter]": {
-            "text": "VII"
+            "text": "X"
           },
           "[data-project-title]": {
             "text": "Mzaero",
@@ -1685,11 +1999,12 @@
           "a": {
             "attr": {
               "href": "/work/thanh-ta/",
-              "data-video-url": "/media/work/thanh-ta/scroll.mp4"
+              "data-video-url": "/media/work/thanh-ta/scroll.mp4",
+              "data-internal": ""
             }
           },
           "[data-project-counter]": {
-            "text": "VIII"
+            "text": "XI"
           },
           "[data-project-title]": {
             "text": "Thanh Ta",
@@ -1715,11 +2030,12 @@
           "a": {
             "attr": {
               "href": "/work/ion-insurance/",
-              "data-video-url": "/media/work/ion-insurance/scroll.mp4"
+              "data-video-url": "/media/work/ion-insurance/scroll.mp4",
+              "data-internal": ""
             }
           },
           "[data-project-counter]": {
-            "text": "IX"
+            "text": "XII"
           },
           "[data-project-title]": {
             "text": "Ion Insurance",
@@ -1745,11 +2061,12 @@
           "a": {
             "attr": {
               "href": "/work/iotech-protect/",
-              "data-video-url": "/media/work/iotech-protect/scroll.mp4"
+              "data-video-url": "/media/work/iotech-protect/scroll.mp4",
+              "data-internal": ""
             }
           },
           "[data-project-counter]": {
-            "text": "X"
+            "text": "XIII"
           },
           "[data-project-title]": {
             "text": "IoTech Protect",
@@ -1775,11 +2092,12 @@
           "a": {
             "attr": {
               "href": "/work/tima/",
-              "data-video-url": "/media/work/tima/scroll.mp4"
+              "data-video-url": "/media/work/tima/scroll.mp4",
+              "data-internal": ""
             }
           },
           "[data-project-counter]": {
-            "text": "XI"
+            "text": "XIV"
           },
           "[data-project-title]": {
             "text": "Titanium Motor Arts",
@@ -1805,11 +2123,12 @@
           "a": {
             "attr": {
               "href": "/work/ekaterina-sky/",
-              "data-video-url": "/media/work/ekaterina-sky/scroll.mp4"
+              "data-video-url": "/media/work/ekaterina-sky/scroll.mp4",
+              "data-internal": ""
             }
           },
           "[data-project-counter]": {
-            "text": "XII"
+            "text": "XV"
           },
           "[data-project-title]": {
             "text": "Ekaterina Sky",
@@ -1835,11 +2154,12 @@
           "a": {
             "attr": {
               "href": "/work/epic-esg/",
-              "data-video-url": "/media/work/epic-esg/scroll.mp4"
+              "data-video-url": "/media/work/epic-esg/scroll.mp4",
+              "data-internal": ""
             }
           },
           "[data-project-counter]": {
-            "text": "XIII"
+            "text": "XVI"
           },
           "[data-project-title]": {
             "text": "EPIC ESG",
@@ -1865,11 +2185,12 @@
           "a": {
             "attr": {
               "href": "/work/wood-company/",
-              "data-video-url": "/media/work/wood-company/scroll.mp4"
+              "data-video-url": "/media/work/wood-company/scroll.mp4",
+              "data-internal": ""
             }
           },
           "[data-project-counter]": {
-            "text": "XIV"
+            "text": "XVII"
           },
           "[data-project-title]": {
             "text": "Wood Company",
@@ -1895,11 +2216,12 @@
           "a": {
             "attr": {
               "href": "/work/boujee-healer/",
-              "data-video-url": "/media/work/boujee-healer/scroll.mp4"
+              "data-video-url": "/media/work/boujee-healer/scroll.mp4",
+              "data-internal": ""
             }
           },
           "[data-project-counter]": {
-            "text": "XV"
+            "text": "XVIII"
           },
           "[data-project-title]": {
             "text": "Boujee Healer",
@@ -1925,11 +2247,12 @@
           "a": {
             "attr": {
               "href": "/work/kind-footprint/",
-              "data-video-url": "/media/work/kind-footprint/scroll.mp4"
+              "data-video-url": "/media/work/kind-footprint/scroll.mp4",
+              "data-internal": ""
             }
           },
           "[data-project-counter]": {
-            "text": "XVI"
+            "text": "XIX"
           },
           "[data-project-title]": {
             "text": "Kind Footprint",
@@ -1955,11 +2278,12 @@
           "a": {
             "attr": {
               "href": "/work/pineapple-club/",
-              "data-video-url": "/media/work/pineapple-club/scroll.mp4"
+              "data-video-url": "/media/work/pineapple-club/scroll.mp4",
+              "data-internal": ""
             }
           },
           "[data-project-counter]": {
-            "text": "XVII"
+            "text": "XX"
           },
           "[data-project-title]": {
             "text": "Pineapple Club",
@@ -1985,11 +2309,12 @@
           "a": {
             "attr": {
               "href": "/work/ignite-beacon/",
-              "data-video-url": "/media/work/ignite-beacon/scroll.mp4"
+              "data-video-url": "/media/work/ignite-beacon/scroll.mp4",
+              "data-internal": ""
             }
           },
           "[data-project-counter]": {
-            "text": "XVIII"
+            "text": "XXI"
           },
           "[data-project-title]": {
             "text": "Beacon",
@@ -2015,11 +2340,12 @@
           "a": {
             "attr": {
               "href": "/work/core-rhythm-fitness/",
-              "data-video-url": "/media/work/core-rhythm-fitness/scroll.mp4"
+              "data-video-url": "/media/work/core-rhythm-fitness/scroll.mp4",
+              "data-internal": ""
             }
           },
           "[data-project-counter]": {
-            "text": "XIX"
+            "text": "XXII"
           },
           "[data-project-title]": {
             "text": "Core Rhythm Fitness",

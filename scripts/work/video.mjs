@@ -55,10 +55,15 @@ for (const project of projects) {
     const duration = HOLD + pan + TAIL;
     const speed = pan ? travel / pan : 0;
     const out = path.join(tmp, `${page.name}.mp4`);
+    // ffmpeg reads a lossless copy of the strip: mozjpeg's optimised scan script (the delivered JPEGs) makes a
+    // progressive JPEG its decoder refuses on a near-uniform picture (a page that photographed blank)
+    const png = path.join(tmp, `${page.name}.png`);
+    await sharp(strip).png({ compressionLevel: 1 }).toFile(png);
     // the window's top edge: still for HOLD, then down at `speed` px/s, never past the bottom
     const y = `min(${travel}\\,max(0\\,(t-${HOLD})*${speed.toFixed(2)}))`;
-    execFileSync("ffmpeg", ["-y", "-loglevel", "error", "-loop", "1", "-framerate", String(FPS), "-i", strip, "-t", duration.toFixed(2),
-      "-vf", `crop=${SIDE}:${SIDE}:${x}:'${y}',format=yuv420p`, "-c:v", "libx264", "-preset", "veryfast", "-crf", "22", out]);
+    // the strip is decoded once and looped in memory (the loop filter), not re-read for every frame
+    execFileSync("ffmpeg", ["-y", "-loglevel", "error", "-i", png,
+      "-vf", `loop=loop=-1:size=1:start=0,setpts=N/(${FPS}*TB),trim=duration=${duration.toFixed(2)},crop=${SIDE}:${SIDE}:${x}:'${y}',format=yuv420p`, "-r", String(FPS), "-c:v", "libx264", "-preset", "veryfast", "-crf", "22", out]);
     segments.push({ out, duration });
   }
   const final = path.join(dir, "scroll.mp4");

@@ -93,7 +93,8 @@ for (const project of projects) {
     strips.push(`${page.name} ${height}px ${kb(out)}`);
   }
   // nothing else is delivered: a frame that is no longer listed is removed
-  const keep = new Set(["cover.jpg", "cover@2x.jpg", "tile.jpg", "tile@2x.jpg", "cover.jpg.webp", "cover@2x.jpg.webp", "tile.jpg.webp", "tile@2x.jpg.webp", "blur.jpg", "raw", ...keepVideo(dir), ...project.pages.map((p) => `page-${p.name}.jpg`)]);
+  // study/ is the case study's own pictures and recordings (scripts/work/walkthrough.mjs, scripts/port/studies.mjs)
+  const keep = new Set(["cover.jpg", "cover@2x.jpg", "tile.jpg", "tile@2x.jpg", "cover.jpg.webp", "cover@2x.jpg.webp", "tile.jpg.webp", "tile@2x.jpg.webp", "blur.jpg", "raw", "study", ...keepVideo(dir), ...project.pages.map((p) => `page-${p.name}.jpg`)]);
   for (const f of fs.readdirSync(dir)) if (!keep.has(f)) fs.rmSync(path.join(dir, f));
   console.log(`${project.slug}: cover ${kb(path.join(dir, "cover.jpg"))} / tile ${kb(path.join(dir, "tile.jpg"))} / @2x ${kb(path.join(dir, "tile@2x.jpg"))} / blur ${kb(path.join(dir, "blur.jpg"))}\n  ${strips.join("\n  ")}`);
 }

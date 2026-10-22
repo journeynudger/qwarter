@@ -1,0 +1,26 @@
+[
+  {
+    "file": "/media/work/lorenzo-type/study/pic-01.jpg",
+    "from": "127.0.0.1:3112 (the site's own picture: A white feather taped to a torn kraft card, written '36 in the corner)",
+    "source": "04-feather-card.png",
+    "kind": "picture",
+    "width": 408,
+    "height": 776
+  },
+  {
+    "file": "/media/work/lorenzo-type/study/pic-03.jpg",
+    "from": "127.0.0.1:3112 (the site's own picture: A faded square photograph of a kitchen garden in summer)",
+    "source": "07-polaroid.png",
+    "kind": "picture",
+    "width": 575,
+    "height": 552
+  },
+  {
+    "file": "/media/work/lorenzo-type/study/pic-04.jpg",
+    "from": "127.0.0.1:3112 (the site's own picture: A pressed spurge, its round leaves fanned out flat)",
+    "source": "10-pressed-plant.png",
+    "kind": "picture",
+    "width": 800,
+    "height": 620
+  }
+]

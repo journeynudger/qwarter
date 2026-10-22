@@ -187,6 +187,13 @@
       "source": "README (Structure: Contact), V5-NOTES (Resume question, answered)"
     },
     {
+      "title": "On a phone",
+      "body": "Every page is dark with the frosted menu strip, and the Featured video autoplays on iOS: the attributes a phone needs are set on every film, with a first-touch fallback for Low Power Mode. The responsive pass went down to small phones at 390px.",
+      "device": "phone",
+      "recording": "phone",
+      "source": "README v2 (frosted menu strip, autoplay on iOS, responsive pass), CLAUDE.md (Autoplay)"
+    },
+    {
       "title": "The theme",
       "body": "From its fifth version the site is the jrpugh WordPress theme: the home clip, the reel, the four headshots, the four photos behind them and the résumé are Customizer fields behind a native media picker. Each stores an attachment, not a URL, and falls back to the file the site shipped with if the field is empty or the attachment is deleted, so clearing a field restores the site and can never produce an empty page. With the panel untouched, the markup is byte-identical to the version before.",
       "image": "/media/work/jr-pugh/study/theme.jpg",
@@ -204,9 +211,13 @@
   "recordings": {
     "desktop": {
       "src": "/media/work/jr-pugh/study/desktop.mp4",
-      "webm": "/media/work/jr-pugh/study/desktop.webm",
       "poster": "/media/work/jr-pugh/study/desktop-poster.jpg",
       "alt": "jeffvhs.com on a desktop: the splash, the Featured page with its tease, then Acting, Reel with its two reels, About and Contact."
+    },
+    "phone": {
+      "src": "/media/work/jr-pugh/study/phone.mp4",
+      "poster": "/media/work/jr-pugh/study/phone-poster.jpg",
+      "alt": "jeffvhs.com on a phone, page by page."
     }
   },
   "gallery": [
@@ -244,6 +255,7 @@
       },
       {
         "clip": "raw/intro.mp4",
+        "from": 4.0,
         "seconds": 6
       },
       {
@@ -262,6 +274,23 @@
         "clip": "raw/reel-02.mp4",
         "from": 16,
         "seconds": 5
+      },
+      {
+        "page": "about"
+      },
+      {
+        "page": "contact"
+      }
+    ],
+    "phone": [
+      {
+        "page": "home"
+      },
+      {
+        "page": "acting"
+      },
+      {
+        "page": "reel"
       },
       {
         "page": "about"

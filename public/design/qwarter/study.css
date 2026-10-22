@@ -261,17 +261,23 @@ a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px soli
 @media (min-width: 760px) { .st-scene__stage { padding: 5% 7% 6%; } .st-scene__browser { width: 78%; } .st-scene__phone { width: 19%; right: 7%; bottom: 7%; } }
 
 /* ---------------------------------------------------------------- motion */
-.reveal { opacity: 0; transform: translateY(28px); transition: opacity 0.9s var(--ease), transform 1.2s var(--ease); transition-delay: var(--d, 0s); }
+/* the page is whole before study.js runs (and without it); once the script has the page (html.js) what is not yet on
+   screen waits, hidden, for its turn */
+.reveal { transition: opacity 0.9s var(--ease), transform 1.2s var(--ease); transition-delay: var(--d, 0s); }
+.js .reveal:not(.in) { opacity: 0; transform: translateY(28px); }
 .reveal.in { opacity: 1; transform: none; }
-.st-browser--hero.reveal { transform: perspective(1400px) rotateX(10deg) translateY(56px); }
+.js .st-browser--hero.reveal:not(.in) { transform: perspective(1400px) rotateX(10deg) translateY(56px); }
 .st-browser--hero.reveal.in { transform: none; }
-.st-film.reveal { transform: scale(0.94) translateY(28px); }
+.js .st-film.reveal:not(.in) { transform: scale(0.94) translateY(28px); }
 .st-film.reveal.in { transform: none; }
-.st-tile.reveal .st-swatches li { transform: scaleX(0); transition: transform 0.9s var(--ease) calc(var(--i, 0) * 80ms + 0.2s); }
+.st-tile.reveal .st-swatches li { transition: transform 0.9s var(--ease) calc(var(--i, 0) * 80ms + 0.2s); }
+.js .st-tile.reveal:not(.in) .st-swatches li { transform: scaleX(0); }
 .st-tile.reveal.in .st-swatches li { transform: none; }
-.st-tile.reveal .st-face__glyph { opacity: 0; transform: translateY(0.2em) scale(0.9); transition: opacity 0.8s var(--ease) 0.3s, transform 1s var(--ease) 0.3s; }
+.st-tile.reveal .st-face__glyph { transition: opacity 0.8s var(--ease) 0.3s, transform 1s var(--ease) 0.3s; }
+.js .st-tile.reveal:not(.in) .st-face__glyph { opacity: 0; transform: translateY(0.2em) scale(0.9); }
 .st-tile.reveal.in .st-face__glyph { opacity: 1; transform: none; }
-.st-tile.reveal .st-wordmark, .st-tile.reveal .st-tile__img { opacity: 0; transform: scale(0.92); transition: opacity 0.9s var(--ease) 0.25s, transform 1.2s var(--ease) 0.25s; }
+.st-tile.reveal .st-wordmark, .st-tile.reveal .st-tile__img { transition: opacity 0.9s var(--ease) 0.25s, transform 1.2s var(--ease) 0.25s; }
+.js .st-tile.reveal:not(.in) .st-wordmark, .js .st-tile.reveal:not(.in) .st-tile__img { opacity: 0; transform: scale(0.92); }
 .st-tile.reveal.in .st-wordmark, .st-tile.reveal.in .st-tile__img { opacity: 1; transform: none; }
 .st-say.reveal span { opacity: 0; transition: opacity 0.6s var(--ease); transition-delay: var(--w, 0s); }
 .st-say.reveal.in span { opacity: 1; }

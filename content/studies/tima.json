@@ -1,0 +1,194 @@
+{
+  "slug": "tima",
+  "name": "Titanium Motor Arts",
+  "shortName": "Titanium Motor Arts",
+  "tagline": "Website and industrial design for titanium, 3D luxury vehicle artwork.",
+  "client": "Titanium Motor Arts, manufacturing, Princetone, NJ",
+  "year": "2022",
+  "role": [
+    "3D Product Renderings",
+    "3D Printing Specs",
+    "Landing Page"
+  ],
+  "statement": "TiMA’s product line is focused on museum-quality customized luxury car accessories – coupling the functionality and durability of Titanium with high-concept sculptural designs.",
+  "summary": "TiMA’s product line is focused on museum-quality customized luxury car accessories – coupling the functionality and durability of Titanium with high-concept sculptural designs.",
+  "brief": "Deliverables: 3D Product Renderings, 3D Printing Specs, Landing Page. Strategy: Go-to-market strategy, SEO.",
+  "kind": "Product design & 3d modeling",
+  "status": "From qwarter.com's case study",
+  "url": "",
+  "address": "",
+  "figures": [
+    {
+      "value": "4",
+      "label": "Pictures in qwarter.com's case study",
+      "source": "the shoot / the case study"
+    },
+    {
+      "value": "3",
+      "label": "Deliverables: 3D Product Renderings, 3D Printing Specs, Landing Page",
+      "source": "qwarter.com's case study"
+    },
+    {
+      "value": "2022",
+      "label": "The year qwarter.com's case study gives",
+      "source": "Project Info"
+    },
+    {
+      "value": "5",
+      "label": "Colours in the palette",
+      "source": "Style & Imagery"
+    }
+  ],
+  "identity": [
+    {
+      "key": "palette",
+      "label": "Colour",
+      "note": "The five colours qwarter.com's case study lists under Style & Imagery.",
+      "colors": [
+        {
+          "hex": "#E02B20"
+        },
+        {
+          "hex": "#1F2021"
+        },
+        {
+          "hex": "#444444"
+        },
+        {
+          "hex": "#AFAFAF"
+        },
+        {
+          "hex": "#FFFFFF"
+        }
+      ]
+    },
+    {
+      "key": "type",
+      "label": "Type",
+      "note": "The type samples qwarter.com's case study sets under Style & Imagery.",
+      "faces": [
+        {
+          "role": "Headings",
+          "family": "Aldrich",
+          "weight": "Semibold",
+          "fallback": "sans-serif"
+        },
+        {
+          "role": "Subheadings",
+          "family": "Average Sans",
+          "fallback": "sans-serif"
+        }
+      ]
+    },
+    {
+      "key": "detail",
+      "label": "Detail",
+      "note": "Titanium Motor Arts: a screen of the site as qwarter.com's case study shows it.",
+      "image": "/media/work/tima/study/pic-02.jpg",
+      "alt": "Titanium Motor Arts: a screen of the site as qwarter.com's case study shows it",
+      "ground": "#0B0B0C",
+      "dark": true,
+      "fit": "cover"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Titanium Motor Arts, as the case study shows it",
+      "body": "TiMA’s product line is focused on museum-quality customized luxury car accessories – coupling the functionality and durability of Titanium with high-concept sculptural designs.",
+      "device": "desktop",
+      "recording": "desktop",
+      "source": "qwarter.com's case study, its first paragraph about the client"
+    },
+    {
+      "title": "Picture 1",
+      "body": "Picture 1 from qwarter.com's case study of Titanium Motor Arts.",
+      "image": "/media/work/tima/study/d-img-01.jpg",
+      "alt": "Titanium Motor Arts: Picture 1, as qwarter.com's case study shows it.",
+      "device": "picture",
+      "source": "qwarter.com's case study"
+    },
+    {
+      "title": "Picture 2",
+      "body": "Picture 2 from qwarter.com's case study of Titanium Motor Arts.",
+      "image": "/media/work/tima/study/d-img-02.jpg",
+      "alt": "Titanium Motor Arts: Picture 2, as qwarter.com's case study shows it.",
+      "device": "picture",
+      "source": "qwarter.com's case study"
+    },
+    {
+      "title": "Picture 3",
+      "body": "Picture 3 from qwarter.com's case study of Titanium Motor Arts.",
+      "image": "/media/work/tima/study/d-img-03.jpg",
+      "alt": "Titanium Motor Arts: Picture 3, as qwarter.com's case study shows it.",
+      "device": "picture",
+      "source": "qwarter.com's case study"
+    },
+    {
+      "title": "Picture 4",
+      "body": "Picture 4 from qwarter.com's case study of Titanium Motor Arts.",
+      "image": "/media/work/tima/study/d-img-04.jpg",
+      "alt": "Titanium Motor Arts: Picture 4, as qwarter.com's case study shows it.",
+      "device": "picture",
+      "source": "qwarter.com's case study"
+    },
+    {
+      "title": "The challenge",
+      "body": "We worked with the founders of TiMA to introduce the first-ever 100% titanium, 3D-printed lug nuts for the luxury buyer to the supercar category. Creating a unified experience for investor’s questions to be answered on one page.",
+      "image": "/media/work/tima/study/pic-02.jpg",
+      "alt": "Titanium Motor Arts: a screen of the site as qwarter.com's case study shows it",
+      "device": "picture",
+      "source": "qwarter.com's case study"
+    },
+    {
+      "title": "The solution",
+      "body": "To bring the company’s radical new idea to market, we developed a brand inspired by its pure ingredients of titanium, water, and sun and collaborated with Alessio Monti on product design and 3D modeling. Investors have information about TiMA’s product and market opportunity. Titanium Motor Arts — Wheel Art Forged in Titanium A best-in-class personalized lugnut B2C experience Working on showcasing the first-ever 100% titanium, 3-D printed lug nuts, QWARTER designed the product options and investor material flow that supports multiple product formats. This allowed TiMA to simplify the value proposition and underlying magic behind this new invention. New checkout selections make it easy for customers to choose their size, jacket style, animal, and style of painting. TiMA’s patented and proprietary technology imitates conventional manufacturing by using 3D printing TiMA to decrease carbon footprint in the manufacturing space. Decrease Carbon Footprint With carbon dioxide (CO ) levels at the highest they’ve been in 23 million years, manufacturing is currently the largest threat to climate change and humanity. With safe production and safe commercial use across a vast number of industries, titanium will bring major benefits to society, with no harmful effects on people or the environment “Almost” Impossible Alessio Monti Product Design / Blender Specifications for 3D printable product manufacturing 3D Designer Sergio Monti Art Direction Password wall for Idea Protection",
+      "image": "/media/work/tima/study/pic-01.png",
+      "alt": "Titanium Motor Arts: a picture as qwarter.com's case study shows it",
+      "device": "picture",
+      "source": "qwarter.com's case study"
+    }
+  ],
+  "film": {
+    "src": "/media/work/tima/scroll.mp4",
+    "webm": "/media/work/tima/scroll.webm",
+    "poster": "/media/work/tima/tile.jpg",
+    "alt": "Titanium Motor Arts's film: the site scrolling."
+  },
+  "recordings": {
+    "desktop": {
+      "src": "/media/work/tima/study/desktop.mp4",
+      "poster": "/media/work/tima/study/desktop-poster.jpg",
+      "alt": "Titanium Motor Arts on a desktop: Picture 1, Picture 2, Picture 3, Picture 4."
+    }
+  },
+  "gallery": [
+    {
+      "src": "/media/work/tima/study/pic-01.png",
+      "alt": "Titanium Motor Arts: a picture as qwarter.com's case study shows it",
+      "source": "qwarter.com's case study (its media library)"
+    },
+    {
+      "src": "/media/work/tima/study/pic-02.jpg",
+      "alt": "Titanium Motor Arts: a screen of the site as qwarter.com's case study shows it",
+      "source": "qwarter.com's case study (its media library)"
+    },
+    {
+      "src": "/media/work/tima/study/pic-03.png",
+      "alt": "Titanium Motor Arts: a picture as qwarter.com's case study shows it",
+      "source": "qwarter.com's case study (its media library)"
+    },
+    {
+      "src": "/media/work/tima/study/pic-04.png",
+      "alt": "Titanium Motor Arts: a picture as qwarter.com's case study shows it",
+      "source": "qwarter.com's case study (its media library)"
+    },
+    {
+      "src": "/media/work/tima/study/pic-05.png",
+      "alt": "Titanium Motor Arts: a picture as qwarter.com's case study shows it",
+      "source": "qwarter.com's case study (its media library)"
+    }
+  ],
+  "galleryNote": "Pictures from qwarter.com's case study (its media library).",
+  "source": "qwarter.com/portfolio/tima/ (WordPress snapshot 2026-10-22): the service line, facts, Style & Imagery, Deliverables/Services/Strategy, Project Info, challenge, solution and design strategy where they are this client's own (a paragraph pasted on another case study is left out), and its pictures. Every word is qwarter.com's, the site's own or observed; nothing is written here.",
+  "generated": true
+}

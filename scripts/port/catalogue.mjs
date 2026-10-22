@@ -37,10 +37,10 @@ const WORK = path.join(ROOT, "public/media/work");
 const ROMAN = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII", "XIII", "XIV", "XV", "XVI", "XVII", "XVIII", "XIX", "XX", "XXI", "XXII", "XXIII", "XXIV", "XXV", "XXVI", "XXVII", "XXVIII", "XXIX", "XXX"];
 
 /** The strip's order, Lorenzo's (2026-10-22): Butter's and Jeff's films open it, then Stairway and the rest. */
-const FIRST = ["butter", "jr-pugh", "stairway", "serein", "journey"];
+const FIRST = ["butter", "jr-pugh", "stairway", "serein", "journey", "theroom", "bambino", "lorenzo-type"];
 /** Projects photographed from their own builds or stills: their frames stay; shots add films only. */
-const OWN_FRAMES = ["jr-pugh", "serein", "journey", "stairway"];
-const LIVE_FRAMES = ["jr-pugh"];
+const OWN_FRAMES = ["jr-pugh", "serein", "journey", "stairway", "theroom", "bambino", "lorenzo-type"];
+const LIVE_FRAMES = ["jr-pugh", "bambino"];
 // a splash a site plays on arrival, recorded from the site's own files (scripts/work/record.mjs → raw/loader.mp4): the film
 // opens with it, before the clip the site plays. raw/ is not committed, so the splash is prepended only when the recording is there
 const SPLASH = { "jr-pugh": { file: "loader.mp4", seconds: 3.9, from: "the splash jeffvhs.com plays on arrival (recorded from the site's own files, scripts/work/record.mjs)" } }; // photographed from its own build once; the live site replaces those frames when it has been shot
@@ -262,8 +262,7 @@ for (const s of selected) {
   if (shots && !shots.rejected) {
     if (!s.name) { project.name = nameFrom(shots.title) || h; provenance.push(`name: the site's own title "${shots.title}"`); }
     if (!project.line) { project.line = shots.description ? firstSentence(shots.description) : (plain(shots.title || "").split(/\s+[|–—·-]\s+/)[1] || project.name); provenance.push(shots.description ? "line: the site's own description" : "line: the site's own title"); }
-    const frames = shots.pages.map((pg) => ({ src: path.join(shots.dir, pg.frame), name: `${pg.name}.png`, full: pg.full && fs.existsSync(path.join(shots.dir, pg.full)) ? { src: path.join(shots.dir, pg.full), name: `${pg.name}-full.png` } : null }));
-    deliver(slug, null, { frames: frames.flatMap((fr) => [fr, fr.full].filter(Boolean)) });
+    deliver(slug, null, { frames: framesOf(shots) });
     project.pages = shots.pages.map((pg) => ({ name: pg.name, title: titleOf(pg.title, pg.route, project.name) }));
     project.cover = project.pages[0].name;
     provenance.push(`pictures: ${h} photographed on ${shots.shot.slice(0, 10)} (${shots.pages.length} pages)`);
@@ -294,6 +293,8 @@ for (const slug of OWN_FRAMES) {
     p.cover = p.pages[0].name;
     p.source = p.source.replace(/; stills from [^;]*/, "").replace(/; pictures: [^;]*/, "") + `; pictures: ${host(shots.base)} photographed on ${shots.shot.slice(0, 10)} (${shots.pages.length} pages, titles the site's own)`;
   }
+  // a project photographed from its own build keeps those frames, and takes the live site's phone frames for the pages whose names match
+  if (!LIVE_FRAMES.includes(slug) && shots && !shots.rejected) deliver(slug, null, { frames: framesOf(shots).filter((f) => /^m-/.test(f.name) && p.pages.some((pg) => f.name === `m-${pg.name}.png` || f.name === `m-${pg.name}-full.png`)) });
   const film = shots && !shots.rejected ? shots.videos[0] : null;
   if (film) { deliver(slug, null, { intro: { file: path.join(shots.dir, film.file) } }); p.film = { intro: `intro.${path.extname(film.file).slice(1)}`, from: filmFrom(film.src, `${host(shots.base)}${film.route} plays`) }; }
   else if (FILMS[slug] && fs.existsSync(FILMS[slug].file)) { deliver(slug, null, { intro: { file: FILMS[slug].file } }); p.film = { intro: `intro.${path.extname(FILMS[slug].file).slice(1)}`, from: FILMS[slug].from }; }

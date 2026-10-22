@@ -347,6 +347,57 @@
         {
           "img": {
             "attr": {
+              "src": "/media/work/theroom/cover.jpg",
+              "data-src": "/media/work/theroom/cover@2x.jpg",
+              "alt": "The Room",
+              "width": "1440",
+              "height": "900"
+            }
+          },
+          "video": {
+            "attr": {
+              "src": "/media/work/theroom/scroll.mp4"
+            }
+          },
+          "source": "content/work.json theroom: its cover and film"
+        },
+        {
+          "img": {
+            "attr": {
+              "src": "/media/work/bambino/cover.jpg",
+              "data-src": "/media/work/bambino/cover@2x.jpg",
+              "alt": "Bambino",
+              "width": "1440",
+              "height": "900"
+            }
+          },
+          "video": {
+            "attr": {
+              "src": "/media/work/bambino/scroll.mp4"
+            }
+          },
+          "source": "content/work.json bambino: its cover and film"
+        },
+        {
+          "img": {
+            "attr": {
+              "src": "/media/work/lorenzo-type/cover.jpg",
+              "data-src": "/media/work/lorenzo-type/cover@2x.jpg",
+              "alt": "Lorenzo Type",
+              "width": "1440",
+              "height": "900"
+            }
+          },
+          "video": {
+            "attr": {
+              "src": "/media/work/lorenzo-type/scroll.mp4"
+            }
+          },
+          "source": "content/work.json lorenzo-type: its cover and film"
+        },
+        {
+          "img": {
+            "attr": {
               "src": "/media/work/2020-insights/cover.jpg",
               "data-src": "/media/work/2020-insights/cover@2x.jpg",
               "alt": "20/20 Insights",
@@ -670,6 +721,57 @@
         {
           "img": {
             "attr": {
+              "src": "/media/work/theroom/cover.jpg",
+              "data-src": "/media/work/theroom/cover@2x.jpg",
+              "alt": "The Room",
+              "width": "1440",
+              "height": "900"
+            }
+          },
+          "video": {
+            "attr": {
+              "src": "/media/work/theroom/scroll.mp4"
+            }
+          },
+          "source": "content/work.json theroom: its cover and film"
+        },
+        {
+          "img": {
+            "attr": {
+              "src": "/media/work/bambino/cover.jpg",
+              "data-src": "/media/work/bambino/cover@2x.jpg",
+              "alt": "Bambino",
+              "width": "1440",
+              "height": "900"
+            }
+          },
+          "video": {
+            "attr": {
+              "src": "/media/work/bambino/scroll.mp4"
+            }
+          },
+          "source": "content/work.json bambino: its cover and film"
+        },
+        {
+          "img": {
+            "attr": {
+              "src": "/media/work/lorenzo-type/cover.jpg",
+              "data-src": "/media/work/lorenzo-type/cover@2x.jpg",
+              "alt": "Lorenzo Type",
+              "width": "1440",
+              "height": "900"
+            }
+          },
+          "video": {
+            "attr": {
+              "src": "/media/work/lorenzo-type/scroll.mp4"
+            }
+          },
+          "source": "content/work.json lorenzo-type: its cover and film"
+        },
+        {
+          "img": {
+            "attr": {
               "src": "/media/work/2020-insights/cover.jpg",
               "data-src": "/media/work/2020-insights/cover@2x.jpg",
               "alt": "20/20 Insights",
@@ -914,7 +1016,8 @@
         {
           "a": {
             "attr": {
-              "href": "/work/butter/"
+              "href": "/work/butter/",
+              "data-internal": ""
             }
           },
           ".__roman": {
@@ -940,7 +1043,8 @@
         {
           "a": {
             "attr": {
-              "href": "/work/jr-pugh/"
+              "href": "/work/jr-pugh/",
+              "data-internal": ""
             }
           },
           ".__roman": {
@@ -966,7 +1070,8 @@
         {
           "a": {
             "attr": {
-              "href": "/work/stairway/"
+              "href": "/work/stairway/",
+              "data-internal": ""
             }
           },
           ".__roman": {
@@ -992,7 +1097,8 @@
         {
           "a": {
             "attr": {
-              "href": "/work/serein/"
+              "href": "/work/serein/",
+              "data-internal": ""
             }
           },
           ".__roman": {
@@ -1018,7 +1124,8 @@
         {
           "a": {
             "attr": {
-              "href": "/work/journey/"
+              "href": "/work/journey/",
+              "data-internal": ""
             }
           },
           ".__roman": {
@@ -1044,11 +1151,93 @@
         {
           "a": {
             "attr": {
-              "href": "/work/2020-insights/"
+              "href": "/work/theroom/",
+              "data-internal": ""
             }
           },
           ".__roman": {
             "text": "VI"
+          },
+          ".__client": {
+            "text": "The Room"
+          },
+          ".__title": {
+            "text": "The Room",
+            "attr": {
+              "href": null
+            }
+          },
+          ".__director": {
+            "text": "Website",
+            "attr": {
+              "href": null
+            }
+          },
+          "source": "content/work.json theroom: numeral, name, made"
+        },
+        {
+          "a": {
+            "attr": {
+              "href": "/work/bambino/",
+              "data-internal": ""
+            }
+          },
+          ".__roman": {
+            "text": "VII"
+          },
+          ".__client": {
+            "text": "Bambino"
+          },
+          ".__title": {
+            "text": "Bambino",
+            "attr": {
+              "href": null
+            }
+          },
+          ".__director": {
+            "text": "Website",
+            "attr": {
+              "href": null
+            }
+          },
+          "source": "content/work.json bambino: numeral, name, made"
+        },
+        {
+          "a": {
+            "attr": {
+              "href": "/work/lorenzo-type/",
+              "data-internal": ""
+            }
+          },
+          ".__roman": {
+            "text": "VIII"
+          },
+          ".__client": {
+            "text": "Lorenzo Type"
+          },
+          ".__title": {
+            "text": "Lorenzo Type",
+            "attr": {
+              "href": null
+            }
+          },
+          ".__director": {
+            "text": "Website and type",
+            "attr": {
+              "href": null
+            }
+          },
+          "source": "content/work.json lorenzo-type: numeral, name, made"
+        },
+        {
+          "a": {
+            "attr": {
+              "href": "/work/2020-insights/",
+              "data-internal": ""
+            }
+          },
+          ".__roman": {
+            "text": "IX"
           },
           ".__client": {
             "text": "20/20 Insights"
@@ -1070,11 +1259,12 @@
         {
           "a": {
             "attr": {
-              "href": "/work/mzaero/"
+              "href": "/work/mzaero/",
+              "data-internal": ""
             }
           },
           ".__roman": {
-            "text": "VII"
+            "text": "X"
           },
           ".__client": {
             "text": "Mzaero"
@@ -1096,11 +1286,12 @@
         {
           "a": {
             "attr": {
-              "href": "/work/thanh-ta/"
+              "href": "/work/thanh-ta/",
+              "data-internal": ""
             }
           },
           ".__roman": {
-            "text": "VIII"
+            "text": "XI"
           },
           ".__client": {
             "text": "Thanh Ta"
@@ -1122,11 +1313,12 @@
         {
           "a": {
             "attr": {
-              "href": "/work/ion-insurance/"
+              "href": "/work/ion-insurance/",
+              "data-internal": ""
             }
           },
           ".__roman": {
-            "text": "IX"
+            "text": "XII"
           },
           ".__client": {
             "text": "Ion Insurance"
@@ -1148,11 +1340,12 @@
         {
           "a": {
             "attr": {
-              "href": "/work/iotech-protect/"
+              "href": "/work/iotech-protect/",
+              "data-internal": ""
             }
           },
           ".__roman": {
-            "text": "X"
+            "text": "XIII"
           },
           ".__client": {
             "text": "IoTech Protect"
@@ -1174,11 +1367,12 @@
         {
           "a": {
             "attr": {
-              "href": "/work/tima/"
+              "href": "/work/tima/",
+              "data-internal": ""
             }
           },
           ".__roman": {
-            "text": "XI"
+            "text": "XIV"
           },
           ".__client": {
             "text": "Titanium Motor Arts"
@@ -1200,11 +1394,12 @@
         {
           "a": {
             "attr": {
-              "href": "/work/ekaterina-sky/"
+              "href": "/work/ekaterina-sky/",
+              "data-internal": ""
             }
           },
           ".__roman": {
-            "text": "XII"
+            "text": "XV"
           },
           ".__client": {
             "text": "Ekaterina Sky"
@@ -1226,11 +1421,12 @@
         {
           "a": {
             "attr": {
-              "href": "/work/epic-esg/"
+              "href": "/work/epic-esg/",
+              "data-internal": ""
             }
           },
           ".__roman": {
-            "text": "XIII"
+            "text": "XVI"
           },
           ".__client": {
             "text": "EPIC ESG"
@@ -1252,11 +1448,12 @@
         {
           "a": {
             "attr": {
-              "href": "/work/wood-company/"
+              "href": "/work/wood-company/",
+              "data-internal": ""
             }
           },
           ".__roman": {
-            "text": "XIV"
+            "text": "XVII"
           },
           ".__client": {
             "text": "Wood Company"
@@ -1278,11 +1475,12 @@
         {
           "a": {
             "attr": {
-              "href": "/work/boujee-healer/"
+              "href": "/work/boujee-healer/",
+              "data-internal": ""
             }
           },
           ".__roman": {
-            "text": "XV"
+            "text": "XVIII"
           },
           ".__client": {
             "text": "Boujee Healer"
@@ -1304,11 +1502,12 @@
         {
           "a": {
             "attr": {
-              "href": "/work/kind-footprint/"
+              "href": "/work/kind-footprint/",
+              "data-internal": ""
             }
           },
           ".__roman": {
-            "text": "XVI"
+            "text": "XIX"
           },
           ".__client": {
             "text": "Kind Footprint"
@@ -1330,11 +1529,12 @@
         {
           "a": {
             "attr": {
-              "href": "/work/pineapple-club/"
+              "href": "/work/pineapple-club/",
+              "data-internal": ""
             }
           },
           ".__roman": {
-            "text": "XVII"
+            "text": "XX"
           },
           ".__client": {
             "text": "Pineapple Club"
@@ -1356,11 +1556,12 @@
         {
           "a": {
             "attr": {
-              "href": "/work/ignite-beacon/"
+              "href": "/work/ignite-beacon/",
+              "data-internal": ""
             }
           },
           ".__roman": {
-            "text": "XVIII"
+            "text": "XXI"
           },
           ".__client": {
             "text": "Beacon"
@@ -1382,11 +1583,12 @@
         {
           "a": {
             "attr": {
-              "href": "/work/core-rhythm-fitness/"
+              "href": "/work/core-rhythm-fitness/",
+              "data-internal": ""
             }
           },
           ".__roman": {
-            "text": "XIX"
+            "text": "XXII"
           },
           ".__client": {
             "text": "Core Rhythm Fitness"
@@ -1408,7 +1610,8 @@
         {
           "a": {
             "attr": {
-              "href": "/work/butter/"
+              "href": "/work/butter/",
+              "data-internal": ""
             }
           },
           ".__roman": {
@@ -1434,7 +1637,8 @@
         {
           "a": {
             "attr": {
-              "href": "/work/jr-pugh/"
+              "href": "/work/jr-pugh/",
+              "data-internal": ""
             }
           },
           ".__roman": {
@@ -1460,7 +1664,8 @@
         {
           "a": {
             "attr": {
-              "href": "/work/stairway/"
+              "href": "/work/stairway/",
+              "data-internal": ""
             }
           },
           ".__roman": {
@@ -1486,7 +1691,8 @@
         {
           "a": {
             "attr": {
-              "href": "/work/serein/"
+              "href": "/work/serein/",
+              "data-internal": ""
             }
           },
           ".__roman": {
@@ -1512,7 +1718,8 @@
         {
           "a": {
             "attr": {
-              "href": "/work/journey/"
+              "href": "/work/journey/",
+              "data-internal": ""
             }
           },
           ".__roman": {
@@ -1538,11 +1745,93 @@
         {
           "a": {
             "attr": {
-              "href": "/work/2020-insights/"
+              "href": "/work/theroom/",
+              "data-internal": ""
             }
           },
           ".__roman": {
             "text": "VI"
+          },
+          ".__client": {
+            "text": "The Room"
+          },
+          ".__title": {
+            "text": "The Room",
+            "attr": {
+              "href": null
+            }
+          },
+          ".__director": {
+            "text": "Website",
+            "attr": {
+              "href": null
+            }
+          },
+          "source": "content/work.json theroom: numeral, name, made"
+        },
+        {
+          "a": {
+            "attr": {
+              "href": "/work/bambino/",
+              "data-internal": ""
+            }
+          },
+          ".__roman": {
+            "text": "VII"
+          },
+          ".__client": {
+            "text": "Bambino"
+          },
+          ".__title": {
+            "text": "Bambino",
+            "attr": {
+              "href": null
+            }
+          },
+          ".__director": {
+            "text": "Website",
+            "attr": {
+              "href": null
+            }
+          },
+          "source": "content/work.json bambino: numeral, name, made"
+        },
+        {
+          "a": {
+            "attr": {
+              "href": "/work/lorenzo-type/",
+              "data-internal": ""
+            }
+          },
+          ".__roman": {
+            "text": "VIII"
+          },
+          ".__client": {
+            "text": "Lorenzo Type"
+          },
+          ".__title": {
+            "text": "Lorenzo Type",
+            "attr": {
+              "href": null
+            }
+          },
+          ".__director": {
+            "text": "Website and type",
+            "attr": {
+              "href": null
+            }
+          },
+          "source": "content/work.json lorenzo-type: numeral, name, made"
+        },
+        {
+          "a": {
+            "attr": {
+              "href": "/work/2020-insights/",
+              "data-internal": ""
+            }
+          },
+          ".__roman": {
+            "text": "IX"
           },
           ".__client": {
             "text": "20/20 Insights"
@@ -1564,11 +1853,12 @@
         {
           "a": {
             "attr": {
-              "href": "/work/mzaero/"
+              "href": "/work/mzaero/",
+              "data-internal": ""
             }
           },
           ".__roman": {
-            "text": "VII"
+            "text": "X"
           },
           ".__client": {
             "text": "Mzaero"
@@ -1590,11 +1880,12 @@
         {
           "a": {
             "attr": {
-              "href": "/work/thanh-ta/"
+              "href": "/work/thanh-ta/",
+              "data-internal": ""
             }
           },
           ".__roman": {
-            "text": "VIII"
+            "text": "XI"
           },
           ".__client": {
             "text": "Thanh Ta"
@@ -1616,11 +1907,12 @@
         {
           "a": {
             "attr": {
-              "href": "/work/ion-insurance/"
+              "href": "/work/ion-insurance/",
+              "data-internal": ""
             }
           },
           ".__roman": {
-            "text": "IX"
+            "text": "XII"
           },
           ".__client": {
             "text": "Ion Insurance"
@@ -1642,11 +1934,12 @@
         {
           "a": {
             "attr": {
-              "href": "/work/iotech-protect/"
+              "href": "/work/iotech-protect/",
+              "data-internal": ""
             }
           },
           ".__roman": {
-            "text": "X"
+            "text": "XIII"
           },
           ".__client": {
             "text": "IoTech Protect"
@@ -1668,11 +1961,12 @@
         {
           "a": {
             "attr": {
-              "href": "/work/tima/"
+              "href": "/work/tima/",
+              "data-internal": ""
             }
           },
           ".__roman": {
-            "text": "XI"
+            "text": "XIV"
           },
           ".__client": {
             "text": "Titanium Motor Arts"
@@ -1694,11 +1988,12 @@
         {
           "a": {
             "attr": {
-              "href": "/work/ekaterina-sky/"
+              "href": "/work/ekaterina-sky/",
+              "data-internal": ""
             }
           },
           ".__roman": {
-            "text": "XII"
+            "text": "XV"
           },
           ".__client": {
             "text": "Ekaterina Sky"
@@ -1720,11 +2015,12 @@
         {
           "a": {
             "attr": {
-              "href": "/work/epic-esg/"
+              "href": "/work/epic-esg/",
+              "data-internal": ""
             }
           },
           ".__roman": {
-            "text": "XIII"
+            "text": "XVI"
           },
           ".__client": {
             "text": "EPIC ESG"
@@ -1746,11 +2042,12 @@
         {
           "a": {
             "attr": {
-              "href": "/work/wood-company/"
+              "href": "/work/wood-company/",
+              "data-internal": ""
             }
           },
           ".__roman": {
-            "text": "XIV"
+            "text": "XVII"
           },
           ".__client": {
             "text": "Wood Company"
@@ -1772,11 +2069,12 @@
         {
           "a": {
             "attr": {
-              "href": "/work/boujee-healer/"
+              "href": "/work/boujee-healer/",
+              "data-internal": ""
             }
           },
           ".__roman": {
-            "text": "XV"
+            "text": "XVIII"
           },
           ".__client": {
             "text": "Boujee Healer"
@@ -1798,11 +2096,12 @@
         {
           "a": {
             "attr": {
-              "href": "/work/kind-footprint/"
+              "href": "/work/kind-footprint/",
+              "data-internal": ""
             }
           },
           ".__roman": {
-            "text": "XVI"
+            "text": "XIX"
           },
           ".__client": {
             "text": "Kind Footprint"
@@ -1824,11 +2123,12 @@
         {
           "a": {
             "attr": {
-              "href": "/work/pineapple-club/"
+              "href": "/work/pineapple-club/",
+              "data-internal": ""
             }
           },
           ".__roman": {
-            "text": "XVII"
+            "text": "XX"
           },
           ".__client": {
             "text": "Pineapple Club"
@@ -1850,11 +2150,12 @@
         {
           "a": {
             "attr": {
-              "href": "/work/ignite-beacon/"
+              "href": "/work/ignite-beacon/",
+              "data-internal": ""
             }
           },
           ".__roman": {
-            "text": "XVIII"
+            "text": "XXI"
           },
           ".__client": {
             "text": "Beacon"
@@ -1876,11 +2177,12 @@
         {
           "a": {
             "attr": {
-              "href": "/work/core-rhythm-fitness/"
+              "href": "/work/core-rhythm-fitness/",
+              "data-internal": ""
             }
           },
           ".__roman": {
-            "text": "XIX"
+            "text": "XXII"
           },
           ".__client": {
             "text": "Core Rhythm Fitness"

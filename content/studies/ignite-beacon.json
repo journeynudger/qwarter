@@ -1,0 +1,161 @@
+{
+  "slug": "ignite-beacon",
+  "name": "Beacon",
+  "shortName": "Beacon",
+  "tagline": "Light up when you're down.",
+  "client": "Beacon",
+  "year": null,
+  "role": [
+    "Website"
+  ],
+  "statement": "See who else is. Make spontaneous plans with close friends. No feeds. No posts. Just fire on high ground.",
+  "summary": "Light up when you're down. See who else is. Make spontaneous plans with close friends. No feeds. No posts. Just fire on high ground.",
+  "kind": "Website",
+  "status": "Live at ignitebeacon.com",
+  "url": "https://ignitebeacon.com",
+  "address": "ignitebeacon.com",
+  "figures": [
+    {
+      "value": "2",
+      "label": "Pages photographed from the live site",
+      "source": "the shoot / the case study"
+    },
+    {
+      "value": "5",
+      "label": "Colours in the palette",
+      "source": "observed"
+    }
+  ],
+  "identity": [
+    {
+      "key": "logo",
+      "label": "Logo",
+      "note": "Beacon's logo as the site shows it (ignitebeacon.com).",
+      "image": "/media/work/ignite-beacon/study/pic-01.png",
+      "alt": "Beacon",
+      "ground": "#0A0705",
+      "dark": true,
+      "fit": "contain"
+    },
+    {
+      "key": "palette",
+      "label": "Colour",
+      "note": "The colours ignitebeacon.com is set in, by the area they cover and the words they carry, as observed on 2026-10-22.",
+      "colors": [
+        {
+          "hex": "#0A0A0A",
+          "role": "the page"
+        },
+        {
+          "hex": "#0A0705",
+          "role": "a surface"
+        },
+        {
+          "hex": "#0C0A09",
+          "role": "a surface"
+        },
+        {
+          "hex": "#FAF7F2",
+          "role": "the words"
+        },
+        {
+          "hex": "#FFFFFF",
+          "role": "the words"
+        }
+      ]
+    },
+    {
+      "key": "type",
+      "label": "Type",
+      "note": "The typefaces ignitebeacon.com is set in, as observed: Playfair Display and Inter.",
+      "faces": [
+        {
+          "role": "Headings",
+          "family": "Playfair Display",
+          "fallback": "serif"
+        },
+        {
+          "role": "Text",
+          "family": "Inter",
+          "fallback": "sans-serif"
+        }
+      ]
+    },
+    {
+      "key": "detail",
+      "label": "On a phone",
+      "note": "ignitebeacon.com on a phone, its home page as photographed on 2026-10-22.",
+      "image": "/media/work/ignite-beacon/study/m-home.jpg",
+      "alt": "Beacon's home page on a phone.",
+      "ground": "#0A0A0A",
+      "dark": true,
+      "fit": "cover"
+    }
+  ],
+  "quote": {
+    "text": "You control when you're visible.",
+    "source": "From the site's the night awaits page"
+  },
+  "steps": [
+    {
+      "title": "ignitebeacon.com, page by page",
+      "body": "Light up when you're down. See who else is. Make spontaneous plans with close friends. No feeds. No posts. Just fire on high ground.",
+      "device": "desktop",
+      "recording": "desktop",
+      "source": "the site's own description"
+    },
+    {
+      "title": "Support",
+      "body": "“Support” Have a question, found a bug, or want to share feedback?",
+      "image": "/media/work/ignite-beacon/study/d-support.jpg",
+      "alt": "ignitebeacon.com: the Support page.",
+      "device": "desktop",
+      "source": "the page's own heading and first paragraph, as photographed"
+    },
+    {
+      "title": "On a phone",
+      "body": "ignitebeacon.com on a phone, 2 pages as photographed on 2026-10-22.",
+      "device": "phone",
+      "recording": "phone",
+      "source": "the phone frames of the shoot"
+    }
+  ],
+  "film": {
+    "src": "/media/work/ignite-beacon/scroll.mp4",
+    "webm": "/media/work/ignite-beacon/scroll.webm",
+    "poster": "/media/work/ignite-beacon/tile.jpg",
+    "alt": "Beacon's film: the site scrolling."
+  },
+  "recordings": {
+    "desktop": {
+      "src": "/media/work/ignite-beacon/study/desktop.mp4",
+      "poster": "/media/work/ignite-beacon/study/desktop-poster.jpg",
+      "alt": "Beacon on a desktop: Home, Support."
+    },
+    "phone": {
+      "src": "/media/work/ignite-beacon/study/phone.mp4",
+      "poster": "/media/work/ignite-beacon/study/phone-poster.jpg",
+      "alt": "Beacon on a phone."
+    }
+  },
+  "gallery": [
+    {
+      "src": "/media/work/ignite-beacon/study/pic-02.jpg",
+      "alt": "Friends gathered on a beach at sunset",
+      "source": "ignitebeacon.com (the site's own picture: Friends gathered on a beach at sunset)"
+    },
+    {
+      "src": "/media/work/ignite-beacon/study/pic-03.jpg",
+      "alt": "Beacon app — hold to ignite your beacon",
+      "source": "ignitebeacon.com (the site's own picture: Beacon app — hold to ignite your beacon)"
+    },
+    {
+      "src": "/media/work/ignite-beacon/study/pic-04.jpg",
+      "alt": "Beacon app — friends out on the map with directions",
+      "source": "ignitebeacon.com (the site's own picture: Beacon app — friends out on the map with directions)"
+    }
+  ],
+  "galleryNote": "The site's own pictures, from ignitebeacon.com.",
+  "source": "ignitebeacon.com photographed on 2026-10-22 (scripts/work/shoot.mjs): page titles and first words, typefaces and colours observed, the logo and pictures the pages show, the phone frames. Every word is qwarter.com's, the site's own or observed; nothing is written here.",
+  "generated": true
+}

@@ -192,6 +192,105 @@
       }
     },
     {
+      "slug": "theroom",
+      "numeral": "VI",
+      "name": "The Room",
+      "url": "https://theroom-git-claude-ecstatic-ride-1swldb-journeynudgers-projects.vercel.app",
+      "line": "A wall of the minds that shaped how you think.",
+      "made": "Website",
+      "year": "2026",
+      "cover": "home",
+      "pages": [
+        {
+          "name": "home",
+          "title": "The wall"
+        },
+        {
+          "name": "table",
+          "title": "The table"
+        },
+        {
+          "name": "ask",
+          "title": "Ask them"
+        }
+      ],
+      "source": "GitHub journeynudger/theroom (README: 'The Room is a source-grounded library of books, talks, interviews…'; site/README.md: 'a wall of carved reliefs you can stand before and question'); line: the site's own description ('A wall of the minds that shaped how you think. Source-grounded interpretation, not resurrection.'); the address Lorenzo gave on 2026-10-22 (a Vercel preview, behind Vercel's login for anyone else); photographed from its own build (site/server.mjs) on 2026-10-22: the wall, the table, Ask them"
+    },
+    {
+      "slug": "bambino",
+      "numeral": "VII",
+      "name": "Bambino",
+      "url": "https://bambino-1dtu.vercel.app",
+      "line": "The notebooks of Lorenzo Scardicchio: essays and artwork, typeset like a book.",
+      "made": "Website",
+      "year": "2026",
+      "cover": "home",
+      "pages": [
+        {
+          "name": "home",
+          "title": "Home"
+        },
+        {
+          "name": "gallery",
+          "title": "Lorenzo Scardicchio"
+        },
+        {
+          "name": "posts-the-algorithmic-self",
+          "title": "The Algorithmic Self"
+        },
+        {
+          "name": "posts-were-part-of-the-race",
+          "title": "We're part of the race."
+        },
+        {
+          "name": "posts-racing-to-the-bottom-of-the-brains",
+          "title": "Racing to the bottom of the brainstem"
+        }
+      ],
+      "source": "GitHub journeynudger/bambino (README: 'The notebooks of Lorenzo Scardicchio — essays and artwork, typeset like a book. Design language after the Stripe Press Poor Charlie's Almanack web edition'; the gallery wall as README describes it); the address Lorenzo gave on 2026-10-22; photographed from it on 2026-10-22; pictures: bambino-1dtu.vercel.app photographed on 2026-10-22 (5 pages, titles the site's own)"
+    },
+    {
+      "slug": "lorenzo-type",
+      "numeral": "VIII",
+      "name": "Lorenzo Type",
+      "url": "https://lorenzoscardicchio.com",
+      "line": "Four families, seventeen styles, from the mailroom.",
+      "made": "Website and type",
+      "year": "2026",
+      "cover": "home",
+      "pages": [
+        {
+          "name": "home",
+          "title": "four families from one desk"
+        },
+        {
+          "name": "hand",
+          "title": "Lorenzo Hand"
+        },
+        {
+          "name": "longhand",
+          "title": "Lorenzo Longhand"
+        },
+        {
+          "name": "typewriter",
+          "title": "Lorenzo Typewriter"
+        },
+        {
+          "name": "meadow",
+          "title": "Lorenzo Meadow"
+        },
+        {
+          "name": "mailroom",
+          "title": "paintings, writing, and muses"
+        },
+        {
+          "name": "art",
+          "title": "Artwork"
+        }
+      ],
+      "source": "GitHub journeynudger/lorenzo (README: 'Lorenzo Type — the foundry site'; the site's own description: 'Type drawn and traced from Lorenzo Scardicchio's own hand: Lorenzo Hand, Longhand, Typewriter and Meadow, served from the mailroom on paper photographed from his desk'; line: the home page's own words, 'Four families · seventeen styles from the mailroom'); the address the site names (www.lorenzoscardicchio.com); photographed from its own files on 2026-10-22"
+    },
+    {
       "slug": "2020-insights",
       "name": "20/20 Insights",
       "url": "https://2020insights.net",
@@ -222,7 +321,7 @@
       ],
       "fromWordPress": true,
       "source": "name, service line, year, live site and facts from qwarter.com/portfolio/2020-insights/ (WordPress page 246379, modified 2026-09-16); line: the case study's Industry Type and Location; pictures: 2020insights.net photographed on 2026-10-22 (3 pages, titles the site's own)",
-      "numeral": "VI"
+      "numeral": "IX"
     },
     {
       "slug": "mzaero",
@@ -247,7 +346,7 @@
       ],
       "fromWordPress": true,
       "source": "name, service line, year, live site and facts from qwarter.com/portfolio/mzaero/ (WordPress page 246910, modified 2026-09-16); line: the case study's Industry Type and Location; pictures: mzaero.com photographed on 2026-10-22 (1 pages, titles the site's own)",
-      "numeral": "VII"
+      "numeral": "X"
     },
     {
       "slug": "thanh-ta",
@@ -275,7 +374,7 @@
       ],
       "fromWordPress": true,
       "source": "name, service line, year, live site and facts from qwarter.com/portfolio/thanh-ta/ (WordPress page 246271, modified 2026-09-16); line: the case study's Industry Type and Location; pictures: the ones the case study shows (its media library), 2 of them",
-      "numeral": "VIII"
+      "numeral": "XI"
     },
     {
       "slug": "ion-insurance",
@@ -312,7 +411,7 @@
       ],
       "fromWordPress": true,
       "source": "name, service line, year, live site and facts from qwarter.com/portfolio/ion-insurance/ (WordPress page 246889, modified 2026-09-16); line: the case study's Industry Type and Location; pictures: ioninsuranceinc.com photographed on 2026-10-22 (4 pages, titles the site's own)",
-      "numeral": "IX"
+      "numeral": "XII"
     },
     {
       "slug": "iotech-protect",
@@ -357,7 +456,7 @@
       ],
       "fromWordPress": true,
       "source": "name, service line, year, live site and facts from qwarter.com/portfolio/iotech-protect/ (WordPress page 245248, modified 2026-09-16); line: the case study's Industry Type and Location; pictures: the ones the case study shows (its media library), 6 of them",
-      "numeral": "X"
+      "numeral": "XIII"
     },
     {
       "slug": "tima",
@@ -398,7 +497,7 @@
         "intro": "intro.mp4",
         "from": "the film behind Titanium Motor Arts on qwarter.com/portfolio/ (its media library, 2022/07/tima-home-bg.mp4)"
       },
-      "numeral": "XI"
+      "numeral": "XIV"
     },
     {
       "slug": "ekaterina-sky",
@@ -422,7 +521,7 @@
       ],
       "fromWordPress": true,
       "source": "name, service line, year, live site and facts from qwarter.com/portfolio/ekaterina-sky/ (WordPress page 2834, modified 2026-09-16); line: the case study's Industry Type and Location; pictures: ekaterina-sky.art photographed on 2026-10-22 (1 pages, titles the site's own)",
-      "numeral": "XII"
+      "numeral": "XV"
     },
     {
       "slug": "epic-esg",
@@ -447,7 +546,7 @@
       ],
       "fromWordPress": true,
       "source": "name, service line, year, live site and facts from qwarter.com/portfolio/epic-esg/ (WordPress page 2221, modified 2026-09-16); line: the case study's Industry Type and Location; pictures: the ones the case study shows (its media library), 1 of them",
-      "numeral": "XIII"
+      "numeral": "XVI"
     },
     {
       "slug": "wood-company",
@@ -476,7 +575,7 @@
       ],
       "fromWordPress": true,
       "source": "name, service line, year, live site and facts from qwarter.com/portfolio/wood-company/ (WordPress page 245520, modified 2026-09-16); line from qwarter.com/portfolio/ (its slider); pictures: the ones the case study shows (its media library), 2 of them",
-      "numeral": "XIV"
+      "numeral": "XVII"
     },
     {
       "slug": "boujee-healer",
@@ -508,7 +607,7 @@
       ],
       "fromWordPress": true,
       "source": "name, service line, year, live site and facts from qwarter.com/portfolio/boujee-healer/ (WordPress page 245435, modified 2026-09-16); line: the case study's Industry Type and Location; pictures: theboujeehealer.com photographed on 2026-10-22 (3 pages, titles the site's own)",
-      "numeral": "XV"
+      "numeral": "XVIII"
     },
     {
       "slug": "kind-footprint",
@@ -541,7 +640,7 @@
       ],
       "fromWordPress": true,
       "source": "name, service line, year and facts from qwarter.com/portfolio/kind-footprint/ (WordPress page 2742, modified 2026-09-16); line: the case study's Industry Type and Location; live site: the one photographed, kindfootprint.org; pictures: kindfootprint.org photographed on 2026-10-22 (3 pages, titles the site's own)",
-      "numeral": "XVI"
+      "numeral": "XIX"
     },
     {
       "slug": "pineapple-club",
@@ -578,7 +677,7 @@
       ],
       "fromWordPress": true,
       "source": "name, service line, year, live site and facts from qwarter.com/portfolio/pineapple-club/ (WordPress page 245312, modified 2026-09-16); line from qwarter.com/portfolio/ (its slider); pictures: pineappleclub.com photographed on 2026-10-22 (4 pages, titles the site's own)",
-      "numeral": "XVII"
+      "numeral": "XX"
     },
     {
       "slug": "ignite-beacon",
@@ -600,7 +699,7 @@
       ],
       "fromWordPress": true,
       "source": "qwarter.com's home page, Selected Work (WordPress page 246530, modified 2026-09-17): linked as ignitebeacon.com, with a picture and no words; name: the site's own title \"beacon — the night awaits\"; line: the site's own description; pictures: ignitebeacon.com photographed on 2026-10-22 (2 pages)",
-      "numeral": "XVIII"
+      "numeral": "XXI"
     },
     {
       "slug": "core-rhythm-fitness",
@@ -630,7 +729,7 @@
       ],
       "fromWordPress": true,
       "source": "qwarter.com's home page, Selected Work (WordPress page 246530, modified 2026-09-17): linked as corerhythmfitness.net, with a picture and no words; name: the site's own title \"CORE RHYTHM FITNESS\"; line: the site's own title; pictures: corerhythmfitness.net photographed on 2026-10-22 (4 pages)",
-      "numeral": "XIX"
+      "numeral": "XXII"
     }
   ],
   "_catalogue": "The projects below the first three are qwarter.com's own case studies, found through search on 2026-10-17 (qwarter.com itself is unreachable from the build environment). Each line is the case study's description as the search returned it, kept short; year only where the page gave one. Pictures, the full text and any missing project arrive with scripts/port/fetch.py once the network allows it, and these entries are then checked against the snapshot word for word."
