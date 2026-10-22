@@ -29,7 +29,7 @@ test("every project is complete and sourced", () => {
       assert.ok(p[key].trim(), `${where}: ${key} is empty`);
     }
     assert.match(p.slug, /^[a-z0-9-]+$/, `${where}: slug`);
-    if (p.url !== null) assert.match(p.url, /^https:\/\/[a-z0-9.-]+\.[a-z]+$/, `${where}: url should be the site's https origin, no path`);
+    if (p.url !== null) assert.match(p.url, /^https:\/\/[a-z0-9.-]+\.[a-z]+(\/[a-z0-9-]+)*$/, `${where}: url should be the site's https address, no trailing slash`);
     if (p.year !== null) assert.match(p.year, /^20\d\d$/, `${where}: year`);
     assert.ok(p.source.length > 40, `${where}: source should say where the facts come from`);
     assert.ok(Array.isArray(p.pages), `${where}: pages`);
@@ -43,8 +43,15 @@ test("every project is complete and sourced", () => {
       assert.equal(p.cover, null, `${where}: a catalogue entry has no cover`);
       assert.equal(p.pages.length, 0, `${where}: a catalogue entry has no pages`);
     } else {
-      assert.equal(typeof p.url, "string", `${where}: a photographed site has an address`);
-      assert.equal(typeof p.year, "string", `${where}: a photographed site has a year`);
+      // a site photographed from its own build has an address and a year; one from qwarter.com's catalogue has them when qwarter.com states them
+      if (!p.fromWordPress) {
+        assert.equal(typeof p.url, "string", `${where}: a photographed site has an address`);
+        assert.equal(typeof p.year, "string", `${where}: a photographed site has a year`);
+      }
+      if (p.film) {
+        assert.match(p.film.intro, /^intro\.(mp4|webm)$/, `${where}: film.intro names raw/intro.mp4 or .webm`);
+        assert.ok(p.film.from.length > 20, `${where}: film.from says where the clip came from`);
+      }
       assert.ok(p.pages.length > 0, `${where}: pages`);
       assert.ok(p.pages.some((pg) => pg.name === p.cover), `${where}: cover "${p.cover}" is not one of its pages`);
     }

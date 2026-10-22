@@ -255,6 +255,22 @@ html:not(.js) .tile-video { display: none; }
 .archive-list .thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .archive-list .thumb.empty { background: rgba(242, 237, 227, 0.05); }
 .approach .more { margin-top: 6vh; font-size: 1.2rem; }
+.about { margin-top: 10vh; }
+.about .kicker { margin: 5vh 0 1.2rem; }
+.about .prose { max-width: 58ch; font-size: clamp(1.15rem, 1.5vw, 1.45rem); line-height: 1.45; color: var(--dim); }
+.team { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr)); gap: 1rem 2rem; max-width: 60rem; }
+.team li { display: flex; flex-direction: column; padding: 0.8rem 0; border-top: 1px solid rgba(242, 237, 227, 0.14); }
+.team .name { font-size: 1.2rem; }
+.team .role { font-size: 0.9rem; color: var(--faint); letter-spacing: 0.04em; }
+.faq { margin: 0; max-width: 62ch; }
+.faq .qa { padding: 1.4rem 0; border-top: 1px solid rgba(242, 237, 227, 0.14); }
+.faq dt { font-size: 1.35rem; font-style: italic; margin-bottom: 0.6rem; }
+.faq dd { margin: 0; color: var(--dim); font-size: 1.08rem; line-height: 1.5; }
+.faq dd p { margin: 0 0 0.6rem; }
+.faq dd p.step { margin-top: 1rem; font-size: 0.85rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--faint); }
+.faq ul.plain { list-style: none; margin: 0; padding: 0; columns: 2; column-gap: 2rem; }
+.faq ul.plain li { padding: 0.15rem 0; }
+.contact-wrap .row.social a { color: var(--dim); }
 .contact-wrap {
   min-height: 100vh; min-height: 100dvh; display: flex; flex-direction: column; align-items: center; justify-content: center;
   text-align: center; gap: 1rem; padding: 8rem max(var(--gutter), 1.4rem) 6rem;

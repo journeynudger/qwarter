@@ -18,12 +18,14 @@
  *                  navigation links to (same origin, in document order; carts, accounts, policies and
  *                  files left out), named after their paths
  *   --width 1440 --height 900 --scale 2 --settle 1500 --timeout 60000
+ *   --ua "<user agent>"   the browser's name as sites see it (a current desktop Chrome by default: a headless
+ *                         build's own name is refused by some firewalls with "Access Denied")
  */
 import fs from "node:fs";
 import path from "node:path";
 
 import { launch } from "../lib/browser.mjs";
-import { sleep } from "../lib/probes.mjs";
+import { dismissOverlays, sleep } from "../lib/probes.mjs";
 
 const argv = process.argv.slice(2);
 const take = (k, d) => { const i = argv.indexOf(`--${k}`); if (i < 0) return d; const v = argv[i + 1]; argv.splice(i, 2); return v; };
@@ -31,6 +33,7 @@ const WIDTH = Number(take("width", 1440)), HEIGHT = Number(take("height", 900)),
 const TIMEOUT = Number(take("timeout", 60000));
 const DISCOVER = Number(take("discover", 0));
 const OUT = take("out", null);
+const UA = take("ua", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36");
 const MAX_VIDEO = 95 * 1024 * 1024; // GitHub's limit, with room
 const [slug, base, ...specs] = argv;
 if (!slug || !base || (!specs.length && !DISCOVER)) {
@@ -45,7 +48,7 @@ const SKIP_PATH = /\/(cart|checkout|account|login|log-in|sign-?in|register|searc
 const slugify = (p) => (p.replace(/^\/+|\/+$/g, "").replace(/[^a-z0-9]+/gi, "-").replace(/^-|-$/g, "").toLowerCase() || "home").slice(0, 40);
 
 const browser = await launch({ args: ["--use-gl=angle", "--use-angle=swiftshader", "--enable-unsafe-swiftshader", "--autoplay-policy=no-user-gesture-required"] });
-const context = await browser.newContext({ viewport: { width: WIDTH, height: HEIGHT }, deviceScaleFactor: SCALE, ignoreHTTPSErrors: true });
+const context = await browser.newContext({ viewport: { width: WIDTH, height: HEIGHT }, deviceScaleFactor: SCALE, ignoreHTTPSErrors: true, userAgent: UA, locale: "en-US" });
 const manifest = { slug, base, shot: new Date().toISOString(), viewport: { width: WIDTH, height: HEIGHT, scale: SCALE }, pages: [], videos: [] };
 const savedVideos = new Map(); // src → file
 const used = new Set();
@@ -99,6 +102,7 @@ while (queue.length) {
     continue;
   }
   await page.waitForLoadState("networkidle", { timeout: 8000 }).catch(() => {});
+  await dismissOverlays(page); // a cookie banner or a newsletter popup would sit over every frame
   for (const step of steps) {
     const [kind, ...arg] = step.split(":");
     const sel = arg.join(":"); // "click:text=Product" — the selector may itself contain ":"
@@ -131,8 +135,11 @@ while (queue.length) {
   await page.evaluate(async () => {
     const h = Math.min(document.documentElement.scrollHeight, 30000);
     for (let y = 0; y < h; y += 500) { window.scrollTo(0, y); await new Promise((r) => setTimeout(r, 120)); }
-    window.scrollTo(0, 0);
+    window.scrollTo({ top: 0, behavior: "instant" });
+    // a site that animates its scrolling (Lenis, Locomotive) takes its time coming back: wait until it has
+    for (let i = 0; i < 40 && (window.scrollY > 2 || document.documentElement.scrollTop > 2); i++) { window.scrollTo(0, 0); await new Promise((r) => setTimeout(r, 100)); }
   }).catch(() => {});
+  await dismissOverlays(page); // one that opened on scroll
   await sleep(1200);
   await page.evaluate(() => document.fonts.ready).catch(() => {});
   const frame = path.join(out, `${name}.png`);

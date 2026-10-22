@@ -96,7 +96,118 @@
     ],
     "contact": {
       "email": "lorenzo@qwarter.com",
-      "place": "Las Vegas, Nevada"
+      "place": "Las Vegas, Nevada",
+      "social": [
+        {
+          "label": "Instagram",
+          "href": "https://www.instagram.com/qwarterstudio/"
+        },
+        {
+          "label": "Twitter",
+          "href": "https://twitter.com/qwartermedia"
+        },
+        {
+          "label": "LinkedIn",
+          "href": "https://www.linkedin.com/company/qwarter"
+        }
+      ],
+      "_social_provenance": "qwarter.com/contact/ (page 245786, modified 2026-09-17), its Follow Us links"
+    },
+    "about": {
+      "hero": "FULL-SERVICE DESIGN STUDIO MADE UP OF DESIGNERS, ENGINEERS, & ARTISTS",
+      "welcome": "We’re a team that believes small is plenty. It’s why we operate with a lean, nimble team—focused, intentional, and ready to tackle what needs to be done. We skip the bloat and get straight to the point, because in the world of software, simple always wins.",
+      "team": [
+        {
+          "name": "Lorenzo Scardicchio",
+          "role": "Founder"
+        },
+        {
+          "name": "Indigo Varela",
+          "role": "Operations"
+        },
+        {
+          "name": "Greg Finch",
+          "role": "Strategy"
+        },
+        {
+          "name": "Sergio Monti",
+          "role": "Art Director"
+        },
+        {
+          "name": "Emma Laurion",
+          "role": "Graphic Designer"
+        },
+        {
+          "name": "Alessio Monti",
+          "role": "Data Visualizer"
+        }
+      ],
+      "faq": [
+        {
+          "q": "How Much Do Your Services Usually Run?",
+          "a": [
+            "It depends entirely on the scope of the project but pricing may vary anywhere between the cost of a michelin star restaurant experience to an original painting by Picasso."
+          ]
+        },
+        {
+          "q": "Why Don't I Just Hire My Own Developer?",
+          "a": [
+            "If you can find another developer that writes code like Steve Wozniak and has the design eye of Leonardo DaVinci, be our guest.",
+            "Additionally, Qwarter functions like a full stack design and engineering department (similar to Startups). For the price of a single senior-level engineer, you get two to three senior-level engineers and designers."
+          ]
+        },
+        {
+          "q": "What Services Do You Offer?",
+          "a": [
+            "Websites",
+            "App Development",
+            "Web Applications",
+            "UI/UX",
+            "Brand Guidelines",
+            "Slogans & Taglines",
+            "Names",
+            "Copywriting",
+            "Paid Advertisements",
+            "Messaging",
+            "Pitch Decks",
+            "Landing Pages"
+          ]
+        },
+        {
+          "q": "How Does It Work?",
+          "a": [
+            "STEP 1: THE RENDEZVOUS",
+            "You tell us what you want. We tell you what it costs.",
+            "We haggle like spice merchants peddling saffron in an ancient Babylonian bazaar.",
+            "When it feels fair on both sides, we schedule a kickoff call and get to know your ideas better than your partner does.",
+            "STEP 2: THE SILENCE",
+            "You leave us alone for 2 weeks.",
+            "Why? Because we have an unspoken pact with our in-house muse:",
+            "If we say our prayers, limit the booze, and sit down at our desks every day—uninterrupted—she whispers brilliance in our ears.",
+            "STEP 3: THE EXHIBITION",
+            "We reconvene and present our work with as much flair as Dennis Rodman on the ’96 Bulls.",
+            "Want us to present in person? Happy to.",
+            "We fly first-class—and we’re not punching our own ticket.",
+            "Zoom is cheaper.",
+            "STEP 4: THE ALTERATION",
+            "You circle the wagons and send us your notes.",
+            "Barring holidays or global catastrophe, revised work is back in your hands within 48 hours ."
+          ]
+        },
+        {
+          "q": "How Quickly Will I Receive the Final Product?",
+          "a": [
+            "From start to finish, our projects run approximately 24 days. The first round of edits is turned around in 14 days. The final round of edits is turned around in 7 days. We add in a 3 day buffer for any unexpected hiccups."
+          ]
+        },
+        {
+          "q": "When Do I Pay?",
+          "a": [
+            "You pay 50% upfront and 50% upon project completion."
+          ]
+        }
+      ],
+      "_provenance": "qwarter.com, snapshot of 2026-10-22, verbatim: hero from the home page (WordPress page 246530, modified 2026-09-17), the FAQ from the same page's toggles; welcome and team from /about-us/ (page 245753, modified 2024-10-11)"
     }
   },
   "_provenance": {

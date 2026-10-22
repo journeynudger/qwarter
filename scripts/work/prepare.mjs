@@ -11,7 +11,8 @@
  *                             Luxe's background is that soft; pre-blurred, so no page pays for a filter
  *                             over a full-screen image, and a white site's echo is as deep as a dark one's)
  *   page-<name>.jpg           each page of the site as one tall strip, 1440 wide, at most MAX_STRIP
- *                             tall (cropped from the top): what slides inside the frame
+ *                             tall (cropped from the top) and at least MIN_STRIP (a short picture fills the
+ *                             frame): what slides inside the frame
  *
  * Raw PNGs are not committed (.gitignore); everything written here is.
  * Usage: node scripts/work/prepare.mjs [slug …]
@@ -23,7 +24,7 @@ import sharp from "sharp";
 
 const ROOT = path.resolve(import.meta.dirname, "../..");
 const WORK = path.join(ROOT, "public/media/work");
-const MAX_STRIP = 5400;
+const MAX_STRIP = 5400, MIN_STRIP = 900;
 const only = process.argv.slice(2);
 
 const { projects } = JSON.parse(fs.readFileSync(path.join(ROOT, "content/work.json"), "utf8"));
@@ -35,9 +36,31 @@ for (const project of projects) {
   if (project.media === false) continue; // a catalogue entry whose pictures are not here yet
   const dir = path.join(WORK, project.slug);
   const raw = path.join(dir, "raw");
-  const cover = path.join(raw, `${project.cover}.png`);
+  let cover = path.join(raw, `${project.cover}.png`);
   if (!fs.existsSync(cover)) throw new Error(`${project.slug}: no raw frame ${project.cover}.png (run scripts/work/shoot.mjs)`);
-
+  // the viewport frame is the cover, unless the page had not come back to its top when it was taken (a site
+  // that animates its scrolling): the frame is looked for down the whole-page capture, and when it matches
+  // best well below the top, the top of the whole-page capture is the cover instead (the log says so)
+  const whole = path.join(raw, `${project.cover}-full.png`);
+  if (fs.existsSync(whole)) {
+    const grey = (img) => img.resize(48, 30).greyscale().raw().toBuffer();
+    const frame = await grey(sharp(cover).resize(48, 30, { fit: "cover", position: "top" }));
+    const meta = await sharp(whole).metadata();
+    const win = Math.round((meta.width * 900) / 1440), step = Math.round((meta.width * 300) / 1440);
+    let best = { y: 0, d: Infinity };
+    for (let y = 0; y + win <= meta.height && y <= win * 8; y += step) {
+      const c = await grey(sharp(whole).extract({ left: 0, top: y, width: meta.width, height: win }));
+      let d = 0;
+      for (let i = 0; i < c.length; i++) d += Math.abs(frame[i] - c[i]);
+      if (d / c.length < best.d) best = { y, d: d / c.length };
+    }
+    if (best.y > step) {
+      const top = path.join(raw, `${project.cover}-top.png`);
+      await sharp(whole).extract({ left: 0, top: 0, width: meta.width, height: Math.min(meta.height, win) }).toFile(top);
+      console.log(`${project.slug}: the ${project.cover} frame shows the page ${Math.round((best.y * 1440) / meta.width)}px down, not its top; the cover is the top of the whole-page capture`);
+      cover = top;
+    }
+  }
   await sharp(cover).resize(1440, 900, { fit: "cover", position: "top" }).jpeg({ quality: 80, mozjpeg: true }).toFile(path.join(dir, "cover.jpg"));
   await sharp(cover).resize(2880, 1800, { fit: "cover", position: "top", withoutEnlargement: true }).jpeg({ quality: 68, mozjpeg: true }).toFile(path.join(dir, "cover@2x.jpg"));
   const meta = await sharp(cover).metadata();
@@ -60,7 +83,8 @@ for (const project of projects) {
     if (!fs.existsSync(src)) throw new Error(`${project.slug}: no raw frame for page ${page.name}`);
     const meta = await sharp(src).metadata();
     const scale = 1440 / meta.width;
-    const height = Math.min(Math.round(meta.height * scale), MAX_STRIP);
+    // never shorter than the frame (1440×900): a picture that is, fills it (the film's window is 900 tall too)
+    const height = Math.max(MIN_STRIP, Math.min(Math.round(meta.height * scale), MAX_STRIP));
     const out = path.join(dir, `page-${page.name}.jpg`);
     await sharp(src).resize(1440, height, { fit: "cover", position: "top" }).jpeg({ quality: 72, mozjpeg: true }).toFile(out);
     strips.push(`${page.name} ${height}px ${kb(out)}`);
