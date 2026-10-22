@@ -1,0 +1,35 @@
+{
+  "slug": "ignite-beacon",
+  "base": "https://ignitebeacon.com",
+  "shot": "2026-10-22T18:53:39.254Z",
+  "viewport": {
+    "width": 1440,
+    "height": 900,
+    "scale": 2
+  },
+  "pages": [
+    {
+      "name": "home",
+      "route": "/",
+      "url": "https://ignitebeacon.com/",
+      "title": "beacon — the night awaits",
+      "description": "Light up when you're down. See who else is. Make spontaneous plans with close friends. No feeds. No posts. Just fire on high ground.",
+      "height": 6031,
+      "frame": "home.png",
+      "full": "home-full.png",
+      "videos": []
+    },
+    {
+      "name": "support",
+      "route": "/support",
+      "url": "https://ignitebeacon.com/support",
+      "title": "Support — beacon",
+      "description": "Get help with beacon. Contact our support team for questions, feedback, or issues.",
+      "height": 2635,
+      "frame": "support.png",
+      "full": "support-full.png",
+      "videos": []
+    }
+  ],
+  "videos": []
+}

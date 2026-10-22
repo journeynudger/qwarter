@@ -1,0 +1,113 @@
+{
+  "slug": "journey",
+  "base": "https://journeynudge.com",
+  "shot": "2026-10-22T18:51:32.563Z",
+  "viewport": {
+    "width": 1440,
+    "height": 900,
+    "scale": 2
+  },
+  "pages": [
+    {
+      "name": "home",
+      "route": "/",
+      "url": "https://journeynudge.com/",
+      "title": "journey – The nudge you need, when you need it.",
+      "description": null,
+      "height": 8713,
+      "frame": "home.png",
+      "full": "home-full.png",
+      "videos": []
+    },
+    {
+      "name": "features",
+      "route": "/features",
+      "url": "https://journeynudge.com/features/",
+      "title": "Features – journey",
+      "description": null,
+      "height": 4821,
+      "frame": "features.png",
+      "full": "features-full.png",
+      "videos": []
+    },
+    {
+      "name": "nudge",
+      "route": "/nudge",
+      "url": "https://journeynudge.com/nudge/",
+      "title": "Nudge – journey",
+      "description": null,
+      "height": 5665,
+      "frame": "nudge.png",
+      "full": "nudge-full.png",
+      "videos": []
+    },
+    {
+      "name": "chat",
+      "route": "/chat",
+      "url": "https://journeynudge.com/chat/",
+      "title": "Chat – journey",
+      "description": null,
+      "height": 7675,
+      "frame": "chat.png",
+      "full": "chat-full.png",
+      "videos": []
+    },
+    {
+      "name": "how-journey-works",
+      "route": "/how-journey-works",
+      "url": "https://journeynudge.com/how-journey-works/",
+      "title": "How Journey Works – journey",
+      "description": null,
+      "height": 6690,
+      "frame": "how-journey-works.png",
+      "full": "how-journey-works-full.png",
+      "videos": []
+    },
+    {
+      "name": "students",
+      "route": "/students",
+      "url": "https://journeynudge.com/students/",
+      "title": "Students – journey",
+      "description": null,
+      "height": 6764,
+      "frame": "students.png",
+      "full": "students-full.png",
+      "videos": []
+    }
+  ],
+  "videos": [
+    {
+      "route": "/",
+      "src": null,
+      "sources": [],
+      "poster": null,
+      "width": 0,
+      "height": 0,
+      "autoplay": false,
+      "loop": false,
+      "file": null
+    },
+    {
+      "route": "/chat",
+      "src": null,
+      "sources": [],
+      "poster": null,
+      "width": 0,
+      "height": 0,
+      "autoplay": false,
+      "loop": false,
+      "file": null
+    },
+    {
+      "route": "/students",
+      "src": null,
+      "sources": [],
+      "poster": null,
+      "width": 0,
+      "height": 0,
+      "autoplay": false,
+      "loop": false,
+      "file": null
+    }
+  ]
+}

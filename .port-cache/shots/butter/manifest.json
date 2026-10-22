@@ -1,0 +1,100 @@
+{
+  "slug": "butter",
+  "base": "https://butterspreads.com",
+  "shot": "2026-10-22T18:47:55.016Z",
+  "viewport": {
+    "width": 1440,
+    "height": 900,
+    "scale": 2
+  },
+  "pages": [
+    {
+      "name": "home",
+      "route": "/",
+      "url": "https://butterspreads.com/",
+      "title": "My Store",
+      "description": null,
+      "height": 4392,
+      "frame": "home.png",
+      "full": "home-full.png",
+      "videos": [
+        "video-01.mp4",
+        "video-02.mp4"
+      ]
+    },
+    {
+      "name": "collections-all",
+      "route": "/collections/all",
+      "url": "https://butterspreads.com/collections/all",
+      "title": "Products – My Store",
+      "description": null,
+      "height": 900,
+      "frame": "collections-all.png",
+      "full": "collections-all-full.png",
+      "videos": []
+    },
+    {
+      "name": "blogs-news",
+      "route": "/blogs/news",
+      "url": "https://butterspreads.com/blogs/news",
+      "title": "Education – My Store",
+      "description": null,
+      "height": 1023,
+      "frame": "blogs-news.png",
+      "full": "blogs-news-full.png",
+      "videos": []
+    },
+    {
+      "name": "pages-contact",
+      "route": "/pages/contact",
+      "url": "https://butterspreads.com/pages/contact",
+      "title": "Contact – My Store",
+      "description": null,
+      "height": 989,
+      "frame": "pages-contact.png",
+      "full": "pages-contact-full.png",
+      "videos": []
+    },
+    {
+      "name": "products-2-pack-infused-ghee-butter",
+      "route": "/products/2-pack-infused-ghee-butter",
+      "url": "https://butterspreads.com/products/2-pack-infused-ghee-butter",
+      "title": "Cookie Butter – My Store",
+      "description": "Live Rosin Infused Cookie Butter 100MG Delta-9 THC per jar | 3.5oz Our Live Rosin infused Cookie Butter combines decadent flavor with functional cannabinoids for a balanced experience. Each jar contains 100MG hemp-derived Delta-9 THC, carefully blended with effect-focused cannabinoids tailored for day or night use. Pro",
+      "height": 1904,
+      "frame": "products-2-pack-infused-ghee-butter.png",
+      "full": "products-2-pack-infused-ghee-butter-full.png",
+      "videos": []
+    }
+  ],
+  "videos": [
+    {
+      "route": "/",
+      "src": "https://butterspreads.com/cdn/shop/videos/c/vp/779437caafbc49aaa3ffcd25e96d16c5/779437caafbc49aaa3ffcd25e96d16c5.HD-720p-1.6Mbps-60748436.mp4?v=0",
+      "sources": [
+        "https://butterspreads.com/cdn/shop/videos/c/vp/779437caafbc49aaa3ffcd25e96d16c5/779437caafbc49aaa3ffcd25e96d16c5.HD-720p-1.6Mbps-60748436.mp4?v=0"
+      ],
+      "poster": null,
+      "width": 1280,
+      "height": 720,
+      "autoplay": true,
+      "loop": true,
+      "file": "video-01.mp4",
+      "bytes": 2458646
+    },
+    {
+      "route": "/",
+      "src": "https://butterspreads.com/cdn/shop/videos/c/vp/baacc10b71b74097b409dd50148973e3/baacc10b71b74097b409dd50148973e3.HD-1080p-2.5Mbps-63157547.mp4?v=0",
+      "sources": [
+        "https://butterspreads.com/cdn/shop/videos/c/vp/baacc10b71b74097b409dd50148973e3/baacc10b71b74097b409dd50148973e3.HD-1080p-2.5Mbps-63157547.mp4?v=0"
+      ],
+      "poster": "https://butterspreads.com/cdn/shop/files/preview_images/baacc10b71b74097b409dd50148973e3.thumbnail.0000000000_2500x.jpg?v=1763483785",
+      "width": 606,
+      "height": 1080,
+      "autoplay": true,
+      "loop": true,
+      "file": "video-02.mp4",
+      "bytes": 2468077
+    }
+  ]
+}

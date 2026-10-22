@@ -1,0 +1,24 @@
+{
+  "slug": "mzaero",
+  "base": "https://mzaero.com",
+  "shot": "2026-10-22T18:52:39.024Z",
+  "viewport": {
+    "width": 1440,
+    "height": 900,
+    "scale": 2
+  },
+  "pages": [
+    {
+      "name": "home",
+      "route": "/",
+      "url": "https://mzaero.com/",
+      "title": "MZAERO - Mzaero",
+      "description": null,
+      "height": 5709,
+      "frame": "home.png",
+      "full": "home-full.png",
+      "videos": []
+    }
+  ],
+  "videos": []
+}

@@ -1,0 +1,101 @@
+{
+  "slug": "core-rhythm-fitness",
+  "base": "https://corerhythmfitness.net",
+  "shot": "2026-10-22T18:52:47.667Z",
+  "viewport": {
+    "width": 1440,
+    "height": 900,
+    "scale": 2
+  },
+  "pages": [
+    {
+      "name": "home",
+      "route": "/",
+      "url": "https://www.corerhythmfitness.net/",
+      "title": "CORE RHYTHM FITNESS",
+      "description": null,
+      "height": 7039,
+      "frame": "home.png",
+      "full": "home-full.png",
+      "videos": [
+        "blob:https://www.corerhythmfitness.net/bae0250f-d475-4627-a538-a8ba10d96556",
+        "blob:https://www.corerhythmfitness.net/1c67b7a0-7d36-4aa4-b64a-30e001feb208",
+        "blob:https://www.corerhythmfitness.net/55b5a79e-fc37-4789-9a22-9d2128dba8e4"
+      ]
+    },
+    {
+      "name": "about",
+      "route": "/about",
+      "url": "https://www.corerhythmfitness.net/about",
+      "title": "About — CORE RHYTHM FITNESS",
+      "description": null,
+      "height": 9721,
+      "frame": "about.png",
+      "full": "about-full.png",
+      "videos": []
+    },
+    {
+      "name": "how-it-works",
+      "route": "/how-it-works",
+      "url": "https://www.corerhythmfitness.net/how-it-works",
+      "title": "How It Works — CORE RHYTHM FITNESS",
+      "description": null,
+      "height": 4628,
+      "frame": "how-it-works.png",
+      "full": "how-it-works-full.png",
+      "videos": []
+    },
+    {
+      "name": "connect",
+      "route": "/connect",
+      "url": "https://www.corerhythmfitness.net/connect",
+      "title": "Connect — CORE RHYTHM FITNESS",
+      "description": null,
+      "height": 3951,
+      "frame": "connect.png",
+      "full": "connect-full.png",
+      "videos": []
+    }
+  ],
+  "videos": [
+    {
+      "route": "/",
+      "src": "blob:https://www.corerhythmfitness.net/bae0250f-d475-4627-a538-a8ba10d96556",
+      "sources": [
+        "blob:https://www.corerhythmfitness.net/bae0250f-d475-4627-a538-a8ba10d96556"
+      ],
+      "poster": null,
+      "width": 1920,
+      "height": 1080,
+      "autoplay": false,
+      "loop": false,
+      "file": null
+    },
+    {
+      "route": "/",
+      "src": "blob:https://www.corerhythmfitness.net/1c67b7a0-7d36-4aa4-b64a-30e001feb208",
+      "sources": [
+        "blob:https://www.corerhythmfitness.net/1c67b7a0-7d36-4aa4-b64a-30e001feb208"
+      ],
+      "poster": null,
+      "width": 1920,
+      "height": 1080,
+      "autoplay": false,
+      "loop": false,
+      "file": null
+    },
+    {
+      "route": "/",
+      "src": "blob:https://www.corerhythmfitness.net/55b5a79e-fc37-4789-9a22-9d2128dba8e4",
+      "sources": [
+        "blob:https://www.corerhythmfitness.net/55b5a79e-fc37-4789-9a22-9d2128dba8e4"
+      ],
+      "poster": null,
+      "width": 1920,
+      "height": 1080,
+      "autoplay": false,
+      "loop": false,
+      "file": null
+    }
+  ]
+}
