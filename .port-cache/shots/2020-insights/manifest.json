@@ -1,0 +1,57 @@
+{
+  "slug": "2020-insights",
+  "base": "https://2020insights.net",
+  "shot": "2026-10-22T18:38:14.021Z",
+  "viewport": {
+    "width": 1440,
+    "height": 900,
+    "scale": 2
+  },
+  "pages": [
+    {
+      "name": "home",
+      "route": "/",
+      "url": "https://2020insights.net/",
+      "title": "Insights | Purpose-Powered Performance",
+      "description": null,
+      "height": 4878,
+      "frame": "home.png",
+      "full": "home-full.png",
+      "videos": []
+    },
+    {
+      "name": "home-2",
+      "route": "/home",
+      "url": "https://2020insights.net/home",
+      "title": "Insights | Purpose-Powered Performance",
+      "description": null,
+      "height": 4878,
+      "frame": "home-2.png",
+      "full": "home-2-full.png",
+      "videos": []
+    },
+    {
+      "name": "our-story",
+      "route": "/our-story",
+      "url": "https://2020insights.net/our-story",
+      "title": "Our Story | Insights",
+      "description": null,
+      "height": 2362,
+      "frame": "our-story.png",
+      "full": "our-story-full.png",
+      "videos": []
+    },
+    {
+      "name": "perspectives",
+      "route": "/perspectives",
+      "url": "https://2020insights.net/perspectives",
+      "title": "Perspectives | Insights",
+      "description": null,
+      "height": 1673,
+      "frame": "perspectives.png",
+      "full": "perspectives-full.png",
+      "videos": []
+    }
+  ],
+  "videos": []
+}

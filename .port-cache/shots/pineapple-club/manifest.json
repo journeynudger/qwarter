@@ -1,0 +1,57 @@
+{
+  "slug": "pineapple-club",
+  "base": "https://pineappleclub.com",
+  "shot": "2026-10-22T18:38:49.132Z",
+  "viewport": {
+    "width": 1440,
+    "height": 900,
+    "scale": 2
+  },
+  "pages": [
+    {
+      "name": "home",
+      "route": "/",
+      "url": "https://www.pineappleclub.com/",
+      "title": "Restaurant | Pineapple Club | New York",
+      "description": "Welcome to Pineapple Club! Visit East Village's premier, cocktail-focused restaurant.",
+      "height": 3606,
+      "frame": "home.png",
+      "full": "home-full.png",
+      "videos": []
+    },
+    {
+      "name": "menus",
+      "route": "/menus",
+      "url": "https://www.pineappleclub.com/menus",
+      "title": "Menus | Pineapple Club",
+      "description": null,
+      "height": 1021,
+      "frame": "menus.png",
+      "full": "menus-full.png",
+      "videos": []
+    },
+    {
+      "name": "reservations",
+      "route": "/reservations",
+      "url": "https://www.pineappleclub.com/reservations",
+      "title": "Reservations | Pineapple Club",
+      "description": null,
+      "height": 1484,
+      "frame": "reservations.png",
+      "full": "reservations-full.png",
+      "videos": []
+    },
+    {
+      "name": "hosted-events",
+      "route": "/hosted-events",
+      "url": "https://www.pineappleclub.com/hosted-events",
+      "title": "Hosted Events | Pineapple Club",
+      "description": null,
+      "height": 900,
+      "frame": "hosted-events.png",
+      "full": "hosted-events-full.png",
+      "videos": []
+    }
+  ],
+  "videos": []
+}

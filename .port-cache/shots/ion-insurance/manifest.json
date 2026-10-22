@@ -1,0 +1,57 @@
+{
+  "slug": "ion-insurance",
+  "base": "https://ioninsuranceinc.com",
+  "shot": "2026-10-22T18:37:27.162Z",
+  "viewport": {
+    "width": 1440,
+    "height": 900,
+    "scale": 2
+  },
+  "pages": [
+    {
+      "name": "home",
+      "route": "/",
+      "url": "https://ioninsuranceinc.com/",
+      "title": "ION Insurance |",
+      "description": null,
+      "height": 4847,
+      "frame": "home.png",
+      "full": "home-full.png",
+      "videos": []
+    },
+    {
+      "name": "about",
+      "route": "/about/",
+      "url": "https://ioninsuranceinc.com/about/",
+      "title": "About | ION Insurance",
+      "description": null,
+      "height": 5510,
+      "frame": "about.png",
+      "full": "about-full.png",
+      "videos": []
+    },
+    {
+      "name": "products",
+      "route": "/products/",
+      "url": "https://ioninsuranceinc.com/products/",
+      "title": "Products | ION Insurance",
+      "description": null,
+      "height": 2426,
+      "frame": "products.png",
+      "full": "products-full.png",
+      "videos": []
+    },
+    {
+      "name": "financials",
+      "route": "/financials/",
+      "url": "https://ioninsuranceinc.com/financials/",
+      "title": "Financials | ION Insurance",
+      "description": null,
+      "height": 4149,
+      "frame": "financials.png",
+      "full": "financials-full.png",
+      "videos": []
+    }
+  ],
+  "videos": []
+}
