@@ -1,0 +1,55 @@
+# Captures the reference design and the WordPress site from a GitHub runner (which has the open
+# internet) and publishes them to a branch, for a build environment whose network policy allows
+# GitHub only. Run it from the Actions tab or the API (workflow_dispatch); then, locally:
+#   git fetch origin captures && git checkout origin/captures -- .design-cache .port-cache
+name: Capture the reference design and the WordPress site
+
+on:
+  workflow_dispatch:
+    inputs:
+      design_origin:
+        description: The reference design to capture completely (scripts/design/capture.mjs)
+        default: https://depoluxe.xyz
+      wordpress_origin:
+        description: The WordPress site to snapshot through its REST API (scripts/port/fetch.py)
+        default: https://qwarter.com
+      branch:
+        description: The branch the captures are pushed to (replaced each run)
+        default: captures
+
+permissions:
+  contents: write
+
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - name: Capture the design
+        continue-on-error: true
+        run: node scripts/design/capture.mjs --origin "${{ inputs.design_origin }}" --out .design-cache/reference --max 80 --video
+      - name: Snapshot WordPress
+        continue-on-error: true
+        run: python3 scripts/port/fetch.py --origin "${{ inputs.wordpress_origin }}"
+      - name: Publish the captures to the branch
+        run: |
+          set -e
+          mkdir -p .design-cache .port-cache
+          # GitHub refuses files over 100 MB: leave those out, but say which
+          find .design-cache .port-cache -type f -size +95M -printf '%s %p\n' > .design-cache/too-large.txt || true
+          find .design-cache .port-cache -type f -size +95M -delete || true
+          du -sh .design-cache .port-cache || true
+          git config user.name "qwarter capture"
+          git config user.email "captures@users.noreply.github.com"
+          git checkout -q --orphan "${{ inputs.branch }}"
+          git rm -rq --cached .
+          git add -f .design-cache .port-cache
+          git -c commit.gpgsign=false commit -qm "Captures $(date -u +%FT%TZ): ${{ inputs.design_origin }} and ${{ inputs.wordpress_origin }}"
+          git push -f origin "${{ inputs.branch }}"
