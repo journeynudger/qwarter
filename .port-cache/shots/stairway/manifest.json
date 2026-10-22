@@ -1,0 +1,57 @@
+{
+  "slug": "stairway",
+  "base": "https://stairway.audio",
+  "shot": "2026-10-22T18:49:04.854Z",
+  "viewport": {
+    "width": 1440,
+    "height": 900,
+    "scale": 2
+  },
+  "pages": [
+    {
+      "name": "home",
+      "route": "/",
+      "url": "https://stairway.audio/",
+      "title": "Stairway Audio. Analog Tone. Digital Soul.",
+      "description": "Real analog samples from legendary synthesizers, mapped into lightweight modern plug-ins. Load, play, create.",
+      "height": 6232,
+      "frame": "home.png",
+      "full": "home-full.png",
+      "videos": []
+    },
+    {
+      "name": "shop",
+      "route": "/shop",
+      "url": "https://stairway.audio/shop",
+      "title": "Shop All · Stairway Audio",
+      "description": "Browse every Stairway Audio plugin — real analog samples mapped into lightweight modern plug-ins.",
+      "height": 1188,
+      "frame": "shop.png",
+      "full": "shop-full.png",
+      "videos": []
+    },
+    {
+      "name": "support",
+      "route": "/support",
+      "url": "https://stairway.audio/support",
+      "title": "Support · Stairway Audio",
+      "description": "Get in touch with the Stairway Audio team.",
+      "height": 1067,
+      "frame": "support.png",
+      "full": "support-full.png",
+      "videos": []
+    },
+    {
+      "name": "shop-sa-s1",
+      "route": "/shop/sa-s1",
+      "url": "https://stairway.audio/shop/sa-s1",
+      "title": "SA-S1 · Stairway Audio",
+      "description": "61 real analog samples. Pads, leads, bass, plucks, and FX with the full character of the Oberheim OB-Xa. 16-voice polyphony, ADSR envelope, 4 built-in effects.",
+      "height": 6344,
+      "frame": null,
+      "full": "shop-sa-s1-full.png",
+      "videos": []
+    }
+  ],
+  "videos": []
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "kind-footprint",
+  "base": "https://kindfootprint.org",
+  "shot": "2026-10-22T18:51:15.954Z",
+  "viewport": {
+    "width": 1440,
+    "height": 900,
+    "scale": 2
+  },
+  "pages": [
+    {
+      "name": "home",
+      "route": "/",
+      "url": "https://kindfootprint.org/",
+      "title": "Kind Footprint | Saving Lives in Medellín, Colombia",
+      "description": "Kind footprint U.S. 501(c)(3) nonprofit saving lives in Medellín. $2,000 per life saved. 100% of donations reach programs. 205 emergencies in 2025. Donate today",
+      "height": 9033,
+      "frame": "home.png",
+      "full": "home-full.png",
+      "videos": []
+    },
+    {
+      "name": "about-us",
+      "route": "/about-us/",
+      "url": "https://kindfootprint.org/about-us/",
+      "title": "About Kind Footprint | Humanitarian NGO in Medellín,Colombia",
+      "description": "Kind Footprint is a U.S. 501(c)(3) nonprofit connecting international donors with vetted humanitarian programs in Medellín. 6 years. Every dollar tracked.",
+      "height": 7006,
+      "frame": "about-us.png",
+      "full": "about-us-full.png",
+      "videos": []
+    },
+    {
+      "name": "faq",
+      "route": "/faq/",
+      "url": "https://kindfootprint.org/faq/",
+      "title": "FAQ | Kind Footprint | Donations, Volunteers & Programs",
+      "description": "FAQ about Kind Footprint U.S. 501(c)(3) nonprofit in Medellín, Colombia. Donations, volunteers, programs, transparency, and tax deductions.",
+      "height": 5698,
+      "frame": "faq.png",
+      "full": "faq-full.png",
+      "videos": []
+    }
+  ],
+  "videos": []
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "epic-esg",
+  "base": "https://epicesg.com",
+  "shot": "2026-10-22T18:47:08.372Z",
+  "viewport": {
+    "width": 1440,
+    "height": 900,
+    "scale": 2
+  },
+  "pages": [
+    {
+      "name": "home",
+      "route": "/",
+      "url": "https://epicesg.com/",
+      "title": "503 Service Unavailable",
+      "description": null,
+      "height": 900,
+      "frame": "home.png",
+      "full": "home-full.png",
+      "videos": []
+    }
+  ],
+  "videos": []
+}

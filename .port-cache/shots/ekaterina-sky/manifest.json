@@ -1,0 +1,24 @@
+{
+  "slug": "ekaterina-sky",
+  "base": "https://ekaterina-sky.art",
+  "shot": "2026-10-22T18:47:14.471Z",
+  "viewport": {
+    "width": 1440,
+    "height": 900,
+    "scale": 2
+  },
+  "pages": [
+    {
+      "name": "home",
+      "route": "/",
+      "url": "https://ekaterina-sky.com/",
+      "title": "Ekaterina Sky – Impact Artist",
+      "description": null,
+      "height": 6591,
+      "frame": "home.png",
+      "full": "home-full.png",
+      "videos": []
+    }
+  ],
+  "videos": []
+}

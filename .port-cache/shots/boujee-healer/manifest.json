@@ -1,0 +1,57 @@
+{
+  "slug": "boujee-healer",
+  "base": "https://theboujeehealer.com",
+  "shot": "2026-10-22T18:47:44.332Z",
+  "viewport": {
+    "width": 1440,
+    "height": 900,
+    "scale": 2
+  },
+  "pages": [
+    {
+      "name": "home",
+      "route": "/",
+      "url": "https://theboujeehealer.com/",
+      "title": "The Boujee Healer™ | Gayle Fuller - Embodiment, Alignment & Divine Feminine Activation",
+      "description": "Gayle Fuller, The Boujee Healer™, guides awakened women out of healing mode and into embodied remembrance - alignment sessions, divine feminine & sexual energy containers, and the Family of Light community. Luxury, softness, and sovereignty as your spiritual birthright.",
+      "height": 11188,
+      "frame": "home.png",
+      "full": "home-full.png",
+      "videos": []
+    },
+    {
+      "name": "index-html",
+      "route": "/index.html",
+      "url": "https://theboujeehealer.com/index.html",
+      "title": "The Boujee Healer™ | Gayle Fuller - Embodiment, Alignment & Divine Feminine Activation",
+      "description": "Gayle Fuller, The Boujee Healer™, guides awakened women out of healing mode and into embodied remembrance - alignment sessions, divine feminine & sexual energy containers, and the Family of Light community. Luxury, softness, and sovereignty as your spiritual birthright.",
+      "height": 11188,
+      "frame": "index-html.png",
+      "full": "index-html-full.png",
+      "videos": []
+    },
+    {
+      "name": "family-of-light-html",
+      "route": "/family-of-light.html",
+      "url": "https://theboujeehealer.com/family-of-light.html",
+      "title": "Family of Light | Gayle Fuller – The Boujee Healer",
+      "description": "The Family of Light is a sacred multidimensional community for starseeds, visionaries, and light-bearers ready to rise into their mission together with Gayle Fuller.",
+      "height": 4747,
+      "frame": "family-of-light-html.png",
+      "full": "family-of-light-html-full.png",
+      "videos": []
+    },
+    {
+      "name": "meditation-bundles-html",
+      "route": "/meditation-bundles.html",
+      "url": "https://theboujeehealer.com/meditation-bundles.html",
+      "title": "Meditation Bundles | Gayle Fuller – The Boujee Healer",
+      "description": "Sacred meditation bundles by Gayle Fuller. Experience the 7 Sacred Meditations of the Violet Flame and Unlock Your 7 Chakras - transformative journeys for your soul.",
+      "height": 3385,
+      "frame": "meditation-bundles-html.png",
+      "full": "meditation-bundles-html-full.png",
+      "videos": []
+    }
+  ],
+  "videos": []
+}
