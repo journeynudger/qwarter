@@ -1,0 +1,65 @@
+[
+ {
+  "id": 11,
+  "count": 2,
+  "description": "",
+  "link": "https://qwarter.com/category/career/",
+  "name": "Career",
+  "slug": "career",
+  "parent": 0
+ },
+ {
+  "id": 1,
+  "count": 2,
+  "description": "",
+  "link": "https://qwarter.com/category/education/",
+  "name": "Education",
+  "slug": "education",
+  "parent": 0
+ },
+ {
+  "id": 12,
+  "count": 18,
+  "description": "",
+  "link": "https://qwarter.com/category/e-q/",
+  "name": "EQ",
+  "slug": "e-q",
+  "parent": 0
+ },
+ {
+  "id": 36,
+  "count": 6,
+  "description": "FILLING THE GAP IN KNOWLEDGE OF \r\nHUMAN SOCIAL-MEDIA INTERACTIONS",
+  "link": "https://qwarter.com/category/connectivity/",
+  "name": "Hyper-connectivity",
+  "slug": "connectivity",
+  "parent": 0
+ },
+ {
+  "id": 38,
+  "count": 6,
+  "description": "",
+  "link": "https://qwarter.com/category/story/",
+  "name": "Story",
+  "slug": "story",
+  "parent": 0
+ },
+ {
+  "id": 39,
+  "count": 1,
+  "description": "",
+  "link": "https://qwarter.com/category/time-management/",
+  "name": "Time Management",
+  "slug": "time-management",
+  "parent": 0
+ },
+ {
+  "id": 37,
+  "count": 1,
+  "description": "",
+  "link": "https://qwarter.com/category/trending/",
+  "name": "Trending",
+  "slug": "trending",
+  "parent": 0
+ }
+]
