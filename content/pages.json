@@ -1,0 +1,54 @@
+[
+  {
+    "slug": "featured",
+    "path": "/",
+    "kind": "featured",
+    "title": "Qwarter",
+    "description": "Qwarter is a studio that helps people slow down, tune in, and define what’s real — then turns that clarity into websites, applications, and words that feel true to who they are.",
+    "html": {},
+    "body": {},
+    "head": [],
+    "scripts": [],
+    "image": "/media/og.jpg",
+    "modified": null
+  },
+  {
+    "slug": "work",
+    "path": "/work/",
+    "kind": "archive",
+    "title": "Work – Qwarter",
+    "description": "Everything Qwarter has made: the sites shown as they are, and the catalogue of brands and websites from qwarter.com.",
+    "html": {},
+    "body": {},
+    "head": [],
+    "scripts": [],
+    "image": "/media/og.jpg",
+    "modified": null
+  },
+  {
+    "slug": "approach",
+    "path": "/approach/",
+    "kind": "approach",
+    "title": "Approach – Qwarter",
+    "description": "Qwarter is a studio that helps people slow down, tune in, and define what’s real — then turns that clarity into websites, applications, and words that feel true to who they are.",
+    "html": {},
+    "body": {},
+    "head": [],
+    "scripts": [],
+    "image": "/media/og.jpg",
+    "modified": null
+  },
+  {
+    "slug": "contact",
+    "path": "/contact/",
+    "kind": "contact",
+    "title": "Contact – Qwarter",
+    "description": "Write to Qwarter: lorenzo@qwarter.com. Las Vegas, Nevada.",
+    "html": {},
+    "body": {},
+    "head": [],
+    "scripts": [],
+    "image": "/media/og.jpg",
+    "modified": null
+  }
+]
