@@ -1,0 +1,110 @@
+{
+  "route": "/",
+  "slug": "home",
+  "url": "https://depoluxe.xyz/",
+  "widths": {
+    "390": {
+      "frames": 25,
+      "menu": false,
+      "errors": []
+    },
+    "1440": {
+      "frames": 25,
+      "menu": false,
+      "errors": []
+    }
+  },
+  "stack": {
+    "generator": null,
+    "webflow": false,
+    "webflowPage": null,
+    "webflowSite": null,
+    "nextjs": false,
+    "nuxt": false,
+    "framer": false,
+    "wordpress": false,
+    "squarespace": false,
+    "wix": false,
+    "shopify": false,
+    "gsap": null,
+    "scrollTrigger": false,
+    "splitText": false,
+    "lenis": false,
+    "locomotive": false,
+    "barba": false,
+    "swup": false,
+    "swiper": false,
+    "three": false,
+    "splitType": false,
+    "lottie": false,
+    "jquery": null,
+    "customCursorCss": false,
+    "scripts": [
+      "https://depoluxe.xyz/assets/main.d4f10deae0b58c57225e.js"
+    ]
+  },
+  "title": "Depo Luxe",
+  "status": 200,
+  "loadMs": 52953,
+  "cursorFollowers": 0,
+  "hovers": 29,
+  "fonts": {
+    "faces": [
+      {
+        "family": "\"EB Garamond\"",
+        "weight": "400",
+        "style": "normal",
+        "src": "url(\"/assets/fonts/eb-garamond-v32-latin-regular.woff2\") format(\"woff2\")",
+        "sheet": null
+      },
+      {
+        "family": "\"EB Garamond\"",
+        "weight": "400",
+        "style": "italic",
+        "src": "url(\"/assets/fonts/eb-garamond-v32-latin-italic.woff2\") format(\"woff2\")",
+        "sheet": null
+      }
+    ],
+    "loaded": [
+      {
+        "family": "EB Garamond",
+        "weight": "400",
+        "style": "normal",
+        "status": "loaded"
+      },
+      {
+        "family": "EB Garamond",
+        "weight": "400",
+        "style": "italic",
+        "status": "loaded"
+      }
+    ]
+  },
+  "breakpoints": [
+    "(max-width: 480px)",
+    "(min-width: 1400px)",
+    "(min-width: 1650px)",
+    "(min-width: 1900px)",
+    "(hover: none)",
+    "(min-width: 480px)",
+    "(hover: hover)"
+  ],
+  "links": [
+    "/",
+    "/archive/",
+    "/talent/",
+    "/about/",
+    "/contact/",
+    "/guslo/numero-france/",
+    "/turbo/romeo/",
+    "/rafael-cetin/blue-voyage/",
+    "/fabio-de-frel/holiday/",
+    "/jonas-akerlund/spring-summer/",
+    "/christian-larson/most-wanted/",
+    "/daniel-m-cox/precioso/",
+    "/information-security-policy/",
+    "/privacy-policy/",
+    "/legal-notice/",
+    "/cookies-policy/"
+  ]
+}

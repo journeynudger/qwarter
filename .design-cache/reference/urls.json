@@ -1,0 +1,2672 @@
+{
+  "https://depoluxe.xyz/": {
+    "file": "files/depoluxe.xyz/index.html",
+    "status": 200,
+    "type": "text/html",
+    "bytes": 44824,
+    "routes": [
+      "/",
+      "/archive/"
+    ]
+  },
+  "https://depoluxe.xyz/assets/fonts/eb-garamond-v32-latin-regular.woff2": {
+    "file": "files/depoluxe.xyz/assets/fonts/eb-garamond-v32-latin-regular.woff2",
+    "status": 200,
+    "type": "font/woff2",
+    "bytes": 21704,
+    "routes": [
+      "/",
+      "/archive/"
+    ]
+  },
+  "https://depoluxe.xyz/assets/main.b0b97476d709cb690ddf.css": {
+    "file": "files/depoluxe.xyz/assets/main.b0b97476d709cb690ddf.css",
+    "status": 200,
+    "type": "text/css",
+    "bytes": 76444,
+    "routes": [
+      "/",
+      "/archive/"
+    ]
+  },
+  "https://depoluxe.xyz/assets/fonts/eb-garamond-v32-latin-italic.woff2": {
+    "file": "files/depoluxe.xyz/assets/fonts/eb-garamond-v32-latin-italic.woff2",
+    "status": 200,
+    "type": "font/woff2",
+    "bytes": 22172,
+    "routes": [
+      "/",
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18113209/Captura-de-pantalla-2026-05-18-a-las-13.31.53-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18113209/Captura-de-pantalla-2026-05-18-a-las-13.31.53-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 142,
+    "routes": [
+      "/",
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07144202/Captura-de-pantalla-2026-05-07-a-las-16.41.52-20x9.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07144202/Captura-de-pantalla-2026-05-07-a-las-16.41.52-20x9.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 130,
+    "routes": [
+      "/",
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18090700/Captura-de-pantalla-2026-05-18-a-las-11.06.50-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18090700/Captura-de-pantalla-2026-05-18-a-las-11.06.50-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 150,
+    "routes": [
+      "/",
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07110610/Captura-de-pantalla-2026-05-07-a-las-13.06.03-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07110610/Captura-de-pantalla-2026-05-07-a-las-13.06.03-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 192,
+    "routes": [
+      "/",
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17175218/Captura-de-pantalla-2026-03-17-a-las-18.51.35-20x13.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17175218/Captura-de-pantalla-2026-03-17-a-las-18.51.35-20x13.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 192,
+    "routes": [
+      "/",
+      "/archive/"
+    ]
+  },
+  "https://depoluxe.xyz/assets/svg/depo-luxe-box.svg": {
+    "file": "files/depoluxe.xyz/assets/svg/depo-luxe-box.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 5994,
+    "routes": [
+      "/",
+      "/archive/"
+    ]
+  },
+  "https://depoluxe.xyz/api/videos-data": {
+    "file": "files/depoluxe.xyz/api/videos-data/__index",
+    "status": 502,
+    "type": "text/plain",
+    "bytes": 0,
+    "routes": [
+      "/",
+      "/archive/"
+    ]
+  },
+  "https://depoluxe.xyz/assets/main.d4f10deae0b58c57225e.js": {
+    "file": "files/depoluxe.xyz/assets/main.d4f10deae0b58c57225e.js",
+    "status": 200,
+    "type": "application/javascript",
+    "bytes": 796486,
+    "routes": [
+      "/",
+      "/archive/"
+    ]
+  },
+  "https://depoluxe.xyz/imageLoaderWorker.js": {
+    "file": "files/depoluxe.xyz/imageLoaderWorker.js",
+    "status": 200,
+    "type": "application/javascript",
+    "bytes": 727,
+    "routes": [
+      "/",
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16103055/Captura-de-pantalla-2026-03-16-a-las-11.29.59-20x10.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16103055/Captura-de-pantalla-2026-03-16-a-las-11.29.59-20x10.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 148,
+    "routes": [
+      "/",
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/18100957/Captura-de-pantalla-2026-03-18-a-las-11.09.37-20x14.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/18100957/Captura-de-pantalla-2026-03-18-a-las-11.09.37-20x14.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 142,
+    "routes": [
+      "/",
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18113209/Captura-de-pantalla-2026-05-18-a-las-13.31.53-1832x1023.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18113209/Captura-de-pantalla-2026-05-18-a-las-13.31.53-1832x1023.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/",
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07144202/Captura-de-pantalla-2026-05-07-a-las-16.41.52-1832x792.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07144202/Captura-de-pantalla-2026-05-07-a-las-16.41.52-1832x792.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/",
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18090700/Captura-de-pantalla-2026-05-18-a-las-11.06.50-1832x1008.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18090700/Captura-de-pantalla-2026-05-18-a-las-11.06.50-1832x1008.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/",
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07110610/Captura-de-pantalla-2026-05-07-a-las-13.06.03-1832x1030.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07110610/Captura-de-pantalla-2026-05-07-a-las-13.06.03-1832x1030.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/",
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17175218/Captura-de-pantalla-2026-03-17-a-las-18.51.35.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17175218/Captura-de-pantalla-2026-03-17-a-las-18.51.35.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/",
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16103055/Captura-de-pantalla-2026-03-16-a-las-11.29.59-1832x948.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16103055/Captura-de-pantalla-2026-03-16-a-las-11.29.59-1832x948.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/",
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/18100957/Captura-de-pantalla-2026-03-18-a-las-11.09.37-916x642.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/18100957/Captura-de-pantalla-2026-03-18-a-las-11.09.37-916x642.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/",
+      "/archive/"
+    ]
+  },
+  "https://player.vimeo.com/progressive_redirect/playback/1193224808/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&signature=cb2e0d055cd07f38ca1ac47b53bbafedc78c3674a935a5419564d18763c01bab": {
+    "file": null,
+    "status": 302,
+    "type": "",
+    "bytes": 0,
+    "routes": [
+      "/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/0345e706-1e82-44fd-b4b7-6790f4d6388c/214eca9e-410cc303?__token__=st=1792697225~exp=1792700825~acl=%2Fv3-1%2Fplayback%2F0345e706-1e82-44fd-b4b7-6790f4d6388c%2F214eca9e-410cc303%2A~hmac=37149837cc8b5c81af341ff8187a0112f810a8450f393b9cde7c070ac9256c42&r=dXMtd2VzdDE%3D": {
+    "file": null,
+    "status": 206,
+    "type": "video/mp4",
+    "bytes": 0,
+    "routes": [
+      "/"
+    ]
+  },
+  "https://player.vimeo.com/progressive_redirect/playback/1174458434/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&signature=8b36505daf367e8755319c670cd0fbc45f2d427f130e903ca72bb0f289629519": {
+    "file": null,
+    "status": 302,
+    "type": "",
+    "bytes": 0,
+    "routes": [
+      "/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/5a80805a-60db-452c-9db9-c014c101aea5/8c4ff004-5ae84b91?__token__=st=1792697230~exp=1792700830~acl=%2Fv3-1%2Fplayback%2F5a80805a-60db-452c-9db9-c014c101aea5%2F8c4ff004-5ae84b91%2A~hmac=6b436ff610dfd2b502061ca055966209e5dc2ab21f977f0fb17ec799a29c72e1&r=dXMtZWFzdDE%3D": {
+    "file": null,
+    "status": 206,
+    "type": "video/mp4",
+    "bytes": 0,
+    "routes": [
+      "/"
+    ]
+  },
+  "https://player.vimeo.com/progressive_redirect/playback/1172510200/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&signature=18448234dc6d895af8b865cd1c2a2fd7cb4df696d58ec894f4e8e0908602631d": {
+    "file": null,
+    "status": 302,
+    "type": "",
+    "bytes": 0,
+    "routes": [
+      "/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/b17cfe78-c4bb-495d-bb58-4216112612f8/08577b90-dd6eab97?__token__=st=1792697230~exp=1792700830~acl=%2Fv3-1%2Fplayback%2Fb17cfe78-c4bb-495d-bb58-4216112612f8%2F08577b90-dd6eab97%2A~hmac=9b78a0069a0e0229422ec645a30c3d3f9a7a32cc18b69a2094d01ce5639ca364&r=dXMtZWFzdDE%3D": {
+    "file": null,
+    "status": 206,
+    "type": "video/mp4",
+    "bytes": 0,
+    "routes": [
+      "/"
+    ]
+  },
+  "https://player.vimeo.com/progressive_redirect/playback/1173375390/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&signature=5e4acad556f01ee935bde49da1baa3936194d03c390cbafdb1cfd55a6a675702": {
+    "file": null,
+    "status": 302,
+    "type": "",
+    "bytes": 0,
+    "routes": [
+      "/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/f46c28d5-f4cd-4bcb-9e8c-01b19e3e7635/3df30526-f6f61b29?__token__=st=1792697250~exp=1792700850~acl=%2Fv3-1%2Fplayback%2Ff46c28d5-f4cd-4bcb-9e8c-01b19e3e7635%2F3df30526-f6f61b29%2A~hmac=19ee26f020a00d8996feec3302fd0ce3fdfc8e10f2610c2536939690edb36614&r=dXMtZWFzdDE%3D": {
+    "file": null,
+    "status": 206,
+    "type": "video/mp4",
+    "bytes": 0,
+    "routes": [
+      "/"
+    ]
+  },
+  "https://player.vimeo.com/progressive_redirect/playback/1193185865/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&signature=7608502f54db58987fdb03f9ea94596316b0e5424fecfb9330d44507232c6c83": {
+    "file": null,
+    "status": 302,
+    "type": "",
+    "bytes": 0,
+    "routes": [
+      "/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/3fd43989-310f-439c-bd1f-d0116688f550/711a495d-41a2163c?__token__=st=1792697277~exp=1792700877~acl=%2Fv3-1%2Fplayback%2F3fd43989-310f-439c-bd1f-d0116688f550%2F711a495d-41a2163c%2A~hmac=7aa20889e09203e4aa8911ce226527dc277bc06b939a6feee7e855530872f8c5&r=dXMtY2VudHJhbDE%3D": {
+    "file": null,
+    "status": 206,
+    "type": "video/mp4",
+    "bytes": 0,
+    "routes": [
+      "/"
+    ]
+  },
+  "https://player.vimeo.com/progressive_redirect/playback/1190079362/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&signature=21aa4b10b5c895416d71936bb0d3522c2856d9ffd365c565ee3ec1fce9c77493": {
+    "file": null,
+    "status": 302,
+    "type": "",
+    "bytes": 0,
+    "routes": [
+      "/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/eb4cc894-6215-45f7-a5ee-f538f38ad64c/f648e84e-850fa115?__token__=st=1792697307~exp=1792700907~acl=%2Fv3-1%2Fplayback%2Feb4cc894-6215-45f7-a5ee-f538f38ad64c%2Ff648e84e-850fa115%2A~hmac=35fd9cb9f88aa0506f464ee8b779525b3e1d34e015a1fd317b6a7c6d9dec8fa8&r=dXMtZWFzdDE%3D": {
+    "file": null,
+    "status": 206,
+    "type": "video/mp4",
+    "bytes": 0,
+    "routes": [
+      "/"
+    ]
+  },
+  "https://player.vimeo.com/progressive_redirect/playback/1174451181/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&signature=52b8fe315bb8c7844958f30154ec649aab43787f6df10f9665baeb2fe9d293af": {
+    "file": null,
+    "status": 302,
+    "type": "",
+    "bytes": 0,
+    "routes": [
+      "/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/56defd39-a96b-4a64-9c7d-1a540d903295/518abe69-3b950993?__token__=st=1792697339~exp=1792700939~acl=%2Fv3-1%2Fplayback%2F56defd39-a96b-4a64-9c7d-1a540d903295%2F518abe69-3b950993%2A~hmac=88eb0fd2b26c6164911e21006fd332a42f9489d55b216c5306c18e9a7f8dc9ea&r=dXMtZWFzdDE%3D": {
+    "file": null,
+    "status": 206,
+    "type": "video/mp4",
+    "bytes": 0,
+    "routes": [
+      "/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/0345e706-1e82-44fd-b4b7-6790f4d6388c/214eca9e-410cc303?__token__=st=1792697374~exp=1792700974~acl=%2Fv3-1%2Fplayback%2F0345e706-1e82-44fd-b4b7-6790f4d6388c%2F214eca9e-410cc303%2A~hmac=7fbd6ac9260169029fbcb0c78d116f325ddcda3c20489f35f3d0915cad7322de&r=dXMtd2VzdDE%3D": {
+    "file": null,
+    "status": 206,
+    "type": "video/mp4",
+    "bytes": 0,
+    "routes": [
+      "/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/5a80805a-60db-452c-9db9-c014c101aea5/8c4ff004-5ae84b91?__token__=st=1792697412~exp=1792701012~acl=%2Fv3-1%2Fplayback%2F5a80805a-60db-452c-9db9-c014c101aea5%2F8c4ff004-5ae84b91%2A~hmac=76650cbdd8a2e5014c6641f816a9a14f24b0eca2203e5403b886c2895dbd126e&r=dXMtZWFzdDE%3D": {
+    "file": null,
+    "status": 206,
+    "type": "video/mp4",
+    "bytes": 0,
+    "routes": [
+      "/"
+    ]
+  },
+  "https://depoluxe.xyz/daniel-m-cox/precioso/": {
+    "file": "files/depoluxe.xyz/daniel-m-cox/precioso/index.html",
+    "status": 200,
+    "type": "text/html",
+    "bytes": 23596,
+    "routes": [
+      "/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/b17cfe78-c4bb-495d-bb58-4216112612f8/08577b90-dd6eab97?__token__=st=1792697457~exp=1792701057~acl=%2Fv3-1%2Fplayback%2Fb17cfe78-c4bb-495d-bb58-4216112612f8%2F08577b90-dd6eab97%2A~hmac=c24e7ef1b3abccbd6d3b7dd82b753f9a3a31f5094c77b8c34a5206ff0ca386fc&r=dXMtZWFzdDE%3D": {
+    "file": null,
+    "status": 206,
+    "type": "video/mp4",
+    "bytes": 0,
+    "routes": [
+      "/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/f46c28d5-f4cd-4bcb-9e8c-01b19e3e7635/3df30526-f6f61b29?__token__=st=1792697457~exp=1792701057~acl=%2Fv3-1%2Fplayback%2Ff46c28d5-f4cd-4bcb-9e8c-01b19e3e7635%2F3df30526-f6f61b29%2A~hmac=df9ca682963fcea9151b047875b37a253a2e1086cf864a1317d48a0d1654cbe8&r=dXMtZWFzdDE%3D": {
+    "file": null,
+    "status": 206,
+    "type": "video/mp4",
+    "bytes": 0,
+    "routes": [
+      "/"
+    ]
+  },
+  "https://depoluxe.xyz/turbo/romeo/": {
+    "file": "files/depoluxe.xyz/turbo/romeo/index.html",
+    "status": 200,
+    "type": "text/html",
+    "bytes": 23564,
+    "routes": [
+      "/"
+    ]
+  },
+  "https://depoluxe.xyz/guslo/numero-france/": {
+    "file": "files/depoluxe.xyz/guslo/numero-france/index.html",
+    "status": 200,
+    "type": "text/html",
+    "bytes": 23606,
+    "routes": [
+      "/",
+      "/archive/"
+    ]
+  },
+  "https://depoluxe.xyz/archive/": {
+    "file": "files/depoluxe.xyz/archive/index.html",
+    "status": 200,
+    "type": "text/html",
+    "bytes": 122728,
+    "routes": [
+      "/",
+      "/archive/"
+    ]
+  },
+  "https://depoluxe.xyz/talent/": {
+    "file": "files/depoluxe.xyz/talent/index.html",
+    "status": 200,
+    "type": "text/html",
+    "bytes": 29622,
+    "routes": [
+      "/",
+      "/archive/"
+    ]
+  },
+  "https://depoluxe.xyz/about/": {
+    "file": "files/depoluxe.xyz/about/index.html",
+    "status": 200,
+    "type": "text/html",
+    "bytes": 54619,
+    "routes": [
+      "/",
+      "/archive/"
+    ]
+  },
+  "https://depoluxe.xyz/contact/": {
+    "file": "files/depoluxe.xyz/contact/index.html",
+    "status": 200,
+    "type": "text/html",
+    "bytes": 34847,
+    "routes": [
+      "/",
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18113209/Captura-de-pantalla-2026-05-18-a-las-13.31.53-916x512.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18113209/Captura-de-pantalla-2026-05-18-a-las-13.31.53-916x512.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/",
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17175218/Captura-de-pantalla-2026-03-17-a-las-18.51.35-916x597.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17175218/Captura-de-pantalla-2026-03-17-a-las-18.51.35-916x597.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/",
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07110610/Captura-de-pantalla-2026-05-07-a-las-13.06.03-916x515.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07110610/Captura-de-pantalla-2026-05-07-a-las-13.06.03-916x515.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/",
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18090700/Captura-de-pantalla-2026-05-18-a-las-11.06.50-916x504.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18090700/Captura-de-pantalla-2026-05-18-a-las-11.06.50-916x504.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/",
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16103055/Captura-de-pantalla-2026-03-16-a-las-11.29.59-916x474.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16103055/Captura-de-pantalla-2026-03-16-a-las-11.29.59-916x474.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/",
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07144202/Captura-de-pantalla-2026-05-07-a-las-16.41.52-916x396.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07144202/Captura-de-pantalla-2026-05-07-a-las-16.41.52-916x396.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/",
+      "/archive/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/0345e706-1e82-44fd-b4b7-6790f4d6388c/214eca9e-410cc303?__token__=st=1792698125~exp=1792701725~acl=%2Fv3-1%2Fplayback%2F0345e706-1e82-44fd-b4b7-6790f4d6388c%2F214eca9e-410cc303%2A~hmac=b53e3e12fe3646fd9737c869adb758dac17f11c0f2ec73c619958c034e268c34&r=dXMtd2VzdDE%3D": {
+    "file": null,
+    "status": 206,
+    "type": "video/mp4",
+    "bytes": 0,
+    "routes": [
+      "/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/5a80805a-60db-452c-9db9-c014c101aea5/8c4ff004-5ae84b91?__token__=st=1792698126~exp=1792701726~acl=%2Fv3-1%2Fplayback%2F5a80805a-60db-452c-9db9-c014c101aea5%2F8c4ff004-5ae84b91%2A~hmac=6d7d7ed538bad80c10d5de0ca07de50d51269adbf4afcb01c025ba54f28f6f5e&r=dXMtZWFzdDE%3D": {
+    "file": null,
+    "status": 206,
+    "type": "video/mp4",
+    "bytes": 0,
+    "routes": [
+      "/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/b17cfe78-c4bb-495d-bb58-4216112612f8/08577b90-dd6eab97?__token__=st=1792698129~exp=1792701729~acl=%2Fv3-1%2Fplayback%2Fb17cfe78-c4bb-495d-bb58-4216112612f8%2F08577b90-dd6eab97%2A~hmac=cce224e8a136355f7baae8241ea039c74b87de28786457f62682f9f7dffb2d8d&r=dXMtZWFzdDE%3D": {
+    "file": null,
+    "status": 206,
+    "type": "video/mp4",
+    "bytes": 0,
+    "routes": [
+      "/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/f46c28d5-f4cd-4bcb-9e8c-01b19e3e7635/3df30526-f6f61b29?__token__=st=1792698134~exp=1792701734~acl=%2Fv3-1%2Fplayback%2Ff46c28d5-f4cd-4bcb-9e8c-01b19e3e7635%2F3df30526-f6f61b29%2A~hmac=093e69e8e4d724fe6d4aa7f883e15a31e26c6ef1d36b09e0e592908ee01de44e&r=dXMtZWFzdDE%3D": {
+    "file": null,
+    "status": 206,
+    "type": "video/mp4",
+    "bytes": 0,
+    "routes": [
+      "/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/3fd43989-310f-439c-bd1f-d0116688f550/711a495d-41a2163c?__token__=st=1792698196~exp=1792701796~acl=%2Fv3-1%2Fplayback%2F3fd43989-310f-439c-bd1f-d0116688f550%2F711a495d-41a2163c%2A~hmac=5f1a37c74ee69ac8a1620847657edad6d0e4e2aa0049c160e07b99f4f993cdb2&r=dXMtY2VudHJhbDE%3D": {
+    "file": null,
+    "status": 206,
+    "type": "video/mp4",
+    "bytes": 0,
+    "routes": [
+      "/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16100909/Captura-de-pantalla-2026-03-16-a-las-11.08.57-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16100909/Captura-de-pantalla-2026-03-16-a-las-11.08.57-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 156,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/19081532/Captura-de-pantalla-2026-05-19-a-las-10.15.22-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/19081532/Captura-de-pantalla-2026-05-19-a-las-10.15.22-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 208,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/19081749/Captura-de-pantalla-2026-05-19-a-las-10.17.37-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/19081749/Captura-de-pantalla-2026-05-19-a-las-10.17.37-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 164,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18121715/Captura-de-pantalla-2026-05-18-a-las-14.13.35-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18121715/Captura-de-pantalla-2026-05-18-a-las-14.13.35-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 182,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16100425/Captura-de-pantalla-2026-03-16-a-las-11.03.33-20x13.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16100425/Captura-de-pantalla-2026-03-16-a-las-11.03.33-20x13.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 170,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18120827/Captura-de-pantalla-2026-05-18-a-las-14.08.17-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18120827/Captura-de-pantalla-2026-05-18-a-las-14.08.17-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 170,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16103413/Captura-de-pantalla-2026-03-16-a-las-11.33.37-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16103413/Captura-de-pantalla-2026-03-16-a-las-11.33.37-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 144,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07150501/Captura-de-pantalla-2026-05-07-a-las-17.04.51-20x8.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07150501/Captura-de-pantalla-2026-05-07-a-las-17.04.51-20x8.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 192,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13110212/DALSTON_KIDS__94A1013-20x16.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13110212/DALSTON_KIDS__94A1013-20x16.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 276,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07145326/Captura-de-pantalla-2026-05-07-a-las-16.52.42-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07145326/Captura-de-pantalla-2026-05-07-a-las-16.52.42-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 172,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07145533/Captura-de-pantalla-2026-05-07-a-las-16.55.22-20x8.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07145533/Captura-de-pantalla-2026-05-07-a-las-16.55.22-20x8.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 158,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/12122724/NARS_SP26_NaturalMatteLongwearFoundation_DigitalFirst_GBAStill_Jiali_WithoutProduct_GLBL_B-20x30.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/12122724/NARS_SP26_NaturalMatteLongwearFoundation_DigitalFirst_GBAStill_Jiali_WithoutProduct_GLBL_B-20x30.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 326,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17180338/Captura-de-pantalla-2026-03-17-a-las-19.03.30-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17180338/Captura-de-pantalla-2026-03-17-a-las-19.03.30-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 180,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13105816/Shot_06_Jadior_Heel_023_01_QC_RGB-20x13.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13105816/Shot_06_Jadior_Heel_023_01_QC_RGB-20x13.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 144,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07104242/Captura-de-pantalla-2026-05-07-a-las-12.42.37-20x9.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07104242/Captura-de-pantalla-2026-05-07-a-las-12.42.37-20x9.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 144,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/18095612/Captura-de-pantalla-2026-03-18-a-las-10.50.23-20x12.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/18095612/Captura-de-pantalla-2026-03-18-a-las-10.50.23-20x12.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 230,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18092347/Captura-de-pantalla-2026-05-18-a-las-11.23.41-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18092347/Captura-de-pantalla-2026-05-18-a-las-11.23.41-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 178,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/25114049/Captura-de-pantalla-2026-03-25-a-las-12.40.41-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/25114049/Captura-de-pantalla-2026-03-25-a-las-12.40.41-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 144,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07143513/Captura-de-pantalla-2026-05-07-a-las-16.34.53-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07143513/Captura-de-pantalla-2026-05-07-a-las-16.34.53-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 166,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07102929/Captura-de-pantalla-2026-05-07-a-las-12.28.51-20x10.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07102929/Captura-de-pantalla-2026-05-07-a-las-12.28.51-20x10.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 168,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18113659/Captura-de-pantalla-2026-05-18-a-las-13.34.09-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18113659/Captura-de-pantalla-2026-05-18-a-las-13.34.09-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 188,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07143747/Captura-de-pantalla-2026-05-07-a-las-16.37.38-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07143747/Captura-de-pantalla-2026-05-07-a-las-16.37.38-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 184,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/18102418/Captura-de-pantalla-2026-03-18-a-las-11.23.58-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/18102418/Captura-de-pantalla-2026-03-18-a-las-11.23.58-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 174,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07102232/Captura-de-pantalla-2026-05-07-a-las-12.22.24-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07102232/Captura-de-pantalla-2026-05-07-a-las-12.22.24-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 140,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18100546/Captura-de-pantalla-2026-05-18-a-las-12.05.19-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18100546/Captura-de-pantalla-2026-05-18-a-las-12.05.19-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 196,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/12163529/ZARAxSM_Digital_MR_121-20x30.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/12163529/ZARAxSM_Digital_MR_121-20x30.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 260,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18114624/Captura-de-pantalla-2026-05-18-a-las-13.45.02-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18114624/Captura-de-pantalla-2026-05-18-a-las-13.45.02-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 174,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/25114630/Captura-de-pantalla-2026-03-25-a-las-12.45.55-20x12.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/25114630/Captura-de-pantalla-2026-03-25-a-las-12.45.55-20x12.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 190,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07150153/Captura-de-pantalla-2026-05-07-a-las-17.01.41-20x10.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07150153/Captura-de-pantalla-2026-05-07-a-las-17.01.41-20x10.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 174,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13111330/Gemini_Generated_Image_lyflm2lyflm2lyfl-20x14.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13111330/Gemini_Generated_Image_lyflm2lyflm2lyfl-20x14.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 154,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/25115001/Captura-de-pantalla-2026-03-25-a-las-12.49.52-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/25115001/Captura-de-pantalla-2026-03-25-a-las-12.49.52-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 128,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/25113440/Captura-de-pantalla-2026-03-25-a-las-12.34.29-20x10.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/25113440/Captura-de-pantalla-2026-03-25-a-las-12.34.29-20x10.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 112,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07143343/Captura-de-pantalla-2026-05-07-a-las-16.33.31-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07143343/Captura-de-pantalla-2026-05-07-a-las-16.33.31-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 154,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07144425/Captura-de-pantalla-2026-05-07-a-las-16.44.15-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07144425/Captura-de-pantalla-2026-05-07-a-las-16.44.15-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 176,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07144630/Captura-de-pantalla-2026-05-07-a-las-16.46.21-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07144630/Captura-de-pantalla-2026-05-07-a-las-16.46.21-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 142,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/18101350/Captura-de-pantalla-2026-03-18-a-las-11.13.17-20x13.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/18101350/Captura-de-pantalla-2026-03-18-a-las-11.13.17-20x13.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 158,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/18104048/Captura-de-pantalla-2026-03-18-a-las-11.40.24-20x12.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/18104048/Captura-de-pantalla-2026-03-18-a-las-11.40.24-20x12.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 172,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17175947/Captura-de-pantalla-2026-03-17-a-las-18.59.38-20x14.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17175947/Captura-de-pantalla-2026-03-17-a-las-18.59.38-20x14.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 160,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17175742/Captura-de-pantalla-2026-03-17-a-las-18.57.34-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17175742/Captura-de-pantalla-2026-03-17-a-las-18.57.34-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 182,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16100722/Captura-de-pantalla-2026-03-16-a-las-11.07.10-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16100722/Captura-de-pantalla-2026-03-16-a-las-11.07.10-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 144,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17175508/Captura-de-pantalla-2026-03-17-a-las-18.54.52-20x9.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17175508/Captura-de-pantalla-2026-03-17-a-las-18.54.52-20x9.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 108,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16100125/Captura-de-pantalla-2026-03-16-a-las-11.00.55-20x15.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16100125/Captura-de-pantalla-2026-03-16-a-las-11.00.55-20x15.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 172,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16095839/Captura-de-pantalla-2026-03-16-a-las-10.55.26-20x12.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16095839/Captura-de-pantalla-2026-03-16-a-las-10.55.26-20x12.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 130,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16101217/Captura-de-pantalla-2026-03-16-a-las-11.12.02-20x14.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16101217/Captura-de-pantalla-2026-03-16-a-las-11.12.02-20x14.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 206,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17180205/Captura-de-pantalla-2026-03-17-a-las-19.01.04-20x10.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17180205/Captura-de-pantalla-2026-03-17-a-las-19.01.04-20x10.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 154,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16103831/Captura-de-pantalla-2026-03-16-a-las-11.38.03-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16103831/Captura-de-pantalla-2026-03-16-a-las-11.38.03-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 106,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16095953/Captura-de-pantalla-2026-03-16-a-las-10.59.25-20x15.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16095953/Captura-de-pantalla-2026-03-16-a-las-10.59.25-20x15.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 104,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16103306/Captura-de-pantalla-2026-03-16-a-las-11.32.42-20x13.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16103306/Captura-de-pantalla-2026-03-16-a-las-11.32.42-20x13.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 188,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07105528/Captura-de-pantalla-2026-05-07-a-las-12.55.20-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07105528/Captura-de-pantalla-2026-05-07-a-las-12.55.20-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 126,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07112939/Captura-de-pantalla-2026-05-07-a-las-13.29.24-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07112939/Captura-de-pantalla-2026-05-07-a-las-13.29.24-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 190,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/18102141/Captura-de-pantalla-2026-03-18-a-las-11.20.38-20x14.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/18102141/Captura-de-pantalla-2026-03-18-a-las-11.20.38-20x14.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 160,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/18102813/Captura-de-pantalla-2026-03-18-a-las-11.27.29-20x12.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/18102813/Captura-de-pantalla-2026-03-18-a-las-11.27.29-20x12.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 174,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/25115207/Captura-de-pantalla-2026-03-25-a-las-12.51.31-20x13.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/25115207/Captura-de-pantalla-2026-03-25-a-las-12.51.31-20x13.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 150,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18125537/Captura-de-pantalla-2026-05-18-a-las-14.55.27-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18125537/Captura-de-pantalla-2026-05-18-a-las-14.55.27-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 124,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/12163914/5X8A5696-1-20x30.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/12163914/5X8A5696-1-20x30.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 158,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18120350/Captura-de-pantalla-2026-05-18-a-las-14.03.45-20x13.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18120350/Captura-de-pantalla-2026-05-18-a-las-14.03.45-20x13.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 100,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18114220/Captura-de-pantalla-2026-05-18-a-las-13.41.53-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18114220/Captura-de-pantalla-2026-05-18-a-las-13.41.53-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 108,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13105439/MG_0368b-1024x683-1-20x13.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13105439/MG_0368b-1024x683-1-20x13.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 134,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/12164531/VERSACE_SS18_BTS_028-20x30.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/12164531/VERSACE_SS18_BTS_028-20x30.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 246,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07145744/Captura-de-pantalla-2026-05-07-a-las-16.57.35-20x10.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07145744/Captura-de-pantalla-2026-05-07-a-las-16.57.35-20x10.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 126,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13111548/Gemini_Generated_Image_lyflm2lyflm2lyfl-1-20x14.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13111548/Gemini_Generated_Image_lyflm2lyflm2lyfl-1-20x14.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 234,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18103358/Captura-de-pantalla-2026-05-18-a-las-12.33.49-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18103358/Captura-de-pantalla-2026-05-18-a-las-12.33.49-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 226,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07145913/Captura-de-pantalla-2026-05-07-a-las-16.59.03-20x10.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07145913/Captura-de-pantalla-2026-05-07-a-las-16.59.03-20x10.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 154,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18115223/Captura-de-pantalla-2026-05-18-a-las-13.52.13-20x10.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18115223/Captura-de-pantalla-2026-05-18-a-las-13.52.13-20x10.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 152,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07145113/Captura-de-pantalla-2026-05-07-a-las-16.51.03-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07145113/Captura-de-pantalla-2026-05-07-a-las-16.51.03-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 230,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18102903/Captura-de-pantalla-2026-05-18-a-las-12.28.26-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18102903/Captura-de-pantalla-2026-05-18-a-las-12.28.26-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 188,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07143918/Captura-de-pantalla-2026-05-07-a-las-16.39.06-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07143918/Captura-de-pantalla-2026-05-07-a-las-16.39.06-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 164,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07150337/Captura-de-pantalla-2026-05-07-a-las-17.03.28-20x10.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07150337/Captura-de-pantalla-2026-05-07-a-las-17.03.28-20x10.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 174,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/25113745/Captura-de-pantalla-2026-03-25-a-las-12.37.36-20x10.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/25113745/Captura-de-pantalla-2026-03-25-a-las-12.37.36-20x10.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 190,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18111513/Captura-de-pantalla-2026-05-18-a-las-13.15.05-20x9.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18111513/Captura-de-pantalla-2026-05-18-a-las-13.15.05-20x9.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 206,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17175226/Captura-de-pantalla-2026-03-17-a-las-18.50.31-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17175226/Captura-de-pantalla-2026-03-17-a-las-18.50.31-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 182,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://depoluxe.xyz/assets/audio/tac.m4a": {
+    "file": "files/depoluxe.xyz/assets/audio/tac.m4a",
+    "status": 200,
+    "type": "audio/mp4",
+    "bytes": 5052,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18125110/Captura-de-pantalla-2026-05-18-a-las-14.51.03-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18125110/Captura-de-pantalla-2026-05-18-a-las-14.51.03-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 162,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07103450/Captura-de-pantalla-2026-05-07-a-las-12.34.43-20x11.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07103450/Captura-de-pantalla-2026-05-07-a-las-12.34.43-20x11.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 194,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/19081749/Captura-de-pantalla-2026-05-19-a-las-10.17.37-1832x978.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/19081749/Captura-de-pantalla-2026-05-19-a-las-10.17.37-1832x978.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18100546/Captura-de-pantalla-2026-05-18-a-las-12.05.19-1832x1030.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18100546/Captura-de-pantalla-2026-05-18-a-las-12.05.19-1832x1030.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18102903/Captura-de-pantalla-2026-05-18-a-las-12.28.26-1832x1023.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18102903/Captura-de-pantalla-2026-05-18-a-las-12.28.26-1832x1023.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07145533/Captura-de-pantalla-2026-05-07-a-las-16.55.22-1832x773.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07145533/Captura-de-pantalla-2026-05-07-a-las-16.55.22-1832x773.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07145326/Captura-de-pantalla-2026-05-07-a-las-16.52.42-1832x1012.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07145326/Captura-de-pantalla-2026-05-07-a-las-16.52.42-1832x1012.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07145744/Captura-de-pantalla-2026-05-07-a-las-16.57.35-1832x913.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07145744/Captura-de-pantalla-2026-05-07-a-las-16.57.35-1832x913.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07145913/Captura-de-pantalla-2026-05-07-a-las-16.59.03-1832x955.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07145913/Captura-de-pantalla-2026-05-07-a-las-16.59.03-1832x955.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18114220/Captura-de-pantalla-2026-05-18-a-las-13.41.53-1832x983.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18114220/Captura-de-pantalla-2026-05-18-a-las-13.41.53-1832x983.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18113659/Captura-de-pantalla-2026-05-18-a-las-13.34.09-1832x1012.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18113659/Captura-de-pantalla-2026-05-18-a-las-13.34.09-1832x1012.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18114624/Captura-de-pantalla-2026-05-18-a-las-13.45.02-1832x1018.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18114624/Captura-de-pantalla-2026-05-18-a-las-13.45.02-1832x1018.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13110212/DALSTON_KIDS__94A1013-916x749.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13110212/DALSTON_KIDS__94A1013-916x749.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07150337/Captura-de-pantalla-2026-05-07-a-las-17.03.28-1832x919.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07150337/Captura-de-pantalla-2026-05-07-a-las-17.03.28-1832x919.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07150501/Captura-de-pantalla-2026-05-07-a-las-17.04.51-1832x734.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07150501/Captura-de-pantalla-2026-05-07-a-las-17.04.51-1832x734.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07145113/Captura-de-pantalla-2026-05-07-a-las-16.51.03-1832x980.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07145113/Captura-de-pantalla-2026-05-07-a-las-16.51.03-1832x980.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/12163529/ZARAxSM_Digital_MR_121-916x1374.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/12163529/ZARAxSM_Digital_MR_121-916x1374.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/12164531/VERSACE_SS18_BTS_028-916x1374.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/12164531/VERSACE_SS18_BTS_028-916x1374.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/12163914/5X8A5696-1-916x1374.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/12163914/5X8A5696-1-916x1374.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13105439/MG_0368b-1024x683-1-916x611.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13105439/MG_0368b-1024x683-1-916x611.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13111330/Gemini_Generated_Image_lyflm2lyflm2lyfl-916x619.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13111330/Gemini_Generated_Image_lyflm2lyflm2lyfl-916x619.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18125110/Captura-de-pantalla-2026-05-18-a-las-14.51.03-1832x1011.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18125110/Captura-de-pantalla-2026-05-18-a-las-14.51.03-1832x1011.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://player.vimeo.com/progressive_redirect/playback/1193513998/rendition/720p/file.mp4%20%28720p%29.mp4?loc=external&signature=8166a6918a50b0cb38cd736bfc4f959fca98aac840557d32f1a4249f61c9ee80": {
+    "file": null,
+    "status": 302,
+    "type": "",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07143747/Captura-de-pantalla-2026-05-07-a-las-16.37.38-1832x984.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07143747/Captura-de-pantalla-2026-05-07-a-las-16.37.38-1832x984.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18125537/Captura-de-pantalla-2026-05-18-a-las-14.55.27-1832x993.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18125537/Captura-de-pantalla-2026-05-18-a-las-14.55.27-1832x993.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07150153/Captura-de-pantalla-2026-05-07-a-las-17.01.41-1832x932.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07150153/Captura-de-pantalla-2026-05-07-a-las-17.01.41-1832x932.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13111548/Gemini_Generated_Image_lyflm2lyflm2lyfl-1-916x619.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13111548/Gemini_Generated_Image_lyflm2lyflm2lyfl-1-916x619.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18120827/Captura-de-pantalla-2026-05-18-a-las-14.08.17-1832x1012.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18120827/Captura-de-pantalla-2026-05-18-a-las-14.08.17-1832x1012.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07144425/Captura-de-pantalla-2026-05-07-a-las-16.44.15-1832x993.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07144425/Captura-de-pantalla-2026-05-07-a-las-16.44.15-1832x993.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18103358/Captura-de-pantalla-2026-05-18-a-las-12.33.49-1832x1011.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18103358/Captura-de-pantalla-2026-05-18-a-las-12.33.49-1832x1011.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07112939/Captura-de-pantalla-2026-05-07-a-las-13.29.24-1832x1046.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07112939/Captura-de-pantalla-2026-05-07-a-las-13.29.24-1832x1046.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07105528/Captura-de-pantalla-2026-05-07-a-las-12.55.20-1832x1045.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07105528/Captura-de-pantalla-2026-05-07-a-las-12.55.20-1832x1045.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07104242/Captura-de-pantalla-2026-05-07-a-las-12.42.37-1832x790.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07104242/Captura-de-pantalla-2026-05-07-a-las-12.42.37-1832x790.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07102929/Captura-de-pantalla-2026-05-07-a-las-12.28.51-1832x904.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07102929/Captura-de-pantalla-2026-05-07-a-las-12.28.51-1832x904.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07143918/Captura-de-pantalla-2026-05-07-a-las-16.39.06-1832x978.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07143918/Captura-de-pantalla-2026-05-07-a-las-16.39.06-1832x978.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07103450/Captura-de-pantalla-2026-05-07-a-las-12.34.43-1832x1023.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07103450/Captura-de-pantalla-2026-05-07-a-las-12.34.43-1832x1023.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07102232/Captura-de-pantalla-2026-05-07-a-las-12.22.24.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07102232/Captura-de-pantalla-2026-05-07-a-las-12.22.24.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/25113745/Captura-de-pantalla-2026-03-25-a-las-12.37.36-1832x960.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/25113745/Captura-de-pantalla-2026-03-25-a-las-12.37.36-1832x960.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/25114049/Captura-de-pantalla-2026-03-25-a-las-12.40.41-1832x973.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/25114049/Captura-de-pantalla-2026-03-25-a-las-12.40.41-1832x973.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/18102813/Captura-de-pantalla-2026-03-18-a-las-11.27.29-1832x1130.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/18102813/Captura-de-pantalla-2026-03-18-a-las-11.27.29-1832x1130.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/25114630/Captura-de-pantalla-2026-03-25-a-las-12.45.55-1832x1143.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/25114630/Captura-de-pantalla-2026-03-25-a-las-12.45.55-1832x1143.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/25115001/Captura-de-pantalla-2026-03-25-a-las-12.49.52-1832x986.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/25115001/Captura-de-pantalla-2026-03-25-a-las-12.49.52-1832x986.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/18095612/Captura-de-pantalla-2026-03-18-a-las-10.50.23-1832x1141.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/18095612/Captura-de-pantalla-2026-03-18-a-las-10.50.23-1832x1141.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/18104048/Captura-de-pantalla-2026-03-18-a-las-11.40.24-1832x1092.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/18104048/Captura-de-pantalla-2026-03-18-a-las-11.40.24-1832x1092.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/18101350/Captura-de-pantalla-2026-03-18-a-las-11.13.17-1832x1199.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/18101350/Captura-de-pantalla-2026-03-18-a-las-11.13.17-1832x1199.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17175226/Captura-de-pantalla-2026-03-17-a-las-18.50.31-1832x977.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17175226/Captura-de-pantalla-2026-03-17-a-las-18.50.31-1832x977.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/18102418/Captura-de-pantalla-2026-03-18-a-las-11.23.58-1832x1002.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/18102418/Captura-de-pantalla-2026-03-18-a-las-11.23.58-1832x1002.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17180205/Captura-de-pantalla-2026-03-17-a-las-19.01.04-1832x950.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17180205/Captura-de-pantalla-2026-03-17-a-las-19.01.04-1832x950.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17175508/Captura-de-pantalla-2026-03-17-a-las-18.54.52.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17175508/Captura-de-pantalla-2026-03-17-a-las-18.54.52.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17175742/Captura-de-pantalla-2026-03-17-a-las-18.57.34-1832x980.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17175742/Captura-de-pantalla-2026-03-17-a-las-18.57.34-1832x980.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17175947/Captura-de-pantalla-2026-03-17-a-las-18.59.38-916x653.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17175947/Captura-de-pantalla-2026-03-17-a-las-18.59.38-916x653.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17180338/Captura-de-pantalla-2026-03-17-a-las-19.03.30-1832x989.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17180338/Captura-de-pantalla-2026-03-17-a-las-19.03.30-1832x989.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16095839/Captura-de-pantalla-2026-03-16-a-las-10.55.26-1832x1145.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16095839/Captura-de-pantalla-2026-03-16-a-las-10.55.26-1832x1145.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16095953/Captura-de-pantalla-2026-03-16-a-las-10.59.25-916x680.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16095953/Captura-de-pantalla-2026-03-16-a-las-10.59.25-916x680.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16100125/Captura-de-pantalla-2026-03-16-a-las-11.00.55-916x681.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16100125/Captura-de-pantalla-2026-03-16-a-las-11.00.55-916x681.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16100425/Captura-de-pantalla-2026-03-16-a-las-11.03.33-1832x1166.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16100425/Captura-de-pantalla-2026-03-16-a-las-11.03.33-1832x1166.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16103413/Captura-de-pantalla-2026-03-16-a-las-11.33.37-1832x1030.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16103413/Captura-de-pantalla-2026-03-16-a-las-11.33.37-1832x1030.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16103306/Captura-de-pantalla-2026-03-16-a-las-11.32.42-1832x1152.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16103306/Captura-de-pantalla-2026-03-16-a-las-11.32.42-1832x1152.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16100722/Captura-de-pantalla-2026-03-16-a-las-11.07.10-1832x989.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16100722/Captura-de-pantalla-2026-03-16-a-las-11.07.10-1832x989.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16100909/Captura-de-pantalla-2026-03-16-a-las-11.08.57-1832x1003.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16100909/Captura-de-pantalla-2026-03-16-a-las-11.08.57-1832x1003.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/19081532/Captura-de-pantalla-2026-05-19-a-las-10.15.22-1832x979.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/19081532/Captura-de-pantalla-2026-05-19-a-las-10.15.22-1832x979.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/ac0e034e-bc9c-4717-a260-6123a182046e/c2fb65ea-f15d6057?__token__=st=1792698254~exp=1792701854~acl=%2Fv3-1%2Fplayback%2Fac0e034e-bc9c-4717-a260-6123a182046e%2Fc2fb65ea-f15d6057%2A~hmac=b2eae8753cefd569b74f6303361e68aea2c0f3b239ba75f1c9a3507e77222bee&r=dXMtd2VzdDE%3D": {
+    "file": null,
+    "status": 206,
+    "type": "video/mp4",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16103831/Captura-de-pantalla-2026-03-16-a-las-11.38.03-1832x965.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16103831/Captura-de-pantalla-2026-03-16-a-las-11.38.03-1832x965.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18120350/Captura-de-pantalla-2026-05-18-a-las-14.03.45-916x610.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18120350/Captura-de-pantalla-2026-05-18-a-las-14.03.45-916x610.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/18102141/Captura-de-pantalla-2026-03-18-a-las-11.20.38-916x636.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/18102141/Captura-de-pantalla-2026-03-18-a-las-11.20.38-916x636.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07143343/Captura-de-pantalla-2026-05-07-a-las-16.33.31-1832x1043.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07143343/Captura-de-pantalla-2026-05-07-a-las-16.33.31-1832x1043.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07143513/Captura-de-pantalla-2026-05-07-a-las-16.34.53-1832x1019.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07143513/Captura-de-pantalla-2026-05-07-a-las-16.34.53-1832x1019.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/25113440/Captura-de-pantalla-2026-03-25-a-las-12.34.29-1832x951.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/25113440/Captura-de-pantalla-2026-03-25-a-las-12.34.29-1832x951.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18121715/Captura-de-pantalla-2026-05-18-a-las-14.13.35-1832x990.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18121715/Captura-de-pantalla-2026-05-18-a-las-14.13.35-1832x990.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/12122724/NARS_SP26_NaturalMatteLongwearFoundation_DigitalFirst_GBAStill_Jiali_WithoutProduct_GLBL_B-916x1373.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/12122724/NARS_SP26_NaturalMatteLongwearFoundation_DigitalFirst_GBAStill_Jiali_WithoutProduct_GLBL_B-916x1373.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/25115207/Captura-de-pantalla-2026-03-25-a-las-12.51.31-1832x1172.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/25115207/Captura-de-pantalla-2026-03-25-a-las-12.51.31-1832x1172.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13105816/Shot_06_Jadior_Heel_023_01_QC_RGB-916x611.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/13105816/Shot_06_Jadior_Heel_023_01_QC_RGB-916x611.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07144630/Captura-de-pantalla-2026-05-07-a-las-16.46.21-1832x984.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07144630/Captura-de-pantalla-2026-05-07-a-las-16.46.21-1832x984.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18115223/Captura-de-pantalla-2026-05-18-a-las-13.52.13-1832x878.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18115223/Captura-de-pantalla-2026-05-18-a-las-13.52.13-1832x878.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18111513/Captura-de-pantalla-2026-05-18-a-las-13.15.05-1832x848.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18111513/Captura-de-pantalla-2026-05-18-a-las-13.15.05-1832x848.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16101217/Captura-de-pantalla-2026-03-16-a-las-11.12.02-916x632.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16101217/Captura-de-pantalla-2026-03-16-a-las-11.12.02-916x632.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18092347/Captura-de-pantalla-2026-05-18-a-las-11.23.41-1832x974.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18092347/Captura-de-pantalla-2026-05-18-a-las-11.23.41-1832x974.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://player.vimeo.com/progressive_redirect/playback/1193514452/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&signature=f428593a0087b64833ef0f621308fc0edba64a5ea1bd4f80a534d255a898da82": {
+    "file": null,
+    "status": 302,
+    "type": "",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/8521d29f-dc12-4e9f-ad02-5e6d1108506e/8819ae76-214cd106?__token__=st=1792698255~exp=1792701855~acl=%2Fv3-1%2Fplayback%2F8521d29f-dc12-4e9f-ad02-5e6d1108506e%2F8819ae76-214cd106%2A~hmac=12e8968383469c477fc316ebdd4df800261755c2d75dcf3537ee68313a2f6ac7&r=dXMtd2VzdDE%3D": {
+    "file": null,
+    "status": 206,
+    "type": "video/mp4",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://player.vimeo.com/progressive_redirect/playback/1193248097/rendition/720p/file.mp4%20%28720p%29.mp4?loc=external&signature=68e6fb1da13fd6754c0853baac9042da280edbf98c9ccd80232e1a69d437cf4f": {
+    "file": null,
+    "status": 302,
+    "type": "",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/f393d920-1c34-4e74-862d-bcaa149b3477/52715a18-2263f015?__token__=st=1792698257~exp=1792701857~acl=%2Fv3-1%2Fplayback%2Ff393d920-1c34-4e74-862d-bcaa149b3477%2F52715a18-2263f015%2A~hmac=ba0e782271e7fa97fbe177a6ad0d29d336a149a223c902aede0073224b6399b5&r=dXMtY2VudHJhbDE%3D": {
+    "file": null,
+    "status": 206,
+    "type": "video/mp4",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://player.vimeo.com/progressive_redirect/playback/1193246890/rendition/720p/file.mp4%20%28720p%29.mp4?loc=external&signature=a259561e9e1c5796f89910234e2aa44806b0985cf40a7cc7035d06902a047a15": {
+    "file": null,
+    "status": 302,
+    "type": "",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/27803b4d-3395-471d-a0c7-c5b870823cb2/d36088a5-4124cc99?__token__=st=1792698316~exp=1792701916~acl=%2Fv3-1%2Fplayback%2F27803b4d-3395-471d-a0c7-c5b870823cb2%2Fd36088a5-4124cc99%2A~hmac=01f475e8a273cd9a19709c6c40da9075caab1cdd89cdfc765c58477320c3ec7b&r=dXMtZWFzdDE%3D": {
+    "file": null,
+    "status": 206,
+    "type": "video/mp4",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://player.vimeo.com/progressive_redirect/playback/1193237889/rendition/720p/file.mp4%20%28720p%29.mp4?loc=external&signature=cdd110739824cc057a717c2de68b991e88e6bacd63ab134bc0624e9393540f5e": {
+    "file": null,
+    "status": 302,
+    "type": "",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/7a5a1948-1efb-4eed-b910-b7dd03752f30/7b63ac64-7a13694e?__token__=st=1792698363~exp=1792701963~acl=%2Fv3-1%2Fplayback%2F7a5a1948-1efb-4eed-b910-b7dd03752f30%2F7b63ac64-7a13694e%2A~hmac=0e1e5673b333d24162d7615c0809a5cebceba048e48372a8c652cf70e6e513f7&r=dXMtZWFzdDE%3D": {
+    "file": null,
+    "status": 206,
+    "type": "video/mp4",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://depoluxe.xyz/guslo/live-the-unforgettable/": {
+    "file": "files/depoluxe.xyz/guslo/live-the-unforgettable/index.html",
+    "status": 200,
+    "type": "text/html",
+    "bytes": 23657,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://depoluxe.xyz/fabio-de-frel/terrex/": {
+    "file": "files/depoluxe.xyz/fabio-de-frel/terrex/index.html",
+    "status": 200,
+    "type": "text/html",
+    "bytes": 23611,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://depoluxe.xyz/jonas-akerlund/john-wayne/": {
+    "file": "files/depoluxe.xyz/jonas-akerlund/john-wayne/index.html",
+    "status": 200,
+    "type": "text/html",
+    "bytes": 23611,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://depoluxe.xyz/jonas-akerlund/zzzaro-pour-homme/": {
+    "file": "files/depoluxe.xyz/jonas-akerlund/zzzaro-pour-homme/index.html",
+    "status": 200,
+    "type": "text/html",
+    "bytes": 23641,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://depoluxe.xyz/fabio-de-frel/pop-training-company/": {
+    "file": "files/depoluxe.xyz/fabio-de-frel/pop-training-company/index.html",
+    "status": 200,
+    "type": "text/html",
+    "bytes": 23652,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://depoluxe.xyz/guslo/woman-md-studio/": {
+    "file": "files/depoluxe.xyz/guslo/woman-md-studio/index.html",
+    "status": 200,
+    "type": "text/html",
+    "bytes": 23624,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://depoluxe.xyz/guslo/garbine-muguruza/": {
+    "file": "files/depoluxe.xyz/guslo/garbine-muguruza/index.html",
+    "status": 200,
+    "type": "text/html",
+    "bytes": 23638,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://depoluxe.xyz/guslo/studio-man-collection/": {
+    "file": "files/depoluxe.xyz/guslo/studio-man-collection/index.html",
+    "status": 200,
+    "type": "text/html",
+    "bytes": 23654,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://depoluxe.xyz/guslo/gift-collection/": {
+    "file": "files/depoluxe.xyz/guslo/gift-collection/index.html",
+    "status": 200,
+    "type": "text/html",
+    "bytes": 23611,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://depoluxe.xyz/guslo/otono-invierno-2023/": {
+    "file": "files/depoluxe.xyz/guslo/otono-invierno-2023/index.html",
+    "status": 200,
+    "type": "text/html",
+    "bytes": 23659,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://depoluxe.xyz/guslo/lanvin-collection/": {
+    "file": "files/depoluxe.xyz/guslo/lanvin-collection/index.html",
+    "status": 200,
+    "type": "text/html",
+    "bytes": 23627,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://depoluxe.xyz/guslo/nano-balloon/": {
+    "file": "files/depoluxe.xyz/guslo/nano-balloon/index.html",
+    "status": 200,
+    "type": "text/html",
+    "bytes": 23601,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://depoluxe.xyz/guslo/zara-basez/": {
+    "file": "files/depoluxe.xyz/guslo/zara-basez/index.html",
+    "status": 200,
+    "type": "text/html",
+    "bytes": 23596,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://depoluxe.xyz/jonas-akerlund/god-control/": {
+    "file": "files/depoluxe.xyz/jonas-akerlund/god-control/index.html",
+    "status": 200,
+    "type": "text/html",
+    "bytes": 23614,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://depoluxe.xyz/jonas-akerlund/fall-fashion/": {
+    "file": "files/depoluxe.xyz/jonas-akerlund/fall-fashion/index.html",
+    "status": 200,
+    "type": "text/html",
+    "bytes": 23614,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://depoluxe.xyz/jonas-akerlund/addict/": {
+    "file": "files/depoluxe.xyz/jonas-akerlund/addict/index.html",
+    "status": 200,
+    "type": "text/html",
+    "bytes": 23584,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18125537/Captura-de-pantalla-2026-05-18-a-las-14.55.27-916x496.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18125537/Captura-de-pantalla-2026-05-18-a-las-14.55.27-916x496.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07102929/Captura-de-pantalla-2026-05-07-a-las-12.28.51-916x452.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07102929/Captura-de-pantalla-2026-05-07-a-las-12.28.51-916x452.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/19081749/Captura-de-pantalla-2026-05-19-a-las-10.17.37-916x489.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/19081749/Captura-de-pantalla-2026-05-19-a-las-10.17.37-916x489.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/19081532/Captura-de-pantalla-2026-05-19-a-las-10.15.22-916x490.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/19081532/Captura-de-pantalla-2026-05-19-a-las-10.15.22-916x490.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07102232/Captura-de-pantalla-2026-05-07-a-las-12.22.24-916x517.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07102232/Captura-de-pantalla-2026-05-07-a-las-12.22.24-916x517.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07104242/Captura-de-pantalla-2026-05-07-a-las-12.42.37-916x395.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07104242/Captura-de-pantalla-2026-05-07-a-las-12.42.37-916x395.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07145913/Captura-de-pantalla-2026-05-07-a-las-16.59.03-916x477.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07145913/Captura-de-pantalla-2026-05-07-a-las-16.59.03-916x477.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18114624/Captura-de-pantalla-2026-05-18-a-las-13.45.02-916x509.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18114624/Captura-de-pantalla-2026-05-18-a-las-13.45.02-916x509.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07145533/Captura-de-pantalla-2026-05-07-a-las-16.55.22-916x386.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07145533/Captura-de-pantalla-2026-05-07-a-las-16.55.22-916x386.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18114220/Captura-de-pantalla-2026-05-18-a-las-13.41.53-916x492.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18114220/Captura-de-pantalla-2026-05-18-a-las-13.41.53-916x492.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18113659/Captura-de-pantalla-2026-05-18-a-las-13.34.09-916x506.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18113659/Captura-de-pantalla-2026-05-18-a-las-13.34.09-916x506.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/25113440/Captura-de-pantalla-2026-03-25-a-las-12.34.29-916x476.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/25113440/Captura-de-pantalla-2026-03-25-a-las-12.34.29-916x476.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07105528/Captura-de-pantalla-2026-05-07-a-las-12.55.20-916x522.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07105528/Captura-de-pantalla-2026-05-07-a-las-12.55.20-916x522.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07143343/Captura-de-pantalla-2026-05-07-a-las-16.33.31-916x521.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07143343/Captura-de-pantalla-2026-05-07-a-las-16.33.31-916x521.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07143513/Captura-de-pantalla-2026-05-07-a-las-16.34.53-916x509.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07143513/Captura-de-pantalla-2026-05-07-a-las-16.34.53-916x509.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07112939/Captura-de-pantalla-2026-05-07-a-las-13.29.24-916x523.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07112939/Captura-de-pantalla-2026-05-07-a-las-13.29.24-916x523.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07145744/Captura-de-pantalla-2026-05-07-a-las-16.57.35-916x456.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07145744/Captura-de-pantalla-2026-05-07-a-las-16.57.35-916x456.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07150337/Captura-de-pantalla-2026-05-07-a-las-17.03.28-916x459.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07150337/Captura-de-pantalla-2026-05-07-a-las-17.03.28-916x459.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07150501/Captura-de-pantalla-2026-05-07-a-las-17.04.51-916x367.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07150501/Captura-de-pantalla-2026-05-07-a-las-17.04.51-916x367.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18092347/Captura-de-pantalla-2026-05-18-a-las-11.23.41-916x487.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18092347/Captura-de-pantalla-2026-05-18-a-las-11.23.41-916x487.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07145326/Captura-de-pantalla-2026-05-07-a-las-16.52.42-916x506.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07145326/Captura-de-pantalla-2026-05-07-a-las-16.52.42-916x506.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07145113/Captura-de-pantalla-2026-05-07-a-las-16.51.03-916x490.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07145113/Captura-de-pantalla-2026-05-07-a-las-16.51.03-916x490.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18103358/Captura-de-pantalla-2026-05-18-a-las-12.33.49-916x505.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18103358/Captura-de-pantalla-2026-05-18-a-las-12.33.49-916x505.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18102903/Captura-de-pantalla-2026-05-18-a-las-12.28.26-916x511.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18102903/Captura-de-pantalla-2026-05-18-a-las-12.28.26-916x511.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18111513/Captura-de-pantalla-2026-05-18-a-las-13.15.05-916x424.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18111513/Captura-de-pantalla-2026-05-18-a-las-13.15.05-916x424.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07143747/Captura-de-pantalla-2026-05-07-a-las-16.37.38-916x492.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07143747/Captura-de-pantalla-2026-05-07-a-las-16.37.38-916x492.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18100546/Captura-de-pantalla-2026-05-18-a-las-12.05.19-916x515.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18100546/Captura-de-pantalla-2026-05-18-a-las-12.05.19-916x515.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07144425/Captura-de-pantalla-2026-05-07-a-las-16.44.15-916x496.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07144425/Captura-de-pantalla-2026-05-07-a-las-16.44.15-916x496.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07143918/Captura-de-pantalla-2026-05-07-a-las-16.39.06-916x489.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07143918/Captura-de-pantalla-2026-05-07-a-las-16.39.06-916x489.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18120827/Captura-de-pantalla-2026-05-18-a-las-14.08.17-916x506.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18120827/Captura-de-pantalla-2026-05-18-a-las-14.08.17-916x506.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18125110/Captura-de-pantalla-2026-05-18-a-las-14.51.03-916x506.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18125110/Captura-de-pantalla-2026-05-18-a-las-14.51.03-916x506.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18121715/Captura-de-pantalla-2026-05-18-a-las-14.13.35-916x495.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18121715/Captura-de-pantalla-2026-05-18-a-las-14.13.35-916x495.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07150153/Captura-de-pantalla-2026-05-07-a-las-17.01.41-916x466.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07150153/Captura-de-pantalla-2026-05-07-a-las-17.01.41-916x466.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/25113745/Captura-de-pantalla-2026-03-25-a-las-12.37.36-916x480.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/25113745/Captura-de-pantalla-2026-03-25-a-las-12.37.36-916x480.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/25115207/Captura-de-pantalla-2026-03-25-a-las-12.51.31-916x586.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/25115207/Captura-de-pantalla-2026-03-25-a-las-12.51.31-916x586.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18115223/Captura-de-pantalla-2026-05-18-a-las-13.52.13-916x439.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/18115223/Captura-de-pantalla-2026-05-18-a-las-13.52.13-916x439.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07144630/Captura-de-pantalla-2026-05-07-a-las-16.46.21-916x492.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07144630/Captura-de-pantalla-2026-05-07-a-las-16.46.21-916x492.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/25115001/Captura-de-pantalla-2026-03-25-a-las-12.49.52-916x493.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/25115001/Captura-de-pantalla-2026-03-25-a-las-12.49.52-916x493.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/25114630/Captura-de-pantalla-2026-03-25-a-las-12.45.55-916x572.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/25114630/Captura-de-pantalla-2026-03-25-a-las-12.45.55-916x572.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/18095612/Captura-de-pantalla-2026-03-18-a-las-10.50.23-916x570.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/18095612/Captura-de-pantalla-2026-03-18-a-las-10.50.23-916x570.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/18101350/Captura-de-pantalla-2026-03-18-a-las-11.13.17-916x600.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/18101350/Captura-de-pantalla-2026-03-18-a-las-11.13.17-916x600.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17175226/Captura-de-pantalla-2026-03-17-a-las-18.50.31-916x489.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17175226/Captura-de-pantalla-2026-03-17-a-las-18.50.31-916x489.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17175508/Captura-de-pantalla-2026-03-17-a-las-18.54.52-916x430.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17175508/Captura-de-pantalla-2026-03-17-a-las-18.54.52-916x430.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/18102418/Captura-de-pantalla-2026-03-18-a-las-11.23.58-916x501.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/18102418/Captura-de-pantalla-2026-03-18-a-las-11.23.58-916x501.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/18102813/Captura-de-pantalla-2026-03-18-a-las-11.27.29-916x565.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/18102813/Captura-de-pantalla-2026-03-18-a-las-11.27.29-916x565.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07103450/Captura-de-pantalla-2026-05-07-a-las-12.34.43-916x512.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/05/07103450/Captura-de-pantalla-2026-05-07-a-las-12.34.43-916x512.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17175742/Captura-de-pantalla-2026-03-17-a-las-18.57.34-916x490.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17175742/Captura-de-pantalla-2026-03-17-a-las-18.57.34-916x490.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16095839/Captura-de-pantalla-2026-03-16-a-las-10.55.26-916x572.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16095839/Captura-de-pantalla-2026-03-16-a-las-10.55.26-916x572.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17180338/Captura-de-pantalla-2026-03-17-a-las-19.03.30-916x494.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17180338/Captura-de-pantalla-2026-03-17-a-las-19.03.30-916x494.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16100425/Captura-de-pantalla-2026-03-16-a-las-11.03.33-916x583.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16100425/Captura-de-pantalla-2026-03-16-a-las-11.03.33-916x583.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16100909/Captura-de-pantalla-2026-03-16-a-las-11.08.57-916x501.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16100909/Captura-de-pantalla-2026-03-16-a-las-11.08.57-916x501.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16103306/Captura-de-pantalla-2026-03-16-a-las-11.32.42-916x576.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16103306/Captura-de-pantalla-2026-03-16-a-las-11.32.42-916x576.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/25114049/Captura-de-pantalla-2026-03-25-a-las-12.40.41-916x487.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/25114049/Captura-de-pantalla-2026-03-25-a-las-12.40.41-916x487.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/18104048/Captura-de-pantalla-2026-03-18-a-las-11.40.24-916x546.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/18104048/Captura-de-pantalla-2026-03-18-a-las-11.40.24-916x546.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16103413/Captura-de-pantalla-2026-03-16-a-las-11.33.37-916x515.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16103413/Captura-de-pantalla-2026-03-16-a-las-11.33.37-916x515.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16100722/Captura-de-pantalla-2026-03-16-a-las-11.07.10-916x494.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16100722/Captura-de-pantalla-2026-03-16-a-las-11.07.10-916x494.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17180205/Captura-de-pantalla-2026-03-17-a-las-19.01.04-916x475.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/17180205/Captura-de-pantalla-2026-03-17-a-las-19.01.04-916x475.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16103831/Captura-de-pantalla-2026-03-16-a-las-11.38.03-916x483.jpg.webp": {
+    "file": "files/d334na6pvq9xwq.cloudfront.net/wp-content/uploads/2026/03/16103831/Captura-de-pantalla-2026-03-16-a-las-11.38.03-916x483.jpg.webp",
+    "status": 200,
+    "type": "image/webp",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/ac0e034e-bc9c-4717-a260-6123a182046e/c2fb65ea-f15d6057?__token__=st=1792698548~exp=1792702148~acl=%2Fv3-1%2Fplayback%2Fac0e034e-bc9c-4717-a260-6123a182046e%2Fc2fb65ea-f15d6057%2A~hmac=f0273162f3bdcec4d65081acbf79df8e89871b5bbd6b60502983c9f640c71c9e&r=dXMtd2VzdDE%3D": {
+    "file": null,
+    "status": 206,
+    "type": "video/mp4",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/8521d29f-dc12-4e9f-ad02-5e6d1108506e/8819ae76-214cd106?__token__=st=1792698549~exp=1792702149~acl=%2Fv3-1%2Fplayback%2F8521d29f-dc12-4e9f-ad02-5e6d1108506e%2F8819ae76-214cd106%2A~hmac=03452a349151ca9d0a19e609b5b813cfdb29956160bbef8d0910e1d036ab7c6c&r=dXMtd2VzdDE%3D": {
+    "file": null,
+    "status": 206,
+    "type": "video/mp4",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/f393d920-1c34-4e74-862d-bcaa149b3477/52715a18-2263f015?__token__=st=1792698550~exp=1792702150~acl=%2Fv3-1%2Fplayback%2Ff393d920-1c34-4e74-862d-bcaa149b3477%2F52715a18-2263f015%2A~hmac=21c2bb54a3f44a60fc1c14427d631e6f51be107695d6e2fe24a2b75745702794&r=dXMtY2VudHJhbDE%3D": {
+    "file": null,
+    "status": 206,
+    "type": "video/mp4",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  },
+  "https://download-video-ak.vimeocdn.com/v3-1/playback/27803b4d-3395-471d-a0c7-c5b870823cb2/d36088a5-4124cc99?__token__=st=1792698582~exp=1792702182~acl=%2Fv3-1%2Fplayback%2F27803b4d-3395-471d-a0c7-c5b870823cb2%2Fd36088a5-4124cc99%2A~hmac=cc03c0bcb134346b16feb1ac6a2285e921f017b46dfc3c3d3bfdf28718ea565e&r=dXMtZWFzdDE%3D": {
+    "file": null,
+    "status": 206,
+    "type": "video/mp4",
+    "bytes": 0,
+    "routes": [
+      "/archive/"
+    ]
+  }
+}

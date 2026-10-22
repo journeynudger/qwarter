@@ -1,0 +1,64 @@
+{
+  "followers": [],
+  "states": [
+    {
+      "over": "nothing",
+      "followers": []
+    },
+    {
+      "over": "nav link",
+      "at": {
+        "x": 720,
+        "y": 24
+      },
+      "followers": []
+    },
+    {
+      "over": "text link",
+      "at": {
+        "x": 720,
+        "y": 309
+      },
+      "followers": []
+    },
+    {
+      "over": "card",
+      "at": {
+        "x": 720,
+        "y": 450
+      },
+      "followers": []
+    },
+    {
+      "over": "image",
+      "at": {
+        "x": 720,
+        "y": 450
+      },
+      "followers": []
+    },
+    {
+      "over": "video",
+      "at": {
+        "x": 720,
+        "y": 450
+      },
+      "followers": []
+    }
+  ],
+  "trail": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ]
+}
