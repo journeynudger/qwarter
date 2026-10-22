@@ -1,0 +1,414 @@
+{
+  "slug": "ekaterina-sky",
+  "base": "https://ekaterina-sky.art",
+  "shot": "2026-10-22T21:39:53.306Z",
+  "viewport": {
+    "width": 1440,
+    "height": 900,
+    "scale": 2
+  },
+  "phone": {
+    "width": 390,
+    "height": 844,
+    "scale": 3
+  },
+  "pages": [
+    {
+      "name": "home",
+      "route": "/",
+      "url": "https://ekaterina-sky.com/",
+      "title": "Ekaterina Sky – Impact Artist",
+      "description": null,
+      "height": 6591,
+      "frame": "home.png",
+      "full": "home-full.png",
+      "videos": [],
+      "phone": {
+        "frame": "m-home.png",
+        "full": "m-home-full.png",
+        "height": 6728
+      },
+      "text": [
+        {
+          "tag": "h2",
+          "text": "EKATERINA SKY",
+          "where": "header"
+        },
+        {
+          "tag": "h2",
+          "text": "VISUAL PRAYERS FOR THE EARTH",
+          "where": "main"
+        },
+        {
+          "tag": "h1",
+          "text": "Art that invites reflection, responsibility, and hope for the Earth we share",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Acquisitions and press by inquiry",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Presented at Carnegie Hall · Coral Gables Museum · COP30",
+          "where": "main"
+        },
+        {
+          "tag": "h1",
+          "text": "\"I define impact art not as a genre but as a methodology one that recognizes aesthetic production as inseparable from ecological and cultural consequence.\"",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "EDUCATION + PUBLIC SPEAKING",
+          "where": "main"
+        },
+        {
+          "tag": "h1",
+          "text": "Bringing awareness to issues and solutions surrounding vanishing eco-systems and biodiversity",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Shining light on opportunities to live in a more synergistic and flourishing world, Ekaterina is a passionate speaker and spokesperson.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "ACTIVATING THE LIFE FORCE OF OUR PLANET",
+          "where": "main"
+        },
+        {
+          "tag": "h1",
+          "text": "Rainforests are the beating heart and lungs of the earth",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Project designed to support the longevity and vitality of our planet.",
+          "where": "main"
+        },
+        {
+          "tag": "h1",
+          "text": "\"Developing my relationship with the Divine inspires my creativity.\"",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Cultivating a deeper connection with spirituality has enriched my life and my creativity. Vows of silence are an integral practice that keeps me connected with my mission as an artist.",
+          "where": "main"
+        },
+        {
+          "tag": "h1",
+          "text": "Ekaterina Sky's first global project for conservation ​",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "WORK WITH EKATERINA",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "OUR LIFE FORCE",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "STAY CONNECTED",
+          "where": "main"
+        }
+      ],
+      "design": {
+        "fonts": {
+          "headings": "Poppins",
+          "headingsWeight": "300",
+          "body": "Poppins",
+          "bodyWeight": "400",
+          "nav": "Montserrat",
+          "buttons": "Montserrat"
+        },
+        "faces": [
+          "eicons",
+          "Poppins",
+          "Montserrat",
+          "Cormorant Garamond",
+          "Font Awesome 5 Free",
+          "Font Awesome 5 Brands"
+        ],
+        "page": "#000000",
+        "backgrounds": [
+          {
+            "hex": "#000000",
+            "weight": 9626850
+          },
+          {
+            "hex": "#0C0000",
+            "weight": 3499200
+          },
+          {
+            "hex": "#110909",
+            "weight": 2462400
+          },
+          {
+            "hex": "#090909",
+            "weight": 640055
+          },
+          {
+            "hex": "#FFFFFF",
+            "weight": 374400
+          },
+          {
+            "hex": "#F1ECDC",
+            "weight": 316426
+          }
+        ],
+        "inks": [
+          {
+            "hex": "#FFFFFF",
+            "weight": 1192
+          },
+          {
+            "hex": "#333333",
+            "weight": 184
+          },
+          {
+            "hex": "#000000",
+            "weight": 142
+          },
+          {
+            "hex": "#3F444B",
+            "weight": 79
+          }
+        ],
+        "link": "#FFFFFF"
+      }
+    }
+  ],
+  "videos": [],
+  "assets": [
+    {
+      "file": "assets/01-cropped-img-2157-2-32x32.png",
+      "url": "https://ekaterina-sky.com/wp-content/uploads/2024/07/cropped-IMG_2157-2-32x32.png",
+      "page": "home",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null,
+      "bytes": 1255,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/02-cropped-img-2157-2-192x192.png",
+      "url": "https://ekaterina-sky.com/wp-content/uploads/2024/07/cropped-IMG_2157-2-192x192.png",
+      "page": "home",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null,
+      "bytes": 17125,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/03-cropped-img-2157-2-180x180.png",
+      "url": "https://ekaterina-sky.com/wp-content/uploads/2024/07/cropped-IMG_2157-2-180x180.png",
+      "page": "home",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null,
+      "bytes": 15596,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/04-carnegie-hall-logo-rnkjlj03ygbnpey36vfcum9q75111.png",
+      "url": "https://ekaterina-sky.com/wp-content/uploads/elementor/thumbs/Carnegie-Hall-logo-rnkjlj03ygbnpey36vfcum9q751119izivzbl6aayo.png",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": true,
+      "alt": "Ekaterina Sky At Carnegie Hall",
+      "width": 155,
+      "height": 66,
+      "natural": [
+        149,
+        60
+      ],
+      "bytes": 3101,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/05-museum-logo-hi-res-pink-1030x496-1-e177898494779.png",
+      "url": "https://ekaterina-sky.com/wp-content/uploads/elementor/thumbs/Museum-LOGO-Hi-Res-pink-1030x496-1-e1778984947797-rnkk145rajnu8maz63zmp6nwu675okeqo1g73d69s0.png",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": true,
+      "alt": "Ekaterina Sky At Coral Gables Museum",
+      "width": 131,
+      "height": 66,
+      "natural": [
+        125,
+        60
+      ],
+      "bytes": 4740,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/06-design-sans-titre-14-1-rnkjdm70fnhrzkfsdybed4527.png",
+      "url": "https://ekaterina-sky.com/wp-content/uploads/elementor/thumbs/design-sans-titre-14-1-rnkjdm70fnhrzkfsdybed4527e0t8z4bfqb76c0lc0.png",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Ekaterina Sky At UNFCCC",
+      "width": 66,
+      "height": 66,
+      "natural": [
+        60,
+        60
+      ],
+      "bytes": 2652,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/07-beyond-hero-studio.jpg",
+      "url": "https://ekaterina-sky.com/wp-content/uploads/2026/09/beyond-hero-studio.jpg",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 550,
+      "height": 749,
+      "natural": [
+        752,
+        1024
+      ],
+      "bytes": 421543,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/08-hero-page-scaled.jpg",
+      "url": "https://ekaterina-sky.com/wp-content/uploads/2025/11/hero-page-scaled.jpg",
+      "page": "home",
+      "kind": "background",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 1440,
+      "height": 810,
+      "natural": null,
+      "bytes": 183313,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/09-home-borneo-mural-bg.jpg",
+      "url": "https://ekaterina-sky.com/wp-content/uploads/2026/09/home-borneo-mural-bg.jpg",
+      "page": "home",
+      "kind": "background",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 1440,
+      "height": 855,
+      "natural": null,
+      "bytes": 442236,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/10-d4434c51-1d55-4e36-a5aa-c2baa85d0c92.jpg",
+      "url": "https://ekaterina-sky.com/wp-content/uploads/2025/11/d4434c51-1d55-4e36-a5aa-c2baa85d0c92.jpg",
+      "page": "home",
+      "kind": "background",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 1440,
+      "height": 855,
+      "natural": null,
+      "bytes": 158729,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/11-screen-shot-2023-06-28-at-8-04-19-pm.jpg",
+      "url": "https://ekaterina-sky.com/wp-content/uploads/2023/06/Screen-Shot-2023-06-28-at-8.04.19-PM.jpg",
+      "page": "home",
+      "kind": "background",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 1440,
+      "height": 855,
+      "natural": null,
+      "bytes": 274710,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/12-oc3-2-scaled-e1754627805552.jpg",
+      "url": "https://ekaterina-sky.com/wp-content/uploads/2025/08/OC3-2-scaled-e1754627805552.jpeg",
+      "page": "home",
+      "kind": "background",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 1440,
+      "height": 855,
+      "natural": null,
+      "bytes": 275037,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/13-life-force-jungle-henna-lores.jpg",
+      "url": "https://ekaterina-sky.com/wp-content/uploads/2023/06/LIFE-FORCE-JUNGLE-HENNA-LORES.jpg",
+      "page": "home",
+      "kind": "background",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 1440,
+      "height": 855,
+      "natural": null,
+      "bytes": 161362,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/14-website-light-1-e1762129417446.png",
+      "url": "https://ekaterina-sky.com/wp-content/uploads/2024/08/website-light-1-e1762129417446.png",
+      "page": "home",
+      "kind": "background",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 1440,
+      "height": 765,
+      "natural": null,
+      "bytes": 441384,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/15-home-animalize-bg.jpg",
+      "url": "https://ekaterina-sky.com/wp-content/uploads/2026/09/home-animalize-bg.jpg",
+      "page": "home",
+      "kind": "background",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 1440,
+      "height": 855,
+      "natural": null,
+      "bytes": 213717,
+      "type": "image/jpeg"
+    }
+  ]
+}

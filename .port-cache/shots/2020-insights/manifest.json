@@ -1,0 +1,1373 @@
+{
+  "slug": "2020-insights",
+  "base": "https://2020insights.net",
+  "shot": "2026-10-22T21:34:32.248Z",
+  "viewport": {
+    "width": 1440,
+    "height": 900,
+    "scale": 2
+  },
+  "phone": {
+    "width": 390,
+    "height": 844,
+    "scale": 3
+  },
+  "pages": [
+    {
+      "name": "home",
+      "route": "/",
+      "url": "https://2020insights.net/",
+      "title": "Insights | Purpose-Powered Performance",
+      "description": null,
+      "height": 4878,
+      "frame": "home.png",
+      "full": "home-full.png",
+      "videos": [],
+      "phone": {
+        "frame": "m-home.png",
+        "full": "m-home-full.png",
+        "height": 7678
+      },
+      "text": [
+        {
+          "tag": "h1",
+          "text": "Align, Engage, Execute",
+          "where": "header"
+        },
+        {
+          "tag": "h2",
+          "text": "PURPOSE-POWERED PERFORMANCE",
+          "where": "header"
+        },
+        {
+          "tag": "p",
+          "text": "A strategy-to-execution platform designed for mission-driven companies to seamlessly connect strategic objectives with employee work.",
+          "where": "header"
+        },
+        {
+          "tag": "h2",
+          "text": "TRANSFORM HOW YOUR TEAM WORKS",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "By leveraging smart goal alignment, progress tracking, and mission-focused insights, our system ensures that your whole team is deeply engaged with the company's vision while delivering measurable, mission-critical outcomes.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "PLATFORM HIGHLIGHTS",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Work with Purpose",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Employees gain unparalleled clarity on how their day-to-day work directly contributes to the company's mission and strategic objectives.",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "Smart Goal Authoring: Employees and managers co-create mission-aligned goals.",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "Alignment Visualizations: See how goals ladder up to priorities.",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "Critical Feedback Loops: Discuss progress during check-ins.",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "Purpose-Driven Engagement: Connect work directly to the mission.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Impact Tracking Dashboard",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "This feature transforms traditional performance management by focusing on measurable contributions to mission-critical projects and strategic initiatives.",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "Mission Impact Metrics: Track goal contribution to the mission.",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "Progress Visualizations: Clear dashboards show goal progress.",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "Executive & HR Insights: Advanced reporting for a bird's-eye view.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "WHAT PEOPLE SAY ABOUT INSIGHTS",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "\"Insights finally connected our strategy discussions to daily execution. Our teams feel more aligned and purposeful than ever before.\"",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "\"The impact tracking is phenomenal. We can clearly see how individual contributions ladder up to our mission goals, boosting morale and accountability.\"",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Head of People, Innovate Solutions",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "\"As a manager, the check-in features and goal visualizations make performance conversations more meaningful and focused on mission impact.\"",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Engineering Manager, TechForGood",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "WHY CHOOSE INSIGHTS",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "From Vision to Execution",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Track and measure what truly matters...",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Connect Every Employee",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Organization-wide goal alignment...",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Engagement into Impact",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Turn employee engagement...",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "See the Big Picture",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Align, execute, and achieve...",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "COMPREHENSIVE SUPPORT & TRAINING",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "We ensure your team is fully equipped from day one. Our comprehensive support and training resources are designed for immediate effectiveness and include:",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "Role-specific onboarding and training sessions tailored to managers and employees.",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "An extensive library of on-demand learning resources, guides, and tutorials.",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "Ongoing educational webinars covering best practices and new feature releases.",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "Dedicated customer support channels for timely assistance.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "READY TO TRANSFORM YOUR ORGANIZATION?",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Discover how Insights can help your mission-driven company achieve its strategic objectives.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Insights",
+          "where": "footer"
+        },
+        {
+          "tag": "p",
+          "text": "Purpose-powered performance...",
+          "where": "footer"
+        },
+        {
+          "tag": "h4",
+          "text": "Company",
+          "where": "footer"
+        },
+        {
+          "tag": "h4",
+          "text": "Connect",
+          "where": "footer"
+        },
+        {
+          "tag": "p",
+          "text": "© 2025 Insights. All rights reserved.",
+          "where": "footer"
+        }
+      ],
+      "design": {
+        "fonts": {
+          "headings": "Sofia Pro",
+          "headingsWeight": "300",
+          "body": "Sofia Pro",
+          "bodyWeight": "300",
+          "nav": "Sofia Pro",
+          "buttons": "Proxima Nova"
+        },
+        "faces": [
+          "Font Awesome 6 Free"
+        ],
+        "page": "#ECF0F1",
+        "backgrounds": [
+          {
+            "hex": "#ECF0F1",
+            "weight": 9521847
+          },
+          {
+            "hex": "#FFFFFF",
+            "weight": 3460631
+          },
+          {
+            "hex": "#34495E",
+            "weight": 1192320
+          },
+          {
+            "hex": "#333333",
+            "weight": 473760
+          },
+          {
+            "hex": "#1A92EC",
+            "weight": 24963
+          }
+        ],
+        "inks": [
+          {
+            "hex": "#333333",
+            "weight": 4303
+          },
+          {
+            "hex": "#FFFFFF",
+            "weight": 442
+          },
+          {
+            "hex": "#999999",
+            "weight": 146
+          },
+          {
+            "hex": "#34495E",
+            "weight": 42
+          }
+        ],
+        "link": null
+      }
+    },
+    {
+      "name": "home-2",
+      "route": "/home",
+      "url": "https://2020insights.net/home",
+      "title": "Insights | Purpose-Powered Performance",
+      "description": null,
+      "height": 4878,
+      "frame": "home-2.png",
+      "full": "home-2-full.png",
+      "videos": [],
+      "phone": {
+        "frame": "m-home-2.png",
+        "full": "m-home-2-full.png",
+        "height": 7678
+      },
+      "text": [
+        {
+          "tag": "h1",
+          "text": "Align, Engage, Execute",
+          "where": "header"
+        },
+        {
+          "tag": "h2",
+          "text": "PURPOSE-POWERED PERFORMANCE",
+          "where": "header"
+        },
+        {
+          "tag": "p",
+          "text": "A strategy-to-execution platform designed for mission-driven companies to seamlessly connect strategic objectives with employee work.",
+          "where": "header"
+        },
+        {
+          "tag": "h2",
+          "text": "TRANSFORM HOW YOUR TEAM WORKS",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "By leveraging smart goal alignment, progress tracking, and mission-focused insights, our system ensures that your whole team is deeply engaged with the company's vision while delivering measurable, mission-critical outcomes.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "PLATFORM HIGHLIGHTS",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Work with Purpose",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Employees gain unparalleled clarity on how their day-to-day work directly contributes to the company's mission and strategic objectives.",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "Smart Goal Authoring: Employees and managers co-create mission-aligned goals.",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "Alignment Visualizations: See how goals ladder up to priorities.",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "Critical Feedback Loops: Discuss progress during check-ins.",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "Purpose-Driven Engagement: Connect work directly to the mission.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Impact Tracking Dashboard",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "This feature transforms traditional performance management by focusing on measurable contributions to mission-critical projects and strategic initiatives.",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "Mission Impact Metrics: Track goal contribution to the mission.",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "Progress Visualizations: Clear dashboards show goal progress.",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "Executive & HR Insights: Advanced reporting for a bird's-eye view.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "WHAT PEOPLE SAY ABOUT INSIGHTS",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "\"Insights finally connected our strategy discussions to daily execution. Our teams feel more aligned and purposeful than ever before.\"",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "\"The impact tracking is phenomenal. We can clearly see how individual contributions ladder up to our mission goals, boosting morale and accountability.\"",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Head of People, Innovate Solutions",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "\"As a manager, the check-in features and goal visualizations make performance conversations more meaningful and focused on mission impact.\"",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Engineering Manager, TechForGood",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "WHY CHOOSE INSIGHTS",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "From Vision to Execution",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Track and measure what truly matters...",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Connect Every Employee",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Organization-wide goal alignment...",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Engagement into Impact",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Turn employee engagement...",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "See the Big Picture",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Align, execute, and achieve...",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "COMPREHENSIVE SUPPORT & TRAINING",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "We ensure your team is fully equipped from day one. Our comprehensive support and training resources are designed for immediate effectiveness and include:",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "Role-specific onboarding and training sessions tailored to managers and employees.",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "An extensive library of on-demand learning resources, guides, and tutorials.",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "Ongoing educational webinars covering best practices and new feature releases.",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "Dedicated customer support channels for timely assistance.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "READY TO TRANSFORM YOUR ORGANIZATION?",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Discover how Insights can help your mission-driven company achieve its strategic objectives.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Insights",
+          "where": "footer"
+        },
+        {
+          "tag": "p",
+          "text": "Purpose-powered performance...",
+          "where": "footer"
+        },
+        {
+          "tag": "h4",
+          "text": "Company",
+          "where": "footer"
+        },
+        {
+          "tag": "h4",
+          "text": "Connect",
+          "where": "footer"
+        },
+        {
+          "tag": "p",
+          "text": "© 2025 Insights. All rights reserved.",
+          "where": "footer"
+        }
+      ],
+      "design": {
+        "fonts": {
+          "headings": "Sofia Pro",
+          "headingsWeight": "300",
+          "body": "Sofia Pro",
+          "bodyWeight": "300",
+          "nav": "Sofia Pro",
+          "buttons": "Proxima Nova"
+        },
+        "faces": [
+          "Font Awesome 6 Free"
+        ],
+        "page": "#ECF0F1",
+        "backgrounds": [
+          {
+            "hex": "#ECF0F1",
+            "weight": 9521847
+          },
+          {
+            "hex": "#FFFFFF",
+            "weight": 3460631
+          },
+          {
+            "hex": "#34495E",
+            "weight": 1192320
+          },
+          {
+            "hex": "#333333",
+            "weight": 473760
+          },
+          {
+            "hex": "#1A92EC",
+            "weight": 24963
+          }
+        ],
+        "inks": [
+          {
+            "hex": "#333333",
+            "weight": 4303
+          },
+          {
+            "hex": "#FFFFFF",
+            "weight": 442
+          },
+          {
+            "hex": "#999999",
+            "weight": 146
+          },
+          {
+            "hex": "#34495E",
+            "weight": 42
+          }
+        ],
+        "link": null
+      }
+    },
+    {
+      "name": "our-story",
+      "route": "/our-story",
+      "url": "https://2020insights.net/our-story",
+      "title": "Our Story | Insights",
+      "description": null,
+      "height": 2362,
+      "frame": "our-story.png",
+      "full": "our-story-full.png",
+      "videos": [],
+      "phone": {
+        "frame": "m-our-story.png",
+        "full": "m-our-story-full.png",
+        "height": 3764
+      },
+      "text": [
+        {
+          "tag": "h1",
+          "text": "Our Story",
+          "where": "header"
+        },
+        {
+          "tag": "p",
+          "text": "Driven by a passion to help mission-focused organizations succeed.",
+          "where": "header"
+        },
+        {
+          "tag": "h2",
+          "text": "WHY WE STARTED INSIGHTS",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "We saw firsthand the incredible work being done by mission-driven companies, non-profits, and educational institutions. Yet, too often, these organizations struggled to bridge the gap between their inspiring strategic vision and the day-to-day execution required to achieve it. Goals felt disconnected, progress was hard to track against the core mission, and valuable employee effort wasn't always aligned with the highest priorities.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Insights was born from the belief that purpose and performance should go hand-in-hand. We set out to create a platform that not only clarifies strategic objectives but empowers every single employee to see how their work contributes directly to the larger mission. Our goal is to provide the tools and visibility needed for mission-driven organizations to align, engage, and execute with clarity and impact.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "MEET THE FOUNDERS",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "David Hodgson",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "David is a mission-driven executive who helps teams turn complex ideas into meaningful products and services. Known for building strong, values-based cultures, he leads with empathy, clarity, and a deep belief in the power of aligned teams.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "As former CEO of Project Ronin, David helped bring to market innovative tools that support cancer care—while also shaping a collaborative, purpose-first team culture. His background spans global leaders like Pfizer, Roche and One Medical (now part of Amazon), as well as early-stage startups and growth ventures.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Across all his roles, David has guided organizations through growth and change, with a steady focus on people, purpose, and impact. He's also a trusted advisor to purpose-driven companies working to do things differently—and do them well.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Kirsti Tcherkoyan",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Kirsti is the co-founder and CSO of Insights, a next-gen HR software company helping teams feel more connected to their work—and to each other. With a career that spans tech, media, and consulting, Kirsti knows what it takes to build businesses that grow and scale. She's been part of successful teams at C|Net (acquired by CBS), ThirdAge Media (acquired by Ancestry.com), and All Optic (acquired by Hitachi), and has led her own companies with the same mix of heart and hustle.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Before starting Insights, she co-founded Options4Growth, a consulting firm that delivered people-first business strategies to clients across the U.S. and globally. It was eventually acquired by a national accounting firm.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Outside of work, Kirsti puts her skills to use mentoring entrepreneurs in Kenya and Uganda, serving on nonprofit boards, and volunteering with CASA to support youth in the foster care system.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "At her core, Kirsti is all about helping people do meaningful work—and making organizations better places to grow.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Insights",
+          "where": "footer"
+        },
+        {
+          "tag": "p",
+          "text": "Purpose-powered performance...",
+          "where": "footer"
+        },
+        {
+          "tag": "h4",
+          "text": "Company",
+          "where": "footer"
+        },
+        {
+          "tag": "h4",
+          "text": "Connect",
+          "where": "footer"
+        },
+        {
+          "tag": "p",
+          "text": "© 2025 Insights. All rights reserved.",
+          "where": "footer"
+        }
+      ],
+      "design": {
+        "fonts": {
+          "headings": "Sofia Pro",
+          "headingsWeight": "300",
+          "body": "Sofia Pro",
+          "bodyWeight": "300",
+          "nav": "Sofia Pro",
+          "buttons": "Proxima Nova"
+        },
+        "faces": [
+          "Font Awesome 6 Free"
+        ],
+        "page": "#ECF0F1",
+        "backgrounds": [
+          {
+            "hex": "#ECF0F1",
+            "weight": 5187150
+          },
+          {
+            "hex": "#FFFFFF",
+            "weight": 823680
+          },
+          {
+            "hex": "#333333",
+            "weight": 473760
+          },
+          {
+            "hex": "#34495E",
+            "weight": 316800
+          },
+          {
+            "hex": "#1A92EC",
+            "weight": 7823
+          }
+        ],
+        "inks": [
+          {
+            "hex": "#333333",
+            "weight": 3419
+          },
+          {
+            "hex": "#999999",
+            "weight": 146
+          },
+          {
+            "hex": "#FFFFFF",
+            "weight": 133
+          },
+          {
+            "hex": "#1A92EC",
+            "weight": 41
+          },
+          {
+            "hex": "#34495E",
+            "weight": 38
+          }
+        ],
+        "link": null
+      }
+    },
+    {
+      "name": "perspectives",
+      "route": "/perspectives",
+      "url": "https://2020insights.net/perspectives",
+      "title": "Perspectives | Insights",
+      "description": null,
+      "height": 1673,
+      "frame": "perspectives.png",
+      "full": "perspectives-full.png",
+      "videos": [],
+      "phone": {
+        "frame": "m-perspectives.png",
+        "full": "m-perspectives-full.png",
+        "height": 3722
+      },
+      "text": [
+        {
+          "tag": "h1",
+          "text": "Perspectives",
+          "where": "header"
+        },
+        {
+          "tag": "p",
+          "text": "Exploring Strategy, Mission, Engagement, and Leadership",
+          "where": "header"
+        },
+        {
+          "tag": "h3",
+          "text": "Vision is Cheap. Execution is Magic.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "What separates visionaries from changemakers? Execution...",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "The Right Goal System Isn't a Method. It's a Mindset.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "It's not about which system is better, but which fits your leadership style...",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Alignment is a Verb.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Software doesn't change teams. Culture does. But the right tools amplify alignment...",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Purpose Is the New Paycheck.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "People don't burn out from working hard, but from working without meaning...",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Purpose isn't fluff. It's fuel.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "When your platform connects work to mission... engagement isn't managed, it's unleashed...",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Organizations Don't Need Optimization. They Need Oxygen.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Optimize all you want—but if your teams don't talk, trust, or breathe, your org isn't healthy...",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Insights",
+          "where": "footer"
+        },
+        {
+          "tag": "p",
+          "text": "Purpose-powered performance...",
+          "where": "footer"
+        },
+        {
+          "tag": "h4",
+          "text": "Company",
+          "where": "footer"
+        },
+        {
+          "tag": "h4",
+          "text": "Connect",
+          "where": "footer"
+        },
+        {
+          "tag": "p",
+          "text": "© 2025 Insights. All rights reserved.",
+          "where": "footer"
+        }
+      ],
+      "design": {
+        "fonts": {
+          "headings": "Sofia Pro",
+          "headingsWeight": "300",
+          "body": "Sofia Pro",
+          "bodyWeight": "300",
+          "nav": "Sofia Pro",
+          "buttons": "Proxima Nova"
+        },
+        "faces": [
+          "Font Awesome 6 Free"
+        ],
+        "page": "#ECF0F1",
+        "backgrounds": [
+          {
+            "hex": "#ECF0F1",
+            "weight": 3918240
+          },
+          {
+            "hex": "#FFFFFF",
+            "weight": 1086336
+          },
+          {
+            "hex": "#333333",
+            "weight": 473760
+          },
+          {
+            "hex": "#34495E",
+            "weight": 316800
+          },
+          {
+            "hex": "#1A92EC",
+            "weight": 7823
+          }
+        ],
+        "inks": [
+          {
+            "hex": "#333333",
+            "weight": 1106
+          },
+          {
+            "hex": "#34495E",
+            "weight": 312
+          },
+          {
+            "hex": "#999999",
+            "weight": 146
+          },
+          {
+            "hex": "#FFFFFF",
+            "weight": 101
+          },
+          {
+            "hex": "#1A92EC",
+            "weight": 12
+          }
+        ],
+        "link": "#333333"
+      }
+    }
+  ],
+  "videos": [],
+  "assets": [
+    {
+      "file": "assets/01-insights-logo.png",
+      "url": "https://2020insights.net/insights-logo.png",
+      "page": "home",
+      "kind": "img",
+      "where": "nav",
+      "logo": true,
+      "alt": "Insights Logo",
+      "width": 40,
+      "height": 40,
+      "natural": [
+        688,
+        690
+      ],
+      "bytes": 72585,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/02-dashboard.png",
+      "url": "https://2020insights.net/dashboard.png",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Platform dashboard preview",
+      "width": 768,
+      "height": 761,
+      "natural": [
+        1868,
+        1850
+      ],
+      "bytes": 402757,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/03-goal-cascade.png",
+      "url": "https://2020insights.net/Goal-Cascade.png",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Goal Cascade Visualization showing alignment",
+      "width": 300,
+      "height": 247,
+      "natural": [
+        2016,
+        1326
+      ],
+      "bytes": 350598,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/04-check-in.png",
+      "url": "https://2020insights.net/Check-In.png",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Manager and Employee Check-in Interface",
+      "width": 300,
+      "height": 247,
+      "natural": [
+        2046,
+        1682
+      ],
+      "bytes": 310615,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/05-performance-matrix.png",
+      "url": "https://2020insights.net/Performance-Matrix.png",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Performance Matrix View",
+      "width": 300,
+      "height": 156,
+      "natural": [
+        3432,
+        1782
+      ],
+      "bytes": 388973,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/06-impact-dashboard.png",
+      "url": "https://2020insights.net/Impact-Dashboard.png",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Impact Dashboard Summary",
+      "width": 300,
+      "height": 156,
+      "natural": [
+        2024,
+        902
+      ],
+      "bytes": 169052,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/07-hero-bridge-background.jpg",
+      "url": "https://2020insights.net/hero-bridge-background.jpg",
+      "page": "home",
+      "kind": "background",
+      "where": "header",
+      "logo": false,
+      "alt": "",
+      "width": 1440,
+      "height": 472,
+      "natural": null,
+      "bytes": 2034396,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/01-insights-logo.png",
+      "url": "https://2020insights.net/insights-logo.png",
+      "page": "home-2",
+      "kind": "img",
+      "where": "nav",
+      "logo": true,
+      "alt": "Insights Logo",
+      "width": 40,
+      "height": 40,
+      "natural": [
+        688,
+        690
+      ]
+    },
+    {
+      "file": "assets/02-dashboard.png",
+      "url": "https://2020insights.net/dashboard.png",
+      "page": "home-2",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Platform dashboard preview",
+      "width": 768,
+      "height": 761,
+      "natural": [
+        1868,
+        1850
+      ]
+    },
+    {
+      "file": "assets/03-goal-cascade.png",
+      "url": "https://2020insights.net/Goal-Cascade.png",
+      "page": "home-2",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Goal Cascade Visualization showing alignment",
+      "width": 300,
+      "height": 247,
+      "natural": [
+        2016,
+        1326
+      ]
+    },
+    {
+      "file": "assets/04-check-in.png",
+      "url": "https://2020insights.net/Check-In.png",
+      "page": "home-2",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Manager and Employee Check-in Interface",
+      "width": 300,
+      "height": 247,
+      "natural": [
+        2046,
+        1682
+      ]
+    },
+    {
+      "file": "assets/05-performance-matrix.png",
+      "url": "https://2020insights.net/Performance-Matrix.png",
+      "page": "home-2",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Performance Matrix View",
+      "width": 300,
+      "height": 156,
+      "natural": [
+        3432,
+        1782
+      ]
+    },
+    {
+      "file": "assets/06-impact-dashboard.png",
+      "url": "https://2020insights.net/Impact-Dashboard.png",
+      "page": "home-2",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Impact Dashboard Summary",
+      "width": 300,
+      "height": 156,
+      "natural": [
+        2024,
+        902
+      ]
+    },
+    {
+      "file": "assets/07-hero-bridge-background.jpg",
+      "url": "https://2020insights.net/hero-bridge-background.jpg",
+      "page": "home-2",
+      "kind": "background",
+      "where": "header",
+      "logo": false,
+      "alt": "",
+      "width": 1440,
+      "height": 472,
+      "natural": null
+    },
+    {
+      "file": "assets/01-insights-logo.png",
+      "url": "https://2020insights.net/insights-logo.png",
+      "page": "our-story",
+      "kind": "img",
+      "where": "nav",
+      "logo": true,
+      "alt": "Insights Logo",
+      "width": 40,
+      "height": 40,
+      "natural": [
+        688,
+        690
+      ]
+    },
+    {
+      "file": "assets/08-david-headshot.png",
+      "url": "https://2020insights.net/david-headshot.png",
+      "page": "our-story",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Headshot of David Hodgson",
+      "width": 192,
+      "height": 192,
+      "natural": [
+        800,
+        800
+      ],
+      "bytes": 540088,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/09-kirsti-headshot.png",
+      "url": "https://2020insights.net/kirsti-headshot.png",
+      "page": "our-story",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Headshot of Kirsti Tcherkoyan",
+      "width": 192,
+      "height": 192,
+      "natural": [
+        800,
+        800
+      ],
+      "bytes": 104266,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/07-hero-bridge-background.jpg",
+      "url": "https://2020insights.net/hero-bridge-background.jpg",
+      "page": "our-story",
+      "kind": "background",
+      "where": "header",
+      "logo": false,
+      "alt": "",
+      "width": 1440,
+      "height": 220,
+      "natural": null
+    },
+    {
+      "file": "assets/01-insights-logo.png",
+      "url": "https://2020insights.net/insights-logo.png",
+      "page": "perspectives",
+      "kind": "img",
+      "where": "nav",
+      "logo": true,
+      "alt": "Insights Logo",
+      "width": 40,
+      "height": 40,
+      "natural": [
+        688,
+        690
+      ]
+    },
+    {
+      "file": "assets/10-chess-execution.jpg",
+      "url": "https://2020insights.net/chess-execution.jpg",
+      "page": "perspectives",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Chessboard with queen standing",
+      "width": 384,
+      "height": 192,
+      "natural": [
+        1536,
+        1024
+      ],
+      "bytes": 236519,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/11-smart-okr.png",
+      "url": "https://2020insights.net/smart-okr.png",
+      "page": "perspectives",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "SMART Checklist and OKR structure diagram",
+      "width": 384,
+      "height": 192,
+      "natural": [
+        1536,
+        1024
+      ],
+      "bytes": 2604046,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/12-rowing-team.png",
+      "url": "https://2020insights.net/rowing-team.png",
+      "page": "perspectives",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Rowing team moving in sync",
+      "width": 384,
+      "height": 192,
+      "natural": [
+        1536,
+        1024
+      ],
+      "bytes": 2424636,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/13-why-it-matters.png",
+      "url": "https://2020insights.net/why-it-matters.png",
+      "page": "perspectives",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Sticky note reading Why it matters > What it is",
+      "width": 384,
+      "height": 192,
+      "natural": [
+        1536,
+        1024
+      ],
+      "bytes": 3037873,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/14-feedback-gauge.png",
+      "url": "https://2020insights.net/feedback-gauge.png",
+      "page": "perspectives",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Gauge moving from Silence to Momentum",
+      "width": 384,
+      "height": 192,
+      "natural": [
+        1536,
+        1024
+      ],
+      "bytes": 2815455,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/15-trust-heart.png",
+      "url": "https://2020insights.net/trust-heart.png",
+      "page": "perspectives",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Hand holding a glowing heart labeled Trust",
+      "width": 384,
+      "height": 192,
+      "natural": [
+        1536,
+        1024
+      ],
+      "bytes": 2631278,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/07-hero-bridge-background.jpg",
+      "url": "https://2020insights.net/hero-bridge-background.jpg",
+      "page": "perspectives",
+      "kind": "background",
+      "where": "header",
+      "logo": false,
+      "alt": "",
+      "width": 1440,
+      "height": 220,
+      "natural": null
+    }
+  ]
+}

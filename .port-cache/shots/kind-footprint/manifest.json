@@ -1,0 +1,1399 @@
+{
+  "slug": "kind-footprint",
+  "base": "https://kindfootprint.org",
+  "shot": "2026-10-22T21:42:50.570Z",
+  "viewport": {
+    "width": 1440,
+    "height": 900,
+    "scale": 2
+  },
+  "phone": {
+    "width": 390,
+    "height": 844,
+    "scale": 3
+  },
+  "pages": [
+    {
+      "name": "home",
+      "route": "/",
+      "url": "https://kindfootprint.org/",
+      "title": "Kind Footprint | Saving Lives in Medellín, Colombia",
+      "description": "Kind footprint U.S. 501(c)(3) nonprofit saving lives in Medellín. $2,000 per life saved. 100% of donations reach programs. 205 emergencies in 2025. Donate today",
+      "height": 9033,
+      "frame": "home.png",
+      "full": "home-full.png",
+      "videos": [],
+      "phone": {
+        "frame": "m-home.png",
+        "full": "m-home-full.png",
+        "height": 12591
+      },
+      "text": [
+        {
+          "tag": "h1",
+          "text": "KIND FOOTPRINT: SAVING LIVES IN MEDELLÍN'S",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Most Vulnerable Communities.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Kind footprint connect donors with emergency paramedics on the ground. $2,000 saves one life.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Emergencias Apolo: Saving Lives Every Night.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "A volunteer team of paramedics, psychologists, and rescue workers. Three ambulances. Three motorcycle units. Available 24/7.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Emergencies attended in 2025",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Life-Saving cases in 2025",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Founded In A Crisis. Built To Last.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "In These Communities, We Are The Only Emergency Option.",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "Colombia hosts one of the world's largest internally displaced populations.",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "25 minutes from downtown. Close enough to reach. Forgotten enough to be ignored.",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "Zero government ambulances operate here. We are the only option.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "How We Protect Every Dollar You Donate",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Every project is carefully reviewed for transparency, impact, and accountability before receiving donor funding.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "SCALABILITY",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "We fund trusted local organizations already making a difference in their communities.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "IMPACT",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Every project is measured and reported to show real results.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "TRANSPARENCY",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Track where funds go and the impact they create.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "EFFICIENCY",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "More of your donation reaches people who need it most.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "SUSTAINABILITY",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "We help organizations grow stronger and become financially sustainable.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Every partner is screened for leadership, finances, operations, and accountability before receiving donor support.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "What Does Your Donation Do Tonight?",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Donate On Givebutter",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Donate On Stripe",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Your Donation Is Completely Protected.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Admin costs are covered by a dedicated donor pool your donation is never diluted.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Goes directly to paramedics, equipment, and ambulances. Zero overhead.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Kind Footprint maintains two separate donation pools. When you give to a program, every dollar goes to that program.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Real Programs. Real Impact. Real Transparency.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Every initiative supported by Kind Footprint is carefully vetted, monitored, and reported. Browse our active programs and choose where your donation makes a difference.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Emergencias Apolo",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Three ambulances and three motorcycle units responding to medical emergencies in communities where hospitals don’t reach. In 2025: 205 emergencies attended, 54 classified as life-saving.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Recode the Future",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "English tutoring (past) · Recode the Future coding program (paused): 30 students, 10+ now working in tech. Next phase: English language programs and expanded tech training for youth in strata 1–3.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Where Your Dollar Saves The Most Lives Per Dollar Spent",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "We chose Medellín because it is one of the only places on earth where urgent, genuine humanitarian need coexists with urban infrastructure making every dollar dramatically more effective than in remote operations.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Real Need, Without Remoteness",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Colombia hosts one of the world's largest internally displaced populations. The most vulnerable communities are 20 minutes from downtown Medellín not in the Amazon. Logistics costs stay low; impact stays high.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "6 Years Of Curated Local Network",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Our team built a network of social leaders, local foundations, and community partners over 6 years in the field. During COVID, this network enabled 350,000 meal distributions. It cannot be bought only earned",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Lower Costs = More Lives Saved",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "The cost of operations in Colombia is a fraction of comparable programs in developed countries. That difference translates directly into lives saved per dollar as low as $2,000 per life in our medical program",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Infrastructure Without The Premium",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Unlike truly remote humanitarian crises, Medellín has functional roads, communications, and a medical supply chain. We execute at scale without the logistical overhead that inflates costs in remote operations.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Our Work Has Been Covered By Telemedellín.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Kind Footprint's emergency response program was featured in a nationally televised news interview in Colombia because our results speak for themselves.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "People Who Chose Kind Footprint.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Thanks to Kind Footprint and its Recode the Future program, I had the opportunity to grow personally and professionally in the world of programming. Being a beneficiary of the program opened doors for me, allowed me to acquire new skills, and work alongside people who truly believe in the power of education and opportunities to transform lives. I am very grateful for all the support and positive impact they had on my journey.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Participating in Recode the Future was the big boost my career needed. It was there that I built the foundation of everything I am today as a professional. I started by learning web structure with HTML and CSS, and gradually moved on to logic with JavaScript and Python. The solid foundation the program gave me allowed me to get to where I am today: working as a Full Stack Developer and leading projects and workflows with Artificial Intelligence. Without a doubt, Recode was the starting point of this incredible journey.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Being part of Kind Footprint changed the way I see what's possible. What began as a personal commitment became a mission, and I've seen firsthand how one organized effort can transform an entire community. At different points in my life, I am very grateful to the foundation and the opportunities it has created for me.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "We Can't Help Everyone. But You Can Help Someone Tonight.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Every dollar you give reaches a paramedic, a patient, a family in Medellín.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Volunteer With Us: Help Save Lives In Medellín",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Your time and skills can make a real difference in Medellín’s most vulnerable communities. Kind Footprint offers flexible volunteer roles in the field, remotely, and through U.S. university internship programs. Minimum commitment: one month.",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "630 1ST AVE STE 341 SAN DIEGO, CA 92101",
+          "where": "main"
+        },
+        {
+          "tag": "h4",
+          "text": "MORE INFORMATION",
+          "where": "main"
+        },
+        {
+          "tag": "h4",
+          "text": "LEGAL INFORMATION",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "© 2026 KIND FOOTPRINT · U.S. 501(C)(3) NONPROFIT · EIN: 83-1522419 · ALL DONATIONS ARE TAX-DEDUCTIBLE · KINDFOOTPRINT.ORG",
+          "where": "main"
+        }
+      ],
+      "design": {
+        "fonts": {
+          "headings": "Oswald",
+          "headingsWeight": "700",
+          "body": "Inter",
+          "bodyWeight": "400",
+          "nav": "Oswald",
+          "buttons": "Oswald"
+        },
+        "faces": [
+          "Font Awesome 5 Free",
+          "oswald",
+          "inter",
+          "poppins",
+          "jkiticon"
+        ],
+        "page": "#FFFFFF",
+        "backgrounds": [
+          {
+            "hex": "#FFFFFF",
+            "weight": 13011900
+          },
+          {
+            "hex": "#FFFBF3",
+            "weight": 4843123
+          },
+          {
+            "hex": "#034261",
+            "weight": 576450
+          },
+          {
+            "hex": "#000000",
+            "weight": 468056
+          },
+          {
+            "hex": "#72B7D9",
+            "weight": 405780
+          },
+          {
+            "hex": "#B6D467",
+            "weight": 67238
+          },
+          {
+            "hex": "#769B17",
+            "weight": 42912
+          }
+        ],
+        "inks": [
+          {
+            "hex": "#808285",
+            "weight": 5014
+          },
+          {
+            "hex": "#CC3366",
+            "weight": 996
+          },
+          {
+            "hex": "#72B7D9",
+            "weight": 905
+          },
+          {
+            "hex": "#333333",
+            "weight": 677
+          },
+          {
+            "hex": "#FFFFFF",
+            "weight": 635
+          },
+          {
+            "hex": "#769B17",
+            "weight": 202
+          }
+        ],
+        "link": "#FFFFFF"
+      }
+    },
+    {
+      "name": "about-us",
+      "route": "/about-us/",
+      "url": "https://kindfootprint.org/about-us/",
+      "title": "About Kind Footprint | Humanitarian NGO in Medellín,Colombia",
+      "description": "Kind Footprint is a U.S. 501(c)(3) nonprofit connecting international donors with vetted humanitarian programs in Medellín. 6 years. Every dollar tracked.",
+      "height": 7006,
+      "frame": "about-us.png",
+      "full": "about-us-full.png",
+      "videos": [],
+      "phone": {
+        "frame": "m-about-us.png",
+        "full": "m-about-us-full.png",
+        "height": 11415
+      },
+      "text": [
+        {
+          "tag": "h1",
+          "text": "KIND FOOTPRINT: SIX YEARS OF HUMANITARIAN IMPACT",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Kind Footprint connect international donors with vetted grassroots programs on the ground in Colombia. Every dollar tracked. Every impact measured.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Our Mission",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Founded In A Crisis. Evolved Through Impact.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Kind Footprint is a U.S. 501(c)(3) nonprofit registered in California, operating in Medellín where urgent humanitarian need meets urban infrastructure making every donated dollar dramatically more efficient.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "2019",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "2020-2022",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "350.000 meals during COVID-19 Feed The Barrios",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "2023-2024",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Recode The Future: 10+ Graduates",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "2025",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "3 Ambulances - 205 Emergencies - 54 Lives Saved",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Where Urgent Need Meets Efficient Impact.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Colombia hosts one of the world's largest internally displaced populations.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "25 minutes from downtown Medellin. Close enough to reach. Forgotten enoughto be ignored",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Lower cost of living = dramatically more impact per dollar. We save lives at $2.000 each",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "What Guides Every Decision We Make",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Before any organization receives funding through Kind Footprint, it passes our proprietary SITES evaluation, five criteria that ensure every dollar creates real, lasting humanitarian impact:",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "SCALABILITY",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "We work alongside local organizations already operating in the communities they serve.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "IMPACT",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Every program tracked with action indicators and final outcome indicators.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "TRANSPARENCY",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Open reporting on all financial flows and project outcomes always.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "EFFICIENCY",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Maximum humanitarian impact per donated dollar. No waste, no overhead games.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "SUSTAINABILITY",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "We guide partners toward financial independence so donations fuel expansion, not maintenance.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Organizations that pass SITES undergo deep due diligence covering leadership structure, financial documentation, operational procedures, and reporting capabilities.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "How It Works In Practice",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Map Local Projects",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "02",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Apply SITES Framework",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "03",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Deep Due Diligence",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "04",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Transparent Reporting",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Only organizations that pass SITES receive donor funds.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "The People Behind The Mission",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Kind Footprint was founded by three people who share a conviction: that combining international resources with deep local knowledge creates the most efficient humanitarian impact possible.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Steve Cha",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Mees Liedekerken",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "CFO & Project Coordinator",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "John Esteban",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Real Programs. Real Impact. Real Transparency.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Every initiative supported by Kind Footprint is carefully vetted, monitored, and reported. Browse our active programs and choose where your donation makes a difference.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Emergencias Apolo",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Three ambulances and three motorcycle units responding to medical emergencies in communities where hospitals don’t reach. In 2025: 205 emergencies attended, 54 classified as life-saving.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Recode the Future",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "English tutoring (past) · Recode the Future coding program (paused): 30 students, 10+ now working in tech. Next phase: English language programs and expanded tech training for youth in strata 1–3.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Ready To Be Part Of The Change?",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Volunteer With Us: Help Save Lives In Medellín",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Your time and skills can make a real difference in Medellín’s most vulnerable communities. Kind Footprint offers flexible volunteer roles in the field, remotely, and through U.S. university internship programs. Minimum commitment: one month.",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "630 1ST AVE STE 341 SAN DIEGO, CA 92101",
+          "where": "main"
+        },
+        {
+          "tag": "h4",
+          "text": "MORE INFORMATION",
+          "where": "main"
+        },
+        {
+          "tag": "h4",
+          "text": "LEGAL INFORMATION",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "© 2026 KIND FOOTPRINT · U.S. 501(C)(3) NONPROFIT · EIN: 83-1522419 · ALL DONATIONS ARE TAX-DEDUCTIBLE · KINDFOOTPRINT.ORG",
+          "where": "main"
+        }
+      ],
+      "design": {
+        "fonts": {
+          "headings": "Oswald",
+          "headingsWeight": "700",
+          "body": "Inter",
+          "bodyWeight": "400",
+          "nav": "Oswald",
+          "buttons": "Oswald"
+        },
+        "faces": [
+          "Font Awesome 5 Free",
+          "oswald",
+          "inter",
+          "poppins",
+          "jkiticon"
+        ],
+        "page": "#FFFFFF",
+        "backgrounds": [
+          {
+            "hex": "#FFFFFF",
+            "weight": 10152649
+          },
+          {
+            "hex": "#FFFBF3",
+            "weight": 6427662
+          },
+          {
+            "hex": "#034261",
+            "weight": 643020
+          },
+          {
+            "hex": "#72B7D9",
+            "weight": 415595
+          },
+          {
+            "hex": "#B6D467",
+            "weight": 116520
+          },
+          {
+            "hex": "#769B17",
+            "weight": 21287
+          }
+        ],
+        "inks": [
+          {
+            "hex": "#808285",
+            "weight": 2289
+          },
+          {
+            "hex": "#FFFFFF",
+            "weight": 742
+          },
+          {
+            "hex": "#72B7D9",
+            "weight": 693
+          },
+          {
+            "hex": "#CC3366",
+            "weight": 569
+          },
+          {
+            "hex": "#333333",
+            "weight": 395
+          },
+          {
+            "hex": "#769B17",
+            "weight": 87
+          }
+        ],
+        "link": "#CC3366"
+      }
+    },
+    {
+      "name": "faq",
+      "route": "/faq/",
+      "url": "https://kindfootprint.org/faq/",
+      "title": "FAQ | Kind Footprint | Donations, Volunteers & Programs",
+      "description": "FAQ about Kind Footprint U.S. 501(c)(3) nonprofit in Medellín, Colombia. Donations, volunteers, programs, transparency, and tax deductions.",
+      "height": 5698,
+      "frame": "faq.png",
+      "full": "faq-full.png",
+      "videos": [],
+      "phone": {
+        "frame": "m-faq.png",
+        "full": "m-faq-full.png",
+        "height": 7164
+      },
+      "text": [
+        {
+          "tag": "h1",
+          "text": "FREQUENTLY ASKED QUESTIONS",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "In the FAQ you will find everything you need to know about donating, volunteering and supporting Kind Footprint’s programs in Medellín, Colombia.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "About Kind Footprint",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Donations",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Volunteers",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Impact & Transparency",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Programs",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "More Information",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Fight For Right Cause For Save The World",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Join our causes and let’s save lives together!",
+          "where": "main"
+        },
+        {
+          "tag": "h4",
+          "text": "FOLLOW OUR SOCIAL MEDIA",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Didn't Find Your Answer?",
+          "where": "main"
+        },
+        {
+          "tag": "h4",
+          "text": "Email",
+          "where": "main"
+        },
+        {
+          "tag": "h4",
+          "text": "Phone",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Latest Blog & Articles",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "How Nonprofits Create Direct Impact In Colombia",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Home Blog Healthcare in Colombia Healthcare & Community How Nonprofits Create Direct Impact in Colombia Discover how nonprofits in Colombia create direct...",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Access To Healthcare In Colombia: The Reality Behind The Numbers",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Millions of Colombians still face barriers to healthcare despite near-universal coverage. Learn how nonprofits like Kind Footprint help vulnerable communities access life-saving...",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Volunteer With Us: Help Save Lives In Medellín",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Your time and skills can make a real difference in Medellín’s most vulnerable communities. Kind Footprint offers flexible volunteer roles in the field, remotely, and through U.S. university internship programs. Minimum commitment: one month.",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "630 1ST AVE STE 341 SAN DIEGO, CA 92101",
+          "where": "main"
+        },
+        {
+          "tag": "h4",
+          "text": "MORE INFORMATION",
+          "where": "main"
+        },
+        {
+          "tag": "h4",
+          "text": "LEGAL INFORMATION",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "© 2026 KIND FOOTPRINT · U.S. 501(C)(3) NONPROFIT · EIN: 83-1522419 · ALL DONATIONS ARE TAX-DEDUCTIBLE · KINDFOOTPRINT.ORG",
+          "where": "main"
+        }
+      ],
+      "design": {
+        "fonts": {
+          "headings": "Oswald",
+          "headingsWeight": "700",
+          "body": "Inter",
+          "bodyWeight": "400",
+          "nav": "Oswald",
+          "buttons": "Oswald"
+        },
+        "faces": [
+          "Font Awesome 5 Free",
+          "oswald",
+          "inter",
+          "poppins",
+          "jkiticon"
+        ],
+        "page": "#FFFFFF",
+        "backgrounds": [
+          {
+            "hex": "#FFFFFF",
+            "weight": 8210310
+          },
+          {
+            "hex": "#FFFBF3",
+            "weight": 1379255
+          },
+          {
+            "hex": "#B6D467",
+            "weight": 1321875
+          },
+          {
+            "hex": "#72B7D9",
+            "weight": 404063
+          },
+          {
+            "hex": "#EAEAEB",
+            "weight": 303000
+          },
+          {
+            "hex": "#034261",
+            "weight": 92209
+          },
+          {
+            "hex": "#769B17",
+            "weight": 5162
+          }
+        ],
+        "inks": [
+          {
+            "hex": "#FFFFFF",
+            "weight": 1381
+          },
+          {
+            "hex": "#CC3366",
+            "weight": 948
+          },
+          {
+            "hex": "#808285",
+            "weight": 758
+          },
+          {
+            "hex": "#333333",
+            "weight": 508
+          },
+          {
+            "hex": "#72B7D9",
+            "weight": 363
+          },
+          {
+            "hex": "#B6D467",
+            "weight": 48
+          }
+        ],
+        "link": "#CC3366"
+      }
+    }
+  ],
+  "videos": [],
+  "assets": [
+    {
+      "file": "assets/01-cropped-chatgpt-image-16-feb-2026-13-49-57-32x32.png",
+      "url": "https://kindfootprint.org/wp-content/uploads/2026/02/cropped-ChatGPT-Image-16-feb-2026-13_49_57-32x32.png",
+      "page": "home",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null,
+      "bytes": 1077,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/02-cropped-chatgpt-image-16-feb-2026-13-49-57-192x1.png",
+      "url": "https://kindfootprint.org/wp-content/uploads/2026/02/cropped-ChatGPT-Image-16-feb-2026-13_49_57-192x192.png",
+      "page": "home",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null,
+      "bytes": 17056,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/03-cropped-chatgpt-image-16-feb-2026-13-49-57-180x1.png",
+      "url": "https://kindfootprint.org/wp-content/uploads/2026/02/cropped-ChatGPT-Image-16-feb-2026-13_49_57-180x180.png",
+      "page": "home",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null,
+      "bytes": 15117,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/04-cropped-kind-footprint-transparent-bg-e158869529.webp",
+      "url": "https://kindfootprint.org/wp-content/uploads/2026/02/cropped-kind-footprint-transparent-bg-e1588695299951_1-_1_.webp",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": true,
+      "alt": "Kind Footprint",
+      "width": 250,
+      "height": 72,
+      "natural": [
+        1000,
+        286
+      ],
+      "bytes": 5550,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/05-whatsapp-image-2025-12-12-at-9-45-39-pm-e1780595.jpg",
+      "url": "https://kindfootprint.org/wp-content/uploads/2026/06/WhatsApp-Image-2025-12-12-at-9.45.39-PM-e1780595199708.jpeg",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 570,
+      "height": 336,
+      "natural": [
+        768,
+        453
+      ],
+      "bytes": 110739,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/06-05-mg-7603-privado-11zon-e1780440481981.webp",
+      "url": "https://kindfootprint.org/wp-content/uploads/2026/06/05-_MG_7603-privado_11zon-e1780440481981.webp",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "A cluster of densely packed, multi-story houses with exposed brick and concrete walls, some laundry hanging outside, forms a hillside community with a kind footprint on the landscape.",
+      "width": 472,
+      "height": 314,
+      "natural": [
+        650,
+        433
+      ],
+      "bytes": 67912,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/07-04-copy-of-435793230-943042217825460-21168023545.webp",
+      "url": "https://kindfootprint.org/wp-content/uploads/2026/05/04-Copy-of-435793230_943042217825460_2116802354560370019_n-privado.webp",
+      "page": "home",
+      "kind": "background",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 530,
+      "height": 316,
+      "natural": null,
+      "bytes": 171006,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/08-23-img-2289-privado.webp",
+      "url": "https://kindfootprint.org/wp-content/uploads/2026/05/23-IMG_2289-privado.webp",
+      "page": "home",
+      "kind": "background",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 291,
+      "height": 320,
+      "natural": null,
+      "bytes": 67476,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/09-05-foto-0003-privado-1.webp",
+      "url": "https://kindfootprint.org/wp-content/uploads/2026/05/05-FOTO-0003-privado-1.webp",
+      "page": "home",
+      "kind": "background",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 291,
+      "height": 320,
+      "natural": null,
+      "bytes": 26942,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/10-bg-rjwyj7.webp",
+      "url": "https://kindfootprint.org/wp-content/uploads/2026/02/bg-RJWYJ7.jpg",
+      "page": "home",
+      "kind": "background",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 1440,
+      "height": 779,
+      "natural": null,
+      "bytes": 98534,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/01-cropped-chatgpt-image-16-feb-2026-13-49-57-32x32.png",
+      "url": "https://kindfootprint.org/wp-content/uploads/2026/02/cropped-ChatGPT-Image-16-feb-2026-13_49_57-32x32.png",
+      "page": "about-us",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/02-cropped-chatgpt-image-16-feb-2026-13-49-57-192x1.png",
+      "url": "https://kindfootprint.org/wp-content/uploads/2026/02/cropped-ChatGPT-Image-16-feb-2026-13_49_57-192x192.png",
+      "page": "about-us",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/03-cropped-chatgpt-image-16-feb-2026-13-49-57-180x1.png",
+      "url": "https://kindfootprint.org/wp-content/uploads/2026/02/cropped-ChatGPT-Image-16-feb-2026-13_49_57-180x180.png",
+      "page": "about-us",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/04-cropped-kind-footprint-transparent-bg-e158869529.webp",
+      "url": "https://kindfootprint.org/wp-content/uploads/2026/02/cropped-kind-footprint-transparent-bg-e1588695299951_1-_1_.webp",
+      "page": "about-us",
+      "kind": "img",
+      "where": "main",
+      "logo": true,
+      "alt": "Kind Footprint",
+      "width": 250,
+      "height": 72,
+      "natural": [
+        1000,
+        286
+      ]
+    },
+    {
+      "file": "assets/11-48-img-8020-privado-e1782166182661-1-11zon.webp",
+      "url": "https://kindfootprint.org/wp-content/uploads/2026/06/48-IMG_8020-privado-e1782166182661_1_11zon.webp",
+      "page": "about-us",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 536,
+      "height": 401,
+      "natural": [
+        435,
+        326
+      ],
+      "bytes": 12730,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/12-05-mg-7603-privado-11zon-768x512.webp",
+      "url": "https://kindfootprint.org/wp-content/uploads/2026/06/05-_MG_7603-privado_11zon-768x512.webp",
+      "page": "about-us",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "A cluster of densely packed, multi-story houses with exposed brick and concrete walls, some laundry hanging outside, forms a hillside community with a kind footprint on the landscape.",
+      "width": 575,
+      "height": 383,
+      "natural": [
+        768,
+        512
+      ],
+      "bytes": 82792,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/13-steve-kind-footprint-con-camiseta-negra-11zon.webp",
+      "url": "https://kindfootprint.org/wp-content/uploads/2026/06/Steve-kind-footprint-con-camiseta-negra_11zon.jpg",
+      "page": "about-us",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Steve Cha",
+      "width": 310,
+      "height": 360,
+      "natural": [
+        451,
+        802
+      ],
+      "bytes": 17654,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/14-u0a3128-privado.webp",
+      "url": "https://kindfootprint.org/wp-content/uploads/2026/05/U0A3128-privado.webp",
+      "page": "about-us",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Mees Liedekerken",
+      "width": 310,
+      "height": 360,
+      "natural": [
+        1040,
+        693
+      ],
+      "bytes": 38664,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/15-john-esteban-recodethefuture.webp",
+      "url": "https://kindfootprint.org/wp-content/uploads/2026/05/John-esteban-Recodethefuture.jpg",
+      "page": "about-us",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "John Esteban",
+      "width": 310,
+      "height": 360,
+      "natural": [
+        800,
+        800
+      ],
+      "bytes": 59788,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/08-23-img-2289-privado.webp",
+      "url": "https://kindfootprint.org/wp-content/uploads/2026/05/23-IMG_2289-privado.webp",
+      "page": "about-us",
+      "kind": "background",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 318,
+      "height": 320,
+      "natural": null
+    },
+    {
+      "file": "assets/09-05-foto-0003-privado-1.webp",
+      "url": "https://kindfootprint.org/wp-content/uploads/2026/05/05-FOTO-0003-privado-1.webp",
+      "page": "about-us",
+      "kind": "background",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 318,
+      "height": 305,
+      "natural": null
+    },
+    {
+      "file": "assets/10-bg-rjwyj7.webp",
+      "url": "https://kindfootprint.org/wp-content/uploads/2026/02/bg-RJWYJ7.jpg",
+      "page": "about-us",
+      "kind": "background",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 1440,
+      "height": 779,
+      "natural": null
+    },
+    {
+      "file": "assets/01-cropped-chatgpt-image-16-feb-2026-13-49-57-32x32.png",
+      "url": "https://kindfootprint.org/wp-content/uploads/2026/02/cropped-ChatGPT-Image-16-feb-2026-13_49_57-32x32.png",
+      "page": "faq",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/02-cropped-chatgpt-image-16-feb-2026-13-49-57-192x1.png",
+      "url": "https://kindfootprint.org/wp-content/uploads/2026/02/cropped-ChatGPT-Image-16-feb-2026-13_49_57-192x192.png",
+      "page": "faq",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/03-cropped-chatgpt-image-16-feb-2026-13-49-57-180x1.png",
+      "url": "https://kindfootprint.org/wp-content/uploads/2026/02/cropped-ChatGPT-Image-16-feb-2026-13_49_57-180x180.png",
+      "page": "faq",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/04-cropped-kind-footprint-transparent-bg-e158869529.webp",
+      "url": "https://kindfootprint.org/wp-content/uploads/2026/02/cropped-kind-footprint-transparent-bg-e1588695299951_1-_1_.webp",
+      "page": "faq",
+      "kind": "img",
+      "where": "main",
+      "logo": true,
+      "alt": "Kind Footprint",
+      "width": 250,
+      "height": 72,
+      "natural": [
+        1000,
+        286
+      ]
+    },
+    {
+      "file": "assets/10-bg-rjwyj7.webp",
+      "url": "https://kindfootprint.org/wp-content/uploads/2026/02/bg-RJWYJ7.jpg",
+      "page": "faq",
+      "kind": "background",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 1440,
+      "height": 457,
+      "natural": null
+    }
+  ]
+}

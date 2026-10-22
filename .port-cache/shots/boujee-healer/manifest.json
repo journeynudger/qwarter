@@ -1,0 +1,2661 @@
+{
+  "slug": "boujee-healer",
+  "base": "https://theboujeehealer.com",
+  "shot": "2026-10-22T21:35:52.593Z",
+  "viewport": {
+    "width": 1440,
+    "height": 900,
+    "scale": 2
+  },
+  "phone": {
+    "width": 390,
+    "height": 844,
+    "scale": 3
+  },
+  "pages": [
+    {
+      "name": "home",
+      "route": "/",
+      "url": "https://theboujeehealer.com/",
+      "title": "The Boujee Healer™ | Gayle Fuller - Embodiment, Alignment & Divine Feminine Activation",
+      "description": "Gayle Fuller, The Boujee Healer™, guides awakened women out of healing mode and into embodied remembrance - alignment sessions, divine feminine & sexual energy containers, and the Family of Light community. Luxury, softness, and sovereignty as your spiritual birthright.",
+      "height": 11188,
+      "frame": "home.png",
+      "full": "home-full.png",
+      "videos": [],
+      "phone": {
+        "frame": "m-home.png",
+        "full": "m-home-full.png",
+        "height": 14506
+      },
+      "text": [
+        {
+          "tag": "h1",
+          "text": "GAYLE FULLER",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "You've done the healing. Now comes the living.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "You've evolved. But your life, your abundance, and your radiance haven't caught up yet. You're not lost. You're in the space between who you were and who you came here to be. This is where I meet you.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Healed enough to know better. Still waiting to live better.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "You've expanded. You've released what no longer serves. And yet, a quiet disconnection keeps showing up. Your outer world still doesn't match your inner truth.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "The breakthrough hasn't fully landed.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "You've done the work. Maybe even built a version of success. But you can't manifest from a body you don't feel safe in, and somewhere along the path, safety was the step that got skipped.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "You're in the sacred in-between.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "You weren't meant to shrink to fit into this world. You came to shift it. But the mission inside you is hard to hear over the noise, the pressure, and the old identities still asking you to stay small.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Alignment is the recalibration.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "When you stop doubting your light and anchor it into embodied action, your entire reality reorganizes. Frequency first. We don't hustle; we harmonize. And abundance follows alignment.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Luxury, softness, and sovereignty are your spiritual birthright. I am the living proof that you never had to choose between awakened and abundant.",
+          "where": "main"
+        },
+        {
+          "tag": "blockquote",
+          "text": "The Alignment Session",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Ready to come into full alignment with your soul mission? If you've felt the pull - and the pressure of something blocking your next level - this is your call to clear the path.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "In this sacred session we dissolve resistance, decode your energetic blueprint, and illuminate your next aligned steps - so you can embody your highest self, activate your mission, and prosper in your divine purpose with clarity and flow. You'll also receive a personalized Activation Assessment: a channeled map of what's rising, what's integrating, and what's next.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Every session is intuitive - Gayle weaves the modalities your field is asking for:",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequency You Can Take With You",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Channeled activations and transmissions to hold your field between sessions - portal meditations, chakra clearings, and Gaia connections that members describe as \"on another level.\" Available for purchase, or free inside the Family of Light.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Starseed Society",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Wear your frequency. Conscious pieces for the awakened - because energy doesn't lie, and neither should your wardrobe. Sacred style for the woman (and the soul) who vibrates at a different level.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Dad Hat",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Wear your frequency. A clean, conscious statement piece for the awakened soul on the move.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Women's Crop Top",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Embody your mission. High-vibe style designed for the conscious feminine leader.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Quantum Jump T-Shirt",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Schumann Resonance frequency meets sacred style. For those who vibrate at a different level.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "You were never meant to awaken alone.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "The Family of Light is a sanctuary for starseeds, visionaries, and light-bearers rising into their missions together. This isn't just a community - it's a soul family, where your growth is honored, your gifts are welcomed, and your presence is sacred.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Come for the resonance. Stay for the remembrance.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Your soul family is live in today's activation space.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Even one mindful breath reconnects you to your divine rhythm.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Your share during today's circle gave me chills.",
+          "where": "main"
+        },
+        {
+          "tag": "h4",
+          "text": "A nudge when you need it most.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Get soft, mindful reminders to pause, breathe, and take a moment for yourself, without the pressure.",
+          "where": "main"
+        },
+        {
+          "tag": "h4",
+          "text": "This isn't just a community.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "It's a soul family - where you're seen, celebrated, and supported as you evolve. Here, your growth is honored. Your gifts are welcomed. Your presence is sacred.",
+          "where": "main"
+        },
+        {
+          "tag": "h4",
+          "text": "Led by Gayle Fuller",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Guided by Gayle's wisdom, this evolving sanctuary lives in your palm.",
+          "where": "main"
+        },
+        {
+          "tag": "h4",
+          "text": "Rise in Radiance",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "You are not lost. You are just out of alignment.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "You've evolved. But your life, your work, and your relationships haven't caught up.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "What Our Soul Family Is Saying",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Stories from those who answered the call of light.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "\"I have done this meditation 3 times in the last 24 hrs. Every time was different and so powerful. Connecting with Gaia felt complete. Chakras are opening more each time. Yawning and tingling. Thank you so much for this meditation!\"",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "\"I didn't even think that a meditation could get even more powerful than your 7-7-7 portal one but this one really had me all in my feelings - full on body shivers basically throughout it all and incredibly powerful visuals throughout it as well.\"",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "\"My Magic of Mount Shasta experience was the best investment I have made! Being in Mount Shasta allowed me to refill my cup, tap into my most powerful self, and unlock wisdom and knowings that had laid dormant for so long.\"",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "\"Gayle and her team provide a beautiful, sacred container for personal expansion and community. I never wanted the experience to end!\"",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "\"I honestly can not thank you enough for this Gayle I absolutely loved your prior meditations and activations but this was truly on another level.\"",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "\"Gayle is unlike any healer I have experienced before. She is tapped into consciousness far beyond a typical reiki master and is able to share her wisdom in a simplified, clear way.\"",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "\"The Magic of Mount Shasta Experience was the most amazing experience, it has been life changing for me. I grew in spirit and learned to heal along with so many like-minded people.\"",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "The moment you stop",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "managing your energy",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "and start mastering it",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "that's when your life",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "begins to move.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Understand the journey, the flow, and how we come into alignment.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "More than a program - a sacred remembering. A multidimensional mentorship, frequency-coded library, and global soul family for light beings ready to live in devotion, not distraction.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "This is your divine assignment.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "There's a reason you were called here. Your soul's work is your true wealth - and it's time to stop abandoning it. Growth is honored here. Healing is safe here. And you are already the one you've been waiting for.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Powered By Vibe Otter Designed by Nastassia Domenique",
+          "where": "footer"
+        }
+      ],
+      "design": {
+        "fonts": {
+          "headings": "Nohemi",
+          "headingsWeight": "100",
+          "body": "Poppins",
+          "bodyWeight": "300",
+          "nav": "Poppins",
+          "buttons": "Arial"
+        },
+        "faces": [
+          "Inter",
+          "Poppins",
+          "Nohemi",
+          "Coconat"
+        ],
+        "page": "#451038",
+        "backgrounds": [
+          {
+            "hex": "#451038",
+            "weight": 25044454
+          },
+          {
+            "hex": "#0E0016",
+            "weight": 1509075
+          },
+          {
+            "hex": "#E0CADF",
+            "weight": 1296000
+          },
+          {
+            "hex": "#FFFFFF",
+            "weight": 1296000
+          },
+          {
+            "hex": "#441038",
+            "weight": 324000
+          },
+          {
+            "hex": "#1C0416",
+            "weight": 270000
+          },
+          {
+            "hex": "#050505",
+            "weight": 201600
+          },
+          {
+            "hex": "#FCFCFC",
+            "weight": 109752
+          }
+        ],
+        "inks": [
+          {
+            "hex": "#F5F3EF",
+            "weight": 3604
+          },
+          {
+            "hex": "#FFFFFF",
+            "weight": 990
+          },
+          {
+            "hex": "#F0DFF7",
+            "weight": 626
+          },
+          {
+            "hex": "#E1C4F5",
+            "weight": 244
+          },
+          {
+            "hex": "#EBE7E0",
+            "weight": 213
+          },
+          {
+            "hex": "#C0C0C0",
+            "weight": 187
+          }
+        ],
+        "link": "#FFFFFF"
+      }
+    },
+    {
+      "name": "index-html",
+      "route": "/index.html",
+      "url": "https://theboujeehealer.com/index.html",
+      "title": "The Boujee Healer™ | Gayle Fuller - Embodiment, Alignment & Divine Feminine Activation",
+      "description": "Gayle Fuller, The Boujee Healer™, guides awakened women out of healing mode and into embodied remembrance - alignment sessions, divine feminine & sexual energy containers, and the Family of Light community. Luxury, softness, and sovereignty as your spiritual birthright.",
+      "height": 11188,
+      "frame": "index-html.png",
+      "full": "index-html-full.png",
+      "videos": [],
+      "phone": {
+        "frame": "m-index-html.png",
+        "full": "m-index-html-full.png",
+        "height": 14506
+      },
+      "text": [
+        {
+          "tag": "h1",
+          "text": "GAYLE FULLER",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "You've done the healing. Now comes the living.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "You've evolved. But your life, your abundance, and your radiance haven't caught up yet. You're not lost. You're in the space between who you were and who you came here to be. This is where I meet you.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Healed enough to know better. Still waiting to live better.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "You've expanded. You've released what no longer serves. And yet, a quiet disconnection keeps showing up. Your outer world still doesn't match your inner truth.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "The breakthrough hasn't fully landed.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "You've done the work. Maybe even built a version of success. But you can't manifest from a body you don't feel safe in, and somewhere along the path, safety was the step that got skipped.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "You're in the sacred in-between.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "You weren't meant to shrink to fit into this world. You came to shift it. But the mission inside you is hard to hear over the noise, the pressure, and the old identities still asking you to stay small.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Alignment is the recalibration.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "When you stop doubting your light and anchor it into embodied action, your entire reality reorganizes. Frequency first. We don't hustle; we harmonize. And abundance follows alignment.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Luxury, softness, and sovereignty are your spiritual birthright. I am the living proof that you never had to choose between awakened and abundant.",
+          "where": "main"
+        },
+        {
+          "tag": "blockquote",
+          "text": "The Alignment Session",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Ready to come into full alignment with your soul mission? If you've felt the pull - and the pressure of something blocking your next level - this is your call to clear the path.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "In this sacred session we dissolve resistance, decode your energetic blueprint, and illuminate your next aligned steps - so you can embody your highest self, activate your mission, and prosper in your divine purpose with clarity and flow. You'll also receive a personalized Activation Assessment: a channeled map of what's rising, what's integrating, and what's next.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Every session is intuitive - Gayle weaves the modalities your field is asking for:",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequency You Can Take With You",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Channeled activations and transmissions to hold your field between sessions - portal meditations, chakra clearings, and Gaia connections that members describe as \"on another level.\" Available for purchase, or free inside the Family of Light.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Starseed Society",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Wear your frequency. Conscious pieces for the awakened - because energy doesn't lie, and neither should your wardrobe. Sacred style for the woman (and the soul) who vibrates at a different level.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Dad Hat",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Wear your frequency. A clean, conscious statement piece for the awakened soul on the move.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Women's Crop Top",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Embody your mission. High-vibe style designed for the conscious feminine leader.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Quantum Jump T-Shirt",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Schumann Resonance frequency meets sacred style. For those who vibrate at a different level.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "You were never meant to awaken alone.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "The Family of Light is a sanctuary for starseeds, visionaries, and light-bearers rising into their missions together. This isn't just a community - it's a soul family, where your growth is honored, your gifts are welcomed, and your presence is sacred.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Come for the resonance. Stay for the remembrance.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Your soul family is live in today's activation space.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Even one mindful breath reconnects you to your divine rhythm.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Your share during today's circle gave me chills.",
+          "where": "main"
+        },
+        {
+          "tag": "h4",
+          "text": "A nudge when you need it most.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Get soft, mindful reminders to pause, breathe, and take a moment for yourself, without the pressure.",
+          "where": "main"
+        },
+        {
+          "tag": "h4",
+          "text": "This isn't just a community.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "It's a soul family - where you're seen, celebrated, and supported as you evolve. Here, your growth is honored. Your gifts are welcomed. Your presence is sacred.",
+          "where": "main"
+        },
+        {
+          "tag": "h4",
+          "text": "Led by Gayle Fuller",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Guided by Gayle's wisdom, this evolving sanctuary lives in your palm.",
+          "where": "main"
+        },
+        {
+          "tag": "h4",
+          "text": "Rise in Radiance",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "You are not lost. You are just out of alignment.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "You've evolved. But your life, your work, and your relationships haven't caught up.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "What Our Soul Family Is Saying",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Stories from those who answered the call of light.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "\"I have done this meditation 3 times in the last 24 hrs. Every time was different and so powerful. Connecting with Gaia felt complete. Chakras are opening more each time. Yawning and tingling. Thank you so much for this meditation!\"",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "\"I didn't even think that a meditation could get even more powerful than your 7-7-7 portal one but this one really had me all in my feelings - full on body shivers basically throughout it all and incredibly powerful visuals throughout it as well.\"",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "\"My Magic of Mount Shasta experience was the best investment I have made! Being in Mount Shasta allowed me to refill my cup, tap into my most powerful self, and unlock wisdom and knowings that had laid dormant for so long.\"",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "\"Gayle and her team provide a beautiful, sacred container for personal expansion and community. I never wanted the experience to end!\"",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "\"I honestly can not thank you enough for this Gayle I absolutely loved your prior meditations and activations but this was truly on another level.\"",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "\"Gayle is unlike any healer I have experienced before. She is tapped into consciousness far beyond a typical reiki master and is able to share her wisdom in a simplified, clear way.\"",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "\"The Magic of Mount Shasta Experience was the most amazing experience, it has been life changing for me. I grew in spirit and learned to heal along with so many like-minded people.\"",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "The moment you stop",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "managing your energy",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "and start mastering it",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "that's when your life",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "begins to move.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Understand the journey, the flow, and how we come into alignment.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "More than a program - a sacred remembering. A multidimensional mentorship, frequency-coded library, and global soul family for light beings ready to live in devotion, not distraction.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "This is your divine assignment.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "There's a reason you were called here. Your soul's work is your true wealth - and it's time to stop abandoning it. Growth is honored here. Healing is safe here. And you are already the one you've been waiting for.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Powered By Vibe Otter Designed by Nastassia Domenique",
+          "where": "footer"
+        }
+      ],
+      "design": {
+        "fonts": {
+          "headings": "Nohemi",
+          "headingsWeight": "100",
+          "body": "Poppins",
+          "bodyWeight": "300",
+          "nav": "Poppins",
+          "buttons": "Arial"
+        },
+        "faces": [
+          "Inter",
+          "Poppins",
+          "Nohemi",
+          "Coconat"
+        ],
+        "page": "#451038",
+        "backgrounds": [
+          {
+            "hex": "#451038",
+            "weight": 25044454
+          },
+          {
+            "hex": "#0E0016",
+            "weight": 1509075
+          },
+          {
+            "hex": "#E0CADF",
+            "weight": 1296000
+          },
+          {
+            "hex": "#FFFFFF",
+            "weight": 1296000
+          },
+          {
+            "hex": "#441038",
+            "weight": 324000
+          },
+          {
+            "hex": "#1C0416",
+            "weight": 270000
+          },
+          {
+            "hex": "#050505",
+            "weight": 201600
+          },
+          {
+            "hex": "#FCFCFC",
+            "weight": 109752
+          }
+        ],
+        "inks": [
+          {
+            "hex": "#F5F3EF",
+            "weight": 3604
+          },
+          {
+            "hex": "#FFFFFF",
+            "weight": 990
+          },
+          {
+            "hex": "#F0DFF7",
+            "weight": 626
+          },
+          {
+            "hex": "#E1C4F5",
+            "weight": 244
+          },
+          {
+            "hex": "#EBE7E0",
+            "weight": 213
+          },
+          {
+            "hex": "#C0C0C0",
+            "weight": 187
+          }
+        ],
+        "link": "#FFFFFF"
+      }
+    },
+    {
+      "name": "family-of-light-html",
+      "route": "/family-of-light.html",
+      "url": "https://theboujeehealer.com/family-of-light.html",
+      "title": "Family of Light | Gayle Fuller – The Boujee Healer",
+      "description": "The Family of Light is a sacred multidimensional community for starseeds, visionaries, and light-bearers ready to rise into their mission together with Gayle Fuller.",
+      "height": 4747,
+      "frame": "family-of-light-html.png",
+      "full": "family-of-light-html-full.png",
+      "videos": [],
+      "phone": {
+        "frame": "m-family-of-light-html.png",
+        "full": "m-family-of-light-html-full.png",
+        "height": 6254
+      },
+      "text": [
+        {
+          "tag": "h1",
+          "text": "Welcome to the Family of Light",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "A sacred multidimensional space for starseeds, visionaries, and light-bearers who are ready to rise into their mission, together.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "More than a community. A sacred remembering.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "The Family of Light is a living, breathing container: a multidimensional mentorship, frequency-coded library, and global soul community for light beings who are ready to live in devotion, not distraction.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "This isn't a course you complete or a program you consume. It's a space that evolves with you. Here, you don't just learn. You remember, activate, and anchor your highest self in real time, surrounded by a tribe who sees you fully.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Led by Gayle Fuller, every circle, every activation, every transmission is designed to meet you exactly where you are and elevate you to where you know you're meant to be.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "You belong here if…",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "You've done the healing work but something still feels off, like your outer world hasn't caught up to your inner evolution.",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "You know you're here for more, but the path feels foggy and you're tired of navigating it alone.",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "You're a starseed, empath, or light-bearer who craves a community that truly sees and understands you.",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "You're ready to stop managing your energy and start mastering it, fully and unapologetically.",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "You want to align your mission, your gifts, and your abundance, all at once, in sacred community.",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "You feel the pull toward something greater and you're ready to answer it, now.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Everything inside the Family of Light",
+          "where": "main"
+        },
+        {
+          "tag": "h4",
+          "text": "Moon Meditations",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Sacred new moon and full moon ceremonies to align your intentions and release what no longer serves.",
+          "where": "main"
+        },
+        {
+          "tag": "h4",
+          "text": "Portal Activations",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Channeled transmissions during high-frequency cosmic gateways: 8/8, 11/11, solstices, and more.",
+          "where": "main"
+        },
+        {
+          "tag": "h4",
+          "text": "Live Frequency Calls",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Real-time community calls with activations, Q&A, and direct channeled guidance from Gayle.",
+          "where": "main"
+        },
+        {
+          "tag": "h4",
+          "text": "Meditation Bundles",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Access to the full meditation library, including the Violet Flame series and Chakra Activation series, free with membership.",
+          "where": "main"
+        },
+        {
+          "tag": "h4",
+          "text": "Community Space",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "A safe, sacred digital space to connect with your soul family, share your journey, and be witnessed.",
+          "where": "main"
+        },
+        {
+          "tag": "h4",
+          "text": "Light Language Transmissions",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Gayle's unique light language activations to unlock dormant codes and accelerate your energetic evolution.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "What the Family is saying",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Stories from those who answered the call of light.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "\"I have done this meditation 3 times in the last 24 hrs. Every time was different and so powerful. Connecting with Gaia felt complete. Chakras are opening more each time. Yawning and tingling. Thank you so much for this meditation!\"",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "\"I didn't even think that a meditation could get even more powerful than your 7-7-7 portal one but this one really had me all in my feelings, full on body shivers basically throughout it all and incredibly powerful visuals.\"",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "\"Gayle and her team provide a beautiful, sacred container for personal expansion and community. I never wanted the experience to end! This community is unlike anything I've ever been a part of.\"",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "You were never meant to walk this path alone.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "There's a reason you've been called here. Your soul family is waiting. The light you carry is needed. Step in.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Powered By Vibe Otter Designed by Nastassia Domenique",
+          "where": "footer"
+        }
+      ],
+      "design": {
+        "fonts": {
+          "headings": "Nohemi",
+          "headingsWeight": "300",
+          "body": "Poppins",
+          "bodyWeight": "300",
+          "nav": "Poppins",
+          "buttons": "Arial"
+        },
+        "faces": [
+          "Poppins",
+          "Nohemi"
+        ],
+        "page": "#451038",
+        "backgrounds": [
+          {
+            "hex": "#451038",
+            "weight": 6837759
+          },
+          {
+            "hex": "#1A0030",
+            "weight": 5486490
+          },
+          {
+            "hex": "#1C0416",
+            "weight": 270000
+          },
+          {
+            "hex": "#0E0020",
+            "weight": 218880
+          },
+          {
+            "hex": "#23051C",
+            "weight": 2200
+          }
+        ],
+        "inks": [
+          {
+            "hex": "#F5F3EF",
+            "weight": 3094
+          },
+          {
+            "hex": "#FFFFFF",
+            "weight": 129
+          },
+          {
+            "hex": "#E1C4F5",
+            "weight": 53
+          },
+          {
+            "hex": "#F0CC7A",
+            "weight": 21
+          }
+        ],
+        "link": null
+      }
+    },
+    {
+      "name": "meditation-bundles-html",
+      "route": "/meditation-bundles.html",
+      "url": "https://theboujeehealer.com/meditation-bundles.html",
+      "title": "Meditation Bundles | Gayle Fuller – The Boujee Healer",
+      "description": "Sacred meditation bundles by Gayle Fuller. Experience the 7 Sacred Meditations of the Violet Flame and Unlock Your 7 Chakras - transformative journeys for your soul.",
+      "height": 3385,
+      "frame": "meditation-bundles-html.png",
+      "full": "meditation-bundles-html-full.png",
+      "videos": [],
+      "phone": {
+        "frame": "m-meditation-bundles-html.png",
+        "full": "m-meditation-bundles-html-full.png",
+        "height": 5065
+      },
+      "text": [
+        {
+          "tag": "h1",
+          "text": "Meditation Bundles",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Frequency-coded journeys designed to activate, align, and awaken the divine light within you. Choose the path that is calling your soul.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Loved by hundreds of soul-led spirits worldwide",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "\"Every meditation is a portal. Every breath, a remembrance.\"",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "These sacred bundles were channeled and created by Gayle Fuller to guide you into the deepest layers of your energetic field. Whether you are called to transmute through the Violet Flame or unlock the full spectrum of your chakric energy - each meditation is a living transmission, not just a recording.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "7 Sacred Meditations of the Violet Flame",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "The Violet Flame is one of the most powerful transmutation energies in the universe. This sacred 7-part series guides you through each flame frequency - dissolving karmic density, clearing timelines, and igniting your divine light body from the inside out.",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "7 guided audio meditations - each activating a different Violet Flame frequency",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "Karmic clearing & timeline transmutation practices",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "Light language activations woven throughout each session",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "Lifetime access - return to each flame as often as you are called",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Unlock Your 7 Chakras Meditations",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Your chakras are the sacred energy centers through which your life force flows. This 7-part activation series works with each chakra individually - opening, clearing, and recalibrating each energy center so your full spectrum of divine power can move freely through your body and field.",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "7 guided audio meditations - one dedicated to each chakra center",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "Root to Crown activation - complete energetic alignment sequence",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "Frequency-coded sound healing & breathwork integrated into each session",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "Lifetime access - revisit each chakra whenever your energy calls for it",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Join the Family of Light",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Get access to community frequency calls with live activations, moon meditations, portal meditations, and so much more.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "What Happens When You Go Within",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "\"I have done this meditation 3 times in the last 24 hrs. Every time was different and so powerful. Connecting with Gaia felt complete. Chakras are opening more each time. Yawning and tingling.\"",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "\"I didn't even think that a meditation could get even more powerful than your 7-7-7 portal one but this one really had me all in my feelings - full on body shivers basically throughout it all.\"",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "\"I honestly cannot thank you enough for this Gayle. I absolutely loved your prior meditations and activations but this was truly on another level. So much gratitude.\"",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Powered By Vibe Otter Designed by Nastassia Domenique",
+          "where": "footer"
+        }
+      ],
+      "design": {
+        "fonts": {
+          "headings": "Nohemi",
+          "headingsWeight": "300",
+          "body": "Poppins",
+          "bodyWeight": "300",
+          "nav": "Poppins",
+          "buttons": "Arial"
+        },
+        "faces": [
+          "Poppins",
+          "Nohemi"
+        ],
+        "page": "#451038",
+        "backgrounds": [
+          {
+            "hex": "#451038",
+            "weight": 4876817
+          },
+          {
+            "hex": "#1A0520",
+            "weight": 4268565
+          },
+          {
+            "hex": "#1C0416",
+            "weight": 270000
+          },
+          {
+            "hex": "#23051C",
+            "weight": 2200
+          }
+        ],
+        "inks": [
+          {
+            "hex": "#F5F3EF",
+            "weight": 2281
+          },
+          {
+            "hex": "#FFFFFF",
+            "weight": 61
+          },
+          {
+            "hex": "#E1C4F5",
+            "weight": 49
+          },
+          {
+            "hex": "#CE8FF7",
+            "weight": 5
+          }
+        ],
+        "link": null
+      }
+    }
+  ],
+  "videos": [],
+  "assets": [
+    {
+      "file": "assets/01-favicon-1787526901956.png",
+      "url": "https://theboujeehealer.com/images/favicon-1787526901956.png",
+      "page": "home",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null,
+      "bytes": 1472,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/02-favicon-16x16-1787526901956.png",
+      "url": "https://theboujeehealer.com/images/favicon-16x16-1787526901956.png",
+      "page": "home",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null,
+      "bytes": 700,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/03-favicon-32x32-1787526901956.png",
+      "url": "https://theboujeehealer.com/images/favicon-32x32-1787526901956.png",
+      "page": "home",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null,
+      "bytes": 1472,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/04-favicon-48x48-1787526901956.png",
+      "url": "https://theboujeehealer.com/images/favicon-48x48-1787526901956.png",
+      "page": "home",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null,
+      "bytes": 2073,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/05-apple-touch-icon-1787526901956.png",
+      "url": "https://theboujeehealer.com/images/apple-touch-icon-1787526901956.png",
+      "page": "home",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null,
+      "bytes": 7542,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/06-ahtqfodl0wadrlyohrwqtze6omm.png",
+      "url": "https://framerusercontent.com/assets/AHTQFodl0wAdrlyohrwqtzE6omM.png",
+      "page": "home",
+      "kind": "og",
+      "where": "head",
+      "logo": false,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null,
+      "bytes": 1139182,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/07-boujee-healer-logo.png",
+      "url": "https://theboujeehealer.com/images/boujee-healer-logo.png?t=1792618562788",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": true,
+      "alt": "The Boujee Healer",
+      "width": 34,
+      "height": 36,
+      "natural": [
+        320,
+        343
+      ],
+      "bytes": 5155,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/08-hero-sky.jpg",
+      "url": "https://theboujeehealer.com/images/hero-sky.jpg?t=1792618562788",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Soft pink purple sunset clouds",
+      "width": 1440,
+      "height": 880,
+      "natural": [
+        950,
+        532
+      ],
+      "bytes": 49940,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/09-moon.png",
+      "url": "https://theboujeehealer.com/images/moon.png?t=1792618562788",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Full pink moon",
+      "width": 450,
+      "height": 450,
+      "natural": [
+        287,
+        287
+      ],
+      "bytes": 24851,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/10-boujeehealerv3-1786494237577-png-1280w.webp",
+      "url": "https://theboujeehealer.com/images/variants/boujeehealerv3-1786494237577.png-1280w.webp",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Gayle Fuller prayer pose",
+      "width": 646,
+      "height": 1013,
+      "natural": [
+        676,
+        1013
+      ],
+      "bytes": 205942,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/11-gayle-portrait.jpg",
+      "url": "https://theboujeehealer.com/images/gayle-portrait.jpg?t=1792618562788",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Gayle Fuller portrait",
+      "width": 348,
+      "height": 568,
+      "natural": [
+        500,
+        653
+      ],
+      "bytes": 56057,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/12-woman-burgundy-dress-portrait.png",
+      "url": "https://theboujeehealer.com/images/woman-burgundy-dress-portrait.png?t=1792618562788",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Gayle Fuller kneeling meditation white",
+      "width": 543,
+      "height": 678,
+      "natural": [
+        1920,
+        3606
+      ],
+      "bytes": 1904163,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/13-img-5227-1787269463428.jpg",
+      "url": "https://theboujeehealer.com/images/img-5227-1787269463428.jpg?t=1792618562788",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Gayle Fuller red dress coastal rocks",
+      "width": 456,
+      "height": 684,
+      "natural": [
+        1920,
+        2879
+      ],
+      "bytes": 340695,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/14-about-bg.png",
+      "url": "https://theboujeehealer.com/images/about-bg.png?t=1792618562788",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 1440,
+      "height": 845,
+      "natural": [
+        2912,
+        1632
+      ],
+      "bytes": 1608400,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/15-img-5219-3-1787521927257.jpg",
+      "url": "https://theboujeehealer.com/images/img-5219-3-1787521927257.jpg?t=1792618562788",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Gayle Fuller smiling nature retreat",
+      "width": 268,
+      "height": 408,
+      "natural": [
+        1920,
+        2880
+      ],
+      "bytes": 422464,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/16-gayle-smiling.png",
+      "url": "https://theboujeehealer.com/images/gayle-smiling.png?t=1792618562788",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Gayle Fuller smiling nature retreat",
+      "width": 268,
+      "height": 408,
+      "natural": [
+        628,
+        942
+      ],
+      "bytes": 247066,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/17-meditation-spiritual-moon-clouds.jpg",
+      "url": "https://theboujeehealer.com/images/meditation-spiritual-moon-clouds.jpg?t=1792618562788",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Single person meditating in cosmic ethereal clouds",
+      "width": 1200,
+      "height": 500,
+      "natural": [
+        1600,
+        900
+      ],
+      "bytes": 99349,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/18-black-starseed-dad-hat.jpg",
+      "url": "https://theboujeehealer.com/images/black-starseed-dad-hat.jpg?t=1792618562788",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Starseed Society Dad Hat",
+      "width": 366,
+      "height": 275,
+      "natural": [
+        1600,
+        1600
+      ],
+      "bytes": 54524,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/19-black-crop-top-graphic-tee.jpg",
+      "url": "https://theboujeehealer.com/images/black-crop-top-graphic-tee.jpg?t=1792618562788",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Starseed Society Women's Crop Top",
+      "width": 366,
+      "height": 275,
+      "natural": [
+        1600,
+        1600
+      ],
+      "bytes": 103380,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/20-quantum-jump-shirt-spectrogram.jpg",
+      "url": "https://theboujeehealer.com/images/quantum-jump-shirt-spectrogram.jpg?t=1792618562788",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Quantum Jump Schumann Resonance Unisex T-Shirt",
+      "width": 366,
+      "height": 275,
+      "natural": [
+        1600,
+        1600
+      ],
+      "bytes": 75493,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/21-profile-center.jpg",
+      "url": "https://theboujeehealer.com/images/profile-center.jpg?t=1792618562788",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Community member",
+      "width": 74,
+      "height": 74,
+      "natural": [
+        167,
+        172
+      ],
+      "bytes": 6803,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/22-woman-red-velvet-dress-portrait.jpg",
+      "url": "https://theboujeehealer.com/images/woman-red-velvet-dress-portrait.jpg?t=1792618562788",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Gayle Fuller golden incense burner ceremonial",
+      "width": 201,
+      "height": 228,
+      "natural": [
+        1920,
+        2879
+      ],
+      "bytes": 356876,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/23-woman-yoga-mountain-landscape.jpg",
+      "url": "https://theboujeehealer.com/images/woman-yoga-mountain-landscape.jpg?t=1792618562788",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Gayle Fuller white tree stump nature",
+      "width": 176,
+      "height": 208,
+      "natural": [
+        1920,
+        2880
+      ],
+      "bytes": 326551,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/24-woman-portrait-blue-dress.jpg",
+      "url": "https://theboujeehealer.com/images/woman-portrait-blue-dress.jpg?t=1792618562788",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Gayle Fuller beach red dress",
+      "width": 192,
+      "height": 221,
+      "natural": [
+        1920,
+        2880
+      ],
+      "bytes": 191943,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/25-app-screen1.jpg",
+      "url": "https://theboujeehealer.com/images/app-screen1.jpg?t=1792618562788",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Meditation app image",
+      "width": 119,
+      "height": 206,
+      "natural": [
+        591,
+        1280
+      ],
+      "bytes": 100627,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/26-app-screen2.jpg",
+      "url": "https://theboujeehealer.com/images/app-screen2.jpg?t=1792618562788",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Meditation app image",
+      "width": 96,
+      "height": 196,
+      "natural": [
+        393,
+        852
+      ],
+      "bytes": 28625,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/27-app-screen3.jpg",
+      "url": "https://theboujeehealer.com/images/app-screen3.jpg?t=1792618562788",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Meditation app image",
+      "width": 135,
+      "height": 212,
+      "natural": [
+        591,
+        1280
+      ],
+      "bytes": 61242,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/28-galaxy-bg.jpg",
+      "url": "https://theboujeehealer.com/images/galaxy-bg.jpg?t=1792618562788",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Galaxy",
+      "width": 280,
+      "height": 360,
+      "natural": [
+        321,
+        470
+      ],
+      "bytes": 26993,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/29-temple-clouds.png",
+      "url": "https://theboujeehealer.com/images/temple-clouds.png?t=1792618562788",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Temple in clouds",
+      "width": 280,
+      "height": 238,
+      "natural": [
+        853,
+        726
+      ],
+      "bytes": 97558,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/30-mount-shasta.png",
+      "url": "https://theboujeehealer.com/images/mount-shasta.png?t=1792618562788",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Mount Shasta",
+      "width": 280,
+      "height": 187,
+      "natural": [
+        650,
+        434
+      ],
+      "bytes": 85191,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/31-crystal1.png",
+      "url": "https://theboujeehealer.com/images/crystal1.png?t=1792618562788",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "crystal",
+      "width": 200,
+      "height": 357,
+      "natural": [
+        166,
+        296
+      ],
+      "bytes": 13793,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/32-crystal2.png",
+      "url": "https://theboujeehealer.com/images/crystal2.png?t=1792618562788",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "crystal",
+      "width": 160,
+      "height": 142,
+      "natural": [
+        346,
+        308
+      ],
+      "bytes": 32453,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/33-crystal3.png",
+      "url": "https://theboujeehealer.com/images/crystal3.png?t=1792618562788",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "crystal",
+      "width": 120,
+      "height": 142,
+      "natural": [
+        232,
+        274
+      ],
+      "bytes": 19221,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/34-crystal4.png",
+      "url": "https://theboujeehealer.com/images/crystal4.png?t=1792618562788",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "crystal",
+      "width": 100,
+      "height": 100,
+      "natural": [
+        200,
+        200
+      ],
+      "bytes": 19808,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/35-guardian-angel.jpg",
+      "url": "https://theboujeehealer.com/images/guardian-angel.jpg?t=1792618562788",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "guardian angel",
+      "width": 90,
+      "height": 50,
+      "natural": [
+        632,
+        538
+      ],
+      "bytes": 14879,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/36-cosmic-clouds.jpg",
+      "url": "https://theboujeehealer.com/images/cosmic-clouds.jpg?t=1792618562788",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "cosmic clouds",
+      "width": 90,
+      "height": 50,
+      "natural": [
+        500,
+        280
+      ],
+      "bytes": 41294,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/37-cosmic-meditation.jpg",
+      "url": "https://theboujeehealer.com/images/cosmic-meditation.jpg?t=1792618562788",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "cosmic meditation",
+      "width": 90,
+      "height": 50,
+      "natural": [
+        867,
+        1300
+      ],
+      "bytes": 107091,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/01-favicon-1787526901956.png",
+      "url": "https://theboujeehealer.com/images/favicon-1787526901956.png",
+      "page": "index-html",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/02-favicon-16x16-1787526901956.png",
+      "url": "https://theboujeehealer.com/images/favicon-16x16-1787526901956.png",
+      "page": "index-html",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/03-favicon-32x32-1787526901956.png",
+      "url": "https://theboujeehealer.com/images/favicon-32x32-1787526901956.png",
+      "page": "index-html",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/04-favicon-48x48-1787526901956.png",
+      "url": "https://theboujeehealer.com/images/favicon-48x48-1787526901956.png",
+      "page": "index-html",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/05-apple-touch-icon-1787526901956.png",
+      "url": "https://theboujeehealer.com/images/apple-touch-icon-1787526901956.png",
+      "page": "index-html",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/06-ahtqfodl0wadrlyohrwqtze6omm.png",
+      "url": "https://framerusercontent.com/assets/AHTQFodl0wAdrlyohrwqtzE6omM.png",
+      "page": "index-html",
+      "kind": "og",
+      "where": "head",
+      "logo": false,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/07-boujee-healer-logo.png",
+      "url": "https://theboujeehealer.com/images/boujee-healer-logo.png?t=1792618562788",
+      "page": "index-html",
+      "kind": "img",
+      "where": "main",
+      "logo": true,
+      "alt": "The Boujee Healer",
+      "width": 34,
+      "height": 36,
+      "natural": [
+        320,
+        343
+      ]
+    },
+    {
+      "file": "assets/08-hero-sky.jpg",
+      "url": "https://theboujeehealer.com/images/hero-sky.jpg?t=1792618562788",
+      "page": "index-html",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Soft pink purple sunset clouds",
+      "width": 1440,
+      "height": 880,
+      "natural": [
+        950,
+        532
+      ]
+    },
+    {
+      "file": "assets/09-moon.png",
+      "url": "https://theboujeehealer.com/images/moon.png?t=1792618562788",
+      "page": "index-html",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Full pink moon",
+      "width": 450,
+      "height": 450,
+      "natural": [
+        287,
+        287
+      ]
+    },
+    {
+      "file": "assets/10-boujeehealerv3-1786494237577-png-1280w.webp",
+      "url": "https://theboujeehealer.com/images/variants/boujeehealerv3-1786494237577.png-1280w.webp",
+      "page": "index-html",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Gayle Fuller prayer pose",
+      "width": 646,
+      "height": 1013,
+      "natural": [
+        676,
+        1013
+      ]
+    },
+    {
+      "file": "assets/11-gayle-portrait.jpg",
+      "url": "https://theboujeehealer.com/images/gayle-portrait.jpg?t=1792618562788",
+      "page": "index-html",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Gayle Fuller portrait",
+      "width": 348,
+      "height": 568,
+      "natural": [
+        500,
+        653
+      ]
+    },
+    {
+      "file": "assets/12-woman-burgundy-dress-portrait.png",
+      "url": "https://theboujeehealer.com/images/woman-burgundy-dress-portrait.png?t=1792618562788",
+      "page": "index-html",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Gayle Fuller kneeling meditation white",
+      "width": 543,
+      "height": 678,
+      "natural": [
+        1920,
+        3606
+      ]
+    },
+    {
+      "file": "assets/13-img-5227-1787269463428.jpg",
+      "url": "https://theboujeehealer.com/images/img-5227-1787269463428.jpg?t=1792618562788",
+      "page": "index-html",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Gayle Fuller red dress coastal rocks",
+      "width": 456,
+      "height": 684,
+      "natural": [
+        1920,
+        2879
+      ]
+    },
+    {
+      "file": "assets/14-about-bg.png",
+      "url": "https://theboujeehealer.com/images/about-bg.png?t=1792618562788",
+      "page": "index-html",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 1440,
+      "height": 845,
+      "natural": [
+        2912,
+        1632
+      ]
+    },
+    {
+      "file": "assets/15-img-5219-3-1787521927257.jpg",
+      "url": "https://theboujeehealer.com/images/img-5219-3-1787521927257.jpg?t=1792618562788",
+      "page": "index-html",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Gayle Fuller smiling nature retreat",
+      "width": 268,
+      "height": 408,
+      "natural": [
+        1920,
+        2880
+      ]
+    },
+    {
+      "file": "assets/16-gayle-smiling.png",
+      "url": "https://theboujeehealer.com/images/gayle-smiling.png?t=1792618562788",
+      "page": "index-html",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Gayle Fuller smiling nature retreat",
+      "width": 268,
+      "height": 408,
+      "natural": [
+        628,
+        942
+      ]
+    },
+    {
+      "file": "assets/17-meditation-spiritual-moon-clouds.jpg",
+      "url": "https://theboujeehealer.com/images/meditation-spiritual-moon-clouds.jpg?t=1792618562788",
+      "page": "index-html",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Single person meditating in cosmic ethereal clouds",
+      "width": 1200,
+      "height": 500,
+      "natural": [
+        1600,
+        900
+      ]
+    },
+    {
+      "file": "assets/18-black-starseed-dad-hat.jpg",
+      "url": "https://theboujeehealer.com/images/black-starseed-dad-hat.jpg?t=1792618562788",
+      "page": "index-html",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Starseed Society Dad Hat",
+      "width": 366,
+      "height": 275,
+      "natural": [
+        1600,
+        1600
+      ]
+    },
+    {
+      "file": "assets/19-black-crop-top-graphic-tee.jpg",
+      "url": "https://theboujeehealer.com/images/black-crop-top-graphic-tee.jpg?t=1792618562788",
+      "page": "index-html",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Starseed Society Women's Crop Top",
+      "width": 366,
+      "height": 275,
+      "natural": [
+        1600,
+        1600
+      ]
+    },
+    {
+      "file": "assets/20-quantum-jump-shirt-spectrogram.jpg",
+      "url": "https://theboujeehealer.com/images/quantum-jump-shirt-spectrogram.jpg?t=1792618562788",
+      "page": "index-html",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Quantum Jump Schumann Resonance Unisex T-Shirt",
+      "width": 366,
+      "height": 275,
+      "natural": [
+        1600,
+        1600
+      ]
+    },
+    {
+      "file": "assets/21-profile-center.jpg",
+      "url": "https://theboujeehealer.com/images/profile-center.jpg?t=1792618562788",
+      "page": "index-html",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Community member",
+      "width": 74,
+      "height": 74,
+      "natural": [
+        167,
+        172
+      ]
+    },
+    {
+      "file": "assets/22-woman-red-velvet-dress-portrait.jpg",
+      "url": "https://theboujeehealer.com/images/woman-red-velvet-dress-portrait.jpg?t=1792618562788",
+      "page": "index-html",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Gayle Fuller golden incense burner ceremonial",
+      "width": 201,
+      "height": 228,
+      "natural": [
+        1920,
+        2879
+      ]
+    },
+    {
+      "file": "assets/23-woman-yoga-mountain-landscape.jpg",
+      "url": "https://theboujeehealer.com/images/woman-yoga-mountain-landscape.jpg?t=1792618562788",
+      "page": "index-html",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Gayle Fuller white tree stump nature",
+      "width": 176,
+      "height": 208,
+      "natural": [
+        1920,
+        2880
+      ]
+    },
+    {
+      "file": "assets/24-woman-portrait-blue-dress.jpg",
+      "url": "https://theboujeehealer.com/images/woman-portrait-blue-dress.jpg?t=1792618562788",
+      "page": "index-html",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Gayle Fuller beach red dress",
+      "width": 192,
+      "height": 221,
+      "natural": [
+        1920,
+        2880
+      ]
+    },
+    {
+      "file": "assets/25-app-screen1.jpg",
+      "url": "https://theboujeehealer.com/images/app-screen1.jpg?t=1792618562788",
+      "page": "index-html",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Meditation app image",
+      "width": 119,
+      "height": 206,
+      "natural": [
+        591,
+        1280
+      ]
+    },
+    {
+      "file": "assets/26-app-screen2.jpg",
+      "url": "https://theboujeehealer.com/images/app-screen2.jpg?t=1792618562788",
+      "page": "index-html",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Meditation app image",
+      "width": 96,
+      "height": 196,
+      "natural": [
+        393,
+        852
+      ]
+    },
+    {
+      "file": "assets/27-app-screen3.jpg",
+      "url": "https://theboujeehealer.com/images/app-screen3.jpg?t=1792618562788",
+      "page": "index-html",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Meditation app image",
+      "width": 135,
+      "height": 212,
+      "natural": [
+        591,
+        1280
+      ]
+    },
+    {
+      "file": "assets/28-galaxy-bg.jpg",
+      "url": "https://theboujeehealer.com/images/galaxy-bg.jpg?t=1792618562788",
+      "page": "index-html",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Galaxy",
+      "width": 280,
+      "height": 360,
+      "natural": [
+        321,
+        470
+      ]
+    },
+    {
+      "file": "assets/29-temple-clouds.png",
+      "url": "https://theboujeehealer.com/images/temple-clouds.png?t=1792618562788",
+      "page": "index-html",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Temple in clouds",
+      "width": 280,
+      "height": 238,
+      "natural": [
+        853,
+        726
+      ]
+    },
+    {
+      "file": "assets/30-mount-shasta.png",
+      "url": "https://theboujeehealer.com/images/mount-shasta.png?t=1792618562788",
+      "page": "index-html",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Mount Shasta",
+      "width": 280,
+      "height": 187,
+      "natural": [
+        650,
+        434
+      ]
+    },
+    {
+      "file": "assets/31-crystal1.png",
+      "url": "https://theboujeehealer.com/images/crystal1.png?t=1792618562788",
+      "page": "index-html",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "crystal",
+      "width": 200,
+      "height": 357,
+      "natural": [
+        166,
+        296
+      ]
+    },
+    {
+      "file": "assets/32-crystal2.png",
+      "url": "https://theboujeehealer.com/images/crystal2.png?t=1792618562788",
+      "page": "index-html",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "crystal",
+      "width": 160,
+      "height": 142,
+      "natural": [
+        346,
+        308
+      ]
+    },
+    {
+      "file": "assets/33-crystal3.png",
+      "url": "https://theboujeehealer.com/images/crystal3.png?t=1792618562788",
+      "page": "index-html",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "crystal",
+      "width": 120,
+      "height": 142,
+      "natural": [
+        232,
+        274
+      ]
+    },
+    {
+      "file": "assets/34-crystal4.png",
+      "url": "https://theboujeehealer.com/images/crystal4.png?t=1792618562788",
+      "page": "index-html",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "crystal",
+      "width": 100,
+      "height": 100,
+      "natural": [
+        200,
+        200
+      ]
+    },
+    {
+      "file": "assets/35-guardian-angel.jpg",
+      "url": "https://theboujeehealer.com/images/guardian-angel.jpg?t=1792618562788",
+      "page": "index-html",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "guardian angel",
+      "width": 90,
+      "height": 50,
+      "natural": [
+        632,
+        538
+      ]
+    },
+    {
+      "file": "assets/36-cosmic-clouds.jpg",
+      "url": "https://theboujeehealer.com/images/cosmic-clouds.jpg?t=1792618562788",
+      "page": "index-html",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "cosmic clouds",
+      "width": 90,
+      "height": 50,
+      "natural": [
+        500,
+        280
+      ]
+    },
+    {
+      "file": "assets/37-cosmic-meditation.jpg",
+      "url": "https://theboujeehealer.com/images/cosmic-meditation.jpg?t=1792618562788",
+      "page": "index-html",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "cosmic meditation",
+      "width": 90,
+      "height": 50,
+      "natural": [
+        867,
+        1300
+      ]
+    },
+    {
+      "file": "assets/01-favicon-1787526901956.png",
+      "url": "https://theboujeehealer.com/images/favicon-1787526901956.png",
+      "page": "family-of-light-html",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/02-favicon-16x16-1787526901956.png",
+      "url": "https://theboujeehealer.com/images/favicon-16x16-1787526901956.png",
+      "page": "family-of-light-html",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/03-favicon-32x32-1787526901956.png",
+      "url": "https://theboujeehealer.com/images/favicon-32x32-1787526901956.png",
+      "page": "family-of-light-html",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/04-favicon-48x48-1787526901956.png",
+      "url": "https://theboujeehealer.com/images/favicon-48x48-1787526901956.png",
+      "page": "family-of-light-html",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/05-apple-touch-icon-1787526901956.png",
+      "url": "https://theboujeehealer.com/images/apple-touch-icon-1787526901956.png",
+      "page": "family-of-light-html",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/38-pexels-photo-11814657.jpg",
+      "url": "https://images.pexels.com/photos/11814657/pexels-photo-11814657.jpeg",
+      "page": "family-of-light-html",
+      "kind": "og",
+      "where": "head",
+      "logo": false,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null,
+      "bytes": 1805772,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/39-boujee-healer-logo.png",
+      "url": "https://theboujeehealer.com/images/boujee-healer-logo.png?t=1792618562783",
+      "page": "family-of-light-html",
+      "kind": "img",
+      "where": "main",
+      "logo": true,
+      "alt": "The Boujee Healer",
+      "width": 34,
+      "height": 36,
+      "natural": [
+        320,
+        343
+      ],
+      "bytes": 5155,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/40-pink-cosmic-space-background-2.jpg",
+      "url": "https://theboujeehealer.com/images/pink-cosmic-space-background-2.jpg?t=1792618562783",
+      "page": "family-of-light-html",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Pink cosmic space background",
+      "width": 1440,
+      "height": 900,
+      "natural": [
+        1024,
+        682
+      ],
+      "bytes": 60423,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/41-img-5227-1787269463428.jpg",
+      "url": "https://theboujeehealer.com/images/img-5227-1787269463428.jpg?t=1792618562783",
+      "page": "family-of-light-html",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Gayle Fuller in nature",
+      "width": 510,
+      "height": 638,
+      "natural": [
+        1920,
+        2879
+      ],
+      "bytes": 340695,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/01-favicon-1787526901956.png",
+      "url": "https://theboujeehealer.com/images/favicon-1787526901956.png",
+      "page": "meditation-bundles-html",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/02-favicon-16x16-1787526901956.png",
+      "url": "https://theboujeehealer.com/images/favicon-16x16-1787526901956.png",
+      "page": "meditation-bundles-html",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/03-favicon-32x32-1787526901956.png",
+      "url": "https://theboujeehealer.com/images/favicon-32x32-1787526901956.png",
+      "page": "meditation-bundles-html",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/04-favicon-48x48-1787526901956.png",
+      "url": "https://theboujeehealer.com/images/favicon-48x48-1787526901956.png",
+      "page": "meditation-bundles-html",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/05-apple-touch-icon-1787526901956.png",
+      "url": "https://theboujeehealer.com/images/apple-touch-icon-1787526901956.png",
+      "page": "meditation-bundles-html",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/42-pexels-photo-12489170.jpg",
+      "url": "https://images.pexels.com/photos/12489170/pexels-photo-12489170.jpeg",
+      "page": "meditation-bundles-html",
+      "kind": "og",
+      "where": "head",
+      "logo": false,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null,
+      "bytes": 250156,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/43-boujee-healer-logo.png",
+      "url": "https://theboujeehealer.com/images/boujee-healer-logo.png?t=1792618562790",
+      "page": "meditation-bundles-html",
+      "kind": "img",
+      "where": "main",
+      "logo": true,
+      "alt": "The Boujee Healer",
+      "width": 34,
+      "height": 36,
+      "natural": [
+        320,
+        343
+      ],
+      "bytes": 5155,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/44-purple-swirl-bg.jpg",
+      "url": "https://theboujeehealer.com/images/purple-swirl-bg.jpg?t=1792618562790",
+      "page": "meditation-bundles-html",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Cosmic purple energy",
+      "width": 1440,
+      "height": 630,
+      "natural": [
+        1880,
+        1253
+      ],
+      "bytes": 315473,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/45-purple-lightning-night-sky.jpg",
+      "url": "https://theboujeehealer.com/images/purple-lightning-night-sky.jpg?t=1792618562790",
+      "page": "meditation-bundles-html",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "7 Sacred Meditations of the Violet Flame",
+      "width": 532,
+      "height": 320,
+      "natural": [
+        1600,
+        900
+      ],
+      "bytes": 105101,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/46-spiritual-meditation-chakra-energy.jpg",
+      "url": "https://theboujeehealer.com/images/spiritual-meditation-chakra-energy.jpg?t=1792618562790",
+      "page": "meditation-bundles-html",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Unlock Your 7 Chakras Meditations",
+      "width": 532,
+      "height": 320,
+      "natural": [
+        1600,
+        900
+      ],
+      "bytes": 115888,
+      "type": "image/jpeg"
+    }
+  ]
+}

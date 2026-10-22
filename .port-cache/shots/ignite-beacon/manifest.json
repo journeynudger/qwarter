@@ -1,0 +1,465 @@
+{
+  "slug": "ignite-beacon",
+  "base": "https://ignitebeacon.com",
+  "shot": "2026-10-22T21:40:38.733Z",
+  "viewport": {
+    "width": 1440,
+    "height": 900,
+    "scale": 2
+  },
+  "phone": {
+    "width": 390,
+    "height": 844,
+    "scale": 3
+  },
+  "pages": [
+    {
+      "name": "home",
+      "route": "/",
+      "url": "https://ignitebeacon.com/",
+      "title": "beacon — the night awaits",
+      "description": "Light up when you're down. See who else is. Make spontaneous plans with close friends. No feeds. No posts. Just fire on high ground.",
+      "height": 6031,
+      "frame": "home.png",
+      "full": "home-full.png",
+      "videos": [],
+      "phone": {
+        "frame": "m-home.png",
+        "full": "m-home-full.png",
+        "height": 6377
+      },
+      "text": [
+        {
+          "tag": "h2",
+          "text": "Light your beacon",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "One tap signals you're out and open to plans. Your flame appears only for the friends you choose — no feed, no broadcast.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "See who's out",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "While your beacon's lit, friends who are also out show up live on the map. Reciprocity by design — you share to see.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Beacons become bonfires",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "When friends land on the same spot, their flames merge into a bonfire. The more who show up, the brighter it burns.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "You control when you're visible.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Your location is shared only when your beacon is lit. Turn it off and you disappear — no history, no tracking, no selling.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Questions, answered",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Beacon is a location-sharing app for small, trusted friend groups. You light your beacon when you're out and open to plans, and the friends you choose can see where you are. It's built for spontaneity — not for an audience.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Tap once to ignite. Your location starts sharing with the friends you've selected, and you can see theirs in return. Tap again to extinguish — your beacon goes dark and your location stops sharing immediately.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Only the friends you choose, and only while your beacon is lit. Beacon is reciprocal by design: you can't see friends' locations unless your own beacon is on. No beacon, no map.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "No. Beacon only uses your location while the app is in use and your beacon is lit. There's no always-on tracking and no location history — when you extinguish, the session location is deleted.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Yes. Every time you ignite, you pick who can see you. Beacon is meant for close circles, so visibility is always a deliberate choice — never a default broadcast.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "You can delete your account directly in the app at any time, and it actually removes your data. There's no waiting period and nothing kept behind the scenes.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Never. There are no ads, no data selling, and no feeds to scroll. Beacon's only job is to help you meet up with friends in real life.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "The night awaits.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Light your beacon. See who's out. Go meet them.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Spontaneous plans with close friends.",
+          "where": "footer"
+        },
+        {
+          "tag": "h4",
+          "text": "PRODUCT",
+          "where": "footer"
+        },
+        {
+          "tag": "h4",
+          "text": "LEGAL",
+          "where": "footer"
+        },
+        {
+          "tag": "h4",
+          "text": "SUPPORT",
+          "where": "footer"
+        },
+        {
+          "tag": "p",
+          "text": "© 2026 Beacon. All rights reserved.",
+          "where": "footer"
+        }
+      ],
+      "design": {
+        "fonts": {
+          "headings": "Playfair Display",
+          "headingsWeight": "400",
+          "body": "Inter",
+          "bodyWeight": "300",
+          "nav": "Inter",
+          "buttons": "Inter"
+        },
+        "faces": [
+          "Inter",
+          "Playfair Display",
+          "JetBrains Mono"
+        ],
+        "page": "#0A0A0A",
+        "backgrounds": [
+          {
+            "hex": "#0A0A0A",
+            "weight": 8684820
+          },
+          {
+            "hex": "#0A0705",
+            "weight": 168025
+          },
+          {
+            "hex": "#0C0A09",
+            "weight": 97043
+          }
+        ],
+        "inks": [
+          {
+            "hex": "#FAF7F2",
+            "weight": 2262
+          },
+          {
+            "hex": "#FFFFFF",
+            "weight": 24
+          },
+          {
+            "hex": "#FF8C42",
+            "weight": 7
+          }
+        ],
+        "link": "#FAF7F2"
+      }
+    },
+    {
+      "name": "support",
+      "route": "/support",
+      "url": "https://ignitebeacon.com/support",
+      "title": "Support — beacon",
+      "description": "Get help with beacon. Contact our support team for questions, feedback, or issues.",
+      "height": 2635,
+      "frame": "support.png",
+      "full": "support-full.png",
+      "videos": [],
+      "phone": {
+        "frame": "m-support.png",
+        "full": "m-support-full.png",
+        "height": 3162
+      },
+      "text": [
+        {
+          "tag": "h1",
+          "text": "Support",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Have a question, found a bug, or want to share feedback? We'd love to hear from you. Fill out the form below or email us directly.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "This form will open your email client. Alternatively, you can email us directly at ignitebeacon@gmail.com",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "How do I light my beacon?",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Open the app and tap the flame icon in the center of the screen. You'll see a confirmation animation, and your friends will be notified that you're available.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Who can see my location?",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Only friends you've approved can see your location, and only when your beacon is lit. When you turn off your beacon, you disappear from the map entirely.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "How do I add friends?",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Go to the Friends tab and tap \"Add Friend.\" You can search by name or username, sync your contacts, or share a group invite link. Individual friend requests need both people to approve. Joining a group invite sends a friend request to everyone in that group, and you see exactly who's in it before you join.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "How do I delete my account?",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "You can delete your account in the Beacon iOS app under Settings > Account. If you need help, email us at ignitebeacon@gmail.com. All your data will be permanently deleted within 30 days.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Is my location tracked when my beacon is off?",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "No. Absolutely not. We only access your location when you actively light your beacon. When it's off, we have no idea where you are. That's by design.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "How do I report a bug or issue?",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Use the contact form above or email us at ignitebeacon@gmail.com. Please include your device type, app version, and a description of what happened.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Quick Links",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Spontaneous plans with close friends.",
+          "where": "footer"
+        },
+        {
+          "tag": "h4",
+          "text": "PRODUCT",
+          "where": "footer"
+        },
+        {
+          "tag": "h4",
+          "text": "LEGAL",
+          "where": "footer"
+        },
+        {
+          "tag": "h4",
+          "text": "SUPPORT",
+          "where": "footer"
+        },
+        {
+          "tag": "p",
+          "text": "© 2026 Beacon. All rights reserved.",
+          "where": "footer"
+        }
+      ],
+      "design": {
+        "fonts": {
+          "headings": "Playfair Display",
+          "headingsWeight": "400",
+          "body": "Inter",
+          "bodyWeight": "300",
+          "nav": "Inter",
+          "buttons": "Inter"
+        },
+        "faces": [
+          "Inter",
+          "Playfair Display",
+          "JetBrains Mono"
+        ],
+        "page": "#0A0A0A",
+        "backgrounds": [
+          {
+            "hex": "#0A0A0A",
+            "weight": 4014846
+          },
+          {
+            "hex": "#1A1A1A",
+            "weight": 579659
+          }
+        ],
+        "inks": [
+          {
+            "hex": "#FAF7F2",
+            "weight": 1522
+          },
+          {
+            "hex": "#8A8A8A",
+            "weight": 19
+          },
+          {
+            "hex": "#FFFFFF",
+            "weight": 12
+          },
+          {
+            "hex": "#0A0A0A",
+            "weight": 10
+          }
+        ],
+        "link": "#FF8C42"
+      }
+    }
+  ],
+  "videos": [],
+  "assets": [
+    {
+      "file": "assets/01-favicon.ico",
+      "url": "https://ignitebeacon.com/favicon.ico?favicon.6baaa571.ico",
+      "page": "home",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null,
+      "bytes": 56826,
+      "type": "image/x-icon"
+    },
+    {
+      "file": "assets/02-image.png",
+      "url": "https://ignitebeacon.com/_next/image?url=%2Fbeacon-wordmark.png&w=1920&q=75",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": true,
+      "alt": "Beacon",
+      "width": 335,
+      "height": 76,
+      "natural": [
+        454,
+        103
+      ],
+      "bytes": 6636,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/03-image.png",
+      "url": "https://ignitebeacon.com/_next/image?url=%2Fhero-banner.png&w=3840&q=75",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Friends gathered on a beach at sunset",
+      "width": 1440,
+      "height": 900,
+      "natural": [
+        720,
+        405
+      ],
+      "bytes": 538610,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/04-image.png",
+      "url": "https://ignitebeacon.com/_next/image?url=%2Fapp-ignite.png&w=3840&q=75",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Beacon app — hold to ignite your beacon",
+      "width": 278,
+      "height": 604,
+      "natural": [
+        290,
+        631
+      ],
+      "bytes": 42485,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/05-image.png",
+      "url": "https://ignitebeacon.com/_next/image?url=%2Fapp-meetup.png&w=3840&q=75",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Beacon app — friends out on the map with directions",
+      "width": 278,
+      "height": 604,
+      "natural": [
+        290,
+        631
+      ],
+      "bytes": 121052,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/01-favicon.ico",
+      "url": "https://ignitebeacon.com/favicon.ico?favicon.6baaa571.ico",
+      "page": "support",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    }
+  ]
+}

@@ -1,0 +1,2245 @@
+{
+  "slug": "core-rhythm-fitness",
+  "base": "https://corerhythmfitness.net",
+  "shot": "2026-10-22T21:38:11.056Z",
+  "viewport": {
+    "width": 1440,
+    "height": 900,
+    "scale": 2
+  },
+  "phone": {
+    "width": 390,
+    "height": 844,
+    "scale": 3
+  },
+  "pages": [
+    {
+      "name": "home",
+      "route": "/",
+      "url": "https://www.corerhythmfitness.net/",
+      "title": "CORE RHYTHM FITNESS",
+      "description": null,
+      "height": 7039,
+      "frame": "home.png",
+      "full": "home-full.png",
+      "videos": [
+        "blob:https://www.corerhythmfitness.net/13ee7efd-88d2-4f9e-8b22-db422589d060",
+        "blob:https://www.corerhythmfitness.net/f56791a6-733a-4b22-ac85-bcb8f70b6a44",
+        "blob:https://www.corerhythmfitness.net/b48274e4-1810-42af-8441-7a09daf0e979"
+      ],
+      "phone": {
+        "frame": "m-home.png",
+        "full": "m-home-full.png",
+        "height": 10476
+      },
+      "text": [
+        {
+          "tag": "h1",
+          "text": "We help people build the rhythm for a healthy, longer life.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "New York’s #1 Personal Training for Leaders",
+          "where": "main"
+        },
+        {
+          "tag": "h4",
+          "text": "Signature Offering",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Private movement, nutrition guidance, and wellness conversations integrated into one long-term partnership.",
+          "where": "main"
+        },
+        {
+          "tag": "h1",
+          "text": "Whole Body Care",
+          "where": "main"
+        },
+        {
+          "tag": "h4",
+          "text": "Built for leaders who are ready",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "This is for people who've given deeply to their work and are now ready for health that gives back.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "We work with entrepreneurs, executives, and creatives who want to move well, feel strong, and stay consistent without turning health into another project.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "\"I've been training with Rodrick for over 15 years, even before Core Rhythm Fitness began. His guidance has transformed my life, and I feel stronger and healthier than ever. Continuing my wellness journey with CRF has been one of the best decisions I've made!\"",
+          "where": "main"
+        },
+        {
+          "tag": "h1",
+          "text": "Hear from our members",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "\"Before joining Core Rhythm Fitness, I never realized how essential it was to connect my exercise routine to my spiritual life rather than just my ego. CRF has transformed my perspective, teaching me that fitness is about achieving wholeness and balance, not just vanity. This journey has empowered me to embrace a deeper sense of self, and I now approach my workouts with intention and purpose. I’m grateful for the holistic approach that CRF offers, which has truly enriched my life.\"",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Actor, Singer, Director, Producer",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "\"Core Rhythm Fitness has equipped me with the tools to view myself through a healthier lens. Since joining, my approach to nutrition has transformed, leading to a profound shift in my mindset. My body feels revitalized, and my spirit is truly inspired. CRF has been a life-changing journey for me.\"",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "\"After my diagnosis, my greatest fear was another brain surgery. CRF became my fight camp. Through their personal training and dedicated nutrition guidance, I released weight and built strength I didn't know I had. We did more than change my body, we changed my prognosis. I am forever grateful; Team CRF didn't just train me, they gave me my life back.\"",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "\"At Core Rhythm Fitness, I truly feel cared for in a way that goes above and beyond. Their personalized programs are thoughtfully designed to meet my everyday physical needs, and I always leave each session feeling rejuvenated and stronger. It's more than just training; it's a commitment to my well-being.\"",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "\"CRF isn't just a gym; it's my anchor. As someone who's constantly on the road, it's my non-negotiable for staying grounded, strong, and healthy. No matter where I land, I know the CRF community and method are there to keep me consistent and bring my focus back to what matters, my well-being.\"",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Film/TV/Theatre Producer",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "\"CRF didn't just give me a routine; it gave me a foundation. I learned to listen to my body, challenge my mind, and nurture my spirit. Now, even when I'm away, I carry that confidence with me. I have the tools to make empowered choices for my well-being, no matter where I am. CRF taught me how to be my own wellness advocate, and that's a gift that travels everywhere I go.\"",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Actor/Singer/Writer/Producer",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "\"Being at Core Rhythm Fitness is like having a dedicated team in your corner, guiding and supporting you every step of the way. It's incredibly fulfilling to know you're not alone on this journey. With their encouragement, I genuinely believe in my ability to achieve my goals and transform my life.\"",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "\"CRF didn't just change my body; it changed my entire outlook. Here, I found a strength that was always within me, waiting to be unlocked. This place is my fitness church, a community that built me up until my body, mind, and spirit were not just better, but unrecognizably stronger.\"",
+          "where": "main"
+        },
+        {
+          "tag": "h1",
+          "text": "28,500 Transformations and Counting",
+          "where": "main"
+        },
+        {
+          "tag": "h4",
+          "text": "Frequently Asked Questions",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "How does the flexible scheduling work across locations?",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "Can I switch between membership tiers?",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "How does the guest privilege work?",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "What equipment is provided for in-home training?",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "How do I add nutrition coaching to my membership?",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "25 W 14th St New York, NY 10011",
+          "where": "footer"
+        },
+        {
+          "tag": "p",
+          "text": "2035 5th Ave New York, NY 10035",
+          "where": "footer"
+        },
+        {
+          "tag": "p",
+          "text": "567 Fulton St Brooklyn, NY",
+          "where": "footer"
+        },
+        {
+          "tag": "p",
+          "text": "© 2026 Core Rhythm Fitness",
+          "where": "footer"
+        },
+        {
+          "tag": "h3",
+          "text": "Build generational health.",
+          "where": "footer"
+        }
+      ],
+      "design": {
+        "fonts": {
+          "headings": "RiccioneSerial Regular",
+          "headingsWeight": "400",
+          "body": "Inter",
+          "bodyWeight": "400",
+          "nav": "Inter",
+          "buttons": "Inter"
+        },
+        "faces": [
+          "Inter",
+          "RiccioneSerial Regular"
+        ],
+        "page": "#FFFFFF",
+        "backgrounds": [
+          {
+            "hex": "#FFFFFF",
+            "weight": 30293938
+          },
+          {
+            "hex": "#000000",
+            "weight": 3681754
+          }
+        ],
+        "inks": [
+          {
+            "hex": "#000000",
+            "weight": 3098
+          },
+          {
+            "hex": "#333333",
+            "weight": 2872
+          },
+          {
+            "hex": "#FFFFFF",
+            "weight": 144
+          },
+          {
+            "hex": "#575757",
+            "weight": 107
+          },
+          {
+            "hex": "#444444",
+            "weight": 85
+          },
+          {
+            "hex": "#999999",
+            "weight": 48
+          }
+        ],
+        "link": "#E8C869"
+      }
+    },
+    {
+      "name": "about",
+      "route": "/about",
+      "url": "https://www.corerhythmfitness.net/about",
+      "title": "About — CORE RHYTHM FITNESS",
+      "description": null,
+      "height": 9721,
+      "frame": "about.png",
+      "full": "about-full.png",
+      "videos": [],
+      "phone": {
+        "frame": "m-about.png",
+        "full": "m-about-full.png",
+        "height": 10460
+      },
+      "text": [
+        {
+          "tag": "p",
+          "text": "#1 Private Personal Training & Nutrition for Leaders | NYC",
+          "where": "main"
+        },
+        {
+          "tag": "h1",
+          "text": "Health that works inside your life",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "At CRF, we are the only studio in NYC that blends pilates, strength training, body conditioning, meditation, and nutrition to serve the whole person.",
+          "where": "main"
+        },
+        {
+          "tag": "h1",
+          "text": "What we do",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Private health and movement training",
+          "where": "main"
+        },
+        {
+          "tag": "h4",
+          "text": "Pilates & Movement",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Open up your body. Build awareness. Feel like a human again.",
+          "where": "main"
+        },
+        {
+          "tag": "h4",
+          "text": "Strength Training",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Build strength and sustainable capacity. Not punishment, not burnout",
+          "where": "main"
+        },
+        {
+          "tag": "h4",
+          "text": "Nutrition Guidance",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Sustainable guidance from a dedicated partner who knows your life",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Founding Story",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "This studio was built for leaders whose lives don’t fit “ideal” fitness systems.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Traditional programs ask for more time, more discipline, and more consistency than real life allows. When those systems fail, the blame often falls on the client.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "We believe that’s a design problem, not a motivation problem.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Our work is built around rhythm: sustainable patterns of movement, nutrition, recovery, and conversation that adapt to leadership schedules and real responsibility.",
+          "where": "main"
+        },
+        {
+          "tag": "h1",
+          "text": "Designed by experts, delivered with care",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Rodrick built CRF on the belief that everyone deserves to live in a strong, healthy body, at any age. His approach integrates mind, body, and spirit through strength, lengthening, and empowerment, creating health that works inside your life, not against it.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Certified Head Conditioning Coach",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Koray cuts through the noise with one focus: results that stick. He combines strength training, functional movement, and practical strategy to build bodies built for real life.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Certified Coach/Group Fitness Instructor",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Ellie brings the discipline of an athlete and the artistry of a performer to every session. Her training blends strength, mobility, Pilates, and functional fitness into an approach that doesn't just challenge your body, it transforms the way you move.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Certified Pilates Instructor/Group Fitness Instructor",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Morgan helps clients build functional strength and longevity through Pilates. With a background in dance, she emphasizes the mind–body–spirit connection. Trained by Pilates for Performers in New York City.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Certified Strength Coach",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Giancarlo supports clients in achieving their health and fitness goals through personalized, sustainable training.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Nutrition & Exercise Specialist",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Ashley bridges the gap between what you eat and how you move. She combines nutrition and exercise physiology into a whole-person approach designed for long-term health.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Operations & Enrollment Lead",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Alexis handles scheduling, enrollment, and all things member support at Core Rhythm Fitness, making sure your experience here is seamless from day one. With a background in client relations across healthcare, education, and the arts, she’s passionate about supporting genuine connections with every member along their wellness journey.",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Find your rhythm",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "Personal Training (In-Home, In-Studio, & Virtual)",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "Nutrition & Wellness Coaching",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "Guest Privileges (Bring 1 guest per month)",
+          "where": "main"
+        },
+        {
+          "tag": "h4",
+          "text": "Dedicated Team Support",
+          "where": "main"
+        },
+        {
+          "tag": "h4",
+          "text": "Semi-Private Coaching",
+          "where": "main"
+        },
+        {
+          "tag": "h4",
+          "text": "Duos",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "All Star Membership Includes",
+          "where": "main"
+        },
+        {
+          "tag": "h4",
+          "text": "Frequently Asked Questions",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "How does the flexible scheduling work across locations?",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "Can I switch between membership tiers?",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "How does the guest privilege work?",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "What equipment is provided for in-home training?",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "How do I add nutrition coaching to my membership?",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "25 W 14th St New York, NY 10011",
+          "where": "footer"
+        },
+        {
+          "tag": "p",
+          "text": "2035 5th Ave New York, NY 10035",
+          "where": "footer"
+        },
+        {
+          "tag": "p",
+          "text": "567 Fulton St Brooklyn, NY",
+          "where": "footer"
+        },
+        {
+          "tag": "p",
+          "text": "© 2026 Core Rhythm Fitness",
+          "where": "footer"
+        },
+        {
+          "tag": "h3",
+          "text": "Build generational health.",
+          "where": "footer"
+        }
+      ],
+      "design": {
+        "fonts": {
+          "headings": "RiccioneSerial Regular",
+          "headingsWeight": "400",
+          "body": "Inter",
+          "bodyWeight": "400",
+          "nav": "Inter",
+          "buttons": "Inter"
+        },
+        "faces": [
+          "Inter",
+          "RiccioneSerial Regular"
+        ],
+        "page": "#FFFFFF",
+        "backgrounds": [
+          {
+            "hex": "#FFFFFF",
+            "weight": 29308299
+          },
+          {
+            "hex": "#FBFAF3",
+            "weight": 9791820
+          },
+          {
+            "hex": "#000000",
+            "weight": 3772771
+          },
+          {
+            "hex": "#1D231C",
+            "weight": 3057075
+          },
+          {
+            "hex": "#E8C869",
+            "weight": 34414
+          }
+        ],
+        "inks": [
+          {
+            "hex": "#000000",
+            "weight": 8845
+          },
+          {
+            "hex": "#FFFFFF",
+            "weight": 256
+          },
+          {
+            "hex": "#575757",
+            "weight": 229
+          },
+          {
+            "hex": "#444444",
+            "weight": 85
+          },
+          {
+            "hex": "#999999",
+            "weight": 48
+          },
+          {
+            "hex": "#929291",
+            "weight": 36
+          }
+        ],
+        "link": "#000000"
+      }
+    },
+    {
+      "name": "how-it-works",
+      "route": "/how-it-works",
+      "url": "https://www.corerhythmfitness.net/how-it-works",
+      "title": "How It Works — CORE RHYTHM FITNESS",
+      "description": null,
+      "height": 4628,
+      "frame": "how-it-works.png",
+      "full": "how-it-works-full.png",
+      "videos": [],
+      "phone": {
+        "frame": "m-how-it-works.png",
+        "full": "m-how-it-works-full.png",
+        "height": 5420
+      },
+      "text": [
+        {
+          "tag": "li",
+          "text": "Step 1: Book A Call Everyone starts here. The Rhythm Reset is a paid assessment. We sit down. We dig in. We get an understanding of what’s going on with your body, your schedule, your stress. No cookie-cutter plans. Membership investment is discussed after the assessment. We don't talk money until we know what you actually need.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "The Rhythm Reset is a paid assessment. We sit down. We dig in. We get an understanding of what’s going on with your body, your schedule, your stress.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Membership investment is discussed after the assessment. We don't talk money until we know what you actually need.",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "Step 2: Start Rhythm Reset",
+          "where": "main"
+        },
+        {
+          "tag": "h1",
+          "text": "How it works",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Entrepreneurs. Executives. Performers. Creators. People who've built something meaningful — and are ready to give their body the same attention.",
+          "where": "main"
+        },
+        {
+          "tag": "h1",
+          "text": "Leaders who are ready",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Our Philosophy",
+          "where": "main"
+        },
+        {
+          "tag": "h4",
+          "text": "Rhythm over routines",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Most fitness systems fail leaders because they require perfect schedules and endless discipline. When those systems don't work, the blame falls on you.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "We believe that's a design problem, not a motivation problem. We design health to work inside real life.",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "Our mission Since 2013, we've been dedicated to holistic wellness, nurturing our clients mind, body, and spirit blending personal training, nutrition, Pilates, meditation, and wellness conversations into each offering.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Since 2013, we've been dedicated to holistic wellness, nurturing our clients mind, body, and spirit blending personal training, nutrition, Pilates, meditation, and wellness conversations into each offering.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Ready to build your rhythm?",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Need to update your profile?",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "25 W 14th St New York, NY 10011",
+          "where": "footer"
+        },
+        {
+          "tag": "p",
+          "text": "2035 5th Ave New York, NY 10035",
+          "where": "footer"
+        },
+        {
+          "tag": "p",
+          "text": "567 Fulton St Brooklyn, NY",
+          "where": "footer"
+        },
+        {
+          "tag": "p",
+          "text": "© 2026 Core Rhythm Fitness",
+          "where": "footer"
+        },
+        {
+          "tag": "h3",
+          "text": "Build generational health.",
+          "where": "footer"
+        }
+      ],
+      "design": {
+        "fonts": {
+          "headings": "RiccioneSerial Regular",
+          "headingsWeight": "400",
+          "body": "Inter",
+          "bodyWeight": "400",
+          "nav": "Inter",
+          "buttons": "Inter"
+        },
+        "faces": [
+          "Inter",
+          "RiccioneSerial Regular"
+        ],
+        "page": "#FFFFFF",
+        "backgrounds": [
+          {
+            "hex": "#FFFFFF",
+            "weight": 18907674
+          },
+          {
+            "hex": "#000000",
+            "weight": 2452314
+          }
+        ],
+        "inks": [
+          {
+            "hex": "#000000",
+            "weight": 3650
+          },
+          {
+            "hex": "#FFFFFF",
+            "weight": 266
+          },
+          {
+            "hex": "#444444",
+            "weight": 85
+          },
+          {
+            "hex": "#999999",
+            "weight": 48
+          },
+          {
+            "hex": "#929291",
+            "weight": 36
+          },
+          {
+            "hex": "#111111",
+            "weight": 12
+          }
+        ],
+        "link": "#FFFFFF"
+      }
+    },
+    {
+      "name": "connect",
+      "route": "/connect",
+      "url": "https://www.corerhythmfitness.net/connect",
+      "title": "Connect — CORE RHYTHM FITNESS",
+      "description": null,
+      "height": 3951,
+      "frame": "connect.png",
+      "full": "connect-full.png",
+      "videos": [],
+      "phone": {
+        "frame": "m-connect.png",
+        "full": "m-connect-full.png",
+        "height": 4129
+      },
+      "text": [
+        {
+          "tag": "h1",
+          "text": "Join the CRF Community",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "25 W 14th St New York, NY 10011",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "2035 5th Ave New York, NY 10035",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "567 Fulton St Brooklyn, NY",
+          "where": "main"
+        },
+        {
+          "tag": "h2",
+          "text": "Connect with a CRF team member",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Scale 1-10 and why did you choose that number?",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "© 2026 Core Rhythm Fitness",
+          "where": "footer"
+        },
+        {
+          "tag": "h3",
+          "text": "Build generational health.",
+          "where": "footer"
+        }
+      ],
+      "design": {
+        "fonts": {
+          "headings": "RiccioneSerial Regular",
+          "headingsWeight": "400",
+          "body": "Inter",
+          "bodyWeight": "400",
+          "nav": "Inter",
+          "buttons": "Inter"
+        },
+        "faces": [
+          "Inter",
+          "RiccioneSerial Regular"
+        ],
+        "page": "#FFFFFF",
+        "backgrounds": [
+          {
+            "hex": "#FFFFFF",
+            "weight": 15282204
+          },
+          {
+            "hex": "#000000",
+            "weight": 2970300
+          }
+        ],
+        "inks": [
+          {
+            "hex": "#000000",
+            "weight": 1317
+          },
+          {
+            "hex": "#555555",
+            "weight": 85
+          },
+          {
+            "hex": "#444444",
+            "weight": 85
+          },
+          {
+            "hex": "#999999",
+            "weight": 48
+          },
+          {
+            "hex": "#FFFFFF",
+            "weight": 37
+          },
+          {
+            "hex": "#929291",
+            "weight": 36
+          }
+        ],
+        "link": "#000000"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "route": "/",
+      "src": "blob:https://www.corerhythmfitness.net/13ee7efd-88d2-4f9e-8b22-db422589d060",
+      "sources": [
+        "blob:https://www.corerhythmfitness.net/13ee7efd-88d2-4f9e-8b22-db422589d060"
+      ],
+      "poster": null,
+      "width": 1920,
+      "height": 1080,
+      "autoplay": false,
+      "loop": false,
+      "file": null
+    },
+    {
+      "route": "/",
+      "src": "blob:https://www.corerhythmfitness.net/f56791a6-733a-4b22-ac85-bcb8f70b6a44",
+      "sources": [
+        "blob:https://www.corerhythmfitness.net/f56791a6-733a-4b22-ac85-bcb8f70b6a44"
+      ],
+      "poster": null,
+      "width": 1920,
+      "height": 1080,
+      "autoplay": false,
+      "loop": false,
+      "file": null
+    },
+    {
+      "route": "/",
+      "src": "blob:https://www.corerhythmfitness.net/b48274e4-1810-42af-8441-7a09daf0e979",
+      "sources": [
+        "blob:https://www.corerhythmfitness.net/b48274e4-1810-42af-8441-7a09daf0e979"
+      ],
+      "poster": null,
+      "width": 1920,
+      "height": 1080,
+      "autoplay": false,
+      "loop": false,
+      "file": null
+    }
+  ],
+  "assets": [
+    {
+      "file": "assets/01-favicon.webp",
+      "url": "https://images.squarespace-cdn.com/content/v1/622e2af64527a921adda19c7/dde147a3-2a25-4ada-8c23-331fab571443/favicon.ico?format=100w",
+      "page": "home",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null,
+      "bytes": 7912,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/02-blackcrflogocropped.webp",
+      "url": "http://static1.squarespace.com/static/622e2af64527a921adda19c7/t/68b224425ece40519e062038/1756505154627/blackCrfLogoCropped.png?format=1500w",
+      "page": "home",
+      "kind": "og",
+      "where": "head",
+      "logo": false,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null,
+      "bytes": 17748,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/03-blackcrflogocropped.webp",
+      "url": "https://images.squarespace-cdn.com/content/v1/622e2af64527a921adda19c7/130c5e13-997d-4803-ba83-18c9a990993d/blackCrfLogoCropped.png?format=1500w",
+      "page": "home",
+      "kind": "img",
+      "where": "header",
+      "logo": true,
+      "alt": "CORE RHYTHM FITNESS",
+      "width": 194,
+      "height": 75,
+      "natural": [
+        666,
+        258
+      ],
+      "bytes": 17748,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/04-4n2a6739.webp",
+      "url": "https://images.squarespace-cdn.com/content/v1/622e2af64527a921adda19c7/03b1ef06-2e81-4217-a8c7-a57bea215f6a/4N2A6739.JPG?format=2500w",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 1440,
+      "height": 739,
+      "natural": [
+        1327,
+        884
+      ],
+      "bytes": 186192,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/05-2.webp",
+      "url": "https://images.squarespace-cdn.com/content/622e2af64527a921adda19c7/1647195625354-F5Z7GF0U4C01DPU000DC/2.png?content-type=image%2Fpng",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": true,
+      "alt": "Image 1",
+      "width": 122,
+      "height": 122,
+      "natural": [
+        1080,
+        1080
+      ],
+      "bytes": 36536,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/06-7.webp",
+      "url": "https://images.squarespace-cdn.com/content/622e2af64527a921adda19c7/1647195627068-ROXTWJY524GBD739612S/7.png?content-type=image%2Fpng",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": true,
+      "alt": "Image 2",
+      "width": 122,
+      "height": 122,
+      "natural": [
+        1080,
+        1080
+      ],
+      "bytes": 35656,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/07-5.webp",
+      "url": "https://images.squarespace-cdn.com/content/622e2af64527a921adda19c7/1647195626477-EEVB0BSPXJTJ26987OOU/5.png?content-type=image%2Fpng",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": true,
+      "alt": "Image 3",
+      "width": 122,
+      "height": 122,
+      "natural": [
+        1080,
+        1080
+      ],
+      "bytes": 59840,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/08-9.webp",
+      "url": "https://images.squarespace-cdn.com/content/622e2af64527a921adda19c7/1647195627615-LXATD9I6S2SXJSLLCXBT/9.png?content-type=image%2Fpng",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": true,
+      "alt": "Image 4",
+      "width": 122,
+      "height": 122,
+      "natural": [
+        1080,
+        1080
+      ],
+      "bytes": 51460,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/09-6.webp",
+      "url": "https://images.squarespace-cdn.com/content/622e2af64527a921adda19c7/1647195626522-YYYDIGVT9MTINXPHGG6V/6.png?content-type=image%2Fpng",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": true,
+      "alt": "Image 5",
+      "width": 122,
+      "height": 122,
+      "natural": [
+        1080,
+        1080
+      ],
+      "bytes": 98036,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/10-14.webp",
+      "url": "https://images.squarespace-cdn.com/content/622e2af64527a921adda19c7/1647195628912-MS2KJ8BNU83ZE7EXMPJS/14.png?content-type=image%2Fpng",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": true,
+      "alt": "Image 6",
+      "width": 122,
+      "height": 122,
+      "natural": [
+        1080,
+        1080
+      ],
+      "bytes": 79096,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/11-3.webp",
+      "url": "https://images.squarespace-cdn.com/content/622e2af64527a921adda19c7/1647195625896-W4CL0689YXG8Z30SVN0N/3.png?content-type=image%2Fpng",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": true,
+      "alt": "Image 7",
+      "width": 122,
+      "height": 122,
+      "natural": [
+        1080,
+        1080
+      ],
+      "bytes": 45540,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/12-untitled-design-2823-29.webp",
+      "url": "https://images.squarespace-cdn.com/content/622e2af64527a921adda19c7/1648089382692-WDBVC34LGU9VP6PPDVDI/Untitled+design+%2823%29.png?content-type=image%2Fpng",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": true,
+      "alt": "Image 8",
+      "width": 122,
+      "height": 122,
+      "natural": [
+        1080,
+        1080
+      ],
+      "bytes": 125310,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/13-newyorktimeslogo.webp",
+      "url": "https://images.squarespace-cdn.com/content/622e2af64527a921adda19c7/102f015a-23ef-47bc-a2b5-d94bfdb3a319/newYorkTimesLogo.jpg?content-type=image%2Fjpeg",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": true,
+      "alt": "Image 9",
+      "width": 122,
+      "height": 98,
+      "natural": [
+        396,
+        317
+      ],
+      "bytes": 11676,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/14-social-designs-2025-281-29.webp",
+      "url": "https://images.squarespace-cdn.com/content/v1/622e2af64527a921adda19c7/aa5c2650-37e4-44ff-a207-4e541efa0ce3/Social+Designs+2025+%281%29.png?format=2500w",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 322,
+      "height": 382,
+      "natural": [
+        382,
+        453
+      ],
+      "bytes": 404130,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/15-personaltraining.webp",
+      "url": "https://images.squarespace-cdn.com/content/v1/622e2af64527a921adda19c7/fcd2ce34-9c59-4161-9559-5086add77366/personaltraining.png?format=2500w",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 322,
+      "height": 385,
+      "natural": [
+        324,
+        388
+      ],
+      "bytes": 434350,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/16-enjoying-a-healthy-meal-in-the-kitchen.webp",
+      "url": "https://images.squarespace-cdn.com/content/v1/622e2af64527a921adda19c7/6e6234da-1a91-461f-9a6a-6358c1f03645/Enjoying+a+healthy+meal+in+the+kitchen.png?format=2500w",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 322,
+      "height": 483,
+      "natural": [
+        589,
+        884
+      ],
+      "bytes": 895240,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/17-zak-before-after-final.webp",
+      "url": "https://images.squarespace-cdn.com/content/622e2af64527a921adda19c7/13266c97-e451-4158-b7c8-7b33a11f2f70/Zak+Before+_+After+final.JPG?content-type=image%2Fjpeg",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Slider Image",
+      "width": 400,
+      "height": 400,
+      "natural": [
+        2048,
+        2048
+      ],
+      "bytes": 216770,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/18-seth-rudetsky-after-ch-iii.webp",
+      "url": "https://images.squarespace-cdn.com/content/622e2af64527a921adda19c7/44ec7b4c-2c03-4564-9959-344c061b4bf1/Seth+Rudetsky+After+Ch+III.JPG?content-type=image%2Fjpeg",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Slider Image",
+      "width": 400,
+      "height": 400,
+      "natural": [
+        2048,
+        2048
+      ],
+      "bytes": 139874,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/19-sandy-taylor-after-crf.webp",
+      "url": "https://images.squarespace-cdn.com/content/622e2af64527a921adda19c7/7d470686-7652-40b7-90b3-51ddca7d7e1f/Sandy+Taylor+After+CRF.JPG?content-type=image%2Fjpeg",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Slider Image",
+      "width": 400,
+      "height": 400,
+      "natural": [
+        2048,
+        2048
+      ],
+      "bytes": 200298,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/20-josh-ch-iii.webp",
+      "url": "https://images.squarespace-cdn.com/content/622e2af64527a921adda19c7/8a003776-5c73-48de-bddc-f9884b318798/Josh+Ch.+III.jpg?content-type=image%2Fjpeg",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Slider Image",
+      "width": 400,
+      "height": 400,
+      "natural": [
+        2048,
+        2048
+      ],
+      "bytes": 209358,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/21-wendy-ch-iii.webp",
+      "url": "https://images.squarespace-cdn.com/content/622e2af64527a921adda19c7/cddb75ce-2ddb-4a22-ab60-75a6ca006e34/Wendy+ch.+III.jpg?content-type=image%2Fjpeg",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Slider Image",
+      "width": 400,
+      "height": 400,
+      "natural": [
+        2048,
+        2048
+      ],
+      "bytes": 143438,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/22-luke-ch-iii.webp",
+      "url": "https://images.squarespace-cdn.com/content/622e2af64527a921adda19c7/f76f7683-473d-4890-abc1-6152e9bdee4d/Luke+Ch.+III.jpg?content-type=image%2Fjpeg",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Slider Image",
+      "width": 400,
+      "height": 400,
+      "natural": [
+        2048,
+        2048
+      ],
+      "bytes": 206616,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/23-michael-g-ch-iii.webp",
+      "url": "https://images.squarespace-cdn.com/content/622e2af64527a921adda19c7/311fd8b3-5632-456c-89b4-1bc633141628/Michael+G+ch.+III.jpg?content-type=image%2Fjpeg",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Slider Image",
+      "width": 400,
+      "height": 400,
+      "natural": [
+        2048,
+        2048
+      ],
+      "bytes": 135830,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/24-oliver-tim-after-ch-ii.webp",
+      "url": "https://images.squarespace-cdn.com/content/622e2af64527a921adda19c7/24235e1d-3720-48df-b38d-0bdbd1a7bbee/Oliver+Tim+After+Ch+II.JPG?content-type=image%2Fjpeg",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Slider Image",
+      "width": 400,
+      "height": 400,
+      "natural": [
+        2048,
+        2048
+      ],
+      "bytes": 179822,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/25-shea-after-crf-281-29.webp",
+      "url": "https://images.squarespace-cdn.com/content/622e2af64527a921adda19c7/38ed59d8-9970-49b0-aa57-4d0a328369e4/Shea+after+CRF+%281%29.jpg?content-type=image%2Fjpeg",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Slider Image",
+      "width": 400,
+      "height": 397,
+      "natural": [
+        750,
+        745
+      ],
+      "bytes": 43508,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/26-yuh-line-after-ch-3.webp",
+      "url": "https://images.squarespace-cdn.com/content/622e2af64527a921adda19c7/9de129f3-38e8-48e7-bace-17be24fb0a4a/Yuh+line+after+ch+3.jpg?content-type=image%2Fjpeg",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Slider Image",
+      "width": 400,
+      "height": 409,
+      "natural": [
+        750,
+        767
+      ],
+      "bytes": 33416,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/27-nick-pambianchi-ch-ii.webp",
+      "url": "https://images.squarespace-cdn.com/content/622e2af64527a921adda19c7/b9e8c152-e76f-47e7-bc30-5830ed547ad6/Nick+Pambianchi+Ch+II.JPG?content-type=image%2Fjpeg",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Slider Image",
+      "width": 400,
+      "height": 400,
+      "natural": [
+        2048,
+        2048
+      ],
+      "bytes": 179592,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/28-pierre-ch-ii.webp",
+      "url": "https://images.squarespace-cdn.com/content/622e2af64527a921adda19c7/8f9af552-fe18-435a-b442-0e8221397baf/Pierre+Ch.+II.jpg?content-type=image%2Fjpeg",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Slider Image",
+      "width": 400,
+      "height": 400,
+      "natural": [
+        2048,
+        2048
+      ],
+      "bytes": 214314,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/29-billy-porter.webp",
+      "url": "https://images.squarespace-cdn.com/content/622e2af64527a921adda19c7/9ac9c2f4-8b83-49e1-8fb0-083073e90ea0/Billy+Porter.jpg?content-type=image%2Fjpeg",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Slider Image",
+      "width": 400,
+      "height": 400,
+      "natural": [
+        2048,
+        2048
+      ],
+      "bytes": 170020,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/30-javier-mu-c3-b1oz-after-crf.webp",
+      "url": "https://images.squarespace-cdn.com/content/622e2af64527a921adda19c7/ebe20c02-a296-4e69-8341-4567b7c136aa/Javier+Mu%C3%B1oz+after+CRF.JPG?content-type=image%2Fjpeg",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Slider Image",
+      "width": 400,
+      "height": 400,
+      "natural": [
+        2048,
+        2048
+      ],
+      "bytes": 202130,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/31-jessica-marak-after-ch3.webp",
+      "url": "https://images.squarespace-cdn.com/content/622e2af64527a921adda19c7/1652d23f-8d1d-4df2-8f02-1b2cbea9df98/Jessica+Marak+after+ch3.JPG?content-type=image%2Fjpeg",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Slider Image",
+      "width": 400,
+      "height": 400,
+      "natural": [
+        2048,
+        2048
+      ],
+      "bytes": 167702,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/32-susie-case-before-ch-1.webp",
+      "url": "https://images.squarespace-cdn.com/content/622e2af64527a921adda19c7/b381d644-c70e-4fc8-831d-78e85e1de054/Susie+Case+BEFORE+ch.+1.jpg?content-type=image%2Fjpeg",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Slider Image",
+      "width": 400,
+      "height": 400,
+      "natural": [
+        2048,
+        2048
+      ],
+      "bytes": 130616,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/33-jackie-warren-ch-3.webp",
+      "url": "https://images.squarespace-cdn.com/content/622e2af64527a921adda19c7/c42edcea-0c09-48eb-88c2-2a0d5fe843b7/Jackie+Warren+Ch+3.jpg?content-type=image%2Fjpeg",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Slider Image",
+      "width": 400,
+      "height": 409,
+      "natural": [
+        750,
+        767
+      ],
+      "bytes": 33934,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/34-leo-after-shred.webp",
+      "url": "https://images.squarespace-cdn.com/content/622e2af64527a921adda19c7/6f216664-781e-4a5f-b270-0d96cc637b55/Leo+after+shred.jpg?content-type=image%2Fjpeg",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Slider Image",
+      "width": 400,
+      "height": 409,
+      "natural": [
+        750,
+        767
+      ],
+      "bytes": 35138,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/35-michael-hahn-ch-i.webp",
+      "url": "https://images.squarespace-cdn.com/content/622e2af64527a921adda19c7/a498fd23-19f3-44c1-87b4-d8b1796fb2fc/Michael+Hahn+ch.+I.jpg?content-type=image%2Fjpeg",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "Slider Image",
+      "width": 400,
+      "height": 400,
+      "natural": [
+        2048,
+        2048
+      ],
+      "bytes": 141622,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/36-blackcrflogocropped.webp",
+      "url": "https://images.squarespace-cdn.com/content/v1/622e2af64527a921adda19c7/130c5e13-997d-4803-ba83-18c9a990993d/blackCrfLogoCropped.png?format=2500w",
+      "page": "home",
+      "kind": "img",
+      "where": "footer",
+      "logo": true,
+      "alt": "",
+      "width": 322,
+      "height": 125,
+      "natural": [
+        142,
+        55
+      ],
+      "bytes": 17748,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/37-thumbnail.jpg",
+      "url": "https://video.squarespace-cdn.com/content/v1/622e2af64527a921adda19c7/c565c061-bb7f-4b2c-b126-b32a170530bf/thumbnail",
+      "page": "home",
+      "kind": "background",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 432,
+      "height": 243,
+      "natural": null,
+      "bytes": 55389,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/38-thumbnail.jpg",
+      "url": "https://video.squarespace-cdn.com/content/v1/622e2af64527a921adda19c7/ff0a6b0d-8a6f-4061-80b3-1c6363549a03/thumbnail",
+      "page": "home",
+      "kind": "background",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 432,
+      "height": 243,
+      "natural": null,
+      "bytes": 57767,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/39-thumbnail.jpg",
+      "url": "https://video.squarespace-cdn.com/content/v1/622e2af64527a921adda19c7/6066e7d5-b891-45df-9755-97e8602ba5d3/thumbnail",
+      "page": "home",
+      "kind": "background",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 432,
+      "height": 243,
+      "natural": null,
+      "bytes": 53169,
+      "type": "image/jpeg"
+    },
+    {
+      "file": "assets/40-inline-mark.svg",
+      "url": null,
+      "page": "home",
+      "kind": "svg",
+      "where": "nav",
+      "logo": false,
+      "alt": "",
+      "width": 32,
+      "height": 32,
+      "natural": null
+    },
+    {
+      "file": "assets/41-inline-mark.svg",
+      "url": null,
+      "page": "home",
+      "kind": "svg",
+      "where": "nav",
+      "logo": false,
+      "alt": "",
+      "width": 32,
+      "height": 32,
+      "natural": null
+    },
+    {
+      "file": "assets/42-inline-mark.svg",
+      "url": null,
+      "page": "home",
+      "kind": "svg",
+      "where": "nav",
+      "logo": false,
+      "alt": "",
+      "width": 32,
+      "height": 32,
+      "natural": null
+    },
+    {
+      "file": "assets/43-inline-mark.svg",
+      "url": null,
+      "page": "home",
+      "kind": "svg",
+      "where": "nav",
+      "logo": false,
+      "alt": "",
+      "width": 32,
+      "height": 32,
+      "natural": null
+    },
+    {
+      "file": "assets/01-favicon.webp",
+      "url": "https://images.squarespace-cdn.com/content/v1/622e2af64527a921adda19c7/dde147a3-2a25-4ada-8c23-331fab571443/favicon.ico?format=100w",
+      "page": "about",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/03-blackcrflogocropped.webp",
+      "url": "https://images.squarespace-cdn.com/content/v1/622e2af64527a921adda19c7/130c5e13-997d-4803-ba83-18c9a990993d/blackCrfLogoCropped.png?format=1500w",
+      "page": "about",
+      "kind": "img",
+      "where": "header",
+      "logo": true,
+      "alt": "CORE RHYTHM FITNESS",
+      "width": 194,
+      "height": 75,
+      "natural": [
+        666,
+        258
+      ]
+    },
+    {
+      "file": "assets/44-4n2a7766-2.webp",
+      "url": "https://images.squarespace-cdn.com/content/v1/622e2af64527a921adda19c7/f6589df3-4c47-4d62-b3fa-99a343a1c518/4N2A7766-2.JPG?format=2500w",
+      "page": "about",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 543,
+      "height": 650,
+      "natural": [
+        885,
+        1327
+      ],
+      "bytes": 219348,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/45-jumping-uptown-photo.webp",
+      "url": "https://images.squarespace-cdn.com/content/v1/622e2af64527a921adda19c7/a726622b-7b5f-4253-a91d-dfb5cc45f4b2/Jumping+uptown+photo.jpg?format=2500w",
+      "page": "about",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 543,
+      "height": 500,
+      "natural": [
+        1439,
+        960
+      ],
+      "bytes": 1305740,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/05-2.webp",
+      "url": "https://images.squarespace-cdn.com/content/622e2af64527a921adda19c7/1647195625354-F5Z7GF0U4C01DPU000DC/2.png?content-type=image%2Fpng",
+      "page": "about",
+      "kind": "img",
+      "where": "main",
+      "logo": true,
+      "alt": "Image 1",
+      "width": 122,
+      "height": 122,
+      "natural": [
+        1080,
+        1080
+      ]
+    },
+    {
+      "file": "assets/06-7.webp",
+      "url": "https://images.squarespace-cdn.com/content/622e2af64527a921adda19c7/1647195627068-ROXTWJY524GBD739612S/7.png?content-type=image%2Fpng",
+      "page": "about",
+      "kind": "img",
+      "where": "main",
+      "logo": true,
+      "alt": "Image 2",
+      "width": 122,
+      "height": 122,
+      "natural": [
+        1080,
+        1080
+      ]
+    },
+    {
+      "file": "assets/07-5.webp",
+      "url": "https://images.squarespace-cdn.com/content/622e2af64527a921adda19c7/1647195626477-EEVB0BSPXJTJ26987OOU/5.png?content-type=image%2Fpng",
+      "page": "about",
+      "kind": "img",
+      "where": "main",
+      "logo": true,
+      "alt": "Image 3",
+      "width": 122,
+      "height": 122,
+      "natural": [
+        1080,
+        1080
+      ]
+    },
+    {
+      "file": "assets/08-9.webp",
+      "url": "https://images.squarespace-cdn.com/content/622e2af64527a921adda19c7/1647195627615-LXATD9I6S2SXJSLLCXBT/9.png?content-type=image%2Fpng",
+      "page": "about",
+      "kind": "img",
+      "where": "main",
+      "logo": true,
+      "alt": "Image 4",
+      "width": 122,
+      "height": 122,
+      "natural": [
+        1080,
+        1080
+      ]
+    },
+    {
+      "file": "assets/09-6.webp",
+      "url": "https://images.squarespace-cdn.com/content/622e2af64527a921adda19c7/1647195626522-YYYDIGVT9MTINXPHGG6V/6.png?content-type=image%2Fpng",
+      "page": "about",
+      "kind": "img",
+      "where": "main",
+      "logo": true,
+      "alt": "Image 5",
+      "width": 122,
+      "height": 122,
+      "natural": [
+        1080,
+        1080
+      ]
+    },
+    {
+      "file": "assets/10-14.webp",
+      "url": "https://images.squarespace-cdn.com/content/622e2af64527a921adda19c7/1647195628912-MS2KJ8BNU83ZE7EXMPJS/14.png?content-type=image%2Fpng",
+      "page": "about",
+      "kind": "img",
+      "where": "main",
+      "logo": true,
+      "alt": "Image 6",
+      "width": 122,
+      "height": 122,
+      "natural": [
+        1080,
+        1080
+      ]
+    },
+    {
+      "file": "assets/11-3.webp",
+      "url": "https://images.squarespace-cdn.com/content/622e2af64527a921adda19c7/1647195625896-W4CL0689YXG8Z30SVN0N/3.png?content-type=image%2Fpng",
+      "page": "about",
+      "kind": "img",
+      "where": "main",
+      "logo": true,
+      "alt": "Image 7",
+      "width": 122,
+      "height": 122,
+      "natural": [
+        1080,
+        1080
+      ]
+    },
+    {
+      "file": "assets/12-untitled-design-2823-29.webp",
+      "url": "https://images.squarespace-cdn.com/content/622e2af64527a921adda19c7/1648089382692-WDBVC34LGU9VP6PPDVDI/Untitled+design+%2823%29.png?content-type=image%2Fpng",
+      "page": "about",
+      "kind": "img",
+      "where": "main",
+      "logo": true,
+      "alt": "Image 8",
+      "width": 122,
+      "height": 122,
+      "natural": [
+        1080,
+        1080
+      ]
+    },
+    {
+      "file": "assets/13-newyorktimeslogo.webp",
+      "url": "https://images.squarespace-cdn.com/content/622e2af64527a921adda19c7/102f015a-23ef-47bc-a2b5-d94bfdb3a319/newYorkTimesLogo.jpg?content-type=image%2Fjpeg",
+      "page": "about",
+      "kind": "img",
+      "where": "main",
+      "logo": true,
+      "alt": "Image 9",
+      "width": 122,
+      "height": 98,
+      "natural": [
+        396,
+        317
+      ]
+    },
+    {
+      "file": "assets/46-4n2a6275.webp",
+      "url": "https://images.squarespace-cdn.com/content/v1/622e2af64527a921adda19c7/340f6335-752b-4e77-930d-653dd4a9e05e/4N2A6275.JPG?format=2500w",
+      "page": "about",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 1319,
+      "height": 815,
+      "natural": [
+        1216,
+        810
+      ],
+      "bytes": 522180,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/47-fitness-headshot.webp",
+      "url": "https://images.squarespace-cdn.com/content/v1/622e2af64527a921adda19c7/423b4f51-cc1d-4352-b720-3d7a3df72b69/fitness+headshot.jpg?format=2500w",
+      "page": "about",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 1319,
+      "height": 697,
+      "natural": [
+        1319,
+        878
+      ],
+      "bytes": 331726,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/48-4n2a5154.webp",
+      "url": "https://images.squarespace-cdn.com/content/v1/622e2af64527a921adda19c7/2a101291-93cc-4560-a51e-efa6567c6413/4N2A5154.jpg?format=2500w",
+      "page": "about",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 322,
+      "height": 382,
+      "natural": [
+        322,
+        429
+      ],
+      "bytes": 219734,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/49-boles-2cellie-2492.webp",
+      "url": "https://images.squarespace-cdn.com/content/v1/622e2af64527a921adda19c7/bb1db801-28d5-43e8-9b51-b6b68e724418/Boles%2CEllie-2492.jpg?format=2500w",
+      "page": "about",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 322,
+      "height": 382,
+      "natural": [
+        322,
+        483
+      ],
+      "bytes": 359540,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/50-morgan-mcghee.webp",
+      "url": "https://images.squarespace-cdn.com/content/v1/622e2af64527a921adda19c7/452f16fe-0be2-4207-aa9d-e1da7859b87b/Morgan+Mcghee.jpg?format=2500w",
+      "page": "about",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 322,
+      "height": 494,
+      "natural": [
+        322,
+        483
+      ],
+      "bytes": 1318768,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/51-unnamed-17.webp",
+      "url": "https://images.squarespace-cdn.com/content/v1/622e2af64527a921adda19c7/b9cae061-4e5b-4290-806f-e8690d4761c9/unnamed-17.jpg?format=2500w",
+      "page": "about",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 322,
+      "height": 382,
+      "natural": [
+        322,
+        429
+      ],
+      "bytes": 53582,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/52-photo-2024-08-29-12-52-42.webp",
+      "url": "https://images.squarespace-cdn.com/content/v1/622e2af64527a921adda19c7/1abfe5af-4096-497d-b588-f938427b5e15/PHOTO-2024-08-29-12-52-42.jpg?format=2500w",
+      "page": "about",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 322,
+      "height": 382,
+      "natural": [
+        322,
+        322
+      ],
+      "bytes": 54802,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/53-headshot-2026.webp",
+      "url": "https://images.squarespace-cdn.com/content/v1/622e2af64527a921adda19c7/50ae3586-5a2a-4ad3-81a1-74d20f0102fb/Headshot+2026.jpg?format=2500w",
+      "page": "about",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 322,
+      "height": 522,
+      "natural": [
+        322,
+        478
+      ],
+      "bytes": 112834,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/54-4n2a6304.webp",
+      "url": "https://images.squarespace-cdn.com/content/v1/622e2af64527a921adda19c7/88e7d2ba-8fa4-41f2-bbaf-b2b3d8e17d4b/4N2A6304.JPG?format=2500w",
+      "page": "about",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 432,
+      "height": 661,
+      "natural": [
+        432,
+        288
+      ],
+      "bytes": 454864,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/36-blackcrflogocropped.webp",
+      "url": "https://images.squarespace-cdn.com/content/v1/622e2af64527a921adda19c7/130c5e13-997d-4803-ba83-18c9a990993d/blackCrfLogoCropped.png?format=2500w",
+      "page": "about",
+      "kind": "img",
+      "where": "footer",
+      "logo": true,
+      "alt": "",
+      "width": 322,
+      "height": 125,
+      "natural": [
+        142,
+        55
+      ]
+    },
+    {
+      "file": "assets/55-inline-mark.svg",
+      "url": null,
+      "page": "about",
+      "kind": "svg",
+      "where": "nav",
+      "logo": false,
+      "alt": "",
+      "width": 32,
+      "height": 32,
+      "natural": null
+    },
+    {
+      "file": "assets/56-inline-mark.svg",
+      "url": null,
+      "page": "about",
+      "kind": "svg",
+      "where": "nav",
+      "logo": false,
+      "alt": "",
+      "width": 32,
+      "height": 32,
+      "natural": null
+    },
+    {
+      "file": "assets/57-inline-mark.svg",
+      "url": null,
+      "page": "about",
+      "kind": "svg",
+      "where": "nav",
+      "logo": false,
+      "alt": "",
+      "width": 32,
+      "height": 32,
+      "natural": null
+    },
+    {
+      "file": "assets/58-inline-mark.svg",
+      "url": null,
+      "page": "about",
+      "kind": "svg",
+      "where": "nav",
+      "logo": false,
+      "alt": "",
+      "width": 32,
+      "height": 32,
+      "natural": null
+    },
+    {
+      "file": "assets/01-favicon.webp",
+      "url": "https://images.squarespace-cdn.com/content/v1/622e2af64527a921adda19c7/dde147a3-2a25-4ada-8c23-331fab571443/favicon.ico?format=100w",
+      "page": "how-it-works",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/03-blackcrflogocropped.webp",
+      "url": "https://images.squarespace-cdn.com/content/v1/622e2af64527a921adda19c7/130c5e13-997d-4803-ba83-18c9a990993d/blackCrfLogoCropped.png?format=1500w",
+      "page": "how-it-works",
+      "kind": "img",
+      "where": "header",
+      "logo": true,
+      "alt": "CORE RHYTHM FITNESS",
+      "width": 194,
+      "height": 75,
+      "natural": [
+        666,
+        258
+      ]
+    },
+    {
+      "file": "assets/59-img-1685.webp",
+      "url": "https://images.squarespace-cdn.com/content/v1/622e2af64527a921adda19c7/13555a09-0d5b-43a7-8832-526adef8d526/IMG_1685.jpg?format=2500w",
+      "page": "how-it-works",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 432,
+      "height": 540,
+      "natural": [
+        884,
+        884
+      ],
+      "bytes": 302568,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/60-4n2a4085.webp",
+      "url": "https://images.squarespace-cdn.com/content/v1/622e2af64527a921adda19c7/e1fefc3d-f5dc-4b04-968d-e608427e7cad/4N2A4085.png?format=2500w",
+      "page": "how-it-works",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 1440,
+      "height": 594,
+      "natural": [
+        885,
+        885
+      ],
+      "bytes": 2053808,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/36-blackcrflogocropped.webp",
+      "url": "https://images.squarespace-cdn.com/content/v1/622e2af64527a921adda19c7/130c5e13-997d-4803-ba83-18c9a990993d/blackCrfLogoCropped.png?format=2500w",
+      "page": "how-it-works",
+      "kind": "img",
+      "where": "footer",
+      "logo": true,
+      "alt": "",
+      "width": 322,
+      "height": 125,
+      "natural": [
+        142,
+        55
+      ]
+    },
+    {
+      "file": "assets/61-inline-mark.svg",
+      "url": null,
+      "page": "how-it-works",
+      "kind": "svg",
+      "where": "nav",
+      "logo": false,
+      "alt": "",
+      "width": 32,
+      "height": 32,
+      "natural": null
+    },
+    {
+      "file": "assets/62-inline-mark.svg",
+      "url": null,
+      "page": "how-it-works",
+      "kind": "svg",
+      "where": "nav",
+      "logo": false,
+      "alt": "",
+      "width": 32,
+      "height": 32,
+      "natural": null
+    },
+    {
+      "file": "assets/63-inline-mark.svg",
+      "url": null,
+      "page": "how-it-works",
+      "kind": "svg",
+      "where": "nav",
+      "logo": false,
+      "alt": "",
+      "width": 32,
+      "height": 32,
+      "natural": null
+    },
+    {
+      "file": "assets/64-inline-mark.svg",
+      "url": null,
+      "page": "how-it-works",
+      "kind": "svg",
+      "where": "nav",
+      "logo": false,
+      "alt": "",
+      "width": 32,
+      "height": 32,
+      "natural": null
+    },
+    {
+      "file": "assets/01-favicon.webp",
+      "url": "https://images.squarespace-cdn.com/content/v1/622e2af64527a921adda19c7/dde147a3-2a25-4ada-8c23-331fab571443/favicon.ico?format=100w",
+      "page": "connect",
+      "kind": "icon",
+      "where": "head",
+      "logo": true,
+      "alt": "",
+      "width": null,
+      "height": null,
+      "natural": null
+    },
+    {
+      "file": "assets/03-blackcrflogocropped.webp",
+      "url": "https://images.squarespace-cdn.com/content/v1/622e2af64527a921adda19c7/130c5e13-997d-4803-ba83-18c9a990993d/blackCrfLogoCropped.png?format=1500w",
+      "page": "connect",
+      "kind": "img",
+      "where": "header",
+      "logo": true,
+      "alt": "CORE RHYTHM FITNESS",
+      "width": 194,
+      "height": 75,
+      "natural": [
+        666,
+        258
+      ]
+    },
+    {
+      "file": "assets/65-crf-anniversary-photo.webp",
+      "url": "https://images.squarespace-cdn.com/content/v1/622e2af64527a921adda19c7/9e8de6a4-7746-4e8f-9516-21f427a9db4e/CRF+Anniversary+photo.jpg?format=2500w",
+      "page": "connect",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 1440,
+      "height": 676,
+      "natural": [
+        1439,
+        957
+      ],
+      "bytes": 503632,
+      "type": "image/webp"
+    },
+    {
+      "file": "assets/36-blackcrflogocropped.webp",
+      "url": "https://images.squarespace-cdn.com/content/v1/622e2af64527a921adda19c7/130c5e13-997d-4803-ba83-18c9a990993d/blackCrfLogoCropped.png?format=2500w",
+      "page": "connect",
+      "kind": "img",
+      "where": "footer",
+      "logo": true,
+      "alt": "",
+      "width": 322,
+      "height": 125,
+      "natural": [
+        142,
+        55
+      ]
+    },
+    {
+      "file": "assets/66-inline-mark.svg",
+      "url": null,
+      "page": "connect",
+      "kind": "svg",
+      "where": "nav",
+      "logo": false,
+      "alt": "",
+      "width": 32,
+      "height": 32,
+      "natural": null
+    },
+    {
+      "file": "assets/67-inline-mark.svg",
+      "url": null,
+      "page": "connect",
+      "kind": "svg",
+      "where": "nav",
+      "logo": false,
+      "alt": "",
+      "width": 32,
+      "height": 32,
+      "natural": null
+    },
+    {
+      "file": "assets/68-inline-mark.svg",
+      "url": null,
+      "page": "connect",
+      "kind": "svg",
+      "where": "nav",
+      "logo": false,
+      "alt": "",
+      "width": 32,
+      "height": 32,
+      "natural": null
+    },
+    {
+      "file": "assets/69-inline-mark.svg",
+      "url": null,
+      "page": "connect",
+      "kind": "svg",
+      "where": "nav",
+      "logo": false,
+      "alt": "",
+      "width": 32,
+      "height": 32,
+      "natural": null
+    }
+  ]
+}

@@ -1,0 +1,347 @@
+{
+  "slug": "mzaero",
+  "base": "https://mzaero.com",
+  "shot": "2026-10-22T21:44:17.243Z",
+  "viewport": {
+    "width": 1440,
+    "height": 900,
+    "scale": 2
+  },
+  "phone": {
+    "width": 390,
+    "height": 844,
+    "scale": 3
+  },
+  "pages": [
+    {
+      "name": "home",
+      "route": "/",
+      "url": "https://mzaero.com/",
+      "title": "MZAERO - Mzaero",
+      "description": null,
+      "height": 6254,
+      "frame": "home.png",
+      "full": "home-full.png",
+      "videos": [],
+      "phone": {
+        "frame": "m-home.png",
+        "full": "m-home-full.png",
+        "height": 7671
+      },
+      "text": [
+        {
+          "tag": "h2",
+          "text": "Supporting the Future of Advanced Air Mobility",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Our Services",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Making up for the lack of experience and engineering in this fast growing industry is a challenge, which is why innovators turn to external partners. With decades of experience, MZaero’s specialized engineering team helps aerospace innovators navigate certification and integration to bring visions to reality. As innovators race to revolutionize air travel with Drone, CTOL, STOL, VTOL Aircraft, having safety and design partners is critical. At MZaero, our services exist to accelerate a future of safe, sustainable flight. Backed by decades of experience, our team provides the technical mastery to realize your most ambitious visions.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Reduce Development Cost and Time",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "MZaero offers a team of senior engineers experienced in diverse aerospace projects, ensuring you get application specific support. We specialize in systems integration applications, ensuring technologies work seamlessly from concept to production.",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "Comprehensive aircraft systems and subsystems engineering",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "Product liability, risk mitigation, and management",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "Safety & crash mitigation",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Engineering Considerations",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Ongoing certification processes and specifications continue to challenge AAM developers.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Most companies incorporate a 10-9 safety factor using redundancy on system and component reliability. However, redundancy alone cannot mitigate all risks, such as human error, weather, propulsion loss, bird strikes, and others. Developers must include contingencies for situations where redundancy falls short in unpredictable conditions.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "In the realm of vertical take-off and landing vehicles, weight is a critical consideration. Embracing lightweight design principles becomes paramount, ensuring a delicate balance between safety and efficiency.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Meet the Founders",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Michael Zimmermann, Aerospace Diplom Ingenieur",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Michael has been involved in aerospace-related product development nearly his entire career, much of it with a specific focus on safety systems, including parachutes, structures, aircraft seating, restraint systems and related electronics. He worked for premier companies including Airbus, BAE Systems, Autoflug, and Siemens Automotive",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Nick has a broad range of experience in product development engineering, manufacturing, testing, and regulatory compliance in automotive and aerospace systems in all major markets since 1985. A great deal of Mr. Jaksa’s focus was on crashworthiness and occupant safety in a combination of product development, testing, and product liability defense positions, working for major manufacturing corporations, including Siemens Automotive, Bosch, and Alliedsignal.",
+          "where": "main"
+        },
+        {
+          "tag": "h3",
+          "text": "Frequently Asked Questions",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "MZaero offers a wide range of aerospace engineering consulting services, including:",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "Comprehensive aircraft systems engineering",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "Crashworthiness and impact protection",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "Safety systems design and integration",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "Structural analysis and modeling",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "Aircraft interiors, wiring, and composites",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "Compliance planning and certification liaison",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "Risk mitigation strategies",
+          "where": "main"
+        },
+        {
+          "tag": "li",
+          "text": "Manufacturing and quality best practices",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Our founders Michael Zimmermann and Nick Jaksa have decades of experience across aerospace, automotive, and defense working for leading global companies. Our team includes additional senior engineers with expertise spanning aircraft design, analysis, manufacturing, quality processes, and more.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "We can support both fixed wing and rotary wing aircraft projects, ranging from conceptual design through production. This includes emerging applications like eVTOL and other advanced air mobility. We’ve worked on commercial, military, and advanced R&D programs.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "With hands-on experience in areas like crashworthiness, restraint systems, and parachutes, we help clients build safety into designs from the start. Our experts are skilled in regulatory requirements and documentation to help accelerate compliance approvals.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "We first assess your needs and objectives. We then assemble a custom team with relevant experience and provide options to integrate with your team seamlessly. Our flexible, lightweight approach means we can scale to meet program needs.",
+          "where": "main"
+        },
+        {
+          "tag": "p",
+          "text": "Germany: +49 151 6190 0002",
+          "where": "footer"
+        },
+        {
+          "tag": "p",
+          "text": "michaelzimmermann@mzaero.com",
+          "where": "footer"
+        }
+      ],
+      "design": {
+        "fonts": {
+          "headings": "Open Sans",
+          "headingsWeight": "500",
+          "body": "Open Sans",
+          "bodyWeight": "500",
+          "nav": null,
+          "buttons": "Open Sans"
+        },
+        "faces": [
+          "Open Sans"
+        ],
+        "page": "#FFFFFF",
+        "backgrounds": [
+          {
+            "hex": "#FFFFFF",
+            "weight": 17620782
+          },
+          {
+            "hex": "#000000",
+            "weight": 12089
+          },
+          {
+            "hex": "#E4E5EA",
+            "weight": 5046
+          }
+        ],
+        "inks": [
+          {
+            "hex": "#666666",
+            "weight": 4100
+          },
+          {
+            "hex": "#000000",
+            "weight": 808
+          },
+          {
+            "hex": "#333333",
+            "weight": 217
+          },
+          {
+            "hex": "#FFFFFF",
+            "weight": 10
+          }
+        ],
+        "link": "#000000"
+      }
+    }
+  ],
+  "videos": [],
+  "assets": [
+    {
+      "file": "assets/01-mzaero-2-1.png",
+      "url": "https://mzaero.com/mainpage_files/Mzaero-2-1.png",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 396,
+      "height": 94,
+      "natural": [
+        1790,
+        423
+      ],
+      "bytes": 51346,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/02-mzaeroplane-1.png",
+      "url": "https://mzaero.com/mainpage_files/Mzaeroplane-1.png",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 624,
+      "height": 351,
+      "natural": [
+        1920,
+        1080
+      ],
+      "bytes": 188484,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/03-mzaero-12-1.png",
+      "url": "https://mzaero.com/mainpage_files/Mzaero-12-1.png",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 1080,
+      "height": 608,
+      "natural": [
+        1920,
+        1080
+      ],
+      "bytes": 112801,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/04-mzaero-11-1.png",
+      "url": "https://mzaero.com/mainpage_files/Mzaero-11-1.png",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 1080,
+      "height": 608,
+      "natural": [
+        1920,
+        1080
+      ],
+      "bytes": 350936,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/05-michaelzimmermann.png",
+      "url": "https://mzaero.com/mainpage_files/michaelzimmermann.png",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 180,
+      "height": 180,
+      "natural": [
+        500,
+        500
+      ],
+      "bytes": 119215,
+      "type": "image/png"
+    },
+    {
+      "file": "assets/06-nickjaksaheadshot.jpg",
+      "url": "https://mzaero.com/mainpage_files/NickJaksaHeadshot.jpg",
+      "page": "home",
+      "kind": "img",
+      "where": "main",
+      "logo": false,
+      "alt": "",
+      "width": 180,
+      "height": 180,
+      "natural": [
+        720,
+        720
+      ],
+      "bytes": 79788,
+      "type": "image/jpeg"
+    }
+  ]
+}
