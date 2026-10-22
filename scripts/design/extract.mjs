@@ -264,6 +264,7 @@ for (const r of routes) {
     path: pagePath,
     title: doc.title,
     description: doc.description,
+    kind: "html", // a carried page: served as its markup, with the design's own assets (app/[[...path]]/page.tsx)
     template: r.ref,
     html: doc.html,
     body: doc.body,

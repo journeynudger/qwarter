@@ -156,23 +156,44 @@ export const workMedia = (slug: string) => ({
  */
 export function projectPages(): Page[] {
   const site = getSite();
+  // the carried project template (content/pages/project.html, from the reference design's project page) when
+  // there is one: every project is that page with its own words and film filled in (pageMarkup); else the viewer
+  const template = (pagesData as unknown as Page[]).find((p) => p.slug === "project");
   return getFeatured().map((p) => ({
-    slug: `work-${p.slug}`,
+    ...(template ?? { html: {}, body: {}, head: [], scripts: [] }),
+    slug: template ? "project" : `work-${p.slug}`,
     path: `/work/${p.slug}/`,
-    kind: "work",
+    kind: template ? "html" : "work",
     project: p.slug,
     title: `${p.name} – ${site.name}`,
-    description: `${p.name} — ${p.line} ${p.made} by ${site.name}, ${p.year}.`,
-    html: {},
-    body: {},
-    head: [],
-    scripts: [],
+    description: `${p.name} — ${p.line} ${p.made} by ${site.name}${p.year ? `, ${p.year}` : ""}.`,
     image: workMedia(p.slug).cover,
     modified: null,
   }));
 }
 
-export const getPages = (): Page[] => [...(pagesData as unknown as Page[]), ...projectPages()];
+/** The pages served: the records (a "project" record is a template, not a route) and one page per project. */
+export const getPages = (): Page[] => [...(pagesData as unknown as Page[]).filter((p) => p.slug !== "project"), ...projectPages()];
+
+const escapeHtml = (v: string) => v.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+
+/**
+ * A carried page's markup, ready to render: content/pages/<slug>.html, and for a project page the template
+ * with its {{tokens}} filled from content/work.json: name, line, made, year, url, host, numeral, slug, about,
+ * cover, tile, film (H.264), filmWebm, blur. A token with nothing behind it becomes an empty string.
+ */
+export function pageMarkup(page: Page): string {
+  const html = getPageHtml(page.slug);
+  if (!page.project) return html;
+  const p = getProjects().find((x) => x.slug === page.project);
+  if (!p) return html;
+  const m = workMedia(p.slug);
+  const values: Record<string, string> = {
+    name: p.name, line: p.line, made: p.made, year: p.year ?? "", url: p.url ?? "", host: p.url ? p.url.replace(/^https?:\/\//, "").replace(/\/$/, "") : "",
+    numeral: p.numeral, slug: p.slug, about: p.about ?? "", cover: m.cover, cover2x: m.cover2x, tile: m.tile, film: m.video, filmWebm: m.videoWebm, blur: m.blur,
+  };
+  return html.replace(/\{\{\s*([a-zA-Z0-9]+)\s*\}\}/g, (_, k: string) => escapeHtml(values[k] ?? ""));
+}
 
 const CONTENT_DIR = path.join(process.cwd(), "content");
 

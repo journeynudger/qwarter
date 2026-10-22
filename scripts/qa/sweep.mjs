@@ -17,7 +17,8 @@ const argv = process.argv.slice(2);
 const opt = (k, d) => (argv.includes(`--${k}`) ? argv[argv.indexOf(`--${k}`) + 1] : d);
 const BASE = opt("base", "http://localhost:3100");
 const WIDTHS = opt("widths", "375,1280").split(",").map(Number);
-const pages = JSON.parse(fs.readFileSync("content/pages.json", "utf8"));
+// the "project" record is the template every /work/<slug>/ page is filled from, not a route of its own
+const pages = JSON.parse(fs.readFileSync("content/pages.json", "utf8")).filter((p) => p.slug !== "project");
 const work = JSON.parse(fs.readFileSync("content/work.json", "utf8"));
 let paths = [...pages.map((p) => p.path), ...work.projects.filter((p) => p.media !== false).map((p) => `/work/${p.slug}/`), "/this-does-not-exist/"];
 if (opt("only")) {

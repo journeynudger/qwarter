@@ -6,8 +6,7 @@ import { Archive } from "@/components/site/archive";
 import { Contact } from "@/components/site/contact";
 import { Featured } from "@/components/site/featured";
 import { Work } from "@/components/site/work";
-import { allPaths, getPageHtml, getSite, resolveRoute } from "@/lib/content";
-import { renderMarkup } from "@/lib/html";
+import { allPaths, getSite, pageMarkup, resolveRoute } from "@/lib/content";
 import { indexingAllowed } from "@/lib/seo";
 
 type Params = Promise<{ path?: string[] }>;
@@ -62,7 +61,10 @@ export default async function Page({ params }: { params: Params }) {
     case "contact":
       return <Contact />;
     default:
-      // a carried page: its own elements, rendered as its document had them, no wrapper of ours
-      return renderMarkup(getPageHtml(page.slug));
+      // a carried page: its document's own body markup, served as it is. It is not reconciled by React
+      // (dangerouslySetInnerHTML), because the design's own script rewrites this DOM as soon as it runs, and
+      // a hydration pass after that would put the server's markup back. display: contents keeps the
+      // wrapper out of the layout, so the design's "body > …" rules still see their elements.
+      return <div style={{ display: "contents" }} suppressHydrationWarning dangerouslySetInnerHTML={{ __html: pageMarkup(page) }} />;
   }
 }

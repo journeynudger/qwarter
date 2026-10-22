@@ -86,7 +86,48 @@ of linked frames, the viewer shows the opened project's first page, the menu's c
 site.js (deferred) adds the motion. `html.js` (set by one inline line in `<head>`) is what the cascade's
 positioned layout keys on, so without scripts the fallback layout shows, not an empty stage.
 
-## The design
+## The site as it ships: Depo Luxe's pages, carried, with Qwarter's content (2026-10-22)
+
+Lorenzo asked for an exact replica of depoluxe.xyz ("literally no different from every animation"). Once
+the capture workflow could reach it, the site stopped being an imitation and became the thing itself:
+every page is one of Depo Luxe's pages, served as its own markup with its own stylesheet and script
+(`public/design/depoluxe.xyz/`, byte for byte from the capture; Cuchillo's build), and every word, picture
+and film in it is Qwarter's, swapped in by `scripts/design/swap.mjs` from specs that
+`scripts/design/swaps-from-content.mjs` writes out of `content/work.json` and `content/site.json`. Their
+script runs unchanged and does everything it did there: the preloader, the home's film stack and WebGL
+staircase, the archive's looping list, the project player, the page transitions, the side menu.
+
+| Ours | Their page | What is swapped in |
+|---|---|---|
+| `/` (`home`) | `/` | header words, menu, footer; every project twice in the film stack (`.visor-videos`) and the list (`.widget-home__ul`): cover, film, name, what was made, year |
+| `/work/` (`work`) | `/archive/` | the same projects in its looping list and film stack: numeral, name (where it lists the client), name as the title, what was made where it names the director |
+| `/work/<slug>/` | `/guslo/woman-md-studio/` (`project`, a template) | `{{film}}`, `{{cover}}`, `{{name}}`, `{{made}}`, `{{year}}`, filled per project at render time (`pageMarkup` in `lib/content.ts`); Close goes to /work/ |
+| `/approach/` | `/about/` | the statement, qwarter.com's welcome and hero line as the opening text; its six titled blocks carry qwarter.com's six questions and answers, each illustrated with four of our covers and films |
+| `/contact/` | `/contact/` ("Information") | the ways to reach Qwarter in its looping lists: the email, Instagram, Twitter, LinkedIn, the place |
+
+What is not theirs any more: the menu has our four items (its Talent item removed, with the id order
+their script keys on kept); the footer has our three social links and line, its legal links gone; the
+cookie dialog stays in the DOM (their script holds a reference to it and animates it) but is hidden and
+says the truth, "This site sets no cookies"; the preloader reveals four paths per picture, so our mark and
+the word "Qwarter" are drawn as four paths each (`scripts/brand/letters.mjs` → `loader-mark.svg`,
+`loader-word.svg`, EB Garamond italic from our own font file); the header's logo mask file holds our mark
+under their file name; `/api/videos-data` (their Vimeo map) is dropped from the head, so each `<video>`
+keeps the `src` we give it; `/imageLoaderWorker.js` and `/service-worker.js` are served at the root
+because their script asks for them there (the worker is theirs, the service worker is an empty one);
+their image loader asks for `<picture>.webp` beside every picture, so `prepare.mjs` writes those twins.
+`prune.mjs` removed every file of theirs no page references (121 MB of their films and stills), and
+`tests/content.test.ts` fails if any page loads from or links to depoluxe.xyz, Vimeo or their CDN.
+
+The page is a carried page in `content/pages.json` (`kind: "html"`, `template` = their route); the layout
+gives it none of our assets (no site.css, no site.js, no Paper shader) and no `data-page` on the body (their
+script reads its own), and `page.tsx` serves the markup through `dangerouslySetInnerHTML` so React never
+reconciles what their script rewrites. To redo the port after a new capture:
+`extract.mjs --ref .design-cache/reference --mode server --routes "/=home,/archive/=work,/contact/=contact,/about/=approach,/guslo/woman-md-studio/=project"`,
+then `swaps-from-content.mjs`, `swap.mjs`, `prune.mjs`, `npm test`, build. The sections below describe the
+hand-built site that preceded this (its code remains in `components/site/` and `public/design/qwarter/`
+and is not served); they stay as the record of how the staircase was measured.
+
+## The design (the hand-built version, 2026-10-17, no longer served)
 
 Tokens and treatment are the sister site's: EB Garamond (self-hosted, `fonts/`), cream `#f2ede3` on
 `#0b0b0c`, a vignette and a drifting film grain over everything. The arrangement is Depo Luxe's, taken
@@ -243,9 +284,12 @@ old URLs (it fails rather than guess).
 
 ## Open questions for Lorenzo
 
-1. **Depo Luxe, exactly.** The home is built from your screenshot (its geometry measured) until the
-   capture of depoluxe.xyz lands through the workflow; it is running. The exact replica (its loader,
-   easing, blur, hover) follows from that capture, with the catalogue swapped in.
+1. **Depo Luxe, exactly: it is their code.** The site now serves Depo Luxe's own pages, stylesheet and
+   script (Cuchillo's build, captured on 2026-10-22) with Qwarter's content swapped in, as asked. Every
+   word, picture and film is ours and nothing loads from their servers, but the markup, CSS and JavaScript
+   are theirs byte for byte, and their script prints Cuchillo's credit in the console. A design studio
+   shipping another studio's build is a call only you can make; the hand-built version (`components/site/`,
+   `public/design/qwarter/site.*`) is one switch away in `content/pages.json`.
 2. **The catalogue now comes from qwarter.com itself** (snapshot of 2026-10-22): the fourteen case studies
    under /portfolio/ and the three Selected Work sites without one (Butter, Core Rhythm Fitness, Ignite
    Beacon). Left out: `/portfolio/11-hamilton-home/`, whose page is Journey Nudge's under another title.
