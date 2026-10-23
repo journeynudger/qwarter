@@ -276,17 +276,15 @@
             "film": "home"
           },
           {
-            "still": "raw/table.png",
-            "seconds": 6,
-            "move": "out"
+            "film": "table",
+            "seconds": 7
           },
           {
-            "still": "raw/ask.png",
-            "seconds": 6,
-            "move": "in"
+            "film": "ask",
+            "seconds": 7
           }
         ],
-        "source": "the wall filmed scrolling from the site's own build (scripts/work/scrollfilm.mjs: the busts, and the initials of those without one, as the site shows them), then the table and Ask them, photographed from the same build and each held with a slow move (both are fixed layers over the wall: scrolling changes nothing in them)"
+        "source": "the wall, the table and Ask them filmed from the site's own build (scripts/work/scrollfilm.mjs: the busts, and the initials of those without one, as the site shows them; the table and Ask them are panels fixed over the wall, so each is held seven seconds)"
       }
     },
     {

@@ -78,15 +78,16 @@ const queue = specs.length ? specs.slice() : ["home=/"];
  * most of the window and is not the site's header is hidden (a newsletter popup with no button we can read),
  * unless the page itself does not scroll: a site drawn in fixed layers (Bambino's wall) keeps them.
  */
-async function closePopups(page) {
-  await dismissOverlays(page);
+async function closePopups(page, opened = false) {
+  // after the spec's clicks (opened), nothing is dismissed: a cross or Escape would close the panel they opened
+  if (!opened) await dismissOverlays(page);
   const crosses = page.locator('button, a, [role=button], [aria-label]').filter({ has: page.locator(':scope') }).filter({ hasText: /^\s*[×✕✖xX]\s*$/ });
   const labelled = page.locator('[aria-label*="close" i], [aria-label*="dismiss" i], [class*="close" i]:not([class*="closed" i]), [data-dismiss], .mfp-close, .pum-close');
-  for (const loc of [crosses, labelled]) {
+  for (const loc of opened ? [] : [crosses, labelled]) {
     const n = Math.min(await loc.count().catch(() => 0), 3);
     for (let i = 0; i < n; i++) await loc.nth(i).click({ timeout: 800, force: true }).catch(() => {});
   }
-  await page.keyboard.press("Escape").catch(() => {});
+  if (!opened) await page.keyboard.press("Escape").catch(() => {});
   await sleep(300);
   const hidden = await page.evaluate(() => {
     const vw = innerWidth, vh = innerHeight, gone = [];
@@ -96,6 +97,7 @@ async function closePopups(page) {
     for (const el of document.querySelectorAll("body *")) {
       const cs = getComputedStyle(el);
       if (cs.position !== "fixed" || cs.display === "none" || cs.visibility === "hidden" || Number(cs.opacity) === 0) continue;
+      if (el.hasAttribute("data-qw-keep")) continue; // opened by the spec's click: the view asked for
       const r = el.getBoundingClientRect();
       const covers = (Math.min(r.right, vw) - Math.max(r.left, 0)) * (Math.min(r.bottom, vh) - Math.max(r.top, 0)) / (vw * vh);
       const header = r.top <= 2 && r.height < vh * 0.25; // a fixed header or announcement bar stays
@@ -280,7 +282,15 @@ async function scrollThrough(page) {
   }).catch(() => {});
 }
 
+/** The fixed layers visible on the page now, marked, so what a click opens can be told from what was there. */
+const visibleFixed = () => [...document.querySelectorAll("body *")].filter((el) => { const cs = getComputedStyle(el); const r = el.getBoundingClientRect(); return cs.position === "fixed" && cs.display !== "none" && cs.visibility !== "hidden" && Number(cs.opacity) > 0 && r.width > 0 && r.height > 0; });
+
 async function act(page, steps, name) {
+  if (!steps.length) return;
+  // what the clicks open is the view asked for (The Room's table and Ask them are panels fixed over the wall, which
+  // closePopups took for a popup, so the study showed the bare wall where it described them): the fixed layers
+  // visible before the clicks are marked, and any visible after them that was not is kept in the frame
+  await page.evaluate(`(${visibleFixed})().forEach((el) => el.setAttribute("data-qw-before", "1"))`).catch(() => {});
   for (const step of steps) {
     const [kind, ...arg] = step.split(":");
     const sel = arg.join(":"); // "click:text=Product" — the selector may itself contain ":"
@@ -289,7 +299,11 @@ async function act(page, steps, name) {
       await sleep(1200);
     }
   }
+  await page.evaluate(`(${visibleFixed})().filter((el) => !el.hasAttribute("data-qw-before")).forEach((el) => el.setAttribute("data-qw-keep", "1"))`).catch(() => {});
 }
+
+/** A layer a click opened is kept in the frame but not in the whole page (fixed, it would stretch down the strip). */
+const hideOpened = (page) => page.evaluate(() => { for (const el of document.querySelectorAll("[data-qw-keep]")) el.style.setProperty("display", "none", "important"); }).catch(() => {});
 
 /** The same page on a phone: its frame and its whole length, for the phone recording and stills. */
 async function shootPhone(name, route, steps) {
@@ -306,12 +320,13 @@ async function shootPhone(name, route, steps) {
   await act(page, steps, `${name} (phone)`);
   await sleep(SETTLE);
   await scrollThrough(page);
-  await closePopups(page);
+  await closePopups(page, steps.length > 0);
   await sleep(800);
   await page.evaluate(() => document.fonts.ready).catch(() => {});
   const frame = path.join(out, `m-${name}.png`);
   const full = path.join(out, `m-${name}-full.png`);
   await page.screenshot({ path: frame }).catch((e) => console.error(`${name} (phone): frame: ${String(e).split("\n")[0]}`));
+  await hideOpened(page);
   await page.screenshot({ path: full, fullPage: true, timeout: 120000 }).catch((e) => console.error(`${name} (phone): full page: ${String(e).split("\n")[0]}`));
   const height = await page.evaluate(() => document.documentElement.scrollHeight).catch(() => null);
   await page.close();
@@ -357,12 +372,13 @@ while (queue.length) {
   }
   await sleep(SETTLE);
   await scrollThrough(page); // a scroll pass, so lazy images and scroll reveals are in the full capture, then back to the top
-  await closePopups(page); // one that opened on scroll
+  await closePopups(page, steps.length > 0); // one that opened on scroll
   await sleep(1200);
   await page.evaluate(() => document.fonts.ready).catch(() => {});
   const frame = path.join(out, `${name}.png`);
   const full = path.join(out, `${name}-full.png`);
   await page.screenshot({ path: frame }).catch((e) => console.error(`${name}: frame: ${String(e).split("\n")[0]}`));
+  await hideOpened(page);
   await page.screenshot({ path: full, fullPage: true, timeout: 120000 }).catch((e) => console.error(`${name}: full page: ${String(e).split("\n")[0]}`));
   const info = await page.evaluate(() => ({ height: document.documentElement.scrollHeight, title: document.title, url: location.href, description: document.querySelector('meta[name="description"]')?.content || null })).catch(() => ({}));
   const videos = await saveVideos(page, route);
