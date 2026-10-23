@@ -1,0 +1,19 @@
+{
+  "slug": "mzaero",
+  "base": "https://mzaero.com",
+  "shot": "2026-10-23T19:01:34.227Z",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "films": [
+    {
+      "name": "home",
+      "route": "/",
+      "url": "https://mzaero.com/",
+      "seconds": 21.2,
+      "height": 5717,
+      "frames": 976,
+      "how": "real time, scrolling"
+    }
+  ]
+}

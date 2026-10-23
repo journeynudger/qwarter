@@ -1,0 +1,28 @@
+{
+  "slug": "pineapple-club",
+  "base": "https://pineappleclub.com",
+  "shot": "2026-10-23T18:52:12.657Z",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "films": [
+    {
+      "name": "home",
+      "route": "/",
+      "url": "https://pineappleclub.com/",
+      "seconds": 21.2,
+      "height": 3606,
+      "frames": 976,
+      "how": "real time, scrolling"
+    },
+    {
+      "name": "menus",
+      "route": "/menus",
+      "url": "https://pineappleclub.com/menus",
+      "seconds": 4.3,
+      "height": 1021,
+      "frames": 60,
+      "how": "real time, scrolling"
+    }
+  ]
+}

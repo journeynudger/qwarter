@@ -1,0 +1,19 @@
+{
+  "slug": "ekaterina-sky",
+  "base": "https://ekaterina-sky.art",
+  "shot": "2026-10-23T19:05:45.455Z",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "films": [
+    {
+      "name": "home",
+      "route": "/",
+      "url": "https://ekaterina-sky.art/",
+      "seconds": 21.2,
+      "height": 6608,
+      "frames": 981,
+      "how": "real time, scrolling"
+    }
+  ]
+}
