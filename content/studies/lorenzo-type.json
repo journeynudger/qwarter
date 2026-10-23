@@ -1,7 +1,7 @@
 {
   "slug": "lorenzo-type",
-  "name": "Lorenzo Type",
-  "shortName": "Lorenzo Type",
+  "name": "Fonts designed",
+  "shortName": "Fonts designed",
   "tagline": "Four families, seventeen styles, from the mailroom.",
   "client": "Lorenzo Scardicchio, his own",
   "year": "2026",
@@ -204,21 +204,21 @@
   "film": {
     "src": "/media/work/lorenzo-type/scroll.mp4",
     "webm": "/media/work/lorenzo-type/scroll.webm",
-    "poster": "/media/work/lorenzo-type/tile.jpg",
-    "alt": "Lorenzo Type's film: the site scrolling."
+    "poster": "/media/work/lorenzo-type/scroll-poster.jpg",
+    "alt": "Fonts designed's film."
   },
   "recordings": {
     "desktop": {
       "src": "/media/work/lorenzo-type/study/desktop.mp4",
       "webm": "/media/work/lorenzo-type/study/desktop.webm",
       "poster": "/media/work/lorenzo-type/study/desktop-poster.jpg",
-      "alt": "Lorenzo Type on a desktop: four families from one desk, Lorenzo Hand, Lorenzo Longhand, Lorenzo Typewriter, Lorenzo Meadow, paintings, writing, and muses, Artwork."
+      "alt": "Fonts designed on a desktop: four families from one desk, Lorenzo Hand, Lorenzo Longhand, Lorenzo Typewriter, Lorenzo Meadow, paintings, writing, and muses, Artwork."
     },
     "phone": {
       "src": "/media/work/lorenzo-type/study/phone.mp4",
       "webm": "/media/work/lorenzo-type/study/phone.webm",
       "poster": "/media/work/lorenzo-type/study/phone-poster.jpg",
-      "alt": "Lorenzo Type on a phone."
+      "alt": "Fonts designed on a phone."
     }
   },
   "gallery": [
@@ -239,7 +239,7 @@
     }
   ],
   "galleryNote": "The scans the site is cut from (assets/scan): the feather card, the polaroid, the pressed plant.",
-  "source": "Lorenzo Type's own build photographed on 2026-10-22 (scripts/work/shoot.mjs): page titles and first words, typefaces and colours observed, the logo and pictures the pages show, the phone frames. Every word is qwarter.com's, the site's own or observed; nothing is written here. By hand (content/studies/_overrides/lorenzo-type.json): the words are the site's own (journeynudger/lorenzo: index.html, hand/index.html, the specimen pages, mailroom.html, assets/lorenzo-hand/README.md, read 2026-10-22); the pictures its own scans; photographed from its own files on 2026-10-22. The address is the one the site itself names (www.lorenzoscardicchio.com); the runner met a Cloudflare challenge there, so whether this version is live could not be checked from here.",
+  "source": "Fonts designed's own build photographed on 2026-10-22 (scripts/work/shoot.mjs): page titles and first words, typefaces and colours observed, the logo and pictures the pages show, the phone frames. Every word is qwarter.com's, the site's own or observed; nothing is written here. By hand (content/studies/_overrides/lorenzo-type.json): the words are the site's own (journeynudger/lorenzo: index.html, hand/index.html, the specimen pages, mailroom.html, assets/lorenzo-hand/README.md, read 2026-10-22); the pictures its own scans; photographed from its own files on 2026-10-22. The address is the one the site itself names (www.lorenzoscardicchio.com); the runner met a Cloudflare challenge there, so whether this version is live could not be checked from here. Named \"Fonts designed\" at Lorenzo's word (2026-10-23).",
   "generated": true,
   "brief": "The home page is the order sheet itself, on gingham: date, name, Rural Route 2 Box 17, Low Moon KS, and the four families as its lines. Lorenzo Hand is a blue-ballpoint cursive lifted from two pages written by hand, an order sheet filled in for Far Light Gardens and the captions pencilled beside a pressed spurge; every word on those pages is in the font whole, as the hand wrote it. The mailroom files the paintings, the writing and the muses, and the whole site can be read on the meadow paper instead.",
   "walkthrough": {

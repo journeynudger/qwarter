@@ -1,7 +1,7 @@
 {
   "slug": "bambino",
-  "name": "Bambino",
-  "shortName": "Bambino",
+  "name": "Painter",
+  "shortName": "Painter",
   "tagline": "The notebooks of Lorenzo Scardicchio, typeset like a book.",
   "client": "Lorenzo Scardicchio, his own",
   "year": "2026",
@@ -201,26 +201,26 @@
   "film": {
     "src": "/media/work/bambino/scroll.mp4",
     "webm": "/media/work/bambino/scroll.webm",
-    "poster": "/media/work/bambino/tile.jpg",
-    "alt": "Bambino's film: the site scrolling."
+    "poster": "/media/work/bambino/scroll-poster.jpg",
+    "alt": "Painter's film."
   },
   "recordings": {
     "desktop": {
       "src": "/media/work/bambino/study/desktop.mp4",
       "webm": "/media/work/bambino/study/desktop.webm",
       "poster": "/media/work/bambino/study/desktop-poster.jpg",
-      "alt": "Bambino on a desktop: Home, Lorenzo Scardicchio, The Algorithmic Self, We're part of the race., Racing to the bottom of the brainstem."
+      "alt": "Painter on a desktop: Home, Lorenzo Scardicchio, The Algorithmic Self, We're part of the race., Racing to the bottom of the brainstem."
     },
     "phone": {
       "src": "/media/work/bambino/study/phone.mp4",
       "webm": "/media/work/bambino/study/phone.webm",
       "poster": "/media/work/bambino/study/phone-poster.jpg",
-      "alt": "Bambino on a phone."
+      "alt": "Painter on a phone."
     }
   },
   "gallery": [],
   "galleryNote": "The site's own pictures, from bambino-1dtu.vercel.app.",
-  "source": "bambino-1dtu.vercel.app photographed on 2026-10-22 (scripts/work/shoot.mjs): page titles and first words, typefaces and colours observed, the logo and pictures the pages show, the phone frames. Every word is qwarter.com's, the site's own or observed; nothing is written here. By hand (content/studies/_overrides/bambino.json): the words are the repository's own (journeynudger/bambino README.md, read 2026-10-22) and the site's (its home page and chapters, photographed from bambino-1dtu.vercel.app on 2026-10-22); the address is the one the README names as live (bambino-five.vercel.app).",
+  "source": "bambino-1dtu.vercel.app photographed on 2026-10-22 (scripts/work/shoot.mjs): page titles and first words, typefaces and colours observed, the logo and pictures the pages show, the phone frames. Every word is qwarter.com's, the site's own or observed; nothing is written here. By hand (content/studies/_overrides/bambino.json): the words are the repository's own (journeynudger/bambino README.md, read 2026-10-22) and the site's (its home page and chapters, photographed from bambino-1dtu.vercel.app on 2026-10-22); the address is the one the README names as live (bambino-five.vercel.app). Named \"Painter\" at Lorenzo's word (2026-10-23).",
   "generated": true,
   "brief": "One scroll engine drives the book: a chapter opening blurs and fades over the first viewport, collages drift upward at staggered speeds, parchment panels unroll as the roll cylinder travels down, figures rise with a cosine ease as they enter, and a reading-progress bar runs along the bottom. The gallery is a wall: a fixed, full-viewport surface, an endless lattice of square tiles moved with a drag that glides on, each tile holding the work twice, the white cast always visible and the painting fading in under the hand. Opening a work sends the painting from its tile to the centre of the screen while a sheet slides in from the right.",
   "walkthrough": {

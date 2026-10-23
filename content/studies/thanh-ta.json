@@ -167,8 +167,8 @@
   "film": {
     "src": "/media/work/thanh-ta/scroll.mp4",
     "webm": "/media/work/thanh-ta/scroll.webm",
-    "poster": "/media/work/thanh-ta/tile.jpg",
-    "alt": "Thanh Ta's film: the site scrolling."
+    "poster": "/media/work/thanh-ta/scroll-poster.jpg",
+    "alt": "Thanh Ta's film."
   },
   "recordings": {
     "desktop": {

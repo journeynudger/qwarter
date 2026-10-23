@@ -149,8 +149,8 @@
   "film": {
     "src": "/media/work/wood-company/scroll.mp4",
     "webm": "/media/work/wood-company/scroll.webm",
-    "poster": "/media/work/wood-company/tile.jpg",
-    "alt": "Wood Company's film: the site scrolling."
+    "poster": "/media/work/wood-company/scroll-poster.jpg",
+    "alt": "Wood Company's film."
   },
   "recordings": {
     "desktop": {

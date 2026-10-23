@@ -57,6 +57,10 @@
         "href": "/design/depoluxe.xyz/assets/main.b0b97476d709cb690ddf.css?v=e278ce82f0"
       },
       {
+        "kind": "stylesheet",
+        "href": "/design/qwarter/carried.css"
+      },
+      {
         "kind": "style",
         "css": "[aria-expanded='false'] {\n    visibility: hidden;\n    pointer-events: none;\n  }\n\n  \n    .palette-primary {\n      --primary-color: #ffffff;\n      --primary-bg: #000000;\n      --primary-aux: #7d7d7d;\n      --secondary-color: #8e8e93;\n      --secondary-bg: #aeaeb2;\n      --secondary-aux: #000000;\n    }\n  \n    .palette-secondary {\n      --primary-color: #000000;\n      --primary-bg: #ffffff;\n      --primary-aux: #000000;\n      --secondary-color: #FFFFFF;\n      --secondary-bg: #000000;\n      --secondary-aux: #000000;\n    }"
       },
@@ -145,7 +149,7 @@
     "slug": "contact",
     "path": "/contact/",
     "title": "Contact – Qwarter",
-    "description": "lorenzo@qwarter.com · Las Vegas, Nevada",
+    "description": "info@qwarter.com · New York City",
     "template": "/contact/",
     "html": {
       "class": "",
@@ -268,6 +272,10 @@
       {
         "kind": "stylesheet",
         "href": "/design/depoluxe.xyz/assets/main.b0b97476d709cb690ddf.css?v=e278ce82f0"
+      },
+      {
+        "kind": "stylesheet",
+        "href": "/design/qwarter/carried.css"
       },
       {
         "kind": "style",

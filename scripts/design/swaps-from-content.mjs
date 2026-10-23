@@ -10,7 +10,7 @@
  *                removed); side menu the same; footer: our social links, our copyright line, its legal links
  *                removed; the cookie dialog hidden and told the truth (this site sets no cookies); the logo
  *                masks replaced by Qwarter's mark (the SVG file itself, so its stylesheet needs no change)
- *   home         the film lists: every project, twice (its list loops), its film and its cover; the title,
+ *   home         the film lists: the featured projects, twice (its list loops), its film and its cover; the title,
  *                what was made and the year in the attributes its script reads
  *   work         (its Archive page) every project twice in its looping list and film stack: numeral, name, what was made
  *   approach     (its About page) the statement and qwarter.com's welcome as the opening text; its six titled
@@ -96,7 +96,12 @@ const head = (title) => ({
 });
 
 // ---- home -------------------------------------------------------------------------------------------------
-const twice = [...projects, ...projects];
+// the home shows the featured projects (content/work.json `featured`: the ones with footage worth a full screen,
+// Lorenzo's list of 2026-10-23), numbered as that strip; the Work page lists every project with its catalogue numeral
+const ROMAN = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII", "XIII", "XIV", "XV", "XVI", "XVII", "XVIII", "XIX", "XX", "XXI", "XXII", "XXIII", "XXIV", "XXV", "XXVI", "XXVII", "XXVIII", "XXIX", "XXX"];
+const featured = projects.filter((p) => p.featured).map((p, i) => ({ ...p, numeral: ROMAN[i] }));
+const twice = [...featured, ...featured];
+const all = [...projects, ...projects];
 const home = {
   ...head(brand.left),
   description: statement.join(" "),
@@ -123,9 +128,9 @@ const workPage = {
     ...chrome("/work/"),
     { select: "article.page-archive", prepend: hiddenH1(nav[1].label), source: `${SRC.site} chrome.nav[1].label` },
     { select: ".block-project-list__ul", attr: { "aria-label": nav[1].label } },
-    { select: ".block-project-list .visor-videos", repeat: "figure", items: twice.map((p) => ({ img: { attr: { src: media(p.slug).cover, "data-src": media(p.slug).cover2x, alt: p.name, width: "1440", height: "900" } }, video: { attr: { src: media(p.slug).film } }, source: `${SRC.work} ${p.slug}: its cover and film` })) },
+    { select: ".block-project-list .visor-videos", repeat: "figure", items: all.map((p) => ({ img: { attr: { src: media(p.slug).cover, "data-src": media(p.slug).cover2x, alt: p.name, width: "1440", height: "900" } }, video: { attr: { src: media(p.slug).film } }, source: `${SRC.work} ${p.slug}: its cover and film` })) },
     // the list: numeral and name (where the reference lists the client), the name as the title, what was made where it names the director
-    { select: ".block-project-list__ul", repeat: "li", items: twice.map((p) => ({
+    { select: ".block-project-list__ul", repeat: "li", items: all.map((p) => ({
       a: { attr: { href: `/work/${p.slug}/`, "data-internal": studied(p.slug) ? "" : null } },
       ".__roman": { text: p.numeral },
       ".__client": { text: p.name },
@@ -151,9 +156,11 @@ const approach = {
 faq.slice(0, 6).forEach((q, i) => {
   const n = i + 1;
   approach.swaps.push({ select: `section.block-title.--type_${n} h2.body`, text: q.q, source: `${SRC.site} chrome.about.faq[${i}].q` });
-  // the block's four pictures: four of our projects, in turn, their cover and film
+  // the block's four pictures: the four projects Lorenzo named for this page (2026-10-23: "use thanh ta, jeff vhs,
+  // butter, and beacon"), their cover and film, in a different order on each block
+  const shown = ["thanh-ta", "jr-pugh", "butter", "ignite-beacon"].map((slug) => projects.find((p) => p.slug === slug)).filter(Boolean);
   for (let k = 0; k < 4; k++) {
-    const p = projects[(i * 4 + k) % projects.length];
+    const p = shown[(i + k) % shown.length];
     approach.swaps.push({ select: `section.block-title.--type_${n} figure.media-${k + 1} img`, attr: { src: media(p.slug).cover, "data-src": media(p.slug).cover2x, alt: p.name, width: "1440", height: "900" } });
     approach.swaps.push({ select: `section.block-title.--type_${n} figure.media-${k + 1} video`, attr: { "data-src": media(p.slug).film } });
   }
@@ -164,7 +171,7 @@ faq.slice(0, 6).forEach((q, i) => {
 
 // ---- contact (the reference's Information page: looping lists of people; here the ways to reach Qwarter) --
 const ways = [
-  { role: "Email", name: ["Lorenzo", "Scardicchio"], value: contact.email, href: `mailto:${contact.email}`, source: `${SRC.site} chrome.contact.email; the founder's name, chrome.about.team[0]` },
+  { role: "Email", name: [contact.email], value: "", href: `mailto:${contact.email}`, source: `${SRC.site} chrome.contact.email (no name beside it: Lorenzo, 2026-10-23)` },
   ...(contact.social ?? []).map((l, i) => ({ role: l.label, name: [host(l.href).split("/").pop()], value: host(l.href), href: l.href, source: `${SRC.site} chrome.contact.social[${i}]: the account's name, from its address` })),
   { role: "Based in", name: [contact.place], value: contact.place, href: `mailto:${contact.email}`, source: `${SRC.site} chrome.contact.place` },
 ];

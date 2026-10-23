@@ -1,16 +1,26 @@
 #!/usr/bin/env node
 /**
- * The video of each site scrolling (Depo Luxe's tiles play a film when the strip comes to rest;
- * ours play the website itself): a square window, 900×900 at the page's own 1440px rendering,
- * pans down each page strip at a steady pace, holds at the top and the bottom, and cross-fades
- * to the next page. H.264 (plays everywhere, muted, inline), from the strips prepare.mjs made.
+ * Each project's film: what plays full-screen behind the home's staircase and the Work page's list (Depo Luxe's
+ * .visor-videos: a <video> covering the window, object-fit cover), the study's own film, and the tile when the
+ * strip rests. 1920×1080 at 30 frames a second, so it fits a screen whole instead of being cut (the first films
+ * were 900×900 squares and lost their top and bottom to the cover, Lorenzo, 2026-10-23).
  *
- * A project whose film opens with the site's own clip (content/work.json film.intro → raw/intro.mp4,
- * placed there by scripts/port/catalogue.mjs) starts with up to INTRO seconds of it, cut to the same
- * square, muted, and cross-fades into the pages.
+ * A film is a sequence of scenes, cross-faded, from content/work.json `film.scenes` or, without them, the
+ * site's own clip (film.intro, when the catalogue found one) followed by its first three pages:
+ *   {clip: "raw/<file>", from, seconds, speed}   the site's own footage or a recording (speed 0.8 slows it, with the frames
+ *                                                 between interpolated)
+ *   {film: "<page>", seconds}                     the page filmed scrolling in a real browser (scrollfilm.mjs:
+ *                                                 raw/film-<page>.mp4); falls back to the page strip when absent
+ *   {page: "<page>", hold, pan, tail}             the page strip (prepare.mjs) glided down slowly, nothing cropped
+ *                                                 side to side: 1920 wide, a 1080 window, rendered at 2× and scaled
+ *   {still: "raw/<file>", seconds, move}          a picture held with a slow move (in, out)
+ *   {card: {image, ground}, seconds}              a mark on its ground, held
+ * Pace: a page holds 1.6 s, glides at 90 px/s (of its 1440px rendering) for at most 14 s (a tall page is not glided
+ * to its foot), holds 1.2 s; scenes cross-fade over 0.9 s. Slow on purpose: these play behind the type.
  *
- * Writes public/media/work/<slug>/scroll.mp4 (H.264) and scroll.webm (VP9: Chromium builds without
- * the H.264 codec, and a smaller file where it plays). Usage: node scripts/work/video.mjs [slug …]
+ * Writes public/media/work/<slug>/scroll.mp4 (H.264), scroll.webm (VP9, the slow half of every render, so
+ * --no-webm leaves it out and --webm-only makes only it) and scroll-poster.jpg (the first frame).
+ * Usage: node scripts/work/video.mjs [--no-webm | --webm-only] [slug …]
  */
 import { execFileSync } from "node:child_process";
 import fs from "node:fs";
@@ -21,54 +31,94 @@ import sharp from "sharp";
 
 const ROOT = path.resolve(import.meta.dirname, "../..");
 const WORK = path.join(ROOT, "public/media/work");
-const SIDE = 900, FPS = 24, SPEED = 210, HOLD = 0.9, TAIL = 0.7, MAX_PAN = 6.5, FADE = 0.6, MAX_PAGES = 4, INTRO = 8, PAGES_AFTER_INTRO = 3;
-// a tile's film is fetched when the strip rests: the bit rate is capped so moving footage (a reel, a render) stays a few MB
-const H264_CAP = ["-maxrate", "2000k", "-bufsize", "4000k"], VP9_CAP = ["-b:v", "1200k", "-maxrate", "1800k", "-minrate", "0"];
-const probe = (file) => { const [w, h, d] = execFileSync("ffprobe", ["-v", "error", "-select_streams", "v:0", "-show_entries", "stream=width,height:format=duration", "-of", "csv=p=0:s=x", file]).toString().trim().split(/[x\n]/).map(Number); return { width: w, height: h, duration: d }; };
-const only = process.argv.slice(2);
+const W = 1920, H = 1080, FPS = 30;
+const HOLD = 1.6, TAIL = 1.2, SPEED = 90, MAX_PAN = 14, FADE = 0.9, INTRO = 12, PAGES = 3;
+const H264 = ["-c:v", "libx264", "-preset", "medium", "-crf", "22", "-maxrate", "4500k", "-bufsize", "9000k", "-pix_fmt", "yuv420p", "-movflags", "+faststart", "-an"];
+const VP9 = ["-c:v", "libvpx-vp9", "-crf", "33", "-b:v", "2500k", "-maxrate", "3500k", "-deadline", "good", "-cpu-used", "4", "-row-mt", "1", "-tile-columns", "2", "-threads", "4", "-an"];
+const SEG = ["-c:v", "libx264", "-preset", "veryfast", "-crf", "18", "-pix_fmt", "yuv420p", "-an"];
+const COVER = `scale=${W}:${H}:force_original_aspect_ratio=increase:flags=lanczos,crop=${W}:${H},fps=${FPS},format=yuv420p`;
+
+const argv = process.argv.slice(2);
+const flag = (f) => { const i = argv.indexOf(f); if (i >= 0) { argv.splice(i, 1); return true; } return false; };
+const NO_WEBM = flag("--no-webm"), WEBM_ONLY = flag("--webm-only");
+const only = argv;
 const { projects } = JSON.parse(fs.readFileSync(path.join(ROOT, "content/work.json"), "utf8"));
+const ff = (args) => execFileSync("ffmpeg", ["-y", "-loglevel", "error", ...args]);
+const probe = (file) => { const [w, h, d] = execFileSync("ffprobe", ["-v", "error", "-select_streams", "v:0", "-show_entries", "stream=width,height:format=duration", "-of", "csv=p=0:s=x", file]).toString().trim().split(/[x\n]/).map(Number); return { width: w, height: h, duration: d }; };
+const kb = (f) => `${Math.round(fs.statSync(f).size / 1024)} KB`;
+const smooth = (t) => `(${t})*(${t})*(3-2*(${t}))`;
 
 for (const project of projects) {
   if (only.length && !only.includes(project.slug)) continue;
   if (project.media === false) continue;
   const dir = path.join(WORK, project.slug);
+  const final = path.join(dir, "scroll.mp4");
+  if (WEBM_ONLY) {
+    if (!fs.existsSync(final)) { console.warn(`${project.slug}: no scroll.mp4 to copy`); continue; }
+    ff(["-i", final, ...VP9, path.join(dir, "scroll.webm")]);
+    console.log(`${project.slug}: webm ${kb(path.join(dir, "scroll.webm"))}`);
+    continue;
+  }
+  const scenes = project.film?.scenes || [
+    ...(project.film?.intro && fs.existsSync(path.join(dir, "raw", project.film.intro)) ? [{ clip: `raw/${project.film.intro}`, seconds: INTRO }] : []),
+    ...project.pages.slice(0, project.featured ? PAGES : 2).map((pg) => ({ film: pg.name })), // a project kept to the Work page: two pages
+  ];
+  if (project.film?.intro && !fs.existsSync(path.join(dir, "raw", project.film.intro))) console.warn(`${project.slug}: film.intro ${project.film.intro} is not in raw/ (run scripts/port/catalogue.mjs)`);
   const tmp = fs.mkdtempSync(path.join(os.tmpdir(), `qw-${project.slug}-`));
   const segments = [];
-  const intro = project.film?.intro ? path.join(dir, "raw", project.film.intro) : null;
-  if (intro && fs.existsSync(intro)) {
-    // the site's own clip first: its centre square, scaled to the window, its first INTRO seconds, no sound
-    const { width, height, duration } = probe(intro);
-    const t = Math.min(INTRO, duration || INTRO);
-    const out = path.join(tmp, "intro.mp4");
-    const crop = width >= height ? `crop=ih:ih` : `crop=iw:iw`;
-    execFileSync("ffmpeg", ["-y", "-loglevel", "error", "-i", intro, "-t", t.toFixed(2), "-an",
-      "-vf", `${crop},scale=${SIDE}:${SIDE}:flags=lanczos,fps=${FPS},format=yuv420p`, "-c:v", "libx264", "-preset", "veryfast", "-crf", "22", out]);
-    segments.push({ out, duration: t });
-  } else if (intro) console.warn(`${project.slug}: film.intro ${project.film.intro} is not in raw/ (run scripts/port/catalogue.mjs)`);
-  for (const page of project.pages.slice(0, segments.length ? PAGES_AFTER_INTRO : MAX_PAGES)) {
-    const strip = path.join(dir, `page-${page.name}.jpg`);
-    const { width, height } = await sharp(strip).metadata();
-    if (width < SIDE || height < SIDE) throw new Error(`${project.slug}: ${path.basename(strip)} is ${width}×${height}, smaller than the ${SIDE}px window (run scripts/work/prepare.mjs)`);
-    const x = Math.round((width - SIDE) / 2);
-    const travel = Math.max(0, height - SIDE);
-    const pan = Math.min(MAX_PAN, travel / SPEED);
-    const duration = HOLD + pan + TAIL;
-    const speed = pan ? travel / pan : 0;
-    const out = path.join(tmp, `${page.name}.mp4`);
-    // ffmpeg reads a lossless copy of the strip: mozjpeg's optimised scan script (the delivered JPEGs) makes a
-    // progressive JPEG its decoder refuses on a near-uniform picture (a page that photographed blank)
-    const png = path.join(tmp, `${page.name}.png`);
-    await sharp(strip).png({ compressionLevel: 1 }).toFile(png);
-    // the window's top edge: still for HOLD, then down at `speed` px/s, never past the bottom
-    const y = `min(${travel}\\,max(0\\,(t-${HOLD})*${speed.toFixed(2)}))`;
-    // the strip is decoded once and looped in memory (the loop filter), not re-read for every frame
-    execFileSync("ffmpeg", ["-y", "-loglevel", "error", "-i", png,
-      "-vf", `loop=loop=-1:size=1:start=0,setpts=N/(${FPS}*TB),trim=duration=${duration.toFixed(2)},crop=${SIDE}:${SIDE}:${x}:'${y}',format=yuv420p`, "-r", String(FPS), "-c:v", "libx264", "-preset", "veryfast", "-crf", "22", out]);
-    segments.push({ out, duration });
+  let k = 0;
+  for (let scene of scenes) {
+    const seg = path.join(tmp, `s${String(k++).padStart(2, "0")}.mp4`);
+    // a page filmed scrolling, when the film is there; its strip otherwise
+    if (scene.film && !fs.existsSync(path.join(dir, "raw", `film-${scene.film}.mp4`))) scene = { page: scene.film, hold: scene.hold, pan: scene.pan, tail: scene.tail };
+    if (scene.clip || scene.film) {
+      const file = scene.clip ? path.join(dir, scene.clip) : path.join(dir, "raw", `film-${scene.film}.mp4`);
+      if (!fs.existsSync(file)) { console.warn(`${project.slug}: ${path.relative(dir, file)} is not there, skipped`); continue; }
+      const { duration: full } = probe(file);
+      const from = scene.from || 0, speed = scene.speed || 1;
+      const take = Math.max(0.5, Math.min(scene.seconds || (scene.film ? full : INTRO), (full || INTRO) - from));
+      const duration = take / speed;
+      // -t before -i bounds what is read, so a slowed clip keeps its whole take (after -i it bounded the output, and a clip at
+      // six tenths lost its last four tenths); a clip slowed is interpolated to the film's rate rather than shown frame by held frame
+      const slow = speed < 1 ? `setpts=PTS/${speed},minterpolate=fps=${FPS}:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1,` : speed > 1 ? `setpts=PTS/${speed},` : "";
+      ff(["-ss", String(from), "-t", take.toFixed(2), "-i", file, "-vf", `${slow}${COVER}`, ...SEG, seg]);
+      segments.push({ out: seg, duration });
+    } else if (scene.page) {
+      const strip = path.join(dir, `page-${scene.page}.jpg`);
+      if (!fs.existsSync(strip)) { console.warn(`${project.slug}: no strip page-${scene.page}.jpg, skipped`); continue; }
+      const meta = await sharp(strip).metadata();
+      // the strip at twice the film's width; the window glides down it (a smoothstep), rendered at 2× so it moves by half pixels
+      const W2 = W * 2, H2 = H * 2, height = Math.max(H2, Math.round((meta.height * W2) / meta.width));
+      const png = path.join(tmp, `${scene.page}.png`);
+      await sharp(strip).resize(W2, height, { fit: "cover", position: "top" }).png({ compressionLevel: 1 }).toFile(png);
+      // at the pace, for at most MAX_PAN seconds: a tall strip is not glided to its foot (the pace is the point)
+      const speed = SPEED * (W2 / 1440);
+      const travel = Math.min(height - H2, Math.round(speed * (scene.pan ?? MAX_PAN)));
+      const hold = scene.hold ?? HOLD, tail = scene.tail ?? TAIL;
+      const pan = travel ? travel / speed : 0;
+      const duration = hold + pan + tail;
+      const y = travel ? `${travel}*${smooth(`clip((t-${hold})/${pan.toFixed(3)}\\,0\\,1)`)}` : "0";
+      ff(["-i", png, "-vf", `loop=loop=-1:size=1:start=0,setpts=N/(${FPS}*TB),trim=duration=${duration.toFixed(2)},crop=${W2}:${H2}:0:'${y}',scale=${W}:${H}:flags=lanczos,format=yuv420p`, "-r", String(FPS), ...SEG, seg]);
+      segments.push({ out: seg, duration });
+    } else if (scene.still) {
+      const file = path.join(dir, scene.still);
+      if (!fs.existsSync(file)) { console.warn(`${project.slug}: ${scene.still} is not there, skipped`); continue; }
+      const duration = scene.seconds || 6, frames = Math.round(duration * FPS);
+      const z = scene.move === "out" ? `1.07-0.07*on/${frames}` : `1+0.07*on/${frames}`;
+      ff(["-i", file, "-vf", `scale=${W * 2}:${H * 2}:force_original_aspect_ratio=increase:flags=lanczos,crop=${W * 2}:${H * 2},zoompan=z='${z}':d=${frames}:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s=${W}x${H}:fps=${FPS},format=yuv420p`, "-frames:v", String(frames), ...SEG, seg]);
+      segments.push({ out: seg, duration });
+    } else if (scene.card) {
+      const file = path.join(dir, scene.card.image);
+      if (!fs.existsSync(file)) { console.warn(`${project.slug}: ${scene.card.image} is not there, skipped`); continue; }
+      const duration = scene.seconds || 3.5;
+      const ground = (scene.card.ground || "#000000").replace("#", "0x");
+      ff(["-f", "lavfi", "-i", `color=c=${ground}:s=${W}x${H}:r=${FPS}`, "-i", file, "-filter_complex", `[1:v]scale='min(iw\\,${Math.round(W * 0.32)})':-2:flags=lanczos[m];[0:v][m]overlay=(W-w)/2:(H-h)/2:format=auto,format=yuv420p`, "-t", duration.toFixed(2), ...SEG, seg]);
+      segments.push({ out: seg, duration });
+    }
   }
-  const final = path.join(dir, "scroll.mp4");
+  if (!segments.length) { console.warn(`${project.slug}: nothing to cut`); fs.rmSync(tmp, { recursive: true, force: true }); continue; }
   if (segments.length === 1) {
-    execFileSync("ffmpeg", ["-y", "-loglevel", "error", "-i", segments[0].out, "-c:v", "libx264", "-preset", "slow", "-crf", "27", ...H264_CAP, "-pix_fmt", "yuv420p", "-movflags", "+faststart", "-an", final]);
+    ff(["-i", segments[0].out, ...H264, final]);
   } else {
     const inputs = segments.flatMap((s) => ["-i", s.out]);
     let graph = "", prev = "[0:v]", offset = 0;
@@ -79,11 +129,12 @@ for (const project of projects) {
       prev = label;
       offset += s.duration - FADE;
     });
-    execFileSync("ffmpeg", ["-y", "-loglevel", "error", ...inputs, "-filter_complex", graph.slice(0, -1), "-map", "[v]",
-      "-c:v", "libx264", "-preset", "slow", "-crf", "27", ...H264_CAP, "-pix_fmt", "yuv420p", "-movflags", "+faststart", "-an", final]);
+    ff([...inputs, "-filter_complex", graph.slice(0, -1), "-map", "[v]", ...H264, final]);
   }
-  execFileSync("ffmpeg", ["-y", "-loglevel", "error", "-i", final, "-c:v", "libvpx-vp9", "-crf", "36", ...VP9_CAP, "-deadline", "good", "-cpu-used", "2", "-row-mt", "1", "-an", path.join(dir, "scroll.webm")]);
+  ff(["-ss", "0.4", "-i", final, "-frames:v", "1", "-q:v", "3", path.join(dir, "scroll-poster.jpg")]);
+  if (!NO_WEBM) ff(["-i", final, ...VP9, path.join(dir, "scroll.webm")]);
+  else if (fs.existsSync(path.join(dir, "scroll.webm"))) fs.rmSync(path.join(dir, "scroll.webm"));
   fs.rmSync(tmp, { recursive: true, force: true });
   const seconds = segments.reduce((a, s) => a + s.duration, 0) - FADE * (segments.length - 1);
-  console.log(`${project.slug}: ${seconds.toFixed(1)} s, ${segments.length - (intro && fs.existsSync(intro) ? 1 : 0)} pages${intro && fs.existsSync(intro) ? " after its own clip" : ""}: mp4 ${Math.round(fs.statSync(final).size / 1024)} KB, webm ${Math.round(fs.statSync(path.join(dir, "scroll.webm")).size / 1024)} KB`);
+  console.log(`${project.slug}: ${seconds.toFixed(1)} s, ${segments.length} scene${segments.length === 1 ? "" : "s"}: mp4 ${kb(final)}${!NO_WEBM ? `, webm ${kb(path.join(dir, "scroll.webm"))}` : ""}`);
 }

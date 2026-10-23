@@ -151,8 +151,8 @@
   "film": {
     "src": "/media/work/tima/scroll.mp4",
     "webm": "/media/work/tima/scroll.webm",
-    "poster": "/media/work/tima/tile.jpg",
-    "alt": "Titanium Motor Arts's film: the site scrolling."
+    "poster": "/media/work/tima/scroll-poster.jpg",
+    "alt": "Titanium Motor Arts's film."
   },
   "recordings": {
     "desktop": {

@@ -112,13 +112,25 @@ export interface Project {
   facts?: Record<string, string>;
   /** The case study's first sentence about the client. */
   about?: string;
-  /** The clip the project's film opens with (in raw/, not shipped) and where it came from. */
-  film?: { intro: string; from: string };
+  /**
+   * The project's film (scripts/work/video.mjs): the clip it opens with (in raw/, not shipped; null when the
+   * site's own clip is left out on purpose) and where that came from, its scenes when they are chosen by hand
+   * (without them: the clip, then the first pages filmed scrolling), and what the film is made of.
+   */
+  film?: { intro?: string | null; from?: string; scenes?: FilmScene[]; source?: string };
   /** The project comes from qwarter.com's catalogue (scripts/port/catalogue.mjs). */
   fromWordPress?: boolean;
   /** Where each fact above comes from. */
   source: string;
 }
+
+/** One scene of a project's film, cross-faded with the next (scripts/work/video.mjs). */
+export type FilmScene =
+  | { clip: string; from?: number; seconds?: number; speed?: number } // the site's own footage or a recording, raw/<file>
+  | { film: string; seconds?: number; hold?: number; pan?: number; tail?: number } // a page filmed scrolling (raw/film-<page>.mp4), else its strip
+  | { page: string; hold?: number; pan?: number; tail?: number } // the page strip glided down
+  | { still: string; seconds?: number; move?: "in" | "out" } // a picture held with a slow move
+  | { card: { image: string; ground?: string }; seconds?: number }; // a mark on its ground
 
 export interface Work {
   projects: Project[];
@@ -147,6 +159,7 @@ export const workMedia = (slug: string) => ({
   blur: `/media/work/${slug}/blur.jpg`,
   video: `/media/work/${slug}/scroll.mp4`,
   videoWebm: `/media/work/${slug}/scroll.webm`,
+  poster: `/media/work/${slug}/scroll-poster.jpg`,
   page: (name: string) => `/media/work/${slug}/page-${name}.jpg`,
 });
 

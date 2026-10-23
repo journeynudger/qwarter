@@ -108,7 +108,7 @@
       "alt": "Butter's yellow box, standing, with Let's build a butter world. printed large on its face, and the claims Fast onset time, All natural, Infused ghee butter and Smooth, euphoric lift set around it.",
       "ground": "#F2F2F2",
       "dark": false,
-      "fit": "cover",
+      "fit": "contain",
       "source": "butterspreads.com, the home page's product picture"
     }
   ],
@@ -183,8 +183,8 @@
   "film": {
     "src": "/media/work/butter/scroll.mp4",
     "webm": "/media/work/butter/scroll.webm",
-    "poster": "/media/work/butter/tile.jpg",
-    "alt": "Butter's film: the site scrolling."
+    "poster": "/media/work/butter/scroll-poster.jpg",
+    "alt": "Butter's film."
   },
   "recordings": {
     "desktop": {

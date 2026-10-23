@@ -193,8 +193,8 @@
   "film": {
     "src": "/media/work/journey/scroll.mp4",
     "webm": "/media/work/journey/scroll.webm",
-    "poster": "/media/work/journey/tile.jpg",
-    "alt": "Journey's film: the site scrolling."
+    "poster": "/media/work/journey/scroll-poster.jpg",
+    "alt": "Journey's film."
   },
   "recordings": {
     "desktop": {

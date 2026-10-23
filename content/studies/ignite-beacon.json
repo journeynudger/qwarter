@@ -123,8 +123,8 @@
   "film": {
     "src": "/media/work/ignite-beacon/scroll.mp4",
     "webm": "/media/work/ignite-beacon/scroll.webm",
-    "poster": "/media/work/ignite-beacon/tile.jpg",
-    "alt": "Beacon's film: the site scrolling."
+    "poster": "/media/work/ignite-beacon/scroll-poster.jpg",
+    "alt": "Beacon's film."
   },
   "recordings": {
     "desktop": {

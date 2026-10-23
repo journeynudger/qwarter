@@ -52,6 +52,8 @@ const FILMS = {
 };
 /** Case-study pages that are another page's copy, not a case study of their own (listed in CLAUDE.md's questions). */
 const COPIES = ["11-hamilton-home"];
+/** Projects Lorenzo asked to take off the site for now (2026-10-23: "remove kindfootprint for now"); their media leave the tree with them (main's 3faeb72 still holds Kind Footprint's, and .port-cache/shots/ its shoot). */
+const WITHDRAWN = ["kind-footprint"];
 /** A client the case study pages name without a line of their own: the home page's Selected Work says it. */
 const NOT_PICTURES = /logo|bug|ico-|icon|removebg|headshot|portrait|partner-logo|palette|gradient|watercolor|mickeyhand|placeholder|Primal-Journey|\.gif$|\.svg$|\.pdf$/i;
 
@@ -304,7 +306,8 @@ for (const slug of OWN_FRAMES) {
   out.push(p);
 }
 
-// 4. order: Lorenzo's first, then by year, newest first; catalogue entries without pictures last
+// 4. the withdrawn leave (their media directory with them, below), then the order: Lorenzo's first, then by year, newest first; catalogue entries without pictures last
+for (const slug of WITHDRAWN) { const i = out.findIndex((p) => p.slug === slug); if (i >= 0) { out.splice(i, 1); notes.push(`${slug}: withdrawn for now (Lorenzo, 2026-10-23), see CLAUDE.md`); } }
 const rank = (p) => { const i = FIRST.indexOf(p.slug); return i < 0 ? 100 : i; };
 out.sort((a, b) => (a.media === false) - (b.media === false) || rank(a) - rank(b) || Number(b.year || 0) - Number(a.year || 0) || a.name.localeCompare(b.name));
 const projects = out.map((p, i) => ({ ...p, numeral: ROMAN[i] }));

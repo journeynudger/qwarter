@@ -23,6 +23,10 @@ on:
         default: ""
       shoot_specs:
         description: Sites to photograph (scripts/work/shoot.mjs), one per line — "<slug> <base> [name=route …] [--discover N]"; saved under .port-cache/shots/<slug>
+        required: false
+        default: skip
+      film_specs:
+        description: Sites to film scrolling (scripts/work/scrollfilm.mjs), one per line — "<slug> <base> [name=route[|click:selector][|live:seconds] …]"; saved under .port-cache/films/<slug>
         default: ""
       branch:
         description: The branch the captures are pushed to (replaced each run)
@@ -43,6 +47,7 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npx playwright install --with-deps chromium
+      - run: sudo apt-get install -y -qq ffmpeg # the recorder encodes its frames with it (the runner image has none)
       - name: Capture the design
         if: inputs.design_origin != 'skip' && inputs.design_origin != ''
         continue-on-error: true
@@ -81,6 +86,20 @@ jobs:
             timeout 1200 node scripts/work/shoot.mjs $line --out ".port-cache/shots/$slug" || echo "FAILED $slug"
           done
           du -sh .port-cache/shots || true
+      - name: Film sites scrolling
+        if: always() && inputs.film_specs != 'skip' && inputs.film_specs != ''
+        continue-on-error: true
+        timeout-minutes: 60
+        env:
+          SPECS: ${{ inputs.film_specs }}
+        run: |
+          printf '%s\n' "$SPECS" | while IFS= read -r line; do
+            line="${line#"${line%%[![:space:]]*}"}"; [ -z "$line" ] && continue
+            slug="${line%% *}"
+            # shellcheck disable=SC2086
+            timeout 1500 node scripts/work/scrollfilm.mjs $line --out ".port-cache/films/$slug" || echo "FAILED $slug"
+          done
+          du -sh .port-cache/films || true
       - name: Publish the captures to the branch
         # whatever a step managed before its time ran out is still worth having: this step always runs
         if: always()

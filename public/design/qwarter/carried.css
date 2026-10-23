@@ -1,0 +1,9 @@
+/*
+ * Our corrections to Depo Luxe's carried pages. Their stylesheet is theirs, byte for byte; this file is linked after it
+ * on the pages that need a rule of ours (content/pages.json, head).
+ *
+ * The visor's films are websites, not footage: a film covering the window lost its sides on any window that is not
+ * 16:9 (and the first square films most of their top and bottom), so a film and the still before it are fitted whole,
+ * never cropped: no side of a page is cut (Lorenzo, 2026-10-23: "full width, the sides should not be cut off").
+ */
+.visor-videos img, .visor-videos video { object-fit: contain; }

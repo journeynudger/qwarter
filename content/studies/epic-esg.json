@@ -130,8 +130,8 @@
   "film": {
     "src": "/media/work/epic-esg/scroll.mp4",
     "webm": "/media/work/epic-esg/scroll.webm",
-    "poster": "/media/work/epic-esg/tile.jpg",
-    "alt": "EPIC ESG's film: the site scrolling."
+    "poster": "/media/work/epic-esg/scroll-poster.jpg",
+    "alt": "EPIC ESG's film."
   },
   "recordings": {
     "desktop": {

@@ -176,19 +176,17 @@
   "film": {
     "src": "/media/work/theroom/scroll.mp4",
     "webm": "/media/work/theroom/scroll.webm",
-    "poster": "/media/work/theroom/tile.jpg",
-    "alt": "The Room's film: the site scrolling."
+    "poster": "/media/work/theroom/scroll-poster.jpg",
+    "alt": "The Room's film."
   },
   "recordings": {
     "desktop": {
       "src": "/media/work/theroom/study/desktop.mp4",
-      "webm": "/media/work/theroom/study/desktop.webm",
       "poster": "/media/work/theroom/study/desktop-poster.jpg",
       "alt": "The Room on a desktop: The wall, The table, Ask them."
     },
     "phone": {
       "src": "/media/work/theroom/study/phone.mp4",
-      "webm": "/media/work/theroom/study/phone.webm",
       "poster": "/media/work/theroom/study/phone-poster.jpg",
       "alt": "The Room on a phone."
     }
@@ -225,14 +223,14 @@
       "source": "journeynudger/theroom site/figures"
     }
   ],
-  "galleryNote": "The figures as the wall shows them: portrait busts in white plaster, from the repository's site/figures.",
-  "source": "The Room's own build photographed on 2026-10-22 (scripts/work/shoot.mjs): page titles and first words, typefaces and colours observed, the logo and pictures the pages show, the phone frames. Every word is qwarter.com's, the site's own or observed; nothing is written here. By hand (content/studies/_overrides/theroom.json): the words are the repository's own (journeynudger/theroom: README.md, site/README.md, site/data/i18n/en/ui.json, read 2026-10-22); the pictures its site/figures; photographed from its own build on 2026-10-22. The public address, theroom-five.vercel.app, is the one Lorenzo gave on 2026-10-23 (the preview he first linked is behind Vercel's login); the frames are from the site's own build.",
+  "source": "The Room's own build photographed on 2026-10-23 (scripts/work/shoot.mjs): page titles and first words, typefaces and colours observed, the logo and pictures the pages show, the phone frames. Every word is qwarter.com's, the site's own or observed; nothing is written here. By hand (content/studies/_overrides/theroom.json): the words are the repository's own (journeynudger/theroom: README.md, site/README.md, site/data/i18n/en/ui.json, read 2026-10-22); the pictures its site/figures; photographed from its own build on 2026-10-22. The public address, theroom-five.vercel.app, is the one Lorenzo gave on 2026-10-23 (the preview he first linked is behind Vercel's login); the frames are from the site's own build.",
   "generated": true,
   "brief": "The wall is a web version of the Room: a wall of carved reliefs you can stand before and question, a From the wall label for each person with biography, timeline, sources and one verbatim line, an Ask them conversation kept by Mnemosyne, and Carve a name for nominating who belongs next. The table seats up to four people from the wall around a round table, facing each other, and lets them answer a question together and answer one another. The governing distinction: a direct quote is the person's own language and must carry a source; a summary is a compact account of documented material; an application is present-day inference and must be labeled as such.",
   "quote": {
     "text": "I am here. Bring a question, or a name.",
     "source": "Mnemosyne, keeper of the Room, as the wall greets you"
   },
+  "galleryNote": "The figures as the wall shows them: portrait busts in white plaster, from the repository's site/figures.",
   "walkthrough": {
     "desktop": [
       {

@@ -37,9 +37,24 @@
       "source": "qwarter.com's home page, Selected Work (WordPress page 246530, modified 2026-09-17): linked as butterspreads.com, named \"Butter\"; its line; pictures: butterspreads.com photographed on 2026-10-22 (5 pages); film opens with the film butterspreads.com/ plays (butterspreads.com/cdn/shop/videos/c/vp/779437caafbc49aaa3ffcd25e96d16c5/779437caafbc49aaa3ffcd25e96d16c5.HD-720p-1.6Mbps-60748436.mp4)",
       "film": {
         "intro": "intro.mp4",
-        "from": "the film butterspreads.com/ plays (butterspreads.com/cdn/shop/videos/c/vp/779437caafbc49aaa3ffcd25e96d16c5/779437caafbc49aaa3ffcd25e96d16c5.HD-720p-1.6Mbps-60748436.mp4)"
+        "from": "the film butterspreads.com/ plays (butterspreads.com/cdn/shop/videos/c/vp/779437caafbc49aaa3ffcd25e96d16c5/779437caafbc49aaa3ffcd25e96d16c5.HD-720p-1.6Mbps-60748436.mp4)",
+        "scenes": [
+          {
+            "clip": "raw/intro.mp4",
+            "seconds": 11.7,
+            "speed": 0.6
+          },
+          {
+            "film": "home"
+          },
+          {
+            "film": "blogs-news"
+          }
+        ],
+        "source": "the store's own hero film whole at six tenths of its speed (butterspreads.com, the shoot's video-01: she walks up with the jar; Lorenzo, 2026-10-23: the first thing a visitor sees, and slower), then the home and the Education blog filmed scrolling on a GitHub runner in real time (scripts/work/scrollfilm.mjs; the collection page does not scroll at 1600px, so it is left out)"
       },
-      "numeral": "I"
+      "numeral": "I",
+      "featured": true
     },
     {
       "slug": "jr-pugh",
@@ -75,8 +90,31 @@
       "source": "mylife: Open/_Generated/Clients/2026-07/jeffvhs-site-final (final v2 2026-07-16, v3 2026-07-23; title 'JR Pugh | Actor, NYC'; published at jeffvhs.com per PUBLISH.md); film opens with the splash jeffvhs.com plays on arrival (recorded from the site's own files, scripts/work/record.mjs), then the film jeffvhs.com/ plays (jeffvhs.com, media library 2026/07/brazil-reel-tease.mp4)",
       "film": {
         "intro": "intro.mp4",
-        "from": "the splash jeffvhs.com plays on arrival (recorded from the site's own files, scripts/work/record.mjs), then the film jeffvhs.com/ plays (jeffvhs.com, media library 2026/07/brazil-reel-tease.mp4)"
-      }
+        "from": "the splash jeffvhs.com plays on arrival (recorded from the site's own files, scripts/work/record.mjs), then the film jeffvhs.com/ plays (jeffvhs.com, media library 2026/07/brazil-reel-tease.mp4)",
+        "scenes": [
+          {
+            "clip": "raw/loader.mp4",
+            "seconds": 3.9
+          },
+          {
+            "clip": "raw/reel-01.mp4",
+            "from": 20,
+            "seconds": 13,
+            "speed": 0.8
+          },
+          {
+            "film": "about"
+          },
+          {
+            "clip": "raw/reel-02.mp4",
+            "from": 16,
+            "seconds": 13,
+            "speed": 0.8
+          }
+        ],
+        "source": "the splash (recorded from the site's own files, scripts/work/record.mjs), both reels jeffvhs.com plays at eight tenths of their speed (Lorenzo, 2026-10-23: show both, a little slower), and the About page filmed scrolling on a GitHub runner in real time between them (Lorenzo: show the about page)"
+      },
+      "featured": true
     },
     {
       "slug": "stairway",
@@ -105,7 +143,23 @@
           "title": "Support"
         }
       ],
-      "source": "Stairway-Audio/stairway-monorepo web/ (Next.js 15, 'the marketing + commerce site for stairway.audio'), photographed from its own build in stub mode on 2026-10-22; its <title> 'Stairway Audio. Analog Tone. Digital Soul.'; page titles from each page's <title>"
+      "source": "Stairway-Audio/stairway-monorepo web/ (Next.js 15, 'the marketing + commerce site for stairway.audio'), photographed from its own build in stub mode on 2026-10-22; its <title> 'Stairway Audio. Analog Tone. Digital Soul.'; page titles from each page's <title>",
+      "featured": true,
+      "film": {
+        "scenes": [
+          {
+            "film": "home"
+          },
+          {
+            "film": "demo",
+            "seconds": 14
+          },
+          {
+            "film": "sa-s1"
+          }
+        ],
+        "source": "stairway.audio as its repository stands (origin/main, 2026-10-20), filmed scrolling from a local run; the SA-S1 demo recorded playing in the browser (Lorenzo, 2026-10-23)"
+      }
     },
     {
       "slug": "serein",
@@ -134,7 +188,11 @@
           "title": "Blog"
         }
       ],
-      "source": "mylife: Serein/serein-site (CLAUDE.md: 'Public website for Serein — landing page, product, manifesto'; layout.tsx description 'Your thoughts, always with you. Capture freely. Retrieve effortlessly.'; in the vault backup of 2026-08-02); domain withserein.com as Lorenzo named it (2026-10-17); photographed from its own build"
+      "source": "mylife: Serein/serein-site (CLAUDE.md: 'Public website for Serein — landing page, product, manifesto'; layout.tsx description 'Your thoughts, always with you. Capture freely. Retrieve effortlessly.'; in the vault backup of 2026-08-02); domain withserein.com as Lorenzo named it (2026-10-17); photographed from its own build",
+      "featured": true,
+      "film": {
+        "source": "the home, Product and Manifesto filmed scrolling from the vault's serein-site run locally (scripts/work/scrollfilm.mjs)"
+      }
     },
     {
       "slug": "journey",
@@ -187,9 +245,11 @@
         "product": "Personalized Nudges"
       },
       "film": {
-        "intro": "intro.mp4",
-        "from": "the film behind Journey on qwarter.com/portfolio/ (its media library, 2022/07/Journey_Brain.mp4)"
-      }
+        "intro": null,
+        "from": "the film behind Journey on qwarter.com/portfolio/ (its media library, 2022/07/Journey_Brain.mp4)",
+        "source": "the pages filmed scrolling (scripts/work/scrollfilm.mjs on the site's own build); the brain film qwarter.com's portfolio page plays is left out (Lorenzo, 2026-10-23)"
+      },
+      "featured": true
     },
     {
       "slug": "theroom",
@@ -214,12 +274,29 @@
           "title": "Ask them"
         }
       ],
-      "source": "GitHub journeynudger/theroom (README: 'The Room is a source-grounded library of books, talks, interviews…'; site/README.md: 'a wall of carved reliefs you can stand before and question'); line: the site's own description ('A wall of the minds that shaped how you think. Source-grounded interpretation, not resurrection.'); the public address Lorenzo gave on 2026-10-23, theroom-five.vercel.app (the preview he first linked, 2026-10-22, is behind Vercel's login); photographed from its own build (site/server.mjs) on 2026-10-22: the wall, the table, Ask them"
+      "source": "GitHub journeynudger/theroom (README: 'The Room is a source-grounded library of books, talks, interviews…'; site/README.md: 'a wall of carved reliefs you can stand before and question'); line: the site's own description ('A wall of the minds that shaped how you think. Source-grounded interpretation, not resurrection.'); the public address Lorenzo gave on 2026-10-23, theroom-five.vercel.app (the preview he first linked, 2026-10-22, is behind Vercel's login); photographed from its own build (site/server.mjs) on 2026-10-22: the wall, the table, Ask them",
+      "featured": true,
+      "film": {
+        "scenes": [
+          {
+            "film": "home"
+          },
+          {
+            "film": "table",
+            "seconds": 7
+          },
+          {
+            "film": "ask",
+            "seconds": 7
+          }
+        ],
+        "source": "the wall, the table and Ask them filmed from the site's own build (scripts/work/scrollfilm.mjs: the busts, and the initials of those without one, as the site shows them; the table and Ask them are panels fixed over the wall, so each is held seven seconds)"
+      }
     },
     {
       "slug": "bambino",
       "numeral": "VII",
-      "name": "Bambino",
+      "name": "Painter",
       "url": "https://bambino-1dtu.vercel.app",
       "line": "The notebooks of Lorenzo Scardicchio: essays and artwork, typeset like a book.",
       "made": "Website",
@@ -247,12 +324,29 @@
           "title": "Racing to the bottom of the brainstem"
         }
       ],
-      "source": "GitHub journeynudger/bambino (README: 'The notebooks of Lorenzo Scardicchio — essays and artwork, typeset like a book. Design language after the Stripe Press Poor Charlie's Almanack web edition'; the gallery wall as README describes it); the address Lorenzo gave on 2026-10-22; photographed from it on 2026-10-22; pictures: bambino-1dtu.vercel.app photographed on 2026-10-22 (5 pages, titles the site's own)"
+      "source": "GitHub journeynudger/bambino (README: 'The notebooks of Lorenzo Scardicchio — essays and artwork, typeset like a book. Design language after the Stripe Press Poor Charlie's Almanack web edition'; the gallery wall as README describes it); the address Lorenzo gave on 2026-10-22; photographed from it on 2026-10-22; pictures: bambino-1dtu.vercel.app photographed on 2026-10-22 (5 pages, titles the site's own) Named \"Painter\" on the site at Lorenzo's word (2026-10-23: \"Bambino site can just be named Painter\").",
+      "featured": true,
+      "film": {
+        "scenes": [
+          {
+            "film": "home"
+          },
+          {
+            "still": "raw/gallery.png",
+            "seconds": 6,
+            "move": "in"
+          },
+          {
+            "film": "posts-the-algorithmic-self"
+          }
+        ],
+        "source": "the home and a chapter filmed scrolling from the site's own build (scripts/work/scrollfilm.mjs); the gallery wall held with a slow move"
+      }
     },
     {
       "slug": "lorenzo-type",
       "numeral": "VIII",
-      "name": "Lorenzo Type",
+      "name": "Fonts designed",
       "url": "https://lorenzoscardicchio.com",
       "line": "Four families, seventeen styles, from the mailroom.",
       "made": "Website and type",
@@ -288,7 +382,22 @@
           "title": "Artwork"
         }
       ],
-      "source": "GitHub journeynudger/lorenzo (README: 'Lorenzo Type — the foundry site'; the site's own description: 'Type drawn and traced from Lorenzo Scardicchio's own hand: Lorenzo Hand, Longhand, Typewriter and Meadow, served from the mailroom on paper photographed from his desk'; line: the home page's own words, 'Four families · seventeen styles from the mailroom'); the address the site names (www.lorenzoscardicchio.com); photographed from its own files on 2026-10-22"
+      "source": "GitHub journeynudger/lorenzo (README: 'Lorenzo Type — the foundry site'; the site's own description: 'Type drawn and traced from Lorenzo Scardicchio's own hand: Lorenzo Hand, Longhand, Typewriter and Meadow, served from the mailroom on paper photographed from his desk'; line: the home page's own words, 'Four families · seventeen styles from the mailroom'); the address the site names (www.lorenzoscardicchio.com); photographed from its own files on 2026-10-22 Named \"Fonts designed\" on the site at Lorenzo's word (2026-10-23: \"Lorenzo type can just be Fonts designed\").",
+      "featured": true,
+      "film": {
+        "scenes": [
+          {
+            "film": "home"
+          },
+          {
+            "film": "hand"
+          },
+          {
+            "film": "mailroom"
+          }
+        ],
+        "source": "the home, the Hand page and the mailroom filmed scrolling from the site's own files (scripts/work/scrollfilm.mjs)"
+      }
     },
     {
       "slug": "2020-insights",
@@ -321,7 +430,8 @@
       ],
       "fromWordPress": true,
       "source": "name, service line, year, live site and facts from qwarter.com/portfolio/2020-insights/ (WordPress page 246379, modified 2026-09-16); line: the case study's Industry Type and Location; pictures: 2020insights.net photographed on 2026-10-22 (3 pages, titles the site's own)",
-      "numeral": "IX"
+      "numeral": "IX",
+      "featured": false
     },
     {
       "slug": "mzaero",
@@ -346,7 +456,8 @@
       ],
       "fromWordPress": true,
       "source": "name, service line, year, live site and facts from qwarter.com/portfolio/mzaero/ (WordPress page 246910, modified 2026-09-16); line: the case study's Industry Type and Location; pictures: mzaero.com photographed on 2026-10-22 (1 pages, titles the site's own)",
-      "numeral": "X"
+      "numeral": "X",
+      "featured": false
     },
     {
       "slug": "thanh-ta",
@@ -374,7 +485,26 @@
       ],
       "fromWordPress": true,
       "source": "name, service line, year, live site and facts from qwarter.com/portfolio/thanh-ta/ (WordPress page 246271, modified 2026-09-16); line: the case study's Industry Type and Location; pictures: the ones the case study shows (its media library), 2 of them",
-      "numeral": "XI"
+      "numeral": "XI",
+      "featured": true,
+      "film": {
+        "scenes": [
+          {
+            "card": {
+              "image": "raw/logo.png",
+              "ground": "#c1c1c1"
+            },
+            "seconds": 3.4
+          },
+          {
+            "page": "img-01"
+          },
+          {
+            "page": "img-02"
+          }
+        ],
+        "source": "the logo (Thanhlogotrans.png, qwarter.com's media library) on the case study's grey, then the two screens the case study shows, glided down slowly; thanhta.com no longer answers"
+      }
     },
     {
       "slug": "ion-insurance",
@@ -411,7 +541,8 @@
       ],
       "fromWordPress": true,
       "source": "name, service line, year, live site and facts from qwarter.com/portfolio/ion-insurance/ (WordPress page 246889, modified 2026-09-16); line: the case study's Industry Type and Location; pictures: ioninsuranceinc.com photographed on 2026-10-22 (4 pages, titles the site's own)",
-      "numeral": "XII"
+      "numeral": "XII",
+      "featured": false
     },
     {
       "slug": "iotech-protect",
@@ -456,7 +587,8 @@
       ],
       "fromWordPress": true,
       "source": "name, service line, year, live site and facts from qwarter.com/portfolio/iotech-protect/ (WordPress page 245248, modified 2026-09-16); line: the case study's Industry Type and Location; pictures: the ones the case study shows (its media library), 6 of them",
-      "numeral": "XIII"
+      "numeral": "XIII",
+      "featured": false
     },
     {
       "slug": "tima",
@@ -495,9 +627,17 @@
       "source": "name, service line, year and facts from qwarter.com/portfolio/tima/ (WordPress page 245009, modified 2026-09-16); line from qwarter.com/portfolio/ (its slider); pictures: the ones the case study shows (its media library), 4 of them; film opens with the film behind Titanium Motor Arts on qwarter.com/portfolio/ (its media library, 2022/07/tima-home-bg.mp4)",
       "film": {
         "intro": "intro.mp4",
-        "from": "the film behind Titanium Motor Arts on qwarter.com/portfolio/ (its media library, 2022/07/tima-home-bg.mp4)"
+        "from": "the film behind Titanium Motor Arts on qwarter.com/portfolio/ (its media library, 2022/07/tima-home-bg.mp4)",
+        "scenes": [
+          {
+            "clip": "raw/intro.mp4",
+            "seconds": 20.9
+          }
+        ],
+        "source": "the render film qwarter.com's portfolio page plays behind Titanium Motor Arts, whole, 4K (Lorenzo, 2026-10-23: the high-definition one)"
       },
-      "numeral": "XIV"
+      "numeral": "XIV",
+      "featured": true
     },
     {
       "slug": "ekaterina-sky",
@@ -521,7 +661,16 @@
       ],
       "fromWordPress": true,
       "source": "name, service line, year, live site and facts from qwarter.com/portfolio/ekaterina-sky/ (WordPress page 2834, modified 2026-09-16); line: the case study's Industry Type and Location; pictures: ekaterina-sky.art photographed on 2026-10-22 (1 pages, titles the site's own)",
-      "numeral": "XV"
+      "numeral": "XV",
+      "featured": false,
+      "film": {
+        "scenes": [
+          {
+            "page": "home"
+          }
+        ],
+        "source": "its home page glided down as the strip the shoot of 2026-10-22 took with the newsletter popup closed (the runner's film of the page on 2026-10-23, raw/film-home.mp4, carried the popup over every frame: scrollfilm.mjs does not close a popup the way shoot.mjs does)"
+      }
     },
     {
       "slug": "epic-esg",
@@ -546,7 +695,8 @@
       ],
       "fromWordPress": true,
       "source": "name, service line, year, live site and facts from qwarter.com/portfolio/epic-esg/ (WordPress page 2221, modified 2026-09-16); line: the case study's Industry Type and Location; pictures: the ones the case study shows (its media library), 1 of them",
-      "numeral": "XVI"
+      "numeral": "XVI",
+      "featured": false
     },
     {
       "slug": "wood-company",
@@ -575,7 +725,8 @@
       ],
       "fromWordPress": true,
       "source": "name, service line, year, live site and facts from qwarter.com/portfolio/wood-company/ (WordPress page 245520, modified 2026-09-16); line from qwarter.com/portfolio/ (its slider); pictures: the ones the case study shows (its media library), 2 of them",
-      "numeral": "XVII"
+      "numeral": "XVII",
+      "featured": false
     },
     {
       "slug": "boujee-healer",
@@ -607,40 +758,8 @@
       ],
       "fromWordPress": true,
       "source": "name, service line, year, live site and facts from qwarter.com/portfolio/boujee-healer/ (WordPress page 245435, modified 2026-09-16); line: the case study's Industry Type and Location; pictures: theboujeehealer.com photographed on 2026-10-22 (3 pages, titles the site's own)",
-      "numeral": "XVIII"
-    },
-    {
-      "slug": "kind-footprint",
-      "name": "Kind Footprint",
-      "url": "https://kindfootprint.org",
-      "line": "Non-Profit",
-      "made": "Website design & web app integration",
-      "year": "2020",
-      "facts": {
-        "industry type": "Non-Profit",
-        "location": "",
-        "services": "Humanitarian Aid",
-        "organization size": "40+ Volunteers"
-      },
-      "about": "Kind Footprint’s mission is to unite the global nonprofit community by providing resources and creating campaigns focused on social justice issues serving women and children worldwide.",
-      "cover": "home",
-      "pages": [
-        {
-          "name": "home",
-          "title": "Home"
-        },
-        {
-          "name": "about-us",
-          "title": "About Kind Footprint"
-        },
-        {
-          "name": "faq",
-          "title": "FAQ"
-        }
-      ],
-      "fromWordPress": true,
-      "source": "name, service line, year and facts from qwarter.com/portfolio/kind-footprint/ (WordPress page 2742, modified 2026-09-16); line: the case study's Industry Type and Location; live site: the one photographed, kindfootprint.org; pictures: kindfootprint.org photographed on 2026-10-22 (3 pages, titles the site's own)",
-      "numeral": "XIX"
+      "numeral": "XVIII",
+      "featured": false
     },
     {
       "slug": "pineapple-club",
@@ -677,7 +796,8 @@
       ],
       "fromWordPress": true,
       "source": "name, service line, year, live site and facts from qwarter.com/portfolio/pineapple-club/ (WordPress page 245312, modified 2026-09-16); line from qwarter.com/portfolio/ (its slider); pictures: pineappleclub.com photographed on 2026-10-22 (4 pages, titles the site's own)",
-      "numeral": "XX"
+      "numeral": "XIX",
+      "featured": false
     },
     {
       "slug": "ignite-beacon",
@@ -699,7 +819,11 @@
       ],
       "fromWordPress": true,
       "source": "qwarter.com's home page, Selected Work (WordPress page 246530, modified 2026-09-17): linked as ignitebeacon.com, with a picture and no words; name: the site's own title \"beacon — the night awaits\"; line: the site's own description; pictures: ignitebeacon.com photographed on 2026-10-22 (2 pages)",
-      "numeral": "XXI"
+      "numeral": "XX",
+      "featured": true,
+      "film": {
+        "source": "ignitebeacon.com filmed scrolling by the capture workflow (scripts/work/scrollfilm.mjs on a GitHub runner), its pinned sections as the browser shows them (Lorenzo, 2026-10-23: cleaner)"
+      }
     },
     {
       "slug": "core-rhythm-fitness",
@@ -729,7 +853,8 @@
       ],
       "fromWordPress": true,
       "source": "qwarter.com's home page, Selected Work (WordPress page 246530, modified 2026-09-17): linked as corerhythmfitness.net, with a picture and no words; name: the site's own title \"CORE RHYTHM FITNESS\"; line: the site's own title; pictures: corerhythmfitness.net photographed on 2026-10-22 (4 pages)",
-      "numeral": "XXII"
+      "numeral": "XXI",
+      "featured": false
     }
   ],
   "_catalogue": "The projects below the first three are qwarter.com's own case studies, found through search on 2026-10-17 (qwarter.com itself is unreachable from the build environment). Each line is the case study's description as the search returned it, kept short; year only where the page gave one. Pictures, the full text and any missing project arrive with scripts/port/fetch.py once the network allows it, and these entries are then checked against the snapshot word for word."

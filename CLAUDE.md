@@ -32,7 +32,8 @@ when the strip comes to rest, ours play the website scrolling; black Paper-shade
 | Fetch what the build environment cannot reach, through a GitHub runner | Actions → *Capture the reference design and the WordPress site* → Run workflow (`design_origin`, `wordpress_origin`, `media_urls`, `shoot_specs`, `branch`); then `git fetch origin <branch> && git checkout origin/<branch> -- .port-cache .design-cache` |
 | The catalogue from the WordPress snapshot and the clients' live sites | `node scripts/port/catalogue.mjs [--dry]`, then `prepare.mjs`, `video.mjs`, `npm test` |
 | Make the delivered pictures from the raw ones | `node scripts/work/prepare.mjs [slug …]` |
-| Render each site scrolling, as the strip's film | `node scripts/work/video.mjs [slug …]` → `scroll.mp4` + `scroll.webm` |
+| Film a site in a real browser, frame by frame, scrolling (or playing, `|live:<s>`, keys pressed with `|play:`), 1920×1080 | `node scripts/work/scrollfilm.mjs <slug> <base> [name=route[\|click:selector][\|live:seconds][\|play:keys][\|cold] …] [--out dir]` → `raw/film-<name>.mp4`; live sites through the capture workflow's `film_specs` |
+| Each project's film (home, Work, its study): 1920×1080 from its scenes | `node scripts/work/video.mjs [--no-webm \| --webm-only] [slug …]` → `scroll.mp4` + `scroll.webm` + `scroll-poster.jpg` |
 | The case studies' recordings: each site on a desktop and on a phone, 60 fps, plus the stills (scenes from the study's or its override's `walkthrough`, else the first pages) | `node scripts/work/walkthrough.mjs [--no-webm \| --webm-only] [slug …]` → `study/{desktop,phone}.{mp4,webm}`, posters, `d-*.jpg`, `m-*.jpg` |
 | Record a page's own motion deterministically (a splash, a reveal) | `node scripts/work/record.mjs <url> <out.mp4> [--seconds 6] [--until <selector>] [--font-css <file>]` |
 | The case studies from qwarter.com's case studies and the shoots (hand-written ones kept) | `node scripts/port/studies.mjs [slug …]`, after catalogue → prepare → walkthrough; then `npm test` |
@@ -107,11 +108,11 @@ staircase, the archive's looping list, the project player, the page transitions,
 
 | Ours | Their page | What is swapped in |
 |---|---|---|
-| `/` (`home`) | `/` | header words, menu, footer; every project twice in the film stack (`.visor-videos`) and the list (`.widget-home__ul`): cover, film, name, what was made, year |
+| `/` (`home`) | `/` | header words, menu, footer; the featured projects (`featured` in work.json, numbered as that strip) twice in the film stack (`.visor-videos`) and the list (`.widget-home__ul`): cover, film, name, what was made, year |
 | `/work/` (`work`) | `/archive/` | the same projects in its looping list and film stack: numeral, name (where it lists the client), name as the title, what was made where it names the director |
 | `/work/<slug>/` | `/guslo/woman-md-studio/` (`project`, a template) | `{{film}}`, `{{cover}}`, `{{name}}`, `{{made}}`, `{{year}}`, filled per project at render time (`pageMarkup` in `lib/content.ts`); Close goes to /work/ |
-| `/approach/` | `/about/` | the statement, qwarter.com's welcome and hero line as the opening text; its six titled blocks carry qwarter.com's six questions and answers, each illustrated with four of our covers and films |
-| `/contact/` | `/contact/` ("Information") | the ways to reach Qwarter in its looping lists: the email, Instagram, Twitter, LinkedIn, the place |
+| `/approach/` | `/about/` | the statement, qwarter.com's welcome and hero line as the opening text; its six titled blocks carry qwarter.com's six questions and answers, each illustrated with the four projects Lorenzo named for it (Thanh Ta, JR Pugh, Butter, Beacon; 2026-10-23) |
+| `/contact/` | `/contact/` ("Information") | the ways to reach Qwarter in its looping lists: the email (info@qwarter.com, no name beside it), Instagram, Twitter, LinkedIn, the place (New York City); Lorenzo, 2026-10-23 |
 
 What is not theirs any more: the menu has our four items (its Talent item removed, with the id order
 their script keys on kept); the footer has our three social links and line, its legal links gone; the
@@ -142,7 +143,7 @@ site's project pages (valerin-umber.vercel.app/our-work/south-howard-flood-relie
 Mouthwash's Seed and Casa), then for rich studies of JR Pugh (the splash, every page, the reels), Butter (the
 store's film used as the store uses it, a Visit, the packaging and the brand), Serein (the brand, withserein.com,
 the app), The Room, his artist site and Bambino, and Thanh Ta from its case study alone, with its logo and no
-link. So `/work/<slug>/` is a case study wherever `content/studies/<slug>.json` exists (all 22 projects now),
+link. So `/work/<slug>/` is a case study wherever `content/studies/<slug>.json` exists (all 21 projects now),
 in place of Depo Luxe's project player; the carried pages' links to a study carry `data-internal`, which
 Cuchillo's click handler leaves to the browser, so the page loads whole.
 
@@ -170,6 +171,42 @@ time advanced one frame between screenshots, so nothing is dropped however slow 
 the home page plays, then the pages and the two reels; the catalogue prepends the same splash to its strip
 film (`SPLASH` in catalogue.mjs; raw/ is not committed, so record it again before a catalogue run or the
 film opens on the tease alone).
+
+**The films** (`scripts/work/video.mjs`, 2026-10-23): what plays full-screen behind the home and the Work page
+(Depo Luxe's `.visor-videos`: a `<video>` covering the window) and in each study's film block, 1920×1080 at 30 fps, so
+it fits the screen whole; the first films were 900×900 and lost their top and bottom to the cover (Lorenzo: "clearly cut
+off"). A film is scenes cross-faded (`film.scenes` in work.json: the site's own footage as `clip`, a page filmed scrolling
+as `film`, a page strip glided down as `page`, a picture with a slow move as `still`, a mark on its ground as `card`), or
+without scenes the site's clip and its first three pages. Slow on purpose: 90 px/s, 14 s a page at most. The pages are
+filmed in a real browser by `scripts/work/scrollfilm.mjs`, frame by frame: Chromium's headless shell under BeginFrame
+control and virtual time (one composited frame per frame of film, at the page's own moment, so a canvas drawing
+itself, a reveal, a counter all run in step however slow the machine; plain screenshots under paused virtual time
+stalled on every page that animates, the compositor waiting for a frame the paused clock never drives), a smoothstep
+from top to foot at 110 px/s, 18 s at most, the fixed header staying and the pinned sections pinning, which the page
+strips could not show (Beacon's strip was black stretches). Each page is warmed first (a pass to its foot and back, so
+nothing is filmed as a placeholder: The Room's busts filmed cold were ovals of initials; `|cold` films the first visit).
+Locally for the sites that run here (Stairway, The Room, Painter, Fonts designed, Serein, Journey), on a GitHub runner
+for the live ones (`film_specs` in the capture workflow → `.port-cache/films/<slug>/`, copied into `raw/`), in real time
+there (`--realtime` on the spec line): under the runner's newer headless shell (Chromium 156; 141 here) the first scroll
+never answers under BeginFrame control, while its full browser's screencast delivers about 50 frames a second, and the
+runner has no ffmpeg (the workflow installs it; the recorder also knows Playwright's bundled build). No step of the
+recorder waits without a limit, a page's attempt is given up after `--page-timeout` seconds, and `--trace` prints each
+step with its time for the runner's log (the first runs there hung a whole site in one step for 25 minutes). Stairway's
+SA-S1 demo is recorded in real time in the full browser (`|live:14`), its Play pressed and a phrase played on its keys
+by the mouse (`|play:C4,E4,G4,…`), with the dev server's demo assets switched on
+(`NEXT_PUBLIC_DEMO_ASSET_BASE_URL=http://localhost:3120/api/demo-assets`: the three placeholder presets, the real
+faceplate). What each film is made of is in its
+`film.source`: Butter opens on the store's own film whole at six tenths of its speed (she walks up with the jar; a slowed
+clip is interpolated to the film's rate, not shown frame by held frame), JR Pugh on its splash then both reels at eight
+tenths with its About page between them, TiMA is its 4K render film, Journey its pages without the brain film, Thanh Ta
+its logo then the two screens the case study shows, Ekaterina Sky its page strip (the runner's film of 2026-10-23 carried
+the site's newsletter popup over every frame: `scrollfilm.mjs` hides only a layer whose id names a popup, where
+`shoot.mjs` also clicks the close buttons, presses Escape and hides a covering layer; giving the recorder that pass and
+filming the page again is a follow-up). The Work page shows every project's film; the home shows the
+featured ones. On both, Depo Luxe's visor covered the window with the film (`object-fit: cover`), which cut a website's
+sides on any window that is not 16:9 and most of a square film; `public/design/qwarter/carried.css`, linked after their
+stylesheet on those two pages (`head` in `content/pages.json`), fits the film and its still whole instead (Lorenzo,
+2026-10-23: "full width, the sides should not be cut off").
 
 **The words.** Every study says in `source` where each line comes from, and nothing is written here:
 - `scripts/port/studies.mjs` writes a study for every project from qwarter.com's own case study (the service
@@ -289,11 +326,12 @@ can be captured (`npm run capture:design -- --origin https://depoluxe.xyz`, need
 | File | What it holds | Source | Edit freely? |
 |---|---|---|---|
 | `content/site.json` › `chrome` | brand words, tagline, menu, footer line, the statement, the facts, the contact and its social links, `about` (qwarter.com's hero line, welcome, team, FAQ) | `_provenance` inside the file says where each came from: Lorenzo's own positioning statement (mylife `Open/Work/Writing/Qwarter-The-Problem-Of-Direction.md`), Qwarter LLC's registration, the address he runs Qwarter's GitHub and Vercel from; `about` and the social links verbatim from qwarter.com's home, About Us and Contact pages (snapshot 2026-10-22) | Yes; keep `_provenance` true |
-| `content/work.json` | the projects: numeral, name, url, line, what Qwarter made, year, `facts`, the frames, `film`, and `source` per project; `media: false` marks a project without pictures yet | written by `scripts/port/catalogue.mjs` from the WordPress snapshot and the shots of the live sites (each `source` says which page, which site, which date); the four sites photographed from their own builds carry their repository or vault folder | Regenerate with `catalogue.mjs` after a new snapshot or new shots; a project built here (not on qwarter.com): add it to `OWN_FRAMES`, photograph it, `prepare.mjs`, `video.mjs`, `npm test` |
+| `content/work.json` | the projects: numeral, name, url, line, what Qwarter made, year, `facts`, the frames, `film` (`intro`, `scenes`, `source`), `featured` (on the home), and `source` per project; `media: false` marks a project without pictures yet | written by `scripts/port/catalogue.mjs` from the WordPress snapshot and the shots of the live sites (each `source` says which page, which site, which date); the four sites photographed from their own builds carry their repository or vault folder | Regenerate with `catalogue.mjs` after a new snapshot or new shots; a project built here (not on qwarter.com): add it to `OWN_FRAMES`, photograph it, `prepare.mjs`, `video.mjs`, `npm test` |
 | `.port-cache/`, `.design-cache/` (git-ignored) | the WordPress snapshot (`qwarter/`), the clients' shots (`shots/<slug>/`), fetched files (`media/`), the reference design | the capture workflow's branches: `captures-wp`, `captures-shots-1..3`, `captures-media`, `captures-lean`/`captures` | Fetch, never edit: `git checkout origin/<branch> -- .port-cache` |
-| `public/media/work/<slug>/scroll.mp4`, `scroll.webm` | the film of the site scrolling | `video.mjs` from the strips | Regenerate, never edit |
+| `public/media/work/<slug>/scroll.mp4`, `scroll.webm`, `scroll-poster.jpg` | the project's film and its first frame | `video.mjs` from `film.scenes` (footage, filmed pages, strips) | Regenerate, never edit |
 | `content/pages.json` | the four pages: path, kind, title, description, card image | written here | Titles and descriptions yes |
 | `public/media/work/<slug>/` | cover, cover@2x, tile, tile@2x, blur, page strips | `prepare.mjs` from `raw/` (git-ignored) | Regenerate, never edit |
+| `public/media/work/<slug>/raw/film-*.mp4`, `films.json` (git-ignored) | the pages filmed scrolling, the sources of the film | `scrollfilm.mjs` locally, or the capture workflow's `films-*` branches (`git fetch origin films-1 && git checkout origin/films-1 -- .port-cache/films`, then copy into `raw/`) | Film again, never edit |
 | `public/design/qwarter/site.css`, `site.js` | the whole design and behaviour | written here, grown from the sister site's `style.css` / `index.html` / `reel.html` | Yes |
 | `public/design/qwarter/fonts/` | EB Garamond 400–800 roman and italic, latin + latin-ext, OFL | Google Fonts, self-hosted (no third-party request) | — |
 | `public/design/qwarter/q-mark.svg`, `icon.svg`, `apple-touch-icon.png`, `public/media/og.jpg` | the pixel Q as squares; icons; the social card with the brand's wordmark | traced from and composed of the brand's own marks (mylife `Projects/Project Proposals/Qwarter Template/Assets/`) | Regenerate with `scripts/brand/` |
@@ -302,6 +340,7 @@ can be captured (`npm run capture:design -- --origin https://depoluxe.xyz`, need
 | `content/reference/<slug>.html` | Depo Luxe's pages as captured (their content, never served): what the swaps are applied to | `extract.mjs` from the capture | Never edit; re-extract |
 | `content/swaps/<slug>.json` | what of each reference page becomes Qwarter's, with each value's source | `scripts/design/swaps-from-content.mjs` from `content/work.json` and `content/site.json` | Regenerate, never edit |
 | `public/design/depoluxe.xyz/`, `public/imageLoaderWorker.js`, `public/assets/audio/tac.m4a` | Cuchillo's stylesheet, script, fonts, worker, the archive's click sound | the capture, byte for byte (`extract.mjs`; the worker and the sound copied by hand to the paths the script asks for) | Never edit |
+| `public/design/qwarter/carried.css` | our corrections to the carried pages (the visor's films fitted whole), linked after Cuchillo's stylesheet by `head` in `content/pages.json` | written here | Yes |
 | `content/studies/<slug>.json` | a case study: the words, the tiles, the steps, the recordings and pictures it shows, `walkthrough` scenes, `source` | `scripts/port/studies.mjs` from qwarter.com's case study and the shoot (`generated: true`), or written whole (JR Pugh) | A generated one: never; change `_overrides/<slug>.json`. A hand-written one: yes, keep `source` true |
 | `content/studies/_overrides/<slug>.json`, `_pictures/`, `_pending/` | what is written by hand over a generated study; where each delivered picture came from; a step waiting for its recording | written here / `studies.mjs` | Overrides yes, with their `source`; `_pictures` regenerated |
 | `public/media/work/<slug>/study/` | the recordings and stills (`walkthrough.mjs`), the pictures the study shows (`studies.mjs`) | the raw captures; the snapshot's media; the projects' own repositories (`$copy`) | Regenerate, never edit |
@@ -355,7 +394,7 @@ on `design_origin` (`design_args`: `--max`, `--frames`, `--video`, `--lean` for 
 manifest and report; a step's own time limit sends SIGTERM, which does the same),
 `scripts/port/fetch.py` on `wordpress_origin`, `curl` for each line of `media_urls`, and
 `scripts/work/shoot.mjs` for each line of `shoot_specs` (`<slug> <base> [routes] [--discover N]`, into
-`.port-cache/shots/<slug>`). An input set to `skip` skips its step; an empty input takes the default. Every step has a time limit
+`.port-cache/shots/<slug>`), and `scripts/work/scrollfilm.mjs` for each line of `film_specs` (into `.port-cache/films/<slug>`). An input set to `skip` skips its step; an empty input takes the default. Every step has a time limit
 (capture 45 min, WordPress 30, files 20, shoots 60) and the publish step always runs, so a run always leaves
 what it took on the branch. Files over 95 MB are left out and listed in `.design-cache/too-large.txt`. Then, locally:
 `git fetch origin <branch> && git checkout origin/<branch> -- .port-cache .design-cache`.
@@ -390,7 +429,8 @@ old URLs (it fails rather than guess).
    more and epicesg.com answers 503, so Thanh Ta, Titanium Motor Arts, Wood Company and EPIC ESG show the
    pictures their case studies show; iotechprotect.com answers the runner with "Access Denied" (a
    firewall that refuses GitHub's runners even to a desktop browser's name; tried twice). Kind Footprint's case
-   study names no site, but kindfootprint.org is it (its title says so) and is photographed. If any of the
+   study names no site, but kindfootprint.org is it (its title says so); it was photographed, and is withdrawn
+   for now (question 14). If any of the
    dead ones has a new address, one line in the shoot list brings its pictures in.
 4. **Butter, Core Rhythm Fitness, Beacon.** qwarter.com's home page links the three with a picture and
    (for Butter) a line, no year. Butter's Shopify store is titled "My Store" (its title was never set;
@@ -402,10 +442,9 @@ old URLs (it fails rather than guess).
 6. **The tagline and the second brand word.** The header reads `Qwarter … Studio` with "Websites,
    applications, and words that feel true to who they are." under it; both from your positioning
    statement. Say the word to change either.
-7. **The contact address.** lorenzo@qwarter.com is shown, as the address Qwarter's GitHub and Vercel run
-   from. If the public address is another (hello@, studio@), it is one value in `content/site.json`.
-8. **The founder facts** (Founded 2023 · Las Vegas, Nevada · Lorenzo Scardicchio) come from Qwarter LLC's
-   registration; LinkedIn says founded 2016. Which year is Qwarter's?
+7. **The contact address**: answered 2026-10-23, info@qwarter.com, with no name beside it (`content/site.json`).
+8. **The founder facts.** Based in New York City (Lorenzo, 2026-10-23; it read Las Vegas, Nevada, from Qwarter LLC's
+   registration). Founded 2023 is the registration's; LinkedIn says 2016. Which year is Qwarter's?
 9. **The Room's address**: answered 2026-10-23, `theroom-five.vercel.app` (`content/studies/_overrides/theroom.json`,
    `content/work.json`); the study's Visit button goes there. The runner has not photographed that address yet; the
    frames are from the site's own build, which is the same code.
@@ -414,11 +453,21 @@ old URLs (it fails rather than guess).
     photographed from its files and its Visit button goes to the address the site itself names. Bambino's
     study links the alias its README calls live, `bambino-five.vercel.app`; the address you gave,
     `bambino-1dtu.vercel.app`, is the one photographed.
-11. **The order of the strip** now runs Butter, JR Pugh, Stairway, Serein, Journey, The Room, Bambino, Lorenzo
-    Type, then qwarter.com's catalogue (`FIRST` in `scripts/port/catalogue.mjs`). Say the word to move the three.
+11. **The home's strip** shows the featured projects (2026-10-23): Butter, JR Pugh, Stairway, Serein, Journey, The Room,
+    Painter, Fonts designed, Thanh Ta, Titanium Motor Arts, Beacon, in the catalogue's order; the rest (Mzaero, Ion
+    Insurance, Pineapple Club, Boujee Healer, Core Rhythm Fitness, IoTech, 20/20 Insights, Wood Company, EPIC ESG,
+    Ekaterina Sky) are on Work only; Kind Footprint is withdrawn for now (question 14). Serein stayed on the home as yours; say the word on any of them, and on
+    the order (`FIRST` in `scripts/port/catalogue.mjs`, `featured` in work.json).
 12. **The generated studies' words are qwarter.com's and the sites' own**, so where qwarter.com's challenge and
     solution were pasted from another client's page (Boujee Healer and Pineapple Club share theirs, 20/20
     Insights and IoTech their descriptions) the study says less rather than something false. If you have the
     real text for any of them, an override is one file.
 13. **The Oct 6 porting prompt** ("Next/Vercel/WordPress") was not in `journeynudger/mylife` on GitHub; this
    port follows journeysite's CLAUDE.md and Verowater's `docs/site-kit/sources/PORT-PLAYBOOK-v1.md` instead.
+14. **Kind Footprint is withdrawn** (Lorenzo, 2026-10-23: "remove kindfootprint for now"). `WITHDRAWN` in
+    `scripts/port/catalogue.mjs` keeps it out of the catalogue, and its study, pictures and recordings left the tree
+    with it (main's `3faeb72` still holds them, `.port-cache/shots/kind-footprint` its shoot); `/work/kind-footprint/`
+    answers 404. To bring it back: take it off `WITHDRAWN`, `git checkout 3faeb72 -- public/media/work/kind-footprint
+    content/studies/kind-footprint.json content/studies/_pictures/kind-footprint.json`, then `swaps-from-content.mjs`,
+    `swap.mjs`, `video.mjs kind-footprint` (its 16:9 film; the runner's film of its home showed an embed's "Sorry,
+    we're having a little trouble" box where the browser got no video), `studies.mjs kind-footprint`, `npm test`.
