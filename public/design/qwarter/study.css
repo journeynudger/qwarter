@@ -221,7 +221,8 @@ a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px soli
 .st-gallery__window { overflow: hidden; border-radius: var(--radius); }
 .st-gallery__track { display: flex; gap: 16px; touch-action: pan-y; user-select: none; transition: transform 0.6s var(--ease); will-change: transform; }
 .st-slide { flex: 0 0 100%; overflow: hidden; border-radius: var(--radius); background: var(--card); }
-.st-slide img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; pointer-events: none; }
+/* a picture is shown whole on the slide's ground, never cut (a square product shot lost its sides to cover, 2026-10-23) */
+.st-slide img { width: 100%; aspect-ratio: 4 / 5; object-fit: contain; pointer-events: none; }
 @media (min-width: 1024px) { .st-slide { flex-basis: calc((100% - 32px) / 3); } }
 .st-gallery__arrow { position: absolute; top: 50%; z-index: 2; transform: translateY(-50%); width: 46px; height: 46px; border: 0; border-radius: 50%; background: rgba(255, 255, 255, 0.9); color: #111; cursor: pointer; display: grid; place-items: center; box-shadow: 0 8px 24px -10px rgba(0, 0, 0, 0.8); transition: opacity 0.25s, background 0.25s; }
 .st-gallery__arrow svg { width: 20px; height: 20px; }
