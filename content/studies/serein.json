@@ -190,8 +190,8 @@
   "film": {
     "src": "/media/work/serein/scroll.mp4",
     "webm": "/media/work/serein/scroll.webm",
-    "poster": "/media/work/serein/tile.jpg",
-    "alt": "Serein's film: the site scrolling."
+    "poster": "/media/work/serein/scroll-poster.jpg",
+    "alt": "Serein's film."
   },
   "recordings": {
     "desktop": {

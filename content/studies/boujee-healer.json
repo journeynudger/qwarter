@@ -169,8 +169,8 @@
   "film": {
     "src": "/media/work/boujee-healer/scroll.mp4",
     "webm": "/media/work/boujee-healer/scroll.webm",
-    "poster": "/media/work/boujee-healer/tile.jpg",
-    "alt": "Boujee Healer's film: the site scrolling."
+    "poster": "/media/work/boujee-healer/scroll-poster.jpg",
+    "alt": "Boujee Healer's film."
   },
   "recordings": {
     "desktop": {

@@ -168,8 +168,8 @@
   "film": {
     "src": "/media/work/ion-insurance/scroll.mp4",
     "webm": "/media/work/ion-insurance/scroll.webm",
-    "poster": "/media/work/ion-insurance/tile.jpg",
-    "alt": "Ion Insurance's film: the site scrolling."
+    "poster": "/media/work/ion-insurance/scroll-poster.jpg",
+    "alt": "Ion Insurance's film."
   },
   "recordings": {
     "desktop": {

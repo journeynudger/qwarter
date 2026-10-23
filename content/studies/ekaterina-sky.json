@@ -141,8 +141,8 @@
   "film": {
     "src": "/media/work/ekaterina-sky/scroll.mp4",
     "webm": "/media/work/ekaterina-sky/scroll.webm",
-    "poster": "/media/work/ekaterina-sky/tile.jpg",
-    "alt": "Ekaterina Sky's film: the site scrolling."
+    "poster": "/media/work/ekaterina-sky/scroll-poster.jpg",
+    "alt": "Ekaterina Sky's film."
   },
   "recordings": {
     "desktop": {

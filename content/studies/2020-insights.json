@@ -161,8 +161,8 @@
   "film": {
     "src": "/media/work/2020-insights/scroll.mp4",
     "webm": "/media/work/2020-insights/scroll.webm",
-    "poster": "/media/work/2020-insights/tile.jpg",
-    "alt": "20/20 Insights's film: the site scrolling."
+    "poster": "/media/work/2020-insights/scroll-poster.jpg",
+    "alt": "20/20 Insights's film."
   },
   "recordings": {
     "desktop": {

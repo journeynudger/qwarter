@@ -162,8 +162,8 @@
   "film": {
     "src": "/media/work/kind-footprint/scroll.mp4",
     "webm": "/media/work/kind-footprint/scroll.webm",
-    "poster": "/media/work/kind-footprint/tile.jpg",
-    "alt": "Kind Footprint's film: the site scrolling."
+    "poster": "/media/work/kind-footprint/scroll-poster.jpg",
+    "alt": "Kind Footprint's film."
   },
   "recordings": {
     "desktop": {

@@ -135,8 +135,8 @@
   "film": {
     "src": "/media/work/core-rhythm-fitness/scroll.mp4",
     "webm": "/media/work/core-rhythm-fitness/scroll.webm",
-    "poster": "/media/work/core-rhythm-fitness/tile.jpg",
-    "alt": "Core Rhythm Fitness's film: the site scrolling."
+    "poster": "/media/work/core-rhythm-fitness/scroll-poster.jpg",
+    "alt": "Core Rhythm Fitness's film."
   },
   "recordings": {
     "desktop": {

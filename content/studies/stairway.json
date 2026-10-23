@@ -149,8 +149,8 @@
   "film": {
     "src": "/media/work/stairway/scroll.mp4",
     "webm": "/media/work/stairway/scroll.webm",
-    "poster": "/media/work/stairway/tile.jpg",
-    "alt": "Stairway Audio's film: the site scrolling."
+    "poster": "/media/work/stairway/scroll-poster.jpg",
+    "alt": "Stairway Audio's film."
   },
   "recordings": {
     "desktop": {

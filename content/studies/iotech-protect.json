@@ -169,8 +169,8 @@
   "film": {
     "src": "/media/work/iotech-protect/scroll.mp4",
     "webm": "/media/work/iotech-protect/scroll.webm",
-    "poster": "/media/work/iotech-protect/tile.jpg",
-    "alt": "IoTech Protect's film: the site scrolling."
+    "poster": "/media/work/iotech-protect/scroll-poster.jpg",
+    "alt": "IoTech Protect's film."
   },
   "recordings": {
     "desktop": {

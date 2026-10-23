@@ -176,8 +176,8 @@
   "film": {
     "src": "/media/work/pineapple-club/scroll.mp4",
     "webm": "/media/work/pineapple-club/scroll.webm",
-    "poster": "/media/work/pineapple-club/tile.jpg",
-    "alt": "Pineapple Club's film: the site scrolling."
+    "poster": "/media/work/pineapple-club/scroll-poster.jpg",
+    "alt": "Pineapple Club's film."
   },
   "recordings": {
     "desktop": {
