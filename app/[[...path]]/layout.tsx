@@ -38,7 +38,7 @@ export default async function RootLayout({
   // ours: the two designs must not meet in one document
   const carried = Boolean(page?.template);
   // a case study (components/study/) brings its own stylesheet and script as well; it takes the site-wide ones of neither design
-  const own = carried || page?.kind === "study";
+  const own = carried || page?.kind === "study" || page?.kind === "stories" || page?.kind === "story";
   return (
     // the design's own scripts add classes to <html> and <body> before React hydrates
     <html lang={site.lang} {...props(page?.html ?? {})} suppressHydrationWarning>

@@ -51,7 +51,8 @@
       "text": "Featured",
       "attr": {
         "href": "/",
-        "aria-current": null
+        "aria-current": null,
+        "data-internal": null
       },
       "source": "content/site.json chrome.nav[0]"
     },
@@ -60,54 +61,79 @@
       "text": "Work",
       "attr": {
         "href": "/work/",
-        "aria-current": null
+        "aria-current": null,
+        "data-internal": null
       },
       "source": "content/site.json chrome.nav[1]"
+    },
+    {
+      "select": "#Header nav a:nth-of-type(3)",
+      "text": "Stories",
+      "attr": {
+        "href": "/stories/",
+        "aria-current": null,
+        "data-internal": ""
+      },
+      "source": "content/site.json chrome.nav[2]"
     },
     {
       "select": "#Header nav a:nth-of-type(4)",
       "text": "Approach",
       "attr": {
         "href": "/approach/",
-        "aria-current": null
+        "aria-current": null,
+        "data-internal": null
       },
-      "source": "content/site.json chrome.nav[2]"
+      "source": "content/site.json chrome.nav[3]"
     },
     {
       "select": "#Header nav a:nth-of-type(5)",
       "text": "Contact",
       "attr": {
         "href": "/contact/",
-        "aria-current": "page"
+        "aria-current": "page",
+        "data-internal": null
       },
-      "source": "content/site.json chrome.nav[3]"
+      "source": "content/site.json chrome.nav[4]"
     },
     {
       "select": "#Sidemenu .list li:nth-child(1) a",
       "attr": {
         "href": "/",
-        "aria-current": null
+        "aria-current": null,
+        "data-internal": null
       }
     },
     {
       "select": "#Sidemenu .list li:nth-child(2) a",
       "attr": {
         "href": "/work/",
-        "aria-current": null
+        "aria-current": null,
+        "data-internal": null
+      }
+    },
+    {
+      "select": "#Sidemenu .list li:nth-child(3) a",
+      "attr": {
+        "href": "/stories/",
+        "aria-current": null,
+        "data-internal": ""
       }
     },
     {
       "select": "#Sidemenu .list li:nth-child(4) a",
       "attr": {
         "href": "/approach/",
-        "aria-current": null
+        "aria-current": null,
+        "data-internal": null
       }
     },
     {
       "select": "#Sidemenu .list li:nth-child(5) a",
       "attr": {
         "href": "/contact/",
-        "aria-current": "page"
+        "aria-current": "page",
+        "data-internal": null
       }
     },
     {
@@ -121,44 +147,19 @@
       "source": "content/site.json chrome.nav[1]"
     },
     {
+      "select": "#Sidemenu .list li:nth-child(3) a .__text",
+      "text": "Stories",
+      "source": "content/site.json chrome.nav[2]"
+    },
+    {
       "select": "#Sidemenu .list li:nth-child(4) a .__text",
       "text": "Approach",
-      "source": "content/site.json chrome.nav[2]"
+      "source": "content/site.json chrome.nav[3]"
     },
     {
       "select": "#Sidemenu .list li:nth-child(5) a .__text",
       "text": "Contact",
-      "source": "content/site.json chrome.nav[3]"
-    },
-    {
-      "select": "#Header nav a:nth-of-type(3)",
-      "text": "",
-      "attr": {
-        "href": "/",
-        "style": "display:none",
-        "aria-hidden": "true",
-        "tabindex": "-1"
-      },
-      "source": "emptied: the reference's Talent link (content/site.json chrome.nav has four items)"
-    },
-    {
-      "select": "#Sidemenu .list li:nth-child(3)",
-      "attr": {
-        "style": "display:none",
-        "aria-hidden": "true"
-      }
-    },
-    {
-      "select": "#Sidemenu .list li:nth-child(3) a",
-      "attr": {
-        "href": "/",
-        "tabindex": "-1"
-      }
-    },
-    {
-      "select": "#Sidemenu .list li:nth-child(3) a .__text",
-      "text": "",
-      "source": "emptied: the reference's Talent link"
+      "source": "content/site.json chrome.nav[4]"
     },
     {
       "select": ".footer__rrss li:nth-child(1) a",
@@ -246,7 +247,7 @@
     },
     {
       "select": "article.page-contact",
-      "prepend": "<h1 style=\"position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0\">Contact</h1>",
+      "prepend": "<h1 style=\"position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0\">Approach</h1>",
       "source": "content/site.json chrome.nav[3].label"
     },
     {

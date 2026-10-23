@@ -2,7 +2,7 @@
   {
     "slug": "work",
     "path": "/work/",
-    "title": "Work – Qwarter",
+    "title": "Work \u2013 Qwarter",
     "description": "Everything Qwarter has made: the sites shown as they are, and the catalogue of brands and websites from qwarter.com.",
     "template": "/archive/",
     "html": {
@@ -69,7 +69,15 @@
         "code": "var IS_WEBP_SUPPORTED = false;\n  var WEBP_EXTENSION = \"\";\n  var webp = new Image();\n  webp.onerror = function(){IS_WEBP_SUPPORTED = false};\n  webp.onload = () => {IS_WEBP_SUPPORTED = true; WEBP_EXTENSION=\".webp\"};\n  webp.src = 'data:image/webp;base64,UklGRjIAAABXRUJQVlA4ICYAAACyAgCdASoBAAEALmk0mk0iIiIiIgBoSygABc6zbAAA/v56QAAAAA==';\n\n  const CMS_COLORS = {\n    \n      \"primary\": {\n        hex: 0x000000,\n        css: \"#000000\",\n        str: \"palette-primary\"\n      },\n    \n      \"secondary\": {\n        hex: 0xffffff,\n        css: \"#ffffff\",\n        str: \"palette-secondary\"\n      },\n    \n  }\n\n  var LOADING_TIMER = new Date().getTime();"
       }
     ],
-    "scripts": [],
+    "scripts": [
+      {
+        "kind": "script",
+        "src": "/design/qwarter/carried.js",
+        "attrs": {
+          "defer": ""
+        }
+      }
+    ],
     "image": null,
     "modified": null,
     "kind": "html"
@@ -77,8 +85,8 @@
   {
     "slug": "approach",
     "path": "/approach/",
-    "title": "Approach – Qwarter",
-    "description": "Qwarter is a studio that helps people slow down, tune in, and define what’s real — then turns that clarity into websites, applications, and words that feel true to who they are.",
+    "title": "Approach \u2013 Qwarter",
+    "description": "Qwarter is a studio that helps people slow down, tune in, and define what\u2019s real \u2014 then turns that clarity into websites, applications, and words that feel true to who they are.",
     "template": "/about/",
     "html": {
       "class": "",
@@ -132,6 +140,10 @@
         "href": "/design/depoluxe.xyz/assets/main.b0b97476d709cb690ddf.css?v=e278ce82f0"
       },
       {
+        "kind": "stylesheet",
+        "href": "/design/qwarter/carried.css"
+      },
+      {
         "kind": "style",
         "css": "[aria-expanded='false'] {\n    visibility: hidden;\n    pointer-events: none;\n  }\n\n  \n    .palette-primary {\n      --primary-color: #ffffff;\n      --primary-bg: #000000;\n      --primary-aux: #7d7d7d;\n      --secondary-color: #8e8e93;\n      --secondary-bg: #aeaeb2;\n      --secondary-aux: #000000;\n    }\n  \n    .palette-secondary {\n      --primary-color: #000000;\n      --primary-bg: #ffffff;\n      --primary-aux: #000000;\n      --secondary-color: #FFFFFF;\n      --secondary-bg: #000000;\n      --secondary-aux: #000000;\n    }"
       },
@@ -140,7 +152,15 @@
         "code": "var IS_WEBP_SUPPORTED = false;\n  var WEBP_EXTENSION = \"\";\n  var webp = new Image();\n  webp.onerror = function(){IS_WEBP_SUPPORTED = false};\n  webp.onload = () => {IS_WEBP_SUPPORTED = true; WEBP_EXTENSION=\".webp\"};\n  webp.src = 'data:image/webp;base64,UklGRjIAAABXRUJQVlA4ICYAAACyAgCdASoBAAEALmk0mk0iIiIiIgBoSygABc6zbAAA/v56QAAAAA==';\n\n  const CMS_COLORS = {\n    \n      \"primary\": {\n        hex: 0x000000,\n        css: \"#000000\",\n        str: \"palette-primary\"\n      },\n    \n      \"secondary\": {\n        hex: 0xffffff,\n        css: \"#ffffff\",\n        str: \"palette-secondary\"\n      },\n    \n  }\n\n  var LOADING_TIMER = new Date().getTime();"
       }
     ],
-    "scripts": [],
+    "scripts": [
+      {
+        "kind": "script",
+        "src": "/design/qwarter/carried.js",
+        "attrs": {
+          "defer": ""
+        }
+      }
+    ],
     "image": null,
     "modified": null,
     "kind": "html"
@@ -148,8 +168,8 @@
   {
     "slug": "contact",
     "path": "/contact/",
-    "title": "Contact – Qwarter",
-    "description": "info@qwarter.com · New York City",
+    "title": "Contact \u2013 Qwarter",
+    "description": "info@qwarter.com \u00b7 New York City",
     "template": "/contact/",
     "html": {
       "class": "",
@@ -203,6 +223,10 @@
         "href": "/design/depoluxe.xyz/assets/main.b0b97476d709cb690ddf.css?v=e278ce82f0"
       },
       {
+        "kind": "stylesheet",
+        "href": "/design/qwarter/carried.css"
+      },
+      {
         "kind": "style",
         "css": "[aria-expanded='false'] {\n    visibility: hidden;\n    pointer-events: none;\n  }\n\n  \n    .palette-primary {\n      --primary-color: #ffffff;\n      --primary-bg: #000000;\n      --primary-aux: #7d7d7d;\n      --secondary-color: #8e8e93;\n      --secondary-bg: #aeaeb2;\n      --secondary-aux: #000000;\n    }\n  \n    .palette-secondary {\n      --primary-color: #000000;\n      --primary-bg: #ffffff;\n      --primary-aux: #000000;\n      --secondary-color: #FFFFFF;\n      --secondary-bg: #000000;\n      --secondary-aux: #000000;\n    }"
       },
@@ -211,7 +235,15 @@
         "code": "var IS_WEBP_SUPPORTED = false;\n  var WEBP_EXTENSION = \"\";\n  var webp = new Image();\n  webp.onerror = function(){IS_WEBP_SUPPORTED = false};\n  webp.onload = () => {IS_WEBP_SUPPORTED = true; WEBP_EXTENSION=\".webp\"};\n  webp.src = 'data:image/webp;base64,UklGRjIAAABXRUJQVlA4ICYAAACyAgCdASoBAAEALmk0mk0iIiIiIgBoSygABc6zbAAA/v56QAAAAA==';\n\n  const CMS_COLORS = {\n    \n      \"primary\": {\n        hex: 0x000000,\n        css: \"#000000\",\n        str: \"palette-primary\"\n      },\n    \n      \"secondary\": {\n        hex: 0xffffff,\n        css: \"#ffffff\",\n        str: \"palette-secondary\"\n      },\n    \n  }\n\n  var LOADING_TIMER = new Date().getTime();"
       }
     ],
-    "scripts": [],
+    "scripts": [
+      {
+        "kind": "script",
+        "src": "/design/qwarter/carried.js",
+        "attrs": {
+          "defer": ""
+        }
+      }
+    ],
     "image": null,
     "modified": null,
     "kind": "html"
@@ -220,7 +252,7 @@
     "slug": "home",
     "path": "/",
     "title": "Qwarter",
-    "description": "Qwarter is a studio that helps people slow down, tune in, and define what’s real — then turns that clarity into websites, applications, and words that feel true to who they are.",
+    "description": "Qwarter is a studio that helps people slow down, tune in, and define what\u2019s real \u2014 then turns that clarity into websites, applications, and words that feel true to who they are.",
     "template": "/",
     "html": {
       "class": "",
@@ -286,7 +318,15 @@
         "code": "var IS_WEBP_SUPPORTED = false;\n  var WEBP_EXTENSION = \"\";\n  var webp = new Image();\n  webp.onerror = function(){IS_WEBP_SUPPORTED = false};\n  webp.onload = () => {IS_WEBP_SUPPORTED = true; WEBP_EXTENSION=\".webp\"};\n  webp.src = 'data:image/webp;base64,UklGRjIAAABXRUJQVlA4ICYAAACyAgCdASoBAAEALmk0mk0iIiIiIgBoSygABc6zbAAA/v56QAAAAA==';\n\n  const CMS_COLORS = {\n    \n      \"primary\": {\n        hex: 0x000000,\n        css: \"#000000\",\n        str: \"palette-primary\"\n      },\n    \n      \"secondary\": {\n        hex: 0xffffff,\n        css: \"#ffffff\",\n        str: \"palette-secondary\"\n      },\n    \n  }\n\n  var LOADING_TIMER = new Date().getTime();"
       }
     ],
-    "scripts": [],
+    "scripts": [
+      {
+        "kind": "script",
+        "src": "/design/qwarter/carried.js",
+        "attrs": {
+          "defer": ""
+        }
+      }
+    ],
     "image": "/media/og.jpg",
     "modified": null,
     "kind": "html"
@@ -294,7 +334,7 @@
   {
     "slug": "project",
     "path": "/project/",
-    "title": "Project – Qwarter",
+    "title": "Project \u2013 Qwarter",
     "description": null,
     "template": "/guslo/woman-md-studio/",
     "html": {
@@ -349,6 +389,10 @@
         "href": "/design/depoluxe.xyz/assets/main.b0b97476d709cb690ddf.css?v=e278ce82f0"
       },
       {
+        "kind": "stylesheet",
+        "href": "/design/qwarter/carried.css"
+      },
+      {
         "kind": "style",
         "css": "[aria-expanded='false'] {\n    visibility: hidden;\n    pointer-events: none;\n  }\n\n  \n    .palette-primary {\n      --primary-color: #ffffff;\n      --primary-bg: #000000;\n      --primary-aux: #7d7d7d;\n      --secondary-color: #8e8e93;\n      --secondary-bg: #aeaeb2;\n      --secondary-aux: #000000;\n    }\n  \n    .palette-secondary {\n      --primary-color: #000000;\n      --primary-bg: #ffffff;\n      --primary-aux: #000000;\n      --secondary-color: #FFFFFF;\n      --secondary-bg: #000000;\n      --secondary-aux: #000000;\n    }"
       },
@@ -357,7 +401,15 @@
         "code": "var IS_WEBP_SUPPORTED = false;\n  var WEBP_EXTENSION = \"\";\n  var webp = new Image();\n  webp.onerror = function(){IS_WEBP_SUPPORTED = false};\n  webp.onload = () => {IS_WEBP_SUPPORTED = true; WEBP_EXTENSION=\".webp\"};\n  webp.src = 'data:image/webp;base64,UklGRjIAAABXRUJQVlA4ICYAAACyAgCdASoBAAEALmk0mk0iIiIiIgBoSygABc6zbAAA/v56QAAAAA==';\n\n  const CMS_COLORS = {\n    \n      \"primary\": {\n        hex: 0x000000,\n        css: \"#000000\",\n        str: \"palette-primary\"\n      },\n    \n      \"secondary\": {\n        hex: 0xffffff,\n        css: \"#ffffff\",\n        str: \"palette-secondary\"\n      },\n    \n  }\n\n  var LOADING_TIMER = new Date().getTime();"
       }
     ],
-    "scripts": [],
+    "scripts": [
+      {
+        "kind": "script",
+        "src": "/design/qwarter/carried.js",
+        "attrs": {
+          "defer": ""
+        }
+      }
+    ],
     "image": null,
     "modified": null,
     "kind": "html"

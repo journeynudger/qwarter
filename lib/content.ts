@@ -6,6 +6,7 @@ import redirectsData from "@/content/redirects.json";
 import siteData from "@/content/site.json";
 import workData from "@/content/work.json";
 import { getStudy, hasStudy, studyMedia } from "@/lib/studies";
+import { getStories, storyImage, storyUrl } from "@/lib/stories";
 
 // ---------------------------------------------------------------------------
 // Shapes. Every content file under content/ is read through one of these.
@@ -55,7 +56,7 @@ export interface Site {
  * What a page is. "html" renders content/pages/<slug>.html verbatim (markup carried from
  * elsewhere); the others are this site's own views (components/site/), fed from content/.
  */
-export type PageKind = "html" | "featured" | "archive" | "work" | "approach" | "contact" | "study";
+export type PageKind = "html" | "featured" | "archive" | "work" | "approach" | "contact" | "study" | "stories" | "story";
 
 export interface Page {
   slug: string;
@@ -76,6 +77,8 @@ export interface Page {
   noindex?: boolean;
   /** A "work" page opened on one project: its slug in content/work.json. */
   project?: string;
+  /** A collected reading in the Stories library. */
+  story?: string;
   /** For a carried page: the reference route it was built on (scripts/qa/compare-design.mjs). */
   template?: string;
 }
@@ -218,7 +221,24 @@ function studyPage(p: Project): Page {
 }
 
 /** The pages served: the records (a "project" record is a template, not a route) and one page per project. */
-export const getPages = (): Page[] => [...(pagesData as unknown as Page[]).filter((p) => p.slug !== "project"), ...projectPages()];
+export function storyPages(): Page[] {
+  const base = {
+    html: {}, body: { class: "qs" }, modified: null,
+    head: [
+      { kind: "preload", href: "/design/qwarter/fonts/ebgaramond-normal-400-800-latin.woff2", as: "font", type: "font/woff2", crossOrigin: "anonymous", plain: true },
+      { kind: "preload", href: "/design/qwarter/fonts/ebgaramond-italic-400-800-latin.woff2", as: "font", type: "font/woff2", crossOrigin: "anonymous", plain: true },
+      { kind: "stylesheet", href: "/design/qwarter/fonts/fonts.css" },
+      { kind: "stylesheet", href: "/design/qwarter/stories.css" },
+    ] as Asset[],
+    scripts: [{ kind: "script", src: "/design/qwarter/stories.js", attrs: { defer: "" } }] as Asset[],
+  };
+  return [
+    { ...base, slug: "stories", path: "/stories/", kind: "stories", title: "Stories – Qwarter", description: "We learn from those who came before us. Collected stories about craft, brands, resilience, and finding a point of view.", image: storyImage(getStories().find((story) => story.id === 21)!)?.src ?? null },
+    ...getStories().map((story): Page => ({ ...base, slug: `story-${story.slug}`, path: storyUrl(story), kind: "story", story: story.slug, title: `${story.title} – Qwarter Stories`, description: story.lesson, image: storyImage(story)?.src ?? null, noindex: story.isExcerpt })),
+  ];
+}
+
+export const getPages = (): Page[] => [...(pagesData as unknown as Page[]).filter((p) => p.slug !== "project"), ...projectPages(), ...storyPages()];
 
 const escapeHtml = (v: string) => v.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
@@ -229,6 +249,12 @@ const escapeHtml = (v: string) => v.replace(/&/g, "&amp;").replace(/</g, "&lt;")
  */
 export function pageMarkup(page: Page): string {
   const html = getPageHtml(page.slug);
+  // Our own ending lives outside the captured source, inside the carried scroll
+  // article so the reference engine includes its height and navigation.
+  if (page.slug === "approach") {
+    const ending = fs.readFileSync(path.join(CONTENT_DIR, "fragments", "approach-ai.html"), "utf8");
+    return html.replace("</article>", `${ending}</article>`);
+  }
   if (!page.project) return html;
   const p = getProjects().find((x) => x.slug === page.project);
   if (!p) return html;

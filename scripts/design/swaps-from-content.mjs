@@ -46,7 +46,7 @@ fs.mkdirSync(OUT, { recursive: true });
 
 /** The header, side menu, footer and windows every page carries. `current` is the page's own path. */
 function chrome(current) {
-  const items = nav; // Featured, Work, Approach, Contact
+  const items = nav; // Featured, Work, Stories, Approach, Contact
   const social = contact.social ?? [];
   const swaps = [
     { select: "#Header .title", attr: { title: `${brand.left} ${brand.right}` } },
@@ -54,16 +54,11 @@ function chrome(current) {
     { select: "#Header .title span:nth-of-type(1)", text: brand.left, source: `${SRC.site} chrome.brand.left` },
     { select: "#Header .title span:nth-of-type(2)", text: brand.right, source: `${SRC.site} chrome.brand.right` },
     { select: "#Header .claim", text: brand.tagline, source: `${SRC.site} chrome.brand.tagline` },
-    // the menu: its five links become our four (Featured, Work, Approach, Contact); the third, Talent, goes
-    ...[1, 2, 4, 5].map((n, i) => ({ select: `#Header nav a:nth-of-type(${n})`, text: items[i].label, attr: { href: items[i].href, "aria-current": items[i].href === current ? "page" : null }, source: `${SRC.site} chrome.nav[${i}]` })),
-    ...[1, 2, 4, 5].map((n, i) => ({ select: `#Sidemenu .list li:nth-child(${n}) a`, attr: { href: items[i].href, "aria-current": items[i].href === current ? "page" : null } })),
-    ...[1, 2, 4, 5].map((n, i) => ({ select: `#Sidemenu .list li:nth-child(${n}) a .__text`, text: items[i].label, source: `${SRC.site} chrome.nav[${i}]` })),
-    // the reference's fifth link, Talent: Qwarter's menu has four items; the element stays (their script animates
-    // every link by its id) but is hidden, empty and out of the tab order
-    { select: "#Header nav a:nth-of-type(3)", text: "", attr: { href: "/", style: "display:none", "aria-hidden": "true", tabindex: "-1" }, source: "emptied: the reference's Talent link (content/site.json chrome.nav has four items)" },
-    { select: "#Sidemenu .list li:nth-child(3)", attr: { style: "display:none", "aria-hidden": "true" } },
-    { select: "#Sidemenu .list li:nth-child(3) a", attr: { href: "/", tabindex: "-1" } },
-    { select: "#Sidemenu .list li:nth-child(3) a .__text", text: "", source: "emptied: the reference's Talent link" },
+    // Use all five positions; Stories takes the previously unused third link. Keep its original id
+    // because the carried design animates these ids, and let Stories load as its own document.
+    ...[1, 2, 3, 4, 5].map((n, i) => ({ select: `#Header nav a:nth-of-type(${n})`, text: items[i].label, attr: { href: items[i].href, "aria-current": items[i].href === current ? "page" : null, "data-internal": items[i].href === "/stories/" ? "" : null }, source: `${SRC.site} chrome.nav[${i}]` })),
+    ...[1, 2, 3, 4, 5].map((n, i) => ({ select: `#Sidemenu .list li:nth-child(${n}) a`, attr: { href: items[i].href, "aria-current": items[i].href === current ? "page" : null, "data-internal": items[i].href === "/stories/" ? "" : null } })),
+    ...[1, 2, 3, 4, 5].map((n, i) => ({ select: `#Sidemenu .list li:nth-child(${n}) a .__text`, text: items[i].label, source: `${SRC.site} chrome.nav[${i}]` })),
     // the footer: the three social links (Instagram, Twitter, LinkedIn as qwarter.com lists them), our line, no legal pages
     ...social.slice(0, 3).map((l, i) => ({ select: `.footer__rrss li:nth-child(${i + 1}) a`, text: l.label, attr: { href: l.href, rel: "noopener" }, source: `${SRC.site} chrome.contact.social[${i}]` })),
     ...(social.length < 3 ? [{ select: `.footer__rrss li:nth-child(n+${social.length + 1})`, remove: true, reason: "Qwarter lists fewer social links than the reference" }] : []),
@@ -149,7 +144,7 @@ const approach = {
   description: statement.join(" "),
   swaps: [
     ...chrome("/approach/"),
-    { select: "article.page-about", prepend: hiddenH1(nav[2].label), source: `${SRC.site} chrome.nav[2].label` },
+    { select: "article.page-about", prepend: hiddenH1(nav.find((item) => item.href === "/approach/").label), source: `${SRC.site} chrome.nav approach label` },
     { select: "section.block-text:not(.--has-roman) .body", html: paragraphs([...statement, about.welcome, about.hero]), source: `${SRC.site} chrome.statement, chrome.about.welcome, chrome.about.hero` },
   ],
 };
