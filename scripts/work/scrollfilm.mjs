@@ -7,18 +7,21 @@
  * twice), which is why Beacon's first film read as black stretches.
  *
  * Two ways of filming, chosen per page:
- *   under Chromium's virtual time (the default): the clock advances one frame between screenshots and the
- *   scroll position is set for each frame (a smoothstep from the top to the foot: a hold, a glide of at most
- *   --max seconds, a hold), so the capture is deterministic and smooth however slow the machine, and what runs
- *   on the page's own timers (reveals, parallax, counters) runs in step. A <video> on the page does not advance
- *   with virtual time, so a film that should open on a site's own clip takes that clip itself (work.json
- *   film.scenes).
- *   in real time: the page is scrolled by its own animation frames over the same timeline and the screen is
- *   recorded as it plays, through CDP's screencast, at the rate the machine delivers; each frame keeps its
- *   moment, so the film plays at true speed. A page that must be filmed this way (an instrument playing, a
- *   meter moving to sound) takes `|live:<seconds>` after its route (it is clicked where the spec says, then
- *   recorded); and a page whose renderer stalls under virtual time (some do, once scrolled: no screenshot
- *   comes back) is filmed again this way on its own.
+ *   frame by frame (the default), in Chromium's headless shell under BeginFrame control and virtual time: for
+ *   each frame the scroll position is set (a smoothstep from the top to the foot: a hold, a glide of at most
+ *   --max seconds, a hold), the page's clock is advanced by one frame, and one composited frame is asked for
+ *   and taken as the picture (HeadlessExperimental.beginFrame), so the capture is deterministic and smooth
+ *   however slow the machine, and what runs on the page's own clock and animation frames (reveals, parallax,
+ *   counters, a canvas drawing itself) runs in step. Plain screenshots under paused virtual time could not do
+ *   this: on any page that animates, the compositor waits for a frame the paused clock never drives and the
+ *   second screenshot never comes back (2026-10-23). A <video> on the page does not advance with virtual time,
+ *   so a film that should open on a site's own clip takes that clip itself (work.json film.scenes).
+ *   in real time, in the full browser: the page is scrolled by its own animation frames over the same timeline
+ *   and the screen is recorded as it plays, through CDP's screencast, at the rate the machine delivers; each
+ *   frame keeps its moment, so the film plays at true speed. A page that must be filmed this way (an instrument
+ *   playing, a meter moving to sound) takes `|live:<seconds>` after its route (it is clicked where the spec
+ *   says, then recorded); --realtime films every page this way; and a page that still gives no frame the first
+ *   way within 15 s is filmed again this way on its own.
  *
  * Writes <out>/film-<name>.mp4 (H.264, 30 fps) per page and <out>/films.json (name, route, seconds,
  * height, how it was filmed). The project's film (scripts/work/video.mjs) cuts these into its scenes.
@@ -30,15 +33,14 @@
  *   --width/--height is the browser's window (the page lays out as on a 1600px desktop); --scale makes the
  *   frames 1920×1080. --speed is the glide in page pixels a second, --max its longest run, --hold the seconds
  *   at the top and at the foot, --settle the milliseconds given to a page's own entrance before the first
- *   frame; --realtime films every page the second way from the start. Default out: public/media/work/<slug>/raw
- *   (where video.mjs looks).
+ *   frame. Default out: public/media/work/<slug>/raw (where video.mjs looks).
  */
 import { execFileSync } from "node:child_process";
 import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
 
-import { launch } from "../lib/browser.mjs";
+import { launch, launchHeadlessShell } from "../lib/browser.mjs";
 
 const argv = process.argv.slice(2);
 const take = (k, d) => { const i = argv.indexOf(`--${k}`); if (i < 0) return d; const v = argv[i + 1]; argv.splice(i, 2); return v; };
@@ -65,14 +67,31 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const frameName = (n) => `f-${String(n).padStart(5, "0")}.jpg`;
 class Stall extends Error {}
 
-const browser = await launch({ args: ["--use-gl=angle", "--use-angle=swiftshader", "--enable-unsafe-swiftshader", "--autoplay-policy=no-user-gesture-required", "--mute-audio"] });
+const FRAME = 1000 / FPS;
+const MEDIA = ["--autoplay-policy=no-user-gesture-required", "--mute-audio"];
+// Chromium's deterministic mode: frames only when asked for, every stage of a frame finished before it is drawn,
+// animation and scrolling on the main thread, so a frame is exactly the page at that moment
+const DETERMINISTIC = ["--enable-begin-frame-control", "--run-all-compositor-stages-before-draw", "--disable-new-content-rendering-timeout",
+  "--disable-threaded-animation", "--disable-threaded-scrolling", "--disable-checker-imaging", "--disable-image-animation-resync"];
+// two browsers, each started when first needed: the headless shell for frame-by-frame filming (the only build with
+// BeginFrame control), the full browser for real time (its compositor runs on its own, as the screencast needs)
+const browsers = {};
+const browserFor = async (virtual) => (browsers[virtual ? "shell" : "full"] ??= await (virtual ? launchHeadlessShell({ args: [...DETERMINISTIC, ...MEDIA] }) : launch({ args: MEDIA })));
 
-/** Open the page in a fresh context: the clock paused when filming under virtual time, running otherwise. */
+/**
+ * Open the page in a fresh context: under virtual time (the shell, the clock paused, frames on request) or in real
+ * time (the full browser). Gives back advance(ms), the page's clock moved on by ms, and frame(shot), one composited
+ * frame at the clock's moment (its picture when shot is true; nothing when nothing changed).
+ */
 async function open(pg, virtual) {
+  const browser = await browserFor(virtual);
   const context = await browser.newContext({ viewport: { width: WIDTH, height: HEIGHT }, deviceScaleFactor: SCALE, userAgent: UA, ignoreHTTPSErrors: true, reducedMotion: "no-preference" });
   const page = await context.newPage();
   const cdp = await context.newCDPSession(page);
-  if (virtual) await cdp.send("Emulation.setVirtualTimePolicy", { policy: "pause" });
+  // the frame clock keeps to the page's own: BeginFrame times are the renderer's ticks, which virtual time counts
+  // from the moment it was enabled, so every animation frame reads the time performance.now() reads
+  let ticks = 0, elapsed = 0;
+  if (virtual) ticks = (await cdp.send("Emulation.setVirtualTimePolicy", { policy: "pause" })).virtualTimeTicksBase;
   const url = new URL(pg.route, base).href;
   await page.goto(url, { waitUntil: virtual ? "commit" : "load", timeout: 60000 }).catch((e) => console.error(`${slug}/${pg.name}: ${String(e.message).split("\n")[0]}`));
   await sleep(2500); // its files arrive (while the clock stands still, under virtual time)
@@ -92,10 +111,28 @@ async function open(pg, virtual) {
     }, 2500);
     await expired;
     clearTimeout(timer);
+    elapsed += ms;
   };
+  let lastFrameAt = -1;
+  const frame = async (shot) => {
+    if (!virtual) return {};
+    // a frame needs a moment of its own: asked for twice at one time, the second never comes (and every frame after
+    // it answers "another frame is pending"), so when the clock has not moved since the last one it moves one frame
+    if (elapsed <= lastFrameAt) await advance(FRAME);
+    lastFrameAt = elapsed;
+    const r = await Promise.race([
+      cdp.send("HeadlessExperimental.beginFrame", { frameTimeTicks: ticks + elapsed, interval: FRAME, noDisplayUpdates: false, ...(shot ? { screenshot: { format: "jpeg", quality: 92 } } : {}) }),
+      sleep(15000).then(() => null),
+    ]);
+    if (!r) throw new Stall("no frame within 15 s");
+    return r;
+  };
+  // the page's first frames: its first paint, then what that paint asks for (lazy pictures, fonts) and its entrance
+  await frame(false);
   await advance(SETTLE);
+  await frame(false);
   // what sits over the page (a cookie bar, a newsletter) is taken off: Escape, then the fixed layers that name themselves
-  await page.keyboard.press("Escape").catch(() => {});
+  await Promise.race([page.keyboard.press("Escape"), sleep(2000)]).catch(() => {});
   await page.evaluate(() => {
     for (const el of document.querySelectorAll("body *")) {
       const cs = getComputedStyle(el);
@@ -107,11 +144,17 @@ async function open(pg, virtual) {
     document.body.style.scrollBehavior = "auto";
   }).catch(() => {});
   if (pg.click) {
-    await page.locator(pg.click).first().click({ timeout: 5000, force: true }).catch((e) => console.error(`${slug}/${pg.name}: click ${pg.click}: ${String(e.message).split("\n")[0]}`));
+    // under virtual time the element is clicked by the page itself (the mouse would wait on frames the paused clock
+    // does not give); in real time, by the mouse
+    const target = page.locator(pg.click).first();
+    await (virtual ? target.evaluate((el) => el.click(), undefined, { timeout: 5000 }) : target.click({ timeout: 5000, force: true }))
+      .catch((e) => console.error(`${slug}/${pg.name}: click ${pg.click}: ${String(e.message).split("\n")[0]}`));
+    await frame(false);
     await advance(SETTLE);
+    await frame(false);
   }
   const height = await page.evaluate(() => Math.max(document.documentElement.scrollHeight, document.body.scrollHeight));
-  return { context, page, cdp, advance, height };
+  return { context, page, cdp, advance, frame, height };
 }
 
 /** The timeline of a page: a hold, the glide, a hold (in seconds). */
@@ -121,25 +164,27 @@ function timeline(height, scene) {
   return { travel, glide, hold: HOLD, tail: travel ? HOLD : HOLD * 0.6, seconds: HOLD + glide + (travel ? HOLD : HOLD * 0.6) };
 }
 
-/** Under virtual time: scroll, advance one frame, capture; a screenshot that never comes back is a stall. */
+/** Frame by frame: scroll, move the clock on by one frame, ask for that frame; a frame that never comes is a stall. */
 async function filmVirtual(pg, tmp) {
-  const { context, page, cdp, advance, height } = await open(pg, true);
+  const { context, page, advance, frame, height } = await open(pg, true);
   try {
     const tl = timeline(height);
     const total = Math.round(tl.seconds * FPS);
-    let frames = 0;
+    let frames = 0, last = null;
     for (let i = 0; i < total; i++) {
       const t = i / FPS;
       const k = tl.travel ? Math.min(1, Math.max(0, (t - tl.hold) / tl.glide)) : 0;
       await page.evaluate((y) => window.scrollTo(0, y), Math.round(tl.travel * smoothstep(k)));
-      await advance(1000 / FPS);
-      const shot = await Promise.race([cdp.send("Page.captureScreenshot", { format: "jpeg", quality: 92, captureBeyondViewport: false }), sleep(4000).then(() => null)]);
-      if (!shot) throw new Stall(`no frame after ${frames}`);
-      fs.writeFileSync(path.join(tmp, frameName(frames++)), Buffer.from(shot.data, "base64"));
+      await advance(FRAME);
+      let r = await frame(true).catch((e) => { throw new Stall(`${e.message} after ${frames}`); });
+      if (!r.screenshotData && !last) r = await frame(true); // nothing drawn yet: once more
+      if (r.screenshotData) last = Buffer.from(r.screenshotData, "base64"); // else the page did not change: the last picture again
+      if (!last) throw new Stall(`no picture after ${frames}`);
+      fs.writeFileSync(path.join(tmp, frameName(frames++)), last);
     }
-    return { frames, seconds: tl.seconds, height, how: "virtual time" };
+    return { frames, seconds: tl.seconds, height, how: "frame by frame" };
   } finally {
-    await context.close().catch(() => {});
+    await Promise.race([context.close(), sleep(5000)]).catch(() => {});
   }
 }
 
@@ -198,7 +243,7 @@ for (const pg of pages) {
       try { result = await filmVirtual(pg, tmp); }
       catch (e) {
         if (!(e instanceof Stall)) throw e;
-        console.error(`${slug}/${pg.name}: the renderer stalled under virtual time (${e.message}); filmed in real time instead`);
+        console.error(`${slug}/${pg.name}: no frame came frame by frame (${e.message}); filmed in real time instead`);
         for (const f of fs.readdirSync(tmp)) fs.rmSync(path.join(tmp, f));
         result = await filmRealTime(pg, tmp, 0);
       }
@@ -215,7 +260,7 @@ for (const pg of pages) {
     fs.rmSync(tmp, { recursive: true, force: true });
   }
 }
-await browser.close();
+for (const b of Object.values(browsers)) await b.close().catch(() => {});
 const manifestFile = path.join(out, "films.json");
 const previous = fs.existsSync(manifestFile) ? JSON.parse(fs.readFileSync(manifestFile, "utf8")) : { films: [] };
 const merged = [...previous.films.filter((f) => !films.some((g) => g.name === f.name)), ...films];
