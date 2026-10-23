@@ -14,8 +14,8 @@
  *                                                 side to side: 1920 wide, a 1080 window, rendered at 2× and scaled
  *   {still: "raw/<file>", seconds, move}          a picture held with a slow move (in, out)
  *   {card: {image, ground}, seconds}              a mark on its ground, held
- * Pace: a page holds 1.6 s, glides at 90 px/s (of its 1440px rendering) for at most 14 s, holds 1.2 s; scenes
- * cross-fade over 0.9 s. Slow on purpose: these play behind the type.
+ * Pace: a page holds 1.6 s, glides at 90 px/s (of its 1440px rendering) for at most 14 s (a tall page is not glided
+ * to its foot), holds 1.2 s; scenes cross-fade over 0.9 s. Slow on purpose: these play behind the type.
  *
  * Writes public/media/work/<slug>/scroll.mp4 (H.264), scroll.webm (VP9, the slow half of every render, so
  * --no-webm leaves it out and --webm-only makes only it) and scroll-poster.jpg (the first frame).
@@ -87,9 +87,11 @@ for (const project of projects) {
       const W2 = W * 2, H2 = H * 2, height = Math.max(H2, Math.round((meta.height * W2) / meta.width));
       const png = path.join(tmp, `${scene.page}.png`);
       await sharp(strip).resize(W2, height, { fit: "cover", position: "top" }).png({ compressionLevel: 1 }).toFile(png);
-      const travel = height - H2;
+      // at the pace, for at most MAX_PAN seconds: a tall strip is not glided to its foot (the pace is the point)
+      const speed = SPEED * (W2 / 1440);
+      const travel = Math.min(height - H2, Math.round(speed * (scene.pan ?? MAX_PAN)));
       const hold = scene.hold ?? HOLD, tail = scene.tail ?? TAIL;
-      const pan = travel ? Math.min(scene.pan ?? MAX_PAN, travel / (SPEED * (W2 / 1440))) : 0;
+      const pan = travel ? travel / speed : 0;
       const duration = hold + pan + tail;
       const y = travel ? `${travel}*${smooth(`clip((t-${hold})/${pan.toFixed(3)}\\,0\\,1)`)}` : "0";
       ff(["-i", png, "-vf", `loop=loop=-1:size=1:start=0,setpts=N/(${FPS}*TB),trim=duration=${duration.toFixed(2)},crop=${W2}:${H2}:0:'${y}',scale=${W}:${H}:flags=lanczos,format=yuv420p`, "-r", String(FPS), ...SEG, seg]);

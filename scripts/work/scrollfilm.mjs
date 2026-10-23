@@ -8,8 +8,8 @@
  *
  * Two ways of filming, chosen per page:
  *   frame by frame (the default), in Chromium's headless shell under BeginFrame control and virtual time: for
- *   each frame the scroll position is set (a smoothstep from the top to the foot: a hold, a glide of at most
- *   --max seconds, a hold), the page's clock is advanced by one frame, and one composited frame is asked for
+ *   each frame the scroll position is set (a smoothstep down the page: a hold, a glide at --speed px/s for at most
+ *   --max seconds, so a tall page is not scrolled to its foot, a hold), the page's clock is advanced by one frame, and one composited frame is asked for
  *   and taken as the picture (HeadlessExperimental.beginFrame), so the capture is deterministic and smooth
  *   however slow the machine, and what runs on the page's own clock and animation frames (reveals, parallax,
  *   counters, a canvas drawing itself) runs in step. Plain screenshots under paused virtual time could not do
@@ -183,9 +183,11 @@ async function open(pg, virtual) {
 }
 
 /** The timeline of a page: a hold, the glide, a hold (in seconds). */
-function timeline(height, scene) {
-  const travel = Math.max(0, height - HEIGHT);
-  const glide = travel ? Math.min(MAX, travel / SPEED) : 0;
+function timeline(height) {
+  // at the pace, for at most MAX seconds: a tall page is not scrolled to its foot (the first films covered the whole
+  // page within the time, so a tall home went at 400 px/s; the pace is the point, Lorenzo, 2026-10-23: "much slower")
+  const travel = Math.min(Math.max(0, height - HEIGHT), SPEED * MAX);
+  const glide = travel / SPEED;
   return { travel, glide, hold: HOLD, tail: travel ? HOLD : HOLD * 0.6, seconds: HOLD + glide + (travel ? HOLD : HOLD * 0.6) };
 }
 
