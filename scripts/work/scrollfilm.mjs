@@ -46,7 +46,7 @@ import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
 
-import { launch, launchHeadlessShell } from "../lib/browser.mjs";
+import { ffmpegPath, launch, launchHeadlessShell } from "../lib/browser.mjs";
 
 const argv = process.argv.slice(2);
 const take = (k, d) => { const i = argv.indexOf(`--${k}`); if (i < 0) return d; const v = argv[i + 1]; argv.splice(i, 2); return v; };
@@ -326,7 +326,7 @@ for (const pg of pages) {
     }
     const file = path.join(out, `film-${pg.name}.mp4`);
     const input = fs.existsSync(path.join(tmp, "list.txt")) ? ["-f", "concat", "-safe", "0", "-i", path.join(tmp, "list.txt")] : ["-framerate", String(FPS), "-i", path.join(tmp, "f-%05d.jpg")];
-    execFileSync("ffmpeg", ["-y", "-loglevel", "error", ...input, "-vf", `scale=${OUTW}:${OUTH}:flags=lanczos,fps=${FPS},format=yuv420p`,
+    execFileSync(ffmpegPath(), ["-y", "-loglevel", "error", ...input, "-vf", `scale=${OUTW}:${OUTH}:flags=lanczos,fps=${FPS},format=yuv420p`,
       "-c:v", "libx264", "-preset", "medium", "-crf", "17", "-movflags", "+faststart", "-an", file]);
     films.push({ name: pg.name, route: pg.route, url: new URL(pg.route, base).href, seconds: Number(result.seconds.toFixed(2)), height: result.height, frames: result.frames, how: result.how });
     console.log(`${slug}/${pg.name}: ${result.frames} frames, ${result.seconds.toFixed(1)} s, page ${result.height}px, ${result.how} → ${path.basename(file)} ${kb(file)}`);

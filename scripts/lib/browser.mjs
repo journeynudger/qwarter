@@ -35,3 +35,16 @@ export async function launchHeadlessShell(options = {}) {
     return chromium.launch({ ...options, executablePath: exe });
   }
 }
+
+/**
+ * ffmpeg: the system's when it is on the PATH, else the build Playwright installs beside its browsers (a GitHub runner
+ * has none on the PATH: the first films there were recorded and then lost to "spawnSync ffmpeg ENOENT").
+ */
+export function ffmpegPath() {
+  const onPath = (process.env.PATH || "").split(path.delimiter).map((d) => path.join(d, process.platform === "win32" ? "ffmpeg.exe" : "ffmpeg")).find((f) => fs.existsSync(f));
+  if (onPath) return onPath;
+  const roots = [process.env.PLAYWRIGHT_BROWSERS_PATH, path.join(os.homedir(), ".cache/ms-playwright"), "/opt/pw-browsers"].filter((r) => r && fs.existsSync(r));
+  const name = process.platform === "win32" ? "ffmpeg-win64.exe" : process.platform === "darwin" ? "ffmpeg-mac" : "ffmpeg-linux";
+  const bundled = roots.flatMap((root) => fs.readdirSync(root).filter((d) => d.startsWith("ffmpeg-")).sort().reverse().map((d) => path.join(root, d, name))).find((f) => fs.existsSync(f));
+  return bundled || "ffmpeg";
+}
