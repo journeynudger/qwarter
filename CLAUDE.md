@@ -186,7 +186,12 @@ from top to foot at 110 px/s, 18 s at most, the fixed header staying and the pin
 strips could not show (Beacon's strip was black stretches). Each page is warmed first (a pass to its foot and back, so
 nothing is filmed as a placeholder: The Room's busts filmed cold were ovals of initials; `|cold` films the first visit).
 Locally for the sites that run here (Stairway, The Room, Painter, Fonts designed, Serein, Journey), on a GitHub runner
-for the live ones (`film_specs` in the capture workflow → `.port-cache/films/<slug>/`, copied into `raw/`). Stairway's
+for the live ones (`film_specs` in the capture workflow → `.port-cache/films/<slug>/`, copied into `raw/`), in real time
+there (`--realtime` on the spec line): under the runner's newer headless shell (Chromium 156; 141 here) the first scroll
+never answers under BeginFrame control, while its full browser's screencast delivers about 50 frames a second, and the
+runner has no ffmpeg (the workflow installs it; the recorder also knows Playwright's bundled build). No step of the
+recorder waits without a limit, a page's attempt is given up after `--page-timeout` seconds, and `--trace` prints each
+step with its time for the runner's log (the first runs there hung a whole site in one step for 25 minutes). Stairway's
 SA-S1 demo is recorded in real time in the full browser (`|live:14`), its Play pressed and a phrase played on its keys
 by the mouse (`|play:C4,E4,G4,…`), with the dev server's demo assets switched on
 (`NEXT_PUBLIC_DEMO_ASSET_BASE_URL=http://localhost:3120/api/demo-assets`: the three placeholder presets, the real
