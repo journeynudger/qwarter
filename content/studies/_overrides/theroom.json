@@ -12,9 +12,9 @@
   "summary": "The Room is a source-grounded library of books, talks, interviews, notes, frameworks, and reusable AI instructions. It turns a static body of thought into a conversation without pretending that the person is literally present.",
   "brief": "The wall is a web version of the Room: a wall of carved reliefs you can stand before and question, a From the wall label for each person with biography, timeline, sources and one verbatim line, an Ask them conversation kept by Mnemosyne, and Carve a name for nominating who belongs next. The table seats up to four people from the wall around a round table, facing each other, and lets them answer a question together and answer one another. The governing distinction: a direct quote is the person's own language and must carry a source; a summary is a compact account of documented material; an application is present-day inference and must be labeled as such.",
   "kind": "Website and conversation",
-  "status": "In preview on Vercel, behind its login",
-  "url": "",
-  "address": "",
+  "status": "Live on Vercel",
+  "url": "https://theroom-five.vercel.app",
+  "address": "theroom-five.vercel.app",
   "figures": [
     {
       "value": "81",
@@ -268,5 +268,5 @@
       }
     ]
   },
-  "source": "the words are the repository's own (journeynudger/theroom: README.md, site/README.md, site/data/i18n/en/ui.json, read 2026-10-22); the pictures its site/figures; photographed from its own build on 2026-10-22. The deployment Lorenzo linked is a Vercel preview behind Vercel's login, so there is no address to send a reader to yet."
+  "source": "the words are the repository's own (journeynudger/theroom: README.md, site/README.md, site/data/i18n/en/ui.json, read 2026-10-22); the pictures its site/figures; photographed from its own build on 2026-10-22. The public address, theroom-five.vercel.app, is the one Lorenzo gave on 2026-10-23 (the preview he first linked is behind Vercel's login); the frames are from the site's own build."
 }
