@@ -1,0 +1,19 @@
+{
+  "slug": "kind-footprint",
+  "base": "https://kindfootprint.org",
+  "shot": "2026-10-23T19:01:24.633Z",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "films": [
+    {
+      "name": "home",
+      "route": "/",
+      "url": "https://kindfootprint.org/",
+      "seconds": 21.2,
+      "height": 9033,
+      "frames": 971,
+      "how": "real time, scrolling"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "2020-insights",
+  "base": "https://2020insights.net",
+  "shot": "2026-10-23T18:47:02.793Z",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "films": [
+    {
+      "name": "home",
+      "route": "/",
+      "url": "https://2020insights.net/",
+      "seconds": 21.2,
+      "height": 4822,
+      "frames": 976,
+      "how": "real time, scrolling"
+    },
+    {
+      "name": "our-story",
+      "route": "/our-story",
+      "url": "https://2020insights.net/our-story",
+      "seconds": 16.49,
+      "height": 2362,
+      "frames": 721,
+      "how": "real time, scrolling"
+    }
+  ]
+}

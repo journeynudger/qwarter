@@ -1,0 +1,28 @@
+{
+  "slug": "ion-insurance",
+  "base": "https://ioninsuranceinc.com",
+  "shot": "2026-10-23T18:52:11.842Z",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "films": [
+    {
+      "name": "home",
+      "route": "/",
+      "url": "https://ioninsuranceinc.com/",
+      "seconds": 21.2,
+      "height": 4928,
+      "frames": 992,
+      "how": "real time, scrolling"
+    },
+    {
+      "name": "about",
+      "route": "/about/",
+      "url": "https://ioninsuranceinc.com/about/",
+      "seconds": 21.2,
+      "height": 5554,
+      "frames": 975,
+      "how": "real time, scrolling"
+    }
+  ]
+}
