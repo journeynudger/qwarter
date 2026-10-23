@@ -69,10 +69,22 @@ for (const pg of pages) {
     await page.goto(url, { waitUntil: pg.live ? "load" : "commit", timeout: 60000 }).catch((e) => console.error(`${slug}/${pg.name}: ${String(e.message).split("\n")[0]}`));
     // the page's own clock stands still while its files arrive; then its entrance is given its time
     await new Promise((r) => setTimeout(r, 2500));
+    // the clock waits for the page's fetches, unless one never ends (a stream, a dev server's socket): after 2.5 s of
+    // real time with no progress the page is given its time regardless, for the rest of this film
+    let freeRunning = false;
     const advance = async (ms) => {
-      const expired = new Promise((resolve) => cdp.once("Emulation.virtualTimeBudgetExpired", resolve));
-      await cdp.send("Emulation.setVirtualTimePolicy", { policy: "pauseIfNetworkFetchesPending", budget: ms, maxVirtualTimeTaskStarvationCount: 100000 });
+      const policy = freeRunning ? "advance" : "pauseIfNetworkFetchesPending";
+      let done;
+      const expired = new Promise((resolve) => { done = resolve; cdp.once("Emulation.virtualTimeBudgetExpired", resolve); });
+      await cdp.send("Emulation.setVirtualTimePolicy", { policy, budget: ms, maxVirtualTimeTaskStarvationCount: 100000 });
+      const timer = setTimeout(async () => {
+        if (freeRunning) return;
+        freeRunning = true;
+        console.error(`${slug}/${pg.name}: a fetch never finished; the clock runs on without it`);
+        await cdp.send("Emulation.setVirtualTimePolicy", { policy: "advance", budget: ms, maxVirtualTimeTaskStarvationCount: 100000 }).catch(() => done());
+      }, 2500);
       await expired;
+      clearTimeout(timer);
     };
     if (!pg.live) await advance(SETTLE);
     // what sits over the page (a cookie bar, a newsletter) is taken off: Escape, then the fixed layers that name themselves

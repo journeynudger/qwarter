@@ -60,7 +60,7 @@ for (const project of projects) {
   }
   const scenes = project.film?.scenes || [
     ...(project.film?.intro && fs.existsSync(path.join(dir, "raw", project.film.intro)) ? [{ clip: `raw/${project.film.intro}`, seconds: INTRO }] : []),
-    ...project.pages.slice(0, PAGES).map((pg) => ({ film: pg.name })),
+    ...project.pages.slice(0, project.featured ? PAGES : 2).map((pg) => ({ film: pg.name })), // a project kept to the Work page: two pages
   ];
   if (project.film?.intro && !fs.existsSync(path.join(dir, "raw", project.film.intro))) console.warn(`${project.slug}: film.intro ${project.film.intro} is not in raw/ (run scripts/port/catalogue.mjs)`);
   const tmp = fs.mkdtempSync(path.join(os.tmpdir(), `qw-${project.slug}-`));
