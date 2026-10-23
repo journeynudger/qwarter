@@ -279,8 +279,8 @@
     {
       "select": "section.block-title.--type_1 figure.media-2 img",
       "attr": {
-        "src": "/media/work/jr-pugh/cover.jpg?v=515de41e7f",
-        "data-src": "/media/work/jr-pugh/cover@2x.jpg?v=8b6bdff214",
+        "src": "/media/work/jr-pugh/cover.jpg?v=d41e0eca67",
+        "data-src": "/media/work/jr-pugh/cover@2x.jpg?v=3a55dcf49f",
         "alt": "JR Pugh",
         "width": "1440",
         "height": "900"
@@ -289,14 +289,14 @@
     {
       "select": "section.block-title.--type_1 figure.media-2 video",
       "attr": {
-        "data-src": "/media/work/jr-pugh/scroll.mp4?v=527f78ef62"
+        "data-src": "/media/work/jr-pugh/scroll.mp4?v=696b902685"
       }
     },
     {
       "select": "section.block-title.--type_1 figure.media-3 img",
       "attr": {
-        "src": "/media/work/butter/cover.jpg?v=d33a6eed7a",
-        "data-src": "/media/work/butter/cover@2x.jpg?v=57877a7250",
+        "src": "/media/work/butter/cover.jpg?v=7d3704a42a",
+        "data-src": "/media/work/butter/cover@2x.jpg?v=7915ff9765",
         "alt": "Butter",
         "width": "1440",
         "height": "900"
@@ -342,8 +342,8 @@
     {
       "select": "section.block-title.--type_2 figure.media-1 img",
       "attr": {
-        "src": "/media/work/jr-pugh/cover.jpg?v=515de41e7f",
-        "data-src": "/media/work/jr-pugh/cover@2x.jpg?v=8b6bdff214",
+        "src": "/media/work/jr-pugh/cover.jpg?v=d41e0eca67",
+        "data-src": "/media/work/jr-pugh/cover@2x.jpg?v=3a55dcf49f",
         "alt": "JR Pugh",
         "width": "1440",
         "height": "900"
@@ -352,14 +352,14 @@
     {
       "select": "section.block-title.--type_2 figure.media-1 video",
       "attr": {
-        "data-src": "/media/work/jr-pugh/scroll.mp4?v=527f78ef62"
+        "data-src": "/media/work/jr-pugh/scroll.mp4?v=696b902685"
       }
     },
     {
       "select": "section.block-title.--type_2 figure.media-2 img",
       "attr": {
-        "src": "/media/work/butter/cover.jpg?v=d33a6eed7a",
-        "data-src": "/media/work/butter/cover@2x.jpg?v=57877a7250",
+        "src": "/media/work/butter/cover.jpg?v=7d3704a42a",
+        "data-src": "/media/work/butter/cover@2x.jpg?v=7915ff9765",
         "alt": "Butter",
         "width": "1440",
         "height": "900"
@@ -421,8 +421,8 @@
     {
       "select": "section.block-title.--type_3 figure.media-1 img",
       "attr": {
-        "src": "/media/work/butter/cover.jpg?v=d33a6eed7a",
-        "data-src": "/media/work/butter/cover@2x.jpg?v=57877a7250",
+        "src": "/media/work/butter/cover.jpg?v=7d3704a42a",
+        "data-src": "/media/work/butter/cover@2x.jpg?v=7915ff9765",
         "alt": "Butter",
         "width": "1440",
         "height": "900"
@@ -469,8 +469,8 @@
     {
       "select": "section.block-title.--type_3 figure.media-4 img",
       "attr": {
-        "src": "/media/work/jr-pugh/cover.jpg?v=515de41e7f",
-        "data-src": "/media/work/jr-pugh/cover@2x.jpg?v=8b6bdff214",
+        "src": "/media/work/jr-pugh/cover.jpg?v=d41e0eca67",
+        "data-src": "/media/work/jr-pugh/cover@2x.jpg?v=3a55dcf49f",
         "alt": "JR Pugh",
         "width": "1440",
         "height": "900"
@@ -479,7 +479,7 @@
     {
       "select": "section.block-title.--type_3 figure.media-4 video",
       "attr": {
-        "data-src": "/media/work/jr-pugh/scroll.mp4?v=527f78ef62"
+        "data-src": "/media/work/jr-pugh/scroll.mp4?v=696b902685"
       }
     },
     {
@@ -532,8 +532,8 @@
     {
       "select": "section.block-title.--type_4 figure.media-3 img",
       "attr": {
-        "src": "/media/work/jr-pugh/cover.jpg?v=515de41e7f",
-        "data-src": "/media/work/jr-pugh/cover@2x.jpg?v=8b6bdff214",
+        "src": "/media/work/jr-pugh/cover.jpg?v=d41e0eca67",
+        "data-src": "/media/work/jr-pugh/cover@2x.jpg?v=3a55dcf49f",
         "alt": "JR Pugh",
         "width": "1440",
         "height": "900"
@@ -542,14 +542,14 @@
     {
       "select": "section.block-title.--type_4 figure.media-3 video",
       "attr": {
-        "data-src": "/media/work/jr-pugh/scroll.mp4?v=527f78ef62"
+        "data-src": "/media/work/jr-pugh/scroll.mp4?v=696b902685"
       }
     },
     {
       "select": "section.block-title.--type_4 figure.media-4 img",
       "attr": {
-        "src": "/media/work/butter/cover.jpg?v=d33a6eed7a",
-        "data-src": "/media/work/butter/cover@2x.jpg?v=57877a7250",
+        "src": "/media/work/butter/cover.jpg?v=7d3704a42a",
+        "data-src": "/media/work/butter/cover@2x.jpg?v=7915ff9765",
         "alt": "Butter",
         "width": "1440",
         "height": "900"
@@ -595,8 +595,8 @@
     {
       "select": "section.block-title.--type_5 figure.media-2 img",
       "attr": {
-        "src": "/media/work/jr-pugh/cover.jpg?v=515de41e7f",
-        "data-src": "/media/work/jr-pugh/cover@2x.jpg?v=8b6bdff214",
+        "src": "/media/work/jr-pugh/cover.jpg?v=d41e0eca67",
+        "data-src": "/media/work/jr-pugh/cover@2x.jpg?v=3a55dcf49f",
         "alt": "JR Pugh",
         "width": "1440",
         "height": "900"
@@ -605,14 +605,14 @@
     {
       "select": "section.block-title.--type_5 figure.media-2 video",
       "attr": {
-        "data-src": "/media/work/jr-pugh/scroll.mp4?v=527f78ef62"
+        "data-src": "/media/work/jr-pugh/scroll.mp4?v=696b902685"
       }
     },
     {
       "select": "section.block-title.--type_5 figure.media-3 img",
       "attr": {
-        "src": "/media/work/butter/cover.jpg?v=d33a6eed7a",
-        "data-src": "/media/work/butter/cover@2x.jpg?v=57877a7250",
+        "src": "/media/work/butter/cover.jpg?v=7d3704a42a",
+        "data-src": "/media/work/butter/cover@2x.jpg?v=7915ff9765",
         "alt": "Butter",
         "width": "1440",
         "height": "900"
@@ -658,8 +658,8 @@
     {
       "select": "section.block-title.--type_6 figure.media-1 img",
       "attr": {
-        "src": "/media/work/jr-pugh/cover.jpg?v=515de41e7f",
-        "data-src": "/media/work/jr-pugh/cover@2x.jpg?v=8b6bdff214",
+        "src": "/media/work/jr-pugh/cover.jpg?v=d41e0eca67",
+        "data-src": "/media/work/jr-pugh/cover@2x.jpg?v=3a55dcf49f",
         "alt": "JR Pugh",
         "width": "1440",
         "height": "900"
@@ -668,14 +668,14 @@
     {
       "select": "section.block-title.--type_6 figure.media-1 video",
       "attr": {
-        "data-src": "/media/work/jr-pugh/scroll.mp4?v=527f78ef62"
+        "data-src": "/media/work/jr-pugh/scroll.mp4?v=696b902685"
       }
     },
     {
       "select": "section.block-title.--type_6 figure.media-2 img",
       "attr": {
-        "src": "/media/work/butter/cover.jpg?v=d33a6eed7a",
-        "data-src": "/media/work/butter/cover@2x.jpg?v=57877a7250",
+        "src": "/media/work/butter/cover.jpg?v=7d3704a42a",
+        "data-src": "/media/work/butter/cover@2x.jpg?v=7915ff9765",
         "alt": "Butter",
         "width": "1440",
         "height": "900"

@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element -- the study's stills are served as they are, at the sizes the recordings share; next/image would wrap and restyle them */
+import { versioned } from "@/lib/assets";
 import { Hydrated } from "@/components/study/hydrated";
 import type { CSSProperties, ReactNode } from "react";
 
@@ -37,7 +38,7 @@ const stack = (family: string, fallback?: string) => `"${family}", ${fallback ==
  * its own pause (every film runs longer than five seconds, WCAG 2.2.2).
  */
 function Film({ media, pill = "corner", className }: { media: StudyMedia; pill?: "corner" | "center" | "icon"; className?: string }) {
-  const video = `<video muted loop playsinline preload="metadata" poster="${media.poster}" aria-label="${media.alt.replace(/"/g, "&quot;")}"><source src="${media.src}" type="video/mp4">${media.webm ? `<source src="${media.webm}" type="video/webm">` : ""}</video>`;
+  const video = `<video muted loop playsinline preload="metadata" poster="${versioned(media.poster)}" aria-label="${media.alt.replace(/"/g, "&quot;")}"><source src="${versioned(media.src)}" type="video/mp4">${media.webm ? `<source src="${versioned(media.webm)}" type="video/webm">` : ""}</video>`;
   return (
     <div className={`st-video${className ? ` ${className}` : ""}`} data-video>
       <div dangerouslySetInnerHTML={{ __html: video }} />

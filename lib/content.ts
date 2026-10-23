@@ -267,6 +267,7 @@ export function pageMarkup(page: Page): string {
     const ending = fs.readFileSync(path.join(CONTENT_DIR, "fragments", "approach-ai.html"), "utf8");
     return html.replace("</article>", `${ending}</article>`);
   }
+  if (page.slug === "work") return html + '<nav class="qw-view-switch" aria-label="Portfolio view"><a href="/work/" aria-current="page" data-internal>Scrolling</a><a href="/work/library/" data-internal>Library</a></nav>';
   if (!page.project) return html;
   const p = getProjects().find((x) => x.slug === page.project);
   if (!p) return html;

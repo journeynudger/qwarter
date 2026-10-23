@@ -1,21 +1,29 @@
-/* The initial brand animation belongs to the first visit, not every document navigation. */
+/* The opening brand animation plays once per tab, across full document navigation. */
 html.qw-returning #Preloader{display:none!important;visibility:hidden!important;pointer-events:none!important}
-/* Full-width menu atmosphere, outside the narrow header so its edges never clip the blur. */
-.qs-header-blur{position:fixed;inset:0 0 auto;z-index:70;width:100%;height:170px;pointer-events:none;background:rgba(0,0,0,.38);-webkit-backdrop-filter:blur(24px);backdrop-filter:blur(24px);-webkit-mask-image:linear-gradient(#000 75%,transparent);mask-image:linear-gradient(#000 75%,transparent);transition:height .6s}
+/* The full-width menu atmosphere appears during scrolling, leaving idle previews clear. */
+.qs-header-blur{position:fixed;inset:0 0 auto;z-index:70;width:100%;height:170px;pointer-events:none;opacity:0;background:rgba(0,0,0,.38);-webkit-backdrop-filter:blur(24px);backdrop-filter:blur(24px);-webkit-mask-image:linear-gradient(#000 75%,transparent);mask-image:linear-gradient(#000 75%,transparent);transition:opacity .35s,height .6s}
 .qs-scrolled .qs-header-blur{height:88px}
 .qs-header,.qs-scrolled .qs-header{background:transparent!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important;border-bottom:0!important}
-#Header__blur>.top{left:0!important;right:0!important;width:100%!important;visibility:visible!important;height:170px!important;background:rgba(0,0,0,.38)!important;-webkit-backdrop-filter:blur(24px)!important;backdrop-filter:blur(24px)!important;-webkit-mask-image:linear-gradient(#000 75%,transparent)!important;mask-image:linear-gradient(#000 75%,transparent)!important}
+#Header__blur>.top{left:0!important;right:0!important;width:100%!important;visibility:visible!important;height:170px!important;opacity:0!important;background:rgba(0,0,0,.38)!important;-webkit-backdrop-filter:blur(24px)!important;backdrop-filter:blur(24px)!important;-webkit-mask-image:linear-gradient(#000 75%,transparent)!important;mask-image:linear-gradient(#000 75%,transparent)!important;transition:opacity .35s!important}
 .qw-header-compact #Header__blur>.top{height:90px!important}
-.st-top{mix-blend-mode:normal!important;background:rgba(0,0,0,.35);-webkit-backdrop-filter:blur(24px);backdrop-filter:blur(24px);width:100%}
-/* Every thumbnail keeps its complete picture, including on hover and on small screens. */
+.st-top{mix-blend-mode:normal!important;width:100%;background:transparent;-webkit-backdrop-filter:none;backdrop-filter:none}
+.qw-menu-scrolling .qs-header-blur{opacity:1}
+.qw-menu-scrolling #Header__blur>.top{opacity:1!important}
+.qw-menu-scrolling .st-top{background:rgba(0,0,0,.35);-webkit-backdrop-filter:blur(24px);backdrop-filter:blur(24px)}
+/* Complete photographs against black, without hover enlargement or light letterboxing. */
 .qs-story-list__image img,.qs-feature__picture img,.qs-cut img,.qs-story-scrap img{object-fit:contain!important;object-position:center!important;transform:none!important}
 .qs-feature:hover img,.qs-story-list a:hover img{transform:none!important}
-.qs-story-list__image{background:#0b0b0b}
+.qs-feature__picture,.qs-feature__picture>img,.qs-cut img,.qs-story-scrap img,.qs-story-list__image,.qs-story-list__image img{background:#080808!important}
 .st-video--film video,.st-picture img,.st-browser__screen img,.st-browser__screen video,.st-phone__screen img,.st-phone__screen video{object-fit:contain!important;object-position:center!important;background:#080808}
+/* Both portfolio presentations use the same unobtrusive, keyboard-accessible view control. */
+.qw-view-switch{position:fixed;bottom:max(24px,env(safe-area-inset-bottom));right:30px;z-index:110;display:flex;gap:4px;padding:5px;border:1px solid #555;border-radius:30px;background:#101010e8;color:#eee;font:16px/1.2 'EB Garamond',serif;box-shadow:0 4px 24px #0008}
+.qw-view-switch a{padding:10px 19px;border-radius:24px;color:inherit;text-decoration:none;white-space:nowrap}
+.qw-view-switch a[aria-current]{background:#eae7e0;color:#111}
+.qw-view-switch a:focus-visible{outline:2px solid #fff;outline-offset:3px}
 @media(max-width:760px){
  .qs-header-blur{height:180px}.qs-scrolled .qs-header-blur{height:90px}
- #Header__blur>.top{height:180px!important}
- .qw-header-compact #Header__blur>.top{height:90px!important}
+ #Header__blur>.top{height:180px!important}.qw-header-compact #Header__blur>.top{height:90px!important}
  .st-top{padding-top:18px;padding-bottom:18px}.st-nav{gap:14px;font-size:14px}
+ .qw-view-switch{right:18px;bottom:max(18px,env(safe-area-inset-bottom));font-size:15px}.qw-view-switch a{padding:9px 16px}
 }
-@media(prefers-reduced-motion:reduce){.qs-header-blur{transition:none}}
+@media(prefers-reduced-motion:reduce){.qs-header-blur,#Header__blur>.top{transition:none!important}}

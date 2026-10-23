@@ -118,3 +118,28 @@ test("the shelf excludes withdrawn material and prioritises the requested six st
     assert.match(reader, /class="qs-enlarge"[^>]*><svg class="qs-icon"/);
   }
 });
+
+test('headlines are single concise phrases and the supplied portrait thumbnails have no white frame', async () => {
+  const sharp = (await import('sharp')).default;
+  for (const story of stories) {
+    assert.deepEqual(story.headline,[story.title]);
+    assert.ok(story.title.split(/\s+/).length <= 8,story.title);
+  }
+  assert.equal(stories.find(story => story.id === 38)?.title,'A Decade of Failure');
+  assert.equal(stories.find(story => story.id === 43)?.title,'Say the Difficult Thing');
+  for (const id of [16,17]) {
+    const image = storyImage(stories.find(story => story.id === id)!)!;
+    const {data,info} = await sharp(path.join(publicDir,image.src)).removeAlpha().raw().toBuffer({resolveWithObject:true});
+    for(const side of ['top','bottom','left','right']) {
+      const count = side === 'top' || side === 'bottom' ? info.width : info.height;
+      let white=0;
+      for(let i=0;i<count;i++) {
+        const x=side==='left'?0:side==='right'?info.width-1:i;
+        const y=side==='top'?0:side==='bottom'?info.height-1:i;
+        const offset=(y*info.width+x)*info.channels;
+        if(data[offset]>245 && data[offset+1]>245 && data[offset+2]>245) white++;
+      }
+      assert.ok(white/count < .99,`${image.src}: white ${side} margin`);
+    }
+  }
+});

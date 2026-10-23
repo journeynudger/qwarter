@@ -181,3 +181,15 @@ features a studio site has, and a fake WordPress REST API. Nothing below says an
 - Changed media URLs receive content hashes so old notebook images and films do not persist in browser caches. Design assets already use this mechanism.
 - Added an offline DOM mode to the existing swap generator using linkedom, preserving the same content transformations without browser access. Original reference CSS/JS remain unchanged.
 - Validation: production build, TypeScript, 29 passing tests (one source-snapshot-dependent check skipped); targeted ESLint. Browser visual QA remains unavailable because the computer-use URL security gate blocks the preview; no alternate browser automation was attempted. Local gallery artwork was inspected directly.
+
+
+## 2026-10-23 — Restore portfolio choice and refine thumbnail sources
+
+- Restored the original carried scrolling portfolio at `/work/`; the newer grid remains available at `/work/library/`. Both expose the same Scrolling / Library control through ordinary document links. The reference build remains unchanged.
+- Moved Beacon, Core Rhythm Fitness and Thanh directly after Butter and JR Pugh, including the Featured strip. Withdrew 20/20 Insights from catalogue generation, routes, case studies and media.
+- Butter's old source capture had already cut off the model's head. Its new cover combines the complete opening frame of its own hero film with its captured navigation and the site's headline/shop action. It is a homepage composition, not a fresh browser screenshot. Both cover sizes and square tiles fit this entire composition without crop.
+- JR Pugh's new 12-second preview fits its own previously sourced reel footage behind its captured homepage navigation/footer. Its cover and poster show a meaningful frame; the Library plays the muted inline loop while visible, with reduced-motion fallback. The scrolling view uses the same film, omitting the arrival loader. Changed media receives hashed URLs, including case-study films.
+- Menu blur is transient across wheel, touch and native scroll: clear at rest, edge-to-edge while moving, fading away after scrolling stops. This leaves the top of previews visible when idle.
+- All 38 Stories use one concise phrase as the display/metadata title. Headlines no longer append a second sentence; article copy and URLs remain intact. Examples: A Decade of Failure; Say the Difficult Thing.
+- Removed white outer padding from 32 story image files, retaining the complete photograph/content. New file names avoid cached white-framed thumbnails. Updated intrinsic sizes and retained sources/credits; image containers use black backgrounds.
+- Validation: 32 passing tests, one unavailable-source-snapshot check skipped; TypeScript, targeted ESLint and production build. Tests cover both portfolio routes, new order, muted inline preview, transient blur, concise titles and the absence of white frames on the IBM/Fairchild examples. Source artwork and preview stills inspected directly. Browser preview remains blocked by the existing computer-use URL security gate; no alternate browser was used.

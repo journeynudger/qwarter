@@ -13,7 +13,7 @@
   ],
   "statement": "JR Pugh, NYC-based actor with a grounded, charismatic, and intelligent on-camera presence.",
   "summary": "jeffvhs.com is five pages: Featured, Acting, Reel, About and Contact. Featured opens on the tease cut from the Brazil reel, a thin rail draining beside it as it plays, and moves on to the four headshots; every page is near-black charcoal with film grain and a vignette, and the one light moment is the About page's modeling section.",
-  "brief": "Built in July 2026 as six static files, then, from August, as the jrpugh WordPress theme, so Jeff swaps the home clip, the reels, the headshots and the r\u00e9sum\u00e9 himself in the Customizer with a native media picker, the design unchanged.",
+  "brief": "Built in July 2026 as six static files, then, from August, as the jrpugh WordPress theme, so Jeff swaps the home clip, the reels, the headshots and the résumé himself in the Customizer with a native media picker, the design unchanged.",
   "kind": "Actor's website",
   "status": "Live at jeffvhs.com",
   "url": "https://jeffvhs.com",
@@ -104,7 +104,7 @@
           "family": "Inter",
           "weight": "400, 600, 700",
           "fallback": "sans-serif",
-          "sample": "JR PUGH \u00b7 Featured Acting Reel About Contact"
+          "sample": "JR PUGH · Featured Acting Reel About Contact"
         }
       ]
     },
@@ -141,7 +141,7 @@
     },
     {
       "title": "Acting",
-      "body": "Four headshots, unlabelled: no numerals, no names, no calls to action. On a phone each is cropped 3:4 and anchored to the top, so the heads stay whole; on a desktop they are the full image at its natural aspect. Under them the blurb and the r\u00e9sum\u00e9.",
+      "body": "Four headshots, unlabelled: no numerals, no names, no calls to action. On a phone each is cropped 3:4 and anchored to the top, so the heads stay whole; on a desktop they are the full image at its natural aspect. Under them the blurb and the résumé.",
       "image": "/media/work/jr-pugh/study/d-acting.jpg",
       "alt": "The Acting page: four colour headshots in a row under the menu.",
       "device": "desktop",
@@ -165,9 +165,9 @@
     },
     {
       "title": "Contact",
-      "body": "Email, phone, NYC, and the r\u00e9sum\u00e9 as a Download Resume button that only prints when there is a file behind it, so it can never be a dead link.",
+      "body": "Email, phone, NYC, and the résumé as a Download Resume button that only prints when there is a file behind it, so it can never be a dead link.",
       "image": "/media/work/jr-pugh/study/d-contact.jpg",
-      "alt": "The Contact page: the email address, the phone number and NYC, with the r\u00e9sum\u00e9 button.",
+      "alt": "The Contact page: the email address, the phone number and NYC, with the résumé button.",
       "device": "desktop",
       "source": "README (Structure: Contact), V5-NOTES (Resume question, answered)"
     },
@@ -180,7 +180,7 @@
     },
     {
       "title": "The theme",
-      "body": "From its fifth version the site is the jrpugh WordPress theme: the home clip, the reel, the four headshots, the four photos behind them and the r\u00e9sum\u00e9 are Customizer fields behind a native media picker. Each stores an attachment, not a URL, and falls back to the file the site shipped with if the field is empty or the attachment is deleted, so clearing a field restores the site and can never produce an empty page. With the panel untouched, the markup is byte-identical to the version before.",
+      "body": "From its fifth version the site is the jrpugh WordPress theme: the home clip, the reel, the four headshots, the four photos behind them and the résumé are Customizer fields behind a native media picker. Each stores an attachment, not a URL, and falls back to the file the site shipped with if the field is empty or the attachment is deleted, so clearing a field restores the site and can never produce an empty page. With the panel untouched, the markup is byte-identical to the version before.",
       "image": "/media/work/jr-pugh/study/theme.jpg",
       "alt": "The jrpugh WordPress theme's own screenshot: the Featured page.",
       "device": "picture",
@@ -191,7 +191,7 @@
     "src": "/media/work/jr-pugh/scroll.mp4",
     "webm": "/media/work/jr-pugh/scroll.webm",
     "poster": "/media/work/jr-pugh/scroll-poster.jpg",
-    "alt": "JR Pugh's film: the splash, then both reels."
+    "alt": "JR Pugh’s homepage preview: the site’s own reel playing behind its captured navigation and footer."
   },
   "recordings": {
     "desktop": {

@@ -34,7 +34,7 @@
         }
       ],
       "fromWordPress": true,
-      "source": "qwarter.com's home page, Selected Work (WordPress page 246530, modified 2026-09-17): linked as butterspreads.com, named \"Butter\"; its line; pictures: butterspreads.com photographed on 2026-10-22 (5 pages); film opens with the film butterspreads.com/ plays (butterspreads.com/cdn/shop/videos/c/vp/779437caafbc49aaa3ffcd25e96d16c5/779437caafbc49aaa3ffcd25e96d16c5.HD-720p-1.6Mbps-60748436.mp4)",
+      "source": "qwarter.com's home page, Selected Work (WordPress page 246530, modified 2026-09-17): linked as butterspreads.com, named \"Butter\"; its line; pictures: butterspreads.com photographed on 2026-10-22 (5 pages); film opens with the film butterspreads.com/ plays (butterspreads.com/cdn/shop/videos/c/vp/779437caafbc49aaa3ffcd25e96d16c5/779437caafbc49aaa3ffcd25e96d16c5.HD-720p-1.6Mbps-60748436.mp4); cover: complete opening hero frame from the site’s own film with its captured navigation, headline and shop button; full-width 1440×900 composition, no image crop (2026-10-23)",
       "film": {
         "intro": "intro.mp4",
         "from": "the film butterspreads.com/ plays (butterspreads.com/cdn/shop/videos/c/vp/779437caafbc49aaa3ffcd25e96d16c5/779437caafbc49aaa3ffcd25e96d16c5.HD-720p-1.6Mbps-60748436.mp4)",
@@ -89,36 +89,123 @@
       ],
       "source": "mylife: Open/_Generated/Clients/2026-07/jeffvhs-site-final (final v2 2026-07-16, v3 2026-07-23; title 'JR Pugh | Actor, NYC'; published at jeffvhs.com per PUBLISH.md); film opens with the splash jeffvhs.com plays on arrival (recorded from the site's own files, scripts/work/record.mjs), then the film jeffvhs.com/ plays (jeffvhs.com, media library 2026/07/brazil-reel-tease.mp4)",
       "film": {
-        "intro": "intro.mp4",
-        "from": "the splash jeffvhs.com plays on arrival (recorded from the site's own files, scripts/work/record.mjs), then the film jeffvhs.com/ plays (jeffvhs.com, media library 2026/07/brazil-reel-tease.mp4)",
         "scenes": [
           {
-            "clip": "raw/loader.mp4",
-            "seconds": 3.9
-          },
-          {
-            "clip": "raw/reel-01.mp4",
-            "from": 20,
-            "seconds": 13,
-            "speed": 0.8
-          },
-          {
-            "film": "about"
-          },
-          {
-            "clip": "raw/reel-02.mp4",
-            "from": 16,
-            "seconds": 13,
-            "speed": 0.8
+            "clip": "raw/home-preview.mp4",
+            "seconds": 12
           }
         ],
-        "source": "the splash (recorded from the site's own files, scripts/work/record.mjs), both reels jeffvhs.com plays at eight tenths of their speed (Lorenzo, 2026-10-23: show both, a little slower), and the About page filmed scrolling on a GitHub runner in real time between them (Lorenzo: show the about page)"
+        "source": "A twelve-second loop of the website’s own Brazil reel footage, fitted whole behind its captured homepage navigation and footer. Extracted from the previously sourced jeffvhs.com reel; arrival loader omitted so the portfolio never opens on an empty frame (Lorenzo, 2026-10-23)."
       },
       "featured": true
     },
     {
-      "slug": "stairway",
+      "slug": "ignite-beacon",
+      "name": "Beacon",
+      "url": "https://ignitebeacon.com",
+      "line": "Light up when you're down.",
+      "made": "Website",
+      "year": null,
+      "cover": "home",
+      "pages": [
+        {
+          "name": "home",
+          "title": "Home"
+        },
+        {
+          "name": "support",
+          "title": "Support"
+        }
+      ],
+      "fromWordPress": true,
+      "source": "qwarter.com's home page, Selected Work (WordPress page 246530, modified 2026-09-17): linked as ignitebeacon.com, with a picture and no words; name: the site's own title \"beacon — the night awaits\"; line: the site's own description; pictures: ignitebeacon.com photographed on 2026-10-22 (2 pages)",
       "numeral": "III",
+      "featured": true,
+      "film": {
+        "source": "ignitebeacon.com filmed scrolling by the capture workflow (scripts/work/scrollfilm.mjs on a GitHub runner), its pinned sections as the browser shows them (Lorenzo, 2026-10-23: cleaner)"
+      }
+    },
+    {
+      "slug": "core-rhythm-fitness",
+      "name": "Core Rhythm Fitness",
+      "url": "https://corerhythmfitness.net",
+      "line": "Core Rhythm Fitness",
+      "made": "Website",
+      "year": null,
+      "cover": "home",
+      "pages": [
+        {
+          "name": "home",
+          "title": "Home"
+        },
+        {
+          "name": "about",
+          "title": "About"
+        },
+        {
+          "name": "how-it-works",
+          "title": "How It Works"
+        },
+        {
+          "name": "connect",
+          "title": "Connect"
+        }
+      ],
+      "fromWordPress": true,
+      "source": "qwarter.com's home page, Selected Work (WordPress page 246530, modified 2026-09-17): linked as corerhythmfitness.net, with a picture and no words; name: the site's own title \"CORE RHYTHM FITNESS\"; line: the site's own title; pictures: corerhythmfitness.net photographed on 2026-10-22 (4 pages)",
+      "numeral": "IV",
+      "featured": true
+    },
+    {
+      "slug": "thanh-ta",
+      "name": "Thanh Ta",
+      "url": "https://thanhta.com",
+      "line": "Wellness, New York, NY",
+      "made": "Website design & Acuity integration",
+      "year": "2023",
+      "facts": {
+        "industry type": "Wellness",
+        "location": "New York, NY",
+        "services": "Pilates"
+      },
+      "about": "Thanh’s method focuses on four pillars of wellness: alignment, positioning, movement, and bodywork.",
+      "cover": "img-01",
+      "pages": [
+        {
+          "name": "img-01",
+          "title": "Picture 1"
+        },
+        {
+          "name": "img-02",
+          "title": "Picture 2"
+        }
+      ],
+      "fromWordPress": true,
+      "source": "name, service line, year, live site and facts from qwarter.com/portfolio/thanh-ta/ (WordPress page 246271, modified 2026-09-16); line: the case study's Industry Type and Location; pictures: the ones the case study shows (its media library), 2 of them",
+      "numeral": "V",
+      "featured": true,
+      "film": {
+        "scenes": [
+          {
+            "card": {
+              "image": "raw/logo.png",
+              "ground": "#c1c1c1"
+            },
+            "seconds": 3.4
+          },
+          {
+            "page": "img-01"
+          },
+          {
+            "page": "img-02"
+          }
+        ],
+        "source": "the logo (Thanhlogotrans.png, qwarter.com's media library) on the case study's grey, then the two screens the case study shows, glided down slowly; thanhta.com no longer answers"
+      }
+    },
+    {
+      "slug": "stairway",
+      "numeral": "VI",
       "name": "Stairway Audio",
       "url": "https://stairway.audio",
       "line": "Analog Tone. Digital Soul.",
@@ -163,7 +250,7 @@
     },
     {
       "slug": "serein",
-      "numeral": "IV",
+      "numeral": "VII",
       "name": "Serein",
       "url": "https://withserein.com",
       "line": "Your thoughts, always with you.",
@@ -196,7 +283,7 @@
     },
     {
       "slug": "theroom",
-      "numeral": "V",
+      "numeral": "VIII",
       "name": "The Room",
       "url": "https://theroom-five.vercel.app",
       "line": "A wall of the minds that shaped how you think.",
@@ -238,7 +325,7 @@
     },
     {
       "slug": "bambino",
-      "numeral": "VI",
+      "numeral": "IX",
       "name": "Paintings",
       "url": "https://bambino-1dtu.vercel.app/gallery",
       "line": "The paintings of Lorenzo Scardicchio.",
@@ -260,7 +347,7 @@
     },
     {
       "slug": "lorenzo-type",
-      "numeral": "VII",
+      "numeral": "X",
       "name": "Fonts designed",
       "url": "https://lorenzoscardicchio.com",
       "line": "Four families, seventeen styles, from the mailroom.",
@@ -315,87 +402,6 @@
       }
     },
     {
-      "slug": "2020-insights",
-      "name": "20/20 Insights",
-      "url": "https://2020insights.net",
-      "line": "Human Resources Technology, California",
-      "made": "Software development & design",
-      "year": "2024",
-      "facts": {
-        "industry type": "Human Resources Technology",
-        "location": "California",
-        "company size": "Start Up",
-        "website": ""
-      },
-      "about": "20/20 Insights is designed to seamlessly fit into the organization’s daily life, providing real-time management and actionable insights.",
-      "cover": "home",
-      "pages": [
-        {
-          "name": "home",
-          "title": "Home"
-        },
-        {
-          "name": "our-story",
-          "title": "Our Story"
-        },
-        {
-          "name": "perspectives",
-          "title": "Perspectives"
-        }
-      ],
-      "fromWordPress": true,
-      "source": "name, service line, year, live site and facts from qwarter.com/portfolio/2020-insights/ (WordPress page 246379, modified 2026-09-16); line: the case study's Industry Type and Location; pictures: 2020insights.net photographed on 2026-10-22 (3 pages, titles the site's own)",
-      "numeral": "VIII",
-      "featured": false
-    },
-    {
-      "slug": "thanh-ta",
-      "name": "Thanh Ta",
-      "url": "https://thanhta.com",
-      "line": "Wellness, New York, NY",
-      "made": "Website design & Acuity integration",
-      "year": "2023",
-      "facts": {
-        "industry type": "Wellness",
-        "location": "New York, NY",
-        "services": "Pilates"
-      },
-      "about": "Thanh’s method focuses on four pillars of wellness: alignment, positioning, movement, and bodywork.",
-      "cover": "img-01",
-      "pages": [
-        {
-          "name": "img-01",
-          "title": "Picture 1"
-        },
-        {
-          "name": "img-02",
-          "title": "Picture 2"
-        }
-      ],
-      "fromWordPress": true,
-      "source": "name, service line, year, live site and facts from qwarter.com/portfolio/thanh-ta/ (WordPress page 246271, modified 2026-09-16); line: the case study's Industry Type and Location; pictures: the ones the case study shows (its media library), 2 of them",
-      "numeral": "IX",
-      "featured": true,
-      "film": {
-        "scenes": [
-          {
-            "card": {
-              "image": "raw/logo.png",
-              "ground": "#c1c1c1"
-            },
-            "seconds": 3.4
-          },
-          {
-            "page": "img-01"
-          },
-          {
-            "page": "img-02"
-          }
-        ],
-        "source": "the logo (Thanhlogotrans.png, qwarter.com's media library) on the case study's grey, then the two screens the case study shows, glided down slowly; thanhta.com no longer answers"
-      }
-    },
-    {
       "slug": "ion-insurance",
       "name": "Ion Insurance",
       "url": "https://ioninsuranceinc.com",
@@ -430,7 +436,7 @@
       ],
       "fromWordPress": true,
       "source": "name, service line, year, live site and facts from qwarter.com/portfolio/ion-insurance/ (WordPress page 246889, modified 2026-09-16); line: the case study's Industry Type and Location; pictures: ioninsuranceinc.com photographed on 2026-10-22 (4 pages, titles the site's own)",
-      "numeral": "X",
+      "numeral": "XI",
       "featured": false
     },
     {
@@ -479,7 +485,7 @@
         ],
         "source": "the render film qwarter.com's portfolio page plays behind Titanium Motor Arts, whole, 4K (Lorenzo, 2026-10-23: the high-definition one)"
       },
-      "numeral": "XI",
+      "numeral": "XII",
       "featured": true
     },
     {
@@ -509,7 +515,7 @@
       ],
       "fromWordPress": true,
       "source": "name, service line, year, live site and facts from qwarter.com/portfolio/wood-company/ (WordPress page 245520, modified 2026-09-16); line from qwarter.com/portfolio/ (its slider); pictures: the ones the case study shows (its media library), 2 of them",
-      "numeral": "XII",
+      "numeral": "XIII",
       "featured": false
     },
     {
@@ -542,7 +548,7 @@
       ],
       "fromWordPress": true,
       "source": "name, service line, year, live site and facts from qwarter.com/portfolio/boujee-healer/ (WordPress page 245435, modified 2026-09-16); line: the case study's Industry Type and Location; pictures: theboujeehealer.com photographed on 2026-10-22 (3 pages, titles the site's own)",
-      "numeral": "XIII",
+      "numeral": "XIV",
       "featured": false
     },
     {
@@ -580,64 +586,7 @@
       ],
       "fromWordPress": true,
       "source": "name, service line, year, live site and facts from qwarter.com/portfolio/pineapple-club/ (WordPress page 245312, modified 2026-09-16); line from qwarter.com/portfolio/ (its slider); pictures: pineappleclub.com photographed on 2026-10-22 (4 pages, titles the site's own)",
-      "numeral": "XIV",
-      "featured": false
-    },
-    {
-      "slug": "ignite-beacon",
-      "name": "Beacon",
-      "url": "https://ignitebeacon.com",
-      "line": "Light up when you're down.",
-      "made": "Website",
-      "year": null,
-      "cover": "home",
-      "pages": [
-        {
-          "name": "home",
-          "title": "Home"
-        },
-        {
-          "name": "support",
-          "title": "Support"
-        }
-      ],
-      "fromWordPress": true,
-      "source": "qwarter.com's home page, Selected Work (WordPress page 246530, modified 2026-09-17): linked as ignitebeacon.com, with a picture and no words; name: the site's own title \"beacon — the night awaits\"; line: the site's own description; pictures: ignitebeacon.com photographed on 2026-10-22 (2 pages)",
       "numeral": "XV",
-      "featured": true,
-      "film": {
-        "source": "ignitebeacon.com filmed scrolling by the capture workflow (scripts/work/scrollfilm.mjs on a GitHub runner), its pinned sections as the browser shows them (Lorenzo, 2026-10-23: cleaner)"
-      }
-    },
-    {
-      "slug": "core-rhythm-fitness",
-      "name": "Core Rhythm Fitness",
-      "url": "https://corerhythmfitness.net",
-      "line": "Core Rhythm Fitness",
-      "made": "Website",
-      "year": null,
-      "cover": "home",
-      "pages": [
-        {
-          "name": "home",
-          "title": "Home"
-        },
-        {
-          "name": "about",
-          "title": "About"
-        },
-        {
-          "name": "how-it-works",
-          "title": "How It Works"
-        },
-        {
-          "name": "connect",
-          "title": "Connect"
-        }
-      ],
-      "fromWordPress": true,
-      "source": "qwarter.com's home page, Selected Work (WordPress page 246530, modified 2026-09-17): linked as corerhythmfitness.net, with a picture and no words; name: the site's own title \"CORE RHYTHM FITNESS\"; line: the site's own title; pictures: corerhythmfitness.net photographed on 2026-10-22 (4 pages)",
-      "numeral": "XVI",
       "featured": false
     }
   ],

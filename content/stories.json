@@ -2,10 +2,9 @@
   {
     "id": 39,
     "slug": "dario-amodei-and-looking-beyond-the-resume",
-    "title": "Dario Amodei and looking beyond the resume",
+    "title": "Beyond the Resume",
     "headline": [
-      "Look past the résumé.",
-      "Find the person."
+      "Beyond the Resume"
     ],
     "company": "Anthropic",
     "category": "Direction",
@@ -69,10 +68,9 @@
   {
     "id": 43,
     "slug": "jensen-huang-sega-and-the-deal-that-kept-nvidia-alive",
-    "title": "Jensen Huang, Sega, and the deal that kept NVIDIA alive",
+    "title": "Say the Difficult Thing",
     "headline": [
-      "Say the difficult thing.",
-      "Give the future a chance."
+      "Say the Difficult Thing"
     ],
     "company": "NVIDIA",
     "category": "Resilience",
@@ -160,10 +158,9 @@
   {
     "id": 38,
     "slug": "tony-fadell-and-the-decade-before-the-ipod",
-    "title": "Tony Fadell and the decade before the iPod",
+    "title": "A Decade of Failure",
     "headline": [
-      "A decade of failure.",
-      "A product that changed everything."
+      "A Decade of Failure"
     ],
     "company": "Apple",
     "category": "Craft",
@@ -179,9 +176,9 @@
     "hero": 0,
     "images": [
       {
-        "src": "/media/stories/additions/ipod-first-generation.webp",
-        "width": 1306,
-        "height": 932,
+        "src": "/media/stories/additions/ipod-first-generation-clean.webp",
+        "width": 439,
+        "height": 713,
         "alt": "First-generation Apple iPod with mechanical scroll wheel",
         "caption": "The original iPod, introduced on 23 October 2001.",
         "credit": "Apple / Apple Newsroom",
@@ -228,10 +225,9 @@
   {
     "id": 40,
     "slug": "cristiano-ronaldo-and-the-work-that-compounds",
-    "title": "Cristiano Ronaldo and the work that compounds",
+    "title": "The Work Compounds",
     "headline": [
-      "The talent was there.",
-      "The work kept compounding."
+      "The Work Compounds"
     ],
     "company": "Cristiano Ronaldo",
     "category": "Craft",
@@ -302,8 +298,7 @@
     "slug": "the-cola-wars",
     "title": "The Cola Wars",
     "headline": [
-      "The taste",
-      "of belonging."
+      "The Cola Wars"
     ],
     "company": "Coca-Cola & Pepsi",
     "category": "Brand",
@@ -399,9 +394,9 @@
         "originalFile": "images/17-065.webp"
       },
       {
-        "src": "/media/stories/the-cola-wars/17-081.webp",
-        "width": 1190,
-        "height": 506,
+        "src": "/media/stories/the-cola-wars/17-081-clean.webp",
+        "width": 1130,
+        "height": 478,
         "alt": "The PepsiCo brand portfolio.",
         "caption": "The PepsiCo brand portfolio.",
         "source": "https://profitsnack.com/p/158",
@@ -409,9 +404,9 @@
         "originalFile": "images/17-081.webp"
       },
       {
-        "src": "/media/stories/the-cola-wars/17-087.webp",
-        "width": 1292,
-        "height": 780,
+        "src": "/media/stories/the-cola-wars/17-087-clean.webp",
+        "width": 1096,
+        "height": 736,
         "alt": "A revenue and profit comparison from the supplied article.",
         "caption": "A revenue and profit comparison from the supplied article.",
         "source": "https://profitsnack.com/p/158",
@@ -711,10 +706,9 @@
   {
     "id": 42,
     "slug": "amazon-and-the-principles-that-outlast-a-quarter",
-    "title": "Amazon and the principles that outlast a quarter",
+    "title": "A Contract with the Future",
     "headline": [
-      "Write the principles.",
-      "Keep clearing the bar."
+      "A Contract with the Future"
     ],
     "company": "Amazon",
     "category": "Direction",
@@ -730,9 +724,9 @@
     "hero": 0,
     "images": [
       {
-        "src": "/media/stories/additions/amazon-1997-letter.webp",
-        "width": 1280,
-        "height": 720,
+        "src": "/media/stories/additions/amazon-1997-letter-clean.webp",
+        "width": 735,
+        "height": 282,
         "alt": "Amazon.com heading for the 1997 letter to shareholders",
         "caption": "The heading of Amazon’s 1997 shareholder letter, reprinted alongside its 2021 letter.",
         "credit": "Amazon / About Amazon",
@@ -741,9 +735,9 @@
         "originalUrl": "https://assets.aboutamazon.com/dims4/default/54ac031/2147483647/strip/true/crop/1280x720+0+0/resize/1280x720!/quality/90/?url=https%3A%2F%2Fassets.aboutamazon.com%2F04%2Fba%2Fee1dd74747198610bf3117e07552%2Fblack-and-white-amazon.com%2520shareholder%2520letter.jpg"
       },
       {
-        "src": "/media/stories/additions/amazon-supplied-letter-excerpt.webp",
-        "width": 1320,
-        "height": 1650,
+        "src": "/media/stories/additions/amazon-supplied-letter-excerpt-clean.webp",
+        "width": 1258,
+        "height": 1612,
         "alt": "Supplied excerpt showing Andy Jassy’s sign-off and the reprinted 1997 Amazon shareholder letter",
         "caption": "The supplied letter excerpt shows the transition from Andy Jassy’s sign-off to the original 1997 letter. The year of the surrounding letter is not visible.",
         "credit": "Amazon; screenshot supplied by the reader",
@@ -838,10 +832,9 @@
   {
     "id": 7,
     "slug": "the-imac-and-the-work-behind-simplicity",
-    "title": "The iMac and the work behind simplicity",
+    "title": "The Work Behind Simplicity",
     "headline": [
-      "Simplicity takes",
-      "a little obsession."
+      "The Work Behind Simplicity"
     ],
     "company": "Apple",
     "category": "Craft",
@@ -918,10 +911,9 @@
   {
     "id": 4,
     "slug": "superhuman-and-defining-the-target-customer",
-    "title": "Superhuman and defining the target customer",
+    "title": "Choose Your Customer",
     "headline": [
-      "Know exactly",
-      "who you are for."
+      "Choose Your Customer"
     ],
     "company": "Superhuman",
     "category": "Direction",
@@ -981,10 +973,9 @@
   {
     "id": 5,
     "slug": "mary-barra-and-remembering-a-crisis",
-    "title": "Mary Barra and remembering a crisis",
+    "title": "Remember the Crisis",
     "headline": [
-      "Some lessons",
-      "must stay with us."
+      "Remember the Crisis"
     ],
     "company": "General Motors",
     "category": "Resilience",
@@ -1044,10 +1035,9 @@
   {
     "id": 6,
     "slug": "julia-hartz-and-learning-to-trust-instinct",
-    "title": "Julia Hartz and learning to trust instinct",
+    "title": "Trust Your Instinct",
     "headline": [
-      "Instinct is earned",
-      "in the quiet years."
+      "Trust Your Instinct"
     ],
     "company": "Eventbrite",
     "category": "Resilience",
@@ -1117,10 +1107,9 @@
   {
     "id": 9,
     "slug": "william-wrigley-and-discovering-the-real-product",
-    "title": "William Wrigley and discovering the real product",
+    "title": "The Real Product",
     "headline": [
-      "The real product",
-      "was the free gift."
+      "The Real Product"
     ],
     "company": "Wrigley",
     "category": "Direction",
@@ -1188,10 +1177,9 @@
   {
     "id": 10,
     "slug": "marvel-and-financing-its-own-films",
-    "title": "Marvel and financing its own films",
+    "title": "Bet on Your Own Stories",
     "headline": [
-      "Bet on the story",
-      "you already own."
+      "Bet on Your Own Stories"
     ],
     "company": "Marvel",
     "category": "Growth",
@@ -1251,10 +1239,9 @@
   {
     "id": 11,
     "slug": "lisa-su-and-the-amd-turnaround",
-    "title": "Lisa Su and the AMD turnaround",
+    "title": "Run Toward Problems",
     "headline": [
-      "Find your strength.",
-      "Stay with it."
+      "Run Toward Problems"
     ],
     "company": "AMD",
     "category": "Resilience",
@@ -1314,10 +1301,9 @@
   {
     "id": 13,
     "slug": "rolex-and-foundation-ownership",
-    "title": "Rolex and foundation ownership",
+    "title": "Built to Last",
     "headline": [
-      "The freedom",
-      "to take your time."
+      "Built to Last"
     ],
     "company": "Rolex",
     "category": "Craft",
@@ -1377,10 +1363,9 @@
   {
     "id": 14,
     "slug": "ford-and-the-loan-that-saved-the-company",
-    "title": "Ford and the loan that saved the company",
+    "title": "Borrow While You Can",
     "headline": [
-      "Borrow time.",
-      "Build a future."
+      "Borrow While You Can"
     ],
     "company": "Ford",
     "category": "Resilience",
@@ -1472,10 +1457,9 @@
   {
     "id": 15,
     "slug": "lionel-messi-and-lamine-yamal-photograph",
-    "title": "Lionel Messi and Lamine Yamal photograph",
+    "title": "An Ordinary Miracle",
     "headline": [
-      "Ordinary decisions.",
-      "An extraordinary story."
+      "An Ordinary Miracle"
     ],
     "company": "Messi & Yamal",
     "category": "Direction",
@@ -1531,10 +1515,9 @@
   {
     "id": 16,
     "slug": "lou-gerstner-and-the-ibm-turnaround",
-    "title": "Lou Gerstner and the IBM turnaround",
+    "title": "Keep It Together",
     "headline": [
-      "Keep the pieces.",
-      "Change the culture."
+      "Keep It Together"
     ],
     "company": "IBM",
     "category": "Resilience",
@@ -1550,8 +1533,8 @@
     "hero": 0,
     "images": [
       {
-        "src": "/media/stories/reference/lou-gerstner.webp",
-        "width": 1434,
+        "src": "/media/stories/reference/lou-gerstner-clean.webp",
+        "width": 754,
         "height": 751,
         "alt": "Lou Gerstner, former chairman and CEO of IBM",
         "caption": "Lou Gerstner, former chairman and CEO of IBM.",
@@ -1612,10 +1595,9 @@
   {
     "id": 17,
     "slug": "arthur-rock-and-the-eight-scientists",
-    "title": "Arthur Rock and the eight scientists",
+    "title": "Bet on People",
     "headline": [
-      "Back the people.",
-      "See what follows."
+      "Bet on People"
     ],
     "company": "Fairchild",
     "category": "Growth",
@@ -1631,9 +1613,9 @@
     "hero": 0,
     "images": [
       {
-        "src": "/media/stories/reference/fairchild-founders.webp",
+        "src": "/media/stories/reference/fairchild-founders-clean.webp",
         "width": 800,
-        "height": 800,
+        "height": 695,
         "alt": "The eight co-founders of Fairchild Semiconductor gathered in the company lobby",
         "caption": "The eight co-founders of Fairchild Semiconductor gathered in the company lobby.",
         "source": "https://www.computerhistory.org/siliconengine/silicon-mesa-transistors-enter-commercial-production/",
@@ -1701,10 +1683,9 @@
   {
     "id": 18,
     "slug": "domino-s-the-pizza-turnaround",
-    "title": "Domino’s: The Pizza Turnaround",
+    "title": "The Pizza Turnaround",
     "headline": [
-      "First, make",
-      "a better pizza."
+      "The Pizza Turnaround"
     ],
     "company": "Domino’s",
     "category": "Resilience",
@@ -1740,9 +1721,9 @@
         "originalFile": "images/01-024.webp"
       },
       {
-        "src": "/media/stories/domino-s-the-pizza-turnaround/01-038.webp",
-        "width": 1383,
-        "height": 906,
+        "src": "/media/stories/domino-s-the-pizza-turnaround/01-038-clean.webp",
+        "width": 1330,
+        "height": 900,
         "alt": "Customer feedback became part of the turnaround campaign.",
         "caption": "Customer feedback became part of the turnaround campaign.",
         "source": "https://profitsnack.com/p/dominos",
@@ -1950,10 +1931,9 @@
   {
     "id": 19,
     "slug": "yeti-building-a-premium-brand-in-a-commodity-market",
-    "title": "YETI: Building a Premium Brand in a Commodity Market",
+    "title": "Built for the Wild",
     "headline": [
-      "A cooler with",
-      "a different ambition."
+      "Built for the Wild"
     ],
     "company": "YETI",
     "category": "Brand",
@@ -2134,10 +2114,9 @@
   {
     "id": 20,
     "slug": "carvana-the-car-dealer-that-rewrote-its-own-debt",
-    "title": "Carvana: The Car Dealer That Rewrote Its Own Debt",
+    "title": "Rewrite the Deal",
     "headline": [
-      "The road back",
-      "from almost gone."
+      "Rewrite the Deal"
     ],
     "company": "Carvana",
     "category": "Resilience",
@@ -2322,10 +2301,9 @@
   {
     "id": 21,
     "slug": "how-chipotle-went-from-food-poisoning-to-a-decade-of-growth",
-    "title": "How Chipotle Went From Food Poisoning to a Decade of Growth",
+    "title": "Rebuilding Trust",
     "headline": [
-      "First, rebuild",
-      "the trust."
+      "Rebuilding Trust"
     ],
     "company": "Chipotle",
     "category": "Resilience",
@@ -2361,9 +2339,9 @@
         "originalFile": "images/04-030.webp"
       },
       {
-        "src": "/media/stories/how-chipotle-went-from-food-poisoning-to-a-decade-of-growth/04-035.webp",
-        "width": 1800,
-        "height": 484,
+        "src": "/media/stories/how-chipotle-went-from-food-poisoning-to-a-decade-of-growth/04-035-clean.webp",
+        "width": 1755,
+        "height": 413,
         "alt": "Chipotle’s restaurant identity.",
         "caption": "Chipotle’s restaurant identity.",
         "source": "https://profitsnack.com/p/chipotle",
@@ -2494,10 +2472,9 @@
   {
     "id": 22,
     "slug": "crocs-the-ugly-shoe-that-out-margined-nike",
-    "title": "Crocs: The Ugly Shoe That Out-Margined Nike",
+    "title": "The Ugly Shoe",
     "headline": [
-      "The art of",
-      "owning your oddness."
+      "The Ugly Shoe"
     ],
     "company": "Crocs",
     "category": "Brand",
@@ -2533,9 +2510,9 @@
         "originalFile": "images/05-027.webp"
       },
       {
-        "src": "/media/stories/crocs-the-ugly-shoe-that-out-margined-nike/05-037.webp",
-        "width": 1382,
-        "height": 1043,
+        "src": "/media/stories/crocs-the-ugly-shoe-that-out-margined-nike/05-037-clean.webp",
+        "width": 1284,
+        "height": 948,
         "alt": "Crocs’ limited collaboration with Pokémon.",
         "caption": "Crocs’ limited collaboration with Pokémon.",
         "source": "https://profitsnack.com/p/crocs",
@@ -2692,10 +2669,9 @@
   {
     "id": 23,
     "slug": "skool-turning-a-fragmented-experience-into-a-community",
-    "title": "Skool: Turning a Fragmented Experience Into a Community",
+    "title": "A Place to Belong",
     "headline": [
-      "Make it simple",
-      "to belong."
+      "A Place to Belong"
     ],
     "company": "Skool",
     "category": "Growth",
@@ -2721,9 +2697,9 @@
         "originalFile": "images/06-032.webp"
       },
       {
-        "src": "/media/stories/skool-turning-a-fragmented-experience-into-a-community/06-071.webp",
-        "width": 687,
-        "height": 501,
+        "src": "/media/stories/skool-turning-a-fragmented-experience-into-a-community/06-071-clean.webp",
+        "width": 636,
+        "height": 463,
         "alt": "Courses, community and calls scattered across separate tools.",
         "caption": "Courses, community and calls scattered across separate tools.",
         "source": "https://profitsnack.com/p/skool",
@@ -2731,9 +2707,9 @@
         "originalFile": "images/06-071.webp"
       },
       {
-        "src": "/media/stories/skool-turning-a-fragmented-experience-into-a-community/06-078.webp",
-        "width": 858,
-        "height": 293,
+        "src": "/media/stories/skool-turning-a-fragmented-experience-into-a-community/06-078-clean.webp",
+        "width": 803,
+        "height": 247,
         "alt": "Skool brings the separate parts of the learning experience together.",
         "caption": "Skool brings the separate parts of the learning experience together.",
         "source": "https://profitsnack.com/p/skool",
@@ -2943,10 +2919,9 @@
   {
     "id": 24,
     "slug": "coda-the-document-that-sold-itself",
-    "title": "Coda: The Document That Sold Itself",
+    "title": "The Document That Sold Itself",
     "headline": [
-      "Show what",
-      "a blank page can be."
+      "The Document That Sold Itself"
     ],
     "company": "Coda",
     "category": "Growth",
@@ -3129,10 +3104,9 @@
   {
     "id": 25,
     "slug": "zoominfo-winning-the-buyer-who-wants-to-switch",
-    "title": "ZoomInfo: Winning the Buyer Who Wants to Switch",
+    "title": "Win the Switch",
     "headline": [
-      "Be there when",
-      "the buyer is ready."
+      "Win the Switch"
     ],
     "company": "ZoomInfo",
     "category": "Growth",
@@ -3319,10 +3293,9 @@
   {
     "id": 26,
     "slug": "celonis-finding-the-value-hidden-in-business-processes",
-    "title": "Celonis: Finding the Value Hidden in Business Processes",
+    "title": "Find the Hidden Value",
     "headline": [
-      "Make the invisible",
-      "visible."
+      "Find the Hidden Value"
     ],
     "company": "Celonis",
     "category": "Craft",
@@ -3338,9 +3311,9 @@
     "hero": 0,
     "images": [
       {
-        "src": "/media/stories/celonis-finding-the-value-hidden-in-business-processes/09-brand.webp",
+        "src": "/media/stories/celonis-finding-the-value-hidden-in-business-processes/09-brand-clean.webp",
         "width": 1568,
-        "height": 1006,
+        "height": 1002,
         "alt": "A Celonis process-analysis view makes deviations visible.",
         "caption": "A Celonis process-analysis view makes deviations visible.",
         "source": "https://docs.celonis.com/en/process-ai.html",
@@ -3475,10 +3448,9 @@
   {
     "id": 27,
     "slug": "trader-joe-s-the-grocery-store-that-beat-the-giants",
-    "title": "Trader Joe’s: The Grocery Store That Beat the Giants",
+    "title": "Beat the Giants",
     "headline": [
-      "A smaller store.",
-      "A bigger point of view."
+      "Beat the Giants"
     ],
     "company": "Trader Joe’s",
     "category": "Brand",
@@ -3657,10 +3629,9 @@
   {
     "id": 28,
     "slug": "whole-foods-the-13-billion-store",
-    "title": "Whole Foods: The $13 Billion Store",
+    "title": "The $13 Billion Store",
     "headline": [
-      "A different way",
-      "to fill the shelves."
+      "The $13 Billion Store"
     ],
     "company": "Whole Foods",
     "category": "Brand",
@@ -3931,10 +3902,9 @@
   {
     "id": 29,
     "slug": "oreo-the-world-s-best-selling-cookie",
-    "title": "Oreo: The World’s Best-Selling Cookie",
+    "title": "The World’s Best-Selling Cookie",
     "headline": [
-      "The same cookie.",
-      "A different conversation."
+      "The World’s Best-Selling Cookie"
     ],
     "company": "Oreo",
     "category": "Brand",
@@ -3960,9 +3930,9 @@
         "originalFile": "images/12-010.webp"
       },
       {
-        "src": "/media/stories/oreo-the-world-s-best-selling-cookie/12-033.webp",
-        "width": 958,
-        "height": 862,
+        "src": "/media/stories/oreo-the-world-s-best-selling-cookie/12-033-clean.webp",
+        "width": 888,
+        "height": 801,
         "alt": "Green-tea Oreo packaging for the Chinese market.",
         "caption": "Green-tea Oreo packaging for the Chinese market.",
         "source": "https://profitsnack.com/p/oreo-worlds-best-selling-cookie",
@@ -3980,9 +3950,9 @@
         "originalFile": "images/12-037.webp"
       },
       {
-        "src": "/media/stories/oreo-the-world-s-best-selling-cookie/12-041.webp",
-        "width": 978,
-        "height": 550,
+        "src": "/media/stories/oreo-the-world-s-best-selling-cookie/12-041-clean.webp",
+        "width": 888,
+        "height": 227,
         "alt": "Oreo in a smaller packaged format.",
         "caption": "Oreo in a smaller packaged format.",
         "source": "https://profitsnack.com/p/oreo-worlds-best-selling-cookie",
@@ -4030,9 +4000,9 @@
         "originalFile": "images/12-086.webp"
       },
       {
-        "src": "/media/stories/oreo-the-world-s-best-selling-cookie/12-089.webp",
-        "width": 1140,
-        "height": 892,
+        "src": "/media/stories/oreo-the-world-s-best-selling-cookie/12-089-clean.webp",
+        "width": 1066,
+        "height": 834,
         "alt": "Christie-branded Oreo packaging.",
         "caption": "Christie-branded Oreo packaging.",
         "source": "https://profitsnack.com/p/oreo-worlds-best-selling-cookie",
@@ -4336,10 +4306,9 @@
   {
     "id": 30,
     "slug": "chewy-building-loyalty-through-human-connection",
-    "title": "Chewy: Building Loyalty Through Human Connection",
+    "title": "Make It Personal",
     "headline": [
-      "A little kindness",
-      "goes a long way."
+      "Make It Personal"
     ],
     "company": "Chewy",
     "category": "Brand",
@@ -4468,10 +4437,9 @@
   {
     "id": 31,
     "slug": "the-ansoff-matrix-four-paths-to-growth",
-    "title": "The Ansoff Matrix: Four Paths to Growth",
+    "title": "Four Paths to Growth",
     "headline": [
-      "Four ways",
-      "to find what’s next."
+      "Four Paths to Growth"
     ],
     "company": "The Ansoff Matrix",
     "category": "Growth",
@@ -4487,9 +4455,9 @@
     "hero": 0,
     "images": [
       {
-        "src": "/media/stories/the-ansoff-matrix-four-paths-to-growth/14-018.webp",
-        "width": 1090,
-        "height": 914,
+        "src": "/media/stories/the-ansoff-matrix-four-paths-to-growth/14-018-clean.webp",
+        "width": 1023,
+        "height": 879,
         "alt": "The four quadrants of the Ansoff Matrix.",
         "caption": "The four quadrants of the Ansoff Matrix.",
         "source": "https://profitsnack.com/p/164",
@@ -4507,9 +4475,9 @@
         "originalFile": "images/14-038.webp"
       },
       {
-        "src": "/media/stories/the-ansoff-matrix-four-paths-to-growth/14-060.webp",
-        "width": 732,
-        "height": 578,
+        "src": "/media/stories/the-ansoff-matrix-four-paths-to-growth/14-060-clean.webp",
+        "width": 648,
+        "height": 564,
         "alt": "Market development: an existing product finds a new audience.",
         "caption": "Market development: an existing product finds a new audience.",
         "source": "https://profitsnack.com/p/164",
@@ -4517,9 +4485,9 @@
         "originalFile": "images/14-060.webp"
       },
       {
-        "src": "/media/stories/the-ansoff-matrix-four-paths-to-growth/14-065.webp",
-        "width": 1188,
-        "height": 876,
+        "src": "/media/stories/the-ansoff-matrix-four-paths-to-growth/14-065-clean.webp",
+        "width": 881,
+        "height": 795,
         "alt": "A local flavour of a familiar cookie.",
         "caption": "A local flavour of a familiar cookie.",
         "source": "https://profitsnack.com/p/164",
@@ -4537,9 +4505,9 @@
         "originalFile": "images/14-071.webp"
       },
       {
-        "src": "/media/stories/the-ansoff-matrix-four-paths-to-growth/14-083.webp",
-        "width": 1190,
-        "height": 506,
+        "src": "/media/stories/the-ansoff-matrix-four-paths-to-growth/14-083-clean.webp",
+        "width": 1130,
+        "height": 478,
         "alt": "The range of brands in PepsiCo’s portfolio.",
         "caption": "The range of brands in PepsiCo’s portfolio.",
         "source": "https://profitsnack.com/p/164",
@@ -4547,8 +4515,8 @@
         "originalFile": "images/14-083.webp"
       },
       {
-        "src": "/media/stories/the-ansoff-matrix-four-paths-to-growth/14-085.webp",
-        "width": 1220,
+        "src": "/media/stories/the-ansoff-matrix-four-paths-to-growth/14-085-clean.webp",
+        "width": 1140,
         "height": 438,
         "alt": "Apple’s connected products and services.",
         "caption": "Apple’s connected products and services.",
@@ -4944,10 +4912,9 @@
   {
     "id": 32,
     "slug": "olipop-a-new-kind-of-soda",
-    "title": "Olipop: A New Kind of Soda",
+    "title": "A New Kind of Soda",
     "headline": [
-      "Something new.",
-      "Something familiar."
+      "A New Kind of Soda"
     ],
     "company": "Olipop",
     "category": "Brand",
@@ -4983,8 +4950,8 @@
         "originalFile": "images/15-021.webp"
       },
       {
-        "src": "/media/stories/olipop-a-new-kind-of-soda/15-056.webp",
-        "width": 1024,
+        "src": "/media/stories/olipop-a-new-kind-of-soda/15-056-clean.webp",
+        "width": 882,
         "height": 569,
         "alt": "A contemporary cola beside a familiar category leader.",
         "caption": "A contemporary cola beside a familiar category leader.",
@@ -5170,10 +5137,9 @@
   {
     "id": 33,
     "slug": "poppi-the-rebrand-that-changed-the-business",
-    "title": "Poppi: The Rebrand That Changed the Business",
+    "title": "The Rebrand",
     "headline": [
-      "A new name.",
-      "A bigger possibility."
+      "The Rebrand"
     ],
     "company": "Poppi",
     "category": "Brand",
@@ -5300,10 +5266,9 @@
   {
     "id": 35,
     "slug": "liquid-death-how-to-make-700-million-selling-water",
-    "title": "Liquid Death: How to Make $700 Million Selling Water",
+    "title": "Selling Water",
     "headline": [
-      "Even water",
-      "can have an attitude."
+      "Selling Water"
     ],
     "company": "Liquid Death",
     "category": "Brand",
@@ -5339,9 +5304,9 @@
         "originalFile": "images/18-046.webp"
       },
       {
-        "src": "/media/stories/liquid-death-how-to-make-700-million-selling-water/18-048.webp",
-        "width": 1190,
-        "height": 1636,
+        "src": "/media/stories/liquid-death-how-to-make-700-million-selling-water/18-048-clean.webp",
+        "width": 1117,
+        "height": 1579,
         "alt": "Liquid Death’s plastic-return campaign.",
         "caption": "Liquid Death’s plastic-return campaign.",
         "source": "https://profitsnack.com/p/liquid-death-mark-cessario",
@@ -5593,10 +5558,9 @@
   {
     "id": 36,
     "slug": "the-secret-to-sales-the-maya-theory",
-    "title": "The Secret to Sales: The MAYA Theory",
+    "title": "The MAYA Theory",
     "headline": [
-      "Surprising enough.",
-      "Familiar enough."
+      "The MAYA Theory"
     ],
     "company": "The MAYA Theory",
     "category": "Brand",
@@ -5632,9 +5596,9 @@
         "originalFile": "images/19-021.webp"
       },
       {
-        "src": "/media/stories/the-secret-to-sales-the-maya-theory/19-029.webp",
-        "width": 1292,
-        "height": 413,
+        "src": "/media/stories/the-secret-to-sales-the-maya-theory/19-029-clean.webp",
+        "width": 1231,
+        "height": 311,
         "alt": "Familiar forms evolve across generations.",
         "caption": "Familiar forms evolve across generations.",
         "source": "https://profitsnack.com/p/144",
@@ -5652,9 +5616,9 @@
         "originalFile": "images/19-043.webp"
       },
       {
-        "src": "/media/stories/the-secret-to-sales-the-maya-theory/19-048.webp",
-        "width": 1292,
-        "height": 1050,
+        "src": "/media/stories/the-secret-to-sales-the-maya-theory/19-048-clean.webp",
+        "width": 1196,
+        "height": 1047,
         "alt": "Tiffany blue on Nike’s Air Force 1.",
         "caption": "Tiffany blue on Nike’s Air Force 1.",
         "source": "https://profitsnack.com/p/144",
@@ -5662,9 +5626,9 @@
         "originalFile": "images/19-048.webp"
       },
       {
-        "src": "/media/stories/the-secret-to-sales-the-maya-theory/19-053.webp",
-        "width": 1292,
-        "height": 324,
+        "src": "/media/stories/the-secret-to-sales-the-maya-theory/19-053-clean.webp",
+        "width": 1239,
+        "height": 287,
         "alt": "A familiar Disney story, revisited.",
         "caption": "A familiar Disney story, revisited.",
         "source": "https://profitsnack.com/p/144",
@@ -5682,9 +5646,9 @@
         "originalFile": "images/19-061.webp"
       },
       {
-        "src": "/media/stories/the-secret-to-sales-the-maya-theory/19-068.webp",
-        "width": 1292,
-        "height": 421,
+        "src": "/media/stories/the-secret-to-sales-the-maya-theory/19-068-clean.webp",
+        "width": 1208,
+        "height": 335,
         "alt": "The same brand speaking to different audiences.",
         "caption": "The same brand speaking to different audiences.",
         "source": "https://profitsnack.com/p/144",
@@ -5945,10 +5909,9 @@
   {
     "id": 37,
     "slug": "trader-joe-s-the-16-billion-store",
-    "title": "Trader Joe’s: The $16 Billion Store",
+    "title": "The $16 Billion Store",
     "headline": [
-      "A place for",
-      "the wonderfully unusual."
+      "The $16 Billion Store"
     ],
     "company": "Trader Joe’s",
     "category": "Brand",
@@ -5974,9 +5937,9 @@
         "originalFile": "images/20-003.webp"
       },
       {
-        "src": "/media/stories/trader-joe-s-the-16-billion-store/20-020.webp",
-        "width": 1292,
-        "height": 730,
+        "src": "/media/stories/trader-joe-s-the-16-billion-store/20-020-clean.webp",
+        "width": 1184,
+        "height": 686,
         "alt": "A store-size and sales comparison from the supplied article.",
         "caption": "A store-size and sales comparison from the supplied article.",
         "source": "https://profitsnack.com/p/151",
@@ -5984,9 +5947,9 @@
         "originalFile": "images/20-020.webp"
       },
       {
-        "src": "/media/stories/trader-joe-s-the-16-billion-store/20-046.webp",
-        "width": 1292,
-        "height": 917,
+        "src": "/media/stories/trader-joe-s-the-16-billion-store/20-046-clean.webp",
+        "width": 1250,
+        "height": 896,
         "alt": "The Fearless Flyer introduces products and their stories.",
         "caption": "The Fearless Flyer introduces products and their stories.",
         "source": "https://profitsnack.com/p/151",
@@ -6004,9 +5967,9 @@
         "originalFile": "images/20-053.webp"
       },
       {
-        "src": "/media/stories/trader-joe-s-the-16-billion-store/20-055.webp",
-        "width": 1182,
-        "height": 988,
+        "src": "/media/stories/trader-joe-s-the-16-billion-store/20-055-clean.webp",
+        "width": 1132,
+        "height": 938,
         "alt": "Barstool’s community in its own words.",
         "caption": "Barstool’s community in its own words.",
         "source": "https://profitsnack.com/p/151",
@@ -6014,9 +5977,9 @@
         "originalFile": "images/20-055.webp"
       },
       {
-        "src": "/media/stories/trader-joe-s-the-16-billion-store/20-057.webp",
+        "src": "/media/stories/trader-joe-s-the-16-billion-store/20-057-clean.webp",
         "width": 1182,
-        "height": 618,
+        "height": 584,
         "alt": "An early Product Hunt announcement.",
         "caption": "An early Product Hunt announcement.",
         "source": "https://profitsnack.com/p/151",
@@ -6034,9 +5997,9 @@
         "originalFile": "images/20-066.webp"
       },
       {
-        "src": "/media/stories/trader-joe-s-the-16-billion-store/20-074.webp",
-        "width": 1292,
-        "height": 296,
+        "src": "/media/stories/trader-joe-s-the-16-billion-store/20-074-clean.webp",
+        "width": 1218,
+        "height": 228,
         "alt": "A private-label and name-brand price comparison.",
         "caption": "A private-label and name-brand price comparison.",
         "source": "https://profitsnack.com/p/151",
@@ -6273,10 +6236,9 @@
   {
     "id": 41,
     "slug": "lionel-messi-and-the-napkin-agreement",
-    "title": "Lionel Messi and the napkin agreement",
+    "title": "Conviction on a Napkin",
     "headline": [
-      "A decisive yes.",
-      "Written on a napkin."
+      "Conviction on a Napkin"
     ],
     "company": "Lionel Messi",
     "category": "Direction",

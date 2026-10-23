@@ -29,6 +29,14 @@
       search.addEventListener('input', update);
       form.addEventListener('submit', event => { event.preventDefault(); update(); });
     }
+    const previews = [...document.querySelectorAll('[data-portfolio-preview]')];
+    if (previews.length && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      const previewObserver = new IntersectionObserver(entries => entries.forEach(({target,isIntersecting}) => {
+        if (isIntersecting) target.play().catch(() => {}); else target.pause();
+      }), {threshold: .15});
+      previews.forEach(video => previewObserver.observe(video));
+      document.addEventListener('visibilitychange', () => { if (document.hidden) previews.forEach(video => video.pause()); });
+    }
     const header = document.querySelector('.qs-header');
     const wordmark = header?.querySelector('.qs-wordmark');
     const measureHeader = () => {

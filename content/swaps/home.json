@@ -253,8 +253,8 @@
         {
           "img": {
             "attr": {
-              "src": "/media/work/butter/cover.jpg?v=d33a6eed7a",
-              "data-src": "/media/work/butter/cover@2x.jpg?v=57877a7250",
+              "src": "/media/work/butter/cover.jpg?v=7d3704a42a",
+              "data-src": "/media/work/butter/cover@2x.jpg?v=7915ff9765",
               "alt": "Butter",
               "width": "1440",
               "height": "900"
@@ -270,8 +270,8 @@
         {
           "img": {
             "attr": {
-              "src": "/media/work/jr-pugh/cover.jpg?v=515de41e7f",
-              "data-src": "/media/work/jr-pugh/cover@2x.jpg?v=8b6bdff214",
+              "src": "/media/work/jr-pugh/cover.jpg?v=d41e0eca67",
+              "data-src": "/media/work/jr-pugh/cover@2x.jpg?v=3a55dcf49f",
               "alt": "JR Pugh",
               "width": "1440",
               "height": "900"
@@ -279,10 +279,61 @@
           },
           "video": {
             "attr": {
-              "src": "/media/work/jr-pugh/scroll.mp4?v=527f78ef62"
+              "src": "/media/work/jr-pugh/scroll.mp4?v=696b902685"
             }
           },
           "source": "content/work.json jr-pugh: its cover and film (scripts/work/prepare.mjs, video.mjs)"
+        },
+        {
+          "img": {
+            "attr": {
+              "src": "/media/work/ignite-beacon/cover.jpg?v=836db06368",
+              "data-src": "/media/work/ignite-beacon/cover@2x.jpg?v=3f02f0943b",
+              "alt": "Beacon",
+              "width": "1440",
+              "height": "900"
+            }
+          },
+          "video": {
+            "attr": {
+              "src": "/media/work/ignite-beacon/scroll.mp4?v=bc0f1ae023"
+            }
+          },
+          "source": "content/work.json ignite-beacon: its cover and film (scripts/work/prepare.mjs, video.mjs)"
+        },
+        {
+          "img": {
+            "attr": {
+              "src": "/media/work/core-rhythm-fitness/cover.jpg?v=06be5ebb32",
+              "data-src": "/media/work/core-rhythm-fitness/cover@2x.jpg?v=3b13ab0147",
+              "alt": "Core Rhythm Fitness",
+              "width": "1440",
+              "height": "900"
+            }
+          },
+          "video": {
+            "attr": {
+              "src": "/media/work/core-rhythm-fitness/scroll.mp4?v=d656c6f343"
+            }
+          },
+          "source": "content/work.json core-rhythm-fitness: its cover and film (scripts/work/prepare.mjs, video.mjs)"
+        },
+        {
+          "img": {
+            "attr": {
+              "src": "/media/work/thanh-ta/cover.jpg?v=92d2fbfe4c",
+              "data-src": "/media/work/thanh-ta/cover@2x.jpg?v=eb01043a78",
+              "alt": "Thanh Ta",
+              "width": "1440",
+              "height": "900"
+            }
+          },
+          "video": {
+            "attr": {
+              "src": "/media/work/thanh-ta/scroll.mp4?v=193000e18f"
+            }
+          },
+          "source": "content/work.json thanh-ta: its cover and film (scripts/work/prepare.mjs, video.mjs)"
         },
         {
           "img": {
@@ -372,23 +423,6 @@
         {
           "img": {
             "attr": {
-              "src": "/media/work/thanh-ta/cover.jpg?v=92d2fbfe4c",
-              "data-src": "/media/work/thanh-ta/cover@2x.jpg?v=eb01043a78",
-              "alt": "Thanh Ta",
-              "width": "1440",
-              "height": "900"
-            }
-          },
-          "video": {
-            "attr": {
-              "src": "/media/work/thanh-ta/scroll.mp4?v=193000e18f"
-            }
-          },
-          "source": "content/work.json thanh-ta: its cover and film (scripts/work/prepare.mjs, video.mjs)"
-        },
-        {
-          "img": {
-            "attr": {
               "src": "/media/work/tima/cover.jpg?v=9e4f7c9710",
               "data-src": "/media/work/tima/cover@2x.jpg?v=c11604b277",
               "alt": "Titanium Motor Arts",
@@ -402,6 +436,40 @@
             }
           },
           "source": "content/work.json tima: its cover and film (scripts/work/prepare.mjs, video.mjs)"
+        },
+        {
+          "img": {
+            "attr": {
+              "src": "/media/work/butter/cover.jpg?v=7d3704a42a",
+              "data-src": "/media/work/butter/cover@2x.jpg?v=7915ff9765",
+              "alt": "Butter",
+              "width": "1440",
+              "height": "900"
+            }
+          },
+          "video": {
+            "attr": {
+              "src": "/media/work/butter/scroll.mp4?v=a666d818d2"
+            }
+          },
+          "source": "content/work.json butter: its cover and film (scripts/work/prepare.mjs, video.mjs)"
+        },
+        {
+          "img": {
+            "attr": {
+              "src": "/media/work/jr-pugh/cover.jpg?v=d41e0eca67",
+              "data-src": "/media/work/jr-pugh/cover@2x.jpg?v=3a55dcf49f",
+              "alt": "JR Pugh",
+              "width": "1440",
+              "height": "900"
+            }
+          },
+          "video": {
+            "attr": {
+              "src": "/media/work/jr-pugh/scroll.mp4?v=696b902685"
+            }
+          },
+          "source": "content/work.json jr-pugh: its cover and film (scripts/work/prepare.mjs, video.mjs)"
         },
         {
           "img": {
@@ -423,36 +491,36 @@
         {
           "img": {
             "attr": {
-              "src": "/media/work/butter/cover.jpg?v=d33a6eed7a",
-              "data-src": "/media/work/butter/cover@2x.jpg?v=57877a7250",
-              "alt": "Butter",
+              "src": "/media/work/core-rhythm-fitness/cover.jpg?v=06be5ebb32",
+              "data-src": "/media/work/core-rhythm-fitness/cover@2x.jpg?v=3b13ab0147",
+              "alt": "Core Rhythm Fitness",
               "width": "1440",
               "height": "900"
             }
           },
           "video": {
             "attr": {
-              "src": "/media/work/butter/scroll.mp4?v=a666d818d2"
+              "src": "/media/work/core-rhythm-fitness/scroll.mp4?v=d656c6f343"
             }
           },
-          "source": "content/work.json butter: its cover and film (scripts/work/prepare.mjs, video.mjs)"
+          "source": "content/work.json core-rhythm-fitness: its cover and film (scripts/work/prepare.mjs, video.mjs)"
         },
         {
           "img": {
             "attr": {
-              "src": "/media/work/jr-pugh/cover.jpg?v=515de41e7f",
-              "data-src": "/media/work/jr-pugh/cover@2x.jpg?v=8b6bdff214",
-              "alt": "JR Pugh",
+              "src": "/media/work/thanh-ta/cover.jpg?v=92d2fbfe4c",
+              "data-src": "/media/work/thanh-ta/cover@2x.jpg?v=eb01043a78",
+              "alt": "Thanh Ta",
               "width": "1440",
               "height": "900"
             }
           },
           "video": {
             "attr": {
-              "src": "/media/work/jr-pugh/scroll.mp4?v=527f78ef62"
+              "src": "/media/work/thanh-ta/scroll.mp4?v=193000e18f"
             }
           },
-          "source": "content/work.json jr-pugh: its cover and film (scripts/work/prepare.mjs, video.mjs)"
+          "source": "content/work.json thanh-ta: its cover and film (scripts/work/prepare.mjs, video.mjs)"
         },
         {
           "img": {
@@ -542,23 +610,6 @@
         {
           "img": {
             "attr": {
-              "src": "/media/work/thanh-ta/cover.jpg?v=92d2fbfe4c",
-              "data-src": "/media/work/thanh-ta/cover@2x.jpg?v=eb01043a78",
-              "alt": "Thanh Ta",
-              "width": "1440",
-              "height": "900"
-            }
-          },
-          "video": {
-            "attr": {
-              "src": "/media/work/thanh-ta/scroll.mp4?v=193000e18f"
-            }
-          },
-          "source": "content/work.json thanh-ta: its cover and film (scripts/work/prepare.mjs, video.mjs)"
-        },
-        {
-          "img": {
-            "attr": {
               "src": "/media/work/tima/cover.jpg?v=9e4f7c9710",
               "data-src": "/media/work/tima/cover@2x.jpg?v=c11604b277",
               "alt": "Titanium Motor Arts",
@@ -572,23 +623,6 @@
             }
           },
           "source": "content/work.json tima: its cover and film (scripts/work/prepare.mjs, video.mjs)"
-        },
-        {
-          "img": {
-            "attr": {
-              "src": "/media/work/ignite-beacon/cover.jpg?v=836db06368",
-              "data-src": "/media/work/ignite-beacon/cover@2x.jpg?v=3f02f0943b",
-              "alt": "Beacon",
-              "width": "1440",
-              "height": "900"
-            }
-          },
-          "video": {
-            "attr": {
-              "src": "/media/work/ignite-beacon/scroll.mp4?v=bc0f1ae023"
-            }
-          },
-          "source": "content/work.json ignite-beacon: its cover and film (scripts/work/prepare.mjs, video.mjs)"
         }
       ]
     },
@@ -631,7 +665,7 @@
           "a": {
             "attr": {
               "href": "/work/jr-pugh/",
-              "data-video-url": "/media/work/jr-pugh/scroll.mp4?v=527f78ef62",
+              "data-video-url": "/media/work/jr-pugh/scroll.mp4?v=696b902685",
               "data-internal": ""
             }
           },
@@ -661,13 +695,106 @@
         {
           "a": {
             "attr": {
+              "href": "/work/ignite-beacon/",
+              "data-video-url": "/media/work/ignite-beacon/scroll.mp4?v=bc0f1ae023",
+              "data-internal": ""
+            }
+          },
+          "[data-project-counter]": {
+            "text": "III"
+          },
+          "[data-project-title]": {
+            "text": "Beacon",
+            "attr": {
+              "data-project-title": "Beacon"
+            }
+          },
+          "[data-project-director]": {
+            "text": "Website",
+            "attr": {
+              "data-project-director": "Website"
+            }
+          },
+          "[data-project-client]": {
+            "text": "",
+            "attr": {
+              "data-project-client": ""
+            }
+          },
+          "source": "content/work.json ignite-beacon: numeral, name, made, year"
+        },
+        {
+          "a": {
+            "attr": {
+              "href": "/work/core-rhythm-fitness/",
+              "data-video-url": "/media/work/core-rhythm-fitness/scroll.mp4?v=d656c6f343",
+              "data-internal": ""
+            }
+          },
+          "[data-project-counter]": {
+            "text": "IV"
+          },
+          "[data-project-title]": {
+            "text": "Core Rhythm Fitness",
+            "attr": {
+              "data-project-title": "Core Rhythm Fitness"
+            }
+          },
+          "[data-project-director]": {
+            "text": "Website",
+            "attr": {
+              "data-project-director": "Website"
+            }
+          },
+          "[data-project-client]": {
+            "text": "",
+            "attr": {
+              "data-project-client": ""
+            }
+          },
+          "source": "content/work.json core-rhythm-fitness: numeral, name, made, year"
+        },
+        {
+          "a": {
+            "attr": {
+              "href": "/work/thanh-ta/",
+              "data-video-url": "/media/work/thanh-ta/scroll.mp4?v=193000e18f",
+              "data-internal": ""
+            }
+          },
+          "[data-project-counter]": {
+            "text": "V"
+          },
+          "[data-project-title]": {
+            "text": "Thanh Ta",
+            "attr": {
+              "data-project-title": "Thanh Ta"
+            }
+          },
+          "[data-project-director]": {
+            "text": "Website design & Acuity integration",
+            "attr": {
+              "data-project-director": "Website design & Acuity integration"
+            }
+          },
+          "[data-project-client]": {
+            "text": "2023",
+            "attr": {
+              "data-project-client": "2023"
+            }
+          },
+          "source": "content/work.json thanh-ta: numeral, name, made, year"
+        },
+        {
+          "a": {
+            "attr": {
               "href": "/work/stairway/",
               "data-video-url": "/media/work/stairway/scroll.mp4?v=d7fcd08532",
               "data-internal": ""
             }
           },
           "[data-project-counter]": {
-            "text": "III"
+            "text": "VI"
           },
           "[data-project-title]": {
             "text": "Stairway Audio",
@@ -698,7 +825,7 @@
             }
           },
           "[data-project-counter]": {
-            "text": "IV"
+            "text": "VII"
           },
           "[data-project-title]": {
             "text": "Serein",
@@ -729,7 +856,7 @@
             }
           },
           "[data-project-counter]": {
-            "text": "V"
+            "text": "VIII"
           },
           "[data-project-title]": {
             "text": "The Room",
@@ -760,7 +887,7 @@
             }
           },
           "[data-project-counter]": {
-            "text": "VI"
+            "text": "IX"
           },
           "[data-project-title]": {
             "text": "Paintings",
@@ -791,7 +918,7 @@
             }
           },
           "[data-project-counter]": {
-            "text": "VII"
+            "text": "X"
           },
           "[data-project-title]": {
             "text": "Fonts designed",
@@ -816,44 +943,13 @@
         {
           "a": {
             "attr": {
-              "href": "/work/thanh-ta/",
-              "data-video-url": "/media/work/thanh-ta/scroll.mp4?v=193000e18f",
-              "data-internal": ""
-            }
-          },
-          "[data-project-counter]": {
-            "text": "VIII"
-          },
-          "[data-project-title]": {
-            "text": "Thanh Ta",
-            "attr": {
-              "data-project-title": "Thanh Ta"
-            }
-          },
-          "[data-project-director]": {
-            "text": "Website design & Acuity integration",
-            "attr": {
-              "data-project-director": "Website design & Acuity integration"
-            }
-          },
-          "[data-project-client]": {
-            "text": "2023",
-            "attr": {
-              "data-project-client": "2023"
-            }
-          },
-          "source": "content/work.json thanh-ta: numeral, name, made, year"
-        },
-        {
-          "a": {
-            "attr": {
               "href": "/work/tima/",
               "data-video-url": "/media/work/tima/scroll.mp4?v=9023d37e1c",
               "data-internal": ""
             }
           },
           "[data-project-counter]": {
-            "text": "IX"
+            "text": "XI"
           },
           "[data-project-title]": {
             "text": "Titanium Motor Arts",
@@ -874,37 +970,6 @@
             }
           },
           "source": "content/work.json tima: numeral, name, made, year"
-        },
-        {
-          "a": {
-            "attr": {
-              "href": "/work/ignite-beacon/",
-              "data-video-url": "/media/work/ignite-beacon/scroll.mp4?v=bc0f1ae023",
-              "data-internal": ""
-            }
-          },
-          "[data-project-counter]": {
-            "text": "X"
-          },
-          "[data-project-title]": {
-            "text": "Beacon",
-            "attr": {
-              "data-project-title": "Beacon"
-            }
-          },
-          "[data-project-director]": {
-            "text": "Website",
-            "attr": {
-              "data-project-director": "Website"
-            }
-          },
-          "[data-project-client]": {
-            "text": "",
-            "attr": {
-              "data-project-client": ""
-            }
-          },
-          "source": "content/work.json ignite-beacon: numeral, name, made, year"
         },
         {
           "a": {
@@ -941,7 +1006,7 @@
           "a": {
             "attr": {
               "href": "/work/jr-pugh/",
-              "data-video-url": "/media/work/jr-pugh/scroll.mp4?v=527f78ef62",
+              "data-video-url": "/media/work/jr-pugh/scroll.mp4?v=696b902685",
               "data-internal": ""
             }
           },
@@ -971,13 +1036,106 @@
         {
           "a": {
             "attr": {
+              "href": "/work/ignite-beacon/",
+              "data-video-url": "/media/work/ignite-beacon/scroll.mp4?v=bc0f1ae023",
+              "data-internal": ""
+            }
+          },
+          "[data-project-counter]": {
+            "text": "III"
+          },
+          "[data-project-title]": {
+            "text": "Beacon",
+            "attr": {
+              "data-project-title": "Beacon"
+            }
+          },
+          "[data-project-director]": {
+            "text": "Website",
+            "attr": {
+              "data-project-director": "Website"
+            }
+          },
+          "[data-project-client]": {
+            "text": "",
+            "attr": {
+              "data-project-client": ""
+            }
+          },
+          "source": "content/work.json ignite-beacon: numeral, name, made, year"
+        },
+        {
+          "a": {
+            "attr": {
+              "href": "/work/core-rhythm-fitness/",
+              "data-video-url": "/media/work/core-rhythm-fitness/scroll.mp4?v=d656c6f343",
+              "data-internal": ""
+            }
+          },
+          "[data-project-counter]": {
+            "text": "IV"
+          },
+          "[data-project-title]": {
+            "text": "Core Rhythm Fitness",
+            "attr": {
+              "data-project-title": "Core Rhythm Fitness"
+            }
+          },
+          "[data-project-director]": {
+            "text": "Website",
+            "attr": {
+              "data-project-director": "Website"
+            }
+          },
+          "[data-project-client]": {
+            "text": "",
+            "attr": {
+              "data-project-client": ""
+            }
+          },
+          "source": "content/work.json core-rhythm-fitness: numeral, name, made, year"
+        },
+        {
+          "a": {
+            "attr": {
+              "href": "/work/thanh-ta/",
+              "data-video-url": "/media/work/thanh-ta/scroll.mp4?v=193000e18f",
+              "data-internal": ""
+            }
+          },
+          "[data-project-counter]": {
+            "text": "V"
+          },
+          "[data-project-title]": {
+            "text": "Thanh Ta",
+            "attr": {
+              "data-project-title": "Thanh Ta"
+            }
+          },
+          "[data-project-director]": {
+            "text": "Website design & Acuity integration",
+            "attr": {
+              "data-project-director": "Website design & Acuity integration"
+            }
+          },
+          "[data-project-client]": {
+            "text": "2023",
+            "attr": {
+              "data-project-client": "2023"
+            }
+          },
+          "source": "content/work.json thanh-ta: numeral, name, made, year"
+        },
+        {
+          "a": {
+            "attr": {
               "href": "/work/stairway/",
               "data-video-url": "/media/work/stairway/scroll.mp4?v=d7fcd08532",
               "data-internal": ""
             }
           },
           "[data-project-counter]": {
-            "text": "III"
+            "text": "VI"
           },
           "[data-project-title]": {
             "text": "Stairway Audio",
@@ -1008,7 +1166,7 @@
             }
           },
           "[data-project-counter]": {
-            "text": "IV"
+            "text": "VII"
           },
           "[data-project-title]": {
             "text": "Serein",
@@ -1039,7 +1197,7 @@
             }
           },
           "[data-project-counter]": {
-            "text": "V"
+            "text": "VIII"
           },
           "[data-project-title]": {
             "text": "The Room",
@@ -1070,7 +1228,7 @@
             }
           },
           "[data-project-counter]": {
-            "text": "VI"
+            "text": "IX"
           },
           "[data-project-title]": {
             "text": "Paintings",
@@ -1101,7 +1259,7 @@
             }
           },
           "[data-project-counter]": {
-            "text": "VII"
+            "text": "X"
           },
           "[data-project-title]": {
             "text": "Fonts designed",
@@ -1126,44 +1284,13 @@
         {
           "a": {
             "attr": {
-              "href": "/work/thanh-ta/",
-              "data-video-url": "/media/work/thanh-ta/scroll.mp4?v=193000e18f",
-              "data-internal": ""
-            }
-          },
-          "[data-project-counter]": {
-            "text": "VIII"
-          },
-          "[data-project-title]": {
-            "text": "Thanh Ta",
-            "attr": {
-              "data-project-title": "Thanh Ta"
-            }
-          },
-          "[data-project-director]": {
-            "text": "Website design & Acuity integration",
-            "attr": {
-              "data-project-director": "Website design & Acuity integration"
-            }
-          },
-          "[data-project-client]": {
-            "text": "2023",
-            "attr": {
-              "data-project-client": "2023"
-            }
-          },
-          "source": "content/work.json thanh-ta: numeral, name, made, year"
-        },
-        {
-          "a": {
-            "attr": {
               "href": "/work/tima/",
               "data-video-url": "/media/work/tima/scroll.mp4?v=9023d37e1c",
               "data-internal": ""
             }
           },
           "[data-project-counter]": {
-            "text": "IX"
+            "text": "XI"
           },
           "[data-project-title]": {
             "text": "Titanium Motor Arts",
@@ -1184,37 +1311,6 @@
             }
           },
           "source": "content/work.json tima: numeral, name, made, year"
-        },
-        {
-          "a": {
-            "attr": {
-              "href": "/work/ignite-beacon/",
-              "data-video-url": "/media/work/ignite-beacon/scroll.mp4?v=bc0f1ae023",
-              "data-internal": ""
-            }
-          },
-          "[data-project-counter]": {
-            "text": "X"
-          },
-          "[data-project-title]": {
-            "text": "Beacon",
-            "attr": {
-              "data-project-title": "Beacon"
-            }
-          },
-          "[data-project-director]": {
-            "text": "Website",
-            "attr": {
-              "data-project-director": "Website"
-            }
-          },
-          "[data-project-client]": {
-            "text": "",
-            "attr": {
-              "data-project-client": ""
-            }
-          },
-          "source": "content/work.json ignite-beacon: numeral, name, made, year"
         }
       ]
     }
