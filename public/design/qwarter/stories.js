@@ -1,6 +1,15 @@
 /* Progressive enhancement: the entire collection and every story exist before this script. */
 (() => {
   function start() {
+    const panels = [...document.querySelectorAll('[data-qr-tone]')];
+    const revealItems = [...document.querySelectorAll('[data-qr-reveal]')];
+    if (revealItems.length && 'IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      document.querySelector('.qr-reader')?.classList.add('qr-motion');
+      const revealObserver = new IntersectionObserver(entries => entries.forEach(entry => {
+        if (entry.isIntersecting) {entry.target.classList.add('qr-visible');revealObserver.unobserve(entry.target);}
+      }), {threshold:.06, rootMargin:'0px 0px 40px 0px'});
+      revealItems.forEach(item => revealObserver.observe(item));
+    }
     const form = document.querySelector('[data-story-filters]');
     if (form) {
       form.hidden = false;
@@ -51,6 +60,10 @@
     let queued = false;
     const updateScroll = () => {
       const compact = window.scrollY > 60;
+      if (panels.length) {
+        const panel = panels.find(section => {const r=section.getBoundingClientRect();return r.top<=100 && r.bottom>100;});
+        document.body.classList.toggle('qr-light',panel?.dataset.qrTone === 'paper');
+      }
       document.body.classList.toggle('qs-scrolled', compact);
       wordmark?.setAttribute('tabindex', compact ? '-1' : '0');
       wordmark?.setAttribute('aria-hidden', String(compact));

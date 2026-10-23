@@ -53,12 +53,12 @@ test('the default portfolio keeps its scrolling presentation and offers a Librar
   assert.equal(library.page.kind,'archive');
   const scene = new DOMParser().parseFromString(pageMarkup(scrolling.page),'text/html');
   assert.ok(scene.querySelector('.block-project-list .visor-videos'));
-  assert.equal(scene.querySelector('.qw-view-switch a[aria-current]')?.textContent,'Scrolling');
+  assert.equal(scene.querySelector('.qw-view-switch a[aria-current]')?.textContent,'Portfolio');
   assert.equal(scene.querySelector('.qw-view-switch a[href="/work/library/"]')?.textContent,'Library');
   const grid = new DOMParser().parseFromString(renderToStaticMarkup(Archive()),'text/html');
   assert.equal(grid.querySelectorAll('.qp-card').length,15);
   assert.deepEqual([...grid.querySelectorAll('.qp-card')].slice(0,5).map(a => a.getAttribute('href')),['/work/butter/','/work/jr-pugh/','/work/ignite-beacon/','/work/core-rhythm-fitness/','/work/thanh-ta/']);
-  const film = grid.querySelector('[data-portfolio-preview]');
+  const film = grid.querySelector('a[href="/work/jr-pugh/"] [data-portfolio-preview]');
   assert.ok(film?.hasAttribute('muted'));assert.ok(film?.hasAttribute('loop'));assert.match(film?.outerHTML ?? '', /playsinline/i);
   assert.ok(film?.querySelector('source')?.getAttribute('src')?.includes('/jr-pugh/scroll.mp4?v='));
 });
@@ -73,4 +73,38 @@ test('menu blur clears once scrolling stops, including carried wheel scrolling',
   });
   assert.ok(!classes.has('qw-menu-scrolling'));
   for(const event of ['wheel','touchmove','scroll']){events.get(event)!();assert.ok(classes.has('qw-menu-scrolling'));idle();assert.ok(!classes.has('qw-menu-scrolling'));}
+});
+
+test('carried navigation always opens a fresh document, with view controls only on Portfolio', async () => {
+  const { getPages, pageMarkup } = await import('@/lib/content');
+  const { DOMParser } = await import('linkedom');
+  for (const page of getPages().filter(p => p.template)) {
+    const dom = new DOMParser().parseFromString(pageMarkup(page),'text/html');
+    for (const a of dom.querySelectorAll('#Header a[href^="/"], #Sidemenu a[href^="/"]')) {
+      assert.ok(a.hasAttribute('data-internal'), `${page.path}: ${a.getAttribute('href')}`);
+    }
+    assert.equal(!!dom.querySelector('.qw-view-switch'),page.slug === 'work',page.path);
+  }
+});
+
+test('gallery buttons settle after swiping and adapt to desktop and phone slide counts', async () => {
+  const { DOMParser } = await import('linkedom');
+  const dom = new DOMParser().parseFromString(`<div data-gallery><div class="st-gallery__track">${Array.from({length:6},()=>'<div></div>').join('')}</div><div class="st-notches">${Array.from({length:6},(_,i)=>`<button data-notch="${i}"></button>`).join('')}</div><button data-dir="-1"></button><button data-dir="1"></button></div>`,'text/html');
+  const track = dom.querySelector('.st-gallery__track')!;
+  Object.defineProperty(track.firstElementChild,'getBoundingClientRect',{value:()=>({width:300})});
+  let desktop=false;let resize=()=>{};
+  const source=fs.readFileSync('public/design/qwarter/study.js','utf8');
+  const gallery=source.slice(source.indexOf('document.querySelectorAll("[data-gallery]")'),source.indexOf('/* ---------------------------------------------------------------- the rail */'));
+  vm.runInNewContext(gallery,{document:dom,matchMedia:()=>({matches:desktop}),addEventListener:(_event:string,fn:()=>void)=>resize=fn,performance:{now:()=>0}});
+  const buttons=[...dom.querySelectorAll('[data-notch]')];
+  assert.equal(buttons.filter(b=>!b.hidden).length,6);
+  buttons[5].dispatchEvent(new dom.defaultView.Event('click'));
+  assert.equal(buttons[5].getAttribute('aria-current'),'true');
+  assert.ok(track.style.transform.includes('-1580px'));
+  desktop=true;resize();
+  assert.equal(buttons.filter(b=>!b.hidden).length,4);
+  assert.equal(buttons[3].getAttribute('aria-current'),'true');
+  assert.ok(track.style.transform.includes('-948px'));
+  desktop=false;resize();
+  assert.equal(buttons.filter(b=>!b.hidden).length,6);
 });

@@ -1,3 +1,4 @@
+import { createElement } from "react";
 import assert from "node:assert/strict";
 import fs from "node:fs";
 import path from "node:path";
@@ -11,8 +12,8 @@ import { getStories, storyCategories, storyImage, storyUrl } from "@/lib/stories
 const stories = getStories();
 const publicDir = path.join(process.cwd(), "public");
 
-test("all 38 readings have complete, independently addressable routes", () => {
-  assert.equal(stories.length, 38);
+test("all 48 public readings have complete, independently addressable routes", () => {
+  assert.equal(stories.length, 48);
   assert.equal(new Set(stories.map((story) => story.slug)).size, stories.length);
   assert.equal(resolveRoute(["stories"]).kind, "page");
   assert.equal(resolveRoute(["stories", "not-a-story"]).kind, "not-found");
@@ -80,7 +81,7 @@ test("the generated navigation exposes Stories through ordinary full-page links"
 });
 
 test("the October screenshot batch adds six complete stories and joins continuations once", () => {
-  const additions = stories.filter(story => story.id >= 38);
+  const additions = stories.filter(story => story.id >= 38 && story.id <= 43);
   assert.equal(additions.length, 6);
   assert.deepEqual(additions.map(story => story.company).sort(), ['Apple', 'Anthropic', 'Cristiano Ronaldo', 'Lionel Messi', 'Amazon', 'NVIDIA'].sort());
   const copy = (id: number) => stories.find(story => story.id === id)!.blocks.flatMap(block => block.type === 'image' ? [] : [block.text]).join('\n');
@@ -142,4 +143,33 @@ test('headlines are single concise phrases and the supplied portrait thumbnails 
       assert.ok(white/count < .99,`${image.src}: white ${side} margin`);
     }
   }
+});
+
+test('new articles preserve every paragraph and image through the immersive reader', async () => {
+  const { readingSpreads } = await import('@/components/stories/stories');
+  const { getAllStories } = await import('@/lib/stories');
+  for (const story of getAllStories()) {
+    const spreads = readingSpreads(story);
+    assert.deepEqual(spreads.flatMap(s => s.blocks), story.blocks.filter(b => b.type !== 'image'), story.slug);
+    assert.deepEqual(spreads.flatMap(s => s.images).sort((a,b) => a-b), story.images.map((_,i) => i), story.slug);
+    const { DOMParser } = await import('linkedom');
+    const dom = new DOMParser().parseFromString(renderToStaticMarkup(createElement(StoryPage, {slug:story.slug})), 'text/html');
+    assert.equal(dom.querySelectorAll('h1').length, 1);
+    assert.ok(dom.querySelector('#reading'));
+    for (const img of dom.querySelectorAll('img')) assert.ok(img.getAttribute('alt') !== null);
+    if (story.id >= 44) assert.ok(!story.blocks.some(b => 'text' in b && b.text.includes('—')), story.slug);
+  }
+});
+
+test('three review drafts stay out of the public index and search metadata', async () => {
+  const { getAllStories } = await import('@/lib/stories');
+  const drafts = getAllStories().filter(s => s.draft);
+  assert.equal(drafts.length,3);
+  const index = renderToStaticMarkup(createElement(StoriesIndex));
+  for (const draft of drafts) {
+    assert.ok(!index.includes(storyUrl(draft)));
+    assert.ok(getPages().find(p => p.path === storyUrl(draft))?.noindex);
+    assert.ok(renderToStaticMarkup(createElement(StoryPage, {slug:draft.slug})).includes('Draft for review'));
+  }
+  assert.deepEqual(stories.slice(-2).map(s => s.id), [52,53]);
 });

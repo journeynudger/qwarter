@@ -22,7 +22,8 @@
     {
       "select": "#Header .title",
       "attr": {
-        "title": "Qwarter Studio"
+        "title": "Qwarter Studio",
+        "data-internal": ""
       }
     },
     {
@@ -52,7 +53,7 @@
       "attr": {
         "href": "/",
         "aria-current": null,
-        "data-internal": null
+        "data-internal": ""
       },
       "source": "content/site.json chrome.nav[0]"
     },
@@ -62,7 +63,7 @@
       "attr": {
         "href": "/work/",
         "aria-current": null,
-        "data-internal": null
+        "data-internal": ""
       },
       "source": "content/site.json chrome.nav[1]"
     },
@@ -82,7 +83,7 @@
       "attr": {
         "href": "/approach/",
         "aria-current": "page",
-        "data-internal": null
+        "data-internal": ""
       },
       "source": "content/site.json chrome.nav[3]"
     },
@@ -92,7 +93,7 @@
       "attr": {
         "href": "/contact/",
         "aria-current": null,
-        "data-internal": null
+        "data-internal": ""
       },
       "source": "content/site.json chrome.nav[4]"
     },
@@ -101,7 +102,7 @@
       "attr": {
         "href": "/",
         "aria-current": null,
-        "data-internal": null
+        "data-internal": ""
       }
     },
     {
@@ -109,7 +110,7 @@
       "attr": {
         "href": "/work/",
         "aria-current": null,
-        "data-internal": null
+        "data-internal": ""
       }
     },
     {
@@ -125,7 +126,7 @@
       "attr": {
         "href": "/approach/",
         "aria-current": "page",
-        "data-internal": null
+        "data-internal": ""
       }
     },
     {
@@ -133,7 +134,7 @@
       "attr": {
         "href": "/contact/",
         "aria-current": null,
-        "data-internal": null
+        "data-internal": ""
       }
     },
     {
@@ -289,7 +290,7 @@
     {
       "select": "section.block-title.--type_1 figure.media-2 video",
       "attr": {
-        "data-src": "/media/work/jr-pugh/scroll.mp4?v=696b902685"
+        "data-src": "/media/work/jr-pugh/scroll.mp4?v=ef0e2169f9"
       }
     },
     {
@@ -305,7 +306,7 @@
     {
       "select": "section.block-title.--type_1 figure.media-3 video",
       "attr": {
-        "data-src": "/media/work/butter/scroll.mp4?v=a666d818d2"
+        "data-src": "/media/work/butter/scroll.mp4?v=95b59c38c2"
       }
     },
     {
@@ -352,7 +353,7 @@
     {
       "select": "section.block-title.--type_2 figure.media-1 video",
       "attr": {
-        "data-src": "/media/work/jr-pugh/scroll.mp4?v=696b902685"
+        "data-src": "/media/work/jr-pugh/scroll.mp4?v=ef0e2169f9"
       }
     },
     {
@@ -368,7 +369,7 @@
     {
       "select": "section.block-title.--type_2 figure.media-2 video",
       "attr": {
-        "data-src": "/media/work/butter/scroll.mp4?v=a666d818d2"
+        "data-src": "/media/work/butter/scroll.mp4?v=95b59c38c2"
       }
     },
     {
@@ -431,7 +432,7 @@
     {
       "select": "section.block-title.--type_3 figure.media-1 video",
       "attr": {
-        "data-src": "/media/work/butter/scroll.mp4?v=a666d818d2"
+        "data-src": "/media/work/butter/scroll.mp4?v=95b59c38c2"
       }
     },
     {
@@ -479,7 +480,7 @@
     {
       "select": "section.block-title.--type_3 figure.media-4 video",
       "attr": {
-        "data-src": "/media/work/jr-pugh/scroll.mp4?v=696b902685"
+        "data-src": "/media/work/jr-pugh/scroll.mp4?v=ef0e2169f9"
       }
     },
     {
@@ -542,7 +543,7 @@
     {
       "select": "section.block-title.--type_4 figure.media-3 video",
       "attr": {
-        "data-src": "/media/work/jr-pugh/scroll.mp4?v=696b902685"
+        "data-src": "/media/work/jr-pugh/scroll.mp4?v=ef0e2169f9"
       }
     },
     {
@@ -558,7 +559,7 @@
     {
       "select": "section.block-title.--type_4 figure.media-4 video",
       "attr": {
-        "data-src": "/media/work/butter/scroll.mp4?v=a666d818d2"
+        "data-src": "/media/work/butter/scroll.mp4?v=95b59c38c2"
       }
     },
     {
@@ -605,7 +606,7 @@
     {
       "select": "section.block-title.--type_5 figure.media-2 video",
       "attr": {
-        "data-src": "/media/work/jr-pugh/scroll.mp4?v=696b902685"
+        "data-src": "/media/work/jr-pugh/scroll.mp4?v=ef0e2169f9"
       }
     },
     {
@@ -621,7 +622,7 @@
     {
       "select": "section.block-title.--type_5 figure.media-3 video",
       "attr": {
-        "data-src": "/media/work/butter/scroll.mp4?v=a666d818d2"
+        "data-src": "/media/work/butter/scroll.mp4?v=95b59c38c2"
       }
     },
     {
@@ -668,7 +669,7 @@
     {
       "select": "section.block-title.--type_6 figure.media-1 video",
       "attr": {
-        "data-src": "/media/work/jr-pugh/scroll.mp4?v=696b902685"
+        "data-src": "/media/work/jr-pugh/scroll.mp4?v=ef0e2169f9"
       }
     },
     {
@@ -684,7 +685,7 @@
     {
       "select": "section.block-title.--type_6 figure.media-2 video",
       "attr": {
-        "data-src": "/media/work/butter/scroll.mp4?v=a666d818d2"
+        "data-src": "/media/work/butter/scroll.mp4?v=95b59c38c2"
       }
     },
     {

@@ -230,13 +230,15 @@ a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px soli
 .st-gallery__arrow[disabled] { opacity: 0; pointer-events: none; }
 .st-gallery__arrow--prev { left: 14px; }
 .st-gallery__arrow--next { right: 14px; }
-.st-notches { position: absolute; left: 0; right: 0; bottom: 16px; display: flex; justify-content: center; pointer-events: none; }
-.st-notches { gap: 4px; }
-.st-notches button { pointer-events: auto; display: flex; align-items: center; height: 24px; padding: 0 4px; border: 0; background: transparent; cursor: pointer; }
-.st-notches button span { display: block; height: 8px; width: 8px; border-radius: 999px; background: #fff; opacity: 0.7; transition: width 0.35s var(--ease), opacity 0.3s; }
-.st-notches button[aria-current] span { width: 22px; opacity: 1; }
-.st-notches::before { content: ""; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); height: 28px; width: calc(var(--notches, 1) * 16px + 12px); border-radius: 999px; background: rgba(0, 0, 0, 0.55); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); z-index: -1; }
-.st-notches { z-index: 2; }
+/* The background and buttons share one intrinsic box; no estimated backdrop width. */
+.st-notches { position:absolute; left:50%; bottom:14px; transform:translateX(-50%); z-index:2; display:flex; align-items:center; justify-content:center; gap:0; width:max-content; max-width:calc(100% - 28px); padding:0 8px; border-radius:999px; background:rgba(8,8,8,.74); backdrop-filter:blur(10px); -webkit-backdrop-filter:blur(10px); }
+.st-notches[hidden] { display:none; }
+.st-notches button { flex:0 1 28px; min-width:14px; display:flex; align-items:center; justify-content:center; width:28px; height:44px; padding:0; border:0; border-radius:999px; background:transparent; cursor:pointer; }
+.st-notches button[hidden] { display:none; }
+.st-notches button span { display:block; height:7px; width:7px; border-radius:999px; background:#fff; opacity:.55; transition:width .3s var(--ease),opacity .3s; }
+.st-notches button[aria-current] { flex-basis:40px; width:40px; }
+.st-notches button[aria-current] span { width:24px; opacity:1; }
+.st-notches button:focus-visible { outline:1px solid #fff; outline-offset:-4px; }
 .st-gallery__note { margin-top: 16px; max-width: 60ch; font-size: 0.86em; line-height: 1.5; color: var(--dim); }
 
 .st-quote { max-width: 1000px; margin: 0 auto; padding: 24px 0; text-align: center; display: flex; flex-direction: column; align-items: center; gap: 24px; }

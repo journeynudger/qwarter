@@ -193,3 +193,32 @@ features a studio site has, and a fake WordPress REST API. Nothing below says an
 - All 38 Stories use one concise phrase as the display/metadata title. Headlines no longer append a second sentence; article copy and URLs remain intact. Examples: A Decade of Failure; Say the Difficult Thing.
 - Removed white outer padding from 32 story image files, retaining the complete photograph/content. New file names avoid cached white-framed thumbnails. Updated intrinsic sizes and retained sources/credits; image containers use black backgrounds.
 - Validation: 32 passing tests, one unavailable-source-snapshot check skipped; TypeScript, targeted ESLint and production build. Tests cover both portfolio routes, new order, muted inline preview, transient blur, concise titles and the absence of white frames on the IBM/Fairchild examples. Source artwork and preview stills inspected directly. Browser preview remains blocked by the existing computer-use URL security gate; no alternate browser was used.
+
+## Native previews, navigation and reader revision (2026-10-23)
+
+This supersedes the prior Butter / JR simulated homepage compositions. Featured and Portfolio now
+play the actual homepage video streams, remuxed without audio at their original 1280×720 resolution
+and timing; no site recording, text overlay or invented navigation is included. Sources:
+- Butter: https://butterspreads.com/cdn/shop/videos/c/vp/779437caafbc49aaa3ffcd25e96d16c5/779437caafbc49aaa3ffcd25e96d16c5.HD-720p-1.6Mbps-60748436.mp4
+- JR Pugh: https://jeffvhs.com/wp-content/uploads/2026/07/brazil-reel-tease.mp4
+
+Tima remains its own native film. Library previews use these same files, muted and inline, when
+visible; posters remain available without motion. The view control reads Portfolio / Library and is
+rendered only on the two Portfolio routes. Every carried internal anchor now bypasses reference
+PJAX, so the page owns its controls and Featured gets a fresh initialized document. The existing
+once-per-tab loader flag prevents the opening animation repeating during navigation.
+
+Gallery indicators share a single intrinsic background with their buttons. There is no separately
+estimated pseudo-element width. Hidden buttons explicitly display:none; controls resize with the
+number of stops, shrink within narrow galleries, expose proper aria-current / aria-hidden values,
+and retain 44px-high touch targets. Desktop / phone count changes clamp the selected slide.
+
+Validation: 36 passing tests, one unavailable WordPress snapshot check skipped; full ESLint;
+production build. Tests include fresh-document navigation, Portfolio-only controls, gallery clicks
+and responsive stop changes, all paragraph/image placement, public ordering and draft exclusion.
+HTTP audit: all 72 content routes return 200 and one h1; all three drafts have noindex and draft labels.
+The PDF image contact sheets and newly sourced PBS artwork were inspected directly.
+
+Limitation: browser preview remains blocked by the earlier computer-use URL security gate. No
+alternate browser or raw automation was used to bypass it. Responsive CSS and interaction logic
+were checked, but a fresh rendered desktop/mobile visual comparison cannot be claimed.

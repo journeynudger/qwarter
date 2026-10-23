@@ -7,7 +7,7 @@ import redirectsData from "@/content/redirects.json";
 import siteData from "@/content/site.json";
 import workData from "@/content/work.json";
 import { getStudy, hasStudy, studyMedia } from "@/lib/studies";
-import { getStories, storyImage, storyUrl } from "@/lib/stories";
+import { getAllStories, getStories, storyImage, storyUrl } from "@/lib/stories";
 
 // ---------------------------------------------------------------------------
 // Shapes. Every content file under content/ is read through one of these.
@@ -241,12 +241,13 @@ export function storyPages(): Page[] {
       { kind: "preload", href: "/design/qwarter/fonts/ebgaramond-italic-400-800-latin.woff2", as: "font", type: "font/woff2", crossOrigin: "anonymous", plain: true },
       { kind: "stylesheet", href: "/design/qwarter/fonts/fonts.css" },
       { kind: "stylesheet", href: "/design/qwarter/stories.css" },
+      { kind: "stylesheet", href: "/design/qwarter/reader.css" },
     ] as Asset[],
     scripts: [{ kind: "script", src: "/design/qwarter/stories.js", attrs: { defer: "" } }] as Asset[],
   };
   return [
     { ...base, slug: "stories", path: "/stories/", kind: "stories", title: "Stories – Qwarter", description: "We learn from those who came before us. Collected stories about craft, brands, resilience, and finding a point of view.", image: storyImage(getStories()[0])?.src ?? null },
-    ...getStories().map((story): Page => ({ ...base, slug: `story-${story.slug}`, path: storyUrl(story), kind: "story", story: story.slug, title: `${story.title} – Qwarter Stories`, description: story.lesson, image: storyImage(story)?.src ?? null, noindex: story.isExcerpt })),
+    ...getAllStories().map((story): Page => ({ ...base, slug: `story-${story.slug}`, path: storyUrl(story), kind: "story", story: story.slug, title: `${story.title} – Qwarter Stories`, description: story.lesson, image: storyImage(story)?.src ?? null, noindex: story.isExcerpt || story.draft })),
   ];
 }
 
@@ -267,7 +268,7 @@ export function pageMarkup(page: Page): string {
     const ending = fs.readFileSync(path.join(CONTENT_DIR, "fragments", "approach-ai.html"), "utf8");
     return html.replace("</article>", `${ending}</article>`);
   }
-  if (page.slug === "work") return html + '<nav class="qw-view-switch" aria-label="Portfolio view"><a href="/work/" aria-current="page" data-internal>Scrolling</a><a href="/work/library/" data-internal>Library</a></nav>';
+  if (page.slug === "work") return html + '<nav class="qw-view-switch" aria-label="Portfolio view"><a href="/work/" aria-current="page" data-internal>Portfolio</a><a href="/work/library/" data-internal>Library</a></nav>';
   if (!page.project) return html;
   const p = getProjects().find((x) => x.slug === page.project);
   if (!p) return html;

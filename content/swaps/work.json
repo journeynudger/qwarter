@@ -22,7 +22,8 @@
     {
       "select": "#Header .title",
       "attr": {
-        "title": "Qwarter Studio"
+        "title": "Qwarter Studio",
+        "data-internal": ""
       }
     },
     {
@@ -52,7 +53,7 @@
       "attr": {
         "href": "/",
         "aria-current": null,
-        "data-internal": null
+        "data-internal": ""
       },
       "source": "content/site.json chrome.nav[0]"
     },
@@ -62,7 +63,7 @@
       "attr": {
         "href": "/work/",
         "aria-current": "page",
-        "data-internal": null
+        "data-internal": ""
       },
       "source": "content/site.json chrome.nav[1]"
     },
@@ -82,7 +83,7 @@
       "attr": {
         "href": "/approach/",
         "aria-current": null,
-        "data-internal": null
+        "data-internal": ""
       },
       "source": "content/site.json chrome.nav[3]"
     },
@@ -92,7 +93,7 @@
       "attr": {
         "href": "/contact/",
         "aria-current": null,
-        "data-internal": null
+        "data-internal": ""
       },
       "source": "content/site.json chrome.nav[4]"
     },
@@ -101,7 +102,7 @@
       "attr": {
         "href": "/",
         "aria-current": null,
-        "data-internal": null
+        "data-internal": ""
       }
     },
     {
@@ -109,7 +110,7 @@
       "attr": {
         "href": "/work/",
         "aria-current": "page",
-        "data-internal": null
+        "data-internal": ""
       }
     },
     {
@@ -125,7 +126,7 @@
       "attr": {
         "href": "/approach/",
         "aria-current": null,
-        "data-internal": null
+        "data-internal": ""
       }
     },
     {
@@ -133,7 +134,7 @@
       "attr": {
         "href": "/contact/",
         "aria-current": null,
-        "data-internal": null
+        "data-internal": ""
       }
     },
     {
@@ -272,7 +273,7 @@
           },
           "video": {
             "attr": {
-              "src": "/media/work/butter/scroll.mp4?v=a666d818d2"
+              "src": "/media/work/butter/scroll.mp4?v=95b59c38c2"
             }
           },
           "source": "content/work.json butter: its cover and film"
@@ -289,7 +290,7 @@
           },
           "video": {
             "attr": {
-              "src": "/media/work/jr-pugh/scroll.mp4?v=696b902685"
+              "src": "/media/work/jr-pugh/scroll.mp4?v=ef0e2169f9"
             }
           },
           "source": "content/work.json jr-pugh: its cover and film"
@@ -527,7 +528,7 @@
           },
           "video": {
             "attr": {
-              "src": "/media/work/butter/scroll.mp4?v=a666d818d2"
+              "src": "/media/work/butter/scroll.mp4?v=95b59c38c2"
             }
           },
           "source": "content/work.json butter: its cover and film"
@@ -544,7 +545,7 @@
           },
           "video": {
             "attr": {
-              "src": "/media/work/jr-pugh/scroll.mp4?v=696b902685"
+              "src": "/media/work/jr-pugh/scroll.mp4?v=ef0e2169f9"
             }
           },
           "source": "content/work.json jr-pugh: its cover and film"

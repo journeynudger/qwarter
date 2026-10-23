@@ -135,3 +135,33 @@ with consistent square control boxes. The six lead photographs and card frames a
 Verification: 38 routes and six selected/opening items, absence of withdrawn text and emphasis markup,
 retired routes, figure references, attribution, and existing content checks; production build passes.
 Browser visual review remains unavailable because of the previously recorded browser policy block.
+
+## Immersive readings and review drafts (2026-10-23)
+
+The collection contains 48 public readings and three unlisted review drafts. Ten additions follow the
+existing 38 in shelf order: Beautiful First Sentences of Books; The Client Isn’t Always Right;
+The Story Inside the Swoosh; Ogilvy’s Rule of Typography; Logos Used to Be Art;
+From Novelty to Commodity; Permission to Fail; Rosso Corsa; A Memory Worth Keeping;
+Build the Future First. Memex and Xerox PARC are the last two public entries. The opening six remain unchanged.
+
+All 51 readers use the same responsive ruled spreads, alternating ink / category color / warm paper,
+large upright type, sticky desktop figures, inline mobile figures and progressive image reveals.
+The source paragraphs remain in order, and each image appears once in the reading body. Layered
+frontispieces introduce the image collections. Original image bounds are retained; small archival
+images are limited to their intrinsic width rather than enlarged across a desktop column.
+Reduced motion and a document without JavaScript retain the full reading.
+
+The user supplied ten Barnes & Noble conceptual posters, NeXT / Nike / PBS / iPhone imagery, and
+both PDFs. The ten actual embedded images in each PDF were extracted with Poppler rather than
+photographing their surrounding presentation templates. Ferrari photographs and Ogilvy advertisements
+have local copies and source notes. PBS also includes the original design firm’s television application
+and identity booklet, with credit and source links. Memex uses the Life illustration and a Bush portrait;
+PARC uses Alto / office archival photographs from the Computer History Museum. Videos include the
+1997 Jordan Failure commercial, Jobs on Rand, the iPhone introduction, SRI’s 1968 demo highlights,
+and Dan Ingalls’s Alto/Smalltalk demonstration. Each embed has a direct viewing fallback.
+
+Original essays use the supplied writing and the Bill conversations as context without republishing
+private transcripts or promoting a product. The three Daring Fireball-inspired essays stay unlisted,
+carry a visible Draft notice and noindex, and are excluded from public related links and the sitemap:
+`leave-room-to-be-wrong`, `remembering-to-ask`, `let-the-question-land`.
+New prose contains no em dashes. Unsupported precise source claims were qualified or omitted.

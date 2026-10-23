@@ -151,11 +151,11 @@
       const at = Math.min(index, stops() - 1);
       index = at;
       track.style.transform = `translate3d(${-at * step() + dx}px,0,0)`;
-      notches.forEach((n, i) => { const on = i === at && i < stops(); n.toggleAttribute("aria-current", on); n.tabIndex = on ? 0 : -1; n.hidden = i >= stops(); });
+      notches.forEach((n, i) => { const on = i === at && i < stops(); if (on) n.setAttribute("aria-current", "true"); else n.removeAttribute("aria-current"); n.tabIndex = on ? 0 : -1; n.hidden = i >= stops(); });
       arrows[0].disabled = at === 0;
       arrows[1].disabled = at >= stops() - 1;
-      notchBox.style.setProperty("--notches", String(stops()));
-      slides.forEach((s, i) => s.toggleAttribute("aria-hidden", i < at || i >= at + perView()));
+      notchBox.hidden = stops() <= 1;
+      slides.forEach((s, i) => s.setAttribute("aria-hidden", String(i < at || i >= at + perView())));
     };
     const go = (i, focus) => { index = Math.max(0, Math.min(i, stops() - 1)); paint(); if (focus) notches[index].focus(); };
     arrows.forEach((a) => a.addEventListener("click", () => { const next = index + Number(a.dataset.dir); go(next); if (next <= 0 || next >= stops() - 1) arrows[a.dataset.dir === "-1" ? 1 : 0].focus(); }));

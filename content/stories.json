@@ -6291,5 +6291,1714 @@
         "text": "Conviction cannot be delegated and it cannot be faked. And a napkin worth almost a million dollars is the proof that the biggest returns come from the talent the machine cannot price yet."
       }
     ]
+  },
+  {
+    "id": 44,
+    "slug": "beautiful-first-sentences-of-books",
+    "title": "Beautiful First Sentences of Books",
+    "headline": [
+      "Beautiful First Sentences of Books"
+    ],
+    "company": "Barnes & Noble",
+    "category": "Craft",
+    "lesson": "The first sentence earns the next.",
+    "excerpt": "Keep reading.",
+    "minutes": 2,
+    "isExcerpt": false,
+    "source": {
+      "label": "Supplied text and artwork",
+      "detail": "The reflection and ten conceptual poster crops were supplied by the user. The original reflection refers to seventeen posters; ten were provided. This is conceptual work, not a claim that Barnes & Noble commissioned or ran the campaign. Campaign creator not confirmed."
+    },
+    "provenance": "The reflection and ten conceptual poster crops were supplied by the user. The original reflection refers to seventeen posters; ten were provided. This is conceptual work, not a claim that Barnes & Noble commissioned or ran the campaign. Campaign creator not confirmed.",
+    "hero": 0,
+    "images": [
+      {
+        "src": "/media/stories/beautiful-first-sentences/catch-22.webp",
+        "width": 780,
+        "height": 212,
+        "alt": "Joseph Heller, Catch-22. Opening-line poster from the supplied conceptual Barnes & Noble campaign.",
+        "caption": "Joseph Heller, Catch-22. Opening-line poster from the supplied conceptual Barnes & Noble campaign.",
+        "credit": "Joseph Heller, Catch-22; campaign artwork supplied by the user, designer not identified",
+        "source": "/media/stories/beautiful-first-sentences/catch-22.webp",
+        "originalUrl": "/media/stories/beautiful-first-sentences/catch-22.webp"
+      },
+      {
+        "src": "/media/stories/beautiful-first-sentences/i-capture-the-castle.webp",
+        "width": 742,
+        "height": 296,
+        "alt": "Dodie Smith, I Capture the Castle. Opening-line poster from the supplied conceptual Barnes & Noble campaign.",
+        "caption": "Dodie Smith, I Capture the Castle. Opening-line poster from the supplied conceptual Barnes & Noble campaign.",
+        "credit": "Dodie Smith, I Capture the Castle; campaign artwork supplied by the user, designer not identified",
+        "source": "/media/stories/beautiful-first-sentences/i-capture-the-castle.webp",
+        "originalUrl": "/media/stories/beautiful-first-sentences/i-capture-the-castle.webp"
+      },
+      {
+        "src": "/media/stories/beautiful-first-sentences/neuromancer.webp",
+        "width": 716,
+        "height": 308,
+        "alt": "William Gibson, Neuromancer. Opening-line poster from the supplied conceptual Barnes & Noble campaign.",
+        "caption": "William Gibson, Neuromancer. Opening-line poster from the supplied conceptual Barnes & Noble campaign.",
+        "credit": "William Gibson, Neuromancer; campaign artwork supplied by the user, designer not identified",
+        "source": "/media/stories/beautiful-first-sentences/neuromancer.webp",
+        "originalUrl": "/media/stories/beautiful-first-sentences/neuromancer.webp"
+      },
+      {
+        "src": "/media/stories/beautiful-first-sentences/the-hunger-games.webp",
+        "width": 964,
+        "height": 370,
+        "alt": "Suzanne Collins, The Hunger Games. Opening-line poster from the supplied conceptual Barnes & Noble campaign.",
+        "caption": "Suzanne Collins, The Hunger Games. Opening-line poster from the supplied conceptual Barnes & Noble campaign.",
+        "credit": "Suzanne Collins, The Hunger Games; campaign artwork supplied by the user, designer not identified",
+        "source": "/media/stories/beautiful-first-sentences/the-hunger-games.webp",
+        "originalUrl": "/media/stories/beautiful-first-sentences/the-hunger-games.webp"
+      },
+      {
+        "src": "/media/stories/beautiful-first-sentences/the-stranger.webp",
+        "width": 716,
+        "height": 214,
+        "alt": "Albert Camus, The Stranger. Opening-line poster from the supplied conceptual Barnes & Noble campaign.",
+        "caption": "Albert Camus, The Stranger. Opening-line poster from the supplied conceptual Barnes & Noble campaign.",
+        "credit": "Albert Camus, The Stranger; campaign artwork supplied by the user, designer not identified",
+        "source": "/media/stories/beautiful-first-sentences/the-stranger.webp",
+        "originalUrl": "/media/stories/beautiful-first-sentences/the-stranger.webp"
+      },
+      {
+        "src": "/media/stories/beautiful-first-sentences/fear-and-loathing.webp",
+        "width": 922,
+        "height": 448,
+        "alt": "Hunter S. Thompson, Fear and Loathing in Las Vegas. Opening-line poster from the supplied conceptual Barnes & Noble campaign.",
+        "caption": "Hunter S. Thompson, Fear and Loathing in Las Vegas. Opening-line poster from the supplied conceptual Barnes & Noble campaign.",
+        "credit": "Hunter S. Thompson, Fear and Loathing in Las Vegas; campaign artwork supplied by the user, designer not identified",
+        "source": "/media/stories/beautiful-first-sentences/fear-and-loathing.webp",
+        "originalUrl": "/media/stories/beautiful-first-sentences/fear-and-loathing.webp"
+      },
+      {
+        "src": "/media/stories/beautiful-first-sentences/goodbye-to-berlin.webp",
+        "width": 852,
+        "height": 298,
+        "alt": "Christopher Isherwood, Goodbye to Berlin. Opening-line poster from the supplied conceptual Barnes & Noble campaign.",
+        "caption": "Christopher Isherwood, Goodbye to Berlin. Opening-line poster from the supplied conceptual Barnes & Noble campaign.",
+        "credit": "Christopher Isherwood, Goodbye to Berlin; campaign artwork supplied by the user, designer not identified",
+        "source": "/media/stories/beautiful-first-sentences/goodbye-to-berlin.webp",
+        "originalUrl": "/media/stories/beautiful-first-sentences/goodbye-to-berlin.webp"
+      },
+      {
+        "src": "/media/stories/beautiful-first-sentences/eureka-street.webp",
+        "width": 866,
+        "height": 178,
+        "alt": "Robert McLiam Wilson, Eureka Street. Opening-line poster from the supplied conceptual Barnes & Noble campaign.",
+        "caption": "Robert McLiam Wilson, Eureka Street. Opening-line poster from the supplied conceptual Barnes & Noble campaign.",
+        "credit": "Robert McLiam Wilson, Eureka Street; campaign artwork supplied by the user, designer not identified",
+        "source": "/media/stories/beautiful-first-sentences/eureka-street.webp",
+        "originalUrl": "/media/stories/beautiful-first-sentences/eureka-street.webp"
+      },
+      {
+        "src": "/media/stories/beautiful-first-sentences/jane-eyre.webp",
+        "width": 818,
+        "height": 292,
+        "alt": "Charlotte Brontë, Jane Eyre. Opening-line poster from the supplied conceptual Barnes & Noble campaign.",
+        "caption": "Charlotte Brontë, Jane Eyre. Opening-line poster from the supplied conceptual Barnes & Noble campaign.",
+        "credit": "Charlotte Brontë, Jane Eyre; campaign artwork supplied by the user, designer not identified",
+        "source": "/media/stories/beautiful-first-sentences/jane-eyre.webp",
+        "originalUrl": "/media/stories/beautiful-first-sentences/jane-eyre.webp"
+      },
+      {
+        "src": "/media/stories/beautiful-first-sentences/fahrenheit-451.webp",
+        "width": 978,
+        "height": 272,
+        "alt": "Ray Bradbury, Fahrenheit 451. Opening-line poster from the supplied conceptual Barnes & Noble campaign.",
+        "caption": "Ray Bradbury, Fahrenheit 451. Opening-line poster from the supplied conceptual Barnes & Noble campaign.",
+        "credit": "Ray Bradbury, Fahrenheit 451; campaign artwork supplied by the user, designer not identified",
+        "source": "/media/stories/beautiful-first-sentences/fahrenheit-451.webp",
+        "originalUrl": "/media/stories/beautiful-first-sentences/fahrenheit-451.webp"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Keep reading."
+      },
+      {
+        "type": "paragraph",
+        "text": "I love a gorgeous first sentence."
+      },
+      {
+        "type": "paragraph",
+        "text": "Novels are home to some of the most gorgeous first sentences ever written. Think about it."
+      },
+      {
+        "type": "paragraph",
+        "text": "When someone picks up a book, an author has to convince them to spend days, if not weeks, of their lives reading hundreds of thousands of words."
+      },
+      {
+        "type": "paragraph",
+        "text": "While this convincing certainly happens with the book’s title and cover, it also happens with the first sentence a person reads upon cracking it open."
+      },
+      {
+        "type": "paragraph",
+        "text": "I often tell aspiring copywriters to reach for novels rather than books about copywriting, advertising and marketing."
+      },
+      {
+        "type": "paragraph",
+        "text": "If Octavia Butler would have gotten into advertising, she would have written circles around us."
+      },
+      {
+        "type": "paragraph",
+        "text": "Thank God she didn’t."
+      },
+      {
+        "type": "heading",
+        "text": "Keep reading",
+        "id": "keep-reading"
+      },
+      {
+        "type": "paragraph",
+        "text": "Over the years, I’ve curated a long list of gorgeous first sentences. I’ve brought seventeen of these sentences to life in this conceptual campaign for Barnes & Noble."
+      },
+      {
+        "type": "paragraph",
+        "text": "Imagine walking down the street, seeing a line of prose that stops you in your tracks accompanied by a two-word challenge."
+      },
+      {
+        "type": "paragraph",
+        "text": "Keep reading."
+      },
+      {
+        "type": "paragraph",
+        "text": "I’m very obviously biased. But I would walk straight to Barnes & Noble after such an experience."
+      },
+      {
+        "type": "heading",
+        "text": "Ten opening lines",
+        "id": "ten-opening-lines"
+      },
+      {
+        "type": "paragraph",
+        "text": "Ten examples from the conceptual campaign are collected here, each credited to the novelist and book shown in the supplied artwork."
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "slug": "the-client-isnt-always-right",
+    "title": "The Client Isn’t Always Right",
+    "headline": [
+      "The Client Isn’t Always Right"
+    ],
+    "company": "Paul Rand / NeXT",
+    "category": "Craft",
+    "lesson": "A clear point of view is part of the work.",
+    "excerpt": "The client isn’t always right.",
+    "minutes": 2,
+    "isExcerpt": false,
+    "source": {
+      "label": "Supplied account; Steve Jobs interview about working with Paul Rand",
+      "url": "https://www.paulrand.design/life/videos/1993-steve-jobs.html",
+      "detail": "The story and dialogue are reproduced from the supplied account. The archive preserves a 1993 interview with Jobs about Rand; not every anecdotal detail has been independently verified."
+    },
+    "provenance": "Supplied commentary, lightly edited for punctuation and spelling. Em dashes removed. Images retained whole, with source notes.",
+    "hero": 0,
+    "images": [
+      {
+        "src": "/media/stories/craft-and-brand/next-logo.webp",
+        "width": 1024,
+        "height": 1024,
+        "alt": "The NeXT identity designed by Paul Rand.",
+        "caption": "The NeXT identity designed by Paul Rand.",
+        "credit": "Paul Rand / NeXT; supplied image",
+        "source": "/media/stories/craft-and-brand/next-logo.webp",
+        "originalUrl": "/media/stories/craft-and-brand/next-logo.webp"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "The client isn’t always right."
+      },
+      {
+        "type": "paragraph",
+        "text": "Legendary graphic designer Paul Rand knew this better than anyone."
+      },
+      {
+        "type": "paragraph",
+        "text": "Rand was a creative genius with balls of brass. He was one of the only individuals to ever tell Steve Jobs “no”."
+      },
+      {
+        "type": "paragraph",
+        "text": "When Jobs was ousted from Apple, he rolled up his sleeves and got to work on another venture called NeXT."
+      },
+      {
+        "type": "paragraph",
+        "text": "One of the first things Jobs did was hire Paul Rand to craft him a logo."
+      },
+      {
+        "type": "heading",
+        "text": "One solution",
+        "id": "one-solution"
+      },
+      {
+        "type": "paragraph",
+        "text": "Rand wasn’t cheap. Before he got to work, he told Jobs the price: $100,000."
+      },
+      {
+        "type": "paragraph",
+        "text": "Jobs asked Rand if he could design him a number of different options to choose from."
+      },
+      {
+        "type": "paragraph",
+        "text": "To which Rand replied with one of the greatest mic-drop moments in business history:"
+      },
+      {
+        "type": "paragraph",
+        "text": "“I will solve your problem, and you will pay me. You can use what I produce, or not, but I will not do options, and either way you will pay me.”"
+      },
+      {
+        "type": "paragraph",
+        "text": "Jobs shut up, wrote him a check and waited patiently."
+      },
+      {
+        "type": "paragraph",
+        "text": "When Rand later unveiled the logo, Jobs was speechless. He was enamored with it."
+      },
+      {
+        "type": "heading",
+        "text": "The yellow e",
+        "id": "the-yellow-e"
+      },
+      {
+        "type": "paragraph",
+        "text": "In the supplied account, Jobs had one qualm. He didn’t like the shade of yellow Rand chose for the “e”. He asked him to make it brighter."
+      },
+      {
+        "type": "paragraph",
+        "text": "Rand pounded his fist against the table and said, “I’ve been doing this for fifty years, and I know what I’m doing.”"
+      },
+      {
+        "type": "paragraph",
+        "text": "Once again, Jobs shut up."
+      },
+      {
+        "type": "paragraph",
+        "text": "Good agencies give clients what they want. Great agencies give clients what they need."
+      }
+    ],
+    "videos": [
+      {
+        "youtubeId": "qw7VrZSAUEU",
+        "title": "Steve Jobs on Paul Rand’s NeXT logo",
+        "caption": "Steve Jobs discussing Rand and the NeXT identity. Interview recorded in 1993; archive copy via Explain Engine.",
+        "source": "https://www.youtube.com/watch?v=qw7VrZSAUEU"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "slug": "the-story-inside-the-swoosh",
+    "title": "The Story Inside the Swoosh",
+    "headline": [
+      "The Story Inside the Swoosh"
+    ],
+    "company": "Nike",
+    "category": "Brand",
+    "lesson": "Give the customer a role in the story.",
+    "excerpt": "Great brands are a living, breathing story.",
+    "minutes": 2,
+    "isExcerpt": false,
+    "source": {
+      "label": "Supplied text and artwork",
+      "detail": "User-supplied commentary and images, 23 October 2026. Collected reading; original byline not supplied."
+    },
+    "provenance": "Supplied commentary, lightly edited for punctuation and spelling. Em dashes removed. Images retained whole, with source notes.",
+    "hero": 0,
+    "images": [
+      {
+        "src": "/media/stories/craft-and-brand/nike-swoosh.webp",
+        "width": 451,
+        "height": 453,
+        "alt": "The Nike Swoosh on a black background.",
+        "caption": "The Nike Swoosh on a black background.",
+        "credit": "Nike; supplied image",
+        "source": "/media/stories/craft-and-brand/nike-swoosh.webp",
+        "originalUrl": "/media/stories/craft-and-brand/nike-swoosh.webp"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Great brands are a living, breathing story."
+      },
+      {
+        "type": "paragraph",
+        "text": "Take Nike for example."
+      },
+      {
+        "type": "paragraph",
+        "text": "It’s a brand that has nothing to do with sportswear. And everything to do with a story about the internal struggle between who we are and who we want to be."
+      },
+      {
+        "type": "paragraph",
+        "text": "In many ways, Nike is no different than Star Wars, Harry Potter or Lord of the Rings."
+      },
+      {
+        "type": "paragraph",
+        "text": "It’s a story about realizing one’s own potential."
+      },
+      {
+        "type": "paragraph",
+        "text": "Every story shares the same anatomy: the protagonist, the antagonist, the guide, the tension and the transformation."
+      },
+      {
+        "type": "heading",
+        "text": "The protagonist",
+        "id": "the-protagonist"
+      },
+      {
+        "type": "paragraph",
+        "text": "For Nike, the protagonist is the customer. It’s the individual who knows they’re capable of doing and achieving more."
+      },
+      {
+        "type": "paragraph",
+        "text": "The antagonist is the self-doubt, insecurity and imposter syndrome the customer experiences when they attempt to reach their highest selves."
+      },
+      {
+        "type": "heading",
+        "text": "The guide",
+        "id": "the-guide"
+      },
+      {
+        "type": "paragraph",
+        "text": "The guide is Nike and the extraordinary athletes who embody the brand: Michael Jordan, Serena Williams, Kobe Bryant, Rafael Nadal, Tiger Woods and Bo Jackson."
+      },
+      {
+        "type": "paragraph",
+        "text": "When a kid slips on a pair of Air Jordans and steps onto the hardwood, he is filled with possibility. This is the job of the guide. Not so much to show the protagonist the way, but to remind them they’re capable of finding their way."
+      },
+      {
+        "type": "heading",
+        "text": "The tension",
+        "id": "the-tension"
+      },
+      {
+        "type": "paragraph",
+        "text": "The tension is the ongoing daily struggle as the customer attempts to overcome their own self-doubt, insecurity and imposter syndrome."
+      },
+      {
+        "type": "paragraph",
+        "text": "It’s the five miles of roadwork at 5 a.m. It’s the grueling practices. It’s the missed buzzer beaters. It’s the heartbreakers. It’s the devastating setbacks."
+      },
+      {
+        "type": "heading",
+        "text": "The transformation",
+        "id": "the-transformation"
+      },
+      {
+        "type": "paragraph",
+        "text": "The transformation is the moment the customer realizes they’re no longer the person they were when they first slipped on those sneakers. They’re someone who is disciplined, tenacious, devoted and, dare we say, great."
+      },
+      {
+        "type": "paragraph",
+        "text": "Nike has told this story, over and over again, for decades. It’s told in every ad, every commercial and every moment one of their athletes does something monumental while wearing their brand."
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "slug": "ogilvys-rule-of-typography",
+    "title": "Ogilvy’s Rule of Typography",
+    "headline": [
+      "Ogilvy’s Rule of Typography"
+    ],
+    "company": "David Ogilvy",
+    "category": "Craft",
+    "lesson": "Make the message easy to read.",
+    "excerpt": "What do these ten ads have in common?",
+    "minutes": 2,
+    "isExcerpt": false,
+    "source": {
+      "label": "David Ogilvy’s Cardinal Rule of Typography, supplied PDF",
+      "url": "/media/stories/ogilvy-typography/source.pdf",
+      "detail": "Ten ad images extracted directly from the supplied PDF. PDF title: A masterclass in white space. Author metadata: austincoleschafer. The accompanying supplied commentary names Honey Copy. Original ad authors are not individually identified in the compilation."
+    },
+    "provenance": "Supplied commentary, lightly edited for punctuation and spelling. Em dashes removed. Images retained whole, with source notes.",
+    "hero": 0,
+    "images": [
+      {
+        "src": "/media/stories/ogilvy-typography/01.webp",
+        "width": 535,
+        "height": 643,
+        "alt": "Apple: Test drive a Macintosh.",
+        "caption": "Apple: Test drive a Macintosh.",
+        "credit": "Original advertiser shown in the artwork; compilation supplied by the user (PDF author metadata: austincoleschafer)",
+        "source": "/media/stories/ogilvy-typography/source.pdf#page=1",
+        "originalUrl": "/media/stories/ogilvy-typography/01.webp"
+      },
+      {
+        "src": "/media/stories/ogilvy-typography/02.webp",
+        "width": 750,
+        "height": 970,
+        "alt": "New Balance: Worn by supermodels in London and dads in Ohio.",
+        "caption": "New Balance: Worn by supermodels in London and dads in Ohio.",
+        "credit": "Original advertiser shown in the artwork; compilation supplied by the user (PDF author metadata: austincoleschafer)",
+        "source": "/media/stories/ogilvy-typography/source.pdf#page=2",
+        "originalUrl": "/media/stories/ogilvy-typography/02.webp"
+      },
+      {
+        "src": "/media/stories/ogilvy-typography/03.webp",
+        "width": 1200,
+        "height": 1500,
+        "alt": "Porsche: Nobody’s perfect.",
+        "caption": "Porsche: Nobody’s perfect.",
+        "credit": "Original advertiser shown in the artwork; compilation supplied by the user (PDF author metadata: austincoleschafer)",
+        "source": "/media/stories/ogilvy-typography/source.pdf#page=3",
+        "originalUrl": "/media/stories/ogilvy-typography/03.webp"
+      },
+      {
+        "src": "/media/stories/ogilvy-typography/04.webp",
+        "width": 857,
+        "height": 1024,
+        "alt": "Macintosh G5: Absolute power corrupts. Enjoy.",
+        "caption": "Macintosh G5: Absolute power corrupts. Enjoy.",
+        "credit": "Original advertiser shown in the artwork; compilation supplied by the user (PDF author metadata: austincoleschafer)",
+        "source": "/media/stories/ogilvy-typography/source.pdf#page=4",
+        "originalUrl": "/media/stories/ogilvy-typography/04.webp"
+      },
+      {
+        "src": "/media/stories/ogilvy-typography/05.webp",
+        "width": 564,
+        "height": 785,
+        "alt": "Magnum: Forever a classic.",
+        "caption": "Magnum: Forever a classic.",
+        "credit": "Original advertiser shown in the artwork; compilation supplied by the user (PDF author metadata: austincoleschafer)",
+        "source": "/media/stories/ogilvy-typography/source.pdf#page=5",
+        "originalUrl": "/media/stories/ogilvy-typography/05.webp"
+      },
+      {
+        "src": "/media/stories/ogilvy-typography/06.webp",
+        "width": 1120,
+        "height": 1600,
+        "alt": "Swiss Life: I love my house now belongs to my ex-wife.",
+        "caption": "Swiss Life: I love my house now belongs to my ex-wife.",
+        "credit": "Original advertiser shown in the artwork; compilation supplied by the user (PDF author metadata: austincoleschafer)",
+        "source": "/media/stories/ogilvy-typography/source.pdf#page=6",
+        "originalUrl": "/media/stories/ogilvy-typography/06.webp"
+      },
+      {
+        "src": "/media/stories/ogilvy-typography/07.webp",
+        "width": 564,
+        "height": 752,
+        "alt": "Volvo: Defensive line.",
+        "caption": "Volvo: Defensive line.",
+        "credit": "Original advertiser shown in the artwork; compilation supplied by the user (PDF author metadata: austincoleschafer)",
+        "source": "/media/stories/ogilvy-typography/source.pdf#page=7",
+        "originalUrl": "/media/stories/ogilvy-typography/07.webp"
+      },
+      {
+        "src": "/media/stories/ogilvy-typography/08.webp",
+        "width": 736,
+        "height": 889,
+        "alt": "Nike: Re-run.",
+        "caption": "Nike: Re-run.",
+        "credit": "Original advertiser shown in the artwork; compilation supplied by the user (PDF author metadata: austincoleschafer)",
+        "source": "/media/stories/ogilvy-typography/source.pdf#page=8",
+        "originalUrl": "/media/stories/ogilvy-typography/08.webp"
+      },
+      {
+        "src": "/media/stories/ogilvy-typography/09.webp",
+        "width": 736,
+        "height": 1023,
+        "alt": "New Balance: Innovation Doesn’t Carry the Weight It Once Carried.",
+        "caption": "New Balance: Innovation Doesn’t Carry the Weight It Once Carried.",
+        "credit": "Original advertiser shown in the artwork; compilation supplied by the user (PDF author metadata: austincoleschafer)",
+        "source": "/media/stories/ogilvy-typography/source.pdf#page=9",
+        "originalUrl": "/media/stories/ogilvy-typography/09.webp"
+      },
+      {
+        "src": "/media/stories/ogilvy-typography/10.webp",
+        "width": 735,
+        "height": 934,
+        "alt": "Nike: Smoke ’em.",
+        "caption": "Nike: Smoke ’em.",
+        "credit": "Original advertiser shown in the artwork; compilation supplied by the user (PDF author metadata: austincoleschafer)",
+        "source": "/media/stories/ogilvy-typography/source.pdf#page=10",
+        "originalUrl": "/media/stories/ogilvy-typography/10.webp"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "What do these ten ads have in common?"
+      },
+      {
+        "type": "paragraph",
+        "text": "They follow David Ogilvy’s cardinal rule of typography."
+      },
+      {
+        "type": "paragraph",
+        "text": "Ogilvy forbade his teams from using reverse type. He hated seeing white text on a dark background."
+      },
+      {
+        "type": "paragraph",
+        "text": "Why?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Because reverse type is difficult to read. It slows down the reader and reduces overall readership."
+      },
+      {
+        "type": "paragraph",
+        "text": "Some of the greatest ads of all time follow Ogilvy’s rule. You will find a few of those below."
+      },
+      {
+        "type": "heading",
+        "text": "The message comes first",
+        "id": "the-message-comes-first"
+      },
+      {
+        "type": "paragraph",
+        "text": "Here’s what I like about Ogilvy’s rule: it simplifies ads, provides healthy creative constraints and focuses the eye on the messaging."
+      },
+      {
+        "type": "paragraph",
+        "text": "In advertising, simpler is better."
+      },
+      {
+        "type": "paragraph",
+        "text": "I’m not a stickler about this rule at Honey Copy."
+      },
+      {
+        "type": "paragraph",
+        "text": "But after looking at these legendary ads, perhaps I should be."
+      },
+      {
+        "type": "heading",
+        "text": "Ten examples",
+        "id": "ten-examples"
+      },
+      {
+        "type": "paragraph",
+        "text": "The ten examples from the supplied collection follow. Each image has been extracted from its PDF page so you can look at the ad itself."
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "slug": "logos-used-to-be-art",
+    "title": "Logos Used to Be Art",
+    "headline": [
+      "Logos Used to Be Art"
+    ],
+    "company": "PBS",
+    "category": "Craft",
+    "lesson": "Know why the mark looks the way it does.",
+    "excerpt": "Logos used to be art.",
+    "minutes": 2,
+    "isExcerpt": false,
+    "source": {
+      "label": "Supplied reflection; PBS identity case study",
+      "url": "https://cghnyc.com/work/project/pbs",
+      "detail": "Chermayeff & Geismar & Haviv describes the repeated human profiles as putting the public in public television. The supplied quotation attributed to Geismar has been paraphrased because its exact wording was not independently verified. The original P-head predates the 1984 redesign."
+    },
+    "provenance": "Supplied commentary, lightly edited for punctuation and spelling. Em dashes removed. Images retained whole, with source notes.",
+    "hero": 2,
+    "images": [
+      {
+        "src": "/media/stories/craft-and-brand/pbs-p-head.webp",
+        "width": 240,
+        "height": 240,
+        "alt": "The three-profile PBS identity in a vintage on-screen treatment.",
+        "caption": "The three-profile PBS identity in a vintage on-screen treatment.",
+        "credit": "Tom Geismar / Chermayeff & Geismar, PBS identity; supplied still",
+        "source": "/media/stories/craft-and-brand/pbs-p-head.webp",
+        "originalUrl": "/media/stories/craft-and-brand/pbs-p-head.webp"
+      },
+      {
+        "src": "/media/stories/craft-and-brand/pbs-tv.webp",
+        "width": 2200,
+        "height": 1467,
+        "alt": "PBS human-profile logo displayed on a television",
+        "caption": "The PBS identity on a television, from Chermayeff & Geismar & Haviv’s project archive.",
+        "source": "https://cghnyc.com/work/project/pbs",
+        "originalUrl": "https://wp.cghnyc.com/media/pbs-w-image-tv-1.jpg",
+        "credit": "Chermayeff & Geismar & Haviv project archive"
+      },
+      {
+        "src": "/media/stories/craft-and-brand/pbs-booklet.webp",
+        "width": 1484,
+        "height": 989,
+        "alt": "Printed PBS identity booklet showing the human-profile symbol",
+        "caption": "The PBS identity booklet, from the original design firm’s archive.",
+        "source": "https://cghnyc.com/work/project/pbs",
+        "originalUrl": "https://wp.cghnyc.com/media/pbs-w-image-booklet.jpg",
+        "credit": "Chermayeff & Geismar & Haviv project archive"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Logos used to be art."
+      },
+      {
+        "type": "paragraph",
+        "text": "Or, at least, treated as such."
+      },
+      {
+        "type": "paragraph",
+        "text": "This vintage PBS logo was created by the legendary Tom Geismar back in 1984."
+      },
+      {
+        "type": "paragraph",
+        "text": "His firm, Chermayeff & Geismar, has crafted logos for NBC, Mobil, Chase Bank, National Geographic and the Smithsonian."
+      },
+      {
+        "type": "heading",
+        "text": "A symbol of people",
+        "id": "a-symbol-of-people"
+      },
+      {
+        "type": "paragraph",
+        "text": "PBS’ three-profile mark developed the earlier P-head idea into a symbol of the people who make up its public."
+      },
+      {
+        "type": "paragraph",
+        "text": "The profiles face forward. The repeated outlines suggest a wider audience. The P connects the symbol to PBS."
+      },
+      {
+        "type": "paragraph",
+        "text": "The logo was intended to be immediately recognizable, both in color and in black and white."
+      },
+      {
+        "type": "paragraph",
+        "text": "The intention is humanistic: a symbol of people, ideas and culture rather than a corporate monogram."
+      },
+      {
+        "type": "heading",
+        "text": "A point of view",
+        "id": "a-point-of-view"
+      },
+      {
+        "type": "paragraph",
+        "text": "Something that’s missing from a lot of advertising, branding and design we see today is a point of view. Because of this, much of the work put out by brands and agencies falls flat."
+      },
+      {
+        "type": "paragraph",
+        "text": "It’s fascinating to me that a logo created over four decades ago, which is itself quite flat, evokes such a tremendous amount of emotion."
+      },
+      {
+        "type": "paragraph",
+        "text": "When you’re creating advertising, branding or design for yourself or a brand, it’s worth asking: why?"
+      },
+      {
+        "type": "paragraph",
+        "text": "If you don’t have a good answer as to why something is being created in the way you’re creating it, consider going back to the drawing board."
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "slug": "from-novelty-to-commodity",
+    "title": "From Novelty to Commodity",
+    "headline": [
+      "From Novelty to Commodity"
+    ],
+    "company": "Apple / Software",
+    "category": "Brand",
+    "lesson": "Brand and story matter when features become commonplace.",
+    "excerpt": "A great product begins as a novelty.",
+    "minutes": 2,
+    "isExcerpt": false,
+    "source": {
+      "label": "Supplied text and artwork",
+      "detail": "Supplied commentary, edited for punctuation. Unclear smartphone brand-count and market-share figures omitted. A distinction between a prototype and a production enterprise product added. Keynote image and video illustrate the original 2007 introduction."
+    },
+    "provenance": "Supplied commentary, edited for punctuation. Unclear smartphone brand-count and market-share figures omitted. A distinction between a prototype and a production enterprise product added. Keynote image and video illustrate the original 2007 introduction.",
+    "hero": 0,
+    "images": [
+      {
+        "src": "/media/stories/craft-and-brand/iphone-keynote.webp",
+        "width": 1213,
+        "height": 1536,
+        "alt": "Steve Jobs at the 2007 iPhone introduction, showing the rotary-dial iPod visual joke before the actual device.",
+        "caption": "Steve Jobs at the 2007 iPhone introduction, showing the rotary-dial iPod visual joke before the actual device.",
+        "credit": "Supplied keynote photograph; photographer not identified",
+        "source": "/media/stories/craft-and-brand/iphone-keynote.webp",
+        "originalUrl": "/media/stories/craft-and-brand/iphone-keynote.webp"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "A great product begins as a novelty."
+      },
+      {
+        "type": "paragraph",
+        "text": "With time, it becomes a commodity."
+      },
+      {
+        "type": "paragraph",
+        "text": "Once a product is commoditized, the game changes. It’s no longer strictly about innovation. It’s about branding and, of course, storytelling."
+      },
+      {
+        "type": "paragraph",
+        "text": "Take the iPhone, for example."
+      },
+      {
+        "type": "paragraph",
+        "text": "When it was unveiled in 2007, the iPhone was something out of a sci-fi flick."
+      },
+      {
+        "type": "paragraph",
+        "text": "Jobs knew Apple had made something truly novel. He also knew the iPhone wouldn’t remain novel forever."
+      },
+      {
+        "type": "paragraph",
+        "text": "That’s why he invested heavily in branding and storytelling."
+      },
+      {
+        "type": "paragraph",
+        "text": "Today, the iPhone competes in a crowded smartphone market. Apple’s brand and story remain part of what distinguishes it."
+      },
+      {
+        "type": "heading",
+        "text": "What becomes ordinary",
+        "id": "what-becomes-ordinary"
+      },
+      {
+        "type": "paragraph",
+        "text": "Take a good, hard look at any product widely used today. What once was a novelty is now a commodity."
+      },
+      {
+        "type": "paragraph",
+        "text": "Email. Music streaming. Air travel. Laptops. Energy drinks. Automobiles. Coffee pods. Social media. Bluetooth earbuds. Cordless vacuums."
+      },
+      {
+        "type": "paragraph",
+        "text": "Need I go on?"
+      },
+      {
+        "type": "heading",
+        "text": "Software",
+        "id": "software"
+      },
+      {
+        "type": "paragraph",
+        "text": "This commoditization is happening right now in software."
+      },
+      {
+        "type": "paragraph",
+        "text": "Ten, twenty and thirty years ago, software was a novelty. It was difficult to compete with because it was difficult to make."
+      },
+      {
+        "type": "paragraph",
+        "text": "Nowadays, with the help of AI, a kid can create a working Salesforce-like prototype in a week."
+      },
+      {
+        "type": "paragraph",
+        "text": "A prototype is not an enterprise product. But the cost of showing that an idea can work has fallen sharply."
+      },
+      {
+        "type": "paragraph",
+        "text": "As more of the features become familiar, branding and storytelling carry more of the work of differentiation."
+      },
+      {
+        "type": "paragraph",
+        "text": "Enterprises will endure if they can build a brilliant brand and tell a stunning story."
+      },
+      {
+        "type": "paragraph",
+        "text": "Customers don’t want replicas. They want the real thing."
+      }
+    ],
+    "videos": [
+      {
+        "youtubeId": "MnrJzXM7a6o",
+        "title": "Steve Jobs introduces iPhone in 2007",
+        "caption": "The original iPhone introduction at Macworld, 9 January 2007. Apple keynote footage; archive upload by macessentials.",
+        "source": "https://www.youtube.com/watch?v=MnrJzXM7a6o"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "slug": "permission-to-fail",
+    "title": "Permission to Fail",
+    "headline": [
+      "Permission to Fail"
+    ],
+    "company": "Nike / Michael Jordan",
+    "category": "Brand",
+    "lesson": "Leave room for the person behind the achievement.",
+    "excerpt": "Many consider this to be the greatest Nike ad of all time.",
+    "minutes": 2,
+    "isExcerpt": false,
+    "source": {
+      "label": "Supplied reflection and Nike’s 1997 Failure commercial",
+      "url": "https://www.youtube.com/watch?v=nvrbQBI4ElI",
+      "detail": "Nike / Wieden+Kennedy. Supplied commentary credits Jim Riswold. Embedded archive copy uploaded by Anthony Kalamut (Southside AdGuy); YouTube oEmbed verified."
+    },
+    "provenance": "Supplied commentary, lightly edited for punctuation and spelling. Em dashes removed. Images retained whole, with source notes.",
+    "hero": 0,
+    "images": [
+      {
+        "src": "/media/stories/nike-failure/jordan.webp",
+        "width": 480,
+        "height": 360,
+        "alt": "Michael Jordan in Nike’s 1997 Failure commercial.",
+        "caption": "Michael Jordan in Nike’s 1997 Failure commercial.",
+        "credit": "Nike / Wieden+Kennedy; YouTube archive uploaded by Anthony Kalamut (Southside AdGuy)",
+        "source": "https://www.youtube.com/watch?v=nvrbQBI4ElI",
+        "originalUrl": "https://i.ytimg.com/vi/nvrbQBI4ElI/hqdefault.jpg"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Many consider this to be the greatest Nike ad of all time."
+      },
+      {
+        "type": "paragraph",
+        "text": "It hits as hard today as it did back in 1997."
+      },
+      {
+        "type": "paragraph",
+        "text": "When it launched, it was an anomaly. Sports advertising worshipped athletes. It portrayed them as if they were gods."
+      },
+      {
+        "type": "paragraph",
+        "text": "Gods who were absent of fear. Absent of weakness. Absent of failure."
+      },
+      {
+        "type": "paragraph",
+        "text": "Nike realized this glorification made athletes unrelatable."
+      },
+      {
+        "type": "paragraph",
+        "text": "So what did they do?"
+      },
+      {
+        "type": "paragraph",
+        "text": "They had the greatest athlete in the world recite his failures."
+      },
+      {
+        "type": "heading",
+        "text": "Failure",
+        "id": "failure"
+      },
+      {
+        "type": "paragraph",
+        "text": "“I’ve missed more than 9,000 shots in my career."
+      },
+      {
+        "type": "paragraph",
+        "text": "“I’ve lost almost 300 games."
+      },
+      {
+        "type": "paragraph",
+        "text": "“26 times, I’ve been trusted to take the game-winning shot. And missed."
+      },
+      {
+        "type": "paragraph",
+        "text": "“I’ve failed over and over and over again in my life. And that is why I succeed.”"
+      },
+      {
+        "type": "paragraph",
+        "text": "Jordan’s confession was written by the late Jim Riswold, the legendary Wieden+Kennedy creative director."
+      },
+      {
+        "type": "paragraph",
+        "text": "The Nike Failure commercial was so much more than a commercial."
+      },
+      {
+        "type": "paragraph",
+        "text": "It gave everyone permission to try without the fear of failure."
+      }
+    ],
+    "videos": [
+      {
+        "youtubeId": "nvrbQBI4ElI",
+        "title": "Nike: Failure, Michael Jordan, 1997",
+        "caption": "Nike / Wieden+Kennedy, 1997. Archive upload: Anthony Kalamut (Southside AdGuy).",
+        "source": "https://www.youtube.com/watch?v=nvrbQBI4ElI"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "slug": "rosso-corsa",
+    "title": "Rosso Corsa",
+    "headline": [
+      "Rosso Corsa"
+    ],
+    "company": "Ferrari",
+    "category": "Brand",
+    "lesson": "Color becomes part of how a brand is remembered.",
+    "excerpt": "For most brands, color is an afterthought.",
+    "minutes": 2,
+    "isExcerpt": false,
+    "source": {
+      "label": "Supplied Ferrari reflection and Rosso Corsa image collection",
+      "url": "/media/stories/rosso-corsa/source.pdf",
+      "detail": "Ten original images extracted from the supplied Ferarri.pdf (PDF title: Rosso Corsa; author metadata: austincoleschafer). Photographer and artwork credits were not supplied. The unsourced 90% figure was omitted; the national-racing-color account was qualified; the Enzo quotation is presented as an uncertain attribution."
+    },
+    "provenance": "Supplied commentary, lightly edited for punctuation and spelling. Em dashes removed. Images retained whole, with source notes.",
+    "hero": 0,
+    "images": [
+      {
+        "src": "/media/stories/rosso-corsa/01.webp",
+        "width": 1200,
+        "height": 1600,
+        "alt": "The prancing horse on red bodywork.",
+        "caption": "The prancing horse on red bodywork.",
+        "credit": "Extracted from the supplied Ferrari compilation; original photographer or artist not identified",
+        "source": "/media/stories/rosso-corsa/source.pdf#page=1",
+        "originalUrl": "/media/stories/rosso-corsa/01.webp"
+      },
+      {
+        "src": "/media/stories/rosso-corsa/02.webp",
+        "width": 675,
+        "height": 1200,
+        "alt": "A Ferrari racing car in motion.",
+        "caption": "A Ferrari racing car in motion.",
+        "credit": "Extracted from the supplied Ferrari compilation; original photographer or artist not identified",
+        "source": "/media/stories/rosso-corsa/source.pdf#page=2",
+        "originalUrl": "/media/stories/rosso-corsa/02.webp"
+      },
+      {
+        "src": "/media/stories/rosso-corsa/03.webp",
+        "width": 736,
+        "height": 1104,
+        "alt": "A tube of red paint.",
+        "caption": "A tube of red paint.",
+        "credit": "Extracted from the supplied Ferrari compilation; original photographer or artist not identified",
+        "source": "/media/stories/rosso-corsa/source.pdf#page=3",
+        "originalUrl": "/media/stories/rosso-corsa/03.webp"
+      },
+      {
+        "src": "/media/stories/rosso-corsa/04.webp",
+        "width": 800,
+        "height": 1200,
+        "alt": "Ferrari racing colors against blue.",
+        "caption": "Ferrari racing colors against blue.",
+        "credit": "Extracted from the supplied Ferrari compilation; original photographer or artist not identified",
+        "source": "/media/stories/rosso-corsa/source.pdf#page=4",
+        "originalUrl": "/media/stories/rosso-corsa/04.webp"
+      },
+      {
+        "src": "/media/stories/rosso-corsa/05.webp",
+        "width": 640,
+        "height": 800,
+        "alt": "Red as a visual and emotional cue.",
+        "caption": "Red as a visual and emotional cue.",
+        "credit": "Extracted from the supplied Ferrari compilation; original photographer or artist not identified",
+        "source": "/media/stories/rosso-corsa/source.pdf#page=5",
+        "originalUrl": "/media/stories/rosso-corsa/05.webp"
+      },
+      {
+        "src": "/media/stories/rosso-corsa/06.webp",
+        "width": 499,
+        "height": 764,
+        "alt": "An F40 poster from the supplied collection.",
+        "caption": "An F40 poster from the supplied collection.",
+        "credit": "Extracted from the supplied Ferrari compilation; original photographer or artist not identified",
+        "source": "/media/stories/rosso-corsa/source.pdf#page=6",
+        "originalUrl": "/media/stories/rosso-corsa/06.webp"
+      },
+      {
+        "src": "/media/stories/rosso-corsa/07.webp",
+        "width": 736,
+        "height": 1124,
+        "alt": "A study in red material.",
+        "caption": "A study in red material.",
+        "credit": "Extracted from the supplied Ferrari compilation; original photographer or artist not identified",
+        "source": "/media/stories/rosso-corsa/source.pdf#page=7",
+        "originalUrl": "/media/stories/rosso-corsa/07.webp"
+      },
+      {
+        "src": "/media/stories/rosso-corsa/08.webp",
+        "width": 736,
+        "height": 981,
+        "alt": "Red bodywork and the Ferrari badge.",
+        "caption": "Red bodywork and the Ferrari badge.",
+        "credit": "Extracted from the supplied Ferrari compilation; original photographer or artist not identified",
+        "source": "/media/stories/rosso-corsa/source.pdf#page=8",
+        "originalUrl": "/media/stories/rosso-corsa/08.webp"
+      },
+      {
+        "src": "/media/stories/rosso-corsa/09.webp",
+        "width": 894,
+        "height": 1150,
+        "alt": "The Ferrari racing team in red.",
+        "caption": "The Ferrari racing team in red.",
+        "credit": "Extracted from the supplied Ferrari compilation; original photographer or artist not identified",
+        "source": "/media/stories/rosso-corsa/source.pdf#page=9",
+        "originalUrl": "/media/stories/rosso-corsa/09.webp"
+      },
+      {
+        "src": "/media/stories/rosso-corsa/10.webp",
+        "width": 1200,
+        "height": 1448,
+        "alt": "Ferrari lettering on rain-covered red paint.",
+        "caption": "Ferrari lettering on rain-covered red paint.",
+        "credit": "Extracted from the supplied Ferrari compilation; original photographer or artist not identified",
+        "source": "/media/stories/rosso-corsa/source.pdf#page=10",
+        "originalUrl": "/media/stories/rosso-corsa/10.webp"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "For most brands, color is an afterthought."
+      },
+      {
+        "type": "paragraph",
+        "text": "For Ferrari, color is a religion."
+      },
+      {
+        "type": "paragraph",
+        "text": "Enzo Ferrari was an entrepreneur with an artist’s soul. Before becoming a professional racecar driver and later Ferrari’s founder, he had his sights set on the opera."
+      },
+      {
+        "type": "paragraph",
+        "text": "While Enzo’s need for speed would eventually surpass his desire to sing, his love for opera endured."
+      },
+      {
+        "type": "paragraph",
+        "text": "The supplied account describes his V12 as a “timeless symphony”. His appreciation for artistry reached beyond the mechanics of the engine."
+      },
+      {
+        "type": "heading",
+        "text": "Racing red",
+        "id": "racing-red"
+      },
+      {
+        "type": "paragraph",
+        "text": "During Ferrari’s early years, international racing identified teams by national colors."
+      },
+      {
+        "type": "paragraph",
+        "text": "France raced in blue. Britain in green. Italian teams raced in red. Germany’s racing history includes both white and the later Silver Arrows tradition."
+      },
+      {
+        "type": "paragraph",
+        "text": "For Italy, the color was Rosso Corsa: racing red."
+      },
+      {
+        "type": "paragraph",
+        "text": "Enzo saw Ferrari as a racing team first and a car manufacturer second. The red of the racing cars became inseparable from the road cars and the name."
+      },
+      {
+        "type": "heading",
+        "text": "A color you remember",
+        "id": "a-color-you-remember"
+      },
+      {
+        "type": "paragraph",
+        "text": "Rosso Corsa also gave Ferrari an opportunity to be instantly recognizable. A color could call up the car before anyone saw its name."
+      },
+      {
+        "type": "paragraph",
+        "text": "The supplied reflection captures that ambition in a line attributed to Enzo: “Ask a child to draw a car, and it will be red. Ask a man to dream of one, and it will be Rosso Corsa.”"
+      },
+      {
+        "type": "paragraph",
+        "text": "The exact wording of that attribution is uncertain. The connection between Ferrari and red is visible enough without it."
+      },
+      {
+        "type": "heading",
+        "text": "An emotional decision",
+        "id": "an-emotional-decision"
+      },
+      {
+        "type": "paragraph",
+        "text": "Colors are deeply emotional. They can affect the mood of a website, a logo, an advertisement or a product."
+      },
+      {
+        "type": "paragraph",
+        "text": "White can suggest purity and simplicity. Black can suggest power and elegance. Green can suggest growth or wealth. Red can suggest passion and urgency."
+      },
+      {
+        "type": "paragraph",
+        "text": "Those associations depend on context and culture. They are still part of the decisions a brand makes."
+      },
+      {
+        "type": "paragraph",
+        "text": "Enzo Ferrari knew the colors you choose matter. It’s one of the many reasons Ferrari became a brand you can’t take your eyes off."
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "slug": "a-memory-worth-keeping",
+    "title": "A Memory Worth Keeping",
+    "headline": [
+      "A Memory Worth Keeping"
+    ],
+    "company": "Memex",
+    "category": "Direction",
+    "lesson": "Keep the connections that help you think.",
+    "excerpt": "I keep coming back to something Bill and I have been talking about: what happens after we save something?",
+    "minutes": 3,
+    "isExcerpt": false,
+    "source": {
+      "label": "Vannevar Bush, As We May Think, 1945",
+      "url": "https://www2.cs.sfu.ca/mmbook/VBushArticle/vbush.html",
+      "detail": "Original essay written for Lorenzo’s review, drawing on his Memex discussions with Bill and his existing writing. Historical reference: Bush’s 1945 proposal. No product recommendation or private operational details included."
+    },
+    "provenance": "Original essay developed from Lorenzo’s existing writing, his supplied context and the historical or editorial references listed here. No product promotion or invented first-person testing experience.",
+    "hero": 0,
+    "images": [
+      {
+        "src": "/media/stories/memex/memex-desk.webp",
+        "width": 1800,
+        "height": 1496,
+        "alt": "The imagined Memex desk, illustrated in Life, 10 September 1945.",
+        "caption": "The imagined Memex desk, illustrated in Life, 10 September 1945.",
+        "credit": "Life / Time Inc., via Wikimedia Commons; illustration of a proposed device, not a built machine",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Memex_(3002477109).jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7f/The_Memex_%283002477109%29.jpg"
+      },
+      {
+        "src": "/media/stories/memex/vannevar-bush.webp",
+        "width": 1600,
+        "height": 1280,
+        "alt": "Vannevar Bush at his desk.",
+        "caption": "Vannevar Bush in an archival Library of Congress portrait. Photograph date not confirmed here.",
+        "credit": "Library of Congress, via Wikimedia Commons; individual photographer not identified in this record",
+        "source": "https://commons.wikimedia.org/wiki/File:Vannevar_Bush_portrait.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Vannevar_Bush_portrait.jpg"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "I keep coming back to something Bill and I have been talking about: what happens after we save something?"
+      },
+      {
+        "type": "paragraph",
+        "text": "A passage from a book. A conversation. A thought that felt worth writing down. We can keep all of it now. Finding a place to put it takes almost no effort."
+      },
+      {
+        "type": "paragraph",
+        "text": "Returning to it is harder."
+      },
+      {
+        "type": "paragraph",
+        "text": "The thing that made a passage worth saving often belongs to a particular moment. A problem we were working through. Something a friend said. A question we didn’t yet know how to ask."
+      },
+      {
+        "type": "paragraph",
+        "text": "A folder can hold the passage. It rarely holds all of that."
+      },
+      {
+        "type": "heading",
+        "text": "The desk",
+        "id": "the-desk"
+      },
+      {
+        "type": "paragraph",
+        "text": "In 1945, Vannevar Bush described a machine called the Memex in an essay titled As We May Think."
+      },
+      {
+        "type": "paragraph",
+        "text": "He imagined a desk built around microfilm, with screens and controls for consulting a person’s books and records. The machine was a proposal, not a computer he had built."
+      },
+      {
+        "type": "paragraph",
+        "text": "What interests me is how a person would move through it. They could join one item to another and preserve a trail through the material. The connection itself became something they could return to."
+      },
+      {
+        "type": "paragraph",
+        "text": "It is a small distinction with a lot inside it. A collection tells you what you kept. A trail lets you see how you were thinking."
+      },
+      {
+        "type": "heading",
+        "text": "Coming back to a thought",
+        "id": "coming-back-to-a-thought"
+      },
+      {
+        "type": "paragraph",
+        "text": "Bill and I have spent a lot of time on the difference between having information available and actually doing something with it."
+      },
+      {
+        "type": "paragraph",
+        "text": "I recognize this in my own writing. I can discover an idea and feel as if I have understood it. Then I try to explain it, or use it to make a decision, and find out how little time I have really given it."
+      },
+      {
+        "type": "paragraph",
+        "text": "There is work between finding a thought and making it part of how you see. You reread it. You disagree with it. You try it against something that happened to you. Sometimes you set it aside for months."
+      },
+      {
+        "type": "paragraph",
+        "text": "A useful tool would make that return easier. It would let the years accumulate without flattening every moment into another search result."
+      },
+      {
+        "type": "heading",
+        "text": "Who does the thinking?",
+        "id": "who-does-the-thinking"
+      },
+      {
+        "type": "paragraph",
+        "text": "This matters more as software gets better at producing an interpretation of whatever we put into it."
+      },
+      {
+        "type": "paragraph",
+        "text": "An explanation can be helpful. It can also arrive before I have had the chance to form one myself. The language is there. The feeling of completion is there. I still have to ask whether I did the thinking."
+      },
+      {
+        "type": "paragraph",
+        "text": "Bush’s proposal gives me a way to look at that problem. A personal record can help someone follow a question across their life. It can preserve the material and the path without deciding what the person ought to conclude."
+      },
+      {
+        "type": "paragraph",
+        "text": "I would like more tools that leave that room."
+      },
+      {
+        "type": "paragraph",
+        "text": "A place to return to something I once noticed. Enough context to remember why it mattered. A little less hurry to tell me what it means."
+      }
+    ],
+    "videos": [
+      {
+        "youtubeId": "B6rKUf9DWRI",
+        "title": "The Mother of All Demos, 1968",
+        "caption": "Doug Engelbart and his SRI team demonstrate NLS on 9 December 1968. SRI International’s highlights, linked by the Smithsonian’s Lemelson Center.",
+        "source": "https://www.youtube.com/watch?v=B6rKUf9DWRI"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "slug": "build-the-future-first",
+    "title": "Build the Future First",
+    "headline": [
+      "Build the Future First"
+    ],
+    "company": "Xerox PARC",
+    "category": "Craft",
+    "lesson": "Build enough of an idea for someone to experience it.",
+    "excerpt": "In 1973, Xerox had a computer with a mouse and a portrait display.",
+    "minutes": 3,
+    "isExcerpt": false,
+    "source": {
+      "label": "Computer History Museum, Xerox Alto archive",
+      "url": "https://computerhistory.org/blog/xerox-alto-source-code/",
+      "detail": "Original essay from Lorenzo’s perspective, informed by his notes with Bill and his supplied Steve Jobs context. Historical reference: the Computer History Museum’s Alto archive and PARC demonstrations. The visit is not presented as an unprotected giveaway of every technology or a sole-inventor story."
+    },
+    "provenance": "Original essay developed from Lorenzo’s existing writing, his supplied context and the historical or editorial references listed here. No product promotion or invented first-person testing experience.",
+    "hero": 0,
+    "images": [
+      {
+        "src": "/media/stories/xerox-parc/alto.webp",
+        "width": 800,
+        "height": 1285,
+        "alt": "The Xerox Alto with its portrait display, keyboard and mouse.",
+        "caption": "The Xerox Alto with its portrait display, keyboard and mouse.",
+        "credit": "PARC, via Computer History Museum",
+        "source": "https://computerhistory.org/blog/xerox-alto-source-code/",
+        "originalUrl": "https://images.computerhistory.org/blog-media/xerox-alto-source-code-parc-alto.jpg"
+      },
+      {
+        "src": "/media/stories/xerox-parc/alto-office.webp",
+        "width": 800,
+        "height": 664,
+        "alt": "Paul McJones using an Alto in his office in 1980.",
+        "caption": "Paul McJones using an Alto in his office in 1980.",
+        "credit": "Computer History Museum; photograph dated 1980 by the source",
+        "source": "https://computerhistory.org/blog/xerox-alto-source-code/",
+        "originalUrl": "https://images.computerhistory.org/blog-media/xerox-alto-source-code-paul-mcjones-office.jpg"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "In 1973, Xerox had a computer with a mouse and a portrait display."
+      },
+      {
+        "type": "paragraph",
+        "text": "It was called the Alto. It came out of the company’s Palo Alto Research Center, where researchers were working on what people might do with computers in the years ahead."
+      },
+      {
+        "type": "paragraph",
+        "text": "I like looking at the photographs because the machine makes the dates feel strange. The screen looks like a page. There is a keyboard in front of it and a pointing device beside it. A familiar arrangement, sitting in an unfamiliar year."
+      },
+      {
+        "type": "heading",
+        "text": "A working environment",
+        "id": "a-working-environment"
+      },
+      {
+        "type": "paragraph",
+        "text": "The Alto was part of a much larger effort. People at PARC developed ways to edit documents on screen, draw, send messages and share printers over a network."
+      },
+      {
+        "type": "paragraph",
+        "text": "They were using the environment while they built it. A decision about the display could meet a decision about the software. The people designing the tools could see what happened when someone tried to work with them."
+      },
+      {
+        "type": "paragraph",
+        "text": "This is the part I keep thinking about in my conversations with Bill. It is difficult to judge a new way of doing something when all you have is a description of it."
+      },
+      {
+        "type": "paragraph",
+        "text": "A working version changes the conversation. You can point to the thing that is awkward. You can notice a possibility that wasn’t in the explanation. You can spend an afternoon with it and find out whether it stays interesting after the demonstration."
+      },
+      {
+        "type": "heading",
+        "text": "Steve Jobs sees it",
+        "id": "steve-jobs-sees-it"
+      },
+      {
+        "type": "paragraph",
+        "text": "Steve Jobs visited PARC in 1979. The graphical interface he saw there made a strong impression on him and influenced the direction Apple took with the Lisa and Macintosh."
+      },
+      {
+        "type": "paragraph",
+        "text": "The familiar version of this story is that Xerox invented the future and gave it away. That leaves too much out."
+      },
+      {
+        "type": "paragraph",
+        "text": "PARC was a large body of work made by many people. Apple already had people working on related questions. Getting an idea into a machine that could be manufactured, supported and used by customers required further design and engineering. Xerox also went on to ship the Star office system."
+      },
+      {
+        "type": "paragraph",
+        "text": "Jobs’ visit still matters. He could see something working that was much harder to communicate as a possibility. The experience gave him a clearer sense of what he wanted a computer to become."
+      },
+      {
+        "type": "heading",
+        "text": "Looking further out",
+        "id": "looking-further-out"
+      },
+      {
+        "type": "paragraph",
+        "text": "When I read about PARC, I find myself thinking about the time horizon of the work."
+      },
+      {
+        "type": "paragraph",
+        "text": "A team can make every decision around the limits of the tools it has today. Those limits are real. They can also become habits that remain long after the limitation changes."
+      },
+      {
+        "type": "paragraph",
+        "text": "I want to know what a person should be able to do when the expensive part gets cheaper. When a response becomes fast enough to feel immediate. When a tool can hold more context without demanding more attention."
+      },
+      {
+        "type": "paragraph",
+        "text": "Then I want to build enough of it to find out which parts of that imagined experience are worth keeping."
+      },
+      {
+        "type": "paragraph",
+        "text": "The photographs of the Alto help. People were sitting down in front of those machines and doing work. The future they were discussing had somewhere to be tried."
+      }
+    ],
+    "videos": [
+      {
+        "youtubeId": "NqKyHEJe9_w",
+        "title": "The Xerox Alto: Smalltalk-76 demo",
+        "caption": "Dan Ingalls demonstrates Smalltalk on the Alto at the Computer History Museum, November 10, 2017.",
+        "source": "https://www.youtube.com/watch?v=NqKyHEJe9_w"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "slug": "leave-room-to-be-wrong",
+    "title": "Leave Room to Be Wrong",
+    "headline": [
+      "Leave Room to Be Wrong"
+    ],
+    "company": "Charlie Munger / Elon Musk",
+    "category": "Direction",
+    "lesson": "A judgment can have limits without becoming useless.",
+    "excerpt": "There is an answer Charlie Munger gave about Tesla that I like more the longer I sit with it.",
+    "minutes": 2,
+    "isExcerpt": false,
+    "source": {
+      "label": "John Gruber, The Late Charlie Munger on Elon Musk and Tesla",
+      "url": "https://daringfireball.net/linked/2026/10/16/munger-on-musk",
+      "detail": "Unlisted original draft for Lorenzo’s review. Reference: Gruber’s 16 October 2026 post and the linked 2020 Daily Journal meeting. Personal commentary, not an investment recommendation."
+    },
+    "provenance": "Original essay developed from Lorenzo’s existing writing, his supplied context and the historical or editorial references listed here. No product promotion or invented first-person testing experience.",
+    "hero": 0,
+    "images": [
+      {
+        "src": "/media/stories/craft-and-brand/munger-draft.webp",
+        "width": 480,
+        "height": 360,
+        "alt": "Charlie Munger at the Daily Journal annual meeting in 2020.",
+        "caption": "Charlie Munger at the Daily Journal annual meeting in 2020.",
+        "credit": "CNBC meeting footage, via the linked YouTube archive",
+        "source": "https://www.youtube.com/watch?v=HS8neXkNnhw",
+        "originalUrl": "https://i.ytimg.com/vi/HS8neXkNnhw/hqdefault.jpg"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "There is an answer Charlie Munger gave about Tesla that I like more the longer I sit with it."
+      },
+      {
+        "type": "paragraph",
+        "text": "He wouldn’t buy it. He wouldn’t short it either."
+      },
+      {
+        "type": "paragraph",
+        "text": "John Gruber recently brought the answer back in a Daring Fireball post. Munger was speaking at the Daily Journal meeting in 2020, and he went on to recall Howard Ahmanson’s advice: “Never underestimate the man who overestimates himself.”"
+      },
+      {
+        "type": "heading",
+        "text": "Two decisions",
+        "id": "two-decisions"
+      },
+      {
+        "type": "paragraph",
+        "text": "It is easy to read that as a clever line about Elon Musk. What interests me is that Munger kept two decisions separate."
+      },
+      {
+        "type": "paragraph",
+        "text": "You can think someone is overconfident and still be uncertain about what they will accomplish. You can find a promise implausible without making the opposite promise yourself."
+      },
+      {
+        "type": "paragraph",
+        "text": "I think about this when I am looking at something another person is building. Their explanation might bother me. Their certainty might bother me. Those reactions can become a substitute for looking closely at the work."
+      },
+      {
+        "type": "heading",
+        "text": "What do I actually know?",
+        "id": "what-do-i-actually-know"
+      },
+      {
+        "type": "paragraph",
+        "text": "There is a kind of relief in reaching a clean verdict. Someone is a genius. Someone is a fraud. Now every new piece of information has a place to go."
+      },
+      {
+        "type": "paragraph",
+        "text": "But a person can be wrong about a deadline and right about a direction. They can make something important and behave in ways I would not defend. Those things deserve separate consideration."
+      },
+      {
+        "type": "paragraph",
+        "text": "Munger’s answer leaves room for that. He did not have to admire everything about Musk to recognize that betting against him could be a different mistake."
+      },
+      {
+        "type": "paragraph",
+        "text": "I would like to get better at noticing when my opinion of a person starts doing the work that evidence should be doing."
+      }
+    ],
+    "videos": [
+      {
+        "youtubeId": "HS8neXkNnhw",
+        "title": "Charlie Munger at the Daily Journal annual meeting, 2020",
+        "caption": "The full 12 February 2020 meeting linked by Gruber. The essay discusses Munger’s distinction rather than recommending a trade.",
+        "source": "https://www.youtube.com/watch?v=HS8neXkNnhw"
+      }
+    ],
+    "draft": true
+  },
+  {
+    "id": 55,
+    "slug": "remembering-to-ask",
+    "title": "Remembering to Ask",
+    "headline": [
+      "Remembering to Ask"
+    ],
+    "company": "Siri / Personal Software",
+    "category": "Direction",
+    "lesson": "A useful capability still has to find a place in someone’s life.",
+    "excerpt": "The detail that stayed with me in David Pogue’s Siri tests was how hard it could be to remember to use it.",
+    "minutes": 2,
+    "isExcerpt": false,
+    "source": {
+      "label": "John Gruber on David Pogue’s 125 Siri tests",
+      "url": "https://daringfireball.net/linked/2026/09/21/pogue-siri-ai-125",
+      "detail": "Unlisted original draft for Lorenzo’s review. References: Gruber’s 21 September 2026 post and Pogue’s linked tests. The draft does not claim Lorenzo personally tested the software or independently validate Pogue’s privacy and energy assertions."
+    },
+    "provenance": "Original essay developed from Lorenzo’s existing writing, his supplied context and the historical or editorial references listed here. No product promotion or invented first-person testing experience.",
+    "hero": 0,
+    "images": [
+      {
+        "src": "/media/stories/craft-and-brand/siri-draft.webp",
+        "width": 1776,
+        "height": 758,
+        "alt": "The illustration accompanying David Pogue’s 125 Tests of the New AI Siri.",
+        "caption": "The illustration accompanying David Pogue’s 125 Tests of the New AI Siri.",
+        "credit": "David Pogue / Pogue’s Posts, via Substack",
+        "source": "https://pogueman.substack.com/p/125-tests-of-the-new-ai-siri",
+        "originalUrl": "https://substack-post-media.s3.amazonaws.com/public/images/34e98564-7f35-4ec1-8bbc-e07f8f2ead2a_1776x758.png"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "The detail that stayed with me in David Pogue’s Siri tests was how hard it could be to remember to use it."
+      },
+      {
+        "type": "paragraph",
+        "text": "John Gruber described the same thing. He would do something manually, then realize afterward that he could have asked Siri."
+      },
+      {
+        "type": "paragraph",
+        "text": "I know the shape of that problem. We can spend a long time building a capability and assume the next part is obvious: people will use it because it is useful."
+      },
+      {
+        "type": "heading",
+        "text": "The habit is already there",
+        "id": "the-habit-is-already-there"
+      },
+      {
+        "type": "paragraph",
+        "text": "Opening an app is a practiced movement. We know where the information lives, or at least where we usually start looking. A new feature enters a day that already has a way of working."
+      },
+      {
+        "type": "paragraph",
+        "text": "That makes me interested in what happens after the demonstration. The task worked once. Does the person think of it when the task comes up again? Do they trust the result enough to stop checking another place?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Those are different questions from whether a system can perform the task."
+      },
+      {
+        "type": "heading",
+        "text": "The record behind the answer",
+        "id": "the-record-behind-the-answer"
+      },
+      {
+        "type": "paragraph",
+        "text": "Pogue’s examples also bring up something Bill and I have spent time on: the usefulness of personal context."
+      },
+      {
+        "type": "paragraph",
+        "text": "A recommendation from a friend may be sitting in a message from months ago. A commitment may be spread across an email, a calendar entry and a note. Finding the right piece can save someone from having to reconstruct a conversation."
+      },
+      {
+        "type": "paragraph",
+        "text": "I care about being able to see where an answer came from. The message itself matters. So does the difference between something I said I would do, something I considered and something a system inferred."
+      },
+      {
+        "type": "paragraph",
+        "text": "A fluent answer can make those distinctions disappear."
+      },
+      {
+        "type": "heading",
+        "text": "After the answer",
+        "id": "after-the-answer"
+      },
+      {
+        "type": "paragraph",
+        "text": "If a tool helps me find the information and return to what I was doing, I can see the benefit."
+      },
+      {
+        "type": "paragraph",
+        "text": "If it turns that moment into another conversation I have to manage, I start wondering where the time went."
+      },
+      {
+        "type": "paragraph",
+        "text": "That is what I would want to look at alongside the successful tests: what happened to the person’s attention after the tool had done its part?"
+      }
+    ],
+    "draft": true
+  },
+  {
+    "id": 56,
+    "slug": "let-the-question-land",
+    "title": "Let the Question Land",
+    "headline": [
+      "Let the Question Land"
+    ],
+    "company": "Steve Jobs / Apple",
+    "category": "Direction",
+    "lesson": "Give a difficult question enough time to change the answer.",
+    "excerpt": "John Gruber recently linked a recording of the questions after Apple’s 2010 iPhone 4 press conference.",
+    "minutes": 2,
+    "isExcerpt": false,
+    "source": {
+      "label": "John Gruber, The iPhone 4 Antennagate Press Conference Q&A",
+      "url": "https://daringfireball.net/2026/09/iphone_4_antennagate_q_and_a",
+      "detail": "Unlisted original draft for Lorenzo’s review. Based on Gruber’s 23 September 2026 post about the 16 July 2010 event. Does not imply Lorenzo attended the event. No medical speculation or unsupported claims from the separate supplied lecture context are used."
+    },
+    "provenance": "Original essay developed from Lorenzo’s existing writing, his supplied context and the historical or editorial references listed here. No product promotion or invented first-person testing experience.",
+    "hero": 0,
+    "images": [
+      {
+        "src": "/media/stories/craft-and-brand/antenna-draft.webp",
+        "width": 480,
+        "height": 360,
+        "alt": "Steve Jobs, Tim Cook and Bob Mansfield at the iPhone 4 press conference Q&A, 16 July 2010.",
+        "caption": "Steve Jobs, Tim Cook and Bob Mansfield at the iPhone 4 press conference Q&A, 16 July 2010.",
+        "credit": "Apple event footage; archive upload by Sir Mix-A-Lot Rare Music",
+        "source": "https://www.youtube.com/watch?v=BiN5ERktXz0",
+        "originalUrl": "https://i.ytimg.com/vi/BiN5ERktXz0/hqdefault.jpg"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "John Gruber recently linked a recording of the questions after Apple’s 2010 iPhone 4 press conference."
+      },
+      {
+        "type": "paragraph",
+        "text": "The prepared presentation had been available for years. This was the part afterward, with Steve Jobs, Tim Cook and Bob Mansfield answering the people in the room."
+      },
+      {
+        "type": "paragraph",
+        "text": "Gruber’s observation about Jobs taking time before some of his answers caught my attention."
+      },
+      {
+        "type": "heading",
+        "text": "A little time",
+        "id": "a-little-time"
+      },
+      {
+        "type": "paragraph",
+        "text": "There is pressure to answer immediately when someone puts a difficult question to you. An immediate answer can look like command of the subject. A pause can feel exposed."
+      },
+      {
+        "type": "paragraph",
+        "text": "I have been thinking about the difference between listening to a question and preparing to survive it."
+      },
+      {
+        "type": "paragraph",
+        "text": "If I am already building my defense while someone is speaking, I may miss the part that would have changed my answer. I can give a polished response to the version of the question I expected and leave the actual concern untouched."
+      },
+      {
+        "type": "heading",
+        "text": "Beyond the prepared remarks",
+        "id": "beyond-the-prepared-remarks"
+      },
+      {
+        "type": "paragraph",
+        "text": "The setting makes the recording interesting. Apple was responding to a problem with one of its most important products. The people asking questions had concerns that a presentation alone could not settle."
+      },
+      {
+        "type": "paragraph",
+        "text": "A question makes a different demand from a talking point. It asks the person answering to deal with something they did not entirely choose."
+      },
+      {
+        "type": "paragraph",
+        "text": "That is part of what I value in an honest conversation. There has to be a possibility that I hear something I had not considered. Otherwise I am mostly waiting for my turn to say what I arrived with."
+      },
+      {
+        "type": "heading",
+        "text": "What stays with me",
+        "id": "what-stays-with-me"
+      },
+      {
+        "type": "paragraph",
+        "text": "A recording lets us pay attention to things a transcript loses: the wait, the expression, the moment someone decides where to begin."
+      },
+      {
+        "type": "paragraph",
+        "text": "I don’t want to turn one press conference into a general defense of Jobs or Apple. I am interested in that smaller piece of behavior."
+      },
+      {
+        "type": "paragraph",
+        "text": "Someone asks a difficult question. There are other people watching. You take a moment to think."
+      }
+    ],
+    "videos": [
+      {
+        "youtubeId": "BiN5ERktXz0",
+        "title": "The iPhone 4 press conference Q&A",
+        "caption": "Steve Jobs, Tim Cook and Bob Mansfield answer questions, 16 July 2010. Archive upload by Sir Mix-A-Lot Rare Music; the recording linked by John Gruber. YouTube embed verified.",
+        "source": "https://www.youtube.com/watch?v=BiN5ERktXz0"
+      }
+    ],
+    "draft": true
   }
 ]

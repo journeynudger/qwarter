@@ -34,24 +34,17 @@
         }
       ],
       "fromWordPress": true,
-      "source": "qwarter.com's home page, Selected Work (WordPress page 246530, modified 2026-09-17): linked as butterspreads.com, named \"Butter\"; its line; pictures: butterspreads.com photographed on 2026-10-22 (5 pages); film opens with the film butterspreads.com/ plays (butterspreads.com/cdn/shop/videos/c/vp/779437caafbc49aaa3ffcd25e96d16c5/779437caafbc49aaa3ffcd25e96d16c5.HD-720p-1.6Mbps-60748436.mp4); cover: complete opening hero frame from the site’s own film with its captured navigation, headline and shop button; full-width 1440×900 composition, no image crop (2026-10-23)",
+      "source": "qwarter.com's home page, Selected Work (WordPress page 246530, modified 2026-09-17): linked as butterspreads.com, named \"Butter\"; its line; pictures: butterspreads.com photographed on 2026-10-22 (5 pages); film opens with the film butterspreads.com/ plays (butterspreads.com/cdn/shop/videos/c/vp/779437caafbc49aaa3ffcd25e96d16c5/779437caafbc49aaa3ffcd25e96d16c5.HD-720p-1.6Mbps-60748436.mp4); cover: complete opening hero frame from the site’s own film with its captured navigation, headline and shop button; full-width 1440×900 composition, no image crop (2026-10-23); preview corrected 2026-10-23 to the homepage’s original video stream without a simulated website frame.",
       "film": {
         "intro": "intro.mp4",
-        "from": "the film butterspreads.com/ plays (butterspreads.com/cdn/shop/videos/c/vp/779437caafbc49aaa3ffcd25e96d16c5/779437caafbc49aaa3ffcd25e96d16c5.HD-720p-1.6Mbps-60748436.mp4)",
+        "from": "https://butterspreads.com/cdn/shop/videos/c/vp/779437caafbc49aaa3ffcd25e96d16c5/779437caafbc49aaa3ffcd25e96d16c5.HD-720p-1.6Mbps-60748436.mp4",
         "scenes": [
           {
             "clip": "raw/intro.mp4",
-            "seconds": 11.7,
-            "speed": 0.6
-          },
-          {
-            "film": "home"
-          },
-          {
-            "film": "blogs-news"
+            "seconds": 11.626667
           }
         ],
-        "source": "the store's own hero film whole at six tenths of its speed (butterspreads.com, the shoot's video-01: she walks up with the jar; Lorenzo, 2026-10-23: the first thing a visitor sees, and slower), then the home and the Education blog filmed scrolling on a GitHub runner in real time (scripts/work/scrollfilm.mjs; the collection page does not scroll at 1600px, so it is left out)"
+        "source": "The live homepage’s own native video, original 1280×720 H.264 stream, original timing, no website recording or composited navigation. Audio removed for a muted portfolio loop. Retrieved 2026-10-23: https://butterspreads.com/cdn/shop/videos/c/vp/779437caafbc49aaa3ffcd25e96d16c5/779437caafbc49aaa3ffcd25e96d16c5.HD-720p-1.6Mbps-60748436.mp4"
       },
       "numeral": "I",
       "featured": true
@@ -87,15 +80,17 @@
           "title": "Contact"
         }
       ],
-      "source": "mylife: Open/_Generated/Clients/2026-07/jeffvhs-site-final (final v2 2026-07-16, v3 2026-07-23; title 'JR Pugh | Actor, NYC'; published at jeffvhs.com per PUBLISH.md); film opens with the splash jeffvhs.com plays on arrival (recorded from the site's own files, scripts/work/record.mjs), then the film jeffvhs.com/ plays (jeffvhs.com, media library 2026/07/brazil-reel-tease.mp4)",
+      "source": "mylife: Open/_Generated/Clients/2026-07/jeffvhs-site-final (final v2 2026-07-16, v3 2026-07-23; title 'JR Pugh | Actor, NYC'; published at jeffvhs.com per PUBLISH.md); film opens with the splash jeffvhs.com plays on arrival (recorded from the site's own files, scripts/work/record.mjs), then the film jeffvhs.com/ plays (jeffvhs.com, media library 2026/07/brazil-reel-tease.mp4); preview corrected 2026-10-23 to the homepage’s original video stream without a simulated website frame.",
       "film": {
+        "intro": "intro.mp4",
+        "from": "https://jeffvhs.com/media-library/uploads/2026/07/brazil-reel-tease.mp4",
         "scenes": [
           {
-            "clip": "raw/home-preview.mp4",
-            "seconds": 12
+            "clip": "raw/intro.mp4",
+            "seconds": 52.844458
           }
         ],
-        "source": "A twelve-second loop of the website’s own Brazil reel footage, fitted whole behind its captured homepage navigation and footer. Extracted from the previously sourced jeffvhs.com reel; arrival loader omitted so the portfolio never opens on an empty frame (Lorenzo, 2026-10-23)."
+        "source": "The live homepage’s own native video, original 1280×720 H.264 stream, original timing, no website recording or composited navigation. Audio removed for a muted portfolio loop. Retrieved 2026-10-23: https://jeffvhs.com/media-library/uploads/2026/07/brazil-reel-tease.mp4"
       },
       "featured": true
     },

@@ -19,7 +19,11 @@ export type StoryBlock =
   | { type: "heading"; text: string; id: string }
   | { type: "image"; image: number };
 
+export type StoryVideo = { youtubeId: string; title: string; caption: string; source: string };
+
 export type Story = {
+  draft?: boolean;
+  videos?: StoryVideo[];
   id: number;
   slug: string;
   title: string;
@@ -37,8 +41,9 @@ export type Story = {
   blocks: StoryBlock[];
 };
 
-export const getStories = (): Story[] => storiesData as Story[];
-export const getStory = (slug: string): Story | undefined => getStories().find((story) => story.slug === slug);
+export const getAllStories = (): Story[] => storiesData as Story[];
+export const getStories = (): Story[] => getAllStories().filter(story => !story.draft);
+export const getStory = (slug: string): Story | undefined => getAllStories().find((story) => story.slug === slug);
 export const storyUrl = (story: Story) => `/stories/${story.slug}/`;
 export const storyImage = (story: Story) => story.images[story.hero] ?? story.images[0];
 export const storyCategories = ["All stories", "Brand", "Craft", "Direction", "Growth", "Resilience"];

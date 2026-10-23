@@ -51,15 +51,15 @@ function chrome(current) {
   const items = nav; // Featured, Work, Stories, Approach, Contact
   const social = contact.social ?? [];
   const swaps = [
-    { select: "#Header .title", attr: { title: `${brand.left} ${brand.right}` } },
+    { select: "#Header .title", attr: { title: `${brand.left} ${brand.right}`, "data-internal": "" } },
     { select: "#Header .logo-depo", attr: { "aria-label": brand.left } },
     { select: "#Header .title span:nth-of-type(1)", text: brand.left, source: `${SRC.site} chrome.brand.left` },
     { select: "#Header .title span:nth-of-type(2)", text: brand.right, source: `${SRC.site} chrome.brand.right` },
     { select: "#Header .claim", text: brand.tagline, source: `${SRC.site} chrome.brand.tagline` },
     // Use all five positions; Stories takes the previously unused third link. Keep its original id
     // because the carried design animates these ids, and let Stories load as its own document.
-    ...[1, 2, 3, 4, 5].map((n, i) => ({ select: `#Header nav a:nth-of-type(${n})`, text: items[i].label, attr: { href: items[i].href, "aria-current": items[i].href === current ? "page" : null, "data-internal": items[i].href === "/stories/" ? "" : null }, source: `${SRC.site} chrome.nav[${i}]` })),
-    ...[1, 2, 3, 4, 5].map((n, i) => ({ select: `#Sidemenu .list li:nth-child(${n}) a`, attr: { href: items[i].href, "aria-current": items[i].href === current ? "page" : null, "data-internal": items[i].href === "/stories/" ? "" : null } })),
+    ...[1, 2, 3, 4, 5].map((n, i) => ({ select: `#Header nav a:nth-of-type(${n})`, text: items[i].label, attr: { href: items[i].href, "aria-current": items[i].href === current ? "page" : null, "data-internal": "" }, source: `${SRC.site} chrome.nav[${i}]` })),
+    ...[1, 2, 3, 4, 5].map((n, i) => ({ select: `#Sidemenu .list li:nth-child(${n}) a`, attr: { href: items[i].href, "aria-current": items[i].href === current ? "page" : null, "data-internal": "" } })),
     ...[1, 2, 3, 4, 5].map((n, i) => ({ select: `#Sidemenu .list li:nth-child(${n}) a .__text`, text: items[i].label, source: `${SRC.site} chrome.nav[${i}]` })),
     // the footer: the three social links (Instagram, Twitter, LinkedIn as qwarter.com lists them), our line, no legal pages
     ...social.slice(0, 3).map((l, i) => ({ select: `.footer__rrss li:nth-child(${i + 1}) a`, text: l.label, attr: { href: l.href, rel: "noopener" }, source: `${SRC.site} chrome.contact.social[${i}]` })),

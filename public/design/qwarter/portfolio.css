@@ -5,7 +5,7 @@
 .qp-opening>div{display:flex;justify-content:space-between;align-items:end;gap:30px}
 .qp-opening>div>p{font-size:30px;line-height:1.2}.qp-opening>div>.qs-label{color:var(--qs-dim)}
 .qp-grid{list-style:none;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:85px 45px;padding:0}
-.qp-card{display:block;min-width:0}.qp-card figure{aspect-ratio:16/10;background:#0a0a0a;position:relative;border:1px solid #292929;overflow:hidden}
+.qp-card{display:block;min-width:0}.qp-card figure{aspect-ratio:16/9;background:#0a0a0a;position:relative;border:1px solid #292929;overflow:hidden}
 .qp-card figure img{width:100%;height:100%;object-fit:contain;object-position:center;transform:none}
 .qp-card__arrow{position:absolute;right:16px;bottom:16px;width:38px;height:38px;display:grid;place-items:center;background:#000c;border:1px solid #777;border-radius:50%;transition:background .25s,color .25s}
 .qp-card:hover .qp-card__arrow{background:var(--qs-ink);color:#000}
