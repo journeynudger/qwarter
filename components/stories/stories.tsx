@@ -7,7 +7,7 @@ import { Hydrated } from "@/components/study/hydrated";
 import { getSite } from "@/lib/content";
 import { featuredStories, getStories, getStory, roman, storyCategories, storyImage, storyUrl, type Story, type StoryImage } from "@/lib/stories";
 
-function Icon({ kind = "arrow" }: { kind?: "arrow" | "plus" | "left" | "down" | "close" }) {
+export function Icon({ kind = "arrow" }: { kind?: "arrow" | "plus" | "left" | "down" | "close" }) {
   const paths = {
     arrow: "M6 18 18 6M6 6h12v12",
     plus: "M12 5v14M5 12h14",
@@ -18,20 +18,21 @@ function Icon({ kind = "arrow" }: { kind?: "arrow" | "plus" | "left" | "down" | 
   return <svg className="qs-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" focusable="false"><path d={paths[kind]} /></svg>;
 }
 
-function Chrome() {
+export function Chrome({ current = "/stories/" }: { current?: string }) {
   const { brand, nav } = getSite().chrome;
   return <>
     <a className="qs-skip" href="#main">Skip to content</a>
+    <div className="qs-header-blur" aria-hidden="true" />
     <header className="qs-header">
       <a href="/" className="qs-wordmark" aria-label="Qwarter Studio, home"><span>{brand.left}</span><span>{brand.right}</span></a>
       <p>{brand.tagline}</p>
-      <nav aria-label="Site">{nav.map((item) => <a key={item.href} href={item.href} aria-current={item.href === "/stories/" ? "page" : undefined}>{item.label}</a>)}</nav>
+      <nav aria-label="Site">{nav.map((item) => <a key={item.href} href={item.href} aria-current={item.href === current ? "page" : undefined}>{item.label}</a>)}</nav>
     </header>
     <a className="qs-mark" href="/" aria-label="Qwarter, home"><QMark /></a>
   </>;
 }
 
-function Footer() {
+export function Footer() {
   return <footer className="qs-footer"><a href="/">Qwarter Studio</a><span>A practice in paying attention.</span><a href="/contact/">Let’s make something meaningful <span aria-hidden="true"><Icon /></span></a></footer>;
 }
 

@@ -170,3 +170,14 @@ features a studio site has, and a fake WordPress REST API. Nothing below says an
 - `sweep.mjs` over every route: console errors, broken images, missing alt, overflow at phone width, `<h1>` count, dead links.
 - The Vercel deployment: content type and size per route (not just status: Deployment Protection answers 200 with a login page).
 - Fresh eyes: side-by-side stills of reference and port, reviewed by someone with no part in the work.
+
+
+## 2026-10-23 — Portfolio, paintings, full-width blur
+
+- Renamed the visible Work navigation to Portfolio and rebuilt its index as consistent, uncropped 16:10 website previews. Removed Ekaterina Sky, IoTech, Mzaero, Journey and EPIC ESG from the catalogue, generated pages, case studies and delivered media; catalogue regeneration preserves these withdrawals.
+- Replaced Bambino's notebook presentation with the artist's actual gallery at https://bambino-1dtu.vercel.app/gallery. The gallery's own data supplied all 11 original paintings and titles. Whole paintings appear in both a silent 38.5-second slideshow and an enlargeable gallery, credited to Lorenzo Scardicchio. Unknown dates and media remain unspecified.
+- Stories, Portfolio and Paintings use a full-viewport fixed blur layer outside the narrow menu. Carried pages and case studies have matching full-width backdrop blur. Small story images and case-study previews fit their frames without cropping; hover enlargement is disabled.
+- A synchronous visit marker suppresses the opening loader on later document visits in the same tab. Ordinary full-page links remain required for the carried animation system. A test covers first visits, subsequent visits and unavailable-storage fallback.
+- Changed media URLs receive content hashes so old notebook images and films do not persist in browser caches. Design assets already use this mechanism.
+- Added an offline DOM mode to the existing swap generator using linkedom, preserving the same content transformations without browser access. Original reference CSS/JS remain unchanged.
+- Validation: production build, TypeScript, 29 passing tests (one source-snapshot-dependent check skipped); targeted ESLint. Browser visual QA remains unavailable because the computer-use URL security gate blocks the preview; no alternate browser automation was attempted. Local gallery artwork was inspected directly.

@@ -1,0 +1,21 @@
+/* The initial brand animation belongs to the first visit, not every document navigation. */
+html.qw-returning #Preloader{display:none!important;visibility:hidden!important;pointer-events:none!important}
+/* Full-width menu atmosphere, outside the narrow header so its edges never clip the blur. */
+.qs-header-blur{position:fixed;inset:0 0 auto;z-index:70;width:100%;height:170px;pointer-events:none;background:rgba(0,0,0,.38);-webkit-backdrop-filter:blur(24px);backdrop-filter:blur(24px);-webkit-mask-image:linear-gradient(#000 75%,transparent);mask-image:linear-gradient(#000 75%,transparent);transition:height .6s}
+.qs-scrolled .qs-header-blur{height:88px}
+.qs-header,.qs-scrolled .qs-header{background:transparent!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important;border-bottom:0!important}
+#Header__blur>.top{left:0!important;right:0!important;width:100%!important;visibility:visible!important;height:170px!important;background:rgba(0,0,0,.38)!important;-webkit-backdrop-filter:blur(24px)!important;backdrop-filter:blur(24px)!important;-webkit-mask-image:linear-gradient(#000 75%,transparent)!important;mask-image:linear-gradient(#000 75%,transparent)!important}
+.qw-header-compact #Header__blur>.top{height:90px!important}
+.st-top{mix-blend-mode:normal!important;background:rgba(0,0,0,.35);-webkit-backdrop-filter:blur(24px);backdrop-filter:blur(24px);width:100%}
+/* Every thumbnail keeps its complete picture, including on hover and on small screens. */
+.qs-story-list__image img,.qs-feature__picture img,.qs-cut img,.qs-story-scrap img{object-fit:contain!important;object-position:center!important;transform:none!important}
+.qs-feature:hover img,.qs-story-list a:hover img{transform:none!important}
+.qs-story-list__image{background:#0b0b0b}
+.st-video--film video,.st-picture img,.st-browser__screen img,.st-browser__screen video,.st-phone__screen img,.st-phone__screen video{object-fit:contain!important;object-position:center!important;background:#080808}
+@media(max-width:760px){
+ .qs-header-blur{height:180px}.qs-scrolled .qs-header-blur{height:90px}
+ #Header__blur>.top{height:180px!important}
+ .qw-header-compact #Header__blur>.top{height:90px!important}
+ .st-top{padding-top:18px;padding-bottom:18px}.st-nav{gap:14px;font-size:14px}
+}
+@media(prefers-reduced-motion:reduce){.qs-header-blur{transition:none}}

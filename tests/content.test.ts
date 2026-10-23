@@ -104,7 +104,7 @@ function sources(): { file: string; text: string }[] {
     .filter((f) => f.endsWith(".html"))
     .map((f) => `content/pages/${f}`);
   if (fs.existsSync(path.join(ROOT, "content/not-found.html"))) files.push("content/not-found.html");
-  files.push("content/pages.json", "content/site.json", "content/work.json", "content/stories.json");
+  files.push("app/[[...path]]/layout.tsx", "content/pages.json", "content/site.json", "content/work.json", "content/stories.json");
   // the case studies name their own pictures and recordings (lib/studies.ts)
   if (fs.existsSync(path.join(ROOT, "content/studies"))) for (const f of fs.readdirSync(path.join(ROOT, "content/studies"))) if (f.endsWith(".json") && !f.startsWith("_")) files.push(`content/studies/${f}`);
   const texts = files.map((file) => ({ file, text: file === "content/stories.json"
@@ -145,7 +145,10 @@ function studyLinks(): string[] {
     'href="/design/qwarter/study.css"', 'src="/design/qwarter/study.js"', 'href="/design/qwarter/fonts/fonts.css"',
     'href="/design/qwarter/fonts/ebgaramond-normal-400-800-latin.woff2"', 'href="/design/qwarter/fonts/ebgaramond-italic-400-800-latin.woff2"',
     'href="/contact/"', 'href="/work/"',
-    ...slugs.flatMap((s) => [`href="/work/${s}/"`, `src="/media/work/${s}/study/desktop-poster.jpg"`]),
+    ...slugs.flatMap((s) => {
+      const study = JSON.parse(fs.readFileSync(path.join(dir, `${s}.json`), "utf8"));
+      return [`href="/work/${s}/"`, `src="${study.recordings?.desktop?.poster ?? `/media/work/${s}/cover.jpg`}"`];
+    }),
   ];
 }
 

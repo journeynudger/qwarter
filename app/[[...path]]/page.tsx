@@ -1,3 +1,4 @@
+import { Paintings } from "@/components/site/paintings";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
@@ -67,7 +68,7 @@ export default async function Page({ params }: { params: Params }) {
     case "contact":
       return <Contact />;
     case "study":
-      return <StudyPage slug={page.project!} />;
+      return page.project === "bambino" ? <Paintings /> : <StudyPage slug={page.project!} />;
     default:
       // a carried page: its document's own body markup, served as it is. It is not reconciled by React
       // (dangerouslySetInnerHTML), because the design's own script rewrites this DOM as soon as it runs, and

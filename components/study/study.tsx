@@ -254,7 +254,7 @@ export function StudyPage({ slug }: { slug: string }) {
       <main className="study" id="main">
         <article>
           <header className="st-open">
-            <a className="st-back" href="/work/"><span aria-hidden="true">←</span> Work</a>
+            <a className="st-back" href="/work/"><span aria-hidden="true">←</span> Portfolio</a>
             {numeral ? <p className="st-numeral" aria-label={`Project ${numeral}`}>{numeral}</p> : null}
             <h1 className="st-title">
               <span className="st-line"><span>{study.shortName},</span></span>

@@ -1,255 +1,111 @@
 {
   "slug": "bambino",
-  "name": "Painter",
-  "shortName": "Painter",
-  "tagline": "The notebooks of Lorenzo Scardicchio, typeset like a book.",
-  "client": "Lorenzo Scardicchio, his own",
+  "name": "Paintings",
+  "shortName": "Paintings",
+  "tagline": "An art gallery by Lorenzo Scardicchio.",
+  "client": "Lorenzo Scardicchio",
   "year": "2026",
   "role": [
-    "Website",
-    "The gallery wall",
-    "Typesetting"
+    "Art gallery",
+    "Website"
   ],
-  "statement": "Essays and artwork by Lorenzo Scardicchio, typeset like a book.",
-  "summary": "The notebooks of Lorenzo Scardicchio: essays and artwork, typeset like a book. Design language after the Stripe Press Poor Charlie's Almanack web edition: paper, ink, mono running heads, framed figure collages, unrolling parchment preambles, and dark Previous/Next chapter spreads.",
-  "kind": "Website",
-  "status": "Live on Vercel",
-  "url": "https://bambino-five.vercel.app",
-  "address": "bambino-five.vercel.app",
+  "statement": "Paintings by Lorenzo Scardicchio.",
+  "summary": "The paintings of Lorenzo Scardicchio, cast in white on a paper wall. Hover to see the colour; open one to read about it.",
+  "kind": "Art gallery",
+  "status": "Live",
+  "url": "https://bambino-1dtu.vercel.app/gallery",
+  "address": "bambino-1dtu.vercel.app/gallery",
   "figures": [
     {
-      "value": "10",
-      "label": "Essays, pulled from lorenzoscardicchio.substack.com",
-      "source": "content/posts in journeynudger/bambino"
-    },
-    {
-      "value": "4",
-      "label": "Kinds of work in the artwork manifest: painting, design, photo, logo",
-      "source": "README (content/art.json)"
-    },
-    {
-      "value": "6",
-      "label": "Scroll effects, each a data attribute",
-      "source": "README (Scroll system)"
-    },
-    {
-      "value": "1",
-      "label": "Endless wall",
-      "source": "README (The gallery wall: 'The lattice is endless')"
+      "value": "11",
+      "label": "Paintings",
+      "source": "The live gallery work manifest, read 2026-10-23"
     }
   ],
-  "identity": [
-    {
-      "key": "wordmark",
-      "label": "The running head",
-      "note": "Lorenzo, set in Old Claude LP, the display face of the book (roman only, so italics fall through to EB Garamond, a revival of the same Garamond source), over mono running heads in Paper Mono.",
-      "wordmark": {
-        "text": "Lorenzo",
-        "family": "EB Garamond",
-        "weight": "400",
-        "fallback": "serif",
-        "color": "#2d2d2d",
-        "parts": [
-          {
-            "text": "Lorenzo",
-            "family": "EB Garamond",
-            "weight": "400",
-            "fallback": "serif"
-          }
-        ]
-      },
-      "ground": "#EFEFEF",
-      "dark": false,
-      "source": "README (Stack: display type Old Claude LP, italics EB Garamond; Paper Mono running heads). Set here in EB Garamond, since Old Claude LP is licensed and not shipped."
-    },
-    {
-      "key": "palette",
-      "label": "Colour",
-      "note": "Paper and ink, as the README names them, and the tints the pages were photographed in: the warm paper of the home, the night of the chapter spreads, and the pale green, blue and pink behind three chapters' openings.",
-      "colors": [
-        {
-          "hex": "#EFEFEF",
-          "name": "Paper",
-          "role": "the book"
-        },
-        {
-          "hex": "#2D2D2D",
-          "name": "Ink",
-          "role": "the words"
-        },
-        {
-          "hex": "#F2EFE9",
-          "name": "Warm paper",
-          "role": "the home"
-        },
-        {
-          "hex": "#101216",
-          "name": "Night",
-          "role": "the chapter spreads"
-        },
-        {
-          "hex": "#C3DDB6",
-          "name": "Meadow",
-          "role": "a chapter's opening"
-        },
-        {
-          "hex": "#C9D6E2",
-          "name": "Sky",
-          "role": "a chapter's opening"
-        },
-        {
-          "hex": "#F0CDC9",
-          "name": "Blush",
-          "role": "a chapter's opening"
-        }
-      ],
-      "source": "README (paper #EFEFEF, ink #2d2d2d); the shoot's colour census of the pages (2026-10-22)"
-    },
-    {
-      "key": "type",
-      "label": "Type",
-      "note": "Old Claude LP for display (licensed), Source Serif 4 for the text, Paper Mono for the running heads, EB Garamond for the italics; the gallery's labels in Cormorant Garamond, as the census found.",
-      "faces": [
-        {
-          "role": "Text",
-          "family": "Source Serif 4",
-          "weight": "400",
-          "fallback": "serif",
-          "sample": "Behind every feed refresh there is a design decision."
-        },
-        {
-          "role": "Italics",
-          "family": "EB Garamond",
-          "weight": "400",
-          "fallback": "serif",
-          "sample": "The Algorithmic Self"
-        },
-        {
-          "role": "Running heads",
-          "family": "Paper Mono",
-          "weight": "400",
-          "fallback": "monospace",
-          "sample": "CH. 14 • MAY 26, 2026 • 7MIN READ"
-        }
-      ],
-      "source": "README (Stack); the shoot's type census"
-    },
-    {
-      "key": "detail",
-      "label": "The wall",
-      "note": "The gallery wall on a desktop: square tiles in an endless lattice, each the white cast of a work until the hand passes over it and the painting appears.",
-      "image": "/media/work/bambino/study/d-gallery.jpg",
-      "alt": "The gallery wall of bambino: a lattice of square tiles with white casts of paintings on a pale ground.",
-      "ground": "#EFECE4",
-      "dark": false,
-      "fit": "cover",
-      "source": "the shoot (2026-10-22); README (The gallery wall)"
-    }
-  ],
-  "quote": {
-    "text": "Behind every feed refresh there is a design decision, and behind every design decision there is a wager about what a human is for.",
-    "source": "From the home page"
-  },
+  "identity": [],
   "steps": [
     {
-      "title": "The book, page by page",
-      "body": "Essays and artwork by Lorenzo Scardicchio: the home opens the latest chapter (The Algorithmic Self, chapter 14, May 26, 2026, a seven-minute read), and each essay is a chapter with its opening, its collage and its dark Previous/Next spread.",
-      "device": "desktop",
-      "recording": "desktop",
-      "source": "the home page's own words (photographed 2026-10-22); README"
+      "title": "Misty Harbor in Charcoal and Ochre",
+      "body": "A horizon, and almost nothing standing on it. Warm grey light at the top cools and darkens toward a black ground, and in the band between them a few marks keep their footing: a tall dark post, a long ochre bar bent at one end like a hull, thin spars leaning across one another, drips of gold and a single blue. The quiet is the subject; the marks are what survives it.",
+      "image": "/media/work/bambino/study/misty-harbor.jpg",
+      "alt": "Misty Harbor in Charcoal and Ochre",
+      "device": "picture",
+      "source": "https://bambino-1dtu.vercel.app/gallery — Misty Harbor in Charcoal and Ochre; painting by Lorenzo Scardicchio."
     },
     {
-      "title": "The gallery wall",
-      "body": "A fixed, full-viewport surface you drag in any direction; on release the wall glides on and slows. Tiles are squares, each showing the work twice: the white cast always visible, the painting fading in on hover; cell (col, row) shows work ((col + row·K) mod n), so a window a few tiles wide never repeats a work side by side. Click a tile and the painting travels from its tile to the centre while a sheet slides in from the right; Escape, the veil or the painting itself close it, and the address follows.",
-      "image": "/media/work/bambino/study/d-gallery.jpg",
-      "alt": "The gallery wall: square tiles of white casts in a lattice.",
-      "device": "desktop",
-      "source": "README (The gallery wall)"
-    },
-    {
-      "title": "A chapter",
-      "body": "The Algorithmic Self: how AI is reshaping human identity, introspection, and agency. The chapter opening blurs and fades out over the first viewport, the collage drifts, the parchment preamble unrolls, and the reading progress runs along the bottom.",
-      "image": "/media/work/bambino/study/d-posts-the-algorithmic-self.jpg",
-      "alt": "The opening of The Algorithmic Self: the title and subtitle on the paper, the running head above.",
-      "device": "desktop",
-      "source": "the chapter's own title and subtitle; README (Scroll system)"
-    },
-    {
-      "title": "On a phone",
-      "body": "The home and a chapter on a phone; the wall shows two tiles across, and an opened painting sits above a sheet that rises from the bottom.",
-      "device": "phone",
-      "recording": "phone",
-      "source": "README (Phone ≤ 768px); the phone frames of the shoot"
-    },
-    {
-      "title": "Another chapter",
-      "body": "We're part of the race. On phones, attention, and a conversation with Dr. Thekla Brumder Ross.",
-      "image": "/media/work/bambino/study/d-posts-were-part-of-the-race.jpg",
-      "alt": "The opening of We're part of the race.",
-      "device": "desktop",
-      "source": "the chapter's own title and subtitle"
-    },
-    {
-      "title": "The content pipeline",
-      "body": "Every public post is pulled from lorenzoscardicchio.substack.com and re-serialized into well-formed markup, its images localized; the artwork is curated from lorenzoscardicchio.com by an allow-list of named originals into the artwork manifest (painting, design, photo, logo).",
-      "image": "/media/work/bambino/study/d-posts-racing-to-the-bottom-of-the-brains.jpg",
-      "alt": "The opening of Racing to the bottom of the brainstem.",
-      "device": "desktop",
-      "source": "README (Content pipeline)"
+      "title": "Windows in Red",
+      "body": "Nine rooms of colour, each with a window cut into it. The reds, oranges and ochres are laid in square frames, brushed in two directions so every frame has a weave to it, and through each opening a grey-blue sky is scraped in with a knife. One red leaf has landed on the centre pane. From across the room it is a façade at dusk; up close it is nine small paintings sharing a wall.",
+      "image": "/media/work/bambino/study/windows-in-red.jpg",
+      "alt": "Windows in Red",
+      "device": "picture",
+      "source": "https://bambino-1dtu.vercel.app/gallery — Windows in Red; painting by Lorenzo Scardicchio."
     }
   ],
   "film": {
     "src": "/media/work/bambino/scroll.mp4",
     "webm": "/media/work/bambino/scroll.webm",
     "poster": "/media/work/bambino/scroll-poster.jpg",
-    "alt": "Painter's film."
+    "alt": "Eleven paintings by Lorenzo Scardicchio, each shown whole."
   },
-  "recordings": {
-    "desktop": {
-      "src": "/media/work/bambino/study/desktop.mp4",
-      "webm": "/media/work/bambino/study/desktop.webm",
-      "poster": "/media/work/bambino/study/desktop-poster.jpg",
-      "alt": "Painter on a desktop: Home, Lorenzo Scardicchio, The Algorithmic Self, We're part of the race., Racing to the bottom of the brainstem."
+  "recordings": {},
+  "gallery": [
+    {
+      "src": "/media/work/bambino/study/misty-harbor.jpg",
+      "alt": "Misty Harbor in Charcoal and Ochre",
+      "source": "https://bambino-1dtu.vercel.app/gallery — Misty Harbor in Charcoal and Ochre; painting by Lorenzo Scardicchio."
     },
-    "phone": {
-      "src": "/media/work/bambino/study/phone.mp4",
-      "webm": "/media/work/bambino/study/phone.webm",
-      "poster": "/media/work/bambino/study/phone-poster.jpg",
-      "alt": "Painter on a phone."
+    {
+      "src": "/media/work/bambino/study/windows-in-red.jpg",
+      "alt": "Windows in Red",
+      "source": "https://bambino-1dtu.vercel.app/gallery — Windows in Red; painting by Lorenzo Scardicchio."
+    },
+    {
+      "src": "/media/work/bambino/study/windows-in-teal.jpg",
+      "alt": "Windows in Teal",
+      "source": "https://bambino-1dtu.vercel.app/gallery — Windows in Teal; painting by Lorenzo Scardicchio."
+    },
+    {
+      "src": "/media/work/bambino/study/six-windows.jpg",
+      "alt": "Six Windows",
+      "source": "https://bambino-1dtu.vercel.app/gallery — Six Windows; painting by Lorenzo Scardicchio."
+    },
+    {
+      "src": "/media/work/bambino/study/checkered.jpg",
+      "alt": "Checkered",
+      "source": "https://bambino-1dtu.vercel.app/gallery — Checkered; painting by Lorenzo Scardicchio."
+    },
+    {
+      "src": "/media/work/bambino/study/burgundy-rose.jpg",
+      "alt": "Moody Burgundy Rose",
+      "source": "https://bambino-1dtu.vercel.app/gallery — Moody Burgundy Rose; painting by Lorenzo Scardicchio."
+    },
+    {
+      "src": "/media/work/bambino/study/rose-bouquet.jpg",
+      "alt": "Rose Bouquet",
+      "source": "https://bambino-1dtu.vercel.app/gallery — Rose Bouquet; painting by Lorenzo Scardicchio."
+    },
+    {
+      "src": "/media/work/bambino/study/cobalt-diagonal.jpg",
+      "alt": "Cobalt Diagonal",
+      "source": "https://bambino-1dtu.vercel.app/gallery — Cobalt Diagonal; painting by Lorenzo Scardicchio."
+    },
+    {
+      "src": "/media/work/bambino/study/mountain.jpg",
+      "alt": "Mountain",
+      "source": "https://bambino-1dtu.vercel.app/gallery — Mountain; painting by Lorenzo Scardicchio."
+    },
+    {
+      "src": "/media/work/bambino/study/blue-and-pink.jpg",
+      "alt": "Blue and Pink",
+      "source": "https://bambino-1dtu.vercel.app/gallery — Blue and Pink; painting by Lorenzo Scardicchio."
+    },
+    {
+      "src": "/media/work/bambino/study/bionic.jpg",
+      "alt": "Bionic",
+      "source": "https://bambino-1dtu.vercel.app/gallery — Bionic; painting by Lorenzo Scardicchio."
     }
-  },
-  "gallery": [],
-  "galleryNote": "The site's own pictures, from bambino-1dtu.vercel.app.",
-  "source": "bambino-1dtu.vercel.app photographed on 2026-10-22 (scripts/work/shoot.mjs): page titles and first words, typefaces and colours observed, the logo and pictures the pages show, the phone frames. Every word is qwarter.com's, the site's own or observed; nothing is written here. By hand (content/studies/_overrides/bambino.json): the words are the repository's own (journeynudger/bambino README.md, read 2026-10-22) and the site's (its home page and chapters, photographed from bambino-1dtu.vercel.app on 2026-10-22); the address is the one the README names as live (bambino-five.vercel.app). Named \"Painter\" at Lorenzo's word (2026-10-23).",
-  "generated": true,
-  "brief": "One scroll engine drives the book: a chapter opening blurs and fades over the first viewport, collages drift upward at staggered speeds, parchment panels unroll as the roll cylinder travels down, figures rise with a cosine ease as they enter, and a reading-progress bar runs along the bottom. The gallery is a wall: a fixed, full-viewport surface, an endless lattice of square tiles moved with a drag that glides on, each tile holding the work twice, the white cast always visible and the painting fading in under the hand. Opening a work sends the painting from its tile to the centre of the screen while a sheet slides in from the right.",
-  "walkthrough": {
-    "desktop": [
-      {
-        "page": "home"
-      },
-      {
-        "still": "gallery",
-        "seconds": 3
-      },
-      {
-        "page": "posts-the-algorithmic-self"
-      },
-      {
-        "page": "posts-were-part-of-the-race"
-      }
-    ],
-    "phone": [
-      {
-        "page": "home"
-      },
-      {
-        "still": "gallery",
-        "seconds": 2.5
-      },
-      {
-        "page": "posts-the-algorithmic-self"
-      }
-    ]
-  }
+  ],
+  "galleryNote": "Paintings by Lorenzo Scardicchio, from his supplied art gallery.",
+  "source": "Lorenzo Scardicchio requested his paintings and the art gallery at https://bambino-1dtu.vercel.app/gallery on 2026-10-23. The live page title, description, artwork titles, descriptions and eleven-work manifest were read from its server-rendered page on 2026-10-23. The artwork is presented whole; no date or medium has been inferred.",
+  "generated": false
 }

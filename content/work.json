@@ -195,65 +195,8 @@
       }
     },
     {
-      "slug": "journey",
-      "numeral": "V",
-      "name": "Journey",
-      "url": "https://journeynudge.com",
-      "line": "The nudge you need, when you need it.",
-      "made": "Website design & web app integration",
-      "year": "2026",
-      "cover": "home",
-      "pages": [
-        {
-          "name": "home",
-          "title": "Home"
-        },
-        {
-          "name": "how-journey-works",
-          "title": "How Journey Works"
-        },
-        {
-          "name": "students",
-          "title": "Students"
-        },
-        {
-          "name": "universities",
-          "title": "Universities"
-        },
-        {
-          "name": "nudge",
-          "title": "Nudge"
-        },
-        {
-          "name": "pathfinder",
-          "title": "Pathfinder"
-        },
-        {
-          "name": "personality-quest",
-          "title": "Personality Quest"
-        },
-        {
-          "name": "blog",
-          "title": "Blog"
-        }
-      ],
-      "source": "journeynudger/journeysite (CLAUDE.md: 'journeynudge.com, moved off WordPress onto Next.js on Vercel without changing its design', WordPress snapshot of 2026-10-06); its own <title> 'journey – The nudge you need, when you need it.'; page titles from content/pages.json; photographed from its own build; qwarter.com/portfolio/journey-nudge/ (WordPress page 245476, modified 2026-09-16): Website design & web app integration, 2025; Wellness, New York, NY; film opens with the film behind Journey on qwarter.com/portfolio/ (its media library, 2022/07/Journey_Brain.mp4)",
-      "facts": {
-        "industry type": "Wellness",
-        "location": "New York, NY",
-        "company size": "Start up",
-        "product": "Personalized Nudges"
-      },
-      "film": {
-        "intro": null,
-        "from": "the film behind Journey on qwarter.com/portfolio/ (its media library, 2022/07/Journey_Brain.mp4)",
-        "source": "the pages filmed scrolling (scripts/work/scrollfilm.mjs on the site's own build); the brain film qwarter.com's portfolio page plays is left out (Lorenzo, 2026-10-23)"
-      },
-      "featured": true
-    },
-    {
       "slug": "theroom",
-      "numeral": "VI",
+      "numeral": "V",
       "name": "The Room",
       "url": "https://theroom-five.vercel.app",
       "line": "A wall of the minds that shaped how you think.",
@@ -295,57 +238,29 @@
     },
     {
       "slug": "bambino",
-      "numeral": "VII",
-      "name": "Painter",
-      "url": "https://bambino-1dtu.vercel.app",
-      "line": "The notebooks of Lorenzo Scardicchio: essays and artwork, typeset like a book.",
-      "made": "Website",
+      "numeral": "VI",
+      "name": "Paintings",
+      "url": "https://bambino-1dtu.vercel.app/gallery",
+      "line": "The paintings of Lorenzo Scardicchio.",
+      "made": "Art gallery & website",
       "year": "2026",
-      "cover": "home",
+      "cover": "gallery",
       "pages": [
         {
-          "name": "home",
-          "title": "Home"
-        },
-        {
           "name": "gallery",
-          "title": "Lorenzo Scardicchio"
-        },
-        {
-          "name": "posts-the-algorithmic-self",
-          "title": "The Algorithmic Self"
-        },
-        {
-          "name": "posts-were-part-of-the-race",
-          "title": "We're part of the race."
-        },
-        {
-          "name": "posts-racing-to-the-bottom-of-the-brains",
-          "title": "Racing to the bottom of the brainstem"
+          "title": "Paintings by Lorenzo Scardicchio"
         }
       ],
-      "source": "GitHub journeynudger/bambino (README: 'The notebooks of Lorenzo Scardicchio — essays and artwork, typeset like a book. Design language after the Stripe Press Poor Charlie's Almanack web edition'; the gallery wall as README describes it); the address Lorenzo gave on 2026-10-22; photographed from it on 2026-10-22; pictures: bambino-1dtu.vercel.app photographed on 2026-10-22 (5 pages, titles the site's own) Named \"Painter\" on the site at Lorenzo's word (2026-10-23: \"Bambino site can just be named Painter\").",
+      "source": "Lorenzo requested his painting gallery on 2026-10-23: https://bambino-1dtu.vercel.app/gallery. The live gallery title, description and 11-work manifest were read from its server-rendered page on 2026-10-23. The paintings are Lorenzo Scardicchio’s, as the gallery and Lorenzo identify them.",
       "featured": true,
       "film": {
-        "scenes": [
-          {
-            "film": "home"
-          },
-          {
-            "still": "raw/gallery.png",
-            "seconds": 6,
-            "move": "in"
-          },
-          {
-            "film": "posts-the-algorithmic-self"
-          }
-        ],
-        "source": "the home and a chapter filmed scrolling from the site's own build (scripts/work/scrollfilm.mjs); the gallery wall held with a slow move"
+        "scenes": [],
+        "source": "A sequence of the 11 paintings from the supplied live gallery, each shown whole against black."
       }
     },
     {
       "slug": "lorenzo-type",
-      "numeral": "VIII",
+      "numeral": "VII",
       "name": "Fonts designed",
       "url": "https://lorenzoscardicchio.com",
       "line": "Four families, seventeen styles, from the mailroom.",
@@ -430,33 +345,7 @@
       ],
       "fromWordPress": true,
       "source": "name, service line, year, live site and facts from qwarter.com/portfolio/2020-insights/ (WordPress page 246379, modified 2026-09-16); line: the case study's Industry Type and Location; pictures: 2020insights.net photographed on 2026-10-22 (3 pages, titles the site's own)",
-      "numeral": "IX",
-      "featured": false
-    },
-    {
-      "slug": "mzaero",
-      "name": "Mzaero",
-      "url": "https://mzaero.com",
-      "line": "Aerospace, Detroit, MI",
-      "made": "Website design & branding",
-      "year": "2024",
-      "facts": {
-        "industry type": "Aerospace",
-        "location": "Detroit, MI",
-        "company size": "Private Company",
-        "product": "Engineering"
-      },
-      "about": "MZaero is dedicated to empowering the future of advanced air mobility by providing robust engineering solutions that ensure safety, compliance, and innovation.",
-      "cover": "home",
-      "pages": [
-        {
-          "name": "home",
-          "title": "Home"
-        }
-      ],
-      "fromWordPress": true,
-      "source": "name, service line, year, live site and facts from qwarter.com/portfolio/mzaero/ (WordPress page 246910, modified 2026-09-16); line: the case study's Industry Type and Location; pictures: mzaero.com photographed on 2026-10-22 (1 pages, titles the site's own)",
-      "numeral": "X",
+      "numeral": "VIII",
       "featured": false
     },
     {
@@ -485,7 +374,7 @@
       ],
       "fromWordPress": true,
       "source": "name, service line, year, live site and facts from qwarter.com/portfolio/thanh-ta/ (WordPress page 246271, modified 2026-09-16); line: the case study's Industry Type and Location; pictures: the ones the case study shows (its media library), 2 of them",
-      "numeral": "XI",
+      "numeral": "IX",
       "featured": true,
       "film": {
         "scenes": [
@@ -541,53 +430,7 @@
       ],
       "fromWordPress": true,
       "source": "name, service line, year, live site and facts from qwarter.com/portfolio/ion-insurance/ (WordPress page 246889, modified 2026-09-16); line: the case study's Industry Type and Location; pictures: ioninsuranceinc.com photographed on 2026-10-22 (4 pages, titles the site's own)",
-      "numeral": "XII",
-      "featured": false
-    },
-    {
-      "slug": "iotech-protect",
-      "name": "IoTech Protect",
-      "url": "https://iotechprotect.com",
-      "line": "Cyber Security, Detroit, MI",
-      "made": "Website design & branding",
-      "year": "2022",
-      "facts": {
-        "industry type": "Cyber Security",
-        "location": "Detroit, MI",
-        "company size": "Micro Cap",
-        "product": "Cyber Security & IOT"
-      },
-      "about": "IoTech Protect harnesses IOT, Technology and Partnerships to deliver security solutions for the most pressing challenges that threaten the sustainability of business continuity.",
-      "cover": "img-01",
-      "pages": [
-        {
-          "name": "img-01",
-          "title": "Picture 1"
-        },
-        {
-          "name": "img-02",
-          "title": "Picture 2"
-        },
-        {
-          "name": "img-03",
-          "title": "Picture 3"
-        },
-        {
-          "name": "img-04",
-          "title": "Picture 4"
-        },
-        {
-          "name": "img-05",
-          "title": "Picture 5"
-        },
-        {
-          "name": "img-06",
-          "title": "Picture 6"
-        }
-      ],
-      "fromWordPress": true,
-      "source": "name, service line, year, live site and facts from qwarter.com/portfolio/iotech-protect/ (WordPress page 245248, modified 2026-09-16); line: the case study's Industry Type and Location; pictures: the ones the case study shows (its media library), 6 of them",
-      "numeral": "XIII",
+      "numeral": "X",
       "featured": false
     },
     {
@@ -636,67 +479,8 @@
         ],
         "source": "the render film qwarter.com's portfolio page plays behind Titanium Motor Arts, whole, 4K (Lorenzo, 2026-10-23: the high-definition one)"
       },
-      "numeral": "XIV",
+      "numeral": "XI",
       "featured": true
-    },
-    {
-      "slug": "ekaterina-sky",
-      "name": "Ekaterina Sky",
-      "url": "https://ekaterina-sky.art",
-      "line": "Fashion, Los Angeles, CA",
-      "made": "Website design & e-commerce",
-      "year": "2021",
-      "facts": {
-        "industry type": "Fashion",
-        "location": "Los Angeles, CA",
-        "company size": "5+"
-      },
-      "about": "Ekaterina hopes to inspire each person to look deeply into their current practices and question how they affect the environment and the animals of this world.",
-      "cover": "home",
-      "pages": [
-        {
-          "name": "home",
-          "title": "Home"
-        }
-      ],
-      "fromWordPress": true,
-      "source": "name, service line, year, live site and facts from qwarter.com/portfolio/ekaterina-sky/ (WordPress page 2834, modified 2026-09-16); line: the case study's Industry Type and Location; pictures: ekaterina-sky.art photographed on 2026-10-22 (1 pages, titles the site's own)",
-      "numeral": "XV",
-      "featured": false,
-      "film": {
-        "scenes": [
-          {
-            "page": "home"
-          }
-        ],
-        "source": "its home page glided down as the strip the shoot of 2026-10-22 took with the newsletter popup closed (the runner's film of the page on 2026-10-23, raw/film-home.mp4, carried the popup over every frame: scrollfilm.mjs does not close a popup the way shoot.mjs does)"
-      }
-    },
-    {
-      "slug": "epic-esg",
-      "name": "EPIC ESG",
-      "url": "https://epicesg.com",
-      "line": "Renewable Energy, Princetone, NJ",
-      "made": "Web design & branding",
-      "year": "2021",
-      "facts": {
-        "industry type": "Renewable Energy",
-        "location": "Princetone, NJ",
-        "company size": "20+ Partners",
-        "product": "Energy Technologies"
-      },
-      "about": "EPIC is pioneering the way forward to a clean, affordable, renewable energy future through a catalog of cutting-edge technology projects around the world.",
-      "cover": "img-01",
-      "pages": [
-        {
-          "name": "img-01",
-          "title": "Picture 1"
-        }
-      ],
-      "fromWordPress": true,
-      "source": "name, service line, year, live site and facts from qwarter.com/portfolio/epic-esg/ (WordPress page 2221, modified 2026-09-16); line: the case study's Industry Type and Location; pictures: the ones the case study shows (its media library), 1 of them",
-      "numeral": "XVI",
-      "featured": false
     },
     {
       "slug": "wood-company",
@@ -725,7 +509,7 @@
       ],
       "fromWordPress": true,
       "source": "name, service line, year, live site and facts from qwarter.com/portfolio/wood-company/ (WordPress page 245520, modified 2026-09-16); line from qwarter.com/portfolio/ (its slider); pictures: the ones the case study shows (its media library), 2 of them",
-      "numeral": "XVII",
+      "numeral": "XII",
       "featured": false
     },
     {
@@ -758,7 +542,7 @@
       ],
       "fromWordPress": true,
       "source": "name, service line, year, live site and facts from qwarter.com/portfolio/boujee-healer/ (WordPress page 245435, modified 2026-09-16); line: the case study's Industry Type and Location; pictures: theboujeehealer.com photographed on 2026-10-22 (3 pages, titles the site's own)",
-      "numeral": "XVIII",
+      "numeral": "XIII",
       "featured": false
     },
     {
@@ -796,7 +580,7 @@
       ],
       "fromWordPress": true,
       "source": "name, service line, year, live site and facts from qwarter.com/portfolio/pineapple-club/ (WordPress page 245312, modified 2026-09-16); line from qwarter.com/portfolio/ (its slider); pictures: pineappleclub.com photographed on 2026-10-22 (4 pages, titles the site's own)",
-      "numeral": "XIX",
+      "numeral": "XIV",
       "featured": false
     },
     {
@@ -819,7 +603,7 @@
       ],
       "fromWordPress": true,
       "source": "qwarter.com's home page, Selected Work (WordPress page 246530, modified 2026-09-17): linked as ignitebeacon.com, with a picture and no words; name: the site's own title \"beacon — the night awaits\"; line: the site's own description; pictures: ignitebeacon.com photographed on 2026-10-22 (2 pages)",
-      "numeral": "XX",
+      "numeral": "XV",
       "featured": true,
       "film": {
         "source": "ignitebeacon.com filmed scrolling by the capture workflow (scripts/work/scrollfilm.mjs on a GitHub runner), its pinned sections as the browser shows them (Lorenzo, 2026-10-23: cleaner)"
@@ -853,7 +637,7 @@
       ],
       "fromWordPress": true,
       "source": "qwarter.com's home page, Selected Work (WordPress page 246530, modified 2026-09-17): linked as corerhythmfitness.net, with a picture and no words; name: the site's own title \"CORE RHYTHM FITNESS\"; line: the site's own title; pictures: corerhythmfitness.net photographed on 2026-10-22 (4 pages)",
-      "numeral": "XXI",
+      "numeral": "XVI",
       "featured": false
     }
   ],

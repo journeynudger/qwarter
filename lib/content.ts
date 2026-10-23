@@ -1,4 +1,5 @@
 import fs from "node:fs";
+import { versioned } from "@/lib/assets";
 import path from "node:path";
 
 import pagesData from "@/content/pages.json";
@@ -155,15 +156,15 @@ export const getRedirects = (): Redirects => redirectsData as unknown as Redirec
 
 /** The delivered pictures of a project (scripts/work/prepare.mjs). */
 export const workMedia = (slug: string) => ({
-  cover: `/media/work/${slug}/cover.jpg`,
-  cover2x: `/media/work/${slug}/cover@2x.jpg`,
-  tile: `/media/work/${slug}/tile.jpg`,
-  tile2x: `/media/work/${slug}/tile@2x.jpg`,
-  blur: `/media/work/${slug}/blur.jpg`,
-  video: `/media/work/${slug}/scroll.mp4`,
-  videoWebm: `/media/work/${slug}/scroll.webm`,
-  poster: `/media/work/${slug}/scroll-poster.jpg`,
-  page: (name: string) => `/media/work/${slug}/page-${name}.jpg`,
+  cover: versioned(`/media/work/${slug}/cover.jpg`),
+  cover2x: versioned(`/media/work/${slug}/cover@2x.jpg`),
+  tile: versioned(`/media/work/${slug}/tile.jpg`),
+  tile2x: versioned(`/media/work/${slug}/tile@2x.jpg`),
+  blur: versioned(`/media/work/${slug}/blur.jpg`),
+  video: versioned(`/media/work/${slug}/scroll.mp4`),
+  videoWebm: versioned(`/media/work/${slug}/scroll.webm`),
+  poster: versioned(`/media/work/${slug}/scroll-poster.jpg`),
+  page: (name: string) => versioned(`/media/work/${slug}/page-${name}.jpg`),
 });
 
 /**
@@ -199,6 +200,17 @@ function studyPage(p: Project): Page {
   const site = getSite();
   const study = getStudy(p.slug)!;
   const m = studyMedia(p.slug);
+  if (p.slug === "bambino") return {
+    slug: "study-bambino", path: "/work/bambino/", kind: "study", project: p.slug,
+    title: "Paintings – Qwarter", description: study.summary, html: {}, body: { class: "qs" }, modified: null,
+    head: [
+      { kind: "stylesheet", href: "/design/qwarter/fonts/fonts.css" },
+      { kind: "stylesheet", href: "/design/qwarter/stories.css" },
+      { kind: "stylesheet", href: "/design/qwarter/portfolio.css" },
+    ],
+    scripts: [{ kind: "script", src: "/design/qwarter/stories.js", attrs: { defer: "" } }],
+    image: study.film?.poster ?? m.desktopPoster,
+  };
   return {
     slug: `study-${p.slug}`,
     path: `/work/${p.slug}/`,

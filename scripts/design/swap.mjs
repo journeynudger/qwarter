@@ -96,8 +96,8 @@ async function resolveMedia(swap) {
 }
 
 /** Runs in the browser: apply the swaps to the reference markup, return the new markup or the failures. */
-function applySwaps({ markup, swaps }) {
-  const doc = new DOMParser().parseFromString(`<!doctype html><html><head></head><body>${markup}</body></html>`, "text/html");
+function applySwaps({ markup, swaps }, Parser = DOMParser) {
+  const doc = new Parser().parseFromString(`<!doctype html><html><head></head><body>${markup}</body></html>`, "text/html");
   const errors = [];
   const fill = (el, change) => {
     if (change.remove) { el.remove(); return; }
@@ -154,8 +154,12 @@ if (!slugs.length) {
   console.log("no content/swaps/*.json yet");
   process.exit(0);
 }
-const browser = await launch();
-const page = await browser.newPage();
+const offline = argv.includes("--static");
+let browser = null;
+let page = null;
+let StaticDOMParser;
+if (offline) ({ DOMParser: StaticDOMParser } = await import("linkedom"));
+else { browser = await launch(); page = await browser.newPage(); }
 let failed = 0;
 for (const slug of slugs) {
   const refFile = path.join(REFERENCE, `${slug}.html`);
@@ -167,7 +171,8 @@ for (const slug of slugs) {
   const spec = JSON.parse(fs.readFileSync(path.join(SWAPS, `${slug}.json`), "utf8"));
   const swaps = [];
   for (const s of spec.swaps) swaps.push(await resolveMedia(s));
-  const { markup, errors } = await page.evaluate(applySwaps, { markup: fs.readFileSync(refFile, "utf8"), swaps });
+  const input = { markup: fs.readFileSync(refFile, "utf8"), swaps };
+  const { markup, errors } = offline ? applySwaps(input, StaticDOMParser) : await page.evaluate(applySwaps, input);
   if (errors.length) {
     failed++;
     console.error(`${slug}: ${errors.length} swap(s) failed\n  ${errors.join("\n  ")}`);
@@ -191,5 +196,5 @@ for (const slug of slugs) {
   }
   console.log(`${slug}: ${spec.swaps.length} swaps applied${spec.head ? `, ${spec.head.length} head change(s)` : ""}`);
 }
-await browser.close();
+if (browser) await browser.close();
 process.exit(failed ? 1 : 0);

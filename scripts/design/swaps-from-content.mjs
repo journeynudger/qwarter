@@ -22,6 +22,7 @@
  * Usage: node scripts/design/swaps-from-content.mjs && node scripts/design/swap.mjs && node scripts/design/prune.mjs
  */
 import fs from "node:fs";
+import crypto from "node:crypto";
 import path from "node:path";
 
 const ROOT = path.resolve(import.meta.dirname, "../..");
@@ -29,9 +30,10 @@ const work = JSON.parse(fs.readFileSync(path.join(ROOT, "content/work.json"), "u
 const site = JSON.parse(fs.readFileSync(path.join(ROOT, "content/site.json"), "utf8"));
 const { brand, nav, footer, statement, about, contact } = site.chrome;
 const projects = work.projects.filter((p) => p.media !== false);
+const versioned = (url) => `${url}?v=${crypto.createHash("sha1").update(fs.readFileSync(path.join(ROOT, "public", url))).digest("hex").slice(0,10)}`;
 const media = (slug) => ({
-  cover: `/media/work/${slug}/cover.jpg`, cover2x: `/media/work/${slug}/cover@2x.jpg`, tile: `/media/work/${slug}/tile.jpg`, tile2x: `/media/work/${slug}/tile@2x.jpg`,
-  film: `/media/work/${slug}/scroll.mp4`, blur: `/media/work/${slug}/blur.jpg`,
+  cover: versioned(`/media/work/${slug}/cover.jpg`), cover2x: versioned(`/media/work/${slug}/cover@2x.jpg`), tile: versioned(`/media/work/${slug}/tile.jpg`), tile2x: versioned(`/media/work/${slug}/tile@2x.jpg`),
+  film: versioned(`/media/work/${slug}/scroll.mp4`), blur: versioned(`/media/work/${slug}/blur.jpg`),
 });
 const SRC = { work: "content/work.json", site: "content/site.json" };
 const host = (u) => u.replace(/^https?:\/\//, "").replace(/\/$/, "");
@@ -117,7 +119,7 @@ const home = {
 
 // ---- work (the reference's Archive page: every project, one film at a time, a looping list beside it) --------
 const workPage = {
-  ...head(`Work – ${brand.left}`),
+  ...head(`Portfolio – ${brand.left}`),
   description: "Everything Qwarter has made: the sites shown as they are, and the catalogue of brands and websites from qwarter.com.",
   swaps: [
     ...chrome("/work/"),

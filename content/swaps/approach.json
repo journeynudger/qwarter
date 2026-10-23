@@ -58,7 +58,7 @@
     },
     {
       "select": "#Header nav a:nth-of-type(2)",
-      "text": "Work",
+      "text": "Portfolio",
       "attr": {
         "href": "/work/",
         "aria-current": null,
@@ -143,7 +143,7 @@
     },
     {
       "select": "#Sidemenu .list li:nth-child(2) a .__text",
-      "text": "Work",
+      "text": "Portfolio",
       "source": "content/site.json chrome.nav[1]"
     },
     {
@@ -247,8 +247,8 @@
     },
     {
       "select": "article.page-about",
-      "prepend": "<h1 style=\"position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0\">Stories</h1>",
-      "source": "content/site.json chrome.nav[2].label"
+      "prepend": "<h1 style=\"position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0\">Approach</h1>",
+      "source": "content/site.json chrome.nav approach label"
     },
     {
       "select": "section.block-text:not(.--has-roman) .body",
@@ -263,8 +263,8 @@
     {
       "select": "section.block-title.--type_1 figure.media-1 img",
       "attr": {
-        "src": "/media/work/thanh-ta/cover.jpg",
-        "data-src": "/media/work/thanh-ta/cover@2x.jpg",
+        "src": "/media/work/thanh-ta/cover.jpg?v=92d2fbfe4c",
+        "data-src": "/media/work/thanh-ta/cover@2x.jpg?v=eb01043a78",
         "alt": "Thanh Ta",
         "width": "1440",
         "height": "900"
@@ -273,14 +273,14 @@
     {
       "select": "section.block-title.--type_1 figure.media-1 video",
       "attr": {
-        "data-src": "/media/work/thanh-ta/scroll.mp4"
+        "data-src": "/media/work/thanh-ta/scroll.mp4?v=193000e18f"
       }
     },
     {
       "select": "section.block-title.--type_1 figure.media-2 img",
       "attr": {
-        "src": "/media/work/jr-pugh/cover.jpg",
-        "data-src": "/media/work/jr-pugh/cover@2x.jpg",
+        "src": "/media/work/jr-pugh/cover.jpg?v=515de41e7f",
+        "data-src": "/media/work/jr-pugh/cover@2x.jpg?v=8b6bdff214",
         "alt": "JR Pugh",
         "width": "1440",
         "height": "900"
@@ -289,14 +289,14 @@
     {
       "select": "section.block-title.--type_1 figure.media-2 video",
       "attr": {
-        "data-src": "/media/work/jr-pugh/scroll.mp4"
+        "data-src": "/media/work/jr-pugh/scroll.mp4?v=527f78ef62"
       }
     },
     {
       "select": "section.block-title.--type_1 figure.media-3 img",
       "attr": {
-        "src": "/media/work/butter/cover.jpg",
-        "data-src": "/media/work/butter/cover@2x.jpg",
+        "src": "/media/work/butter/cover.jpg?v=d33a6eed7a",
+        "data-src": "/media/work/butter/cover@2x.jpg?v=57877a7250",
         "alt": "Butter",
         "width": "1440",
         "height": "900"
@@ -305,14 +305,14 @@
     {
       "select": "section.block-title.--type_1 figure.media-3 video",
       "attr": {
-        "data-src": "/media/work/butter/scroll.mp4"
+        "data-src": "/media/work/butter/scroll.mp4?v=a666d818d2"
       }
     },
     {
       "select": "section.block-title.--type_1 figure.media-4 img",
       "attr": {
-        "src": "/media/work/ignite-beacon/cover.jpg",
-        "data-src": "/media/work/ignite-beacon/cover@2x.jpg",
+        "src": "/media/work/ignite-beacon/cover.jpg?v=836db06368",
+        "data-src": "/media/work/ignite-beacon/cover@2x.jpg?v=3f02f0943b",
         "alt": "Beacon",
         "width": "1440",
         "height": "900"
@@ -321,7 +321,7 @@
     {
       "select": "section.block-title.--type_1 figure.media-4 video",
       "attr": {
-        "data-src": "/media/work/ignite-beacon/scroll.mp4"
+        "data-src": "/media/work/ignite-beacon/scroll.mp4?v=bc0f1ae023"
       }
     },
     {
@@ -342,8 +342,8 @@
     {
       "select": "section.block-title.--type_2 figure.media-1 img",
       "attr": {
-        "src": "/media/work/jr-pugh/cover.jpg",
-        "data-src": "/media/work/jr-pugh/cover@2x.jpg",
+        "src": "/media/work/jr-pugh/cover.jpg?v=515de41e7f",
+        "data-src": "/media/work/jr-pugh/cover@2x.jpg?v=8b6bdff214",
         "alt": "JR Pugh",
         "width": "1440",
         "height": "900"
@@ -352,14 +352,14 @@
     {
       "select": "section.block-title.--type_2 figure.media-1 video",
       "attr": {
-        "data-src": "/media/work/jr-pugh/scroll.mp4"
+        "data-src": "/media/work/jr-pugh/scroll.mp4?v=527f78ef62"
       }
     },
     {
       "select": "section.block-title.--type_2 figure.media-2 img",
       "attr": {
-        "src": "/media/work/butter/cover.jpg",
-        "data-src": "/media/work/butter/cover@2x.jpg",
+        "src": "/media/work/butter/cover.jpg?v=d33a6eed7a",
+        "data-src": "/media/work/butter/cover@2x.jpg?v=57877a7250",
         "alt": "Butter",
         "width": "1440",
         "height": "900"
@@ -368,14 +368,14 @@
     {
       "select": "section.block-title.--type_2 figure.media-2 video",
       "attr": {
-        "data-src": "/media/work/butter/scroll.mp4"
+        "data-src": "/media/work/butter/scroll.mp4?v=a666d818d2"
       }
     },
     {
       "select": "section.block-title.--type_2 figure.media-3 img",
       "attr": {
-        "src": "/media/work/ignite-beacon/cover.jpg",
-        "data-src": "/media/work/ignite-beacon/cover@2x.jpg",
+        "src": "/media/work/ignite-beacon/cover.jpg?v=836db06368",
+        "data-src": "/media/work/ignite-beacon/cover@2x.jpg?v=3f02f0943b",
         "alt": "Beacon",
         "width": "1440",
         "height": "900"
@@ -384,14 +384,14 @@
     {
       "select": "section.block-title.--type_2 figure.media-3 video",
       "attr": {
-        "data-src": "/media/work/ignite-beacon/scroll.mp4"
+        "data-src": "/media/work/ignite-beacon/scroll.mp4?v=bc0f1ae023"
       }
     },
     {
       "select": "section.block-title.--type_2 figure.media-4 img",
       "attr": {
-        "src": "/media/work/thanh-ta/cover.jpg",
-        "data-src": "/media/work/thanh-ta/cover@2x.jpg",
+        "src": "/media/work/thanh-ta/cover.jpg?v=92d2fbfe4c",
+        "data-src": "/media/work/thanh-ta/cover@2x.jpg?v=eb01043a78",
         "alt": "Thanh Ta",
         "width": "1440",
         "height": "900"
@@ -400,7 +400,7 @@
     {
       "select": "section.block-title.--type_2 figure.media-4 video",
       "attr": {
-        "data-src": "/media/work/thanh-ta/scroll.mp4"
+        "data-src": "/media/work/thanh-ta/scroll.mp4?v=193000e18f"
       }
     },
     {
@@ -421,8 +421,8 @@
     {
       "select": "section.block-title.--type_3 figure.media-1 img",
       "attr": {
-        "src": "/media/work/butter/cover.jpg",
-        "data-src": "/media/work/butter/cover@2x.jpg",
+        "src": "/media/work/butter/cover.jpg?v=d33a6eed7a",
+        "data-src": "/media/work/butter/cover@2x.jpg?v=57877a7250",
         "alt": "Butter",
         "width": "1440",
         "height": "900"
@@ -431,14 +431,14 @@
     {
       "select": "section.block-title.--type_3 figure.media-1 video",
       "attr": {
-        "data-src": "/media/work/butter/scroll.mp4"
+        "data-src": "/media/work/butter/scroll.mp4?v=a666d818d2"
       }
     },
     {
       "select": "section.block-title.--type_3 figure.media-2 img",
       "attr": {
-        "src": "/media/work/ignite-beacon/cover.jpg",
-        "data-src": "/media/work/ignite-beacon/cover@2x.jpg",
+        "src": "/media/work/ignite-beacon/cover.jpg?v=836db06368",
+        "data-src": "/media/work/ignite-beacon/cover@2x.jpg?v=3f02f0943b",
         "alt": "Beacon",
         "width": "1440",
         "height": "900"
@@ -447,14 +447,14 @@
     {
       "select": "section.block-title.--type_3 figure.media-2 video",
       "attr": {
-        "data-src": "/media/work/ignite-beacon/scroll.mp4"
+        "data-src": "/media/work/ignite-beacon/scroll.mp4?v=bc0f1ae023"
       }
     },
     {
       "select": "section.block-title.--type_3 figure.media-3 img",
       "attr": {
-        "src": "/media/work/thanh-ta/cover.jpg",
-        "data-src": "/media/work/thanh-ta/cover@2x.jpg",
+        "src": "/media/work/thanh-ta/cover.jpg?v=92d2fbfe4c",
+        "data-src": "/media/work/thanh-ta/cover@2x.jpg?v=eb01043a78",
         "alt": "Thanh Ta",
         "width": "1440",
         "height": "900"
@@ -463,14 +463,14 @@
     {
       "select": "section.block-title.--type_3 figure.media-3 video",
       "attr": {
-        "data-src": "/media/work/thanh-ta/scroll.mp4"
+        "data-src": "/media/work/thanh-ta/scroll.mp4?v=193000e18f"
       }
     },
     {
       "select": "section.block-title.--type_3 figure.media-4 img",
       "attr": {
-        "src": "/media/work/jr-pugh/cover.jpg",
-        "data-src": "/media/work/jr-pugh/cover@2x.jpg",
+        "src": "/media/work/jr-pugh/cover.jpg?v=515de41e7f",
+        "data-src": "/media/work/jr-pugh/cover@2x.jpg?v=8b6bdff214",
         "alt": "JR Pugh",
         "width": "1440",
         "height": "900"
@@ -479,7 +479,7 @@
     {
       "select": "section.block-title.--type_3 figure.media-4 video",
       "attr": {
-        "data-src": "/media/work/jr-pugh/scroll.mp4"
+        "data-src": "/media/work/jr-pugh/scroll.mp4?v=527f78ef62"
       }
     },
     {
@@ -500,8 +500,8 @@
     {
       "select": "section.block-title.--type_4 figure.media-1 img",
       "attr": {
-        "src": "/media/work/ignite-beacon/cover.jpg",
-        "data-src": "/media/work/ignite-beacon/cover@2x.jpg",
+        "src": "/media/work/ignite-beacon/cover.jpg?v=836db06368",
+        "data-src": "/media/work/ignite-beacon/cover@2x.jpg?v=3f02f0943b",
         "alt": "Beacon",
         "width": "1440",
         "height": "900"
@@ -510,14 +510,14 @@
     {
       "select": "section.block-title.--type_4 figure.media-1 video",
       "attr": {
-        "data-src": "/media/work/ignite-beacon/scroll.mp4"
+        "data-src": "/media/work/ignite-beacon/scroll.mp4?v=bc0f1ae023"
       }
     },
     {
       "select": "section.block-title.--type_4 figure.media-2 img",
       "attr": {
-        "src": "/media/work/thanh-ta/cover.jpg",
-        "data-src": "/media/work/thanh-ta/cover@2x.jpg",
+        "src": "/media/work/thanh-ta/cover.jpg?v=92d2fbfe4c",
+        "data-src": "/media/work/thanh-ta/cover@2x.jpg?v=eb01043a78",
         "alt": "Thanh Ta",
         "width": "1440",
         "height": "900"
@@ -526,14 +526,14 @@
     {
       "select": "section.block-title.--type_4 figure.media-2 video",
       "attr": {
-        "data-src": "/media/work/thanh-ta/scroll.mp4"
+        "data-src": "/media/work/thanh-ta/scroll.mp4?v=193000e18f"
       }
     },
     {
       "select": "section.block-title.--type_4 figure.media-3 img",
       "attr": {
-        "src": "/media/work/jr-pugh/cover.jpg",
-        "data-src": "/media/work/jr-pugh/cover@2x.jpg",
+        "src": "/media/work/jr-pugh/cover.jpg?v=515de41e7f",
+        "data-src": "/media/work/jr-pugh/cover@2x.jpg?v=8b6bdff214",
         "alt": "JR Pugh",
         "width": "1440",
         "height": "900"
@@ -542,14 +542,14 @@
     {
       "select": "section.block-title.--type_4 figure.media-3 video",
       "attr": {
-        "data-src": "/media/work/jr-pugh/scroll.mp4"
+        "data-src": "/media/work/jr-pugh/scroll.mp4?v=527f78ef62"
       }
     },
     {
       "select": "section.block-title.--type_4 figure.media-4 img",
       "attr": {
-        "src": "/media/work/butter/cover.jpg",
-        "data-src": "/media/work/butter/cover@2x.jpg",
+        "src": "/media/work/butter/cover.jpg?v=d33a6eed7a",
+        "data-src": "/media/work/butter/cover@2x.jpg?v=57877a7250",
         "alt": "Butter",
         "width": "1440",
         "height": "900"
@@ -558,7 +558,7 @@
     {
       "select": "section.block-title.--type_4 figure.media-4 video",
       "attr": {
-        "data-src": "/media/work/butter/scroll.mp4"
+        "data-src": "/media/work/butter/scroll.mp4?v=a666d818d2"
       }
     },
     {
@@ -579,8 +579,8 @@
     {
       "select": "section.block-title.--type_5 figure.media-1 img",
       "attr": {
-        "src": "/media/work/thanh-ta/cover.jpg",
-        "data-src": "/media/work/thanh-ta/cover@2x.jpg",
+        "src": "/media/work/thanh-ta/cover.jpg?v=92d2fbfe4c",
+        "data-src": "/media/work/thanh-ta/cover@2x.jpg?v=eb01043a78",
         "alt": "Thanh Ta",
         "width": "1440",
         "height": "900"
@@ -589,14 +589,14 @@
     {
       "select": "section.block-title.--type_5 figure.media-1 video",
       "attr": {
-        "data-src": "/media/work/thanh-ta/scroll.mp4"
+        "data-src": "/media/work/thanh-ta/scroll.mp4?v=193000e18f"
       }
     },
     {
       "select": "section.block-title.--type_5 figure.media-2 img",
       "attr": {
-        "src": "/media/work/jr-pugh/cover.jpg",
-        "data-src": "/media/work/jr-pugh/cover@2x.jpg",
+        "src": "/media/work/jr-pugh/cover.jpg?v=515de41e7f",
+        "data-src": "/media/work/jr-pugh/cover@2x.jpg?v=8b6bdff214",
         "alt": "JR Pugh",
         "width": "1440",
         "height": "900"
@@ -605,14 +605,14 @@
     {
       "select": "section.block-title.--type_5 figure.media-2 video",
       "attr": {
-        "data-src": "/media/work/jr-pugh/scroll.mp4"
+        "data-src": "/media/work/jr-pugh/scroll.mp4?v=527f78ef62"
       }
     },
     {
       "select": "section.block-title.--type_5 figure.media-3 img",
       "attr": {
-        "src": "/media/work/butter/cover.jpg",
-        "data-src": "/media/work/butter/cover@2x.jpg",
+        "src": "/media/work/butter/cover.jpg?v=d33a6eed7a",
+        "data-src": "/media/work/butter/cover@2x.jpg?v=57877a7250",
         "alt": "Butter",
         "width": "1440",
         "height": "900"
@@ -621,14 +621,14 @@
     {
       "select": "section.block-title.--type_5 figure.media-3 video",
       "attr": {
-        "data-src": "/media/work/butter/scroll.mp4"
+        "data-src": "/media/work/butter/scroll.mp4?v=a666d818d2"
       }
     },
     {
       "select": "section.block-title.--type_5 figure.media-4 img",
       "attr": {
-        "src": "/media/work/ignite-beacon/cover.jpg",
-        "data-src": "/media/work/ignite-beacon/cover@2x.jpg",
+        "src": "/media/work/ignite-beacon/cover.jpg?v=836db06368",
+        "data-src": "/media/work/ignite-beacon/cover@2x.jpg?v=3f02f0943b",
         "alt": "Beacon",
         "width": "1440",
         "height": "900"
@@ -637,7 +637,7 @@
     {
       "select": "section.block-title.--type_5 figure.media-4 video",
       "attr": {
-        "data-src": "/media/work/ignite-beacon/scroll.mp4"
+        "data-src": "/media/work/ignite-beacon/scroll.mp4?v=bc0f1ae023"
       }
     },
     {
@@ -658,8 +658,8 @@
     {
       "select": "section.block-title.--type_6 figure.media-1 img",
       "attr": {
-        "src": "/media/work/jr-pugh/cover.jpg",
-        "data-src": "/media/work/jr-pugh/cover@2x.jpg",
+        "src": "/media/work/jr-pugh/cover.jpg?v=515de41e7f",
+        "data-src": "/media/work/jr-pugh/cover@2x.jpg?v=8b6bdff214",
         "alt": "JR Pugh",
         "width": "1440",
         "height": "900"
@@ -668,14 +668,14 @@
     {
       "select": "section.block-title.--type_6 figure.media-1 video",
       "attr": {
-        "data-src": "/media/work/jr-pugh/scroll.mp4"
+        "data-src": "/media/work/jr-pugh/scroll.mp4?v=527f78ef62"
       }
     },
     {
       "select": "section.block-title.--type_6 figure.media-2 img",
       "attr": {
-        "src": "/media/work/butter/cover.jpg",
-        "data-src": "/media/work/butter/cover@2x.jpg",
+        "src": "/media/work/butter/cover.jpg?v=d33a6eed7a",
+        "data-src": "/media/work/butter/cover@2x.jpg?v=57877a7250",
         "alt": "Butter",
         "width": "1440",
         "height": "900"
@@ -684,14 +684,14 @@
     {
       "select": "section.block-title.--type_6 figure.media-2 video",
       "attr": {
-        "data-src": "/media/work/butter/scroll.mp4"
+        "data-src": "/media/work/butter/scroll.mp4?v=a666d818d2"
       }
     },
     {
       "select": "section.block-title.--type_6 figure.media-3 img",
       "attr": {
-        "src": "/media/work/ignite-beacon/cover.jpg",
-        "data-src": "/media/work/ignite-beacon/cover@2x.jpg",
+        "src": "/media/work/ignite-beacon/cover.jpg?v=836db06368",
+        "data-src": "/media/work/ignite-beacon/cover@2x.jpg?v=3f02f0943b",
         "alt": "Beacon",
         "width": "1440",
         "height": "900"
@@ -700,14 +700,14 @@
     {
       "select": "section.block-title.--type_6 figure.media-3 video",
       "attr": {
-        "data-src": "/media/work/ignite-beacon/scroll.mp4"
+        "data-src": "/media/work/ignite-beacon/scroll.mp4?v=bc0f1ae023"
       }
     },
     {
       "select": "section.block-title.--type_6 figure.media-4 img",
       "attr": {
-        "src": "/media/work/thanh-ta/cover.jpg",
-        "data-src": "/media/work/thanh-ta/cover@2x.jpg",
+        "src": "/media/work/thanh-ta/cover.jpg?v=92d2fbfe4c",
+        "data-src": "/media/work/thanh-ta/cover@2x.jpg?v=eb01043a78",
         "alt": "Thanh Ta",
         "width": "1440",
         "height": "900"
@@ -716,7 +716,7 @@
     {
       "select": "section.block-title.--type_6 figure.media-4 video",
       "attr": {
-        "data-src": "/media/work/thanh-ta/scroll.mp4"
+        "data-src": "/media/work/thanh-ta/scroll.mp4?v=193000e18f"
       }
     },
     {

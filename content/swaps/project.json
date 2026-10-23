@@ -58,7 +58,7 @@
     },
     {
       "select": "#Header nav a:nth-of-type(2)",
-      "text": "Work",
+      "text": "Portfolio",
       "attr": {
         "href": "/work/",
         "aria-current": "page",
@@ -143,7 +143,7 @@
     },
     {
       "select": "#Sidemenu .list li:nth-child(2) a .__text",
-      "text": "Work",
+      "text": "Portfolio",
       "source": "content/site.json chrome.nav[1]"
     },
     {

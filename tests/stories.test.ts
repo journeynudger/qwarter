@@ -74,8 +74,8 @@ test("excerpts are explicit and newsletter promotions stay out of article copy",
 test("the generated navigation exposes Stories through ordinary full-page links", () => {
   for (const slug of ["home", "work", "approach", "contact", "project"]) {
     const html = fs.readFileSync(path.join(process.cwd(), "content/pages", `${slug}.html`), "utf8");
-    assert.match(html, /id="h_a_4"[^>]*href="\/stories\/"[^>]*data-internal/);
-    assert.match(html, /href="\/stories\/" class="nav-item" data-internal/);
+    assert.match(html, /<a(?=[^>]*id="h_a_4")(?=[^>]*href="\/stories\/")(?=[^>]*data-internal)[^>]*>/);
+    assert.match(html, /<a(?=[^>]*href="\/stories\/")(?=[^>]*class="nav-item")(?=[^>]*data-internal)[^>]*>/);
   }
 });
 

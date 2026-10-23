@@ -38,13 +38,15 @@ export default async function RootLayout({
   // ours: the two designs must not meet in one document
   const carried = Boolean(page?.template);
   // a case study (components/study/) brings its own stylesheet and script as well; it takes the site-wide ones of neither design
-  const own = carried || page?.kind === "study" || page?.kind === "stories" || page?.kind === "story";
+  const own = carried || page?.kind === "study" || page?.kind === "stories" || page?.kind === "story" || page?.kind === "archive";
   return (
     // the design's own scripts add classes to <html> and <body> before React hydrates
     <html lang={site.lang} {...props(page?.html ?? {})} suppressHydrationWarning>
       <head>
+        <Assets list={[{ kind: "script", src: "/design/qwarter/visit.js" }]} />
         {!own && <Assets list={site.head} />}
         {page && <Assets list={page.head} />}
+        <Assets list={[{ kind: "stylesheet", href: "/design/qwarter/refinements.css" }]} />
         {/* the Paper shader surfaces and paper stock, after the site's own stylesheet */}
         {!own && <link rel="stylesheet" href={versioned("/design/qwarter/paper.css")} />}
       </head>

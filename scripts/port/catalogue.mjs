@@ -53,7 +53,7 @@ const FILMS = {
 /** Case-study pages that are another page's copy, not a case study of their own (listed in CLAUDE.md's questions). */
 const COPIES = ["11-hamilton-home"];
 /** Projects Lorenzo asked to take off the site for now (2026-10-23: "remove kindfootprint for now"); their media leave the tree with them (main's 3faeb72 still holds Kind Footprint's, and .port-cache/shots/ its shoot). */
-const WITHDRAWN = ["kind-footprint"];
+const WITHDRAWN = ["kind-footprint", "ekaterina-sky", "iotech-protect", "mzaero", "journey", "epic-esg"];
 /** A client the case study pages name without a line of their own: the home page's Selected Work says it. */
 const NOT_PICTURES = /logo|bug|ico-|icon|removebg|headshot|portrait|partner-logo|palette|gradient|watercolor|mickeyhand|placeholder|Primal-Journey|\.gif$|\.svg$|\.pdf$/i;
 

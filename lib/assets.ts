@@ -11,7 +11,7 @@ const versions = new Map<string, string>();
  * Anything else (an external URL, a path with a query) is returned as is.
  */
 export function versioned(href: string): string {
-  if (!href.startsWith("/design/") || href.includes("?")) return href;
+  if (!(href.startsWith("/design/") || href.startsWith("/media/")) || href.includes("?")) return href;
   // in development the file changes under a running server: hash it on every render
   if (!versions.has(href) || process.env.NODE_ENV === "development") {
     const file = path.join(PUBLIC_DIR, decodeURIComponent(href));
