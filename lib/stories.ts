@@ -42,7 +42,7 @@ export const getStory = (slug: string): Story | undefined => getStories().find((
 export const storyUrl = (story: Story) => `/stories/${story.slug}/`;
 export const storyImage = (story: Story) => story.images[story.hero] ?? story.images[0];
 export const storyCategories = ["All stories", "Brand", "Craft", "Direction", "Growth", "Resilience"];
-export const featuredStories = () => [21, 7, 19].map((id) => getStories().find((story) => story.id === id)!);
+export const featuredStories = () => [39, 43, 38, 40, 34, 42].map((id) => getStories().find((story) => story.id === id)!);
 
 export function roman(value: number): string {
   const numerals: [number, string][] = [[50, "L"], [40, "XL"], [10, "X"], [9, "IX"], [5, "V"], [4, "IV"], [1, "I"]];

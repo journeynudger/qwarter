@@ -233,7 +233,7 @@ export function storyPages(): Page[] {
     scripts: [{ kind: "script", src: "/design/qwarter/stories.js", attrs: { defer: "" } }] as Asset[],
   };
   return [
-    { ...base, slug: "stories", path: "/stories/", kind: "stories", title: "Stories – Qwarter", description: "We learn from those who came before us. Collected stories about craft, brands, resilience, and finding a point of view.", image: storyImage(getStories().find((story) => story.id === 21)!)?.src ?? null },
+    { ...base, slug: "stories", path: "/stories/", kind: "stories", title: "Stories – Qwarter", description: "We learn from those who came before us. Collected stories about craft, brands, resilience, and finding a point of view.", image: storyImage(getStories()[0])?.src ?? null },
     ...getStories().map((story): Page => ({ ...base, slug: `story-${story.slug}`, path: storyUrl(story), kind: "story", story: story.slug, title: `${story.title} – Qwarter Stories`, description: story.lesson, image: storyImage(story)?.src ?? null, noindex: story.isExcerpt })),
   ];
 }

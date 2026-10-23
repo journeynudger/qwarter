@@ -11,8 +11,8 @@ import { getStories, storyCategories, storyImage, storyUrl } from "@/lib/stories
 const stories = getStories();
 const publicDir = path.join(process.cwd(), "public");
 
-test("all 43 readings have complete, independently addressable routes", () => {
-  assert.equal(stories.length, 43);
+test("all 38 readings have complete, independently addressable routes", () => {
+  assert.equal(stories.length, 38);
   assert.equal(new Set(stories.map((story) => story.slug)).size, stories.length);
   assert.equal(resolveRoute(["stories"]).kind, "page");
   assert.equal(resolveRoute(["stories", "not-a-story"]).kind, "not-found");
@@ -82,7 +82,7 @@ test("the generated navigation exposes Stories through ordinary full-page links"
 test("the October screenshot batch adds six complete stories and joins continuations once", () => {
   const additions = stories.filter(story => story.id >= 38);
   assert.equal(additions.length, 6);
-  assert.deepEqual(additions.map(story => story.company), ['Apple', 'Anthropic', 'Cristiano Ronaldo', 'Lionel Messi', 'Amazon', 'NVIDIA']);
+  assert.deepEqual(additions.map(story => story.company).sort(), ['Apple', 'Anthropic', 'Cristiano Ronaldo', 'Lionel Messi', 'Amazon', 'NVIDIA'].sort());
   const copy = (id: number) => stories.find(story => story.id === id)!.blocks.flatMap(block => block.type === 'image' ? [] : [block.text]).join('\n');
   assert.equal(copy(39).split('Every time he made the model bigger').length - 1, 1);
   assert.equal(copy(42).split('Set the hiring bar painfully high.').length - 1, 1);
@@ -98,5 +98,23 @@ test("the October screenshot batch adds six complete stories and joins continuat
     }
   }
   const ronaldo = stories.find(story => story.id === 40)!;
-  assert.ok(renderToStaticMarkup(StoryPage({ slug: ronaldo.slug })).includes('https://creativecommons.org/licenses/by-sa/3.0/'));
+  assert.match(ronaldo.images[0].alt, /bicycle kick/i);
+});
+
+
+test("the shelf excludes withdrawn material and prioritises the requested six stories", () => {
+  assert.doesNotMatch(JSON.stringify(stories), /gamma/i);
+  assert.deepEqual(stories.slice(0, 6).map(story => story.id), [39, 43, 38, 40, 34, 42]);
+  for (const slug of ['starting-a-company-one-rung-at-a-time', 'ai-slide-decks-and-communicating-ideas', 'gamma-customer-advisory-board', 'hiring-when-candidates-use-ai', 'gamma-creation-index']) {
+    assert.equal(resolveRoute(['stories', slug]).kind, 'not-found');
+  }
+  const index = renderToStaticMarkup(StoriesIndex());
+  assert.equal((index.match(/class="qs-cut qs-cut--/g) ?? []).length, 6);
+  assert.equal((index.match(/class="qs-feature qs-feature--/g) ?? []).length, 6);
+  assert.doesNotMatch(index, /<em\b|gamma/i);
+  for (const story of stories) {
+    const reader = renderToStaticMarkup(StoryPage({ slug: story.slug }));
+    assert.doesNotMatch(reader, /<em\b/);
+    assert.match(reader, /class="qs-enlarge"[^>]*><svg class="qs-icon"/);
+  }
 });

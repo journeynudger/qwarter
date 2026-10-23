@@ -115,3 +115,23 @@ and the NVIDIA Sega stake estimate before using them as independently verified s
 been inferred for the supplied Amazon screenshot or the Jensen photograph. Visual inspection of the
 actual new image files confirmed the subjects and clarity. Fresh page/browser review remains blocked
 by the previously reported browser policy.
+
+## Shelf and typography revision (2026-10-23)
+
+Five withdrawn readings (source ids 1, 2, 3, 8 and 12) and their three otherwise-unused images have
+been removed from the published content. Their routes now resolve to 404 and leave the sitemap.
+There are 38 readings and 114 image files. The opening photograph strip, six selected cards, and
+library order now start with ids 39, 43, 38, 40, 34 and 42: Dario, NVIDIA, Apple/iPod, Ronaldo,
+Coca-Cola/Pepsi and Amazon. The iMac article follows those six. Display numerals follow shelf order;
+source ids and surviving article URLs remain stable.
+
+The Ronaldo portrait is replaced with the side-view bicycle-kick photograph from UEFA's 3 April 2018
+Juventus–Real Madrid coverage, credited AFP/Getty Images, via UEFA. The former portrait file and its
+license metadata are removed. Stories no longer renders emphasis elements, and Qwarter's own styles
+enforce upright typography on carried pages, case studies, and readers. Shared source builds remain
+unchanged. Image enlargement, arrows, contents and close controls use centered 24-unit SVG drawings,
+with consistent square control boxes. The six lead photographs and card frames are aligned in grids.
+
+Verification: 38 routes and six selected/opening items, absence of withdrawn text and emphasis markup,
+retired routes, figure references, attribution, and existing content checks; production build passes.
+Browser visual review remains unavailable because of the previously recorded browser policy block.

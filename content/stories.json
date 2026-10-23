@@ -1,246 +1,917 @@
 [
   {
-    "id": 1,
-    "slug": "starting-a-company-one-rung-at-a-time",
-    "title": "Starting a company one rung at a time",
+    "id": 39,
+    "slug": "dario-amodei-and-looking-beyond-the-resume",
+    "title": "Dario Amodei and looking beyond the resume",
     "headline": [
-      "Conviction comes",
-      "one rung at a time."
+      "Look past the résumé.",
+      "Find the person."
     ],
-    "company": "Gamma",
+    "company": "Anthropic",
     "category": "Direction",
-    "lesson": "You do not need every answer to begin. You need a clear next step.",
-    "excerpt": "You don't need to start a company with total conviction. You just need enough to take that first step.",
+    "lesson": "Hire for what someone can do, and leave room for a different way of seeing.",
+    "excerpt": "In late 2014, the guy who now runs a $965 billion AI company had never worked in AI.",
     "minutes": 2,
     "isExcerpt": false,
     "source": {
-      "label": "Supplied screenshot",
-      "detail": "IMG_5165.PNG"
+      "label": "Supplied screenshots",
+      "detail": "IMG_6513.PNG; IMG_6514.jpg"
+    },
+    "provenance": "Transcribed from user-supplied screenshots, 2026-10-23; overlapping text and interface controls removed. Editorial headline and Qwarter takeaway added. Relative dates and numerical claims retain the wording of the supplied post.",
+    "hero": 0,
+    "images": [
+      {
+        "src": "/media/stories/additions/dario-amodei.webp",
+        "width": 640,
+        "height": 800,
+        "alt": "Dario Amodei, co-founder of Anthropic",
+        "caption": "Dario Amodei in Anthropic’s official leadership portrait. Photograph date not stated by the source.",
+        "credit": "Anthropic; individual photographer not stated",
+        "source": "https://www.anthropic.com/company/leadership",
+        "originalUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/b9f2de42abe07215bc6f3e1498765fa0d3d58eaf-640x800.webp?fm=webp"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "In late 2014, the guy who now runs a $965 billion AI company had never worked in AI."
+      },
+      {
+        "type": "paragraph",
+        "text": "Dario Amodei had spent a decade on physics and biology: a Princeton PhD recording how roughly 200 nerve cells in a piece of retinal tissue fire together, then a postdoc in a cancer lab. He joined Andrew Ng’s team at Baidu that November. Greg Diamos (a colleague there) said the team saw a biology guy with no machine learning background. Then Diamos read the code Dario had written at the cancer lab and saw an unusually great programmer."
+      },
+      {
+        "type": "paragraph",
+        "text": "At Baidu, his job was to build the best speech recognition system he could. The field’s view, in his telling, was that the algorithms needed to succeed hadn’t been invented yet. He didn’t know enough to agree, so he just tried the obvious things: make the model bigger, feed it more speech data, train it longer, and watch what happened."
+      },
+      {
+        "type": "paragraph",
+        "text": "Every time he made the model bigger or added more data, it transcribed speech more accurately. He figured the experts were probably right, and he was missing something, but he kept going anyway. Years later, he called finding that pattern “almost like beginner’s luck.”"
+      },
+      {
+        "type": "paragraph",
+        "text": "He spent the next several years betting on that “luck.” His 2017 memo argued that bigger models and more data could improve AI beyond speech recognition. A 2020 OpenAI paper quantified those gains as “scaling laws”: predictable improvements from increasing model size and training data. That research helped guide GPT-3’s development. He later co-founded Anthropic, continuing to build on that approach."
+      },
+      {
+        "type": "paragraph",
+        "text": "I really recommend thinking about this story when making your next hire. None of that would have happened if Diamos screened for Dario the resume instead of Dario the person. He looked at what Amodei could actually do with a computer, saw raw talent, and hired based on that."
+      },
+      {
+        "type": "paragraph",
+        "text": "When the talent is real, the missing credentials often just don’t matter at all. And even better, those hires often don’t suffer from the same “supposed to work this way” that holds experienced teams back from seeing a breakthrough right in front of them."
+      },
+      {
+        "type": "paragraph",
+        "text": "Maybe your next breakthrough comes from “beginner’s luck.”"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "slug": "jensen-huang-sega-and-the-deal-that-kept-nvidia-alive",
+    "title": "Jensen Huang, Sega, and the deal that kept NVIDIA alive",
+    "headline": [
+      "Say the difficult thing.",
+      "Give the future a chance."
+    ],
+    "company": "NVIDIA",
+    "category": "Resilience",
+    "lesson": "Honesty about what is failing can create room to build what comes next.",
+    "excerpt": "In 1996, a 33-year-old CEO flew to Tokyo to tell his biggest customer three things. Each one was more humiliating than the last.",
+    "minutes": 2,
+    "isExcerpt": false,
+    "source": {
+      "label": "Supplied screenshots",
+      "detail": "IMG_6522.jpg; IMG_6523.jpg"
+    },
+    "provenance": "Transcribed from user-supplied screenshots, 2026-10-23; overlapping text and interface controls removed. Editorial headline and Qwarter takeaway added. Relative dates and numerical claims retain the wording of the supplied post.",
+    "hero": 0,
+    "images": [
+      {
+        "src": "/media/stories/additions/jensen-huang-archive.webp",
+        "width": 700,
+        "height": 700,
+        "alt": "Jensen Huang seated in a graphics demonstration area with computer displays behind him",
+        "caption": "Jensen Huang in an archival photograph matching the image in the supplied post. The photographer and photograph date could not be confirmed.",
+        "credit": "Archive copy via Ticker History; original photographer unidentified",
+        "source": "https://x.com/TickerHistory/status/1760358604303954378",
+        "originalUrl": "https://pbs.twimg.com/media/GG4LbASX0AAhAXg.png"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "In 1996, a 33-year-old CEO flew to Tokyo to tell his biggest customer three things. Each one was more humiliating than the last."
+      },
+      {
+        "type": "paragraph",
+        "text": "First: the technology we promised you doesn’t work."
+      },
+      {
+        "type": "paragraph",
+        "text": "Second: cancel the contract, because we’d just waste the rest of your money."
+      },
+      {
+        "type": "paragraph",
+        "text": "Third: we still need the final $5 million, or we vaporize overnight."
+      },
+      {
+        "type": "paragraph",
+        "text": "That was Jensen Huang. The customer was Shoichiro Irimajiri, then president of Sega."
+      },
+      {
+        "type": "paragraph",
+        "text": "Jensen had laid off more than half of Nvidia that year, from 100 employees down to 40. About thirty days of cash left."
+      },
+      {
+        "type": "paragraph",
+        "text": "He’s said many times that he was embarrassed to ask. Irimajiri took a few days, then agreed to all three. The $5 million, converted to equity, kept Nvidia alive."
+      },
+      {
+        "type": "paragraph",
+        "text": "Twelve months later, the RIVA 128 shipped. Jensen built it in six months instead of the standard eighteen to twenty-four by spending most of their remaining cash on a chip emulator instead of multiple physical tape-outs. It sold a million units in four months. When it launched, Nvidia had one month of payroll left."
+      },
+      {
+        "type": "paragraph",
+        "text": "At the launch, Jensen handed every employee a crisp one-dollar bill."
+      },
+      {
+        "type": "paragraph",
+        "text": "Then he started opening every monthly all-hands with the same line:"
+      },
+      {
+        "type": "paragraph",
+        "text": "“We’re thirty days from going out of business.”"
+      },
+      {
+        "type": "paragraph",
+        "text": "He’s used it for thirty-three years."
+      },
+      {
+        "type": "paragraph",
+        "text": "The most valuable chip company in history began with the three sentences its founder was embarrassed to say out loud."
+      },
+      {
+        "type": "paragraph",
+        "text": "P.S. Sega sold their stake for $15 million at Nvidia’s 1999 IPO. Jensen has said that, had they held it, the stake would be worth around $1 trillion today."
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "slug": "tony-fadell-and-the-decade-before-the-ipod",
+    "title": "Tony Fadell and the decade before the iPod",
+    "headline": [
+      "A decade of failure.",
+      "A product that changed everything."
+    ],
+    "company": "Apple",
+    "category": "Craft",
+    "lesson": "Experience can compound before the right problem arrives.",
+    "excerpt": "In 2000, a hardware entrepreneur pitched venture capital firms 80 times and got rejected all 80 times. The world-changing product that resulted from all of that “failure” turns 25 today.",
+    "minutes": 2,
+    "isExcerpt": false,
+    "source": {
+      "label": "Supplied screenshots",
+      "detail": "IMG_6511.PNG"
+    },
+    "provenance": "Transcribed from user-supplied screenshots, 2026-10-23; overlapping text and interface controls removed. Editorial headline and Qwarter takeaway added. Relative dates and numerical claims retain the wording of the supplied post.",
+    "hero": 0,
+    "images": [
+      {
+        "src": "/media/stories/additions/ipod-first-generation.webp",
+        "width": 1306,
+        "height": 932,
+        "alt": "First-generation Apple iPod with mechanical scroll wheel",
+        "caption": "The original iPod, introduced on 23 October 2001.",
+        "credit": "Apple / Apple Newsroom",
+        "date": "Product introduced 2001; image published 10 May 2022",
+        "source": "https://www.apple.com/newsroom/2022/05/the-music-lives-on/",
+        "originalUrl": "https://www.apple.com/newsroom/images/product/ipod/standard/Apple-iPod-end-of-life-iPod-first-generation_carousel.jpg.large_2x.jpg"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "In 2000, a hardware entrepreneur pitched venture capital firms 80 times and got rejected all 80 times. The world-changing product that resulted from all of that “failure” turns 25 today."
+      },
+      {
+        "type": "paragraph",
+        "text": "The entrepreneur was Tony Fadell, and the product was the iPod. His company, Fuse, had developed a jukebox that could rip songs from CDs to a hard drive, but in January 2001, they were running out of money. That month, Jon Rubinstein, who headed hardware at Apple, called Fadell on a ski lift. Apple wanted to make a music player."
+      },
+      {
+        "type": "paragraph",
+        "text": "Fadell took the six-week contract job and returned with three foam-core mockups, each weighted with lead fishing weights so it would feel as heavy as a real device in the hand. Apple picked one, and hired him to develop it."
+      },
+      {
+        "type": "paragraph",
+        "text": "Apple’s engineers were busy working on the Mac, so Fadell recruited people he knew to finish his project: engineers he had worked with at Fuse, and veterans of the General Magic and Philips teams, where he had spent the 1990s shipping handheld devices critics admired, but that sold poorly. He had joined General Magic in 1991, fresh out of college, as the kid on the team who wired up the demos by hand."
+      },
+      {
+        "type": "paragraph",
+        "text": "He came, of course, with a diagnosis for why things hadn’t worked. “A lack of discipline about who our customer was, what the product was we were making, what the timeline was, and how we were going to get it to market,” Fadell said about his time at General Magic. The iPod had one customer, one product, and a Christmas deadline. Apple introduced it nine months after that phone call."
+      },
+      {
+        "type": "paragraph",
+        "text": "Fadell calls that earlier period “a decade of failure.”"
+      },
+      {
+        "type": "paragraph",
+        "text": "But it produced a team bonded by adversity, and a precise understanding of the mistake to avoid. When the right problem arrived at Apple, he’d been preparing for it for a decade."
+      },
+      {
+        "type": "paragraph",
+        "text": "Video credit in the supplied post: General Magic (2018)."
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "slug": "cristiano-ronaldo-and-the-work-that-compounds",
+    "title": "Cristiano Ronaldo and the work that compounds",
+    "headline": [
+      "The talent was there.",
+      "The work kept compounding."
+    ],
+    "company": "Cristiano Ronaldo",
+    "category": "Craft",
+    "lesson": "Small acts of practice can become a lifetime of preparation.",
+    "excerpt": "He was 12 years old, alone, 535 miles from home, and the other boys mocked his island accent.",
+    "minutes": 2,
+    "isExcerpt": false,
+    "source": {
+      "label": "Supplied screenshots",
+      "detail": "IMG_6517.jpg"
+    },
+    "provenance": "Transcribed from user-supplied screenshots, 2026-10-23; overlapping text and interface controls removed. Editorial headline and Qwarter takeaway added. Relative dates and numerical claims retain the wording of the supplied post.",
+    "hero": 0,
+    "images": [
+      {
+        "src": "/media/stories/additions/ronaldo-bicycle-kick.webp",
+        "width": 988,
+        "height": 555,
+        "alt": "Cristiano Ronaldo airborne as he scores a bicycle kick against Juventus in Turin",
+        "caption": "Cristiano Ronaldo’s bicycle kick for Real Madrid against Juventus in the Champions League quarter-final in Turin.",
+        "credit": "AFP / Getty Images, via UEFA; individual photographer not named in this source",
+        "date": "3 April 2018",
+        "source": "https://www.uefa.com/uefachampionsleague/news/0244-0e9cc700ac91-9a60690bf9e1-1000--ronaldo-brilliance-puts-madrid-in-charge-against-juventus/",
+        "originalUrl": "https://editorial.uefa.com/resources/0244-0e9cc700ab2c-ae79153058b4-1000/format/wide1/cristiano_ronaldo_scores_his_wonder_goal.jpeg?imwidth=1536"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "He was 12 years old, alone, 535 miles from home, and the other boys mocked his island accent."
+      },
+      {
+        "type": "paragraph",
+        "text": "In their book on Ronaldo and Messi, Joshua Robinson and Jonathan Clegg describe what Cristiano Ronaldo did next at the Sporting academy."
+      },
+      {
+        "type": "paragraph",
+        "text": "He was barred from the gym, because the academy did not let young players lift. So he snuck out at night to do it anyway. He got caught and was given detention."
+      },
+      {
+        "type": "paragraph",
+        "text": "Then he started using buckets of water in the shower as weights. When the buckets were taken away, he strapped weights to his ankles. When the ball was taken away to stop him overdoing it, he juggled oranges from a fruit bowl."
+      },
+      {
+        "type": "paragraph",
+        "text": "That is the boy. The man arrived in Houston on Tuesday, 41 years old. Portugal beat Uzbekistan 5-0. He scored in the 6th minute off a Joao Cancelo cross, then buried a Bruno Fernandes through ball before halftime."
+      },
+      {
+        "type": "paragraph",
+        "text": "That second goal was his 10th career World Cup goal, passing Eusebio as Portugal’s all-time leading scorer at the tournament. With that brace, he became the first footballer in history, man or woman, to score in 6 different World Cups: 2006, 2010, 2014, 2018, 2022, and 2026."
+      },
+      {
+        "type": "paragraph",
+        "text": "Messi has played in 6 World Cups too. He did not score in 2010. Ronaldo found the net in all 6. Ferguson signed him from Sporting in 2003 at 18, for around £12 million."
+      },
+      {
+        "type": "paragraph",
+        "text": "The talent was always there."
+      },
+      {
+        "type": "paragraph",
+        "text": "The buckets and the oranges and the ankle weights are the hard work that compounded for 30 years."
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "slug": "the-cola-wars",
+    "title": "The Cola Wars",
+    "headline": [
+      "The taste",
+      "of belonging."
+    ],
+    "company": "Coca-Cola & Pepsi",
+    "category": "Brand",
+    "lesson": "The associations around a product can be as durable as the product itself.",
+    "excerpt": "In 2019, Pepsi released this ad.",
+    "minutes": 4,
+    "isExcerpt": false,
+    "source": {
+      "label": "Original article",
+      "url": "https://profitsnack.com/p/158"
     },
     "provenance": "User-supplied reading collection, 2026-10-23. Sponsored sections, newsletter navigation and emojis removed. Editorial headings and Qwarter takeaway added for this Stories collection.",
     "hero": 0,
     "images": [
       {
-        "src": "/media/stories/reference/grant-lee.webp",
-        "width": 480,
-        "height": 480,
-        "alt": "Grant Lee, co-founder of Gamma",
-        "caption": "Grant Lee, co-founder of Gamma.",
-        "source": "https://stvp.stanford.edu/people/grant-lee",
-        "originalUrl": "https://stvp.stanford.edu/sites/g/files/sbiybj34351/files/styles/large_square/public/media/wordpress/grant-lee-600-x-600.png?h=04d92ac6&itok=ugw7d3Yc",
-        "credit": "Stanford Technology Ventures Program"
+        "src": "/media/stories/the-cola-wars/17-003.webp",
+        "width": 812,
+        "height": 970,
+        "alt": "Pepsi’s Halloween campaign.",
+        "caption": "Pepsi’s Halloween campaign.",
+        "source": "https://profitsnack.com/p/158",
+        "originalUrl": "https://media.beehiiv.com/uploads/asset/file/a9ce57d0-b32d-4e46-9fbd-635912d1339a/Screen_Shot_2024-02-09_at_2.13.22_PM.png?t=1707506014",
+        "originalFile": "images/17-003.webp"
       },
       {
-        "src": "/media/stories/reference/grant-lee-press.webp",
-        "width": 600,
-        "height": 600,
-        "alt": "Grant Lee, CEO and co-founder of Gamma",
-        "caption": "Grant Lee, CEO and co-founder of Gamma.",
-        "source": "https://yespress.io/grant-lee",
-        "originalUrl": "https://storage.googleapis.com/yespress-4ecdc.firebasestorage.app/profile-photos/grant-lee-yespress.png",
-        "credit": "YesPress"
+        "src": "/media/stories/the-cola-wars/17-005.webp",
+        "width": 816,
+        "height": 978,
+        "alt": "The image reframed as a Coca-Cola response.",
+        "caption": "The image reframed as a Coca-Cola response.",
+        "source": "https://profitsnack.com/p/158",
+        "originalUrl": "https://media.beehiiv.com/uploads/asset/file/dc68f412-d767-4768-88ac-be451e4a437b/Screen_Shot_2024-02-09_at_2.13.50_PM.png?t=1707506034",
+        "originalFile": "images/17-005.webp"
       },
       {
-        "src": "/media/stories/reference/gamma-editor.webp",
-        "width": 1800,
-        "height": 1168,
-        "alt": "Gamma presentation editor displaying a slide deck titled The Language of Flowers",
-        "caption": "Gamma presentation editor displaying a slide deck titled The Language of Flowers.",
-        "source": "https://meetgamma.canny.io/changelog/card-notes-and-presenter-view",
-        "originalUrl": "https://canny.io/images/36c17c1f5fa9b64ea5849bbcc73fac6f.png",
-        "credit": "Gamma changelog"
+        "src": "/media/stories/the-cola-wars/17-028.webp",
+        "width": 1292,
+        "height": 678,
+        "alt": "Caleb Bradham, founder of Pepsi.",
+        "caption": "Caleb Bradham, founder of Pepsi.",
+        "source": "https://profitsnack.com/p/158",
+        "originalUrl": "https://media.beehiiv.com/uploads/asset/file/fe35c710-e476-4978-9df9-61626d8aadf5/Screen_Shot_2024-02-09_at_2.16.24_PM.png?t=1707506198",
+        "originalFile": "images/17-028.webp"
+      },
+      {
+        "src": "/media/stories/the-cola-wars/17-032.webp",
+        "width": 918,
+        "height": 678,
+        "alt": "Pepsi’s “bigger and better” value message.",
+        "caption": "Pepsi’s “bigger and better” value message.",
+        "source": "https://profitsnack.com/p/158",
+        "originalUrl": "https://media.beehiiv.com/uploads/asset/file/2ee359b8-ce10-446e-9bae-4b9450940331/Screen_Shot_2024-02-09_at_2.17.38_PM.png?t=1707506265",
+        "originalFile": "images/17-032.webp"
+      },
+      {
+        "src": "/media/stories/the-cola-wars/17-053.webp",
+        "width": 1292,
+        "height": 859,
+        "alt": "Coca-Cola and American soldiers.",
+        "caption": "Coca-Cola and American soldiers.",
+        "source": "https://profitsnack.com/p/158",
+        "originalUrl": "https://media.beehiiv.com/uploads/asset/file/46cbc787-c5d7-4cc2-a722-462fc0541f8b/Screen_Shot_2024-02-09_at_11.56.40_AM.png?t=1707506548",
+        "originalFile": "images/17-053.webp"
+      },
+      {
+        "src": "/media/stories/the-cola-wars/17-058.webp",
+        "width": 980,
+        "height": 458,
+        "alt": "A historic Coca-Cola campaign.",
+        "caption": "A historic Coca-Cola campaign.",
+        "source": "https://profitsnack.com/p/158",
+        "originalUrl": "https://media.beehiiv.com/uploads/asset/file/10c69ea9-ec53-46cb-a946-e99b87c28b1f/Screen_Shot_2024-02-09_at_12.12.26_PM.png?t=1707508149",
+        "originalFile": "images/17-058.webp"
+      },
+      {
+        "src": "/media/stories/the-cola-wars/17-061.webp",
+        "width": 686,
+        "height": 1008,
+        "alt": "Coca-Cola’s lifestyle imagery.",
+        "caption": "Coca-Cola’s lifestyle imagery.",
+        "source": "https://profitsnack.com/p/158",
+        "originalUrl": "https://media.beehiiv.com/uploads/asset/file/b9eed0bc-e42c-42c3-a0e9-c4150870a4cb/Screen_Shot_2024-02-09_at_12.12.59_PM.png?t=1707506595",
+        "originalFile": "images/17-061.webp"
+      },
+      {
+        "src": "/media/stories/the-cola-wars/17-065.webp",
+        "width": 1292,
+        "height": 866,
+        "alt": "Coca-Cola’s Christmas advertising.",
+        "caption": "Coca-Cola’s Christmas advertising.",
+        "source": "https://profitsnack.com/p/158",
+        "originalUrl": "https://media.beehiiv.com/uploads/asset/file/a6089698-5904-4649-80dd-139988b5fcde/Screen_Shot_2024-02-09_at_2.26.34_PM.png?t=1707506799",
+        "originalFile": "images/17-065.webp"
+      },
+      {
+        "src": "/media/stories/the-cola-wars/17-081.webp",
+        "width": 1190,
+        "height": 506,
+        "alt": "The PepsiCo brand portfolio.",
+        "caption": "The PepsiCo brand portfolio.",
+        "source": "https://profitsnack.com/p/158",
+        "originalUrl": "https://media.beehiiv.com/uploads/asset/file/63b61f11-a2fe-4625-80cc-bc8fc2e67352/Screen_Shot_2024-02-09_at_2.34.24_PM.png?t=1707507279",
+        "originalFile": "images/17-081.webp"
+      },
+      {
+        "src": "/media/stories/the-cola-wars/17-087.webp",
+        "width": 1292,
+        "height": 780,
+        "alt": "A revenue and profit comparison from the supplied article.",
+        "caption": "A revenue and profit comparison from the supplied article.",
+        "source": "https://profitsnack.com/p/158",
+        "originalUrl": "https://media.beehiiv.com/uploads/asset/file/609166a3-4d06-4ef7-9ea2-4eb6cfcc0bd7/Screen_Shot_2024-02-09_at_2.41.49_PM.png?t=1707507721",
+        "originalFile": "images/17-087.webp"
       }
     ],
     "blocks": [
       {
         "type": "paragraph",
-        "text": "You don't need to start a company with total conviction. You just need enough to take that first step."
+        "text": "In 2019, Pepsi released this ad."
       },
       {
         "type": "paragraph",
-        "text": "Conviction is often talked about as binary: you have faith in something or you don't. But when we started Gamma, it felt more like a series of rungs on a ladder. Instead of trying to jump to the top, we just had to figure out what step would let us reasonably believe we should keep going."
+        "text": "1 day later, Coke released this ad:"
+      },
+      {
+        "type": "image",
+        "image": 1
       },
       {
         "type": "paragraph",
-        "text": "The first rung was figuring out if the three of us could work well together. It took us 5 months of trying things out to answer that question."
+        "text": "This is the Cola Wars - The greatest rivalry the beverage industry has ever seen."
       },
       {
         "type": "paragraph",
-        "text": "Then came the ability to tell an investor what we were trying to do, and a basic working prototype. Would anyone believe there was a chance we could make this work?"
+        "text": "On one side there’s Coca-Cola with 43% of the non-alcoholic beverage market share."
       },
       {
         "type": "paragraph",
-        "text": "Then the first 4 hires. Could we get people to leave well-paying jobs in the tech industry, take a fraction of their old compensation, all on the chance their equity might one day be valuable?"
+        "text": "On the other, there’s Pepsi - with about about 33% market share."
       },
       {
         "type": "paragraph",
-        "text": "Then public launch. Would strangers that didn't know us sign up for what we were building and keep using it?"
+        "text": "For the past 84 years, Pepsi has tried and failed to beat Coca-Cola."
       },
       {
         "type": "paragraph",
-        "text": "We never thought, for example, that if we could get funded, we'd made it. Or for any other milestone after that. Each one just gave us the right to tackle the next challenge."
+        "text": "And after 3 blind taste tests proving most consumers prefer the taste of Pepsi over Coca-Cola…"
       },
       {
         "type": "paragraph",
-        "text": "I think this is how you make a long start bearable. You don't have to believe in the whole journey from the beginning. You just have to know which rung you're on."
+        "text": "And multiple studies that prove Pepsi is a healthier alternative…"
+      },
+      {
+        "type": "paragraph",
+        "text": "Coca-Cola remains the #1 beverage company in the world."
+      },
+      {
+        "type": "paragraph",
+        "text": "Why?"
+      },
+      {
+        "type": "paragraph",
+        "text": "And how did this rival lead to Pepsi (almost) becoming the 6th largest military in the world?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Great question."
+      },
+      {
+        "type": "heading",
+        "text": "The Story Of Pepsi",
+        "id": "part-1"
+      },
+      {
+        "type": "paragraph",
+        "text": "Pepsi was founded by a small-town pharmacist in North Carolina, just 7 years after the beginning of Coca-Cola."
+      },
+      {
+        "type": "paragraph",
+        "text": "At the time, Coca-Cola was a growing drink company known for its great taste, and unfortunately for them…"
+      },
+      {
+        "type": "paragraph",
+        "text": "Tons of sugar."
+      },
+      {
+        "type": "paragraph",
+        "text": "So Caleb Bradham (founder) found a gap in the market - something that tasted as great as Coca-Cola but without the consequences."
+      },
+      {
+        "type": "paragraph",
+        "text": "Enter Pepsi."
+      },
+      {
+        "type": "image",
+        "image": 2
+      },
+      {
+        "type": "paragraph",
+        "text": "The Founder Of Pepsi"
+      },
+      {
+        "type": "paragraph",
+        "text": "For the next 50 years, Pepsi would try to keep its business afloat, claiming bankruptcy twice and changing owners at least 3 times."
+      },
+      {
+        "type": "paragraph",
+        "text": "All while watching Coca-Cola grow year after year."
+      },
+      {
+        "type": "paragraph",
+        "text": "It wasn’t until 1940 that Pepsi made advertising history with “Nickel, Nickel,” that Pepsi began to make waves in the drink industry."
+      },
+      {
+        "type": "image",
+        "image": 3
+      },
+      {
+        "type": "paragraph",
+        "text": "But 84 years later Pepsi still has yet to beat Coca-Cola’s iron grip on the industry, even after proving to the world that Pepsi has more to offer."
+      },
+      {
+        "type": "paragraph",
+        "text": "Why?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Because Coca-Cola has something that Pepsi has tried and failed to buy… Loyalty."
+      },
+      {
+        "type": "heading",
+        "text": "America’s Favorite Soda",
+        "id": "part-2"
+      },
+      {
+        "type": "paragraph",
+        "text": "I’ve spent 7 hours diving deep into Coca-Cola’s marketing strategy this week."
+      },
+      {
+        "type": "paragraph",
+        "text": "I found 3 key components in their marketing strategy that Pepsi missed."
+      },
+      {
+        "type": "heading",
+        "text": "1 - America’s favorite soda",
+        "id": "part-3"
+      },
+      {
+        "type": "paragraph",
+        "text": "While Pepsi filed for bankruptcy after the 1942 sugar shortage, Coca-Cola had its most successful campaign…ever."
+      },
+      {
+        "type": "paragraph",
+        "text": "It was WW2 and the public was looking for any way to help US soldiers win the war."
+      },
+      {
+        "type": "paragraph",
+        "text": "So it was simple…"
+      },
+      {
+        "type": "paragraph",
+        "text": "All Coca-Cola had to do was convince the US that buying a Coke meant helping a soldier."
+      },
+      {
+        "type": "paragraph",
+        "text": "Coca-Cola promised to give every US soldier a Coke no matter where they were."
+      },
+      {
+        "type": "image",
+        "image": 4
+      },
+      {
+        "type": "paragraph",
+        "text": "By the end of WW2, Coca-Cola had warehouses in over 48 countries."
+      },
+      {
+        "type": "paragraph",
+        "text": "Today, Coca-Cola gives more than 2 million beverages each day to soldiers, reservists, retirees, and their families."
+      },
+      {
+        "type": "heading",
+        "text": "2 - Coca-Cola Girls",
+        "id": "part-4"
+      },
+      {
+        "type": "paragraph",
+        "text": "I think this one speaks for itself…."
+      },
+      {
+        "type": "image",
+        "image": 5
+      },
+      {
+        "type": "paragraph",
+        "text": "This was a fairly new concept at the time for non-alcoholic drink companies and brought a lot of new attention to Coca-Cola."
+      },
+      {
+        "type": "paragraph",
+        "text": "But it wasn’t just the image or pretty women. It was the idea that women would go to places that served Coke."
+      },
+      {
+        "type": "image",
+        "image": 6
+      },
+      {
+        "type": "paragraph",
+        "text": "60 years ago it was local restaurants. Today, it’s parties."
+      },
+      {
+        "type": "heading",
+        "text": "3 - The Younger Generation",
+        "id": "part-5"
+      },
+      {
+        "type": "paragraph",
+        "text": "Not only does Coca-Cola have more followers on every social media platform, but they also ‘own Christmas’ with their famous Santa ads."
+      },
+      {
+        "type": "image",
+        "image": 7
+      },
+      {
+        "type": "paragraph",
+        "text": "The strategy: Older buyers have already chosen Pepsi or Coke. Market to younger generations so they try you first."
+      },
+      {
+        "type": "paragraph",
+        "text": "Pepsi tried to replicate these same tactics during the Cold War in the USSR."
+      },
+      {
+        "type": "paragraph",
+        "text": "(It was one of the only countries where Coca-Cola did not have brand loyalty.)"
+      },
+      {
+        "type": "paragraph",
+        "text": "In exchange for Pepsi sales, the USSR offered to send them an entire arsenal of warships to sell."
+      },
+      {
+        "type": "paragraph",
+        "text": "Had Pepsi kept the ships, Pepsi would have been the 6th largest military at the time."
+      },
+      {
+        "type": "heading",
+        "text": "Our Business Is... Everything?",
+        "id": "part-6"
+      },
+      {
+        "type": "paragraph",
+        "text": "It's been a long time since Pepsi just sold Pepsi and Coca-Cola just sold Coke."
+      },
+      {
+        "type": "paragraph",
+        "text": "Today both brands sell coffee, sports drinks, lemonades, and other sodas."
+      },
+      {
+        "type": "paragraph",
+        "text": "But Coca-Cola is exclusively a beverage brand…"
+      },
+      {
+        "type": "paragraph",
+        "text": "Pepsi has acquired 30 companies ranging from beverages to sportswear."
+      },
+      {
+        "type": "image",
+        "image": 8
+      },
+      {
+        "type": "paragraph",
+        "text": "Graph by BusinessModelAnalyst"
+      },
+      {
+        "type": "paragraph",
+        "text": "So while Coca-Cola has the privilege of focusing on one type of product, Pepsi has spent its time learning to sell in 5 different markets."
+      },
+      {
+        "type": "paragraph",
+        "text": "You can imagine how much this has hurt their productivity."
+      },
+      {
+        "type": "paragraph",
+        "text": "But to give you some context…"
+      },
+      {
+        "type": "paragraph",
+        "text": "In 2023, Coca-Cola made $45.030B in rev, and Pepsi made $91.617B."
+      },
+      {
+        "type": "paragraph",
+        "text": "Yet, they had almost the same net profit for the year."
+      },
+      {
+        "type": "image",
+        "image": 9
+      },
+      {
+        "type": "paragraph",
+        "text": "At the end of the day, Pepsi is doing just fine. They’re the 2nd largest drink company and the 2nd largest snack company (Nestle is #1)."
+      },
+      {
+        "type": "paragraph",
+        "text": "But as far as the Cola Wars go, I think Pepsi will continue to fight a losing battle."
       }
     ]
   },
   {
-    "id": 2,
-    "slug": "ai-slide-decks-and-communicating-ideas",
-    "title": "AI slide decks and communicating ideas",
+    "id": 42,
+    "slug": "amazon-and-the-principles-that-outlast-a-quarter",
+    "title": "Amazon and the principles that outlast a quarter",
     "headline": [
-      "The pitch",
-      "is the proof."
+      "Write the principles.",
+      "Keep clearing the bar."
     ],
-    "company": "Gamma",
-    "category": "Craft",
-    "lesson": "Time saved on formatting can be spent making an idea easier to understand.",
-    "excerpt": "I run the company responsible for a lot of the AI-generated slide decks out there now, and I agree with Sarah.",
+    "company": "Amazon",
+    "category": "Direction",
+    "lesson": "A principle gains force when people can hold you to it.",
+    "excerpt": "Most CEO letters are forgotten the week they’re filed.",
     "minutes": 2,
     "isExcerpt": false,
     "source": {
-      "label": "Supplied screenshot",
-      "detail": "IMG_5166.jpg"
+      "label": "Supplied screenshots",
+      "detail": "IMG_6519.jpg; IMG_6520.jpg; supporting image IMG_6521.jpg"
     },
-    "provenance": "User-supplied reading collection, 2026-10-23. Sponsored sections, newsletter navigation and emojis removed. Editorial headings and Qwarter takeaway added for this Stories collection.",
-    "hero": 2,
+    "provenance": "Transcribed from user-supplied screenshots, 2026-10-23; overlapping text and interface controls removed. Editorial headline and Qwarter takeaway added. Relative dates and numerical claims retain the wording of the supplied post.",
+    "hero": 0,
     "images": [
       {
-        "src": "/media/stories/reference/grant-lee.webp",
-        "width": 480,
-        "height": 480,
-        "alt": "Grant Lee, co-founder of Gamma",
-        "caption": "Grant Lee, co-founder of Gamma.",
-        "source": "https://stvp.stanford.edu/people/grant-lee",
-        "originalUrl": "https://stvp.stanford.edu/sites/g/files/sbiybj34351/files/styles/large_square/public/media/wordpress/grant-lee-600-x-600.png?h=04d92ac6&itok=ugw7d3Yc",
-        "credit": "Stanford Technology Ventures Program"
+        "src": "/media/stories/additions/amazon-1997-letter.webp",
+        "width": 1280,
+        "height": 720,
+        "alt": "Amazon.com heading for the 1997 letter to shareholders",
+        "caption": "The heading of Amazon’s 1997 shareholder letter, reprinted alongside its 2021 letter.",
+        "credit": "Amazon / About Amazon",
+        "date": "Letter 1997; this reproduction published in 2022",
+        "source": "https://www.aboutamazon.com/news/company-news/2021-letter-to-shareholders",
+        "originalUrl": "https://assets.aboutamazon.com/dims4/default/54ac031/2147483647/strip/true/crop/1280x720+0+0/resize/1280x720!/quality/90/?url=https%3A%2F%2Fassets.aboutamazon.com%2F04%2Fba%2Fee1dd74747198610bf3117e07552%2Fblack-and-white-amazon.com%2520shareholder%2520letter.jpg"
       },
       {
-        "src": "/media/stories/reference/grant-lee-press.webp",
-        "width": 600,
-        "height": 600,
-        "alt": "Grant Lee, CEO and co-founder of Gamma",
-        "caption": "Grant Lee, CEO and co-founder of Gamma.",
-        "source": "https://yespress.io/grant-lee",
-        "originalUrl": "https://storage.googleapis.com/yespress-4ecdc.firebasestorage.app/profile-photos/grant-lee-yespress.png",
-        "credit": "YesPress"
-      },
-      {
-        "src": "/media/stories/reference/gamma-editor.webp",
-        "width": 1800,
-        "height": 1168,
-        "alt": "Gamma presentation editor displaying a slide deck titled The Language of Flowers",
-        "caption": "Gamma presentation editor displaying a slide deck titled The Language of Flowers.",
-        "source": "https://meetgamma.canny.io/changelog/card-notes-and-presenter-view",
-        "originalUrl": "https://canny.io/images/36c17c1f5fa9b64ea5849bbcc73fac6f.png",
-        "credit": "Gamma changelog"
+        "src": "/media/stories/additions/amazon-supplied-letter-excerpt.webp",
+        "width": 1320,
+        "height": 1650,
+        "alt": "Supplied excerpt showing Andy Jassy’s sign-off and the reprinted 1997 Amazon shareholder letter",
+        "caption": "The supplied letter excerpt shows the transition from Andy Jassy’s sign-off to the original 1997 letter. The year of the surrounding letter is not visible.",
+        "credit": "Amazon; screenshot supplied by the reader",
+        "source": "https://www.aboutamazon.com/news/company-news/amazon-ceo-andy-jassy-2024-letter-to-shareholders",
+        "originalUrl": "User-supplied IMG_6521.jpg"
       }
     ],
     "blocks": [
       {
         "type": "paragraph",
-        "text": "I run the company responsible for a lot of the AI-generated slide decks out there now, and I agree with Sarah."
+        "text": "Most CEO letters are forgotten the week they’re filed."
       },
       {
         "type": "paragraph",
-        "text": "When we were building Gamma, formatting was the friction I was most interested in removing. In a previous life, I spent a lot of late nights making research look presentable, and most of that time was spent moving and aligning boxes. I wished I had more time to simplify my ideas so that they were easier for others to absorb."
+        "text": "Jeff Bezos wrote one in 1997 that Amazon still publishes verbatim every year. Twenty-eight years and counting."
       },
       {
         "type": "paragraph",
-        "text": "Our first pitch deck for Gamma was a rough prototype of the product itself, a hybrid of doc and slides, interactive and media-rich. Many investors passed. But the ones who said yes trusted our belief about slides because the deck itself embodied it: the pitch was the proof."
+        "text": "It’s a short list of operating principles, in plain language, that the company has had to clear every quarter since."
       },
       {
         "type": "paragraph",
-        "text": "Sarah elaborated on her fund's LP deck in a follow-up post. It featured \"default formatting on white slides,\" she wrote, and she threw it together overnight. It worked because it \"distilled years of human thought and experience into an opinion.\""
+        "text": "Five of them still work as a checklist any founder can run their business against today."
+      },
+      {
+        "type": "heading",
+        "text": "1. Obsess over customers.",
+        "id": "part-1"
       },
       {
         "type": "paragraph",
-        "text": "That opinion is the thing no model can do for you. The best AI deck starts with the thing only you can have: the customer call that changed your mind, the number you'd defend in a partner meeting, the bet that smart people think is wrong."
+        "text": "Pick the one metric that proves you actually do, and review it weekly. Repeat purchase rate. Time to first value. Net promoter score. If you can’t see it improving, you’re customer-curious at best."
+      },
+      {
+        "type": "heading",
+        "text": "2. Think in years, not quarters.",
+        "id": "part-2"
       },
       {
         "type": "paragraph",
-        "text": "Whatever time AI saves on formatting your ideas, you should spend on simplifying how they get communicated."
+        "text": "Before every meaningful decision, write down where you want the business to be in five years. Make the choice that gets you there, even if this month looks worse. The hard part is convincing your team that ugly short-term optics are the price of compounding."
+      },
+      {
+        "type": "heading",
+        "text": "3. Make calculated bold bets.",
+        "id": "part-3"
+      },
+      {
+        "type": "paragraph",
+        "text": "List the three biggest bets you’re running right now. Rank them by upside, downside, and reversibility. Most founders kill the bold ones to protect a quarterly number. The 1997 letter argues for the opposite: take the asymmetric bet, accept the loss, redeploy."
+      },
+      {
+        "type": "heading",
+        "text": "4. Treat cash flow as the scoreboard.",
+        "id": "part-4"
+      },
+      {
+        "type": "paragraph",
+        "text": "GAAP earnings can flatter a broken business. Free cash flow can’t. Build the dashboard your CFO would build if they had to defend the company in front of Bezos."
+      },
+      {
+        "type": "heading",
+        "text": "5. Set the hiring bar painfully high.",
+        "id": "part-5"
+      },
+      {
+        "type": "paragraph",
+        "text": "Bezos called hiring the single most important element of Amazon’s success. The actionable version: before every new hire, write down what you’d lose by hiring no one for another month. If the honest answer is “not much,” you’re hiring out of habit."
+      },
+      {
+        "type": "paragraph",
+        "text": "The reason the letter still works isn’t that the principles are unique. Plenty of founders believe in long-term thinking and customer obsession."
+      },
+      {
+        "type": "paragraph",
+        "text": "It works because Bezos wrote them down, attached them to the public record, and made the company keep clearing them every year."
+      },
+      {
+        "type": "paragraph",
+        "text": "Most founders skip that last part."
+      },
+      {
+        "type": "paragraph",
+        "text": "Write your principles this quarter. Publish them."
+      },
+      {
+        "type": "paragraph",
+        "text": "A contract with the future starts the day someone else can hold you to it."
       }
     ]
   },
   {
-    "id": 3,
-    "slug": "gamma-customer-advisory-board",
-    "title": "Gamma Customer Advisory Board",
+    "id": 7,
+    "slug": "the-imac-and-the-work-behind-simplicity",
+    "title": "The iMac and the work behind simplicity",
     "headline": [
-      "Better work starts",
-      "with listening."
+      "Simplicity takes",
+      "a little obsession."
     ],
-    "company": "Gamma",
-    "category": "Direction",
-    "lesson": "The people using a product can help shape the questions worth asking.",
-    "excerpt": "Ideas don't win on merit alone.",
+    "company": "Apple",
+    "category": "Craft",
+    "lesson": "The work behind an effortless experience is rarely effortless.",
+    "excerpt": "To build the first iMac, Apple's design team went to a jelly bean factory.",
     "minutes": 1,
     "isExcerpt": false,
     "source": {
       "label": "Supplied screenshot",
-      "detail": "IMG_5167.jpg"
+      "detail": "IMG_5171.jpg"
     },
     "provenance": "User-supplied reading collection, 2026-10-23. Sponsored sections, newsletter navigation and emojis removed. Editorial headings and Qwarter takeaway added for this Stories collection.",
-    "hero": 2,
+    "hero": 0,
     "images": [
       {
-        "src": "/media/stories/reference/grant-lee.webp",
-        "width": 480,
-        "height": 480,
-        "alt": "Grant Lee, co-founder of Gamma",
-        "caption": "Grant Lee, co-founder of Gamma.",
-        "source": "https://stvp.stanford.edu/people/grant-lee",
-        "originalUrl": "https://stvp.stanford.edu/sites/g/files/sbiybj34351/files/styles/large_square/public/media/wordpress/grant-lee-600-x-600.png?h=04d92ac6&itok=ugw7d3Yc",
-        "credit": "Stanford Technology Ventures Program"
+        "src": "/media/stories/reference/imac-museum.webp",
+        "width": 1600,
+        "height": 1295,
+        "alt": "Translucent blue Apple iMac G3 in the German plastics museum collection",
+        "caption": "Translucent blue Apple iMac G3 in the German plastics museum collection.",
+        "source": "https://www.deutsches-kunststoff-museum.de/sammlung/virtuelles-museum/k-2019-00538/",
+        "originalUrl": "https://www.deutsches-kunststoff-museum.de/site/assets/files/24820/k-2019-00538a.1600x0.jpg",
+        "credit": "Deutsches Kunststoff Museum"
       },
       {
-        "src": "/media/stories/reference/grant-lee-press.webp",
-        "width": 600,
-        "height": 600,
-        "alt": "Grant Lee, CEO and co-founder of Gamma",
-        "caption": "Grant Lee, CEO and co-founder of Gamma.",
-        "source": "https://yespress.io/grant-lee",
-        "originalUrl": "https://storage.googleapis.com/yespress-4ecdc.firebasestorage.app/profile-photos/grant-lee-yespress.png",
-        "credit": "YesPress"
-      },
-      {
-        "src": "/media/stories/reference/gamma-editor.webp",
+        "src": "/media/stories/reference/imac-bard.webp",
         "width": 1800,
-        "height": 1168,
-        "alt": "Gamma presentation editor displaying a slide deck titled The Language of Flowers",
-        "caption": "Gamma presentation editor displaying a slide deck titled The Language of Flowers.",
-        "source": "https://meetgamma.canny.io/changelog/card-notes-and-presenter-view",
-        "originalUrl": "https://canny.io/images/36c17c1f5fa9b64ea5849bbcc73fac6f.png",
-        "credit": "Gamma changelog"
+        "height": 1552,
+        "alt": "Bondi blue iMac G3 with matching keyboard and mouse",
+        "caption": "Bondi blue iMac G3 with matching keyboard and mouse.",
+        "source": "https://www.bgc.bard.edu/research/articles/87/apple-imac-g3-bondi-blue",
+        "originalUrl": "https://www.bgc.bard.edu/images/IE-003_apple.jpg%2Coriginal",
+        "credit": "Bard Graduate Center"
+      },
+      {
+        "src": "/media/stories/additions/jony-ive-jon-rubinstein-imacs.webp",
+        "width": 1086,
+        "height": 1607,
+        "alt": "Jony Ive and Jon Rubinstein with five colourful iMac G3 computers",
+        "caption": "Jony Ive, left, and Jon Rubinstein with five iMacs at Apple’s headquarters in Cupertino.",
+        "credit": "Susan Ragan / AP; photograph supplied by the reader, attribution verified via ORF and AP coverage",
+        "date": "19 March 1999",
+        "source": "https://orf.at/stories/3128364/",
+        "originalUrl": "User-supplied IMG_6516.jpg"
       }
     ],
     "blocks": [
       {
         "type": "paragraph",
-        "text": "Ideas don't win on merit alone."
+        "text": "To build the first iMac, Apple's design team went to a jelly bean factory."
       },
       {
         "type": "paragraph",
-        "text": "Making content is easier than ever with AI, but earning attention and trust is still hard. Effective communication has become the bottleneck to innovation, and it's the problem Gamma exists to solve."
+        "text": "They were trying to make see-through plastic look appealing in an industry where every computer case was beige. The only people who had genuinely solved see-through color made candy. So the team studied how it was done, then worked with manufacturers in Korea to put it into a computer housing that cost 3x what a normal one did."
       },
       {
         "type": "paragraph",
-        "text": "With the launch of our enterprise offering, we want to change the way businesses communicate. We got here thanks to our early enterprise customers and we want to listen to them more as we evolve."
+        "text": "Jony Ive said simple products demand this kind of depth: \"To be truly simple, you have to go really deep. You have to deeply understand the essence.\""
       },
       {
         "type": "paragraph",
-        "text": "Today, I'm excited to announce our inaugural Customer Advisory Board. We're bringing together senior technology and innovation leaders across healthcare, financial services, media, law, life sciences, higher education, and enterprise tech."
+        "text": "That is why the iMac came out with an almost effortless-looking design. Apple got to “effortless” by paying for work nobody would ever see: they studied a candy factory, coordinated with manufacturers in Korea, and paid for a case that cost 3x what a normal one did purely for the aesthetic."
       },
       {
         "type": "paragraph",
-        "text": "Each of them shapes how thousands of people work and communicate, and each agreed to spend a year telling us the truth about our roadmap. We'll report back regularly on how their input shows up in the product, so they can see whether we kept our word."
+        "text": "Plenty of companies copied the see-through plastic afterward. Most skipped the factory visits and the extra cost that made it happen, and their versions looked cheap. The teams who got it right did the unglamorous, boring, on-the-ground work first."
       },
       {
-        "type": "paragraph",
-        "text": "Meet the 2026 Gamma Customer Advisory Board."
+        "type": "image",
+        "image": 2
       }
     ]
   },
@@ -444,169 +1115,6 @@
     ]
   },
   {
-    "id": 7,
-    "slug": "the-imac-and-the-work-behind-simplicity",
-    "title": "The iMac and the work behind simplicity",
-    "headline": [
-      "Simplicity takes",
-      "a little obsession."
-    ],
-    "company": "Apple",
-    "category": "Craft",
-    "lesson": "The work behind an effortless experience is rarely effortless.",
-    "excerpt": "To build the first iMac, Apple's design team went to a jelly bean factory.",
-    "minutes": 1,
-    "isExcerpt": false,
-    "source": {
-      "label": "Supplied screenshot",
-      "detail": "IMG_5171.jpg"
-    },
-    "provenance": "User-supplied reading collection, 2026-10-23. Sponsored sections, newsletter navigation and emojis removed. Editorial headings and Qwarter takeaway added for this Stories collection.",
-    "hero": 0,
-    "images": [
-      {
-        "src": "/media/stories/reference/imac-museum.webp",
-        "width": 1600,
-        "height": 1295,
-        "alt": "Translucent blue Apple iMac G3 in the German plastics museum collection",
-        "caption": "Translucent blue Apple iMac G3 in the German plastics museum collection.",
-        "source": "https://www.deutsches-kunststoff-museum.de/sammlung/virtuelles-museum/k-2019-00538/",
-        "originalUrl": "https://www.deutsches-kunststoff-museum.de/site/assets/files/24820/k-2019-00538a.1600x0.jpg",
-        "credit": "Deutsches Kunststoff Museum"
-      },
-      {
-        "src": "/media/stories/reference/imac-bard.webp",
-        "width": 1800,
-        "height": 1552,
-        "alt": "Bondi blue iMac G3 with matching keyboard and mouse",
-        "caption": "Bondi blue iMac G3 with matching keyboard and mouse.",
-        "source": "https://www.bgc.bard.edu/research/articles/87/apple-imac-g3-bondi-blue",
-        "originalUrl": "https://www.bgc.bard.edu/images/IE-003_apple.jpg%2Coriginal",
-        "credit": "Bard Graduate Center"
-      },
-      {
-        "src": "/media/stories/additions/jony-ive-jon-rubinstein-imacs.webp",
-        "width": 1086,
-        "height": 1607,
-        "alt": "Jony Ive and Jon Rubinstein with five colourful iMac G3 computers",
-        "caption": "Jony Ive, left, and Jon Rubinstein with five iMacs at Apple’s headquarters in Cupertino.",
-        "credit": "Susan Ragan / AP; photograph supplied by the reader, attribution verified via ORF and AP coverage",
-        "date": "19 March 1999",
-        "source": "https://orf.at/stories/3128364/",
-        "originalUrl": "User-supplied IMG_6516.jpg"
-      }
-    ],
-    "blocks": [
-      {
-        "type": "paragraph",
-        "text": "To build the first iMac, Apple's design team went to a jelly bean factory."
-      },
-      {
-        "type": "paragraph",
-        "text": "They were trying to make see-through plastic look appealing in an industry where every computer case was beige. The only people who had genuinely solved see-through color made candy. So the team studied how it was done, then worked with manufacturers in Korea to put it into a computer housing that cost 3x what a normal one did."
-      },
-      {
-        "type": "paragraph",
-        "text": "Jony Ive said simple products demand this kind of depth: \"To be truly simple, you have to go really deep. You have to deeply understand the essence.\""
-      },
-      {
-        "type": "paragraph",
-        "text": "That is why the iMac came out with an almost effortless-looking design. Apple got to “effortless” by paying for work nobody would ever see: they studied a candy factory, coordinated with manufacturers in Korea, and paid for a case that cost 3x what a normal one did purely for the aesthetic."
-      },
-      {
-        "type": "paragraph",
-        "text": "Plenty of companies copied the see-through plastic afterward. Most skipped the factory visits and the extra cost that made it happen, and their versions looked cheap. The teams who got it right did the unglamorous, boring, on-the-ground work first."
-      },
-      {
-        "type": "image",
-        "image": 2
-      }
-    ]
-  },
-  {
-    "id": 8,
-    "slug": "hiring-when-candidates-use-ai",
-    "title": "Hiring when candidates use AI",
-    "headline": [
-      "Ask them",
-      "to teach you."
-    ],
-    "company": "Gamma",
-    "category": "Direction",
-    "lesson": "A polished presentation is only useful when someone understands what sits behind it.",
-    "excerpt": "We stopped trying to catch candidates using AI in interviews a long time ago. Now, we ask them to teach us something.",
-    "minutes": 1,
-    "isExcerpt": false,
-    "source": {
-      "label": "Supplied screenshot",
-      "detail": "IMG_5172.jpg"
-    },
-    "provenance": "User-supplied reading collection, 2026-10-23. Sponsored sections, newsletter navigation and emojis removed. Editorial headings and Qwarter takeaway added for this Stories collection.",
-    "hero": 2,
-    "images": [
-      {
-        "src": "/media/stories/reference/grant-lee.webp",
-        "width": 480,
-        "height": 480,
-        "alt": "Grant Lee, co-founder of Gamma",
-        "caption": "Grant Lee, co-founder of Gamma.",
-        "source": "https://stvp.stanford.edu/people/grant-lee",
-        "originalUrl": "https://stvp.stanford.edu/sites/g/files/sbiybj34351/files/styles/large_square/public/media/wordpress/grant-lee-600-x-600.png?h=04d92ac6&itok=ugw7d3Yc",
-        "credit": "Stanford Technology Ventures Program"
-      },
-      {
-        "src": "/media/stories/reference/grant-lee-press.webp",
-        "width": 600,
-        "height": 600,
-        "alt": "Grant Lee, CEO and co-founder of Gamma",
-        "caption": "Grant Lee, CEO and co-founder of Gamma.",
-        "source": "https://yespress.io/grant-lee",
-        "originalUrl": "https://storage.googleapis.com/yespress-4ecdc.firebasestorage.app/profile-photos/grant-lee-yespress.png",
-        "credit": "YesPress"
-      },
-      {
-        "src": "/media/stories/reference/gamma-editor.webp",
-        "width": 1800,
-        "height": 1168,
-        "alt": "Gamma presentation editor displaying a slide deck titled The Language of Flowers",
-        "caption": "Gamma presentation editor displaying a slide deck titled The Language of Flowers.",
-        "source": "https://meetgamma.canny.io/changelog/card-notes-and-presenter-view",
-        "originalUrl": "https://canny.io/images/36c17c1f5fa9b64ea5849bbcc73fac6f.png",
-        "credit": "Gamma changelog"
-      }
-    ],
-    "blocks": [
-      {
-        "type": "paragraph",
-        "text": "We stopped trying to catch candidates using AI in interviews a long time ago. Now, we ask them to teach us something."
-      },
-      {
-        "type": "paragraph",
-        "text": "Everyone who interviews with us builds a presentation and walks us through it. They can use whatever they like to put it together (including AI and Gamma itself), and most people do. Using AI is just assumed now, like with a laptop."
-      },
-      {
-        "type": "paragraph",
-        "text": "What we are watching happens in the minutes after the slides go up, when someone has to explain the thing they just made to a room that keeps asking why."
-      },
-      {
-        "type": "paragraph",
-        "text": "You can tell almost immediately. Someone who understands their subject can teach it cold, take a question sideways, and keep going. Someone who has only assembled it can't, and no amount of polish closes that gap."
-      },
-      {
-        "type": "paragraph",
-        "text": "That is the whole test. It’s survived the tools getting increasingly scarily good because teaching is the one thing retrieval cannot do on your behalf."
-      },
-      {
-        "type": "paragraph",
-        "text": "It also clarified what we are hiring for. Judgment rather than recall. People who can take something ambiguous and own it, which turns out to be a generalist trait more often than a specialist one."
-      },
-      {
-        "type": "paragraph",
-        "text": "What would your interview loop look like if you assumed the language model was already in the room?"
-      }
-    ]
-  },
-  {
     "id": 9,
     "slug": "william-wrigley-and-discovering-the-real-product",
     "title": "William Wrigley and discovering the real product",
@@ -800,85 +1308,6 @@
       {
         "type": "paragraph",
         "text": "Today AMD is worth more than $800 billion. Intel is worth about \n$470 billion. She inherited a broken balance sheet and one thing the company was good at. She decided in her first year what all of it was for, and then she stopped re-deciding."
-      }
-    ]
-  },
-  {
-    "id": 12,
-    "slug": "gamma-creation-index",
-    "title": "Gamma Creation Index",
-    "headline": [
-      "What people",
-      "really make."
-    ],
-    "company": "Gamma",
-    "category": "Craft",
-    "lesson": "Patterns in what people create can reveal more than assumptions about what they need.",
-    "excerpt": "At Gamma, we've had a front row seat to how people create with AI.",
-    "minutes": 1,
-    "isExcerpt": false,
-    "source": {
-      "label": "Supplied screenshot",
-      "detail": "IMG_5177.jpg"
-    },
-    "provenance": "User-supplied reading collection, 2026-10-23. Sponsored sections, newsletter navigation and emojis removed. Editorial headings and Qwarter takeaway added for this Stories collection.",
-    "hero": 2,
-    "images": [
-      {
-        "src": "/media/stories/reference/grant-lee.webp",
-        "width": 480,
-        "height": 480,
-        "alt": "Grant Lee, co-founder of Gamma",
-        "caption": "Grant Lee, co-founder of Gamma.",
-        "source": "https://stvp.stanford.edu/people/grant-lee",
-        "originalUrl": "https://stvp.stanford.edu/sites/g/files/sbiybj34351/files/styles/large_square/public/media/wordpress/grant-lee-600-x-600.png?h=04d92ac6&itok=ugw7d3Yc",
-        "credit": "Stanford Technology Ventures Program"
-      },
-      {
-        "src": "/media/stories/reference/grant-lee-press.webp",
-        "width": 600,
-        "height": 600,
-        "alt": "Grant Lee, CEO and co-founder of Gamma",
-        "caption": "Grant Lee, CEO and co-founder of Gamma.",
-        "source": "https://yespress.io/grant-lee",
-        "originalUrl": "https://storage.googleapis.com/yespress-4ecdc.firebasestorage.app/profile-photos/grant-lee-yespress.png",
-        "credit": "YesPress"
-      },
-      {
-        "src": "/media/stories/reference/gamma-editor.webp",
-        "width": 1800,
-        "height": 1168,
-        "alt": "Gamma presentation editor displaying a slide deck titled The Language of Flowers",
-        "caption": "Gamma presentation editor displaying a slide deck titled The Language of Flowers.",
-        "source": "https://meetgamma.canny.io/changelog/card-notes-and-presenter-view",
-        "originalUrl": "https://canny.io/images/36c17c1f5fa9b64ea5849bbcc73fac6f.png",
-        "credit": "Gamma changelog"
-      }
-    ],
-    "blocks": [
-      {
-        "type": "paragraph",
-        "text": "At Gamma, we've had a front row seat to how people create with AI."
-      },
-      {
-        "type": "paragraph",
-        "text": "Over the past year, the way people create with AI has changed. The evidence was sitting in our own lifetime data: 625+ million Gammas made by over 100 million people across 210 countries and territories."
-      },
-      {
-        "type": "paragraph",
-        "text": "Today we're publishing the Creation Index, Gamma's first data report on what people really make with AI."
-      },
-      {
-        "type": "paragraph",
-        "text": "There are plenty of surprises inside, including what our supercreators are doing."
-      },
-      {
-        "type": "paragraph",
-        "text": "I hope you find it as fascinating as we do."
-      },
-      {
-        "type": "paragraph",
-        "text": "https://lnkd.in/gCyPw-rg"
       }
     ]
   },
@@ -4869,417 +5298,6 @@
     ]
   },
   {
-    "id": 34,
-    "slug": "the-cola-wars",
-    "title": "The Cola Wars",
-    "headline": [
-      "The taste",
-      "of belonging."
-    ],
-    "company": "Coca-Cola & Pepsi",
-    "category": "Brand",
-    "lesson": "The associations around a product can be as durable as the product itself.",
-    "excerpt": "In 2019, Pepsi released this ad.",
-    "minutes": 4,
-    "isExcerpt": false,
-    "source": {
-      "label": "Original article",
-      "url": "https://profitsnack.com/p/158"
-    },
-    "provenance": "User-supplied reading collection, 2026-10-23. Sponsored sections, newsletter navigation and emojis removed. Editorial headings and Qwarter takeaway added for this Stories collection.",
-    "hero": 0,
-    "images": [
-      {
-        "src": "/media/stories/the-cola-wars/17-003.webp",
-        "width": 812,
-        "height": 970,
-        "alt": "Pepsi’s Halloween campaign.",
-        "caption": "Pepsi’s Halloween campaign.",
-        "source": "https://profitsnack.com/p/158",
-        "originalUrl": "https://media.beehiiv.com/uploads/asset/file/a9ce57d0-b32d-4e46-9fbd-635912d1339a/Screen_Shot_2024-02-09_at_2.13.22_PM.png?t=1707506014",
-        "originalFile": "images/17-003.webp"
-      },
-      {
-        "src": "/media/stories/the-cola-wars/17-005.webp",
-        "width": 816,
-        "height": 978,
-        "alt": "The image reframed as a Coca-Cola response.",
-        "caption": "The image reframed as a Coca-Cola response.",
-        "source": "https://profitsnack.com/p/158",
-        "originalUrl": "https://media.beehiiv.com/uploads/asset/file/dc68f412-d767-4768-88ac-be451e4a437b/Screen_Shot_2024-02-09_at_2.13.50_PM.png?t=1707506034",
-        "originalFile": "images/17-005.webp"
-      },
-      {
-        "src": "/media/stories/the-cola-wars/17-028.webp",
-        "width": 1292,
-        "height": 678,
-        "alt": "Caleb Bradham, founder of Pepsi.",
-        "caption": "Caleb Bradham, founder of Pepsi.",
-        "source": "https://profitsnack.com/p/158",
-        "originalUrl": "https://media.beehiiv.com/uploads/asset/file/fe35c710-e476-4978-9df9-61626d8aadf5/Screen_Shot_2024-02-09_at_2.16.24_PM.png?t=1707506198",
-        "originalFile": "images/17-028.webp"
-      },
-      {
-        "src": "/media/stories/the-cola-wars/17-032.webp",
-        "width": 918,
-        "height": 678,
-        "alt": "Pepsi’s “bigger and better” value message.",
-        "caption": "Pepsi’s “bigger and better” value message.",
-        "source": "https://profitsnack.com/p/158",
-        "originalUrl": "https://media.beehiiv.com/uploads/asset/file/2ee359b8-ce10-446e-9bae-4b9450940331/Screen_Shot_2024-02-09_at_2.17.38_PM.png?t=1707506265",
-        "originalFile": "images/17-032.webp"
-      },
-      {
-        "src": "/media/stories/the-cola-wars/17-053.webp",
-        "width": 1292,
-        "height": 859,
-        "alt": "Coca-Cola and American soldiers.",
-        "caption": "Coca-Cola and American soldiers.",
-        "source": "https://profitsnack.com/p/158",
-        "originalUrl": "https://media.beehiiv.com/uploads/asset/file/46cbc787-c5d7-4cc2-a722-462fc0541f8b/Screen_Shot_2024-02-09_at_11.56.40_AM.png?t=1707506548",
-        "originalFile": "images/17-053.webp"
-      },
-      {
-        "src": "/media/stories/the-cola-wars/17-058.webp",
-        "width": 980,
-        "height": 458,
-        "alt": "A historic Coca-Cola campaign.",
-        "caption": "A historic Coca-Cola campaign.",
-        "source": "https://profitsnack.com/p/158",
-        "originalUrl": "https://media.beehiiv.com/uploads/asset/file/10c69ea9-ec53-46cb-a946-e99b87c28b1f/Screen_Shot_2024-02-09_at_12.12.26_PM.png?t=1707508149",
-        "originalFile": "images/17-058.webp"
-      },
-      {
-        "src": "/media/stories/the-cola-wars/17-061.webp",
-        "width": 686,
-        "height": 1008,
-        "alt": "Coca-Cola’s lifestyle imagery.",
-        "caption": "Coca-Cola’s lifestyle imagery.",
-        "source": "https://profitsnack.com/p/158",
-        "originalUrl": "https://media.beehiiv.com/uploads/asset/file/b9eed0bc-e42c-42c3-a0e9-c4150870a4cb/Screen_Shot_2024-02-09_at_12.12.59_PM.png?t=1707506595",
-        "originalFile": "images/17-061.webp"
-      },
-      {
-        "src": "/media/stories/the-cola-wars/17-065.webp",
-        "width": 1292,
-        "height": 866,
-        "alt": "Coca-Cola’s Christmas advertising.",
-        "caption": "Coca-Cola’s Christmas advertising.",
-        "source": "https://profitsnack.com/p/158",
-        "originalUrl": "https://media.beehiiv.com/uploads/asset/file/a6089698-5904-4649-80dd-139988b5fcde/Screen_Shot_2024-02-09_at_2.26.34_PM.png?t=1707506799",
-        "originalFile": "images/17-065.webp"
-      },
-      {
-        "src": "/media/stories/the-cola-wars/17-081.webp",
-        "width": 1190,
-        "height": 506,
-        "alt": "The PepsiCo brand portfolio.",
-        "caption": "The PepsiCo brand portfolio.",
-        "source": "https://profitsnack.com/p/158",
-        "originalUrl": "https://media.beehiiv.com/uploads/asset/file/63b61f11-a2fe-4625-80cc-bc8fc2e67352/Screen_Shot_2024-02-09_at_2.34.24_PM.png?t=1707507279",
-        "originalFile": "images/17-081.webp"
-      },
-      {
-        "src": "/media/stories/the-cola-wars/17-087.webp",
-        "width": 1292,
-        "height": 780,
-        "alt": "A revenue and profit comparison from the supplied article.",
-        "caption": "A revenue and profit comparison from the supplied article.",
-        "source": "https://profitsnack.com/p/158",
-        "originalUrl": "https://media.beehiiv.com/uploads/asset/file/609166a3-4d06-4ef7-9ea2-4eb6cfcc0bd7/Screen_Shot_2024-02-09_at_2.41.49_PM.png?t=1707507721",
-        "originalFile": "images/17-087.webp"
-      }
-    ],
-    "blocks": [
-      {
-        "type": "paragraph",
-        "text": "In 2019, Pepsi released this ad."
-      },
-      {
-        "type": "paragraph",
-        "text": "1 day later, Coke released this ad:"
-      },
-      {
-        "type": "image",
-        "image": 1
-      },
-      {
-        "type": "paragraph",
-        "text": "This is the Cola Wars - The greatest rivalry the beverage industry has ever seen."
-      },
-      {
-        "type": "paragraph",
-        "text": "On one side there’s Coca-Cola with 43% of the non-alcoholic beverage market share."
-      },
-      {
-        "type": "paragraph",
-        "text": "On the other, there’s Pepsi - with about about 33% market share."
-      },
-      {
-        "type": "paragraph",
-        "text": "For the past 84 years, Pepsi has tried and failed to beat Coca-Cola."
-      },
-      {
-        "type": "paragraph",
-        "text": "And after 3 blind taste tests proving most consumers prefer the taste of Pepsi over Coca-Cola…"
-      },
-      {
-        "type": "paragraph",
-        "text": "And multiple studies that prove Pepsi is a healthier alternative…"
-      },
-      {
-        "type": "paragraph",
-        "text": "Coca-Cola remains the #1 beverage company in the world."
-      },
-      {
-        "type": "paragraph",
-        "text": "Why?"
-      },
-      {
-        "type": "paragraph",
-        "text": "And how did this rival lead to Pepsi (almost) becoming the 6th largest military in the world?"
-      },
-      {
-        "type": "paragraph",
-        "text": "Great question."
-      },
-      {
-        "type": "heading",
-        "text": "The Story Of Pepsi",
-        "id": "part-1"
-      },
-      {
-        "type": "paragraph",
-        "text": "Pepsi was founded by a small-town pharmacist in North Carolina, just 7 years after the beginning of Coca-Cola."
-      },
-      {
-        "type": "paragraph",
-        "text": "At the time, Coca-Cola was a growing drink company known for its great taste, and unfortunately for them…"
-      },
-      {
-        "type": "paragraph",
-        "text": "Tons of sugar."
-      },
-      {
-        "type": "paragraph",
-        "text": "So Caleb Bradham (founder) found a gap in the market - something that tasted as great as Coca-Cola but without the consequences."
-      },
-      {
-        "type": "paragraph",
-        "text": "Enter Pepsi."
-      },
-      {
-        "type": "image",
-        "image": 2
-      },
-      {
-        "type": "paragraph",
-        "text": "The Founder Of Pepsi"
-      },
-      {
-        "type": "paragraph",
-        "text": "For the next 50 years, Pepsi would try to keep its business afloat, claiming bankruptcy twice and changing owners at least 3 times."
-      },
-      {
-        "type": "paragraph",
-        "text": "All while watching Coca-Cola grow year after year."
-      },
-      {
-        "type": "paragraph",
-        "text": "It wasn’t until 1940 that Pepsi made advertising history with “Nickel, Nickel,” that Pepsi began to make waves in the drink industry."
-      },
-      {
-        "type": "image",
-        "image": 3
-      },
-      {
-        "type": "paragraph",
-        "text": "But 84 years later Pepsi still has yet to beat Coca-Cola’s iron grip on the industry, even after proving to the world that Pepsi has more to offer."
-      },
-      {
-        "type": "paragraph",
-        "text": "Why?"
-      },
-      {
-        "type": "paragraph",
-        "text": "Because Coca-Cola has something that Pepsi has tried and failed to buy… Loyalty."
-      },
-      {
-        "type": "heading",
-        "text": "America’s Favorite Soda",
-        "id": "part-2"
-      },
-      {
-        "type": "paragraph",
-        "text": "I’ve spent 7 hours diving deep into Coca-Cola’s marketing strategy this week."
-      },
-      {
-        "type": "paragraph",
-        "text": "I found 3 key components in their marketing strategy that Pepsi missed."
-      },
-      {
-        "type": "heading",
-        "text": "1 - America’s favorite soda",
-        "id": "part-3"
-      },
-      {
-        "type": "paragraph",
-        "text": "While Pepsi filed for bankruptcy after the 1942 sugar shortage, Coca-Cola had its most successful campaign…ever."
-      },
-      {
-        "type": "paragraph",
-        "text": "It was WW2 and the public was looking for any way to help US soldiers win the war."
-      },
-      {
-        "type": "paragraph",
-        "text": "So it was simple…"
-      },
-      {
-        "type": "paragraph",
-        "text": "All Coca-Cola had to do was convince the US that buying a Coke meant helping a soldier."
-      },
-      {
-        "type": "paragraph",
-        "text": "Coca-Cola promised to give every US soldier a Coke no matter where they were."
-      },
-      {
-        "type": "image",
-        "image": 4
-      },
-      {
-        "type": "paragraph",
-        "text": "By the end of WW2, Coca-Cola had warehouses in over 48 countries."
-      },
-      {
-        "type": "paragraph",
-        "text": "Today, Coca-Cola gives more than 2 million beverages each day to soldiers, reservists, retirees, and their families."
-      },
-      {
-        "type": "heading",
-        "text": "2 - Coca-Cola Girls",
-        "id": "part-4"
-      },
-      {
-        "type": "paragraph",
-        "text": "I think this one speaks for itself…."
-      },
-      {
-        "type": "image",
-        "image": 5
-      },
-      {
-        "type": "paragraph",
-        "text": "This was a fairly new concept at the time for non-alcoholic drink companies and brought a lot of new attention to Coca-Cola."
-      },
-      {
-        "type": "paragraph",
-        "text": "But it wasn’t just the image or pretty women. It was the idea that women would go to places that served Coke."
-      },
-      {
-        "type": "image",
-        "image": 6
-      },
-      {
-        "type": "paragraph",
-        "text": "60 years ago it was local restaurants. Today, it’s parties."
-      },
-      {
-        "type": "heading",
-        "text": "3 - The Younger Generation",
-        "id": "part-5"
-      },
-      {
-        "type": "paragraph",
-        "text": "Not only does Coca-Cola have more followers on every social media platform, but they also ‘own Christmas’ with their famous Santa ads."
-      },
-      {
-        "type": "image",
-        "image": 7
-      },
-      {
-        "type": "paragraph",
-        "text": "The strategy: Older buyers have already chosen Pepsi or Coke. Market to younger generations so they try you first."
-      },
-      {
-        "type": "paragraph",
-        "text": "Pepsi tried to replicate these same tactics during the Cold War in the USSR."
-      },
-      {
-        "type": "paragraph",
-        "text": "(It was one of the only countries where Coca-Cola did not have brand loyalty.)"
-      },
-      {
-        "type": "paragraph",
-        "text": "In exchange for Pepsi sales, the USSR offered to send them an entire arsenal of warships to sell."
-      },
-      {
-        "type": "paragraph",
-        "text": "Had Pepsi kept the ships, Pepsi would have been the 6th largest military at the time."
-      },
-      {
-        "type": "heading",
-        "text": "Our Business Is... Everything?",
-        "id": "part-6"
-      },
-      {
-        "type": "paragraph",
-        "text": "It's been a long time since Pepsi just sold Pepsi and Coca-Cola just sold Coke."
-      },
-      {
-        "type": "paragraph",
-        "text": "Today both brands sell coffee, sports drinks, lemonades, and other sodas."
-      },
-      {
-        "type": "paragraph",
-        "text": "But Coca-Cola is exclusively a beverage brand…"
-      },
-      {
-        "type": "paragraph",
-        "text": "Pepsi has acquired 30 companies ranging from beverages to sportswear."
-      },
-      {
-        "type": "image",
-        "image": 8
-      },
-      {
-        "type": "paragraph",
-        "text": "Graph by BusinessModelAnalyst"
-      },
-      {
-        "type": "paragraph",
-        "text": "So while Coca-Cola has the privilege of focusing on one type of product, Pepsi has spent its time learning to sell in 5 different markets."
-      },
-      {
-        "type": "paragraph",
-        "text": "You can imagine how much this has hurt their productivity."
-      },
-      {
-        "type": "paragraph",
-        "text": "But to give you some context…"
-      },
-      {
-        "type": "paragraph",
-        "text": "In 2023, Coca-Cola made $45.030B in rev, and Pepsi made $91.617B."
-      },
-      {
-        "type": "paragraph",
-        "text": "Yet, they had almost the same net profit for the year."
-      },
-      {
-        "type": "image",
-        "image": 9
-      },
-      {
-        "type": "paragraph",
-        "text": "At the end of the day, Pepsi is doing just fine. They’re the 2nd largest drink company and the 2nd largest snack company (Nestle is #1)."
-      },
-      {
-        "type": "paragraph",
-        "text": "But as far as the Cola Wars go, I think Pepsi will continue to fight a losing battle."
-      }
-    ]
-  },
-  {
     "id": 35,
     "slug": "liquid-death-how-to-make-700-million-selling-water",
     "title": "Liquid Death: How to Make $700 Million Selling Water",
@@ -6253,215 +6271,6 @@
     ]
   },
   {
-    "id": 38,
-    "slug": "tony-fadell-and-the-decade-before-the-ipod",
-    "title": "Tony Fadell and the decade before the iPod",
-    "headline": [
-      "A decade of failure.",
-      "A product that changed everything."
-    ],
-    "company": "Apple",
-    "category": "Craft",
-    "lesson": "Experience can compound before the right problem arrives.",
-    "excerpt": "In 2000, a hardware entrepreneur pitched venture capital firms 80 times and got rejected all 80 times. The world-changing product that resulted from all of that “failure” turns 25 today.",
-    "minutes": 2,
-    "isExcerpt": false,
-    "source": {
-      "label": "Supplied screenshots",
-      "detail": "IMG_6511.PNG"
-    },
-    "provenance": "Transcribed from user-supplied screenshots, 2026-10-23; overlapping text and interface controls removed. Editorial headline and Qwarter takeaway added. Relative dates and numerical claims retain the wording of the supplied post.",
-    "hero": 0,
-    "images": [
-      {
-        "src": "/media/stories/additions/ipod-first-generation.webp",
-        "width": 1306,
-        "height": 932,
-        "alt": "First-generation Apple iPod with mechanical scroll wheel",
-        "caption": "The original iPod, introduced on 23 October 2001.",
-        "credit": "Apple / Apple Newsroom",
-        "date": "Product introduced 2001; image published 10 May 2022",
-        "source": "https://www.apple.com/newsroom/2022/05/the-music-lives-on/",
-        "originalUrl": "https://www.apple.com/newsroom/images/product/ipod/standard/Apple-iPod-end-of-life-iPod-first-generation_carousel.jpg.large_2x.jpg"
-      }
-    ],
-    "blocks": [
-      {
-        "type": "paragraph",
-        "text": "In 2000, a hardware entrepreneur pitched venture capital firms 80 times and got rejected all 80 times. The world-changing product that resulted from all of that “failure” turns 25 today."
-      },
-      {
-        "type": "paragraph",
-        "text": "The entrepreneur was Tony Fadell, and the product was the iPod. His company, Fuse, had developed a jukebox that could rip songs from CDs to a hard drive, but in January 2001, they were running out of money. That month, Jon Rubinstein, who headed hardware at Apple, called Fadell on a ski lift. Apple wanted to make a music player."
-      },
-      {
-        "type": "paragraph",
-        "text": "Fadell took the six-week contract job and returned with three foam-core mockups, each weighted with lead fishing weights so it would feel as heavy as a real device in the hand. Apple picked one, and hired him to develop it."
-      },
-      {
-        "type": "paragraph",
-        "text": "Apple’s engineers were busy working on the Mac, so Fadell recruited people he knew to finish his project: engineers he had worked with at Fuse, and veterans of the General Magic and Philips teams, where he had spent the 1990s shipping handheld devices critics admired, but that sold poorly. He had joined General Magic in 1991, fresh out of college, as the kid on the team who wired up the demos by hand."
-      },
-      {
-        "type": "paragraph",
-        "text": "He came, of course, with a diagnosis for why things hadn’t worked. “A lack of discipline about who our customer was, what the product was we were making, what the timeline was, and how we were going to get it to market,” Fadell said about his time at General Magic. The iPod had one customer, one product, and a Christmas deadline. Apple introduced it nine months after that phone call."
-      },
-      {
-        "type": "paragraph",
-        "text": "Fadell calls that earlier period “a decade of failure.”"
-      },
-      {
-        "type": "paragraph",
-        "text": "But it produced a team bonded by adversity, and a precise understanding of the mistake to avoid. When the right problem arrived at Apple, he’d been preparing for it for a decade."
-      },
-      {
-        "type": "paragraph",
-        "text": "Video credit in the supplied post: General Magic (2018)."
-      }
-    ]
-  },
-  {
-    "id": 39,
-    "slug": "dario-amodei-and-looking-beyond-the-resume",
-    "title": "Dario Amodei and looking beyond the resume",
-    "headline": [
-      "Look past the résumé.",
-      "Find the person."
-    ],
-    "company": "Anthropic",
-    "category": "Direction",
-    "lesson": "Hire for what someone can do, and leave room for a different way of seeing.",
-    "excerpt": "In late 2014, the guy who now runs a $965 billion AI company had never worked in AI.",
-    "minutes": 2,
-    "isExcerpt": false,
-    "source": {
-      "label": "Supplied screenshots",
-      "detail": "IMG_6513.PNG; IMG_6514.jpg"
-    },
-    "provenance": "Transcribed from user-supplied screenshots, 2026-10-23; overlapping text and interface controls removed. Editorial headline and Qwarter takeaway added. Relative dates and numerical claims retain the wording of the supplied post.",
-    "hero": 0,
-    "images": [
-      {
-        "src": "/media/stories/additions/dario-amodei.webp",
-        "width": 640,
-        "height": 800,
-        "alt": "Dario Amodei, co-founder of Anthropic",
-        "caption": "Dario Amodei in Anthropic’s official leadership portrait. Photograph date not stated by the source.",
-        "credit": "Anthropic; individual photographer not stated",
-        "source": "https://www.anthropic.com/company/leadership",
-        "originalUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/b9f2de42abe07215bc6f3e1498765fa0d3d58eaf-640x800.webp?fm=webp"
-      }
-    ],
-    "blocks": [
-      {
-        "type": "paragraph",
-        "text": "In late 2014, the guy who now runs a $965 billion AI company had never worked in AI."
-      },
-      {
-        "type": "paragraph",
-        "text": "Dario Amodei had spent a decade on physics and biology: a Princeton PhD recording how roughly 200 nerve cells in a piece of retinal tissue fire together, then a postdoc in a cancer lab. He joined Andrew Ng’s team at Baidu that November. Greg Diamos (a colleague there) said the team saw a biology guy with no machine learning background. Then Diamos read the code Dario had written at the cancer lab and saw an unusually great programmer."
-      },
-      {
-        "type": "paragraph",
-        "text": "At Baidu, his job was to build the best speech recognition system he could. The field’s view, in his telling, was that the algorithms needed to succeed hadn’t been invented yet. He didn’t know enough to agree, so he just tried the obvious things: make the model bigger, feed it more speech data, train it longer, and watch what happened."
-      },
-      {
-        "type": "paragraph",
-        "text": "Every time he made the model bigger or added more data, it transcribed speech more accurately. He figured the experts were probably right, and he was missing something, but he kept going anyway. Years later, he called finding that pattern “almost like beginner’s luck.”"
-      },
-      {
-        "type": "paragraph",
-        "text": "He spent the next several years betting on that “luck.” His 2017 memo argued that bigger models and more data could improve AI beyond speech recognition. A 2020 OpenAI paper quantified those gains as “scaling laws”: predictable improvements from increasing model size and training data. That research helped guide GPT-3’s development. He later co-founded Anthropic, continuing to build on that approach."
-      },
-      {
-        "type": "paragraph",
-        "text": "I really recommend thinking about this story when making your next hire. None of that would have happened if Diamos screened for Dario the resume instead of Dario the person. He looked at what Amodei could actually do with a computer, saw raw talent, and hired based on that."
-      },
-      {
-        "type": "paragraph",
-        "text": "When the talent is real, the missing credentials often just don’t matter at all. And even better, those hires often don’t suffer from the same “supposed to work this way” that holds experienced teams back from seeing a breakthrough right in front of them."
-      },
-      {
-        "type": "paragraph",
-        "text": "Maybe your next breakthrough comes from “beginner’s luck.”"
-      }
-    ]
-  },
-  {
-    "id": 40,
-    "slug": "cristiano-ronaldo-and-the-work-that-compounds",
-    "title": "Cristiano Ronaldo and the work that compounds",
-    "headline": [
-      "The talent was there.",
-      "The work kept compounding."
-    ],
-    "company": "Cristiano Ronaldo",
-    "category": "Craft",
-    "lesson": "Small acts of practice can become a lifetime of preparation.",
-    "excerpt": "He was 12 years old, alone, 535 miles from home, and the other boys mocked his island accent.",
-    "minutes": 2,
-    "isExcerpt": false,
-    "source": {
-      "label": "Supplied screenshots",
-      "detail": "IMG_6517.jpg"
-    },
-    "provenance": "Transcribed from user-supplied screenshots, 2026-10-23; overlapping text and interface controls removed. Editorial headline and Qwarter takeaway added. Relative dates and numerical claims retain the wording of the supplied post.",
-    "hero": 0,
-    "images": [
-      {
-        "src": "/media/stories/additions/cristiano-ronaldo-2018.webp",
-        "width": 540,
-        "height": 942,
-        "alt": "Cristiano Ronaldo wearing a Real Madrid training jacket in Kyiv in 2018",
-        "caption": "Cristiano Ronaldo in Kyiv during the 2018 Champions League final coverage. Re-encoded as WebP; framing unchanged.",
-        "credit": "Anton Zaytsev / soccer.ru, via Wikimedia Commons",
-        "date": "27 May 2018, according to the source metadata",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-        "source": "https://commons.wikimedia.org/wiki/File:Cristiano_Ronaldo_Real_Madrid.jpg",
-        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Cristiano_Ronaldo_Real_Madrid.jpg"
-      }
-    ],
-    "blocks": [
-      {
-        "type": "paragraph",
-        "text": "He was 12 years old, alone, 535 miles from home, and the other boys mocked his island accent."
-      },
-      {
-        "type": "paragraph",
-        "text": "In their book on Ronaldo and Messi, Joshua Robinson and Jonathan Clegg describe what Cristiano Ronaldo did next at the Sporting academy."
-      },
-      {
-        "type": "paragraph",
-        "text": "He was barred from the gym, because the academy did not let young players lift. So he snuck out at night to do it anyway. He got caught and was given detention."
-      },
-      {
-        "type": "paragraph",
-        "text": "Then he started using buckets of water in the shower as weights. When the buckets were taken away, he strapped weights to his ankles. When the ball was taken away to stop him overdoing it, he juggled oranges from a fruit bowl."
-      },
-      {
-        "type": "paragraph",
-        "text": "That is the boy. The man arrived in Houston on Tuesday, 41 years old. Portugal beat Uzbekistan 5-0. He scored in the 6th minute off a Joao Cancelo cross, then buried a Bruno Fernandes through ball before halftime."
-      },
-      {
-        "type": "paragraph",
-        "text": "That second goal was his 10th career World Cup goal, passing Eusebio as Portugal’s all-time leading scorer at the tournament. With that brace, he became the first footballer in history, man or woman, to score in 6 different World Cups: 2006, 2010, 2014, 2018, 2022, and 2026."
-      },
-      {
-        "type": "paragraph",
-        "text": "Messi has played in 6 World Cups too. He did not score in 2010. Ronaldo found the net in all 6. Ferguson signed him from Sporting in 2003 at 18, for around £12 million."
-      },
-      {
-        "type": "paragraph",
-        "text": "The talent was always there."
-      },
-      {
-        "type": "paragraph",
-        "text": "The buckets and the oranges and the ankle weights are the hard work that compounded for 30 years."
-      }
-    ]
-  },
-  {
     "id": 41,
     "slug": "lionel-messi-and-the-napkin-agreement",
     "title": "Lionel Messi and the napkin agreement",
@@ -6518,224 +6327,6 @@
       {
         "type": "paragraph",
         "text": "Conviction cannot be delegated and it cannot be faked. And a napkin worth almost a million dollars is the proof that the biggest returns come from the talent the machine cannot price yet."
-      }
-    ]
-  },
-  {
-    "id": 42,
-    "slug": "amazon-and-the-principles-that-outlast-a-quarter",
-    "title": "Amazon and the principles that outlast a quarter",
-    "headline": [
-      "Write the principles.",
-      "Keep clearing the bar."
-    ],
-    "company": "Amazon",
-    "category": "Direction",
-    "lesson": "A principle gains force when people can hold you to it.",
-    "excerpt": "Most CEO letters are forgotten the week they’re filed.",
-    "minutes": 2,
-    "isExcerpt": false,
-    "source": {
-      "label": "Supplied screenshots",
-      "detail": "IMG_6519.jpg; IMG_6520.jpg; supporting image IMG_6521.jpg"
-    },
-    "provenance": "Transcribed from user-supplied screenshots, 2026-10-23; overlapping text and interface controls removed. Editorial headline and Qwarter takeaway added. Relative dates and numerical claims retain the wording of the supplied post.",
-    "hero": 0,
-    "images": [
-      {
-        "src": "/media/stories/additions/amazon-1997-letter.webp",
-        "width": 1280,
-        "height": 720,
-        "alt": "Amazon.com heading for the 1997 letter to shareholders",
-        "caption": "The heading of Amazon’s 1997 shareholder letter, reprinted alongside its 2021 letter.",
-        "credit": "Amazon / About Amazon",
-        "date": "Letter 1997; this reproduction published in 2022",
-        "source": "https://www.aboutamazon.com/news/company-news/2021-letter-to-shareholders",
-        "originalUrl": "https://assets.aboutamazon.com/dims4/default/54ac031/2147483647/strip/true/crop/1280x720+0+0/resize/1280x720!/quality/90/?url=https%3A%2F%2Fassets.aboutamazon.com%2F04%2Fba%2Fee1dd74747198610bf3117e07552%2Fblack-and-white-amazon.com%2520shareholder%2520letter.jpg"
-      },
-      {
-        "src": "/media/stories/additions/amazon-supplied-letter-excerpt.webp",
-        "width": 1320,
-        "height": 1650,
-        "alt": "Supplied excerpt showing Andy Jassy’s sign-off and the reprinted 1997 Amazon shareholder letter",
-        "caption": "The supplied letter excerpt shows the transition from Andy Jassy’s sign-off to the original 1997 letter. The year of the surrounding letter is not visible.",
-        "credit": "Amazon; screenshot supplied by the reader",
-        "source": "https://www.aboutamazon.com/news/company-news/amazon-ceo-andy-jassy-2024-letter-to-shareholders",
-        "originalUrl": "User-supplied IMG_6521.jpg"
-      }
-    ],
-    "blocks": [
-      {
-        "type": "paragraph",
-        "text": "Most CEO letters are forgotten the week they’re filed."
-      },
-      {
-        "type": "paragraph",
-        "text": "Jeff Bezos wrote one in 1997 that Amazon still publishes verbatim every year. Twenty-eight years and counting."
-      },
-      {
-        "type": "paragraph",
-        "text": "It’s a short list of operating principles, in plain language, that the company has had to clear every quarter since."
-      },
-      {
-        "type": "paragraph",
-        "text": "Five of them still work as a checklist any founder can run their business against today."
-      },
-      {
-        "type": "heading",
-        "text": "1. Obsess over customers.",
-        "id": "part-1"
-      },
-      {
-        "type": "paragraph",
-        "text": "Pick the one metric that proves you actually do, and review it weekly. Repeat purchase rate. Time to first value. Net promoter score. If you can’t see it improving, you’re customer-curious at best."
-      },
-      {
-        "type": "heading",
-        "text": "2. Think in years, not quarters.",
-        "id": "part-2"
-      },
-      {
-        "type": "paragraph",
-        "text": "Before every meaningful decision, write down where you want the business to be in five years. Make the choice that gets you there, even if this month looks worse. The hard part is convincing your team that ugly short-term optics are the price of compounding."
-      },
-      {
-        "type": "heading",
-        "text": "3. Make calculated bold bets.",
-        "id": "part-3"
-      },
-      {
-        "type": "paragraph",
-        "text": "List the three biggest bets you’re running right now. Rank them by upside, downside, and reversibility. Most founders kill the bold ones to protect a quarterly number. The 1997 letter argues for the opposite: take the asymmetric bet, accept the loss, redeploy."
-      },
-      {
-        "type": "heading",
-        "text": "4. Treat cash flow as the scoreboard.",
-        "id": "part-4"
-      },
-      {
-        "type": "paragraph",
-        "text": "GAAP earnings can flatter a broken business. Free cash flow can’t. Build the dashboard your CFO would build if they had to defend the company in front of Bezos."
-      },
-      {
-        "type": "heading",
-        "text": "5. Set the hiring bar painfully high.",
-        "id": "part-5"
-      },
-      {
-        "type": "paragraph",
-        "text": "Bezos called hiring the single most important element of Amazon’s success. The actionable version: before every new hire, write down what you’d lose by hiring no one for another month. If the honest answer is “not much,” you’re hiring out of habit."
-      },
-      {
-        "type": "paragraph",
-        "text": "The reason the letter still works isn’t that the principles are unique. Plenty of founders believe in long-term thinking and customer obsession."
-      },
-      {
-        "type": "paragraph",
-        "text": "It works because Bezos wrote them down, attached them to the public record, and made the company keep clearing them every year."
-      },
-      {
-        "type": "paragraph",
-        "text": "Most founders skip that last part."
-      },
-      {
-        "type": "paragraph",
-        "text": "Write your principles this quarter. Publish them."
-      },
-      {
-        "type": "paragraph",
-        "text": "A contract with the future starts the day someone else can hold you to it."
-      }
-    ]
-  },
-  {
-    "id": 43,
-    "slug": "jensen-huang-sega-and-the-deal-that-kept-nvidia-alive",
-    "title": "Jensen Huang, Sega, and the deal that kept NVIDIA alive",
-    "headline": [
-      "Say the difficult thing.",
-      "Give the future a chance."
-    ],
-    "company": "NVIDIA",
-    "category": "Resilience",
-    "lesson": "Honesty about what is failing can create room to build what comes next.",
-    "excerpt": "In 1996, a 33-year-old CEO flew to Tokyo to tell his biggest customer three things. Each one was more humiliating than the last.",
-    "minutes": 2,
-    "isExcerpt": false,
-    "source": {
-      "label": "Supplied screenshots",
-      "detail": "IMG_6522.jpg; IMG_6523.jpg"
-    },
-    "provenance": "Transcribed from user-supplied screenshots, 2026-10-23; overlapping text and interface controls removed. Editorial headline and Qwarter takeaway added. Relative dates and numerical claims retain the wording of the supplied post.",
-    "hero": 0,
-    "images": [
-      {
-        "src": "/media/stories/additions/jensen-huang-archive.webp",
-        "width": 700,
-        "height": 700,
-        "alt": "Jensen Huang seated in a graphics demonstration area with computer displays behind him",
-        "caption": "Jensen Huang in an archival photograph matching the image in the supplied post. The photographer and photograph date could not be confirmed.",
-        "credit": "Archive copy via Ticker History; original photographer unidentified",
-        "source": "https://x.com/TickerHistory/status/1760358604303954378",
-        "originalUrl": "https://pbs.twimg.com/media/GG4LbASX0AAhAXg.png"
-      }
-    ],
-    "blocks": [
-      {
-        "type": "paragraph",
-        "text": "In 1996, a 33-year-old CEO flew to Tokyo to tell his biggest customer three things. Each one was more humiliating than the last."
-      },
-      {
-        "type": "paragraph",
-        "text": "First: the technology we promised you doesn’t work."
-      },
-      {
-        "type": "paragraph",
-        "text": "Second: cancel the contract, because we’d just waste the rest of your money."
-      },
-      {
-        "type": "paragraph",
-        "text": "Third: we still need the final $5 million, or we vaporize overnight."
-      },
-      {
-        "type": "paragraph",
-        "text": "That was Jensen Huang. The customer was Shoichiro Irimajiri, then president of Sega."
-      },
-      {
-        "type": "paragraph",
-        "text": "Jensen had laid off more than half of Nvidia that year, from 100 employees down to 40. About thirty days of cash left."
-      },
-      {
-        "type": "paragraph",
-        "text": "He’s said many times that he was embarrassed to ask. Irimajiri took a few days, then agreed to all three. The $5 million, converted to equity, kept Nvidia alive."
-      },
-      {
-        "type": "paragraph",
-        "text": "Twelve months later, the RIVA 128 shipped. Jensen built it in six months instead of the standard eighteen to twenty-four by spending most of their remaining cash on a chip emulator instead of multiple physical tape-outs. It sold a million units in four months. When it launched, Nvidia had one month of payroll left."
-      },
-      {
-        "type": "paragraph",
-        "text": "At the launch, Jensen handed every employee a crisp one-dollar bill."
-      },
-      {
-        "type": "paragraph",
-        "text": "Then he started opening every monthly all-hands with the same line:"
-      },
-      {
-        "type": "paragraph",
-        "text": "“We’re thirty days from going out of business.”"
-      },
-      {
-        "type": "paragraph",
-        "text": "He’s used it for thirty-three years."
-      },
-      {
-        "type": "paragraph",
-        "text": "The most valuable chip company in history began with the three sentences its founder was embarrassed to say out loud."
-      },
-      {
-        "type": "paragraph",
-        "text": "P.S. Sega sold their stake for $15 million at Nvidia’s 1999 IPO. Jensen has said that, had they held it, the stake would be worth around $1 trillion today."
       }
     ]
   }
