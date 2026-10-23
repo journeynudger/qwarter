@@ -143,7 +143,7 @@ site's project pages (valerin-umber.vercel.app/our-work/south-howard-flood-relie
 Mouthwash's Seed and Casa), then for rich studies of JR Pugh (the splash, every page, the reels), Butter (the
 store's film used as the store uses it, a Visit, the packaging and the brand), Serein (the brand, withserein.com,
 the app), The Room, his artist site and Bambino, and Thanh Ta from its case study alone, with its logo and no
-link. So `/work/<slug>/` is a case study wherever `content/studies/<slug>.json` exists (all 22 projects now),
+link. So `/work/<slug>/` is a case study wherever `content/studies/<slug>.json` exists (all 21 projects now),
 in place of Depo Luxe's project player; the carried pages' links to a study carry `data-internal`, which
 Cuchillo's click handler leaves to the browser, so the page loads whole.
 
@@ -426,7 +426,8 @@ old URLs (it fails rather than guess).
    more and epicesg.com answers 503, so Thanh Ta, Titanium Motor Arts, Wood Company and EPIC ESG show the
    pictures their case studies show; iotechprotect.com answers the runner with "Access Denied" (a
    firewall that refuses GitHub's runners even to a desktop browser's name; tried twice). Kind Footprint's case
-   study names no site, but kindfootprint.org is it (its title says so) and is photographed. If any of the
+   study names no site, but kindfootprint.org is it (its title says so); it was photographed, and is withdrawn
+   for now (question 14). If any of the
    dead ones has a new address, one line in the shoot list brings its pictures in.
 4. **Butter, Core Rhythm Fitness, Beacon.** qwarter.com's home page links the three with a picture and
    (for Butter) a line, no year. Butter's Shopify store is titled "My Store" (its title was never set;
@@ -452,7 +453,7 @@ old URLs (it fails rather than guess).
 11. **The home's strip** shows the featured projects (2026-10-23): Butter, JR Pugh, Stairway, Serein, Journey, The Room,
     Painter, Fonts designed, Thanh Ta, Titanium Motor Arts, Beacon, in the catalogue's order; the rest (Mzaero, Ion
     Insurance, Pineapple Club, Boujee Healer, Core Rhythm Fitness, IoTech, 20/20 Insights, Wood Company, EPIC ESG,
-    Ekaterina Sky, Kind Footprint) are on Work only. Serein stayed on the home as yours; say the word on any of them, and on
+    Ekaterina Sky) are on Work only; Kind Footprint is withdrawn for now (question 14). Serein stayed on the home as yours; say the word on any of them, and on
     the order (`FIRST` in `scripts/port/catalogue.mjs`, `featured` in work.json).
 12. **The generated studies' words are qwarter.com's and the sites' own**, so where qwarter.com's challenge and
     solution were pasted from another client's page (Boujee Healer and Pineapple Club share theirs, 20/20
@@ -460,3 +461,10 @@ old URLs (it fails rather than guess).
     real text for any of them, an override is one file.
 13. **The Oct 6 porting prompt** ("Next/Vercel/WordPress") was not in `journeynudger/mylife` on GitHub; this
    port follows journeysite's CLAUDE.md and Verowater's `docs/site-kit/sources/PORT-PLAYBOOK-v1.md` instead.
+14. **Kind Footprint is withdrawn** (Lorenzo, 2026-10-23: "remove kindfootprint for now"). `WITHDRAWN` in
+    `scripts/port/catalogue.mjs` keeps it out of the catalogue, and its study, pictures and recordings left the tree
+    with it (main's `3faeb72` still holds them, `.port-cache/shots/kind-footprint` its shoot); `/work/kind-footprint/`
+    answers 404. To bring it back: take it off `WITHDRAWN`, `git checkout 3faeb72 -- public/media/work/kind-footprint
+    content/studies/kind-footprint.json content/studies/_pictures/kind-footprint.json`, then `swaps-from-content.mjs`,
+    `swap.mjs`, `video.mjs kind-footprint` (its 16:9 film; the runner's film of its home showed an embed's "Sorry,
+    we're having a little trouble" box where the browser got no video), `studies.mjs kind-footprint`, `npm test`.

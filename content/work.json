@@ -754,40 +754,6 @@
       "featured": false
     },
     {
-      "slug": "kind-footprint",
-      "name": "Kind Footprint",
-      "url": "https://kindfootprint.org",
-      "line": "Non-Profit",
-      "made": "Website design & web app integration",
-      "year": "2020",
-      "facts": {
-        "industry type": "Non-Profit",
-        "location": "",
-        "services": "Humanitarian Aid",
-        "organization size": "40+ Volunteers"
-      },
-      "about": "Kind Footprint’s mission is to unite the global nonprofit community by providing resources and creating campaigns focused on social justice issues serving women and children worldwide.",
-      "cover": "home",
-      "pages": [
-        {
-          "name": "home",
-          "title": "Home"
-        },
-        {
-          "name": "about-us",
-          "title": "About Kind Footprint"
-        },
-        {
-          "name": "faq",
-          "title": "FAQ"
-        }
-      ],
-      "fromWordPress": true,
-      "source": "name, service line, year and facts from qwarter.com/portfolio/kind-footprint/ (WordPress page 2742, modified 2026-09-16); line: the case study's Industry Type and Location; live site: the one photographed, kindfootprint.org; pictures: kindfootprint.org photographed on 2026-10-22 (3 pages, titles the site's own)",
-      "numeral": "XIX",
-      "featured": false
-    },
-    {
       "slug": "pineapple-club",
       "name": "Pineapple Club",
       "url": "https://pineappleclub.com",
@@ -822,7 +788,7 @@
       ],
       "fromWordPress": true,
       "source": "name, service line, year, live site and facts from qwarter.com/portfolio/pineapple-club/ (WordPress page 245312, modified 2026-09-16); line from qwarter.com/portfolio/ (its slider); pictures: pineappleclub.com photographed on 2026-10-22 (4 pages, titles the site's own)",
-      "numeral": "XX",
+      "numeral": "XIX",
       "featured": false
     },
     {
@@ -845,7 +811,7 @@
       ],
       "fromWordPress": true,
       "source": "qwarter.com's home page, Selected Work (WordPress page 246530, modified 2026-09-17): linked as ignitebeacon.com, with a picture and no words; name: the site's own title \"beacon — the night awaits\"; line: the site's own description; pictures: ignitebeacon.com photographed on 2026-10-22 (2 pages)",
-      "numeral": "XXI",
+      "numeral": "XX",
       "featured": true,
       "film": {
         "source": "ignitebeacon.com filmed scrolling by the capture workflow (scripts/work/scrollfilm.mjs on a GitHub runner), its pinned sections as the browser shows them (Lorenzo, 2026-10-23: cleaner)"
@@ -879,7 +845,7 @@
       ],
       "fromWordPress": true,
       "source": "qwarter.com's home page, Selected Work (WordPress page 246530, modified 2026-09-17): linked as corerhythmfitness.net, with a picture and no words; name: the site's own title \"CORE RHYTHM FITNESS\"; line: the site's own title; pictures: corerhythmfitness.net photographed on 2026-10-22 (4 pages)",
-      "numeral": "XXII",
+      "numeral": "XXI",
       "featured": false
     }
   ],

@@ -568,23 +568,6 @@
         {
           "img": {
             "attr": {
-              "src": "/media/work/kind-footprint/cover.jpg",
-              "data-src": "/media/work/kind-footprint/cover@2x.jpg",
-              "alt": "Kind Footprint",
-              "width": "1440",
-              "height": "900"
-            }
-          },
-          "video": {
-            "attr": {
-              "src": "/media/work/kind-footprint/scroll.mp4"
-            }
-          },
-          "source": "content/work.json kind-footprint: its cover and film"
-        },
-        {
-          "img": {
-            "attr": {
               "src": "/media/work/pineapple-club/cover.jpg",
               "data-src": "/media/work/pineapple-club/cover@2x.jpg",
               "alt": "Pineapple Club",
@@ -938,23 +921,6 @@
             }
           },
           "source": "content/work.json boujee-healer: its cover and film"
-        },
-        {
-          "img": {
-            "attr": {
-              "src": "/media/work/kind-footprint/cover.jpg",
-              "data-src": "/media/work/kind-footprint/cover@2x.jpg",
-              "alt": "Kind Footprint",
-              "width": "1440",
-              "height": "900"
-            }
-          },
-          "video": {
-            "attr": {
-              "src": "/media/work/kind-footprint/scroll.mp4"
-            }
-          },
-          "source": "content/work.json kind-footprint: its cover and film"
         },
         {
           "img": {
@@ -1502,39 +1468,12 @@
         {
           "a": {
             "attr": {
-              "href": "/work/kind-footprint/",
-              "data-internal": ""
-            }
-          },
-          ".__roman": {
-            "text": "XIX"
-          },
-          ".__client": {
-            "text": "Kind Footprint"
-          },
-          ".__title": {
-            "text": "Kind Footprint",
-            "attr": {
-              "href": null
-            }
-          },
-          ".__director": {
-            "text": "Website design & web app integration",
-            "attr": {
-              "href": null
-            }
-          },
-          "source": "content/work.json kind-footprint: numeral, name, made"
-        },
-        {
-          "a": {
-            "attr": {
               "href": "/work/pineapple-club/",
               "data-internal": ""
             }
           },
           ".__roman": {
-            "text": "XX"
+            "text": "XIX"
           },
           ".__client": {
             "text": "Pineapple Club"
@@ -1561,7 +1500,7 @@
             }
           },
           ".__roman": {
-            "text": "XXI"
+            "text": "XX"
           },
           ".__client": {
             "text": "Beacon"
@@ -1588,7 +1527,7 @@
             }
           },
           ".__roman": {
-            "text": "XXII"
+            "text": "XXI"
           },
           ".__client": {
             "text": "Core Rhythm Fitness"
@@ -2096,39 +2035,12 @@
         {
           "a": {
             "attr": {
-              "href": "/work/kind-footprint/",
-              "data-internal": ""
-            }
-          },
-          ".__roman": {
-            "text": "XIX"
-          },
-          ".__client": {
-            "text": "Kind Footprint"
-          },
-          ".__title": {
-            "text": "Kind Footprint",
-            "attr": {
-              "href": null
-            }
-          },
-          ".__director": {
-            "text": "Website design & web app integration",
-            "attr": {
-              "href": null
-            }
-          },
-          "source": "content/work.json kind-footprint: numeral, name, made"
-        },
-        {
-          "a": {
-            "attr": {
               "href": "/work/pineapple-club/",
               "data-internal": ""
             }
           },
           ".__roman": {
-            "text": "XX"
+            "text": "XIX"
           },
           ".__client": {
             "text": "Pineapple Club"
@@ -2155,7 +2067,7 @@
             }
           },
           ".__roman": {
-            "text": "XXI"
+            "text": "XX"
           },
           ".__client": {
             "text": "Beacon"
@@ -2182,7 +2094,7 @@
             }
           },
           ".__roman": {
-            "text": "XXII"
+            "text": "XXI"
           },
           ".__client": {
             "text": "Core Rhythm Fitness"
