@@ -260,7 +260,7 @@
     "isExcerpt": false,
     "source": {
       "label": "Supplied screenshot",
-      "detail": "IMG_5168.jpg"
+      "detail": "IMG_5168.jpg; duplicate supplied screenshot IMG_6512.jpg"
     },
     "provenance": "User-supplied reading collection, 2026-10-23. Sponsored sections, newsletter navigation and emojis removed. Editorial headings and Qwarter takeaway added for this Stories collection.",
     "hero": 0,
@@ -386,7 +386,7 @@
     "isExcerpt": false,
     "source": {
       "label": "Supplied screenshot",
-      "detail": "IMG_5170.jpg"
+      "detail": "IMG_5170.jpg; duplicate supplied screenshot IMG_6515.jpg"
     },
     "provenance": "User-supplied reading collection, 2026-10-23. Sponsored sections, newsletter navigation and emojis removed. Editorial headings and Qwarter takeaway added for this Stories collection.",
     "hero": 0,
@@ -483,6 +483,17 @@
         "source": "https://www.bgc.bard.edu/research/articles/87/apple-imac-g3-bondi-blue",
         "originalUrl": "https://www.bgc.bard.edu/images/IE-003_apple.jpg%2Coriginal",
         "credit": "Bard Graduate Center"
+      },
+      {
+        "src": "/media/stories/additions/jony-ive-jon-rubinstein-imacs.webp",
+        "width": 1086,
+        "height": 1607,
+        "alt": "Jony Ive and Jon Rubinstein with five colourful iMac G3 computers",
+        "caption": "Jony Ive, left, and Jon Rubinstein with five iMacs at Apple’s headquarters in Cupertino.",
+        "credit": "Susan Ragan / AP; photograph supplied by the reader, attribution verified via ORF and AP coverage",
+        "date": "19 March 1999",
+        "source": "https://orf.at/stories/3128364/",
+        "originalUrl": "User-supplied IMG_6516.jpg"
       }
     ],
     "blocks": [
@@ -505,6 +516,10 @@
       {
         "type": "paragraph",
         "text": "Plenty of companies copied the see-through plastic afterward. Most skipped the factory visits and the extra cost that made it happen, and their versions looked cheap. The teams who got it right did the unglamorous, boring, on-the-ground work first."
+      },
+      {
+        "type": "image",
+        "image": 2
       }
     ]
   },
@@ -6234,6 +6249,493 @@
       {
         "type": "paragraph",
         "text": "Because Trader Joe’s has mastered the art of branding, they can charge more than the average for a product with their logo."
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "slug": "tony-fadell-and-the-decade-before-the-ipod",
+    "title": "Tony Fadell and the decade before the iPod",
+    "headline": [
+      "A decade of failure.",
+      "A product that changed everything."
+    ],
+    "company": "Apple",
+    "category": "Craft",
+    "lesson": "Experience can compound before the right problem arrives.",
+    "excerpt": "In 2000, a hardware entrepreneur pitched venture capital firms 80 times and got rejected all 80 times. The world-changing product that resulted from all of that “failure” turns 25 today.",
+    "minutes": 2,
+    "isExcerpt": false,
+    "source": {
+      "label": "Supplied screenshots",
+      "detail": "IMG_6511.PNG"
+    },
+    "provenance": "Transcribed from user-supplied screenshots, 2026-10-23; overlapping text and interface controls removed. Editorial headline and Qwarter takeaway added. Relative dates and numerical claims retain the wording of the supplied post.",
+    "hero": 0,
+    "images": [
+      {
+        "src": "/media/stories/additions/ipod-first-generation.webp",
+        "width": 1306,
+        "height": 932,
+        "alt": "First-generation Apple iPod with mechanical scroll wheel",
+        "caption": "The original iPod, introduced on 23 October 2001.",
+        "credit": "Apple / Apple Newsroom",
+        "date": "Product introduced 2001; image published 10 May 2022",
+        "source": "https://www.apple.com/newsroom/2022/05/the-music-lives-on/",
+        "originalUrl": "https://www.apple.com/newsroom/images/product/ipod/standard/Apple-iPod-end-of-life-iPod-first-generation_carousel.jpg.large_2x.jpg"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "In 2000, a hardware entrepreneur pitched venture capital firms 80 times and got rejected all 80 times. The world-changing product that resulted from all of that “failure” turns 25 today."
+      },
+      {
+        "type": "paragraph",
+        "text": "The entrepreneur was Tony Fadell, and the product was the iPod. His company, Fuse, had developed a jukebox that could rip songs from CDs to a hard drive, but in January 2001, they were running out of money. That month, Jon Rubinstein, who headed hardware at Apple, called Fadell on a ski lift. Apple wanted to make a music player."
+      },
+      {
+        "type": "paragraph",
+        "text": "Fadell took the six-week contract job and returned with three foam-core mockups, each weighted with lead fishing weights so it would feel as heavy as a real device in the hand. Apple picked one, and hired him to develop it."
+      },
+      {
+        "type": "paragraph",
+        "text": "Apple’s engineers were busy working on the Mac, so Fadell recruited people he knew to finish his project: engineers he had worked with at Fuse, and veterans of the General Magic and Philips teams, where he had spent the 1990s shipping handheld devices critics admired, but that sold poorly. He had joined General Magic in 1991, fresh out of college, as the kid on the team who wired up the demos by hand."
+      },
+      {
+        "type": "paragraph",
+        "text": "He came, of course, with a diagnosis for why things hadn’t worked. “A lack of discipline about who our customer was, what the product was we were making, what the timeline was, and how we were going to get it to market,” Fadell said about his time at General Magic. The iPod had one customer, one product, and a Christmas deadline. Apple introduced it nine months after that phone call."
+      },
+      {
+        "type": "paragraph",
+        "text": "Fadell calls that earlier period “a decade of failure.”"
+      },
+      {
+        "type": "paragraph",
+        "text": "But it produced a team bonded by adversity, and a precise understanding of the mistake to avoid. When the right problem arrived at Apple, he’d been preparing for it for a decade."
+      },
+      {
+        "type": "paragraph",
+        "text": "Video credit in the supplied post: General Magic (2018)."
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "slug": "dario-amodei-and-looking-beyond-the-resume",
+    "title": "Dario Amodei and looking beyond the resume",
+    "headline": [
+      "Look past the résumé.",
+      "Find the person."
+    ],
+    "company": "Anthropic",
+    "category": "Direction",
+    "lesson": "Hire for what someone can do, and leave room for a different way of seeing.",
+    "excerpt": "In late 2014, the guy who now runs a $965 billion AI company had never worked in AI.",
+    "minutes": 2,
+    "isExcerpt": false,
+    "source": {
+      "label": "Supplied screenshots",
+      "detail": "IMG_6513.PNG; IMG_6514.jpg"
+    },
+    "provenance": "Transcribed from user-supplied screenshots, 2026-10-23; overlapping text and interface controls removed. Editorial headline and Qwarter takeaway added. Relative dates and numerical claims retain the wording of the supplied post.",
+    "hero": 0,
+    "images": [
+      {
+        "src": "/media/stories/additions/dario-amodei.webp",
+        "width": 640,
+        "height": 800,
+        "alt": "Dario Amodei, co-founder of Anthropic",
+        "caption": "Dario Amodei in Anthropic’s official leadership portrait. Photograph date not stated by the source.",
+        "credit": "Anthropic; individual photographer not stated",
+        "source": "https://www.anthropic.com/company/leadership",
+        "originalUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/b9f2de42abe07215bc6f3e1498765fa0d3d58eaf-640x800.webp?fm=webp"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "In late 2014, the guy who now runs a $965 billion AI company had never worked in AI."
+      },
+      {
+        "type": "paragraph",
+        "text": "Dario Amodei had spent a decade on physics and biology: a Princeton PhD recording how roughly 200 nerve cells in a piece of retinal tissue fire together, then a postdoc in a cancer lab. He joined Andrew Ng’s team at Baidu that November. Greg Diamos (a colleague there) said the team saw a biology guy with no machine learning background. Then Diamos read the code Dario had written at the cancer lab and saw an unusually great programmer."
+      },
+      {
+        "type": "paragraph",
+        "text": "At Baidu, his job was to build the best speech recognition system he could. The field’s view, in his telling, was that the algorithms needed to succeed hadn’t been invented yet. He didn’t know enough to agree, so he just tried the obvious things: make the model bigger, feed it more speech data, train it longer, and watch what happened."
+      },
+      {
+        "type": "paragraph",
+        "text": "Every time he made the model bigger or added more data, it transcribed speech more accurately. He figured the experts were probably right, and he was missing something, but he kept going anyway. Years later, he called finding that pattern “almost like beginner’s luck.”"
+      },
+      {
+        "type": "paragraph",
+        "text": "He spent the next several years betting on that “luck.” His 2017 memo argued that bigger models and more data could improve AI beyond speech recognition. A 2020 OpenAI paper quantified those gains as “scaling laws”: predictable improvements from increasing model size and training data. That research helped guide GPT-3’s development. He later co-founded Anthropic, continuing to build on that approach."
+      },
+      {
+        "type": "paragraph",
+        "text": "I really recommend thinking about this story when making your next hire. None of that would have happened if Diamos screened for Dario the resume instead of Dario the person. He looked at what Amodei could actually do with a computer, saw raw talent, and hired based on that."
+      },
+      {
+        "type": "paragraph",
+        "text": "When the talent is real, the missing credentials often just don’t matter at all. And even better, those hires often don’t suffer from the same “supposed to work this way” that holds experienced teams back from seeing a breakthrough right in front of them."
+      },
+      {
+        "type": "paragraph",
+        "text": "Maybe your next breakthrough comes from “beginner’s luck.”"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "slug": "cristiano-ronaldo-and-the-work-that-compounds",
+    "title": "Cristiano Ronaldo and the work that compounds",
+    "headline": [
+      "The talent was there.",
+      "The work kept compounding."
+    ],
+    "company": "Cristiano Ronaldo",
+    "category": "Craft",
+    "lesson": "Small acts of practice can become a lifetime of preparation.",
+    "excerpt": "He was 12 years old, alone, 535 miles from home, and the other boys mocked his island accent.",
+    "minutes": 2,
+    "isExcerpt": false,
+    "source": {
+      "label": "Supplied screenshots",
+      "detail": "IMG_6517.jpg"
+    },
+    "provenance": "Transcribed from user-supplied screenshots, 2026-10-23; overlapping text and interface controls removed. Editorial headline and Qwarter takeaway added. Relative dates and numerical claims retain the wording of the supplied post.",
+    "hero": 0,
+    "images": [
+      {
+        "src": "/media/stories/additions/cristiano-ronaldo-2018.webp",
+        "width": 540,
+        "height": 942,
+        "alt": "Cristiano Ronaldo wearing a Real Madrid training jacket in Kyiv in 2018",
+        "caption": "Cristiano Ronaldo in Kyiv during the 2018 Champions League final coverage. Re-encoded as WebP; framing unchanged.",
+        "credit": "Anton Zaytsev / soccer.ru, via Wikimedia Commons",
+        "date": "27 May 2018, according to the source metadata",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "source": "https://commons.wikimedia.org/wiki/File:Cristiano_Ronaldo_Real_Madrid.jpg",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Cristiano_Ronaldo_Real_Madrid.jpg"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "He was 12 years old, alone, 535 miles from home, and the other boys mocked his island accent."
+      },
+      {
+        "type": "paragraph",
+        "text": "In their book on Ronaldo and Messi, Joshua Robinson and Jonathan Clegg describe what Cristiano Ronaldo did next at the Sporting academy."
+      },
+      {
+        "type": "paragraph",
+        "text": "He was barred from the gym, because the academy did not let young players lift. So he snuck out at night to do it anyway. He got caught and was given detention."
+      },
+      {
+        "type": "paragraph",
+        "text": "Then he started using buckets of water in the shower as weights. When the buckets were taken away, he strapped weights to his ankles. When the ball was taken away to stop him overdoing it, he juggled oranges from a fruit bowl."
+      },
+      {
+        "type": "paragraph",
+        "text": "That is the boy. The man arrived in Houston on Tuesday, 41 years old. Portugal beat Uzbekistan 5-0. He scored in the 6th minute off a Joao Cancelo cross, then buried a Bruno Fernandes through ball before halftime."
+      },
+      {
+        "type": "paragraph",
+        "text": "That second goal was his 10th career World Cup goal, passing Eusebio as Portugal’s all-time leading scorer at the tournament. With that brace, he became the first footballer in history, man or woman, to score in 6 different World Cups: 2006, 2010, 2014, 2018, 2022, and 2026."
+      },
+      {
+        "type": "paragraph",
+        "text": "Messi has played in 6 World Cups too. He did not score in 2010. Ronaldo found the net in all 6. Ferguson signed him from Sporting in 2003 at 18, for around £12 million."
+      },
+      {
+        "type": "paragraph",
+        "text": "The talent was always there."
+      },
+      {
+        "type": "paragraph",
+        "text": "The buckets and the oranges and the ankle weights are the hard work that compounded for 30 years."
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "slug": "lionel-messi-and-the-napkin-agreement",
+    "title": "Lionel Messi and the napkin agreement",
+    "headline": [
+      "A decisive yes.",
+      "Written on a napkin."
+    ],
+    "company": "Lionel Messi",
+    "category": "Direction",
+    "lesson": "Conviction becomes useful when someone is willing to put it into action.",
+    "excerpt": "A paper napkin once sold at auction for almost a million dollars. $968,600.",
+    "minutes": 2,
+    "isExcerpt": false,
+    "source": {
+      "label": "Supplied screenshots",
+      "detail": "IMG_6518.jpg"
+    },
+    "provenance": "Transcribed from user-supplied screenshots, 2026-10-23; overlapping text and interface controls removed. Editorial headline and Qwarter takeaway added. Relative dates and numerical claims retain the wording of the supplied post.",
+    "hero": 0,
+    "images": [
+      {
+        "src": "/media/stories/additions/messi-napkin-agreement.webp",
+        "width": 1000,
+        "height": 750,
+        "alt": "Framed napkin bearing the December 2000 agreement to sign Lionel Messi",
+        "caption": "The napkin agreement dated 14 December 2000, shown in coverage of the May 2024 auction.",
+        "credit": "AP, via NPR / Georgia Public Broadcasting; individual photographer not named in this source",
+        "date": "Published 18 May 2024; photograph date unconfirmed",
+        "source": "https://www.gpb.org/news/2024/05/18/napkin-securing-lionel-messis-first-contract-fetches-nearly-1-million-at-auction",
+        "originalUrl": "https://www.gpb.org/sites/default/files/styles/flexheight/public/npr_story_images/2024/05/18/ap24138461864095-994644ac57f9749bfe95d409e5f49bf77ae117c3.jpg?itok=b8pTWNQX"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "A paper napkin once sold at auction for almost a million dollars. $968,600."
+      },
+      {
+        "type": "paragraph",
+        "text": "Written on it was a date in December 2000, a few lines of Spanish, and a signature that bound one of the biggest clubs in the world to a thirteen-year-old boy."
+      },
+      {
+        "type": "paragraph",
+        "text": "That boy was Lionel Messi. At eleven, doctors found his body had stopped making enough growth hormone. The medicine cost close to $1,000 a month and had to be injected into his own legs, by him, every night. His boyhood club in Argentina couldn’t cover it. A bigger, wealthier club had its chance and let it go."
+      },
+      {
+        "type": "paragraph",
+        "text": "So his father flew him to Barcelona for a two-week trial so quietly that back home the rumor was he’d fallen ill with hepatitis. Barcelona’s technical director watched the boy with a ball at his feet for a few minutes and stopped caring what the spreadsheet said."
+      },
+      {
+        "type": "paragraph",
+        "text": "When the boardroom hesitated, he asked a waiter for a napkin and wrote out the deal himself. The text promised to sign Messi, and I quote, “regardless of any dissenting opinions.” That is what conviction actually looks like. A decisive yes, in writing, before the rest of the room has caught up."
+      },
+      {
+        "type": "paragraph",
+        "text": "Conviction cannot be delegated and it cannot be faked. And a napkin worth almost a million dollars is the proof that the biggest returns come from the talent the machine cannot price yet."
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "slug": "amazon-and-the-principles-that-outlast-a-quarter",
+    "title": "Amazon and the principles that outlast a quarter",
+    "headline": [
+      "Write the principles.",
+      "Keep clearing the bar."
+    ],
+    "company": "Amazon",
+    "category": "Direction",
+    "lesson": "A principle gains force when people can hold you to it.",
+    "excerpt": "Most CEO letters are forgotten the week they’re filed.",
+    "minutes": 2,
+    "isExcerpt": false,
+    "source": {
+      "label": "Supplied screenshots",
+      "detail": "IMG_6519.jpg; IMG_6520.jpg; supporting image IMG_6521.jpg"
+    },
+    "provenance": "Transcribed from user-supplied screenshots, 2026-10-23; overlapping text and interface controls removed. Editorial headline and Qwarter takeaway added. Relative dates and numerical claims retain the wording of the supplied post.",
+    "hero": 0,
+    "images": [
+      {
+        "src": "/media/stories/additions/amazon-1997-letter.webp",
+        "width": 1280,
+        "height": 720,
+        "alt": "Amazon.com heading for the 1997 letter to shareholders",
+        "caption": "The heading of Amazon’s 1997 shareholder letter, reprinted alongside its 2021 letter.",
+        "credit": "Amazon / About Amazon",
+        "date": "Letter 1997; this reproduction published in 2022",
+        "source": "https://www.aboutamazon.com/news/company-news/2021-letter-to-shareholders",
+        "originalUrl": "https://assets.aboutamazon.com/dims4/default/54ac031/2147483647/strip/true/crop/1280x720+0+0/resize/1280x720!/quality/90/?url=https%3A%2F%2Fassets.aboutamazon.com%2F04%2Fba%2Fee1dd74747198610bf3117e07552%2Fblack-and-white-amazon.com%2520shareholder%2520letter.jpg"
+      },
+      {
+        "src": "/media/stories/additions/amazon-supplied-letter-excerpt.webp",
+        "width": 1320,
+        "height": 1650,
+        "alt": "Supplied excerpt showing Andy Jassy’s sign-off and the reprinted 1997 Amazon shareholder letter",
+        "caption": "The supplied letter excerpt shows the transition from Andy Jassy’s sign-off to the original 1997 letter. The year of the surrounding letter is not visible.",
+        "credit": "Amazon; screenshot supplied by the reader",
+        "source": "https://www.aboutamazon.com/news/company-news/amazon-ceo-andy-jassy-2024-letter-to-shareholders",
+        "originalUrl": "User-supplied IMG_6521.jpg"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Most CEO letters are forgotten the week they’re filed."
+      },
+      {
+        "type": "paragraph",
+        "text": "Jeff Bezos wrote one in 1997 that Amazon still publishes verbatim every year. Twenty-eight years and counting."
+      },
+      {
+        "type": "paragraph",
+        "text": "It’s a short list of operating principles, in plain language, that the company has had to clear every quarter since."
+      },
+      {
+        "type": "paragraph",
+        "text": "Five of them still work as a checklist any founder can run their business against today."
+      },
+      {
+        "type": "heading",
+        "text": "1. Obsess over customers.",
+        "id": "part-1"
+      },
+      {
+        "type": "paragraph",
+        "text": "Pick the one metric that proves you actually do, and review it weekly. Repeat purchase rate. Time to first value. Net promoter score. If you can’t see it improving, you’re customer-curious at best."
+      },
+      {
+        "type": "heading",
+        "text": "2. Think in years, not quarters.",
+        "id": "part-2"
+      },
+      {
+        "type": "paragraph",
+        "text": "Before every meaningful decision, write down where you want the business to be in five years. Make the choice that gets you there, even if this month looks worse. The hard part is convincing your team that ugly short-term optics are the price of compounding."
+      },
+      {
+        "type": "heading",
+        "text": "3. Make calculated bold bets.",
+        "id": "part-3"
+      },
+      {
+        "type": "paragraph",
+        "text": "List the three biggest bets you’re running right now. Rank them by upside, downside, and reversibility. Most founders kill the bold ones to protect a quarterly number. The 1997 letter argues for the opposite: take the asymmetric bet, accept the loss, redeploy."
+      },
+      {
+        "type": "heading",
+        "text": "4. Treat cash flow as the scoreboard.",
+        "id": "part-4"
+      },
+      {
+        "type": "paragraph",
+        "text": "GAAP earnings can flatter a broken business. Free cash flow can’t. Build the dashboard your CFO would build if they had to defend the company in front of Bezos."
+      },
+      {
+        "type": "heading",
+        "text": "5. Set the hiring bar painfully high.",
+        "id": "part-5"
+      },
+      {
+        "type": "paragraph",
+        "text": "Bezos called hiring the single most important element of Amazon’s success. The actionable version: before every new hire, write down what you’d lose by hiring no one for another month. If the honest answer is “not much,” you’re hiring out of habit."
+      },
+      {
+        "type": "paragraph",
+        "text": "The reason the letter still works isn’t that the principles are unique. Plenty of founders believe in long-term thinking and customer obsession."
+      },
+      {
+        "type": "paragraph",
+        "text": "It works because Bezos wrote them down, attached them to the public record, and made the company keep clearing them every year."
+      },
+      {
+        "type": "paragraph",
+        "text": "Most founders skip that last part."
+      },
+      {
+        "type": "paragraph",
+        "text": "Write your principles this quarter. Publish them."
+      },
+      {
+        "type": "paragraph",
+        "text": "A contract with the future starts the day someone else can hold you to it."
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "slug": "jensen-huang-sega-and-the-deal-that-kept-nvidia-alive",
+    "title": "Jensen Huang, Sega, and the deal that kept NVIDIA alive",
+    "headline": [
+      "Say the difficult thing.",
+      "Give the future a chance."
+    ],
+    "company": "NVIDIA",
+    "category": "Resilience",
+    "lesson": "Honesty about what is failing can create room to build what comes next.",
+    "excerpt": "In 1996, a 33-year-old CEO flew to Tokyo to tell his biggest customer three things. Each one was more humiliating than the last.",
+    "minutes": 2,
+    "isExcerpt": false,
+    "source": {
+      "label": "Supplied screenshots",
+      "detail": "IMG_6522.jpg; IMG_6523.jpg"
+    },
+    "provenance": "Transcribed from user-supplied screenshots, 2026-10-23; overlapping text and interface controls removed. Editorial headline and Qwarter takeaway added. Relative dates and numerical claims retain the wording of the supplied post.",
+    "hero": 0,
+    "images": [
+      {
+        "src": "/media/stories/additions/jensen-huang-archive.webp",
+        "width": 700,
+        "height": 700,
+        "alt": "Jensen Huang seated in a graphics demonstration area with computer displays behind him",
+        "caption": "Jensen Huang in an archival photograph matching the image in the supplied post. The photographer and photograph date could not be confirmed.",
+        "credit": "Archive copy via Ticker History; original photographer unidentified",
+        "source": "https://x.com/TickerHistory/status/1760358604303954378",
+        "originalUrl": "https://pbs.twimg.com/media/GG4LbASX0AAhAXg.png"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "In 1996, a 33-year-old CEO flew to Tokyo to tell his biggest customer three things. Each one was more humiliating than the last."
+      },
+      {
+        "type": "paragraph",
+        "text": "First: the technology we promised you doesn’t work."
+      },
+      {
+        "type": "paragraph",
+        "text": "Second: cancel the contract, because we’d just waste the rest of your money."
+      },
+      {
+        "type": "paragraph",
+        "text": "Third: we still need the final $5 million, or we vaporize overnight."
+      },
+      {
+        "type": "paragraph",
+        "text": "That was Jensen Huang. The customer was Shoichiro Irimajiri, then president of Sega."
+      },
+      {
+        "type": "paragraph",
+        "text": "Jensen had laid off more than half of Nvidia that year, from 100 employees down to 40. About thirty days of cash left."
+      },
+      {
+        "type": "paragraph",
+        "text": "He’s said many times that he was embarrassed to ask. Irimajiri took a few days, then agreed to all three. The $5 million, converted to equity, kept Nvidia alive."
+      },
+      {
+        "type": "paragraph",
+        "text": "Twelve months later, the RIVA 128 shipped. Jensen built it in six months instead of the standard eighteen to twenty-four by spending most of their remaining cash on a chip emulator instead of multiple physical tape-outs. It sold a million units in four months. When it launched, Nvidia had one month of payroll left."
+      },
+      {
+        "type": "paragraph",
+        "text": "At the launch, Jensen handed every employee a crisp one-dollar bill."
+      },
+      {
+        "type": "paragraph",
+        "text": "Then he started opening every monthly all-hands with the same line:"
+      },
+      {
+        "type": "paragraph",
+        "text": "“We’re thirty days from going out of business.”"
+      },
+      {
+        "type": "paragraph",
+        "text": "He’s used it for thirty-three years."
+      },
+      {
+        "type": "paragraph",
+        "text": "The most valuable chip company in history began with the three sentences its founder was embarrassed to say out loud."
+      },
+      {
+        "type": "paragraph",
+        "text": "P.S. Sega sold their stake for $15 million at Nvidia’s 1999 IPO. Jensen has said that, had they held it, the stake would be worth around $1 trillion today."
       }
     ]
   }

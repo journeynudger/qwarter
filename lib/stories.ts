@@ -9,6 +9,9 @@ export type StoryImage = {
   source: string;
   originalUrl: string;
   credit?: string;
+  date?: string;
+  license?: string;
+  licenseUrl?: string;
 };
 
 export type StoryBlock =

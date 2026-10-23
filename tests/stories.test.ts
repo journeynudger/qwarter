@@ -11,8 +11,8 @@ import { getStories, storyCategories, storyImage, storyUrl } from "@/lib/stories
 const stories = getStories();
 const publicDir = path.join(process.cwd(), "public");
 
-test("all 37 readings have complete, independently addressable routes", () => {
-  assert.equal(stories.length, 37);
+test("all 43 readings have complete, independently addressable routes", () => {
+  assert.equal(stories.length, 43);
   assert.equal(new Set(stories.map((story) => story.slug)).size, stories.length);
   assert.equal(resolveRoute(["stories"]).kind, "page");
   assert.equal(resolveRoute(["stories", "not-a-story"]).kind, "not-found");
@@ -77,4 +77,26 @@ test("the generated navigation exposes Stories through ordinary full-page links"
     assert.match(html, /id="h_a_4"[^>]*href="\/stories\/"[^>]*data-internal/);
     assert.match(html, /href="\/stories\/" class="nav-item" data-internal/);
   }
+});
+
+test("the October screenshot batch adds six complete stories and joins continuations once", () => {
+  const additions = stories.filter(story => story.id >= 38);
+  assert.equal(additions.length, 6);
+  assert.deepEqual(additions.map(story => story.company), ['Apple', 'Anthropic', 'Cristiano Ronaldo', 'Lionel Messi', 'Amazon', 'NVIDIA']);
+  const copy = (id: number) => stories.find(story => story.id === id)!.blocks.flatMap(block => block.type === 'image' ? [] : [block.text]).join('\n');
+  assert.equal(copy(39).split('Every time he made the model bigger').length - 1, 1);
+  assert.equal(copy(42).split('Set the hiring bar painfully high.').length - 1, 1);
+  assert.equal(copy(43).split('P.S. Sega sold their stake').length - 1, 1);
+  assert.ok(stories.find(story => story.id === 4)!.source.detail!.includes('IMG_6512'));
+  assert.ok(stories.find(story => story.id === 6)!.source.detail!.includes('IMG_6515'));
+  for (const story of additions) {
+    const rendered = renderToStaticMarkup(StoryPage({ slug: story.slug }));
+    for (const image of story.images) {
+      assert.ok(image.credit, story.slug);
+      assert.ok(rendered.includes('Credit: '));
+      assert.ok(rendered.includes(image.source.replaceAll('&', '&amp;')));
+    }
+  }
+  const ronaldo = stories.find(story => story.id === 40)!;
+  assert.ok(renderToStaticMarkup(StoryPage({ slug: ronaldo.slug })).includes('https://creativecommons.org/licenses/by-sa/3.0/'));
 });

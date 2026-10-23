@@ -30,7 +30,7 @@ function Plate({ image, index, wide = false }: { image: StoryImage; index: numbe
       <img src={image.src} alt={image.alt} width={image.width} height={image.height} loading="lazy" decoding="async" />
       <span className="qs-enlarge" aria-hidden="true">+</span>
     </a>
-    <figcaption><span className="qs-label">Fig. {String(index + 1).padStart(2, "0")}</span><span>{image.caption}</span></figcaption>
+    <figcaption><span className="qs-label">Fig. {String(index + 1).padStart(2, "0")}</span><span>{image.caption}<small className="qs-photo-credit">{image.credit ? `Credit: ${image.credit}.` : "Photographer not identified in the supplied source."}{image.date ? ` ${image.date}.` : ""} <a href={image.source} target="_blank" rel="noopener noreferrer">Image source</a>{image.license && image.licenseUrl && <> · <a href={image.licenseUrl} target="_blank" rel="noopener noreferrer">{image.license}</a></>}</small></span></figcaption>
   </figure>;
 }
 

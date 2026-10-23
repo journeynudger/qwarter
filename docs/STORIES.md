@@ -91,3 +91,27 @@ Qwarter section; `pageMarkup` inserts it inside the carried article so its heigh
 existing smooth scroll. The captured HTML and source build remain unchanged. Its illustration is an
 original set of six vector drawings for the idea-to-launch sequence, not historical claims or LCA assets.
 The brand, tagline and navigation now share the same width; tagline spacing fills that width.
+
+## Additional supplied screenshots (2026-10-23)
+
+The collection now has 43 stories and 117 local image files. IMG_6511 adds Tony Fadell/iPod;
+IMG_6513–6514 combine into Dario Amodei; IMG_6517 adds Cristiano Ronaldo; IMG_6518 adds the
+Messi napkin; IMG_6519–6520 combine into the Amazon principles; IMG_6522–6523 combine into NVIDIA/Sega.
+IMG_6512 and IMG_6515 duplicate the existing Superhuman and Eventbrite articles, so their source
+records are updated rather than creating duplicate routes. IMG_6516 illustrates the existing iMac
+article; IMG_6521 is preserved as a supporting Amazon letter excerpt. Overlap is removed once.
+
+Eight images are added. The new primary image sources are Apple Newsroom, Anthropic, Wikimedia Commons
+(Anton Zaytsev/soccer.ru, CC BY-SA 3.0), AP via NPR/GPB, and Amazon. The clean Jensen Huang archive copy
+matches the supplied photo; its source is Ticker History, with original photographer/date explicitly
+unconfirmed. Susan Ragan/AP and the March 1999 date for the supplied iMac picture were verified through
+ORF and AP gallery coverage. Each photograph now has a visible source link and credit beneath it.
+Known dates and license links are printed; unconfirmed attribution is stated rather than invented.
+Older figures lacking an identified photographer say so and link to their original source.
+
+These bodies preserve the supplied article text; source numerical and relative-date claims are not an
+independent fact check. In particular, review the Dario valuation, the Ronaldo 2026 match/record claims,
+and the NVIDIA Sega stake estimate before using them as independently verified statements. No date has
+been inferred for the supplied Amazon screenshot or the Jensen photograph. Visual inspection of the
+actual new image files confirmed the subjects and clarity. Fresh page/browser review remains blocked
+by the previously reported browser policy.
