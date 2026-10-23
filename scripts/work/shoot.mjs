@@ -89,7 +89,7 @@ async function closePopups(page, opened = false) {
   }
   if (!opened) await page.keyboard.press("Escape").catch(() => {});
   await sleep(300);
-  const hidden = await page.evaluate(() => {
+  const hidden = await page.evaluate((opened) => {
     const vw = innerWidth, vh = innerHeight, gone = [];
     // a page that does not scroll and is drawn in fixed layers (a wall, a stage, a canvas) is the page: only a layer
     // that names itself a popup is taken off it
@@ -102,10 +102,12 @@ async function closePopups(page, opened = false) {
       const covers = (Math.min(r.right, vw) - Math.max(r.left, 0)) * (Math.min(r.bottom, vh) - Math.max(r.top, 0)) / (vw * vh);
       const header = r.top <= 2 && r.height < vh * 0.25; // a fixed header or announcement bar stays
       const modal = /modal|popup|pop-up|overlay|lightbox|newsletter|subscribe|backdrop|dialog/i.test(el.className + " " + el.id + " " + (el.getAttribute("role") || ""));
-      if (!header && ((covers > 0.35 && !stage) || (modal && covers > 0.08))) { el.style.setProperty("display", "none", "important"); gone.push((el.className || el.tagName).toString().slice(0, 60)); }
+      // after the spec's clicks a layer that covers the window is most likely the view they opened: only one that
+      // names itself a popup goes
+      if (!header && ((covers > 0.35 && !stage && !opened) || (modal && covers > 0.08))) { el.style.setProperty("display", "none", "important"); gone.push((el.className || el.tagName).toString().slice(0, 60)); }
     }
     return gone;
-  }).catch(() => []);
+  }, opened).catch(() => []);
   if (hidden.length) console.log(`${slug}: hid ${hidden.length} fixed layer(s) over the page: ${hidden.join(", ")}`);
 }
 
@@ -283,7 +285,11 @@ async function scrollThrough(page) {
 }
 
 /** The fixed layers visible on the page now, marked, so what a click opens can be told from what was there. */
-const visibleFixed = () => [...document.querySelectorAll("body *")].filter((el) => { const cs = getComputedStyle(el); const r = el.getBoundingClientRect(); return cs.position === "fixed" && cs.display !== "none" && cs.visibility !== "hidden" && Number(cs.opacity) > 0 && r.width > 0 && r.height > 0; });
+const visibleFixed = () => [...document.querySelectorAll("body *")].filter((el) => {
+  const cs = getComputedStyle(el); const r = el.getBoundingClientRect();
+  // on screen: a panel that waits off the edge (The Room's, slid out on a phone) is not visible until it slides in
+  return cs.position === "fixed" && cs.display !== "none" && cs.visibility !== "hidden" && Number(cs.opacity) > 0 && r.width > 0 && r.height > 0 && r.right > 0 && r.bottom > 0 && r.left < innerWidth && r.top < innerHeight;
+});
 
 async function act(page, steps, name) {
   if (!steps.length) return;

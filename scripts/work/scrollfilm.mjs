@@ -167,7 +167,7 @@ async function open(pg, virtual) {
   // a reveal that runs once) is there before the film starts and nothing is filmed as a placeholder (The Room's wall
   // filmed cold showed ovals of initials where its busts were still loading); `|cold` films the first visit instead
   const measure = () => page.evaluate(() => Math.max(document.documentElement.scrollHeight, document.body.scrollHeight));
-  if (!pg.cold) {
+  if (!pg.cold && !pg.live) { // a live page is recorded where its click left it
     for (let y = 0, h = await measure(); y < h && y < 40000; y += Math.round(HEIGHT * 0.75)) {
       await page.evaluate((y) => window.scrollTo(0, y), y);
       await advance(virtual ? 200 : 400);
