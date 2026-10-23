@@ -147,6 +147,7 @@ export const workMedia = (slug: string) => ({
   blur: `/media/work/${slug}/blur.jpg`,
   video: `/media/work/${slug}/scroll.mp4`,
   videoWebm: `/media/work/${slug}/scroll.webm`,
+  poster: `/media/work/${slug}/scroll-poster.jpg`,
   page: (name: string) => `/media/work/${slug}/page-${name}.jpg`,
 });
 

@@ -17,7 +17,7 @@
       "content": "Qwarter"
     }
   ],
-  "description": "lorenzo@qwarter.com · Las Vegas, Nevada",
+  "description": "info@qwarter.com · New York City",
   "swaps": [
     {
       "select": "#Header .title",
@@ -256,7 +256,7 @@
         {
           "a.email": {
             "attr": {
-              "href": "mailto:lorenzo@qwarter.com",
+              "href": "mailto:info@qwarter.com",
               "target": null,
               "rel": null
             }
@@ -265,18 +265,18 @@
             "text": "Email"
           },
           ".name.n1": {
-            "html": "<span>Lorenzo</span><span>Scardicchio</span>"
+            "html": "<span>info@qwarter.com</span>"
           },
           ".name.n2": {
-            "html": "<span>Lorenzo</span><span>Scardicchio</span>"
+            "html": "<span>info@qwarter.com</span>"
           },
           "img": {
             "remove": true
           },
           "span.email": {
-            "text": "lorenzo@qwarter.com"
+            "text": ""
           },
-          "source": "content/site.json chrome.contact.email; the founder's name, chrome.about.team[0]"
+          "source": "content/site.json chrome.contact.email (no name beside it: Lorenzo, 2026-10-23)"
         },
         {
           "a.email": {
@@ -331,7 +331,7 @@
         {
           "a.email": {
             "attr": {
-              "href": "mailto:lorenzo@qwarter.com",
+              "href": "mailto:info@qwarter.com",
               "target": null,
               "rel": null
             }
@@ -340,18 +340,18 @@
             "text": "Email"
           },
           ".name.n1": {
-            "html": "<span>Lorenzo</span><span>Scardicchio</span>"
+            "html": "<span>info@qwarter.com</span>"
           },
           ".name.n2": {
-            "html": "<span>Lorenzo</span><span>Scardicchio</span>"
+            "html": "<span>info@qwarter.com</span>"
           },
           "img": {
             "remove": true
           },
           "span.email": {
-            "text": "lorenzo@qwarter.com"
+            "text": ""
           },
-          "source": "content/site.json chrome.contact.email; the founder's name, chrome.about.team[0]"
+          "source": "content/site.json chrome.contact.email (no name beside it: Lorenzo, 2026-10-23)"
         },
         {
           "a.email": {
@@ -437,7 +437,7 @@
         {
           "a.email": {
             "attr": {
-              "href": "mailto:lorenzo@qwarter.com",
+              "href": "mailto:info@qwarter.com",
               "target": null,
               "rel": null
             }
@@ -446,23 +446,23 @@
             "text": "Based in"
           },
           ".name.n1": {
-            "html": "<span>Las Vegas, Nevada</span>"
+            "html": "<span>New York City</span>"
           },
           ".name.n2": {
-            "html": "<span>Las Vegas, Nevada</span>"
+            "html": "<span>New York City</span>"
           },
           "img": {
             "remove": true
           },
           "span.email": {
-            "text": "Las Vegas, Nevada"
+            "text": "New York City"
           },
           "source": "content/site.json chrome.contact.place"
         },
         {
           "a.email": {
             "attr": {
-              "href": "mailto:lorenzo@qwarter.com",
+              "href": "mailto:info@qwarter.com",
               "target": null,
               "rel": null
             }
@@ -471,18 +471,18 @@
             "text": "Email"
           },
           ".name.n1": {
-            "html": "<span>Lorenzo</span><span>Scardicchio</span>"
+            "html": "<span>info@qwarter.com</span>"
           },
           ".name.n2": {
-            "html": "<span>Lorenzo</span><span>Scardicchio</span>"
+            "html": "<span>info@qwarter.com</span>"
           },
           "img": {
             "remove": true
           },
           "span.email": {
-            "text": "lorenzo@qwarter.com"
+            "text": ""
           },
-          "source": "content/site.json chrome.contact.email; the founder's name, chrome.about.team[0]"
+          "source": "content/site.json chrome.contact.email (no name beside it: Lorenzo, 2026-10-23)"
         },
         {
           "a.email": {
@@ -512,7 +512,7 @@
         {
           "a.email": {
             "attr": {
-              "href": "mailto:lorenzo@qwarter.com",
+              "href": "mailto:info@qwarter.com",
               "target": null,
               "rel": null
             }
@@ -521,23 +521,23 @@
             "text": "Based in"
           },
           ".name.n1": {
-            "html": "<span>Las Vegas, Nevada</span>"
+            "html": "<span>New York City</span>"
           },
           ".name.n2": {
-            "html": "<span>Las Vegas, Nevada</span>"
+            "html": "<span>New York City</span>"
           },
           "img": {
             "remove": true
           },
           "span.email": {
-            "text": "Las Vegas, Nevada"
+            "text": "New York City"
           },
           "source": "content/site.json chrome.contact.place"
         },
         {
           "a.email": {
             "attr": {
-              "href": "mailto:lorenzo@qwarter.com",
+              "href": "mailto:info@qwarter.com",
               "target": null,
               "rel": null
             }
@@ -546,18 +546,18 @@
             "text": "Email"
           },
           ".name.n1": {
-            "html": "<span>Lorenzo</span><span>Scardicchio</span>"
+            "html": "<span>info@qwarter.com</span>"
           },
           ".name.n2": {
-            "html": "<span>Lorenzo</span><span>Scardicchio</span>"
+            "html": "<span>info@qwarter.com</span>"
           },
           "img": {
             "remove": true
           },
           "span.email": {
-            "text": "lorenzo@qwarter.com"
+            "text": ""
           },
-          "source": "content/site.json chrome.contact.email; the founder's name, chrome.about.team[0]"
+          "source": "content/site.json chrome.contact.email (no name beside it: Lorenzo, 2026-10-23)"
         }
       ]
     }

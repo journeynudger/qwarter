@@ -30,7 +30,7 @@ const MAX_STRIP = 5400, MIN_STRIP = 900;
 const only = process.argv.slice(2);
 
 const { projects } = JSON.parse(fs.readFileSync(path.join(ROOT, "content/work.json"), "utf8"));
-const keepVideo = (dir) => ["scroll.mp4", "scroll.webm"].filter((f) => fs.existsSync(path.join(dir, f)));
+const keepVideo = (dir) => ["scroll.mp4", "scroll.webm", "scroll-poster.jpg"].filter((f) => fs.existsSync(path.join(dir, f)));
 const kb = (file) => `${Math.round(fs.statSync(file).size / 1024)} KB`;
 
 for (const project of projects) {

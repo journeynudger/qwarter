@@ -64,7 +64,7 @@ test("every project is complete and sourced", () => {
 test("every frame a project names was delivered, and nothing delivered is unnamed", () => {
   for (const p of featured) {
     const dir = path.join(ROOT, "public/media/work", p.slug);
-    const expected = new Set(["cover.jpg", "cover@2x.jpg", "tile.jpg", "tile@2x.jpg", "cover.jpg.webp", "cover@2x.jpg.webp", "tile.jpg.webp", "tile@2x.jpg.webp", "blur.jpg", "scroll.mp4", "scroll.webm", ...p.pages.map((pg) => `page-${pg.name}.jpg`)]);
+    const expected = new Set(["cover.jpg", "cover@2x.jpg", "tile.jpg", "tile@2x.jpg", "cover.jpg.webp", "cover@2x.jpg.webp", "tile.jpg.webp", "tile@2x.jpg.webp", "blur.jpg", "scroll.mp4", "scroll.webm", "scroll-poster.jpg", ...p.pages.map((pg) => `page-${pg.name}.jpg`)]);
     // raw/ holds the captures (not committed); study/ the case study's own pictures and recordings (tests/studies.test.ts)
     const actual = new Set(fs.readdirSync(dir).filter((f) => f !== "raw" && f !== "study" && f !== ".DS_Store"));
     assert.deepEqual([...actual].sort(), [...expected].sort(), `public/media/work/${p.slug}: run scripts/work/prepare.mjs and video.mjs`);

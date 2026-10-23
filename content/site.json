@@ -87,7 +87,8 @@
       },
       {
         "label": "Based in",
-        "value": "Las Vegas, Nevada"
+        "value": "New York City",
+        "_provenance": "Lorenzo, 2026-10-23"
       },
       {
         "label": "Founder",
@@ -95,8 +96,8 @@
       }
     ],
     "contact": {
-      "email": "lorenzo@qwarter.com",
-      "place": "Las Vegas, Nevada",
+      "email": "info@qwarter.com",
+      "place": "New York City",
       "social": [
         {
           "label": "Instagram",
@@ -111,7 +112,8 @@
           "href": "https://www.linkedin.com/company/qwarter"
         }
       ],
-      "_social_provenance": "qwarter.com/contact/ (page 245786, modified 2026-09-17), its Follow Us links"
+      "_social_provenance": "qwarter.com/contact/ (page 245786, modified 2026-09-17), its Follow Us links",
+      "_provenance": "info@qwarter.com and New York City: Lorenzo, 2026-10-23 (\"we are based in New York City\"; \"just have it say email info@qwarter.com, no need to mention my name\"). Before that the address Qwarter's GitHub and Vercel run from, and Qwarter LLC's registration (Las Vegas, Nevada)."
     },
     "about": {
       "hero": "FULL-SERVICE DESIGN STUDIO MADE UP OF DESIGNERS, ENGINEERS, & ARTISTS",

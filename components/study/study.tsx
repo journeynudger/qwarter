@@ -233,7 +233,7 @@ export function StudyPage({ slug }: { slug: string }) {
     { id: "notes", name: "Screen by screen" },
     { id: "close", name: "See it" },
   ];
-  const film = study.film ?? { src: workMedia(slug).video, webm: workMedia(slug).videoWebm, poster: workMedia(slug).tile, alt: `${study.name}'s film: the site scrolling.` };
+  const film = study.film ?? { src: workMedia(slug).video, webm: workMedia(slug).videoWebm, poster: workMedia(slug).poster, alt: `${study.name}'s film.` };
   return (
     <>
       <header className="st-top">

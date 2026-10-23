@@ -323,7 +323,7 @@ for (const project of projects) {
     kind: wp?.service ? cap(wp.service.toLowerCase()) : project.made, status,
     url: live ? project.url : "", address,
     figures: figures.slice(0, 4), identity: identity.slice(0, 4), quote,
-    steps, film: { src: `/media/work/${project.slug}/scroll.mp4`, webm: `/media/work/${project.slug}/scroll.webm`, poster: `/media/work/${project.slug}/tile.jpg`, alt: `${name}'s film: the site scrolling.` },
+    steps, film: { src: `/media/work/${project.slug}/scroll.mp4`, webm: `/media/work/${project.slug}/scroll.webm`, poster: `/media/work/${project.slug}/scroll-poster.jpg`, alt: `${name}'s film.` },
     recordings, gallery: gallery.map((g) => ({ src: g.rel, alt: g.alt, source: g.from })),
     galleryNote: gallery.length ? [...new Set(gallery.map((g) => g.from.split(" (")[0]))].map((f) => (f.startsWith("qwarter.com") ? "pictures from qwarter.com's case study (its media library)" : `the site's own pictures, from ${f}`)).join("; ").replace(/^./, (c) => c.toUpperCase()) + "." : undefined,
     source: sources.join("; ") + ". Every word is qwarter.com's, the site's own or observed; nothing is written here.",

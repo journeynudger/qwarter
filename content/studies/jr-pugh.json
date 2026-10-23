@@ -13,7 +13,7 @@
   ],
   "statement": "JR Pugh, NYC-based actor with a grounded, charismatic, and intelligent on-camera presence.",
   "summary": "jeffvhs.com is five pages: Featured, Acting, Reel, About and Contact. Featured opens on the tease cut from the Brazil reel, a thin rail draining beside it as it plays, and moves on to the four headshots; every page is near-black charcoal with film grain and a vignette, and the one light moment is the About page's modeling section.",
-  "brief": "Built in July 2026 as six static files, then, from August, as the jrpugh WordPress theme, so Jeff swaps the home clip, the reels, the headshots and the résumé himself in the Customizer with a native media picker, the design unchanged.",
+  "brief": "Built in July 2026 as six static files, then, from August, as the jrpugh WordPress theme, so Jeff swaps the home clip, the reels, the headshots and the r\u00e9sum\u00e9 himself in the Customizer with a native media picker, the design unchanged.",
   "kind": "Actor's website",
   "status": "Live at jeffvhs.com",
   "url": "https://jeffvhs.com",
@@ -44,28 +44,12 @@
     {
       "key": "wordmark",
       "label": "Wordmark",
-      "note": "\"JR Pugh\" as every page sets it, centred over the menu: JR in the sans, Pugh in the serif (the site's CLAUDE.md: \"JR sans, Pugh serif\"). No tagline anywhere but Featured.",
-      "ground": "#0b0b0c",
-      "dark": true,
-      "wordmark": {
-        "text": "JR Pugh",
-        "family": "EB Garamond",
-        "color": "#f2ede3",
-        "parts": [
-          {
-            "text": "JR",
-            "family": "Inter",
-            "weight": "700",
-            "fallback": "sans-serif"
-          },
-          {
-            "text": " Pugh",
-            "family": "EB Garamond",
-            "weight": "400",
-            "fallback": "serif"
-          }
-        ]
-      }
+      "note": "The mark, as the final card sets it on its back: the letters of the name scattered on black, J and R in white, P, U, G and H around them in greys. The card Lorenzo sent on 2026-10-23 (Jeff_Business_card.zip, 2.png), shown here on white.",
+      "ground": "#ffffff",
+      "dark": false,
+      "image": "/media/work/jr-pugh/study/card-back.png",
+      "alt": "The back of JR Pugh's business card: the letters of his name scattered on black, J and R in white, P U G H fading around them.",
+      "fit": "contain"
     },
     {
       "key": "palette",
@@ -120,18 +104,19 @@
           "family": "Inter",
           "weight": "400, 600, 700",
           "fallback": "sans-serif",
-          "sample": "JR PUGH · Featured Acting Reel About Contact"
+          "sample": "JR PUGH \u00b7 Featured Acting Reel About Contact"
         }
       ]
     },
     {
       "key": "detail",
       "label": "The card",
-      "note": "The business card, in the site's two faces: JR PUGH and ACTOR on the black side; the email, the phone, www.jeffvhs.com and NEW YORK, NY on the cream side (Open/_Generated/Clients/2026-07/jr-pugh-business-card, print PDFs with the type outlined).",
-      "image": "/media/work/jr-pugh/study/card.jpg",
-      "alt": "JR Pugh's business card, both sides: JR PUGH, Actor, in white on black; and on cream, JR PUGH over a rule, then jrpugh42@gmail.com, 917.741.7212, www.jeffvhs.com and NEW YORK, NY.",
-      "ground": "#e9e7e2",
-      "fit": "contain"
+      "note": "The front of the business card: JR Pugh over a hairline, Actor in italic, and the ways to reach him (the phone, the email, www.jeffvhs.com, NYC) in the site's serif on black. The final design, from the file Lorenzo sent on 2026-10-23 (Jeff_Business_card.zip, 1.png), shown on white.",
+      "image": "/media/work/jr-pugh/study/card-front.png",
+      "alt": "The front of JR Pugh's business card on black: JR Pugh, a rule, Actor in italic, then the phone, the email, www.jeffvhs.com and NYC.",
+      "ground": "#ffffff",
+      "fit": "contain",
+      "dark": false
     }
   ],
   "quote": {
@@ -156,7 +141,7 @@
     },
     {
       "title": "Acting",
-      "body": "Four headshots, unlabelled: no numerals, no names, no calls to action. On a phone each is cropped 3:4 and anchored to the top, so the heads stay whole; on a desktop they are the full image at its natural aspect. Under them the blurb and the résumé.",
+      "body": "Four headshots, unlabelled: no numerals, no names, no calls to action. On a phone each is cropped 3:4 and anchored to the top, so the heads stay whole; on a desktop they are the full image at its natural aspect. Under them the blurb and the r\u00e9sum\u00e9.",
       "image": "/media/work/jr-pugh/study/d-acting.jpg",
       "alt": "The Acting page: four colour headshots in a row under the menu.",
       "device": "desktop",
@@ -180,9 +165,9 @@
     },
     {
       "title": "Contact",
-      "body": "Email, phone, NYC, and the résumé as a Download Resume button that only prints when there is a file behind it, so it can never be a dead link.",
+      "body": "Email, phone, NYC, and the r\u00e9sum\u00e9 as a Download Resume button that only prints when there is a file behind it, so it can never be a dead link.",
       "image": "/media/work/jr-pugh/study/d-contact.jpg",
-      "alt": "The Contact page: the email address, the phone number and NYC, with the résumé button.",
+      "alt": "The Contact page: the email address, the phone number and NYC, with the r\u00e9sum\u00e9 button.",
       "device": "desktop",
       "source": "README (Structure: Contact), V5-NOTES (Resume question, answered)"
     },
@@ -195,7 +180,7 @@
     },
     {
       "title": "The theme",
-      "body": "From its fifth version the site is the jrpugh WordPress theme: the home clip, the reel, the four headshots, the four photos behind them and the résumé are Customizer fields behind a native media picker. Each stores an attachment, not a URL, and falls back to the file the site shipped with if the field is empty or the attachment is deleted, so clearing a field restores the site and can never produce an empty page. With the panel untouched, the markup is byte-identical to the version before.",
+      "body": "From its fifth version the site is the jrpugh WordPress theme: the home clip, the reel, the four headshots, the four photos behind them and the r\u00e9sum\u00e9 are Customizer fields behind a native media picker. Each stores an attachment, not a URL, and falls back to the file the site shipped with if the field is empty or the attachment is deleted, so clearing a field restores the site and can never produce an empty page. With the panel untouched, the markup is byte-identical to the version before.",
       "image": "/media/work/jr-pugh/study/theme.jpg",
       "alt": "The jrpugh WordPress theme's own screenshot: the Featured page.",
       "device": "picture",
@@ -205,8 +190,8 @@
   "film": {
     "src": "/media/work/jr-pugh/scroll.mp4",
     "webm": "/media/work/jr-pugh/scroll.webm",
-    "poster": "/media/work/jr-pugh/tile.jpg",
-    "alt": "JR Pugh's film: the splash resolving, the tease the Featured page plays, then the pages scrolling."
+    "poster": "/media/work/jr-pugh/scroll-poster.jpg",
+    "alt": "JR Pugh's film: the splash, then both reels."
   },
   "recordings": {
     "desktop": {
@@ -302,5 +287,5 @@
       }
     ]
   },
-  "source": "mylife: Open/_Generated/2026-07-16/jeffvhs-site-final (README: v2 2026-07-16 and v3 2026-07-23, CLAUDE.md, WP-NOTES.md, PUBLISH.md, style.css) and Open/_Generated/Clients/2026-07/jrpugh-wp-theme (V5-NOTES.md 2026-08-28, V6-NOTES.md, theme-source) and jr-pugh-business-card (CARD-PRINT-SPEC.md, card-preview.png); the statement is the site's own description and the quote its Acting blurb; the pages and films photographed from jeffvhs.com on 2026-10-22 (scripts/work/shoot.mjs); the splash recorded from the site's own files with scripts/work/record.mjs. Every word is from those files or the site."
+  "source": "mylife: Open/_Generated/2026-07-16/jeffvhs-site-final (README: v2 2026-07-16 and v3 2026-07-23, CLAUDE.md, WP-NOTES.md, PUBLISH.md, style.css) and Open/_Generated/Clients/2026-07/jrpugh-wp-theme (V5-NOTES.md 2026-08-28, V6-NOTES.md, theme-source) and the final business card as Lorenzo sent it on 2026-10-23 (Jeff_Business_card.zip: 1.png the front, 2.png the back); the statement is the site's own description and the quote its Acting blurb; the pages and films photographed from jeffvhs.com on 2026-10-22 (scripts/work/shoot.mjs); the splash recorded from the site's own files with scripts/work/record.mjs. Every word is from those files or the site."
 }
