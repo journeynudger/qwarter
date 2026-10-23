@@ -42,7 +42,7 @@ function Collage({ stories, className = "" }: { stories: Story[]; className?: st
 export function StoriesIndex() {
   const stories = getStories();
   const features = featuredStories();
-  const collage = [features[1], features[2], stories.find((story) => story.id === 37)!, stories.find((story) => story.id === 22)!];
+  const collage = [features[1], features[2], stories.find((story) => story.id === 37)!, stories.find((story) => story.id === 34)!];
   return <>
     <Hydrated /><Chrome />
     <main id="main">
