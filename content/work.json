@@ -195,7 +195,7 @@
       "slug": "theroom",
       "numeral": "VI",
       "name": "The Room",
-      "url": "https://theroom-git-claude-ecstatic-ride-1swldb-journeynudgers-projects.vercel.app",
+      "url": "https://theroom-five.vercel.app",
       "line": "A wall of the minds that shaped how you think.",
       "made": "Website",
       "year": "2026",
@@ -214,7 +214,7 @@
           "title": "Ask them"
         }
       ],
-      "source": "GitHub journeynudger/theroom (README: 'The Room is a source-grounded library of books, talks, interviews…'; site/README.md: 'a wall of carved reliefs you can stand before and question'); line: the site's own description ('A wall of the minds that shaped how you think. Source-grounded interpretation, not resurrection.'); the address Lorenzo gave on 2026-10-22 (a Vercel preview, behind Vercel's login for anyone else); photographed from its own build (site/server.mjs) on 2026-10-22: the wall, the table, Ask them"
+      "source": "GitHub journeynudger/theroom (README: 'The Room is a source-grounded library of books, talks, interviews…'; site/README.md: 'a wall of carved reliefs you can stand before and question'); line: the site's own description ('A wall of the minds that shaped how you think. Source-grounded interpretation, not resurrection.'); the public address Lorenzo gave on 2026-10-23, theroom-five.vercel.app (the preview he first linked, 2026-10-22, is behind Vercel's login); photographed from its own build (site/server.mjs) on 2026-10-22: the wall, the table, Ask them"
     },
     {
       "slug": "bambino",

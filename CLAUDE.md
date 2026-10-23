@@ -192,8 +192,8 @@ film opens on the tease alone).
 - `content/studies/_pictures/<slug>.json` says which source file each delivered picture came from;
   `_pending/` parks a step whose recording does not exist yet.
 
-**Photographed from their own builds**, because the runner could not see them: The Room (its Vercel preview is
-behind Vercel's login; `site/server.mjs` from the repository), Lorenzo Type (lorenzoscardicchio.com answered
+**Photographed from their own builds**, because the runner could not see them: The Room (the preview first linked is
+behind Vercel's login; `site/server.mjs` from the repository; its public address, theroom-five.vercel.app, came on 2026-10-23), Lorenzo Type (lorenzoscardicchio.com answered
 the runner with a Cloudflare challenge; the static files), Serein's Product and Manifesto pages (client-side
 routes on withserein.com; the vault's `Serein/serein-site` run locally, with the live site's home for the
 rest). Bambino from bambino-1dtu.vercel.app, the address Lorenzo gave. Their records in `content/work.json`
@@ -406,9 +406,9 @@ old URLs (it fails rather than guess).
    from. If the public address is another (hello@, studio@), it is one value in `content/site.json`.
 8. **The founder facts** (Founded 2023 · Las Vegas, Nevada · Lorenzo Scardicchio) come from Qwarter LLC's
    registration; LinkedIn says founded 2016. Which year is Qwarter's?
-9. **The Room's address.** The link you gave is a Vercel preview behind Vercel's login, so its study shows no
-   Visit button (status "In preview on Vercel, behind its login"). A public address is one value in
-   `content/studies/_overrides/theroom.json` (`url`, `address`, `status`) and `content/work.json`.
+9. **The Room's address**: answered 2026-10-23, `theroom-five.vercel.app` (`content/studies/_overrides/theroom.json`,
+   `content/work.json`); the study's Visit button goes there. The runner has not photographed that address yet; the
+   frames are from the site's own build, which is the same code.
 10. **lorenzoscardicchio.com.** The runner was met by a Cloudflare challenge there, so whether the foundry site
     (`journeynudger/lorenzo`, pushed 2026-10-22) is what the address serves could not be checked; the study is
     photographed from its files and its Visit button goes to the address the site itself names. Bambino's
