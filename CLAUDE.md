@@ -199,7 +199,10 @@ faceplate). What each film is made of is in its
 `film.source`: Butter opens on the store's own film whole at six tenths of its speed (she walks up with the jar; a slowed
 clip is interpolated to the film's rate, not shown frame by held frame), JR Pugh on its splash then both reels at eight
 tenths with its About page between them, TiMA is its 4K render film, Journey its pages without the brain film, Thanh Ta
-its logo then the two screens the case study shows. The Work page shows every project's film; the home shows the
+its logo then the two screens the case study shows, Ekaterina Sky its page strip (the runner's film of 2026-10-23 carried
+the site's newsletter popup over every frame: `scrollfilm.mjs` hides only a layer whose id names a popup, where
+`shoot.mjs` also clicks the close buttons, presses Escape and hides a covering layer; giving the recorder that pass and
+filming the page again is a follow-up). The Work page shows every project's film; the home shows the
 featured ones. On both, Depo Luxe's visor covered the window with the film (`object-fit: cover`), which cut a website's
 sides on any window that is not 16:9 and most of a square film; `public/design/qwarter/carried.css`, linked after their
 stylesheet on those two pages (`head` in `content/pages.json`), fits the film and its still whole instead (Lorenzo,

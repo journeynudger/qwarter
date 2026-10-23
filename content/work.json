@@ -662,7 +662,15 @@
       "fromWordPress": true,
       "source": "name, service line, year, live site and facts from qwarter.com/portfolio/ekaterina-sky/ (WordPress page 2834, modified 2026-09-16); line: the case study's Industry Type and Location; pictures: ekaterina-sky.art photographed on 2026-10-22 (1 pages, titles the site's own)",
       "numeral": "XV",
-      "featured": false
+      "featured": false,
+      "film": {
+        "scenes": [
+          {
+            "page": "home"
+          }
+        ],
+        "source": "its home page glided down as the strip the shoot of 2026-10-22 took with the newsletter popup closed (the runner's film of the page on 2026-10-23, raw/film-home.mp4, carried the popup over every frame: scrollfilm.mjs does not close a popup the way shoot.mjs does)"
+      }
     },
     {
       "slug": "epic-esg",
