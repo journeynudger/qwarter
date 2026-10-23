@@ -67,6 +67,10 @@
         "href": "/work/"
       },
       {
+        "label": "Stories",
+        "href": "/stories/"
+      },
+      {
         "label": "Approach",
         "href": "/approach/"
       },
@@ -210,7 +214,8 @@
         }
       ],
       "_provenance": "qwarter.com, snapshot of 2026-10-22, verbatim: hero from the home page (WordPress page 246530, modified 2026-09-17), the FAQ from the same page's toggles; welcome and team from /about-us/ (page 245753, modified 2024-10-11)"
-    }
+    },
+    "_stories_provenance": "Stories navigation added at Lorenzo’s request, 2026-10-23: collected lessons from companies and people who came before us."
   },
   "_provenance": {
     "brand.right": "'Qwarter is a studio…' — Lorenzo's own positioning statement (mylife: Open/Work/Writing/Qwarter-The-Problem-Of-Direction.md); the split lockup is Depo Luxe's device (brand word · nav · brand word)",

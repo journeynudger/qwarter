@@ -7,6 +7,7 @@ import { Contact } from "@/components/site/contact";
 import { Featured } from "@/components/site/featured";
 import { Work } from "@/components/site/work";
 import { StudyPage } from "@/components/study/study";
+import { StoriesIndex, StoryPage } from "@/components/stories/stories";
 import { allPaths, getSite, pageMarkup, resolveRoute } from "@/lib/content";
 import { indexingAllowed } from "@/lib/seo";
 
@@ -40,7 +41,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
       url: page.path,
       siteName: getSite().name,
       images: page.image ? [page.image] : undefined,
-      type: "website",
+      type: page.kind === "story" ? "article" : "website",
     },
   };
 }
@@ -51,6 +52,10 @@ export default async function Page({ params }: { params: Params }) {
   if (route.kind !== "page") notFound();
   const { page } = route;
   switch (page.kind) {
+    case "stories":
+      return <StoriesIndex />;
+    case "story":
+      return <StoryPage slug={page.story!} />;
     case "featured":
       return <Featured />;
     case "archive":

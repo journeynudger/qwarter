@@ -17,11 +17,12 @@ import site from "@/content/site.json";
 import workJson from "@/content/work.json";
 import type { Page, Redirects, Work } from "@/lib/content";
 import { splitTopLevel } from "@/lib/html";
+import { getPages } from "@/lib/content";
 
 const pages = pagesJson as unknown as Page[];
 const redirects = redirectsJson as Redirects;
 const work = workJson as unknown as Work;
-const KINDS = ["html", "featured", "archive", "work", "approach", "contact", "study"];
+const KINDS = ["html", "featured", "archive", "work", "approach", "contact", "study", "stories", "story"];
 const featuredWork = work.projects.filter((p) => p.media !== false);
 
 const ROOT = path.join(import.meta.dirname, "..");
@@ -94,7 +95,7 @@ test("pages.json records are complete, and each page's markup splits cleanly", (
 
 // ---------------------------------------------------------------- links and assets
 
-const routes = new Set<string>([...pages.map((p) => p.path), ...featuredWork.map((p) => `/work/${p.slug}/`)]);
+const routes = new Set<string>(getPages().map((p) => p.path));
 const redirected = new Set(redirects.paths.map((r) => r.source));
 
 function sources(): { file: string; text: string }[] {
@@ -103,12 +104,19 @@ function sources(): { file: string; text: string }[] {
     .filter((f) => f.endsWith(".html"))
     .map((f) => `content/pages/${f}`);
   if (fs.existsSync(path.join(ROOT, "content/not-found.html"))) files.push("content/not-found.html");
-  files.push("content/pages.json", "content/site.json", "content/work.json");
+  files.push("content/pages.json", "content/site.json", "content/work.json", "content/stories.json");
   // the case studies name their own pictures and recordings (lib/studies.ts)
   if (fs.existsSync(path.join(ROOT, "content/studies"))) for (const f of fs.readdirSync(path.join(ROOT, "content/studies"))) if (f.endsWith(".json") && !f.startsWith("_")) files.push(`content/studies/${f}`);
-  const texts = files.map((file) => ({ file, text: read(file) }));
+  const texts = files.map((file) => ({ file, text: file === "content/stories.json"
+    // Original download URLs are provenance, never requested by a page; only the local src ships.
+    ? JSON.stringify(JSON.parse(read(file)), (key, value) => key === "originalUrl" ? undefined : value)
+    : read(file) }));
   // the views (components/site/) link the chrome's nav and each project's pages and pictures
   texts.push({ file: "components/site", text: [...(site.chrome.nav as { href: string }[]).map((n) => `href="${n.href}"`), ...workLinks(), ...studyLinks()].join("\n") });
+  texts.push({ file: "stories routes", text: getPages().filter((p) => p.kind === "stories" || p.kind === "story").flatMap((p) => [
+    `href="${p.path}"`, ...p.head.flatMap((a) => a.kind === "stylesheet" || a.kind === "preload" ? [`href="${a.href}"`] : []),
+    ...p.scripts.flatMap((a) => a.kind === "script" && a.src ? [`src="${a.src}"`] : []),
+  ]).join("\n") });
   return texts;
 }
 
