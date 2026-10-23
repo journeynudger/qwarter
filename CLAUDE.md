@@ -196,9 +196,14 @@ SA-S1 demo is recorded in real time in the full browser (`|live:14`), its Play p
 by the mouse (`|play:C4,E4,G4,…`), with the dev server's demo assets switched on
 (`NEXT_PUBLIC_DEMO_ASSET_BASE_URL=http://localhost:3120/api/demo-assets`: the three placeholder presets, the real
 faceplate). What each film is made of is in its
-`film.source`: Butter opens on the store's own film whole (she walks up with the jar), JR Pugh on its splash then both
-reels, TiMA is its 4K render film, Journey its pages without the brain film, Thanh Ta its logo then the two screens the
-case study shows. The Work page shows every project's film; the home shows the featured ones.
+`film.source`: Butter opens on the store's own film whole at six tenths of its speed (she walks up with the jar; a slowed
+clip is interpolated to the film's rate, not shown frame by held frame), JR Pugh on its splash then both reels at eight
+tenths with its About page between them, TiMA is its 4K render film, Journey its pages without the brain film, Thanh Ta
+its logo then the two screens the case study shows. The Work page shows every project's film; the home shows the
+featured ones. On both, Depo Luxe's visor covered the window with the film (`object-fit: cover`), which cut a website's
+sides on any window that is not 16:9 and most of a square film; `public/design/qwarter/carried.css`, linked after their
+stylesheet on those two pages (`head` in `content/pages.json`), fits the film and its still whole instead (Lorenzo,
+2026-10-23: "full width, the sides should not be cut off").
 
 **The words.** Every study says in `source` where each line comes from, and nothing is written here:
 - `scripts/port/studies.mjs` writes a study for every project from qwarter.com's own case study (the service
@@ -332,6 +337,7 @@ can be captured (`npm run capture:design -- --origin https://depoluxe.xyz`, need
 | `content/reference/<slug>.html` | Depo Luxe's pages as captured (their content, never served): what the swaps are applied to | `extract.mjs` from the capture | Never edit; re-extract |
 | `content/swaps/<slug>.json` | what of each reference page becomes Qwarter's, with each value's source | `scripts/design/swaps-from-content.mjs` from `content/work.json` and `content/site.json` | Regenerate, never edit |
 | `public/design/depoluxe.xyz/`, `public/imageLoaderWorker.js`, `public/assets/audio/tac.m4a` | Cuchillo's stylesheet, script, fonts, worker, the archive's click sound | the capture, byte for byte (`extract.mjs`; the worker and the sound copied by hand to the paths the script asks for) | Never edit |
+| `public/design/qwarter/carried.css` | our corrections to the carried pages (the visor's films fitted whole), linked after Cuchillo's stylesheet by `head` in `content/pages.json` | written here | Yes |
 | `content/studies/<slug>.json` | a case study: the words, the tiles, the steps, the recordings and pictures it shows, `walkthrough` scenes, `source` | `scripts/port/studies.mjs` from qwarter.com's case study and the shoot (`generated: true`), or written whole (JR Pugh) | A generated one: never; change `_overrides/<slug>.json`. A hand-written one: yes, keep `source` true |
 | `content/studies/_overrides/<slug>.json`, `_pictures/`, `_pending/` | what is written by hand over a generated study; where each delivered picture came from; a step waiting for its recording | written here / `studies.mjs` | Overrides yes, with their `source`; `_pictures` regenerated |
 | `public/media/work/<slug>/study/` | the recordings and stills (`walkthrough.mjs`), the pictures the study shows (`studies.mjs`) | the raw captures; the snapshot's media; the projects' own repositories (`$copy`) | Regenerate, never edit |

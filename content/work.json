@@ -41,16 +41,17 @@
         "scenes": [
           {
             "clip": "raw/intro.mp4",
-            "seconds": 11.7
+            "seconds": 11.7,
+            "speed": 0.6
           },
           {
             "film": "home"
           },
           {
-            "film": "collections-all"
+            "film": "blogs-news"
           }
         ],
-        "source": "the store's own hero film whole (butterspreads.com, the shoot's video-01: she walks up with the jar; Lorenzo, 2026-10-23: the first thing a visitor sees), then the home and the collection filmed scrolling (scripts/work/scrollfilm.mjs)"
+        "source": "the store's own hero film whole at six tenths of its speed (butterspreads.com, the shoot's video-01: she walks up with the jar; Lorenzo, 2026-10-23: the first thing a visitor sees, and slower), then the home and the Education blog filmed scrolling on a GitHub runner in real time (scripts/work/scrollfilm.mjs; the collection page does not scroll at 1600px, so it is left out)"
       },
       "numeral": "I",
       "featured": true
@@ -98,15 +99,20 @@
           {
             "clip": "raw/reel-01.mp4",
             "from": 20,
-            "seconds": 13
+            "seconds": 13,
+            "speed": 0.8
+          },
+          {
+            "film": "about"
           },
           {
             "clip": "raw/reel-02.mp4",
             "from": 16,
-            "seconds": 13
+            "seconds": 13,
+            "speed": 0.8
           }
         ],
-        "source": "the splash (recorded from the site's own files, scripts/work/record.mjs), then both reels jeffvhs.com plays (Lorenzo, 2026-10-23: show both)"
+        "source": "the splash (recorded from the site's own files, scripts/work/record.mjs), both reels jeffvhs.com plays at eight tenths of their speed (Lorenzo, 2026-10-23: show both, a little slower), and the About page filmed scrolling on a GitHub runner in real time between them (Lorenzo: show the about page)"
       },
       "featured": true
     },

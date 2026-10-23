@@ -7,7 +7,8 @@
  *
  * A film is a sequence of scenes, cross-faded, from content/work.json `film.scenes` or, without them, the
  * site's own clip (film.intro, when the catalogue found one) followed by its first three pages:
- *   {clip: "raw/<file>", from, seconds, speed}   the site's own footage or a recording (speed 0.8 slows it)
+ *   {clip: "raw/<file>", from, seconds, speed}   the site's own footage or a recording (speed 0.8 slows it, with the frames
+ *                                                 between interpolated)
  *   {film: "<page>", seconds}                     the page filmed scrolling in a real browser (scrollfilm.mjs:
  *                                                 raw/film-<page>.mp4); falls back to the page strip when absent
  *   {page: "<page>", hold, pan, tail}             the page strip (prepare.mjs) glided down slowly, nothing cropped
@@ -77,7 +78,10 @@ for (const project of projects) {
       const from = scene.from || 0, speed = scene.speed || 1;
       const take = Math.max(0.5, Math.min(scene.seconds || (scene.film ? full : INTRO), (full || INTRO) - from));
       const duration = take / speed;
-      ff(["-ss", String(from), "-i", file, "-t", take.toFixed(2), "-vf", `${speed !== 1 ? `setpts=PTS/${speed},` : ""}${COVER}`, ...SEG, seg]);
+      // -t before -i bounds what is read, so a slowed clip keeps its whole take (after -i it bounded the output, and a clip at
+      // six tenths lost its last four tenths); a clip slowed is interpolated to the film's rate rather than shown frame by held frame
+      const slow = speed < 1 ? `setpts=PTS/${speed},minterpolate=fps=${FPS}:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1,` : speed > 1 ? `setpts=PTS/${speed},` : "";
+      ff(["-ss", String(from), "-t", take.toFixed(2), "-i", file, "-vf", `${slow}${COVER}`, ...SEG, seg]);
       segments.push({ out: seg, duration });
     } else if (scene.page) {
       const strip = path.join(dir, `page-${scene.page}.jpg`);
