@@ -249,6 +249,12 @@ const escapeHtml = (v: string) => v.replace(/&/g, "&amp;").replace(/</g, "&lt;")
  */
 export function pageMarkup(page: Page): string {
   const html = getPageHtml(page.slug);
+  // Our own ending lives outside the captured source, inside the carried scroll
+  // article so the reference engine includes its height and navigation.
+  if (page.slug === "approach") {
+    const ending = fs.readFileSync(path.join(CONTENT_DIR, "fragments", "approach-ai.html"), "utf8");
+    return html.replace("</article>", `${ending}</article>`);
+  }
   if (!page.project) return html;
   const p = getProjects().find((x) => x.slug === page.project);
   if (!p) return html;

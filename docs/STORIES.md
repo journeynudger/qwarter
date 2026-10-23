@@ -68,3 +68,26 @@ excerpt indexing, and navigation integration. The direct Node test command runs 
 
 Desktop and 390 px mobile browser review covers the title pages, reading layout, live filters and
 search, empty-search state, contents navigation, image dialog, and reading progress.
+
+## Readability and header update (2026-10-23)
+
+The wordmark and tagline lift above the viewport on scroll, leaving the menu at the top. The shared
+carried header reads the existing Approach scroll indicator as well as native scrolling, reconnects
+when carried navigation replaces the article, and removes the hidden wordmark from keyboard focus.
+Stories uses the same motion with its native scroll. Reduced-motion preferences disable transitions.
+Approach media uses larger responsive frames, preserving whole website pictures and videos. Story
+labels and captions have a readable minimum size, natural image colour, and full-width supporting
+pictures on phones. Decorative reader pictures are removed on phones to protect headline readability.
+
+All 37 supplied articles have individual routes; 109 local image files decode successfully and their
+pixel dimensions match the article records. The three incomplete supplied sources remain marked as
+excerpts. The existing tests and production build pass. A focused header regression test covers both
+native and carried scroll state and restoration at the top. Fresh browser visual review for this update
+was blocked by the browser URL security policy; previous screenshots predate these layout changes.
+
+The AI and advisory content supplied on 2026-10-23 is an additional final chapter within Approach,
+confirmed by Lorenzo, rather than a separate page. `content/fragments/approach-ai.html` holds the original
+Qwarter section; `pageMarkup` inserts it inside the carried article so its height participates in the
+existing smooth scroll. The captured HTML and source build remain unchanged. Its illustration is an
+original set of six vector drawings for the idea-to-launch sequence, not historical claims or LCA assets.
+The brand, tagline and navigation now share the same width; tagline spacing fills that width.

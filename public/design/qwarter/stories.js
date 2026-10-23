@@ -29,11 +29,23 @@
       search.addEventListener('input', update);
       form.addEventListener('submit', event => { event.preventDefault(); update(); });
     }
+    const header = document.querySelector('.qs-header');
+    const wordmark = header?.querySelector('.qs-wordmark');
+    const measureHeader = () => {
+      const nav = header?.querySelector('nav');
+      if (header && wordmark && nav) header.style.setProperty('--qs-nav-lift', `${wordmark.offsetTop - nav.offsetTop}px`);
+    };
+    measureHeader();
+    window.addEventListener('resize', measureHeader, { passive: true });
+    document.fonts?.ready.then(measureHeader);
     const progress = document.querySelector('[data-reading-progress]');
     const percent = document.querySelector('[data-reading-percent]');
     let queued = false;
     const updateScroll = () => {
-      document.body.classList.toggle('qs-scrolled', window.scrollY > 60);
+      const compact = window.scrollY > 60;
+      document.body.classList.toggle('qs-scrolled', compact);
+      wordmark?.setAttribute('tabindex', compact ? '-1' : '0');
+      wordmark?.setAttribute('aria-hidden', String(compact));
       if (progress && percent) {
         const start = document.querySelector('#reading').getBoundingClientRect().top + window.scrollY;
         const end = document.querySelector('#takeaway').getBoundingClientRect().bottom + window.scrollY - window.innerHeight;

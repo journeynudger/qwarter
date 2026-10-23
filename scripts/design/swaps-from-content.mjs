@@ -144,7 +144,7 @@ const approach = {
   description: statement.join(" "),
   swaps: [
     ...chrome("/approach/"),
-    { select: "article.page-about", prepend: hiddenH1(nav[2].label), source: `${SRC.site} chrome.nav[2].label` },
+    { select: "article.page-about", prepend: hiddenH1(nav.find((item) => item.href === "/approach/").label), source: `${SRC.site} chrome.nav approach label` },
     { select: "section.block-text:not(.--has-roman) .body", html: paragraphs([...statement, about.welcome, about.hero]), source: `${SRC.site} chrome.statement, chrome.about.welcome, chrome.about.hero` },
   ],
 };
