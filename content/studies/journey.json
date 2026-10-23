@@ -199,11 +199,13 @@
   "recordings": {
     "desktop": {
       "src": "/media/work/journey/study/desktop.mp4",
+      "webm": "/media/work/journey/study/desktop.webm",
       "poster": "/media/work/journey/study/desktop-poster.jpg",
       "alt": "Journey on a desktop: Home, How Journey Works, Students, Universities, Nudge, Pathfinder, Personality Quest, Blog."
     },
     "phone": {
       "src": "/media/work/journey/study/phone.mp4",
+      "webm": "/media/work/journey/study/phone.webm",
       "poster": "/media/work/journey/study/phone-poster.jpg",
       "alt": "Journey on a phone."
     }

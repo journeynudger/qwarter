@@ -157,6 +157,7 @@
   "recordings": {
     "desktop": {
       "src": "/media/work/tima/study/desktop.mp4",
+      "webm": "/media/work/tima/study/desktop.webm",
       "poster": "/media/work/tima/study/desktop-poster.jpg",
       "alt": "Titanium Motor Arts on a desktop: Picture 1, Picture 2, Picture 3, Picture 4."
     }

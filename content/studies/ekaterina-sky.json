@@ -147,11 +147,13 @@
   "recordings": {
     "desktop": {
       "src": "/media/work/ekaterina-sky/study/desktop.mp4",
+      "webm": "/media/work/ekaterina-sky/study/desktop.webm",
       "poster": "/media/work/ekaterina-sky/study/desktop-poster.jpg",
       "alt": "Ekaterina Sky on a desktop: Home."
     },
     "phone": {
       "src": "/media/work/ekaterina-sky/study/phone.mp4",
+      "webm": "/media/work/ekaterina-sky/study/phone.webm",
       "poster": "/media/work/ekaterina-sky/study/phone-poster.jpg",
       "alt": "Ekaterina Sky on a phone."
     }

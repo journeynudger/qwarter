@@ -136,6 +136,7 @@
   "recordings": {
     "desktop": {
       "src": "/media/work/epic-esg/study/desktop.mp4",
+      "webm": "/media/work/epic-esg/study/desktop.webm",
       "poster": "/media/work/epic-esg/study/desktop-poster.jpg",
       "alt": "EPIC ESG on a desktop: Picture 1."
     }

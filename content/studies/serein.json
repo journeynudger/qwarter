@@ -196,11 +196,13 @@
   "recordings": {
     "desktop": {
       "src": "/media/work/serein/study/desktop.mp4",
+      "webm": "/media/work/serein/study/desktop.webm",
       "poster": "/media/work/serein/study/desktop-poster.jpg",
       "alt": "Serein on a desktop: Home, Product, Manifesto, Blog."
     },
     "phone": {
       "src": "/media/work/serein/study/phone.mp4",
+      "webm": "/media/work/serein/study/phone.webm",
       "poster": "/media/work/serein/study/phone-poster.jpg",
       "alt": "Serein on a phone."
     }

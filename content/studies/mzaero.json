@@ -140,11 +140,13 @@
   "recordings": {
     "desktop": {
       "src": "/media/work/mzaero/study/desktop.mp4",
+      "webm": "/media/work/mzaero/study/desktop.webm",
       "poster": "/media/work/mzaero/study/desktop-poster.jpg",
       "alt": "Mzaero on a desktop: Home."
     },
     "phone": {
       "src": "/media/work/mzaero/study/phone.mp4",
+      "webm": "/media/work/mzaero/study/phone.webm",
       "poster": "/media/work/mzaero/study/phone-poster.jpg",
       "alt": "Mzaero on a phone."
     }

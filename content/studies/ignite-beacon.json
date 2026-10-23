@@ -129,11 +129,13 @@
   "recordings": {
     "desktop": {
       "src": "/media/work/ignite-beacon/study/desktop.mp4",
+      "webm": "/media/work/ignite-beacon/study/desktop.webm",
       "poster": "/media/work/ignite-beacon/study/desktop-poster.jpg",
       "alt": "Beacon on a desktop: Home, Support."
     },
     "phone": {
       "src": "/media/work/ignite-beacon/study/phone.mp4",
+      "webm": "/media/work/ignite-beacon/study/phone.webm",
       "poster": "/media/work/ignite-beacon/study/phone-poster.jpg",
       "alt": "Beacon on a phone."
     }

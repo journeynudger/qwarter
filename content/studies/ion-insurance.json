@@ -174,11 +174,13 @@
   "recordings": {
     "desktop": {
       "src": "/media/work/ion-insurance/study/desktop.mp4",
+      "webm": "/media/work/ion-insurance/study/desktop.webm",
       "poster": "/media/work/ion-insurance/study/desktop-poster.jpg",
       "alt": "Ion Insurance on a desktop: Home, About, Products, Financials."
     },
     "phone": {
       "src": "/media/work/ion-insurance/study/phone.mp4",
+      "webm": "/media/work/ion-insurance/study/phone.webm",
       "poster": "/media/work/ion-insurance/study/phone-poster.jpg",
       "alt": "Ion Insurance on a phone."
     }

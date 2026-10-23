@@ -182,11 +182,13 @@
   "recordings": {
     "desktop": {
       "src": "/media/work/pineapple-club/study/desktop.mp4",
+      "webm": "/media/work/pineapple-club/study/desktop.webm",
       "poster": "/media/work/pineapple-club/study/desktop-poster.jpg",
       "alt": "Pineapple Club on a desktop: Home, Menus, Reservations, Hosted Events."
     },
     "phone": {
       "src": "/media/work/pineapple-club/study/phone.mp4",
+      "webm": "/media/work/pineapple-club/study/phone.webm",
       "poster": "/media/work/pineapple-club/study/phone-poster.jpg",
       "alt": "Pineapple Club on a phone."
     }

@@ -189,11 +189,13 @@
   "recordings": {
     "desktop": {
       "src": "/media/work/butter/study/desktop.mp4",
+      "webm": "/media/work/butter/study/desktop.webm",
       "poster": "/media/work/butter/study/desktop-poster.jpg",
       "alt": "Butter on a desktop: Home, Products, Education, Contact, Cookie Butter."
     },
     "phone": {
       "src": "/media/work/butter/study/phone.mp4",
+      "webm": "/media/work/butter/study/phone.webm",
       "poster": "/media/work/butter/study/phone-poster.jpg",
       "alt": "Butter on a phone."
     }

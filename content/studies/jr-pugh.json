@@ -211,11 +211,13 @@
   "recordings": {
     "desktop": {
       "src": "/media/work/jr-pugh/study/desktop.mp4",
+      "webm": "/media/work/jr-pugh/study/desktop.webm",
       "poster": "/media/work/jr-pugh/study/desktop-poster.jpg",
       "alt": "jeffvhs.com on a desktop: the splash, the Featured page with its tease, then Acting, Reel with its two reels, About and Contact."
     },
     "phone": {
       "src": "/media/work/jr-pugh/study/phone.mp4",
+      "webm": "/media/work/jr-pugh/study/phone.webm",
       "poster": "/media/work/jr-pugh/study/phone-poster.jpg",
       "alt": "jeffvhs.com on a phone, page by page."
     }
@@ -255,7 +257,7 @@
       },
       {
         "clip": "raw/intro.mp4",
-        "from": 4.0,
+        "from": 4,
         "seconds": 6
       },
       {

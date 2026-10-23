@@ -155,11 +155,13 @@
   "recordings": {
     "desktop": {
       "src": "/media/work/stairway/study/desktop.mp4",
+      "webm": "/media/work/stairway/study/desktop.webm",
       "poster": "/media/work/stairway/study/desktop-poster.jpg",
       "alt": "Stairway Audio on a desktop: Home, Shop All, SA-S1, Support."
     },
     "phone": {
       "src": "/media/work/stairway/study/phone.mp4",
+      "webm": "/media/work/stairway/study/phone.webm",
       "poster": "/media/work/stairway/study/phone-poster.jpg",
       "alt": "Stairway Audio on a phone."
     }
