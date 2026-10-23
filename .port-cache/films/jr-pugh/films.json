@@ -1,0 +1,28 @@
+{
+  "slug": "jr-pugh",
+  "base": "https://jeffvhs.com",
+  "shot": "2026-10-23T19:03:05.321Z",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "films": [
+    {
+      "name": "about",
+      "route": "/about/",
+      "url": "https://jeffvhs.com/about/",
+      "seconds": 14.2,
+      "height": 2110,
+      "frames": 583,
+      "how": "real time, scrolling"
+    },
+    {
+      "name": "acting",
+      "route": "/acting/",
+      "url": "https://jeffvhs.com/acting/",
+      "seconds": 4.97,
+      "height": 1095,
+      "frames": 98,
+      "how": "real time, scrolling"
+    }
+  ]
+}
