@@ -3,6 +3,30 @@
 What was checked, how, and with what result. Every check ran on a production build
 (`rm -rf .next && npm run build`), after the last change it covers.
 
+## 2026-10-23: the films at 16:9, slow, from real footage and the sites filmed frame by frame
+
+Lorenzo's round (2026-10-23): the home's films were "clearly cut off" (900×900 squares under Depo Luxe's full-window
+cover), the scrolling "much slower and cinematic", Butter opening on the girl walking up, both of Jeff's reels, TiMA's
+high-definition film, no brain film for Journey, Stairway's plugin playing in the browser, Beacon "much cleaner", and the
+home reduced to the projects with good film. The films are now 1920×1080 (`scripts/work/video.mjs`) cut from scenes, and
+the pages are filmed in a real browser (`scripts/work/scrollfilm.mjs`). Checks, on the dev server while building:
+
+| Check | How | Result |
+|---|---|---|
+| Why the films were cut | Depo Luxe's stylesheet: `.visor-videos video { object-fit: cover; width: 100vw; height: 100vh }` | a square film under a 16:9 window loses its top and bottom; a 16:9 film fits whole |
+| Screenshots under virtual time stall | `Page.captureScreenshot` after `Emulation.setVirtualTimePolicy` on The Room, Stairway's product page, Bambino's gallery: the second or third screenshot never returned (a 4 s race), on static pages (Fonts designed's home) every one did | the compositor waits for a frame the paused clock never drives; a page that animates never gives it. The SwiftShader flags were measured first (0.6–4.4 s a frame with them, 0.2–0.4 s without) and were not the cause: without them the same pages stalled |
+| BeginFrame control | `HeadlessExperimental.beginFrame` in the headless shell (`--enable-begin-frame-control` and Chromium's deterministic flags; the full browser's headless mode answers "wasn't found") on The Room, 12 frames | every frame answered, 100–150 ms each after the first (1.2 s), `hasDamage` true; the Room's canvas drawing itself frame by frame |
+| Two frames at one moment | a beginFrame right after a click, before the clock moved | never returns, and every later one answers "Another frame is pending"; `frame()` now moves the clock one frame when it has not moved since the last |
+| A click under virtual time | `locator.click()` (the mouse) against `el.click()` on Serein's Product tab and The Room's table | the mouse waits on frames the paused clock does not give; the element's own click opens the view and the next frame comes (Serein 216 frames, The Room 216 at `--max 4`) |
+| The pace | the first films covered the whole page within the time cap: Journey's home (8653 px) in 18 s is 430 px/s; `timeline()` and the strip scenes now cap the distance (110 px/s × 18 s; 90 px/s × 14 s for strips) | Journey's home film: 1980 px in 18 s; a tall page is not scrolled to its foot |
+| Warmed pages | The Room's wall filmed cold and warmed (a scroll pass first): the frames compared | the same ovals of initials in both: they are the people without a bust, the site's own state, not a lazy load. The warm pass stays the default (`\|cold` for a first visit) |
+| The local sites filmed | `scrollfilm.mjs` against the local runs: The Room (3 views), Serein (home, Product, Manifesto), Painter (home, gallery, a chapter), Fonts designed (home, Hand, mailroom), Journey (3), Stairway (home, SA-S1, the demo) | 16 films frame by frame, 636 frames each where the page is tall enough (21.2 s), 2.6 s where it does not scroll (a 900 px page); Stairway's demo in real time: 546 frames in 14 s (39 fps), the Play pressed, eight keys pressed by the mouse in turn, the VU needle in a different place at 2, 7 and 11 s |
+| The films cut | `video.mjs --no-webm` | The Room 33.4 s (the wall, the table 7 s, Ask them 7 s), Serein 43.2 s, Painter 46.6 s, Fonts designed 43.2 s, Journey 61.8 s, Stairway 54.6 s; the contact sheets read: the pages whole at 16:9, the fixed headers staying, nothing cropped side to side |
+| The Room's study showed the bare wall for its table and Ask them | the shoot's frames `table.png`, `ask.png` and the study's `d-table.jpg`, `d-ask.jpg` read: the wall only. `shoot.mjs` took the panels for popups: `closePopups` hid the opened `stage` as a covering layer, then clicked the panel's × and pressed Escape; on the phone the closed panel (fixed, slid off the edge) counted as present before the click, so the open one was not kept | fixed three ways (a layer is visible only on screen; what the spec's clicks open is kept in the frame; after the clicks only a self-declared popup goes) and proven on both panels at 1440 and 390 before the re-shoot; the study re-recorded (`walkthrough.mjs`), recompiled (`studies.mjs`), its d-table, d-ask and m-table now the panels |
+| Butter's study, for cut-offs | a Playwright pass at 1440 and 390: every element whose content is wider than its box (the clipping sweep), every image and video with its box, fit and natural size; the full page read | no clipped text at either width, no sideways scroll; the gallery's pictures whole (`contain` in 4:5); the film block 1200×675 (16:9) over the old square film until the runner's films land, after which it shows whole |
+| Types, the film record's test | `npx tsc --noEmit`; `tests/work.test.ts` on the new `film` shape (`intro` null, `scenes`, `source`) | 0; every scene names its kind and its source file, a `page` scene one of the project's pages |
+| The live sites, filmed on the runner | the capture workflow's `film_specs` (branches `films-1`: Butter, Stairway, Beacon; `films-2`: the catalogue's eight live sites), on the fixed recorder | (filled in below when the runs land) |
+
 ## 2026-10-22, night: the case studies
 
 Lorenzo's references were the Valerin site's project pages (valerin-umber.vercel.app/our-work/south-howard-flood-relief,
