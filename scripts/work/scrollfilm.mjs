@@ -20,14 +20,17 @@
  *   and the screen is recorded as it plays, through CDP's screencast, at the rate the machine delivers; each
  *   frame keeps its moment, so the film plays at true speed. A page that must be filmed this way (an instrument
  *   playing, a meter moving to sound) takes `|live:<seconds>` after its route (it is clicked where the spec
- *   says, then recorded); --realtime films every page this way; and a page that still gives no frame the first
- *   way within 15 s is filmed again this way on its own.
+ *   says, then recorded; `|play:C4,E4,G4` presses those keys in turn while it records, by their accessible
+ *   names, as a hand would); --realtime films every page this way; and a page that still gives no frame the
+ *   first way within 15 s is filmed again this way on its own.
+ * Before either, the page is warmed: a pass down to its foot and back, so what loads as it comes into view is there
+ * before the film starts; `|cold` after a route films the first visit instead, placeholders, reveals and all.
  *
  * Writes <out>/film-<name>.mp4 (H.264, 30 fps) per page and <out>/films.json (name, route, seconds,
  * height, how it was filmed). The project's film (scripts/work/video.mjs) cuts these into its scenes.
  *
  * Usage:
- *   node scripts/work/scrollfilm.mjs <slug> <base> [name=route[|click:selector][|live:seconds] …]
+ *   node scripts/work/scrollfilm.mjs <slug> <base> [name=route[|click:selector][|live:seconds][|play:keys][|cold] …]
  *     [--out dir] [--width 1600 --height 900 --scale 1.2] [--fps 30] [--speed 110] [--max 18]
  *     [--hold 1.6] [--settle 3000] [--ua "<user agent>"] [--realtime]
  *   --width/--height is the browser's window (the page lays out as on a 1600px desktop); --scale makes the
@@ -50,14 +53,21 @@ const FPS = Number(take("fps", 30)), SPEED = Number(take("speed", 110)), MAX = N
 const SETTLE = Number(take("settle", 3000)), OUT = take("out", null), REALTIME = flag("realtime");
 const UA = take("ua", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36");
 const [slug, base, ...specs] = argv;
-if (!slug || !base) { console.error("Usage: node scripts/work/scrollfilm.mjs <slug> <base> [name=route[|click:selector][|live:seconds] …] [--out dir]"); process.exit(2); }
+if (!slug || !base) { console.error("Usage: node scripts/work/scrollfilm.mjs <slug> <base> [name=route[|click:selector][|live:seconds][|play:keys][|cold] …] [--out dir]"); process.exit(2); }
 const out = OUT ? path.resolve(OUT) : path.join("public/media/work", slug, "raw");
 fs.mkdirSync(out, { recursive: true });
 const pages = (specs.length ? specs : ["home=/"]).map((s) => {
   const [name, rest] = s.split("=");
   const parts = (rest || "/").split("|");
   const page = { name, route: parts[0] };
-  for (const p of parts.slice(1)) { const [k, v] = [p.slice(0, p.indexOf(":")), p.slice(p.indexOf(":") + 1)]; if (k === "click") page.click = v; if (k === "live") page.live = Number(v); }
+  for (const p of parts.slice(1)) {
+    const i = p.indexOf(":");
+    const [k, v] = i < 0 ? [p, ""] : [p.slice(0, i), p.slice(i + 1)];
+    if (k === "click") page.click = v;
+    if (k === "cold") page.cold = true; // filmed as a first visit: nothing loaded or revealed before the film starts
+    if (k === "live") page.live = Number(v);
+    if (k === "play") page.play = v.split(",").filter(Boolean); // the keys to press in turn while it plays, by their accessible names
+  }
   return page;
 });
 const OUTW = Math.round(WIDTH * SCALE), OUTH = Math.round(HEIGHT * SCALE);
@@ -153,7 +163,22 @@ async function open(pg, virtual) {
     await advance(SETTLE);
     await frame(false);
   }
-  const height = await page.evaluate(() => Math.max(document.documentElement.scrollHeight, document.body.scrollHeight));
+  // the page warmed: a pass down to its foot and back, so what loads as it comes into view (lazy pictures, fonts,
+  // a reveal that runs once) is there before the film starts and nothing is filmed as a placeholder (The Room's wall
+  // filmed cold showed ovals of initials where its busts were still loading); `|cold` films the first visit instead
+  const measure = () => page.evaluate(() => Math.max(document.documentElement.scrollHeight, document.body.scrollHeight));
+  if (!pg.cold) {
+    for (let y = 0, h = await measure(); y < h && y < 40000; y += Math.round(HEIGHT * 0.75)) {
+      await page.evaluate((y) => window.scrollTo(0, y), y);
+      await advance(virtual ? 200 : 400);
+      await frame(false);
+      h = await measure();
+    }
+    await page.evaluate(() => window.scrollTo(0, 0));
+    await advance(SETTLE);
+    await frame(false);
+  }
+  const height = await measure();
   return { context, page, cdp, advance, frame, height };
 }
 
@@ -203,7 +228,19 @@ async function filmRealTime(pg, tmp, live) {
     await cdp.send("Page.startScreencast", { format: "jpeg", quality: 92, maxWidth: OUTW, maxHeight: OUTH, everyNthFrame: 1 });
     let seconds;
     if (live) {
-      await sleep(live * 1000);
+      const end = Date.now() + live * 1000;
+      if (pg.play?.length) {
+        // a hand on the keys: each pressed with the mouse for a beat, the phrase over and over while the film runs
+        await sleep(1500);
+        for (let i = 0; Date.now() < end - 900; i++) {
+          const name = pg.play[i % pg.play.length];
+          await page.locator(`[aria-label="${name}"]`).first().hover({ timeout: 2000 })
+            .then(async () => { await page.mouse.down(); await sleep(420); await page.mouse.up(); })
+            .catch((e) => console.error(`${slug}/${pg.name}: key ${name}: ${String(e.message).split("\n")[0]}`));
+          await sleep(330);
+        }
+      }
+      await sleep(Math.max(0, end - Date.now()));
       seconds = live;
     } else {
       const tl = timeline(height);

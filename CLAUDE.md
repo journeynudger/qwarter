@@ -32,7 +32,7 @@ when the strip comes to rest, ours play the website scrolling; black Paper-shade
 | Fetch what the build environment cannot reach, through a GitHub runner | Actions → *Capture the reference design and the WordPress site* → Run workflow (`design_origin`, `wordpress_origin`, `media_urls`, `shoot_specs`, `branch`); then `git fetch origin <branch> && git checkout origin/<branch> -- .port-cache .design-cache` |
 | The catalogue from the WordPress snapshot and the clients' live sites | `node scripts/port/catalogue.mjs [--dry]`, then `prepare.mjs`, `video.mjs`, `npm test` |
 | Make the delivered pictures from the raw ones | `node scripts/work/prepare.mjs [slug …]` |
-| Film a site in a real browser, scrolling (or playing, `|live:<s>`), 1920×1080 | `node scripts/work/scrollfilm.mjs <slug> <base> [name=route[\|click:selector][\|live:seconds] …] [--out dir]` → `raw/film-<name>.mp4`; live sites through the capture workflow's `film_specs` |
+| Film a site in a real browser, frame by frame, scrolling (or playing, `|live:<s>`, keys pressed with `|play:`), 1920×1080 | `node scripts/work/scrollfilm.mjs <slug> <base> [name=route[\|click:selector][\|live:seconds][\|play:keys][\|cold] …] [--out dir]` → `raw/film-<name>.mp4`; live sites through the capture workflow's `film_specs` |
 | Each project's film (home, Work, its study): 1920×1080 from its scenes | `node scripts/work/video.mjs [--no-webm \| --webm-only] [slug …]` → `scroll.mp4` + `scroll.webm` + `scroll-poster.jpg` |
 | The case studies' recordings: each site on a desktop and on a phone, 60 fps, plus the stills (scenes from the study's or its override's `walkthrough`, else the first pages) | `node scripts/work/walkthrough.mjs [--no-webm \| --webm-only] [slug …]` → `study/{desktop,phone}.{mp4,webm}`, posters, `d-*.jpg`, `m-*.jpg` |
 | Record a page's own motion deterministically (a splash, a reveal) | `node scripts/work/record.mjs <url> <out.mp4> [--seconds 6] [--until <selector>] [--font-css <file>]` |
@@ -178,11 +178,19 @@ it fits the screen whole; the first films were 900×900 and lost their top and b
 off"). A film is scenes cross-faded (`film.scenes` in work.json: the site's own footage as `clip`, a page filmed scrolling
 as `film`, a page strip glided down as `page`, a picture with a slow move as `still`, a mark on its ground as `card`), or
 without scenes the site's clip and its first three pages. Slow on purpose: 90 px/s, 14 s a page at most. The pages are
-filmed in a real browser by `scripts/work/scrollfilm.mjs` (Chromium's virtual time, a smoothstep from top to foot, the
-fixed header staying and the pinned sections pinning, which the page strips could not show: Beacon's strip was black
-stretches), locally for the sites that run here (Stairway, The Room, Painter, Fonts designed, Serein, Journey) and on a
-GitHub runner for the live ones (`film_specs` in the capture workflow → `.port-cache/films/<slug>/`, copied into
-`raw/`). Stairway's SA-S1 demo is recorded playing in real time (`|live:14`). What each film is made of is in its
+filmed in a real browser by `scripts/work/scrollfilm.mjs`, frame by frame: Chromium's headless shell under BeginFrame
+control and virtual time (one composited frame per frame of film, at the page's own moment, so a canvas drawing
+itself, a reveal, a counter all run in step however slow the machine; plain screenshots under paused virtual time
+stalled on every page that animates, the compositor waiting for a frame the paused clock never drives), a smoothstep
+from top to foot at 110 px/s, 18 s at most, the fixed header staying and the pinned sections pinning, which the page
+strips could not show (Beacon's strip was black stretches). Each page is warmed first (a pass to its foot and back, so
+nothing is filmed as a placeholder: The Room's busts filmed cold were ovals of initials; `|cold` films the first visit).
+Locally for the sites that run here (Stairway, The Room, Painter, Fonts designed, Serein, Journey), on a GitHub runner
+for the live ones (`film_specs` in the capture workflow → `.port-cache/films/<slug>/`, copied into `raw/`). Stairway's
+SA-S1 demo is recorded in real time in the full browser (`|live:14`), its Play pressed and a phrase played on its keys
+by the mouse (`|play:C4,E4,G4,…`), with the dev server's demo assets switched on
+(`NEXT_PUBLIC_DEMO_ASSET_BASE_URL=http://localhost:3120/api/demo-assets`: the three placeholder presets, the real
+faceplate). What each film is made of is in its
 `film.source`: Butter opens on the store's own film whole (she walks up with the jar), JR Pugh on its splash then both
 reels, TiMA is its 4K render film, Journey its pages without the brain film, Thanh Ta its logo then the two screens the
 case study shows. The Work page shows every project's film; the home shows the featured ones.

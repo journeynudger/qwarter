@@ -49,8 +49,20 @@ test("every project is complete and sourced", () => {
         assert.equal(typeof p.year, "string", `${where}: a photographed site has a year`);
       }
       if (p.film) {
-        assert.match(p.film.intro, /^intro\.(mp4|webm)$/, `${where}: film.intro names raw/intro.mp4 or .webm`);
-        assert.ok(p.film.from.length > 20, `${where}: film.from says where the clip came from`);
+        // the film: a clip to open with (or null, when the site's clip is left out on purpose) with its provenance, scenes
+        // chosen by hand, and what the film is made of; every scene names its source, and a page scene one of the pages
+        if (p.film.intro !== undefined && p.film.intro !== null) assert.match(p.film.intro, /^intro\.(mp4|webm)$/, `${where}: film.intro names raw/intro.mp4 or .webm`);
+        if (p.film.intro !== undefined) assert.ok((p.film.from?.length ?? 0) > 20, `${where}: film.from says where the clip came from`);
+        if (p.film.scenes || p.film.intro === null) assert.ok((p.film.source?.length ?? 0) > 20, `${where}: film.source says what the film is made of`);
+        for (const scene of p.film.scenes ?? []) {
+          const kinds = ["clip", "film", "page", "still", "card"].filter((k) => k in scene);
+          assert.equal(kinds.length, 1, `${where}: a scene is one of clip, film, page, still, card: ${JSON.stringify(scene)}`);
+          if ("clip" in scene) assert.match(scene.clip, /^raw\/[\w.-]+\.(mp4|webm|mov)$/, `${where}: a clip is a raw/ file`);
+          if ("still" in scene) assert.match(scene.still, /^raw\/[\w.-]+\.(png|jpg)$/, `${where}: a still is a raw/ picture`);
+          if ("card" in scene) assert.match(scene.card.image, /^raw\/[\w.-]+\.(png|jpg)$/, `${where}: a card's mark is a raw/ picture`);
+          if ("page" in scene) assert.ok(p.pages.some((pg) => pg.name === scene.page), `${where}: page scene "${scene.page}" is not one of its pages`);
+          if ("film" in scene) assert.match(scene.film, /^[\w-]+$/, `${where}: a film scene names a filmed page`);
+        }
       }
       assert.ok(p.pages.length > 0, `${where}: pages`);
       assert.ok(p.pages.some((pg) => pg.name === p.cover), `${where}: cover "${p.cover}" is not one of its pages`);
