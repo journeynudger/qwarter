@@ -141,11 +141,13 @@
   "recordings": {
     "desktop": {
       "src": "/media/work/core-rhythm-fitness/study/desktop.mp4",
+      "webm": "/media/work/core-rhythm-fitness/study/desktop.webm",
       "poster": "/media/work/core-rhythm-fitness/study/desktop-poster.jpg",
       "alt": "Core Rhythm Fitness on a desktop: Home, About, How It Works, Connect."
     },
     "phone": {
       "src": "/media/work/core-rhythm-fitness/study/phone.mp4",
+      "webm": "/media/work/core-rhythm-fitness/study/phone.webm",
       "poster": "/media/work/core-rhythm-fitness/study/phone-poster.jpg",
       "alt": "Core Rhythm Fitness on a phone."
     }

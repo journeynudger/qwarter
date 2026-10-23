@@ -207,11 +207,13 @@
   "recordings": {
     "desktop": {
       "src": "/media/work/bambino/study/desktop.mp4",
+      "webm": "/media/work/bambino/study/desktop.webm",
       "poster": "/media/work/bambino/study/desktop-poster.jpg",
       "alt": "Bambino on a desktop: Home, Lorenzo Scardicchio, The Algorithmic Self, We're part of the race., Racing to the bottom of the brainstem."
     },
     "phone": {
       "src": "/media/work/bambino/study/phone.mp4",
+      "webm": "/media/work/bambino/study/phone.webm",
       "poster": "/media/work/bambino/study/phone-poster.jpg",
       "alt": "Bambino on a phone."
     }

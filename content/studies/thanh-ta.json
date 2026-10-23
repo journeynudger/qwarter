@@ -173,6 +173,7 @@
   "recordings": {
     "desktop": {
       "src": "/media/work/thanh-ta/study/desktop.mp4",
+      "webm": "/media/work/thanh-ta/study/desktop.webm",
       "poster": "/media/work/thanh-ta/study/desktop-poster.jpg",
       "alt": "Thanh Ta on a desktop: Picture 1, Picture 2."
     }

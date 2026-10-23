@@ -175,6 +175,7 @@
   "recordings": {
     "desktop": {
       "src": "/media/work/iotech-protect/study/desktop.mp4",
+      "webm": "/media/work/iotech-protect/study/desktop.webm",
       "poster": "/media/work/iotech-protect/study/desktop-poster.jpg",
       "alt": "IoTech Protect on a desktop: Picture 1, Picture 2, Picture 3, Picture 4, Picture 5, Picture 6."
     }

@@ -167,11 +167,13 @@
   "recordings": {
     "desktop": {
       "src": "/media/work/2020-insights/study/desktop.mp4",
+      "webm": "/media/work/2020-insights/study/desktop.webm",
       "poster": "/media/work/2020-insights/study/desktop-poster.jpg",
       "alt": "20/20 Insights on a desktop: Home, Our Story, Perspectives."
     },
     "phone": {
       "src": "/media/work/2020-insights/study/phone.mp4",
+      "webm": "/media/work/2020-insights/study/phone.webm",
       "poster": "/media/work/2020-insights/study/phone-poster.jpg",
       "alt": "20/20 Insights on a phone."
     }

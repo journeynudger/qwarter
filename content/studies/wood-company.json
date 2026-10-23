@@ -155,6 +155,7 @@
   "recordings": {
     "desktop": {
       "src": "/media/work/wood-company/study/desktop.mp4",
+      "webm": "/media/work/wood-company/study/desktop.webm",
       "poster": "/media/work/wood-company/study/desktop-poster.jpg",
       "alt": "Wood Company on a desktop: Picture 1, Picture 2."
     }

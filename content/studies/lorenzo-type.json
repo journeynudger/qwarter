@@ -210,11 +210,13 @@
   "recordings": {
     "desktop": {
       "src": "/media/work/lorenzo-type/study/desktop.mp4",
+      "webm": "/media/work/lorenzo-type/study/desktop.webm",
       "poster": "/media/work/lorenzo-type/study/desktop-poster.jpg",
       "alt": "Lorenzo Type on a desktop: four families from one desk, Lorenzo Hand, Lorenzo Longhand, Lorenzo Typewriter, Lorenzo Meadow, paintings, writing, and muses, Artwork."
     },
     "phone": {
       "src": "/media/work/lorenzo-type/study/phone.mp4",
+      "webm": "/media/work/lorenzo-type/study/phone.webm",
       "poster": "/media/work/lorenzo-type/study/phone-poster.jpg",
       "alt": "Lorenzo Type on a phone."
     }

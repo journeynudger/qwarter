@@ -168,11 +168,13 @@
   "recordings": {
     "desktop": {
       "src": "/media/work/kind-footprint/study/desktop.mp4",
+      "webm": "/media/work/kind-footprint/study/desktop.webm",
       "poster": "/media/work/kind-footprint/study/desktop-poster.jpg",
       "alt": "Kind Footprint on a desktop: Home, About Kind Footprint, FAQ."
     },
     "phone": {
       "src": "/media/work/kind-footprint/study/phone.mp4",
+      "webm": "/media/work/kind-footprint/study/phone.webm",
       "poster": "/media/work/kind-footprint/study/phone-poster.jpg",
       "alt": "Kind Footprint on a phone."
     }

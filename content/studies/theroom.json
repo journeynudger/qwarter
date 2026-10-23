@@ -182,11 +182,13 @@
   "recordings": {
     "desktop": {
       "src": "/media/work/theroom/study/desktop.mp4",
+      "webm": "/media/work/theroom/study/desktop.webm",
       "poster": "/media/work/theroom/study/desktop-poster.jpg",
       "alt": "The Room on a desktop: The wall, The table, Ask them."
     },
     "phone": {
       "src": "/media/work/theroom/study/phone.mp4",
+      "webm": "/media/work/theroom/study/phone.webm",
       "poster": "/media/work/theroom/study/phone-poster.jpg",
       "alt": "The Room on a phone."
     }
