@@ -32,11 +32,14 @@
  * Usage:
  *   node scripts/work/scrollfilm.mjs <slug> <base> [name=route[|click:selector][|live:seconds][|play:keys][|cold] …]
  *     [--out dir] [--width 1600 --height 900 --scale 1.2] [--fps 30] [--speed 110] [--max 18]
- *     [--hold 1.6] [--settle 3000] [--ua "<user agent>"] [--realtime]
+ *     [--hold 1.6] [--settle 3000] [--ua "<user agent>"] [--realtime] [--page-timeout 420] [--trace]
  *   --width/--height is the browser's window (the page lays out as on a 1600px desktop); --scale makes the
  *   frames 1920×1080. --speed is the glide in page pixels a second, --max its longest run, --hold the seconds
  *   at the top and at the foot, --settle the milliseconds given to a page's own entrance before the first
- *   frame. Default out: public/media/work/<slug>/raw (where video.mjs looks).
+ *   frame; --page-timeout the seconds an attempt at a page may take before it is given up (every step answers within
+ *   seconds or the page is filmed the other way; a page that will not be filmed either way is skipped, not waited
+ *   for); --trace prints each step with its time, for a runner's log. Default out: public/media/work/<slug>/raw
+ *   (where video.mjs looks).
  */
 import { execFileSync } from "node:child_process";
 import fs from "node:fs";
@@ -51,6 +54,7 @@ const flag = (k) => { const i = argv.indexOf(`--${k}`); if (i < 0) return false;
 const WIDTH = Number(take("width", 1600)), HEIGHT = Number(take("height", 900)), SCALE = Number(take("scale", 1.2));
 const FPS = Number(take("fps", 30)), SPEED = Number(take("speed", 110)), MAX = Number(take("max", 18)), HOLD = Number(take("hold", 1.6));
 const SETTLE = Number(take("settle", 3000)), OUT = take("out", null), REALTIME = flag("realtime");
+const PAGE_TIMEOUT = Number(take("page-timeout", 420)) * 1000, TRACE = flag("trace");
 const UA = take("ua", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36");
 const [slug, base, ...specs] = argv;
 if (!slug || !base) { console.error("Usage: node scripts/work/scrollfilm.mjs <slug> <base> [name=route[|click:selector][|live:seconds][|play:keys][|cold] …] [--out dir]"); process.exit(2); }
@@ -76,6 +80,17 @@ const kb = (f) => `${Math.round(fs.statSync(f).size / 1024)} KB`;
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const frameName = (n) => `f-${String(n).padStart(5, "0")}.jpg`;
 class Stall extends Error {}
+const started = Date.now();
+const trace = (msg) => { if (TRACE) console.error(`  [${((Date.now() - started) / 1000).toFixed(1)} s] ${msg}`); };
+/**
+ * A step that must answer within ms, else the page is stalled (filmed the other way, or given up). The first films on
+ * the runner hung a whole site in one page.evaluate for the step's 25 minutes; nothing waits without a limit now.
+ */
+const within = (ms, what, promise) => {
+  promise.catch(() => {}); // an abandoned step's late failure is not an unhandled rejection
+  return Promise.race([promise, sleep(ms).then(() => { throw new Stall(`${what} did not answer within ${ms / 1000} s`); })]);
+};
+let current = null; // the context being filmed, closed by the watchdog when its page is given up
 
 const FRAME = 1000 / FPS;
 const MEDIA = ["--autoplay-policy=no-user-gesture-required", "--mute-audio"];
@@ -98,12 +113,15 @@ async function open(pg, virtual) {
   const context = await browser.newContext({ viewport: { width: WIDTH, height: HEIGHT }, deviceScaleFactor: SCALE, userAgent: UA, ignoreHTTPSErrors: true, reducedMotion: "no-preference" });
   const page = await context.newPage();
   const cdp = await context.newCDPSession(page);
+  current = { context };
+  trace(`${pg.name}: context open (${virtual ? "frame by frame" : "real time"})`);
   // the frame clock keeps to the page's own: BeginFrame times are the renderer's ticks, which virtual time counts
   // from the moment it was enabled, so every animation frame reads the time performance.now() reads
   let ticks = 0, elapsed = 0;
   if (virtual) ticks = (await cdp.send("Emulation.setVirtualTimePolicy", { policy: "pause" })).virtualTimeTicksBase;
   const url = new URL(pg.route, base).href;
   await page.goto(url, { waitUntil: virtual ? "commit" : "load", timeout: 60000 }).catch((e) => console.error(`${slug}/${pg.name}: ${String(e.message).split("\n")[0]}`));
+  trace(`${pg.name}: navigated`);
   await sleep(2500); // its files arrive (while the clock stands still, under virtual time)
   // the clock waits for the page's fetches, unless one never ends (a stream, a dev server's socket): after 2.5 s of
   // real time with no progress the page is given its time regardless, for the rest of this film
@@ -119,8 +137,7 @@ async function open(pg, virtual) {
       console.error(`${slug}/${pg.name}: a fetch never finished; the clock runs on without it`);
       await cdp.send("Emulation.setVirtualTimePolicy", { policy: "advance", budget: ms, maxVirtualTimeTaskStarvationCount: 100000 }).catch(() => done());
     }, 2500);
-    await expired;
-    clearTimeout(timer);
+    try { await within(20000, "the page's clock", expired); } finally { clearTimeout(timer); }
     elapsed += ms;
   };
   let lastFrameAt = -1;
@@ -141,9 +158,10 @@ async function open(pg, virtual) {
   await frame(false);
   await advance(SETTLE);
   await frame(false);
+  trace(`${pg.name}: settled`);
   // what sits over the page (a cookie bar, a newsletter) is taken off: Escape, then the fixed layers that name themselves
   await Promise.race([page.keyboard.press("Escape"), sleep(2000)]).catch(() => {});
-  await page.evaluate(() => {
+  await within(10000, "the page (clearing what sits over it)", page.evaluate(() => {
     for (const el of document.querySelectorAll("body *")) {
       const cs = getComputedStyle(el);
       if (cs.position !== "fixed") continue;
@@ -152,34 +170,39 @@ async function open(pg, virtual) {
     }
     document.documentElement.style.scrollBehavior = "auto";
     document.body.style.scrollBehavior = "auto";
-  }).catch(() => {});
+  })).catch((e) => { if (e instanceof Stall) throw e; });
+  trace(`${pg.name}: cleared`);
   if (pg.click) {
     // under virtual time the element is clicked by the page itself (the mouse would wait on frames the paused clock
     // does not give); in real time, by the mouse
     const target = page.locator(pg.click).first();
-    await (virtual ? target.evaluate((el) => el.click(), undefined, { timeout: 5000 }) : target.click({ timeout: 5000, force: true }))
-      .catch((e) => console.error(`${slug}/${pg.name}: click ${pg.click}: ${String(e.message).split("\n")[0]}`));
+    await within(8000, "the click", virtual ? target.evaluate((el) => el.click(), undefined, { timeout: 5000 }) : target.click({ timeout: 5000, force: true }))
+      .catch((e) => { if (e instanceof Stall) throw e; console.error(`${slug}/${pg.name}: click ${pg.click}: ${String(e.message).split("\n")[0]}`); });
     await frame(false);
     await advance(SETTLE);
     await frame(false);
+    trace(`${pg.name}: clicked ${pg.click}`);
   }
   // the page warmed: a pass down to its foot and back, so what loads as it comes into view (lazy pictures, fonts,
   // a reveal that runs once) is there before the film starts and nothing is filmed as a placeholder (The Room's wall
   // filmed cold showed ovals of initials where its busts were still loading); `|cold` films the first visit instead
-  const measure = () => page.evaluate(() => Math.max(document.documentElement.scrollHeight, document.body.scrollHeight));
+  const measure = () => within(10000, "the page (measuring it)", page.evaluate(() => Math.max(document.documentElement.scrollHeight, document.body.scrollHeight)));
+  const scrollTo = (y) => within(10000, "the page (scrolling it)", page.evaluate((y) => window.scrollTo(0, y), y));
   if (!pg.cold && !pg.live) { // a live page is recorded where its click left it
     for (let y = 0, h = await measure(); y < h && y < 40000; y += Math.round(HEIGHT * 0.75)) {
-      await page.evaluate((y) => window.scrollTo(0, y), y);
+      await scrollTo(y);
       await advance(virtual ? 200 : 400);
       await frame(false);
       h = await measure();
     }
-    await page.evaluate(() => window.scrollTo(0, 0));
+    await scrollTo(0);
     await advance(SETTLE);
     await frame(false);
+    trace(`${pg.name}: warmed`);
   }
   const height = await measure();
-  return { context, page, cdp, advance, frame, height };
+  trace(`${pg.name}: ${height}px`);
+  return { context, page, cdp, advance, frame, scrollTo, height };
 }
 
 /** The timeline of a page: a hold, the glide, a hold (in seconds). */
@@ -193,7 +216,7 @@ function timeline(height) {
 
 /** Frame by frame: scroll, move the clock on by one frame, ask for that frame; a frame that never comes is a stall. */
 async function filmVirtual(pg, tmp) {
-  const { context, page, advance, frame, height } = await open(pg, true);
+  const { context, advance, frame, scrollTo, height } = await open(pg, true);
   try {
     const tl = timeline(height);
     const total = Math.round(tl.seconds * FPS);
@@ -201,8 +224,9 @@ async function filmVirtual(pg, tmp) {
     for (let i = 0; i < total; i++) {
       const t = i / FPS;
       const k = tl.travel ? Math.min(1, Math.max(0, (t - tl.hold) / tl.glide)) : 0;
-      await page.evaluate((y) => window.scrollTo(0, y), Math.round(tl.travel * smoothstep(k)));
+      await scrollTo(Math.round(tl.travel * smoothstep(k)));
       await advance(FRAME);
+      if (i % 100 === 0) trace(`${pg.name}: frame ${i} of ${total}`);
       let r = await frame(true).catch((e) => { throw new Stall(`${e.message} after ${frames}`); });
       if (!r.screenshotData && !last) r = await frame(true); // nothing drawn yet: once more
       if (r.screenshotData) last = Buffer.from(r.screenshotData, "base64"); // else the page did not change: the last picture again
@@ -248,7 +272,7 @@ async function filmRealTime(pg, tmp, live) {
       const tl = timeline(height);
       seconds = tl.seconds;
       // the page scrolls itself, frame by frame of its own clock, along the same hold–glide–hold
-      await page.evaluate(({ travel, hold, glide, seconds }) => new Promise((resolve) => {
+      await within((tl.seconds + 10) * 1000, "the page's own scroll", page.evaluate(({ travel, hold, glide, seconds }) => new Promise((resolve) => {
         const t0 = performance.now();
         const step = (now) => {
           const t = (now - t0) / 1000;
@@ -257,8 +281,9 @@ async function filmRealTime(pg, tmp, live) {
           if (t < seconds) requestAnimationFrame(step); else resolve();
         };
         requestAnimationFrame(step);
-      }), tl);
+      }), tl)).catch((e) => { if (!(e instanceof Stall)) throw e; console.error(`${slug}/${pg.name}: ${e.message}; the film ends with what was recorded`); });
     }
+    trace(`${pg.name}: recorded ${frames} frames`);
     await cdp.send("Page.stopScreencast").catch(() => {});
     cdp.off("Page.screencastFrame", onFrame);
     if (!times.length) throw new Error("the screencast delivered no frame");
@@ -276,15 +301,27 @@ for (const pg of pages) {
   const tmp = fs.mkdtempSync(path.join(os.tmpdir(), `qw-film-${slug}-${pg.name}-`));
   try {
     let result;
-    if (pg.live) result = await filmRealTime(pg, tmp, pg.live);
-    else if (REALTIME) result = await filmRealTime(pg, tmp, 0);
+    // each attempt has the page's whole time budget; a stalled attempt's context is closed and its browser let go
+    const attempt = async (how, run) => {
+      try { return await within(PAGE_TIMEOUT, `${how}: the page`, run()); }
+      catch (e) {
+        if (!(e instanceof Stall)) throw e;
+        await Promise.race([current?.context.close(), sleep(5000)]).catch(() => {});
+        const key = how === "frame by frame" ? "shell" : "full";
+        await Promise.race([browsers[key]?.close(), sleep(5000)]).catch(() => {});
+        browsers[key] = null;
+        throw e;
+      }
+    };
+    if (pg.live) result = await attempt("real time", () => filmRealTime(pg, tmp, pg.live));
+    else if (REALTIME) result = await attempt("real time", () => filmRealTime(pg, tmp, 0));
     else {
-      try { result = await filmVirtual(pg, tmp); }
+      try { result = await attempt("frame by frame", () => filmVirtual(pg, tmp)); }
       catch (e) {
         if (!(e instanceof Stall)) throw e;
         console.error(`${slug}/${pg.name}: no frame came frame by frame (${e.message}); filmed in real time instead`);
         for (const f of fs.readdirSync(tmp)) fs.rmSync(path.join(tmp, f));
-        result = await filmRealTime(pg, tmp, 0);
+        result = await attempt("real time", () => filmRealTime(pg, tmp, 0));
       }
     }
     const file = path.join(out, `film-${pg.name}.mp4`);
@@ -294,12 +331,12 @@ for (const pg of pages) {
     films.push({ name: pg.name, route: pg.route, url: new URL(pg.route, base).href, seconds: Number(result.seconds.toFixed(2)), height: result.height, frames: result.frames, how: result.how });
     console.log(`${slug}/${pg.name}: ${result.frames} frames, ${result.seconds.toFixed(1)} s, page ${result.height}px, ${result.how} → ${path.basename(file)} ${kb(file)}`);
   } catch (e) {
-    console.error(`${slug}/${pg.name}: ${String(e.message || e).split("\n")[0]}`);
+    console.error(`${slug}/${pg.name}: ${e instanceof Stall ? `given up: ${e.message}` : String(e.message || e).split("\n")[0]}`);
   } finally {
     fs.rmSync(tmp, { recursive: true, force: true });
   }
 }
-for (const b of Object.values(browsers)) await b.close().catch(() => {});
+for (const b of Object.values(browsers)) if (b) await Promise.race([b.close(), sleep(5000)]).catch(() => {});
 const manifestFile = path.join(out, "films.json");
 const previous = fs.existsSync(manifestFile) ? JSON.parse(fs.readFileSync(manifestFile, "utf8")) : { films: [] };
 const merged = [...previous.films.filter((f) => !films.some((g) => g.name === f.name)), ...films];
