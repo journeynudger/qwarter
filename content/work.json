@@ -273,9 +273,7 @@
       "film": {
         "scenes": [
           {
-            "still": "raw/home.png",
-            "seconds": 7,
-            "move": "in"
+            "film": "home"
           },
           {
             "still": "raw/table.png",
@@ -288,7 +286,7 @@
             "move": "in"
           }
         ],
-        "source": "the wall, the table and Ask them, photographed from the site's own build, each held with a slow move (the wall does not scroll)"
+        "source": "the wall filmed scrolling from the site's own build (scripts/work/scrollfilm.mjs: the busts, and the initials of those without one, as the site shows them), then the table and Ask them, photographed from the same build and each held with a slow move (both are fixed layers over the wall: scrolling changes nothing in them)"
       }
     },
     {
