@@ -1,0 +1,37 @@
+{
+  "slug": "butter",
+  "base": "https://butterspreads.com",
+  "shot": "2026-10-23T18:46:55.311Z",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "films": [
+    {
+      "name": "home",
+      "route": "/",
+      "url": "https://butterspreads.com/",
+      "seconds": 21.2,
+      "height": 4528,
+      "frames": 1044,
+      "how": "real time, scrolling"
+    },
+    {
+      "name": "collections-all",
+      "route": "/collections/all",
+      "url": "https://butterspreads.com/collections/all",
+      "seconds": 2.56,
+      "height": 900,
+      "frames": 1,
+      "how": "real time, scrolling"
+    },
+    {
+      "name": "blogs-news",
+      "route": "/blogs/news",
+      "url": "https://butterspreads.com/blogs/news",
+      "seconds": 4.32,
+      "height": 1023,
+      "frames": 61,
+      "how": "real time, scrolling"
+    }
+  ]
+}

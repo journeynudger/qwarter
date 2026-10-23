@@ -1,0 +1,28 @@
+{
+  "slug": "ignite-beacon",
+  "base": "https://ignitebeacon.com",
+  "shot": "2026-10-23T18:52:15.213Z",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "films": [
+    {
+      "name": "home",
+      "route": "/",
+      "url": "https://ignitebeacon.com/",
+      "seconds": 21.2,
+      "height": 6031,
+      "frames": 1118,
+      "how": "real time, scrolling"
+    },
+    {
+      "name": "support",
+      "route": "/support",
+      "url": "https://ignitebeacon.com/support",
+      "seconds": 18.97,
+      "height": 2635,
+      "frames": 1095,
+      "how": "real time, scrolling"
+    }
+  ]
+}
