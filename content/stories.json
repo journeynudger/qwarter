@@ -89,8 +89,8 @@
         "src": "/media/stories/additions/jensen-huang-archive.webp",
         "width": 700,
         "height": 700,
-        "alt": "Jensen Huang seated in a graphics demonstration area with computer displays behind him",
-        "caption": "Jensen Huang in an archival photograph matching the image in the supplied post. The photographer and photograph date could not be confirmed.",
+        "alt": "Jensen Huang at NVIDIA.",
+        "caption": "Jensen Huang at NVIDIA.",
         "credit": "Archive copy via Ticker History; original photographer unidentified",
         "source": "https://x.com/TickerHistory/status/1760358604303954378",
         "originalUrl": "https://pbs.twimg.com/media/GG4LbASX0AAhAXg.png"
@@ -303,14 +303,14 @@
     "company": "Coca-Cola & Pepsi",
     "category": "Brand",
     "lesson": "The associations around a product can be as durable as the product itself.",
-    "excerpt": "In 2019, Pepsi released this ad.",
+    "excerpt": "Pepsi dressed its can in a Coca-Cola cape for Halloween.",
     "minutes": 4,
     "isExcerpt": false,
     "source": {
       "label": "Original article",
       "url": "https://profitsnack.com/p/158"
     },
-    "provenance": "User-supplied reading collection, 2026-10-23. Sponsored sections, newsletter navigation and emojis removed. Editorial headings and Qwarter takeaway added for this Stories collection.",
+    "provenance": "User-supplied reading collection, 2026-10-23. Sponsored sections, newsletter navigation and emojis removed. Editorial headings and Qwarter takeaway added for this Stories collection. 2026-10-24: repeated Halloween response image and its unsupported date/attribution removed at Lorenzo’s request.",
     "hero": 0,
     "images": [
       {
@@ -322,16 +322,6 @@
         "source": "https://profitsnack.com/p/158",
         "originalUrl": "https://media.beehiiv.com/uploads/asset/file/a9ce57d0-b32d-4e46-9fbd-635912d1339a/Screen_Shot_2024-02-09_at_2.13.22_PM.png?t=1707506014",
         "originalFile": "images/17-003.webp"
-      },
-      {
-        "src": "/media/stories/the-cola-wars/17-005.webp",
-        "width": 816,
-        "height": 978,
-        "alt": "The image reframed as a Coca-Cola response.",
-        "caption": "The image reframed as a Coca-Cola response.",
-        "source": "https://profitsnack.com/p/158",
-        "originalUrl": "https://media.beehiiv.com/uploads/asset/file/dc68f412-d767-4768-88ac-be451e4a437b/Screen_Shot_2024-02-09_at_2.13.50_PM.png?t=1707506034",
-        "originalFile": "images/17-005.webp"
       },
       {
         "src": "/media/stories/the-cola-wars/17-028.webp",
@@ -407,8 +397,8 @@
         "src": "/media/stories/the-cola-wars/17-087-clean.webp",
         "width": 1096,
         "height": 736,
-        "alt": "A revenue and profit comparison from the supplied article.",
-        "caption": "A revenue and profit comparison from the supplied article.",
+        "alt": "Coca-Cola and PepsiCo: revenue and net profit, 2023.",
+        "caption": "Coca-Cola and PepsiCo: revenue and net profit, 2023.",
         "source": "https://profitsnack.com/p/158",
         "originalUrl": "https://media.beehiiv.com/uploads/asset/file/609166a3-4d06-4ef7-9ea2-4eb6cfcc0bd7/Screen_Shot_2024-02-09_at_2.41.49_PM.png?t=1707507721",
         "originalFile": "images/17-087.webp"
@@ -417,15 +407,11 @@
     "blocks": [
       {
         "type": "paragraph",
-        "text": "In 2019, Pepsi released this ad."
-      },
-      {
-        "type": "paragraph",
-        "text": "1 day later, Coke released this ad:"
+        "text": "Pepsi dressed its can in a Coca-Cola cape for Halloween."
       },
       {
         "type": "image",
-        "image": 1
+        "image": 0
       },
       {
         "type": "paragraph",
@@ -437,7 +423,7 @@
       },
       {
         "type": "paragraph",
-        "text": "On the other, there’s Pepsi - with about about 33% market share."
+        "text": "On the other, there’s Pepsi - with about 33% market share."
       },
       {
         "type": "paragraph",
@@ -494,7 +480,7 @@
       },
       {
         "type": "image",
-        "image": 2
+        "image": 1
       },
       {
         "type": "paragraph",
@@ -514,7 +500,7 @@
       },
       {
         "type": "image",
-        "image": 3
+        "image": 2
       },
       {
         "type": "paragraph",
@@ -568,7 +554,7 @@
       },
       {
         "type": "image",
-        "image": 4
+        "image": 3
       },
       {
         "type": "paragraph",
@@ -589,7 +575,7 @@
       },
       {
         "type": "image",
-        "image": 5
+        "image": 4
       },
       {
         "type": "paragraph",
@@ -601,7 +587,7 @@
       },
       {
         "type": "image",
-        "image": 6
+        "image": 5
       },
       {
         "type": "paragraph",
@@ -618,7 +604,7 @@
       },
       {
         "type": "image",
-        "image": 7
+        "image": 6
       },
       {
         "type": "paragraph",
@@ -663,7 +649,7 @@
       },
       {
         "type": "image",
-        "image": 8
+        "image": 7
       },
       {
         "type": "paragraph",
@@ -691,7 +677,7 @@
       },
       {
         "type": "image",
-        "image": 9
+        "image": 8
       },
       {
         "type": "paragraph",
@@ -738,8 +724,8 @@
         "src": "/media/stories/additions/amazon-supplied-letter-excerpt-clean.webp",
         "width": 1258,
         "height": 1612,
-        "alt": "Supplied excerpt showing Andy Jassy’s sign-off and the reprinted 1997 Amazon shareholder letter",
-        "caption": "The supplied letter excerpt shows the transition from Andy Jassy’s sign-off to the original 1997 letter. The year of the surrounding letter is not visible.",
+        "alt": "Amazon’s shareholder letters: Andy Jassy’s sign-off and the 1997 letter.",
+        "caption": "Amazon’s shareholder letters: Andy Jassy’s sign-off and the 1997 letter.",
         "credit": "Amazon; screenshot supplied by the reader",
         "source": "https://www.aboutamazon.com/news/company-news/amazon-ceo-andy-jassy-2024-letter-to-shareholders",
         "originalUrl": "User-supplied IMG_6521.jpg"
@@ -5940,8 +5926,8 @@
         "src": "/media/stories/trader-joe-s-the-16-billion-store/20-020-clean.webp",
         "width": 1184,
         "height": 686,
-        "alt": "A store-size and sales comparison from the supplied article.",
-        "caption": "A store-size and sales comparison from the supplied article.",
+        "alt": "Store size and sales compared.",
+        "caption": "Store size and sales compared.",
         "source": "https://profitsnack.com/p/151",
         "originalUrl": "https://media.beehiiv.com/uploads/asset/file/518be9e0-d8b3-407f-8ba1-78d8dbf5154a/Screen_Shot_2024-01-15_at_5.55.26_PM.png?t=1705359351",
         "originalFile": "images/20-020.webp"
@@ -6316,8 +6302,8 @@
         "src": "/media/stories/beautiful-first-sentences/catch-22.webp",
         "width": 780,
         "height": 212,
-        "alt": "Joseph Heller, Catch-22. Opening-line poster from the supplied conceptual Barnes & Noble campaign.",
-        "caption": "Joseph Heller, Catch-22. Opening-line poster from the supplied conceptual Barnes & Noble campaign.",
+        "alt": "Joseph Heller, Catch-22. Opening-line poster from the conceptual Barnes & Noble campaign.",
+        "caption": "Joseph Heller, Catch-22. Opening-line poster from the conceptual Barnes & Noble campaign.",
         "credit": "Joseph Heller, Catch-22; campaign artwork supplied by the user, designer not identified",
         "source": "/media/stories/beautiful-first-sentences/catch-22.webp",
         "originalUrl": "/media/stories/beautiful-first-sentences/catch-22.webp"
@@ -6326,8 +6312,8 @@
         "src": "/media/stories/beautiful-first-sentences/i-capture-the-castle.webp",
         "width": 742,
         "height": 296,
-        "alt": "Dodie Smith, I Capture the Castle. Opening-line poster from the supplied conceptual Barnes & Noble campaign.",
-        "caption": "Dodie Smith, I Capture the Castle. Opening-line poster from the supplied conceptual Barnes & Noble campaign.",
+        "alt": "Dodie Smith, I Capture the Castle. Opening-line poster from the conceptual Barnes & Noble campaign.",
+        "caption": "Dodie Smith, I Capture the Castle. Opening-line poster from the conceptual Barnes & Noble campaign.",
         "credit": "Dodie Smith, I Capture the Castle; campaign artwork supplied by the user, designer not identified",
         "source": "/media/stories/beautiful-first-sentences/i-capture-the-castle.webp",
         "originalUrl": "/media/stories/beautiful-first-sentences/i-capture-the-castle.webp"
@@ -6336,8 +6322,8 @@
         "src": "/media/stories/beautiful-first-sentences/neuromancer.webp",
         "width": 716,
         "height": 308,
-        "alt": "William Gibson, Neuromancer. Opening-line poster from the supplied conceptual Barnes & Noble campaign.",
-        "caption": "William Gibson, Neuromancer. Opening-line poster from the supplied conceptual Barnes & Noble campaign.",
+        "alt": "William Gibson, Neuromancer. Opening-line poster from the conceptual Barnes & Noble campaign.",
+        "caption": "William Gibson, Neuromancer. Opening-line poster from the conceptual Barnes & Noble campaign.",
         "credit": "William Gibson, Neuromancer; campaign artwork supplied by the user, designer not identified",
         "source": "/media/stories/beautiful-first-sentences/neuromancer.webp",
         "originalUrl": "/media/stories/beautiful-first-sentences/neuromancer.webp"
@@ -6346,8 +6332,8 @@
         "src": "/media/stories/beautiful-first-sentences/the-hunger-games.webp",
         "width": 964,
         "height": 370,
-        "alt": "Suzanne Collins, The Hunger Games. Opening-line poster from the supplied conceptual Barnes & Noble campaign.",
-        "caption": "Suzanne Collins, The Hunger Games. Opening-line poster from the supplied conceptual Barnes & Noble campaign.",
+        "alt": "Suzanne Collins, The Hunger Games. Opening-line poster from the conceptual Barnes & Noble campaign.",
+        "caption": "Suzanne Collins, The Hunger Games. Opening-line poster from the conceptual Barnes & Noble campaign.",
         "credit": "Suzanne Collins, The Hunger Games; campaign artwork supplied by the user, designer not identified",
         "source": "/media/stories/beautiful-first-sentences/the-hunger-games.webp",
         "originalUrl": "/media/stories/beautiful-first-sentences/the-hunger-games.webp"
@@ -6356,8 +6342,8 @@
         "src": "/media/stories/beautiful-first-sentences/the-stranger.webp",
         "width": 716,
         "height": 214,
-        "alt": "Albert Camus, The Stranger. Opening-line poster from the supplied conceptual Barnes & Noble campaign.",
-        "caption": "Albert Camus, The Stranger. Opening-line poster from the supplied conceptual Barnes & Noble campaign.",
+        "alt": "Albert Camus, The Stranger. Opening-line poster from the conceptual Barnes & Noble campaign.",
+        "caption": "Albert Camus, The Stranger. Opening-line poster from the conceptual Barnes & Noble campaign.",
         "credit": "Albert Camus, The Stranger; campaign artwork supplied by the user, designer not identified",
         "source": "/media/stories/beautiful-first-sentences/the-stranger.webp",
         "originalUrl": "/media/stories/beautiful-first-sentences/the-stranger.webp"
@@ -6366,8 +6352,8 @@
         "src": "/media/stories/beautiful-first-sentences/fear-and-loathing.webp",
         "width": 922,
         "height": 448,
-        "alt": "Hunter S. Thompson, Fear and Loathing in Las Vegas. Opening-line poster from the supplied conceptual Barnes & Noble campaign.",
-        "caption": "Hunter S. Thompson, Fear and Loathing in Las Vegas. Opening-line poster from the supplied conceptual Barnes & Noble campaign.",
+        "alt": "Hunter S. Thompson, Fear and Loathing in Las Vegas. Opening-line poster from the conceptual Barnes & Noble campaign.",
+        "caption": "Hunter S. Thompson, Fear and Loathing in Las Vegas. Opening-line poster from the conceptual Barnes & Noble campaign.",
         "credit": "Hunter S. Thompson, Fear and Loathing in Las Vegas; campaign artwork supplied by the user, designer not identified",
         "source": "/media/stories/beautiful-first-sentences/fear-and-loathing.webp",
         "originalUrl": "/media/stories/beautiful-first-sentences/fear-and-loathing.webp"
@@ -6376,8 +6362,8 @@
         "src": "/media/stories/beautiful-first-sentences/goodbye-to-berlin.webp",
         "width": 852,
         "height": 298,
-        "alt": "Christopher Isherwood, Goodbye to Berlin. Opening-line poster from the supplied conceptual Barnes & Noble campaign.",
-        "caption": "Christopher Isherwood, Goodbye to Berlin. Opening-line poster from the supplied conceptual Barnes & Noble campaign.",
+        "alt": "Christopher Isherwood, Goodbye to Berlin. Opening-line poster from the conceptual Barnes & Noble campaign.",
+        "caption": "Christopher Isherwood, Goodbye to Berlin. Opening-line poster from the conceptual Barnes & Noble campaign.",
         "credit": "Christopher Isherwood, Goodbye to Berlin; campaign artwork supplied by the user, designer not identified",
         "source": "/media/stories/beautiful-first-sentences/goodbye-to-berlin.webp",
         "originalUrl": "/media/stories/beautiful-first-sentences/goodbye-to-berlin.webp"
@@ -6386,8 +6372,8 @@
         "src": "/media/stories/beautiful-first-sentences/eureka-street.webp",
         "width": 866,
         "height": 178,
-        "alt": "Robert McLiam Wilson, Eureka Street. Opening-line poster from the supplied conceptual Barnes & Noble campaign.",
-        "caption": "Robert McLiam Wilson, Eureka Street. Opening-line poster from the supplied conceptual Barnes & Noble campaign.",
+        "alt": "Robert McLiam Wilson, Eureka Street. Opening-line poster from the conceptual Barnes & Noble campaign.",
+        "caption": "Robert McLiam Wilson, Eureka Street. Opening-line poster from the conceptual Barnes & Noble campaign.",
         "credit": "Robert McLiam Wilson, Eureka Street; campaign artwork supplied by the user, designer not identified",
         "source": "/media/stories/beautiful-first-sentences/eureka-street.webp",
         "originalUrl": "/media/stories/beautiful-first-sentences/eureka-street.webp"
@@ -6396,8 +6382,8 @@
         "src": "/media/stories/beautiful-first-sentences/jane-eyre.webp",
         "width": 818,
         "height": 292,
-        "alt": "Charlotte Brontë, Jane Eyre. Opening-line poster from the supplied conceptual Barnes & Noble campaign.",
-        "caption": "Charlotte Brontë, Jane Eyre. Opening-line poster from the supplied conceptual Barnes & Noble campaign.",
+        "alt": "Charlotte Brontë, Jane Eyre. Opening-line poster from the conceptual Barnes & Noble campaign.",
+        "caption": "Charlotte Brontë, Jane Eyre. Opening-line poster from the conceptual Barnes & Noble campaign.",
         "credit": "Charlotte Brontë, Jane Eyre; campaign artwork supplied by the user, designer not identified",
         "source": "/media/stories/beautiful-first-sentences/jane-eyre.webp",
         "originalUrl": "/media/stories/beautiful-first-sentences/jane-eyre.webp"
@@ -6406,8 +6392,8 @@
         "src": "/media/stories/beautiful-first-sentences/fahrenheit-451.webp",
         "width": 978,
         "height": 272,
-        "alt": "Ray Bradbury, Fahrenheit 451. Opening-line poster from the supplied conceptual Barnes & Noble campaign.",
-        "caption": "Ray Bradbury, Fahrenheit 451. Opening-line poster from the supplied conceptual Barnes & Noble campaign.",
+        "alt": "Ray Bradbury, Fahrenheit 451. Opening-line poster from the conceptual Barnes & Noble campaign.",
+        "caption": "Ray Bradbury, Fahrenheit 451. Opening-line poster from the conceptual Barnes & Noble campaign.",
         "credit": "Ray Bradbury, Fahrenheit 451; campaign artwork supplied by the user, designer not identified",
         "source": "/media/stories/beautiful-first-sentences/fahrenheit-451.webp",
         "originalUrl": "/media/stories/beautiful-first-sentences/fahrenheit-451.webp"
@@ -7296,8 +7282,8 @@
         "src": "/media/stories/rosso-corsa/06.webp",
         "width": 499,
         "height": 764,
-        "alt": "An F40 poster from the supplied collection.",
-        "caption": "An F40 poster from the supplied collection.",
+        "alt": "Ferrari F40.",
+        "caption": "Ferrari F40.",
         "credit": "Extracted from the supplied Ferrari compilation; original photographer or artist not identified",
         "source": "/media/stories/rosso-corsa/source.pdf#page=6",
         "originalUrl": "/media/stories/rosso-corsa/06.webp"

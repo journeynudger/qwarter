@@ -15,7 +15,7 @@
 .qr-spread__media{position:sticky;top:120px;align-self:start;min-width:0;border-left:1px solid var(--qr-rule);padding-left:35px}
 .qr-spread--reverse .qr-spread__text{grid-column:2;grid-row:2;padding:0 0 0 35px}.qr-spread--reverse .qr-spread__media{grid-column:1;grid-row:2;border-left:0;border-right:1px solid var(--qr-rule);padding:0 35px 0 0}
 .qr-spread .qs-plate{width:100%;margin:0 0 45px;max-width:none;padding:0;background:transparent;border:0;box-shadow:none;transform:none}
-.qr-spread .qs-plate>a{display:block;background:transparent;overflow:visible}.qr-spread .qs-plate img{width:100%;height:auto;max-height:72svh;object-fit:contain;background:transparent!important;transform:none;border:0}
+.qr-spread .qs-plate>a{display:block;background:transparent;overflow:visible}.qr-spread .qs-plate img{width:100%;height:auto;max-height:none;object-fit:contain;background:transparent!important;transform:none;border:0}
 .qr-spread .qs-plate figcaption{border-top:1px solid var(--qr-rule);padding-top:14px;margin-top:16px;display:grid;grid-template-columns:55px minmax(0,1fr);gap:15px;font:12px/1.55 var(--qs-mono);color:inherit}
 .qr-spread .qs-photo-credit{font:10px/1.55 var(--qs-mono);color:inherit;opacity:.75;margin-top:10px;overflow-wrap:anywhere}
 .qr-spread .qs-enlarge{right:10px;bottom:10px;background:#111d;color:#eee;border:1px solid #777}
@@ -32,7 +32,11 @@
 @media(max-width:900px){.qr-opening{padding:170px 24px 40px;min-height:70svh}.qr-opening__rail{font-size:9px;flex-wrap:wrap;gap:12px}.qr-opening h1{font-size:clamp(62px,14vw,120px);margin:55px 0 65px}.qr-opening__foot{flex-wrap:wrap;align-items:start;gap:25px}.qr-opening__foot p{width:100%;max-width:600px}.qr-spread{grid-template-columns:1fr;padding:20px 24px 55px;gap:40px}.qr-spread__rail{margin-bottom:0;font-size:9px}.qr-spread__text,.qr-spread--reverse .qr-spread__text{grid-column:1;grid-row:auto;padding:0;max-width:680px;justify-self:center}.qr-spread__text h2{font-size:clamp(43px,8.5vw,74px);margin-bottom:35px}.qr-spread__text p{font-size:23px;line-height:1.5}.qr-spread__media,.qr-spread--reverse .qr-spread__media{position:static;grid-column:1;grid-row:auto;border:0;padding:0;max-width:680px;justify-self:center;width:100%}.qr-spread .qs-plate{margin-bottom:25px}.qr-spread .qs-plate img{max-height:none}.qr-spread .qs-plate figcaption{grid-template-columns:45px 1fr;gap:10px}.qr-spread__media--sequence>div:nth-child(2){margin-left:0;width:100%}.qr-ending{padding:60px 24px 80px}.qr-takeaway{grid-template-columns:1fr;gap:30px}.qr-ending .qs-sources{margin-top:60px}.qr-video{margin-top:25px}}
 @media(max-width:480px){.qr-opening{padding-left:18px;padding-right:18px}.qr-opening h1{font-size:17vw}.qr-spread,.qr-ending{padding-left:18px;padding-right:18px}.qr-spread__text p{font-size:22px}.qr-spread__text p.qr-lead{font-size:34px}.qr-opening__foot p{font-size:28px}.qr-opening__rail>span:last-child{width:100%}}
 @media(prefers-reduced-motion:reduce){.qr-motion [data-qr-reveal]{opacity:1;transform:none;transition:none}}
-/* Archival frontispieces echo the physical overlap of a notebook, with every source shown whole below. */
-.qr-frontispiece{background:#10120f;padding:30px 40px 45px;border-top:1px solid #444;border-bottom:1px solid #444}.qr-frontispiece>.qs-label{color:#b9b9aa}.qr-photo-stack{position:relative;max-width:1250px;height:720px;margin:40px auto 50px}.qr-photo-stack__item{display:block;position:absolute;width:58%;height:75%;padding:12px;background:#252821;border:1px solid #4c5143;box-shadow:0 15px 60px #0006}.qr-photo-stack__item img{width:100%;height:100%;object-fit:contain}.qr-photo-stack__item--1{left:4%;top:0;rotate:-4deg;z-index:1}.qr-photo-stack__item--2{right:4%;top:14%;rotate:3deg;z-index:2}.qr-photo-stack__item--3{left:18%;bottom:0;rotate:-2deg;z-index:3}.qr-photo-stack__item:focus-visible,.qr-photo-stack__item:hover{z-index:4}.qr-photo-stack__item--2{--qr-delay:150ms}.qr-photo-stack__item--3{--qr-delay:300ms}
-@media(max-width:900px){.qr-frontispiece{padding:25px 24px}.qr-photo-stack{height:520px;margin:35px auto}.qr-photo-stack__item{width:70%;height:65%;padding:7px}.qr-photo-stack__item--1{left:0}.qr-photo-stack__item--2{right:0;top:18%}.qr-photo-stack__item--3{left:12%;bottom:0}}
-@media(max-width:480px){.qr-photo-stack{height:400px}.qr-frontispiece{padding-left:18px;padding-right:18px}.qr-photo-stack__item{width:76%;height:62%}.qr-photo-stack__item--3{left:8%}}
+/* A small compositor-only drift, separate from the entrance reveal and text. */
+@media(min-width:901px) and (prefers-reduced-motion:no-preference){
+ .qr-motion .qr-spread .qs-plate{translate:0 var(--qr-drift,0px);rotate:var(--qr-tilt,0deg);transform-origin:50% 60%}
+}
+.qr-spread__text,.qr-spread__media{min-width:0}
+.qr-spread__text a{overflow-wrap:anywhere}
+.qr-reader [id]{scroll-margin-top:105px}
+.qr-reader{overflow-x:clip}

@@ -105,6 +105,8 @@ const home = {
   image: "/media/og.jpg",
   swaps: [
     ...chrome("/"),
+    { select: ".widget-home__article", attr: { "data-internal": "" } },
+    { select: ".widget-home__ul", attr: { "aria-label": "Featured projects" } },
     { select: ".visor-videos", repeat: "figure", items: twice.map((p) => ({ img: { attr: { src: media(p.slug).cover, "data-src": media(p.slug).cover2x, alt: p.name, width: "1440", height: "900" } }, video: { attr: { src: media(p.slug).film } }, source: `${SRC.work} ${p.slug}: its cover and film (scripts/work/prepare.mjs, video.mjs)` })) },
     { select: ".widget-home__ul", repeat: "li", items: twice.map((p) => ({
       a: { attr: { href: `/work/${p.slug}/`, "data-video-url": media(p.slug).film, "data-internal": studied(p.slug) ? "" : null } },
@@ -131,8 +133,8 @@ const workPage = {
       a: { attr: { href: `/work/${p.slug}/`, "data-internal": studied(p.slug) ? "" : null } },
       ".__roman": { text: p.numeral },
       ".__client": { text: p.name },
-      ".__title": { text: p.name, attr: { href: null } },
-      ".__director": { text: p.made, attr: { href: null } },
+      ".__title": { text: p.name, attr: { href: null, "aria-hidden": "true" } },
+      ".__director": { text: p.made, attr: { href: null, "aria-hidden": "true" } },
       source: `${SRC.work} ${p.slug}: numeral, name, made`,
     })) },
   ],

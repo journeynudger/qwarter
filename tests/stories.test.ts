@@ -156,6 +156,10 @@ test('new articles preserve every paragraph and image through the immersive read
     const dom = new DOMParser().parseFromString(renderToStaticMarkup(createElement(StoryPage, {slug:story.slug})), 'text/html');
     assert.equal(dom.querySelectorAll('h1').length, 1);
     assert.ok(dom.querySelector('#reading'));
+    const images=[...dom.querySelectorAll('[data-story-image] img')].map(img=>img.getAttribute('src')?.split('?')[0]);
+    assert.equal(images.length,story.images.length,`${story.slug}: one rendering per photograph`);
+    assert.equal(new Set(images).size,images.length,`${story.slug}: duplicate photograph`);
+    for(const caption of dom.querySelectorAll('.qs-plate figcaption')) assert.doesNotMatch(caption.textContent || '', /supplied|not identified|unidentified|matching the image/i);
     for (const img of dom.querySelectorAll('img')) assert.ok(img.getAttribute('alt') !== null);
     if (story.id >= 44) assert.ok(!story.blocks.some(b => 'text' in b && b.text.includes('—')), story.slug);
   }
@@ -172,4 +176,14 @@ test('three review drafts stay out of the public index and search metadata', asy
     assert.ok(renderToStaticMarkup(createElement(StoryPage, {slug:draft.slug})).includes('Draft for review'));
   }
   assert.deepEqual(stories.slice(-2).map(s => s.id), [52,53]);
+});
+
+
+test('Stories removes the introduction and repeated cola artwork', () => {
+  const index=renderToStaticMarkup(StoriesIndex());
+  assert.doesNotMatch(index,/A wider perspective|qs-introduction|intro-title/);
+  const cola=stories.find(story=>story.id===34)!;
+  const html=renderToStaticMarkup(StoryPage({slug:cola.slug}));
+  assert.doesNotMatch(html,/17-005|1 day later|qr-frontispiece/);
+  assert.equal(cola.images.filter(image=>image.caption.includes('Halloween')).length,1);
 });

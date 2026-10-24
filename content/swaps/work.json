@@ -793,13 +793,15 @@
           ".__title": {
             "text": "Butter",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           ".__director": {
             "text": "Website",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           "source": "content/work.json butter: numeral, name, made"
@@ -820,13 +822,15 @@
           ".__title": {
             "text": "JR Pugh",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           ".__director": {
             "text": "Website",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           "source": "content/work.json jr-pugh: numeral, name, made"
@@ -847,13 +851,15 @@
           ".__title": {
             "text": "Beacon",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           ".__director": {
             "text": "Website",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           "source": "content/work.json ignite-beacon: numeral, name, made"
@@ -874,13 +880,15 @@
           ".__title": {
             "text": "Core Rhythm Fitness",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           ".__director": {
             "text": "Website",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           "source": "content/work.json core-rhythm-fitness: numeral, name, made"
@@ -901,13 +909,15 @@
           ".__title": {
             "text": "Thanh Ta",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           ".__director": {
             "text": "Website design & Acuity integration",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           "source": "content/work.json thanh-ta: numeral, name, made"
@@ -928,13 +938,15 @@
           ".__title": {
             "text": "Stairway Audio",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           ".__director": {
             "text": "Website",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           "source": "content/work.json stairway: numeral, name, made"
@@ -955,13 +967,15 @@
           ".__title": {
             "text": "Serein",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           ".__director": {
             "text": "Website",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           "source": "content/work.json serein: numeral, name, made"
@@ -982,13 +996,15 @@
           ".__title": {
             "text": "The Room",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           ".__director": {
             "text": "Website",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           "source": "content/work.json theroom: numeral, name, made"
@@ -1009,13 +1025,15 @@
           ".__title": {
             "text": "Paintings",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           ".__director": {
             "text": "Art gallery & website",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           "source": "content/work.json bambino: numeral, name, made"
@@ -1036,13 +1054,15 @@
           ".__title": {
             "text": "Fonts designed",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           ".__director": {
             "text": "Website and type",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           "source": "content/work.json lorenzo-type: numeral, name, made"
@@ -1063,13 +1083,15 @@
           ".__title": {
             "text": "Ion Insurance",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           ".__director": {
             "text": "Website design & branding",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           "source": "content/work.json ion-insurance: numeral, name, made"
@@ -1090,13 +1112,15 @@
           ".__title": {
             "text": "Titanium Motor Arts",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           ".__director": {
             "text": "Product design & 3D modeling",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           "source": "content/work.json tima: numeral, name, made"
@@ -1117,13 +1141,15 @@
           ".__title": {
             "text": "Wood Company",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           ".__director": {
             "text": "Website design & branding",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           "source": "content/work.json wood-company: numeral, name, made"
@@ -1144,13 +1170,15 @@
           ".__title": {
             "text": "Boujee Healer",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           ".__director": {
             "text": "Website design & web app integration",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           "source": "content/work.json boujee-healer: numeral, name, made"
@@ -1171,13 +1199,15 @@
           ".__title": {
             "text": "Pineapple Club",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           ".__director": {
             "text": "Website design & Google My Business",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           "source": "content/work.json pineapple-club: numeral, name, made"
@@ -1198,13 +1228,15 @@
           ".__title": {
             "text": "Butter",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           ".__director": {
             "text": "Website",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           "source": "content/work.json butter: numeral, name, made"
@@ -1225,13 +1257,15 @@
           ".__title": {
             "text": "JR Pugh",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           ".__director": {
             "text": "Website",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           "source": "content/work.json jr-pugh: numeral, name, made"
@@ -1252,13 +1286,15 @@
           ".__title": {
             "text": "Beacon",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           ".__director": {
             "text": "Website",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           "source": "content/work.json ignite-beacon: numeral, name, made"
@@ -1279,13 +1315,15 @@
           ".__title": {
             "text": "Core Rhythm Fitness",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           ".__director": {
             "text": "Website",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           "source": "content/work.json core-rhythm-fitness: numeral, name, made"
@@ -1306,13 +1344,15 @@
           ".__title": {
             "text": "Thanh Ta",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           ".__director": {
             "text": "Website design & Acuity integration",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           "source": "content/work.json thanh-ta: numeral, name, made"
@@ -1333,13 +1373,15 @@
           ".__title": {
             "text": "Stairway Audio",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           ".__director": {
             "text": "Website",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           "source": "content/work.json stairway: numeral, name, made"
@@ -1360,13 +1402,15 @@
           ".__title": {
             "text": "Serein",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           ".__director": {
             "text": "Website",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           "source": "content/work.json serein: numeral, name, made"
@@ -1387,13 +1431,15 @@
           ".__title": {
             "text": "The Room",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           ".__director": {
             "text": "Website",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           "source": "content/work.json theroom: numeral, name, made"
@@ -1414,13 +1460,15 @@
           ".__title": {
             "text": "Paintings",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           ".__director": {
             "text": "Art gallery & website",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           "source": "content/work.json bambino: numeral, name, made"
@@ -1441,13 +1489,15 @@
           ".__title": {
             "text": "Fonts designed",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           ".__director": {
             "text": "Website and type",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           "source": "content/work.json lorenzo-type: numeral, name, made"
@@ -1468,13 +1518,15 @@
           ".__title": {
             "text": "Ion Insurance",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           ".__director": {
             "text": "Website design & branding",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           "source": "content/work.json ion-insurance: numeral, name, made"
@@ -1495,13 +1547,15 @@
           ".__title": {
             "text": "Titanium Motor Arts",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           ".__director": {
             "text": "Product design & 3D modeling",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           "source": "content/work.json tima: numeral, name, made"
@@ -1522,13 +1576,15 @@
           ".__title": {
             "text": "Wood Company",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           ".__director": {
             "text": "Website design & branding",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           "source": "content/work.json wood-company: numeral, name, made"
@@ -1549,13 +1605,15 @@
           ".__title": {
             "text": "Boujee Healer",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           ".__director": {
             "text": "Website design & web app integration",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           "source": "content/work.json boujee-healer: numeral, name, made"
@@ -1576,13 +1634,15 @@
           ".__title": {
             "text": "Pineapple Club",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           ".__director": {
             "text": "Website design & Google My Business",
             "attr": {
-              "href": null
+              "href": null,
+              "aria-hidden": "true"
             }
           },
           "source": "content/work.json pineapple-club: numeral, name, made"

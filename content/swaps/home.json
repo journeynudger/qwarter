@@ -248,6 +248,18 @@
       "source": "UI copy"
     },
     {
+      "select": ".widget-home__article",
+      "attr": {
+        "data-internal": ""
+      }
+    },
+    {
+      "select": ".widget-home__ul",
+      "attr": {
+        "aria-label": "Featured projects"
+      }
+    },
+    {
       "select": ".visor-videos",
       "repeat": "figure",
       "items": [

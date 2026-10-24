@@ -165,3 +165,7 @@ private transcripts or promoting a product. The three Daring Fireball-inspired e
 carry a visible Draft notice and noindex, and are excluded from public related links and the sitemap:
 `leave-room-to-be-wrong`, `remembering-to-ask`, `let-the-question-land`.
 New prose contains no em dashes. Unsupported precise source claims were qualified or omitted.
+
+### Reading revision, 24 October 2026
+
+Each article photograph is now rendered once. The opening collage was removed, along with the requested "A wider perspective" index introduction and the repeated Halloween image in The Cola Wars. Figure captions show concise descriptions and real credits/source links; internal extraction notes remain in the content records. Spreads group related text more generously, and desktop plates respond subtly to scroll with eased movement. Mobile retains natural reading order and stable photographs; reduced-motion preferences are respected. The main menu hides on downward scrolling and returns on upward scrolling, tap, or keyboard navigation.

@@ -63,16 +63,30 @@ test('the default portfolio keeps its scrolling presentation and offers a Librar
   assert.ok(film?.querySelector('source')?.getAttribute('src')?.includes('/jr-pugh/scroll.mp4?v='));
 });
 
-test('menu blur clears once scrolling stops, including carried wheel scrolling', () => {
-  const events = new Map<string,()=>void>(); const classes = new Set<string>(); let idle:()=>void = ()=>{};
+test('navigation stays hidden after scrolling down and returns on up, tap, or keyboard', () => {
+  const events = new Map<string,(event?: unknown)=>void>();
+  const classes = new Set<string>();
+  const menus = [{inert:false},{inert:false}];
+  const window = {scrollY:0};
   vm.runInNewContext(fs.readFileSync('public/design/qwarter/visit.js','utf8'), {
-    sessionStorage:{getItem:()=>null,setItem:()=>{}},
-    document:{documentElement:{classList:{add:()=>{}}},body:{classList:{add:(v:string)=>classes.add(v),remove:(v:string)=>classes.delete(v)}}},
-    addEventListener:(name:string,fn:()=>void)=>events.set(name,fn),
-    setTimeout:(fn:()=>void)=>{idle=fn;return 1;},clearTimeout:()=>{},
+    sessionStorage:{getItem:()=>null,setItem:()=>{}},window,
+    document:{documentElement:{classList:{add:()=>{}}},querySelectorAll:()=>menus,body:{classList:{toggle:(v:string,on:boolean)=>on?classes.add(v):classes.delete(v)}}},
+    addEventListener:(name:string,fn:(event?:unknown)=>void)=>events.set(name,fn),
   });
-  assert.ok(!classes.has('qw-menu-scrolling'));
-  for(const event of ['wheel','touchmove','scroll']){events.get(event)!();assert.ok(classes.has('qw-menu-scrolling'));idle();assert.ok(!classes.has('qw-menu-scrolling'));}
+  const hidden=()=>classes.has('qw-menu-hidden');
+  events.get('wheel')!({deltaY:35}); assert.ok(hidden()); assert.ok(menus.every(menu=>menu.inert));
+  events.get('wheel')!({deltaY:-2}); assert.ok(hidden(), 'Ignore tiny trackpad jitter');
+  events.get('wheel')!({deltaY:-20}); assert.ok(!hidden());
+  events.get('touchstart')!({touches:[{clientY:400}]});
+  events.get('pointerdown')!({clientX:40,clientY:400});
+  events.get('touchmove')!({touches:[{clientY:200}]}); assert.ok(hidden());
+  events.get('pointerup')!({clientX:40,clientY:200}); assert.ok(hidden(), 'Finishing a swipe is not a tap');
+  events.get('pointerdown')!({clientX:40,clientY:200});
+  events.get('pointerup')!({clientX:41,clientY:201}); assert.ok(!hidden());
+  window.scrollY=200;events.get('scroll')!();assert.ok(hidden());
+  window.scrollY=170;events.get('scroll')!();assert.ok(!hidden());
+  events.get('wheel')!({deltaY:30});events.get('keydown')!({key:'Tab'});assert.ok(!hidden());assert.ok(menus.every(menu=>!menu.inert));
+  window.scrollY=0;events.get('scroll')!();assert.ok(!hidden());
 });
 
 test('carried navigation always opens a fresh document, with view controls only on Portfolio', async () => {
@@ -84,6 +98,7 @@ test('carried navigation always opens a fresh document, with view controls only 
       assert.ok(a.hasAttribute('data-internal'), `${page.path}: ${a.getAttribute('href')}`);
     }
     assert.equal(!!dom.querySelector('.qw-view-switch'),page.slug === 'work',page.path);
+    if (page.slug === 'home') assert.ok(dom.querySelector('.widget-home__article')?.hasAttribute('data-internal'));
   }
 });
 

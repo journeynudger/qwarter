@@ -2,13 +2,49 @@
 (() => {
   function start() {
     const panels = [...document.querySelectorAll('[data-qr-tone]')];
+    const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
     const revealItems = [...document.querySelectorAll('[data-qr-reveal]')];
-    if (revealItems.length && 'IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    if (revealItems.length && 'IntersectionObserver' in window && !reducedMotion.matches) {
       document.querySelector('.qr-reader')?.classList.add('qr-motion');
       const revealObserver = new IntersectionObserver(entries => entries.forEach(entry => {
         if (entry.isIntersecting) {entry.target.classList.add('qr-visible');revealObserver.unobserve(entry.target);}
       }), {threshold:.06, rootMargin:'0px 0px 40px 0px'});
       revealItems.forEach(item => revealObserver.observe(item));
+    }
+    // The page keeps native touch/trackpad scrolling. Only visible plates ease
+    // toward their scroll position, like loose photographs alongside a book.
+    const floating = new Map();
+    let motionFrame = 0;
+    const wideReading = window.matchMedia('(min-width: 901px)');
+    const drawPlates = () => {
+      motionFrame = 0;
+      if (document.hidden || reducedMotion.matches || !wideReading.matches) return;
+      let settling = false;
+      floating.forEach((state, plate) => {
+        const rect = state.anchor.getBoundingClientRect();
+        const progress = Math.max(-1, Math.min(1, (innerHeight / 2 - rect.top - rect.height / 2) / innerHeight));
+        const target = progress * 20;
+        state.y += (target - state.y) * .1;
+        if (Math.abs(target - state.y) > .08) settling = true;
+        plate.style.setProperty('--qr-drift', `${state.y.toFixed(2)}px`);
+        plate.style.setProperty('--qr-tilt', `${(state.y * .045 * state.sign).toFixed(3)}deg`);
+      });
+      if (settling) motionFrame = requestAnimationFrame(drawPlates);
+    };
+    const queuePlates = () => { if (!motionFrame && floating.size) motionFrame = requestAnimationFrame(drawPlates); };
+    if ('IntersectionObserver' in window && !reducedMotion.matches) {
+      const plateObserver = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          const plate = entry.target.querySelector('.qs-plate');
+          if (entry.isIntersecting) floating.set(plate, {anchor:entry.target, y:0, sign:entry.target.closest('.qr-spread--reverse') ? -1 : 1});
+          else floating.delete(plate);
+        });
+        queuePlates();
+      }, {rootMargin:'100px 0px'});
+      document.querySelectorAll('.qr-spread__media > [data-qr-reveal]').forEach(item => plateObserver.observe(item));
+      window.addEventListener('scroll', queuePlates, {passive:true});
+      window.addEventListener('resize', queuePlates, {passive:true});
+      document.addEventListener('visibilitychange', queuePlates);
     }
     const form = document.querySelector('[data-story-filters]');
     if (form) {
@@ -39,12 +75,16 @@
       form.addEventListener('submit', event => { event.preventDefault(); update(); });
     }
     const previews = [...document.querySelectorAll('[data-portfolio-preview]')];
-    if (previews.length && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    if (previews.length && 'IntersectionObserver' in window && !reducedMotion.matches) {
+      const visiblePreviews = new Set();
       const previewObserver = new IntersectionObserver(entries => entries.forEach(({target,isIntersecting}) => {
-        if (isIntersecting) target.play().catch(() => {}); else target.pause();
+        if (isIntersecting) visiblePreviews.add(target); else visiblePreviews.delete(target);
+        if (isIntersecting && !document.hidden) target.play().catch(() => {}); else target.pause();
       }), {threshold: .15});
       previews.forEach(video => previewObserver.observe(video));
-      document.addEventListener('visibilitychange', () => { if (document.hidden) previews.forEach(video => video.pause()); });
+      document.addEventListener('visibilitychange', () => {
+        previews.forEach(video => { if (document.hidden) video.pause(); else if (visiblePreviews.has(video)) video.play().catch(() => {}); });
+      });
     }
     const header = document.querySelector('.qs-header');
     const wordmark = header?.querySelector('.qs-wordmark');

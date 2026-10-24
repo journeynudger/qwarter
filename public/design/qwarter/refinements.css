@@ -27,3 +27,63 @@ html.qw-returning #Preloader{display:none!important;visibility:hidden!important;
  .qw-view-switch{right:18px;bottom:max(18px,env(safe-area-inset-bottom));font-size:15px}.qw-view-switch a{padding:9px 16px}
 }
 @media(prefers-reduced-motion:reduce){.qs-header-blur,#Header__blur>.top{transition:none!important}}
+
+/* Reading chrome leaves the content completely clear until deliberately recalled. */
+#Header,.qs-header,.qs-mark,.st-top{transition:opacity .22s ease,visibility .22s ease!important}
+.qw-menu-hidden #Header,.qw-menu-hidden .qs-header,.qw-menu-hidden .qs-mark,.qw-menu-hidden .st-top{opacity:0!important;visibility:hidden!important;pointer-events:none!important}
+.qw-menu-hidden #Header__blur,.qw-menu-hidden .qs-header-blur{opacity:0!important;visibility:hidden!important}
+.qw-menu-revealed.qs-scrolled .qs-header-blur,.qw-menu-revealed.qw-header-compact #Header__blur>.top{opacity:1!important}
+.qw-menu-revealed .st-top{background:#080808f5}
+/* A loaded film replaces its poster, including its letterbox. Never composite the two. */
+.visor-videos figure{isolation:isolate;background:#000}
+.visor-videos video{background:#000;opacity:0}
+.visor-videos figure.qw-film-ready video{opacity:1}
+.visor-videos figure.qw-film-ready>img{visibility:hidden}
+/* Preserve the reference's moving staircase; keep the resting project caption below the frame. */
+.widget-home .visor-videos img,.widget-home .visor-videos video{top:140px;height:calc(100% - 270px)}
+.widget-home__article .title{top:auto;bottom:68px;height:auto;padding:0 24px;font-size:clamp(28px,3.5vw,52px);line-height:1.12}
+.widget-home__article .director{top:auto;bottom:36px;height:auto;padding:0 24px;font-size:17px;line-height:1.3}
+.widget-home__article .client{display:none}
+.widget-home__project .info .progress{opacity:0}
+/* The archive's original easing and looping list remain. Labels have their own column. */
+.block-project-list .visor-videos{width:68vw}
+.block-project-list .visor-videos img,.block-project-list .visor-videos video{top:130px;height:calc(100% - 230px)}
+.block-project-list__ul{width:32%;margin-left:68%;clip-path:inset(130px 0 100px)}
+.block-project-list__ul li{padding:0 28px 0 15px}
+.block-project-list__project .title,.block-project-list__project .director{display:none!important}
+.block-project-list__project .counter-roman{width:42px;flex-shrink:0;font-size:16px}
+.block-project-list__project .client{width:calc(100% - 42px);font-size:clamp(18px,1.7vw,27px);line-height:1.25;white-space:normal!important}
+.block-project-list__project .__client,.block-project-list__project .__roman{transform:none!important}
+.block-project-list__project.--active .client{text-decoration:underline;text-underline-offset:7px;text-decoration-thickness:1px}
+.block-project-list__project.--active:after{height:52px;top:calc(50% - 26px)}
+.block-project-list__project:focus-visible{outline:1px solid #eee!important;outline-offset:6px}
+@media(max-width:760px) and (orientation:portrait){
+ .widget-home .visor-videos img,.widget-home .visor-videos video{top:130px;height:calc(100% - 270px)}
+ .widget-home__article .title{bottom:72px;font-size:clamp(26px,7vw,38px)}
+ .widget-home__article .director{bottom:42px;font-size:16px}
+ .block-project-list .visor-videos{width:100vw}
+ .block-project-list .visor-videos img,.block-project-list .visor-videos video{top:120px;height:calc(58svh - 120px)}
+ .block-project-list__ul{width:100%;margin:0;translate:0 20svh;clip-path:inset(38% 0 38%)}
+ .block-project-list__ul li{padding:0 32px}
+ .block-project-list__project .client{font-size:22px;line-height:1.25}
+ .block-project-list__project .counter-roman{width:52px;font-size:16px}
+ .qw-view-switch{left:50%;right:auto;translate:-50% 0;bottom:max(20px,env(safe-area-inset-bottom))}
+}
+@media(max-height:500px) and (orientation:landscape){
+ .widget-home .visor-videos img,.widget-home .visor-videos video{top:75px;height:calc(100% - 170px)}
+ .widget-home__article .title{font-size:26px;bottom:43px}.widget-home__article .director{font-size:14px;bottom:18px}
+ .block-project-list .visor-videos img,.block-project-list .visor-videos video{top:70px;height:calc(100% - 120px)}
+ .block-project-list__ul{clip-path:inset(65px 0 65px)}
+}
+@media(prefers-reduced-motion:reduce){#Header,.qs-header,.qs-mark,.st-top{transition:none!important}}
+/* Keep the portfolio selector clear of the carried page's centred corner mark. */
+body:has(.page-archive) #Header .logo-depo{display:none!important}
+@media(max-width:480px){
+ .qs-header nav{font-size:clamp(13px,3.7vw,16px);gap:6px}
+ .qs-header nav a{min-height:36px;display:flex;align-items:center}
+ .st-top{padding:14px 16px;gap:12px}
+ .st-mark{width:20px;height:20px;flex:0 0 20px}
+ .st-mark__svg{width:20px;height:20px}
+ .st-nav{flex:1;justify-content:space-between;font-size:14px;gap:6px}
+ .st-nav a{min-height:36px;display:flex;align-items:center}
+}

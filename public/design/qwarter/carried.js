@@ -6,6 +6,18 @@
     if (!header) return;
     const title = header.querySelector('.title');
     const nav = header.querySelector('nav');
+    // A contained poster is taller than a 16:9 film. Hide it once the film has
+    // pixels, otherwise its navigation peeks out behind the video's letterbox.
+    document.querySelectorAll('.visor-videos figure').forEach(figure => {
+      const video = figure.querySelector('video');
+      if (!video) return;
+      const ready = () => figure.classList.toggle('qw-film-ready', video.readyState >= 2);
+      video.addEventListener('loadeddata', ready);
+      video.addEventListener('playing', ready);
+      video.addEventListener('emptied', ready);
+      video.addEventListener('error', () => figure.classList.remove('qw-film-ready'));
+      ready();
+    });
     let indicator;
     let indicatorObserver;
     const measure = () => {

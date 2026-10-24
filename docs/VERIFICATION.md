@@ -222,3 +222,17 @@ The PDF image contact sheets and newly sourced PBS artwork were inspected direct
 Limitation: browser preview remains blocked by the earlier computer-use URL security gate. No
 alternate browser or raw automation was used to bypass it. Responsive CSS and interaction logic
 were checked, but a fresh rendered desktop/mobile visual comparison cannot be claimed.
+
+## Overlap and reading-flow correction (2026-10-24)
+
+- Diagnosed the reported doubled headers against extracted frames from Core Rhythm, Beacon and The Room. The source recordings each contain one header. A 16:10 still behind a contained 16:9 video left its edges visible. Decoded video now replaces its poster completely, including an opaque letterbox; failures restore the still.
+- Featured labels sit beneath the preview. Portfolio's existing virtual-scroll easing and infinite list are retained, with a separate label column on desktop and a clipped list below the preview on portrait phones. The redundant large title/director layers are suppressed. The portfolio selector no longer collides with the carried mark.
+- Shared navigation hides after downward wheel, touch or native scrolling, remains hidden at rest, and returns on upward movement, a stationary tap, or Tab/Escape/Home. Hidden navigation is inert. A swipe ending does not accidentally recall the menu. Narrow-phone navigation spacing was checked in the CSS rules.
+- The dynamically populated Featured project link now explicitly bypasses PJAX, just like the other internal links. This was missed by the previous href-based rewrite because it begins with href="#".
+- Removed the entire Stories introduction requested by Lorenzo. Removed automatic frontispieces: each image now renders once in its article. Removed the second Halloween can variation and its associated unsupported attribution/date; the remaining Pepsi image appears once. Removed repetitive unidentified-photographer and production notes from captions while retaining source records and links.
+- Reader spreads follow paragraph length and headings instead of forcing a color change every three short sentences. Visible desktop photographs have a small eased scroll-linked translation/rotation; native scrolling remains unchanged, phone imagery stays stable, and reduced-motion preferences disable movement. Library films resume when returning to the tab.
+- Inspected Stripe's referenced public reader source, including its native scroll updates and eased image movement. Inspected the carried DepoLuxe animation code; original reference files are unchanged.
+
+Validation: 38 passing tests, one unavailable WordPress source-snapshot test skipped; full ESLint and production build. Added regression coverage for menu direction/taps/keyboard, video-to-poster state, unique rendered images, the removed intro, and dynamic Featured navigation. HTTP audit: 72 routes, 1,703 internal links, 451 unique assets, no missing routes/assets/anchors, all pages have one h1. All three review drafts remain unlisted/noindex.
+
+Limit: browser visual/motion preview remains blocked by the previously reported computer-use URL security gate. Source video frames and the supplied screenshots were inspected directly; no alternate browser automation was used. This validates the identified layering and content faults, not an assertion of pixel-perfect or perceptually identical animation parity.
