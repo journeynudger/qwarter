@@ -169,3 +169,12 @@ New prose contains no em dashes. Unsupported precise source claims were qualifie
 ### Reading revision, 24 October 2026
 
 Each article photograph is now rendered once. The opening collage was removed, along with the requested "A wider perspective" index introduction and the repeated Halloween image in The Cola Wars. Figure captions show concise descriptions and real credits/source links; internal extraction notes remain in the content records. Spreads group related text more generously, and desktop plates respond subtly to scroll with eased movement. Mobile retains natural reading order and stable photographs; reduced-motion preferences are respected. The main menu hides on downward scrolling and returns on upward scrolling, tap, or keyboard navigation.
+
+### Opening and Library revision, 24 October 2026
+
+The six Stories-index photographs now form a loose collage with individual sizes, offsets and angles,
+instead of an aligned strip. Each complete card is a normal article link with a descriptive accessible
+name, keyboard focus and a small hover lift. Mobile uses its own staggered arrangement; photographs
+retain their natural proportions with space reserved for the heading and opening footer. Reduced
+motion disables movement. The six-story selected section is removed. The opening leads directly
+to the collection, now titled Library, with its existing search, topic filters and article order.

@@ -236,3 +236,13 @@ were checked, but a fresh rendered desktop/mobile visual comparison cannot be cl
 Validation: 38 passing tests, one unavailable WordPress source-snapshot test skipped; full ESLint and production build. Added regression coverage for menu direction/taps/keyboard, video-to-poster state, unique rendered images, the removed intro, and dynamic Featured navigation. HTTP audit: 72 routes, 1,703 internal links, 451 unique assets, no missing routes/assets/anchors, all pages have one h1. All three review drafts remain unlisted/noindex.
 
 Limit: browser visual/motion preview remains blocked by the previously reported computer-use URL security gate. Source video frames and the supplied screenshots were inspected directly; no alternate browser automation was used. This validates the identified layering and content faults, not an assertion of pixel-perfect or perceptually identical animation parity.
+
+## Stories opening and Library (2026-10-24)
+
+The opening photographs use independent positions, sizes and rotations on desktop and mobile, with
+ordinary article links and visible keyboard focus. Removed the entire selected-six section and renamed
+the collection Library. The opening CTA targets it directly. Existing rendered-index checks now verify
+all six destinations, accessible links, the immediate section order and the absence of the removed copy.
+The content suite passes 38 tests with the same one unavailable-source-snapshot check skipped; full
+ESLint and production build pass. Browser visual review remains unavailable under the existing URL
+security gate.

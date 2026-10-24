@@ -103,7 +103,7 @@ test("the October screenshot batch adds six complete stories and joins continuat
 });
 
 
-test("the shelf excludes withdrawn material and prioritises the requested six stories", () => {
+test("the shelf excludes withdrawn material and prioritises the requested six stories", async () => {
   assert.doesNotMatch(JSON.stringify(stories), /gamma/i);
   assert.deepEqual(stories.slice(0, 6).map(story => story.id), [39, 43, 38, 40, 34, 42]);
   for (const slug of ['starting-a-company-one-rung-at-a-time', 'ai-slide-decks-and-communicating-ideas', 'gamma-customer-advisory-board', 'hiring-when-candidates-use-ai', 'gamma-creation-index']) {
@@ -111,7 +111,19 @@ test("the shelf excludes withdrawn material and prioritises the requested six st
   }
   const index = renderToStaticMarkup(StoriesIndex());
   assert.equal((index.match(/class="qs-cut qs-cut--/g) ?? []).length, 6);
-  assert.equal((index.match(/class="qs-feature qs-feature--/g) ?? []).length, 6);
+  const { DOMParser } = await import('linkedom');
+  const document = new DOMParser().parseFromString(index, 'text/html');
+  const openingLinks = [...document.querySelectorAll('.qs-collage a')];
+  assert.deepEqual(openingLinks.map(link => link.getAttribute('href')), stories.slice(0, 6).map(storyUrl));
+  for (const link of openingLinks) {
+    assert.ok(link.getAttribute('aria-label'));
+    assert.ok(link.querySelector('img'));
+    assert.equal(link.closest('[aria-hidden="true"]'), null);
+  }
+  assert.equal(document.querySelector('.qs-opening')?.nextElementSibling?.id, 'library');
+  assert.equal(document.querySelector('#library-title')?.textContent, 'Library');
+  assert.equal(document.querySelector('.qs-selected'), null);
+  assert.doesNotMatch(index, /Six stories worth|reading room/i);
   assert.doesNotMatch(index, /<em\b|gamma/i);
   for (const story of stories) {
     const reader = renderToStaticMarkup(StoryPage({ slug: story.slug }));

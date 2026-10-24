@@ -54,13 +54,23 @@
 /* Qwarter uses upright typography throughout. */
 body, body * { font-style: normal !important; }
 
-/* Six equally sized opening photographs, followed by the same six lead stories. */
-.qs-opening{height:100svh;min-height:900px;max-height:1200px}
+/* A loose collection of clickable photographs, with room for the title and footer. */
+.qs-opening{height:auto;min-height:100svh;max-height:none;padding-bottom:36px}
 .qs-opening h1{margin:65px auto 0;font-size:clamp(78px,10.5vw,165px);line-height:.94}
-.qs-collage{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:18px;inset:auto 24px 140px;align-items:start}
-.qs-collage .qs-cut{position:relative;inset:auto!important;transform:none!important;--angle:0deg;width:100%;margin:0;padding:5px;background:#111;box-shadow:none;min-width:0}
-.qs-collage .qs-cut img{width:100%;height:clamp(100px,12vw,175px);object-fit:contain;background:#0b0b0b}
-.qs-collage .qs-cut figcaption{min-height:30px;display:flex;align-items:center;justify-content:center;text-align:center;font-size:10px;line-height:1.3;padding:7px 0 2px}
+.qs-collage{position:relative;inset:auto;height:clamp(340px,27vw,410px);margin:55px auto 0;max-width:1380px;z-index:3}
+.qs-collage .qs-cut{display:block;position:absolute;inset:auto;left:var(--cut-left);top:var(--cut-top);width:var(--cut-width);margin:0;padding:4px;background:#111;box-shadow:0 14px 30px #0008;pointer-events:auto;transform:rotate(var(--angle));transition:transform .55s var(--qs-ease),box-shadow .55s var(--qs-ease);touch-action:manipulation}
+.qs-collage .qs-cut img{width:100%;height:auto;object-fit:contain;background:#0b0b0b}
+.qs-collage .qs-cut figcaption{display:flex;align-items:center;justify-content:center;text-align:center;font-size:10px;line-height:1.3;padding:8px 2px 4px}
+.qs-collage .qs-cut--1{--angle:-8deg;--cut-left:3%;--cut-top:14%;--cut-width:13%}
+.qs-collage .qs-cut--2{--angle:6deg;--cut-left:23%;--cut-top:0%;--cut-width:14%}
+.qs-collage .qs-cut--3{--angle:-5deg;--cut-left:42%;--cut-top:28%;--cut-width:9%}
+.qs-collage .qs-cut--4{--angle:7deg;--cut-left:54%;--cut-top:3%;--cut-width:21%}
+.qs-collage .qs-cut--5{--angle:-6deg;--cut-left:83%;--cut-top:23%;--cut-width:13%}
+.qs-collage .qs-cut--6{--angle:-4deg;--cut-left:59%;--cut-top:60%;--cut-width:21%}
+.qs-collage .qs-cut:focus-visible{z-index:4;transform:translateY(-6px) rotate(0deg)}
+@media(hover:hover){.qs-collage .qs-cut:hover{z-index:4;transform:translateY(-6px) rotate(0deg);box-shadow:0 20px 40px #000b}}
+@media(prefers-reduced-motion:reduce){.qs-collage .qs-cut{transition:none}.qs-collage .qs-cut:hover,.qs-collage .qs-cut:focus-visible{transform:rotate(var(--angle))}}
+.qs-opening__foot{position:relative;inset:auto;margin-top:24px}
 .qs-featured{grid-template-columns:repeat(3,minmax(0,1fr));gap:75px 45px;align-items:start}
 .qs-feature--2,.qs-feature--3{margin-top:0}
 .qs-feature__picture,.qs-feature--1 .qs-feature__picture{aspect-ratio:4/3;background:#0b0b0b}
@@ -80,13 +90,18 @@ body, body * { font-style: normal !important; }
 .qs-continue__links>a>span:last-child{display:grid;place-items:center;line-height:0}
 .qs-sources>div>a,.qs-sources li>a{display:inline-flex;align-items:center;gap:8px}
 .qs-margin>a span{width:24px;height:24px;display:grid;place-items:center}
-@media(max-width:1000px){.qs-collage{gap:10px;inset-inline:12px}.qs-featured{gap:60px 25px}.qs-opening h1{margin-top:100px}}
+@media(max-width:1000px){.qs-featured{gap:60px 25px}.qs-opening h1{margin-top:100px}}
 @media(max-width:760px){
- .qs-opening{height:auto;min-height:1100px;padding-top:175px;padding-bottom:140px}
- .qs-opening h1{font-size:clamp(58px,13.5vw,103px);margin:65px 0 50px;line-height:1}
- .qs-collage{position:relative;inset:auto;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px 12px;padding:0 12px}
- .qs-collage .qs-cut img{height:clamp(90px,25vw,155px)}
- .qs-opening__foot{bottom:30px;gap:20px;align-items:center}
+ .qs-opening{min-height:100svh;padding-top:175px;padding-bottom:30px}
+ .qs-opening h1{font-size:clamp(54px,13.5vw,103px);margin:65px 0 0;line-height:1}
+ .qs-collage{height:clamp(450px,100vw,720px);margin-top:45px}
+ .qs-collage .qs-cut--1{--cut-left:4%;--cut-top:5%;--cut-width:24%}
+ .qs-collage .qs-cut--2{--cut-left:38%;--cut-top:0%;--cut-width:25%}
+ .qs-collage .qs-cut--3{--cut-left:78%;--cut-top:10%;--cut-width:18%}
+ .qs-collage .qs-cut--4{--cut-left:5%;--cut-top:45%;--cut-width:43%}
+ .qs-collage .qs-cut--5{--cut-left:66%;--cut-top:48%;--cut-width:27%}
+ .qs-collage .qs-cut--6{--cut-left:12%;--cut-top:79%;--cut-width:38%}
+ .qs-opening__foot{inset:auto;margin-top:20px;gap:20px;align-items:center}
  .qs-featured{grid-template-columns:1fr;gap:60px}
  .qs-feature--2 .qs-feature__picture,.qs-feature--3 .qs-feature__picture{width:100%;margin:0;aspect-ratio:4/3}
  .qs-feature--2 .qs-feature__meta,.qs-feature--2 h3,.qs-feature--2>p{margin-left:0}

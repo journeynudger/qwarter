@@ -51,13 +51,12 @@ function Plate({ image, index, wide = false }: { image: StoryImage; index: numbe
 
 function Collage({ stories, className = "" }: { stories: Story[]; className?: string }) {
   const images = stories.map((story) => ({ story, image: storyImage(story) })).filter((entry) => entry.image);
-  return <div className={`qs-collage ${className}`} aria-hidden="true">{images.map(({ story, image }, index) => <figure key={`${story.slug}-${index}`} className={`qs-cut qs-cut--${index + 1}`}><img src={image.src} alt="" width={image.width} height={image.height} fetchPriority={index === 0 ? "high" : "auto"} /><figcaption>[ {story.company} ]</figcaption></figure>)}</div>;
+  return <div className={`qs-collage ${className}`}>{images.map(({ story, image }, index) => <a key={story.slug} className={`qs-cut qs-cut--${index + 1}`} href={storyUrl(story)} aria-label={`${story.company}: ${story.title}`}><figure><img src={image.src} alt="" width={image.width} height={image.height} fetchPriority={index === 0 ? "high" : "auto"} /><figcaption>[ {story.company} ]</figcaption></figure></a>)}</div>;
 }
 
 export function StoriesIndex() {
   const stories = getStories();
-  const features = featuredStories();
-  const collage = features;
+  const collage = featuredStories();
   return <>
     <Hydrated /><Chrome />
     <main id="main">
@@ -65,15 +64,10 @@ export function StoriesIndex() {
         <div className="qs-label qs-opening__eyebrow"><span>Qwarter / Stories</span><span>[ A collection of lessons ]</span></div>
         <h1>Good work has<br /><span>a long</span> memory.</h1>
         <Collage stories={collage} />
-        <div className="qs-opening__foot"><p>We learn from those<br />who came before us.</p><a href="#library" className="qs-label">Explore the collection <span aria-hidden="true"><Icon kind="down" /></span></a><span className="qs-label">{stories.length} stories & counting</span></div>
+        <div className="qs-opening__foot"><p>We learn from those<br />who came before us.</p><a href="#library" className="qs-label">Explore the library <span aria-hidden="true"><Icon kind="down" /></span></a><span className="qs-label">{stories.length} stories & counting</span></div>
       </section>
 
-      <section className="qs-selected" aria-labelledby="selected-title"><div className="qs-section-label"><span className="qs-label">I / A place to begin</span><h2 id="selected-title">Six stories worth<br /><span>spending time with.</span></h2></div><div className="qs-featured">{features.map((story, index) => {
-        const image = storyImage(story);
-        return <a className={`qs-feature qs-feature--${index + 1}`} key={story.slug} href={storyUrl(story)}><div className="qs-feature__picture">{image ? <img src={image.src} alt={image.alt} width={image.width} height={image.height} loading="lazy" /> : <span>{roman(story.id)}</span>}<span className="qs-feature__arrow" aria-hidden="true"><Icon /></span></div><div className="qs-label qs-feature__meta"><span>{story.company} / {story.category}</span><span>{story.minutes} min</span></div><h3>{story.title}</h3><p>{story.lesson}</p></a>;
-      })}</div></section>
-
-      <section className="qs-library" id="library" aria-labelledby="library-title"><div className="qs-library__title"><span className="qs-label">II / Collected wisdom</span><h2 id="library-title">The <span>reading room.</span></h2><p>Follow your curiosity.</p></div>
+      <section className="qs-library" id="library" aria-labelledby="library-title"><div className="qs-library__title"><span className="qs-label">I / Collected wisdom</span><h2 id="library-title">Library</h2><p>Follow your curiosity.</p></div>
         <form className="qs-controls" data-story-filters hidden role="search" aria-label="Find a story"><div className="qs-filters" aria-label="Filter by topic">{storyCategories.map((category, index) => <button type="button" key={category} data-category={category} aria-pressed={index === 0}>{category}</button>)}</div><label className="qs-search"><span className="qs-label">Search</span><input type="search" name="q" placeholder="A company, an idea…" autoComplete="off" aria-label="Search stories" /></label></form>
         <p className="qs-label qs-result" data-story-count aria-live="polite">{stories.length} stories</p>
         <ol className="qs-story-list">{stories.map((story, position) => { const image = storyImage(story); return <li key={story.slug} id={`story-${story.slug}`} data-story-row data-category={story.category} data-search={`${story.company} ${story.title} ${story.lesson}`.toLowerCase()}><a href={storyUrl(story)}><span className="qs-story-list__number">{roman(position + 1)}</span><div className="qs-story-list__image">{image ? <img src={image.src} alt="" width={image.width} height={image.height} loading="lazy" /> : <span>{story.company.slice(0, 1)}</span>}</div><div className="qs-story-list__name"><span className="qs-label">{story.company}</span><h3>{story.title}</h3></div><span className="qs-story-list__topic qs-label">{story.category}</span><span className="qs-story-list__time qs-label">{story.minutes} min{story.isExcerpt && <small>Excerpt</small>}</span><span className="qs-story-list__arrow" aria-hidden="true"><Icon /></span></a></li>; })}</ol><p className="qs-empty" data-story-empty hidden>No stories found. Try another company or idea.</p>
