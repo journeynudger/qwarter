@@ -22,6 +22,7 @@ export type StoryBlock =
 export type StoryVideo = { youtubeId: string; title: string; caption: string; source: string };
 
 export type Story = {
+  imageLayout?: "pairs";
   draft?: boolean;
   videos?: StoryVideo[];
   id: number;

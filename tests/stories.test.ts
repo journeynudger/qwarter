@@ -199,3 +199,25 @@ test('Stories removes the introduction and repeated cola artwork', () => {
   assert.doesNotMatch(html,/17-005|1 day later|qr-frontispiece/);
   assert.equal(cola.images.filter(image=>image.caption.includes('Halloween')).length,1);
 });
+
+
+test('Ogilvy’s ten ads form five complete pairs without production metadata or duplicate references', async () => {
+  const { DOMParser } = await import('linkedom');
+  const story=stories.find(story=>story.id===47)!;
+  const dom=new DOMParser().parseFromString(renderToStaticMarkup(StoryPage({slug:story.slug})),'text/html');
+  const pairs=[...dom.querySelectorAll('.qr-spread--paired')];
+  assert.equal(pairs.length,5);
+  for (const pair of pairs) {
+    assert.equal(pair.querySelectorAll('[data-story-image]').length,2);
+    const depths=[...pair.querySelectorAll('[data-qr-depth]')].map(item=>item.getAttribute('data-qr-depth'));
+    assert.equal(new Set(depths).size,2);
+  }
+  assert.deepEqual([...dom.querySelectorAll('[data-story-image] img')].map(image=>image.getAttribute('src')),story.images.map(image=>image.src));
+  assert.doesNotMatch(dom.querySelector("#main")!.textContent!,/PDF author|metadata|austincoleschafer|compilation supplied|extracted from|Images from the collection/i);
+  assert.equal(dom.querySelectorAll('#sources a').length,1);
+  for (const story of stories) {
+    const reader=new DOMParser().parseFromString(renderToStaticMarkup(StoryPage({slug:story.slug})),'text/html');
+    assert.doesNotMatch(reader.querySelector('#sources')!.textContent!,/supplied|metadata|extracted|uploaded|not identified|unidentified/i);
+    for (const spread of reader.querySelectorAll('.qr-spread--plates')) assert.equal(spread.querySelector('.qr-image-note'),null);
+  }
+});

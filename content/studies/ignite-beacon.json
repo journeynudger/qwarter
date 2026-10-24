@@ -21,7 +21,7 @@
       "source": "the shoot / the case study"
     },
     {
-      "value": "5",
+      "value": "7",
       "label": "Colours in the palette",
       "source": "observed"
     }
@@ -40,29 +40,38 @@
     {
       "key": "palette",
       "label": "Colour",
-      "note": "The colours ignitebeacon.com is set in, by the area they cover and the words they carry, as observed on 2026-10-22.",
+      "note": "Midnight and charcoal, with ember, flame and gold accents and warm white type.",
       "colors": [
         {
           "hex": "#0A0A0A",
-          "role": "the page"
+          "name": "Midnight"
         },
         {
-          "hex": "#0A0705",
-          "role": "a surface"
+          "hex": "#1A1A1A",
+          "name": "Charcoal"
         },
         {
-          "hex": "#0C0A09",
-          "role": "a surface"
+          "hex": "#2A2A2A",
+          "name": "Slate"
+        },
+        {
+          "hex": "#FF6B35",
+          "name": "Ember"
+        },
+        {
+          "hex": "#FF8C42",
+          "name": "Flame"
+        },
+        {
+          "hex": "#FFD166",
+          "name": "Gold"
         },
         {
           "hex": "#FAF7F2",
-          "role": "the words"
-        },
-        {
-          "hex": "#FFFFFF",
-          "role": "the words"
+          "name": "Warm white"
         }
-      ]
+      ],
+      "source": "ignitebeacon.com public stylesheet, 24 October 2026: --midnight, --charcoal, --slate, --ember, --flame, --gold and --warmwhite."
     },
     {
       "key": "type",
@@ -89,7 +98,7 @@
       "alt": "Beacon's home page on a phone.",
       "ground": "#0A0A0A",
       "dark": true,
-      "fit": "cover"
+      "fit": "contain"
     }
   ],
   "quote": {
@@ -158,6 +167,6 @@
     }
   ],
   "galleryNote": "The site's own pictures, from ignitebeacon.com.",
-  "source": "ignitebeacon.com photographed on 2026-10-22 (scripts/work/shoot.mjs): page titles and first words, typefaces and colours observed, the logo and pictures the pages show, the phone frames. Every word is qwarter.com's, the site's own or observed; nothing is written here.",
+  "source": "ignitebeacon.com photographed on 2026-10-22 (scripts/work/shoot.mjs): page titles and first words, typefaces and colours observed, the logo and pictures the pages show, the phone frames. Every word is qwarter.com's, the site's own or observed; nothing is written here. By hand (content/studies/_overrides/ignite-beacon.json): Palette names and values verified in https://ignitebeacon.com/_next/static/chunks/77b9fd031c548e65.css on 24 October 2026. The existing phone photograph is shown whole, without a cover crop.",
   "generated": true
 }

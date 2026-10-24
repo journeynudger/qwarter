@@ -103,6 +103,9 @@ function sources(): { file: string; text: string }[] {
     .readdirSync(path.join(ROOT, "content/pages"))
     .filter((f) => f.endsWith(".html"))
     .map((f) => `content/pages/${f}`);
+  for (const file of fs.readdirSync(path.join(ROOT, "content/fragments"))) {
+    if (file.endsWith(".html")) files.push(`content/fragments/${file}`);
+  }
   if (fs.existsSync(path.join(ROOT, "content/not-found.html"))) files.push("content/not-found.html");
   files.push("app/[[...path]]/layout.tsx", "content/pages.json", "content/site.json", "content/work.json", "content/stories.json");
   // the case studies name their own pictures and recordings (lib/studies.ts)

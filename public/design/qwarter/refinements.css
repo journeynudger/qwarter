@@ -34,17 +34,17 @@ html.qw-returning #Preloader{display:none!important;visibility:hidden!important;
 .qw-menu-hidden #Header__blur,.qw-menu-hidden .qs-header-blur{opacity:0!important;visibility:hidden!important}
 .qw-menu-revealed.qs-scrolled .qs-header-blur,.qw-menu-revealed.qw-header-compact #Header__blur>.top{opacity:1!important}
 .qw-menu-revealed .st-top{background:#080808f5}
-/* A loaded film replaces its poster, including its letterbox. Never composite the two. */
+/* One painted surface: the video's native poster gives way to its own frames.
+   Keep the reference's img node only for its internal media lookup. */
 .visor-videos figure{isolation:isolate;background:#000}
-.visor-videos video{background:#000;opacity:0}
-.visor-videos figure.qw-film-ready video{opacity:1}
-.visor-videos figure.qw-film-ready>img{visibility:hidden}
+.visor-videos video{background:#000;opacity:1}
+.visor-videos figure>img{display:none!important}
 /* Preserve the reference's moving staircase; keep the resting project caption below the frame. */
 .widget-home .visor-videos img,.widget-home .visor-videos video{top:140px;height:calc(100% - 270px)}
 .widget-home__article .title{top:auto;bottom:68px;height:auto;padding:0 24px;font-size:clamp(28px,3.5vw,52px);line-height:1.12}
 .widget-home__article .director{top:auto;bottom:36px;height:auto;padding:0 24px;font-size:17px;line-height:1.3}
 .widget-home__article .client{display:none}
-.widget-home__project .info .progress{opacity:0}
+.widget-home__project .info .progress{opacity:1}
 /* The archive's original easing and looping list remain. Labels have their own column. */
 .block-project-list .visor-videos{width:68vw}
 .block-project-list .visor-videos img,.block-project-list .visor-videos video{top:130px;height:calc(100% - 230px)}

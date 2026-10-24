@@ -6714,7 +6714,7 @@
         "height": 643,
         "alt": "Apple: Test drive a Macintosh.",
         "caption": "Apple: Test drive a Macintosh.",
-        "credit": "Original advertiser shown in the artwork; compilation supplied by the user (PDF author metadata: austincoleschafer)",
+        "credit": "Apple",
         "source": "/media/stories/ogilvy-typography/source.pdf#page=1",
         "originalUrl": "/media/stories/ogilvy-typography/01.webp"
       },
@@ -6724,7 +6724,7 @@
         "height": 970,
         "alt": "New Balance: Worn by supermodels in London and dads in Ohio.",
         "caption": "New Balance: Worn by supermodels in London and dads in Ohio.",
-        "credit": "Original advertiser shown in the artwork; compilation supplied by the user (PDF author metadata: austincoleschafer)",
+        "credit": "New Balance",
         "source": "/media/stories/ogilvy-typography/source.pdf#page=2",
         "originalUrl": "/media/stories/ogilvy-typography/02.webp"
       },
@@ -6734,7 +6734,7 @@
         "height": 1500,
         "alt": "Porsche: Nobody’s perfect.",
         "caption": "Porsche: Nobody’s perfect.",
-        "credit": "Original advertiser shown in the artwork; compilation supplied by the user (PDF author metadata: austincoleschafer)",
+        "credit": "Porsche",
         "source": "/media/stories/ogilvy-typography/source.pdf#page=3",
         "originalUrl": "/media/stories/ogilvy-typography/03.webp"
       },
@@ -6744,7 +6744,7 @@
         "height": 1024,
         "alt": "Macintosh G5: Absolute power corrupts. Enjoy.",
         "caption": "Macintosh G5: Absolute power corrupts. Enjoy.",
-        "credit": "Original advertiser shown in the artwork; compilation supplied by the user (PDF author metadata: austincoleschafer)",
+        "credit": "Apple",
         "source": "/media/stories/ogilvy-typography/source.pdf#page=4",
         "originalUrl": "/media/stories/ogilvy-typography/04.webp"
       },
@@ -6754,7 +6754,7 @@
         "height": 785,
         "alt": "Magnum: Forever a classic.",
         "caption": "Magnum: Forever a classic.",
-        "credit": "Original advertiser shown in the artwork; compilation supplied by the user (PDF author metadata: austincoleschafer)",
+        "credit": "Magnum",
         "source": "/media/stories/ogilvy-typography/source.pdf#page=5",
         "originalUrl": "/media/stories/ogilvy-typography/05.webp"
       },
@@ -6764,7 +6764,7 @@
         "height": 1600,
         "alt": "Swiss Life: I love my house now belongs to my ex-wife.",
         "caption": "Swiss Life: I love my house now belongs to my ex-wife.",
-        "credit": "Original advertiser shown in the artwork; compilation supplied by the user (PDF author metadata: austincoleschafer)",
+        "credit": "Swiss Life",
         "source": "/media/stories/ogilvy-typography/source.pdf#page=6",
         "originalUrl": "/media/stories/ogilvy-typography/06.webp"
       },
@@ -6774,7 +6774,7 @@
         "height": 752,
         "alt": "Volvo: Defensive line.",
         "caption": "Volvo: Defensive line.",
-        "credit": "Original advertiser shown in the artwork; compilation supplied by the user (PDF author metadata: austincoleschafer)",
+        "credit": "Volvo",
         "source": "/media/stories/ogilvy-typography/source.pdf#page=7",
         "originalUrl": "/media/stories/ogilvy-typography/07.webp"
       },
@@ -6784,7 +6784,7 @@
         "height": 889,
         "alt": "Nike: Re-run.",
         "caption": "Nike: Re-run.",
-        "credit": "Original advertiser shown in the artwork; compilation supplied by the user (PDF author metadata: austincoleschafer)",
+        "credit": "Nike",
         "source": "/media/stories/ogilvy-typography/source.pdf#page=8",
         "originalUrl": "/media/stories/ogilvy-typography/08.webp"
       },
@@ -6794,7 +6794,7 @@
         "height": 1023,
         "alt": "New Balance: Innovation Doesn’t Carry the Weight It Once Carried.",
         "caption": "New Balance: Innovation Doesn’t Carry the Weight It Once Carried.",
-        "credit": "Original advertiser shown in the artwork; compilation supplied by the user (PDF author metadata: austincoleschafer)",
+        "credit": "New Balance",
         "source": "/media/stories/ogilvy-typography/source.pdf#page=9",
         "originalUrl": "/media/stories/ogilvy-typography/09.webp"
       },
@@ -6804,7 +6804,7 @@
         "height": 934,
         "alt": "Nike: Smoke ’em.",
         "caption": "Nike: Smoke ’em.",
-        "credit": "Original advertiser shown in the artwork; compilation supplied by the user (PDF author metadata: austincoleschafer)",
+        "credit": "Nike",
         "source": "/media/stories/ogilvy-typography/source.pdf#page=10",
         "originalUrl": "/media/stories/ogilvy-typography/10.webp"
       }
@@ -6854,17 +6854,9 @@
       {
         "type": "paragraph",
         "text": "But after looking at these legendary ads, perhaps I should be."
-      },
-      {
-        "type": "heading",
-        "text": "Ten examples",
-        "id": "ten-examples"
-      },
-      {
-        "type": "paragraph",
-        "text": "The ten examples from the supplied collection follow. Each image has been extracted from its PDF page so you can look at the ad itself."
       }
-    ]
+    ],
+    "imageLayout": "pairs"
   },
   {
     "id": 48,

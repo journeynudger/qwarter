@@ -44,18 +44,22 @@ test('the shared header compacts with native or carried scrolling and restores a
   assert.equal(classes.has('qw-header-compact'), false);
 });
 
-test('a decoded preview replaces its poster and failure restores the still', () => {
-  const events = new Map<string,()=>void>();
-  const classes = new Set<string>();
-  const video = {readyState:0, addEventListener:(name:string,fn:()=>void)=>events.set(name,fn)};
-  const figure = {querySelector:()=>video,classList:{toggle:(name:string,on:boolean)=>on?classes.add(name):classes.delete(name),remove:(name:string)=>classes.delete(name)}};
-  const script=fs.readFileSync('public/design/qwarter/carried.js','utf8');
-  const start=script.indexOf("document.querySelectorAll('.visor-videos figure')");
-  const end=script.indexOf('    let indicator;',start);
-  vm.runInNewContext(script.slice(start,end),{document:{querySelectorAll:()=>[figure]}});
-  assert.ok(!classes.has('qw-film-ready'));
-  video.readyState=2;events.get('loadeddata')!();assert.ok(classes.has('qw-film-ready'));
-  events.get('error')!();assert.ok(!classes.has('qw-film-ready'));
-  video.readyState=4;events.get('playing')!();assert.ok(classes.has('qw-film-ready'));
-  video.readyState=0;events.get('emptied')!();assert.ok(!classes.has('qw-film-ready'));
+test('every carried preview has one video surface with its own matching poster', async () => {
+  const { DOMParser } = await import('linkedom');
+  for (const page of ['home','work']) {
+    const dom = new DOMParser().parseFromString(fs.readFileSync(`content/pages/${page}.html`,'utf8'),'text/html');
+    const figures = [...dom.querySelectorAll('.visor-videos figure')];
+    assert.ok(figures.length >= 15);
+    for (const figure of figures) {
+      const video = figure.querySelector('video')!;
+      const img = figure.querySelector('img')!;
+      assert.equal(figure.querySelectorAll('video').length,1);
+      assert.match(video.getAttribute('poster')!, /scroll-poster\.jpg\?v=/);
+      assert.equal(img.getAttribute('src'),video.getAttribute('poster'));
+      assert.ok(img.hasAttribute('hidden'));
+      assert.equal(img.getAttribute('aria-hidden'),'true');
+      assert.ok(!img.hasAttribute('data-src'));
+      assert.ok(fs.existsSync(`public${video.getAttribute('poster')!.split('?')[0]}`));
+    }
+  }
 });

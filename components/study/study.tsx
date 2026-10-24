@@ -113,7 +113,7 @@ function Note({ study, step, index, className }: { study: Study; step: StudyStep
 function Tile({ tile, index, name }: { tile: StudyTile; index: number; name: string }) {
   const span = [7, 5, 5, 7][index % 4];
   const row = index < 2 ? "st-tile--tall" : "st-tile--low";
-  const style = { "--ground": tile.ground ?? "#0f0f10", "--span": span } as CSSProperties;
+  const style = { "--ground": tile.ground ?? "#0f0f10", "--span": span, "--swatch-count": tile.colors?.length } as CSSProperties;
   let stage: ReactNode = null;
   if (tile.key === "palette" && tile.colors) {
     stage = (
@@ -173,8 +173,8 @@ function Gallery({ study }: { study: Study }) {
         <div className="st-gallery__window">
           <div className="st-gallery__track">
             {study.gallery.map((g, i) => (
-              <div className="st-slide" key={g.src} role="group" aria-roledescription="slide" aria-label={`${i + 1} of ${study.gallery.length}`}>
-                <img src={g.src} alt={g.alt} loading="lazy" decoding="async" draggable={false} />
+              <div className={`st-slide${g.frame ? " st-slide--framed" : ""}`} key={g.src} role="group" aria-roledescription="slide" aria-label={`${i + 1} of ${study.gallery.length}`}>
+                <img src={g.src} alt={g.alt} loading="lazy" decoding="async" draggable={false} style={g.frame ? {width:`${g.frame.sourceWidth/g.frame.width*100}%`,height:`${g.frame.sourceHeight/g.frame.height*100}%`,left:`${-g.frame.x/g.frame.width*100}%`,top:`${-g.frame.y/g.frame.height*100}%`} : undefined} />
               </div>
             ))}
           </div>

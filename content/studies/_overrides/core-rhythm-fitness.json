@@ -1,0 +1,111 @@
+{
+  "identity": [
+    {
+      "key": "palette",
+      "label": "Colour",
+      "note": "The colours corerhythmfitness.net is set in, by the area they cover and the words they carry, as observed on 2026-10-22.",
+      "colors": [
+        {
+          "hex": "#FFFFFF",
+          "role": "the page"
+        },
+        {
+          "hex": "#000000",
+          "role": "a surface"
+        },
+        {
+          "hex": "#333333",
+          "role": "the words"
+        },
+        {
+          "hex": "#E8C869",
+          "role": "links"
+        }
+      ]
+    },
+    {
+      "key": "type",
+      "label": "Type",
+      "note": "The typefaces corerhythmfitness.net is set in, as observed: RiccioneSerial Regular and Inter.",
+      "faces": [
+        {
+          "role": "Headings",
+          "family": "RiccioneSerial Regular",
+          "fallback": "sans-serif"
+        },
+        {
+          "role": "Text",
+          "family": "Inter",
+          "fallback": "sans-serif"
+        }
+      ]
+    }
+  ],
+  "source": "Lorenzo, 24 October 2026: remove the misidentified HuffPost logo and cropped phone-screen identity tile. Retain the existing colour and type observations from corerhythmfitness.net. Gallery presentation, requested 2026-10-24: the three service cards share a 4:5 CSS window over the photograph area, omitting the existing transparent/white canvas and baked outer frame. Original site files remain unchanged.",
+  "gallery": [
+    {
+      "src": "/media/work/core-rhythm-fitness/study/pic-02.jpg",
+      "alt": "Core Rhythm Fitness: a picture from the site",
+      "source": "corerhythmfitness.net (the site's own picture)"
+    },
+    {
+      "src": "/media/work/core-rhythm-fitness/study/pic-12.png",
+      "alt": "Pilates training at Core Rhythm Fitness.",
+      "source": "corerhythmfitness.net (the site's own picture)",
+      "frame": {
+        "x": 76,
+        "y": 76,
+        "width": 512,
+        "height": 640,
+        "sourceWidth": 664,
+        "sourceHeight": 787
+      }
+    },
+    {
+      "src": "/media/work/core-rhythm-fitness/study/pic-13.png",
+      "alt": "Personal training at Core Rhythm Fitness.",
+      "source": "corerhythmfitness.net (the site's own picture)",
+      "frame": {
+        "x": 29,
+        "y": 20,
+        "width": 505.6,
+        "height": 632,
+        "sourceWidth": 564,
+        "sourceHeight": 675
+      }
+    },
+    {
+      "src": "/media/work/core-rhythm-fitness/study/pic-14.jpg",
+      "alt": "Nutrition coaching at Core Rhythm Fitness.",
+      "source": "corerhythmfitness.net (the site's own picture)",
+      "frame": {
+        "x": 80,
+        "y": 212,
+        "width": 864,
+        "height": 1080,
+        "sourceWidth": 1024,
+        "sourceHeight": 1536
+      }
+    },
+    {
+      "src": "/media/work/core-rhythm-fitness/study/pic-15.jpg",
+      "alt": "Slider Image",
+      "source": "corerhythmfitness.net (the site's own picture: Slider Image)"
+    },
+    {
+      "src": "/media/work/core-rhythm-fitness/study/pic-16.jpg",
+      "alt": "Slider Image",
+      "source": "corerhythmfitness.net (the site's own picture: Slider Image)"
+    },
+    {
+      "src": "/media/work/core-rhythm-fitness/study/pic-17.jpg",
+      "alt": "Slider Image",
+      "source": "corerhythmfitness.net (the site's own picture: Slider Image)"
+    },
+    {
+      "src": "/media/work/core-rhythm-fitness/study/pic-18.jpg",
+      "alt": "Slider Image",
+      "source": "corerhythmfitness.net (the site's own picture: Slider Image)"
+    }
+  ]
+}

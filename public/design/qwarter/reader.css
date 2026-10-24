@@ -40,3 +40,27 @@
 .qr-spread__text a{overflow-wrap:anywhere}
 .qr-reader [id]{scroll-margin-top:105px}
 .qr-reader{overflow-x:clip}
+/* Paired plates occupy a complete spread. The offset belongs to the composition,
+   never to an oversized second image squeezed into the text's margin. */
+.qr-spread--paired .qr-spread__text{grid-column:1/-1;grid-row:auto;max-width:680px;padding:0;margin:0 auto 64px}
+.qr-spread--paired .qr-spread__media{position:relative;top:auto;grid-column:1/-1;grid-row:auto;display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.9fr);gap:clamp(45px,7vw,120px);max-width:1400px;width:100%;padding:15px 24px 35px;border:0;justify-self:center;align-items:start}
+.qr-spread--paired .qr-plate-slot{min-width:0;--qr-rest-angle:-1.2deg}
+.qr-spread--paired .qr-plate-slot:nth-child(2){margin:clamp(80px,11vw,160px) 0 0;width:100%;--qr-rest-angle:1.4deg}
+.qr-spread--paired.qr-spread--reverse .qr-plate-slot{--qr-rest-angle:1deg}
+.qr-spread--paired.qr-spread--reverse .qr-plate-slot:nth-child(2){--qr-rest-angle:-1.4deg}
+.qr-spread--paired .qs-plate{margin:0;rotate:var(--qr-rest-angle);transform-origin:center center}
+.qr-spread--paired .qs-plate img{box-shadow:0 12px 25px -15px #0008}
+.qr-spread--plates:not(.qr-spread--paired) .qr-spread__media{position:relative;top:auto;grid-column:1/-1;grid-row:auto;max-width:800px;width:100%;padding:0;border:0;justify-self:center}
+.qr-spread--plates .qr-spread__rail{margin-bottom:45px}
+@media(min-width:901px) and (prefers-reduced-motion:no-preference){
+ .qr-motion .qr-spread .qs-plate{rotate:calc(var(--qr-rest-angle,0deg) + var(--qr-tilt,0deg))}
+}
+@media(max-width:900px){
+ .qr-spread--paired .qr-spread__text{margin:0;max-width:680px}
+ .qr-spread--paired .qr-spread__media{grid-template-columns:minmax(0,1fr);gap:46px;max-width:680px;padding:12px 4px 10px}
+ .qr-spread--paired .qr-plate-slot{width:94%;--qr-rest-angle:-.6deg}
+ .qr-spread--paired .qr-plate-slot:nth-child(2){margin:0 0 0 6%;width:94%;--qr-rest-angle:.6deg}
+ .qr-spread--paired.qr-spread--reverse .qr-plate-slot{--qr-rest-angle:.6deg}
+ .qr-spread--paired.qr-spread--reverse .qr-plate-slot:nth-child(2){--qr-rest-angle:-.6deg}
+ .qr-spread--plates .qr-spread__rail{margin-bottom:0}
+}

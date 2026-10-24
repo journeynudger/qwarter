@@ -37,6 +37,7 @@ when the strip comes to rest, ours play the website scrolling; black Paper-shade
 | The case studies' recordings: each site on a desktop and on a phone, 60 fps, plus the stills (scenes from the study's or its override's `walkthrough`, else the first pages) | `node scripts/work/walkthrough.mjs [--no-webm \| --webm-only] [slug …]` → `study/{desktop,phone}.{mp4,webm}`, posters, `d-*.jpg`, `m-*.jpg` |
 | Record a page's own motion deterministically (a splash, a reveal) | `node scripts/work/record.mjs <url> <out.mp4> [--seconds 6] [--until <selector>] [--font-css <file>]` |
 | The case studies from qwarter.com's case studies and the shoots (hand-written ones kept) | `node scripts/port/studies.mjs [slug …]`, after catalogue → prepare → walkthrough; then `npm test` |
+| Apply literal case-study overrides when raw captures are unavailable | `node scripts/port/studies.mjs --overrides-only <slug> …` (validates local media; no `$pic`/`$copy` placeholders) |
 | Icons and the social card from the brand's marks | `node scripts/brand/icons.mjs <white wordmark png>` (mark: `scripts/brand/trace-mark.mjs`) |
 | Stills of every page, both widths, loader and slideshow mid-way | `node scripts/qa/shots.mjs --base http://localhost:3102` → `qa-out/shots/` |
 | Rendered-page sweep (console errors, images, alt, overflow, h1, links) | `node scripts/qa/sweep.mjs --base http://localhost:3102` |
@@ -471,3 +472,18 @@ old URLs (it fails rather than guess).
     content/studies/kind-footprint.json content/studies/_pictures/kind-footprint.json`, then `swaps-from-content.mjs`,
     `swap.mjs`, `video.mjs kind-footprint` (its 16:9 film; the runner's film of its home showed an embed's "Sorry,
     we're having a little trouble" box where the browser got no video), `studies.mjs kind-footprint`, `npm test`.
+
+### Featured pace and source-safe media corrections (2026-10-24)
+
+`swaps-from-content.mjs` generates `public/design/qwarter/featured-runtime.js` from the immutable
+reference bundle through `scripts/design/featured-runtime.mjs`. Only the automatic Featured pace
+changes; every other byte of the reference logic is retained. Regenerate with
+`node scripts/design/swaps-from-content.mjs`, then `node scripts/design/swap.mjs --static`. The static
+mode does not launch a browser. Home uses the derived bundle; other carried pages use the original.
+Previews use native video posters with hidden compatibility images, not two visible media layers.
+
+Study gallery entries may include an explicit `frame` rectangle and original dimensions. This is a
+CSS window over the original image, used to omit baked exterior canvas without editing the asset.
+Keep those rectangles in `_overrides`, and compile through `studies.mjs`. Approach's laboratory
+timeline is hand-authored in `content/fragments/approach-ai.html`; image provenance is recorded in
+`docs/VERIFICATION.md`, and fragment assets/links participate in the content audit.

@@ -8,6 +8,7 @@ import assert from "node:assert/strict";
 import fs from "node:fs";
 import path from "node:path";
 import { test } from "node:test";
+import sharp from "sharp";
 
 import workJson from "@/content/work.json";
 import type { Work } from "@/lib/content";
@@ -46,12 +47,21 @@ test("every study is a project's, complete, and sourced", () => {
   assert.equal(new Set(studies.map((s) => s.slug)).size, studies.length, "one study per project");
 });
 
-test("every picture and recording a study names exists", () => {
+test("every picture and recording a study names exists", async () => {
   const missing: string[] = [];
   for (const s of studies) {
     const refs = new Set<string>();
     for (const m of JSON.stringify(s).matchAll(/"(\/media\/[^"]+)"/g)) refs.add(m[1]);
     for (const r of refs) if (!fs.existsSync(path.join(ROOT, "public", r))) missing.push(`${s.slug}: ${r}`);
+    for (const picture of s.gallery.filter(picture => picture.frame)) {
+      const frame = picture.frame!;
+      const image = await sharp(path.join(ROOT, "public", picture.src)).metadata();
+      assert.equal(frame.sourceWidth, image.width, `${s.slug}: frame source width`);
+      assert.equal(frame.sourceHeight, image.height, `${s.slug}: frame source height`);
+      assert.ok(frame.x >= 0 && frame.y >= 0 && frame.width > 0 && frame.height > 0);
+      assert.ok(frame.x + frame.width <= frame.sourceWidth && frame.y + frame.height <= frame.sourceHeight, `${s.slug}: frame stays inside photograph`);
+      assert.ok(Math.abs(frame.width / frame.height - 4 / 5) < .0001, `${s.slug}: consistent gallery frame`);
+    }
   }
   assert.deepEqual(missing, []);
 });
@@ -71,4 +81,15 @@ test("a study's folder holds only what the study, or its recordings, use", () =>
     }
   }
   assert.deepEqual(stray, [], "run scripts/port/studies.mjs");
+});
+
+
+test('identity tiles use Beacon’s actual accents and omit the unrelated Core Rhythm panels', () => {
+  const beacon=studies.find(study=>study.slug==='ignite-beacon')!;
+  assert.deepEqual(beacon.identity.find(tile=>tile.key==='palette')!.colors!.map(c=>c.hex.toLowerCase()),['#0a0a0a','#1a1a1a','#2a2a2a','#ff6b35','#ff8c42','#ffd166','#faf7f2']);
+  assert.equal(beacon.figures.find(figure=>figure.label==='Colours in the palette')!.value,'7');
+  assert.equal(beacon.identity.find(tile=>tile.key==='detail')!.fit,'contain');
+  const core=studies.find(study=>study.slug==='core-rhythm-fitness')!;
+  assert.deepEqual(core.identity.map(tile=>tile.key),['palette','type']);
+  assert.ok(!JSON.stringify(core.identity).match(/huffpost|pic-03|m-home/));
 });

@@ -96,7 +96,7 @@ export interface Study {
   /** The project film (the strip's own, square) and the two recordings. */
   film?: StudyMedia;
   recordings: { desktop?: StudyMedia; phone?: StudyMedia };
-  gallery: { src: string; alt: string; source?: string }[];
+  gallery: { src: string; alt: string; source?: string; frame?: { x: number; y: number; width: number; height: number; sourceWidth: number; sourceHeight: number } }[];
   galleryNote?: string;
   /** The recordings' own script, when the site's films or a recorded splash belong in them (scripts/work/walkthrough.mjs). */
   walkthrough?: { desktop?: WalkthroughScene[]; phone?: WalkthroughScene[] };

@@ -1,0 +1,90 @@
+{
+  "identity": [
+    {
+      "key": "logo",
+      "label": "Logo",
+      "note": "Beacon's logo as the site shows it (ignitebeacon.com).",
+      "image": "/media/work/ignite-beacon/study/pic-01.png",
+      "alt": "Beacon",
+      "ground": "#0A0705",
+      "dark": true,
+      "fit": "contain"
+    },
+    {
+      "key": "palette",
+      "label": "Colour",
+      "note": "Midnight and charcoal, with ember, flame and gold accents and warm white type.",
+      "colors": [
+        {
+          "hex": "#0A0A0A",
+          "name": "Midnight"
+        },
+        {
+          "hex": "#1A1A1A",
+          "name": "Charcoal"
+        },
+        {
+          "hex": "#2A2A2A",
+          "name": "Slate"
+        },
+        {
+          "hex": "#FF6B35",
+          "name": "Ember"
+        },
+        {
+          "hex": "#FF8C42",
+          "name": "Flame"
+        },
+        {
+          "hex": "#FFD166",
+          "name": "Gold"
+        },
+        {
+          "hex": "#FAF7F2",
+          "name": "Warm white"
+        }
+      ],
+      "source": "ignitebeacon.com public stylesheet, 24 October 2026: --midnight, --charcoal, --slate, --ember, --flame, --gold and --warmwhite."
+    },
+    {
+      "key": "type",
+      "label": "Type",
+      "note": "The typefaces ignitebeacon.com is set in, as observed: Playfair Display and Inter.",
+      "faces": [
+        {
+          "role": "Headings",
+          "family": "Playfair Display",
+          "fallback": "serif"
+        },
+        {
+          "role": "Text",
+          "family": "Inter",
+          "fallback": "sans-serif"
+        }
+      ]
+    },
+    {
+      "key": "detail",
+      "label": "On a phone",
+      "note": "ignitebeacon.com on a phone, its home page as photographed on 2026-10-22.",
+      "image": "/media/work/ignite-beacon/study/m-home.jpg",
+      "alt": "Beacon's home page on a phone.",
+      "ground": "#0A0A0A",
+      "dark": true,
+      "fit": "contain"
+    }
+  ],
+  "source": "Palette names and values verified in https://ignitebeacon.com/_next/static/chunks/77b9fd031c548e65.css on 24 October 2026. The existing phone photograph is shown whole, without a cover crop.",
+  "figures": [
+    {
+      "value": "2",
+      "label": "Pages photographed from the live site",
+      "source": "the shoot / the case study"
+    },
+    {
+      "value": "7",
+      "label": "Colours in the palette",
+      "source": "observed"
+    }
+  ]
+}

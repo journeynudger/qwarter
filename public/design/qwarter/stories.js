@@ -23,7 +23,7 @@
       floating.forEach((state, plate) => {
         const rect = state.anchor.getBoundingClientRect();
         const progress = Math.max(-1, Math.min(1, (innerHeight / 2 - rect.top - rect.height / 2) / innerHeight));
-        const target = progress * 20;
+        const target = progress * 20 * state.depth;
         state.y += (target - state.y) * .1;
         if (Math.abs(target - state.y) > .08) settling = true;
         plate.style.setProperty('--qr-drift', `${state.y.toFixed(2)}px`);
@@ -36,7 +36,7 @@
       const plateObserver = new IntersectionObserver(entries => {
         entries.forEach(entry => {
           const plate = entry.target.querySelector('.qs-plate');
-          if (entry.isIntersecting) floating.set(plate, {anchor:entry.target, y:0, sign:entry.target.closest('.qr-spread--reverse') ? -1 : 1});
+          if (entry.isIntersecting) floating.set(plate, {anchor:entry.target, y:0, depth:Number(entry.target.dataset.qrDepth) || 1, sign:entry.target.closest('.qr-spread--reverse') ? -1 : 1});
           else floating.delete(plate);
         });
         queuePlates();

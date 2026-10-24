@@ -22,6 +22,8 @@
  * (a brand's own files in its repository) into study/ and becomes its path. Each override says in
  * `source` where its words come from.
  * Usage: node scripts/port/studies.mjs [slug …]   (after catalogue → prepare → walkthrough)
+ *        node scripts/port/studies.mjs --overrides-only slug …
+ * The latter compiles literal editorial overrides against existing studies when raw captures are absent.
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -37,6 +39,39 @@ const OUT = path.join(ROOT, "content/studies");
 const only = process.argv.slice(2);
 const read = (f) => fs.readFileSync(f, "utf8");
 const exists = (f) => fs.existsSync(f);
+if (only.includes('--overrides-only')) {
+  const slugs = only.filter(value => value !== '--overrides-only');
+  if (!slugs.length) throw new Error('Name the studies whose overrides should be compiled.');
+  for (const slug of slugs) {
+    if (!/^[a-z0-9-]+$/.test(slug)) throw new Error(`Invalid study slug: ${slug}`);
+    const file = path.join(OUT, `${slug}.json`);
+    const overrideFile = path.join(OUT, '_overrides', `${slug}.json`);
+    const study = JSON.parse(read(file));
+    const override = JSON.parse(read(overrideFile));
+    if (!study.generated) throw new Error(`${slug}: not a generated study`);
+    if (/"\$(pic|copy)"/.test(JSON.stringify(override))) throw new Error(`${slug}: image placeholders require a full source rebuild`);
+    const { source, ...fields } = override;
+    const marker = ` By hand (content/studies/_overrides/${slug}.json): `;
+    const result = { ...study, ...fields, source: study.source.split(marker)[0] + (source ? marker + source : ''), generated: true };
+    const text = JSON.stringify(result, null, 2) + '\n';
+    for (const [, ref] of text.matchAll(/"(\/media\/[^"?]+)"/g)) {
+      if (!exists(path.join(ROOT, 'public', ref))) throw new Error(`${slug}: missing ${ref}`);
+    }
+    fs.writeFileSync(file, text);
+    const dir = path.join(WORK, slug, 'study');
+    const pictures = path.join(OUT, '_pictures', `${slug}.json`);
+    if (exists(pictures)) {
+      const records = JSON.parse(read(pictures));
+      fs.writeFileSync(pictures, JSON.stringify(records.filter(item => text.includes(`"${item.file}"`)), null, 2) + '\n');
+    }
+    // The same delivered-picture cleanup as the full compiler; walkthrough frames remain available.
+    for (const name of fs.readdirSync(dir)) {
+      if (/^pic-\d+\.(png|jpg)$/.test(name) && !text.includes(`"/media/work/${slug}/study/${name}"`)) fs.rmSync(path.join(dir, name));
+    }
+    console.log(`${slug}: editorial override compiled`);
+  }
+  process.exit(0);
+}
 const { projects } = JSON.parse(read(path.join(ROOT, "content/work.json")));
 const host = (u) => (u || "").replace(/^https?:\/\//, "").replace(/\/.*$/, "").replace(/^www\./, "");
 const decode = (s) => s.replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n))).replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16))).replace(/&(amp|lt|gt|quot|apos|nbsp|hellip|rsquo|lsquo|rdquo|ldquo|ndash|mdash);/g, (_, e) => ({ amp: "&", lt: "<", gt: ">", quot: '"', apos: "'", nbsp: " ", hellip: "…", rsquo: "’", lsquo: "‘", rdquo: "”", ldquo: "“", ndash: "–", mdash: "—" })[e]);

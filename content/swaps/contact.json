@@ -29,7 +29,8 @@
     {
       "select": "#Header .logo-depo",
       "attr": {
-        "aria-label": "Qwarter"
+        "aria-label": "Qwarter",
+        "data-internal": ""
       }
     },
     {

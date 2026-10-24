@@ -67,6 +67,7 @@ const eslintConfig = defineConfig([
     ".design-cache/**",
     "public/design/**",
     "!public/design/qwarter/**",
+    "public/design/qwarter/featured-runtime.js", // generated, guarded derivative of the reference bundle
   ]),
 ]);
 

@@ -24,8 +24,10 @@
 import fs from "node:fs";
 import crypto from "node:crypto";
 import path from "node:path";
+import { buildFeaturedRuntime } from "./featured-runtime.mjs";
 
 const ROOT = path.resolve(import.meta.dirname, "../..");
+buildFeaturedRuntime(ROOT);
 const work = JSON.parse(fs.readFileSync(path.join(ROOT, "content/work.json"), "utf8"));
 const site = JSON.parse(fs.readFileSync(path.join(ROOT, "content/site.json"), "utf8"));
 const { brand, nav, footer, statement, about, contact } = site.chrome;
@@ -33,7 +35,13 @@ const projects = work.projects.filter((p) => p.media !== false);
 const versioned = (url) => `${url}?v=${crypto.createHash("sha1").update(fs.readFileSync(path.join(ROOT, "public", url))).digest("hex").slice(0,10)}`;
 const media = (slug) => ({
   cover: versioned(`/media/work/${slug}/cover.jpg`), cover2x: versioned(`/media/work/${slug}/cover@2x.jpg`), tile: versioned(`/media/work/${slug}/tile.jpg`), tile2x: versioned(`/media/work/${slug}/tile@2x.jpg`),
-  film: versioned(`/media/work/${slug}/scroll.mp4`), blur: versioned(`/media/work/${slug}/blur.jpg`),
+  film: versioned(`/media/work/${slug}/scroll.mp4`), poster: versioned(`/media/work/${slug}/scroll-poster.jpg`), blur: versioned(`/media/work/${slug}/blur.jpg`),
+});
+// A native poster and film share one box. The hidden image preserves the carried runtime's lookup.
+const preview = (p) => ({
+  img: { attr: { src: media(p.slug).poster, "data-src": null, "data-item-load": null, hidden: "", "aria-hidden": "true", alt: "", width: "1920", height: "1080" } },
+  video: { attr: { src: media(p.slug).film, poster: media(p.slug).poster, "aria-label": p.name } },
+  source: `${SRC.work} ${p.slug}: its film and native poster (scripts/work/video.mjs)`,
 });
 const SRC = { work: "content/work.json", site: "content/site.json" };
 const host = (u) => u.replace(/^https?:\/\//, "").replace(/\/$/, "");
@@ -52,7 +60,7 @@ function chrome(current) {
   const social = contact.social ?? [];
   const swaps = [
     { select: "#Header .title", attr: { title: `${brand.left} ${brand.right}`, "data-internal": "" } },
-    { select: "#Header .logo-depo", attr: { "aria-label": brand.left } },
+    { select: "#Header .logo-depo", attr: { "aria-label": brand.left, "data-internal": "" } },
     { select: "#Header .title span:nth-of-type(1)", text: brand.left, source: `${SRC.site} chrome.brand.left` },
     { select: "#Header .title span:nth-of-type(2)", text: brand.right, source: `${SRC.site} chrome.brand.right` },
     { select: "#Header .claim", text: brand.tagline, source: `${SRC.site} chrome.brand.tagline` },
@@ -105,9 +113,10 @@ const home = {
   image: "/media/og.jpg",
   swaps: [
     ...chrome("/"),
+    { select: 'script[src*="main.d4f10deae0b58c57225e.js"]', attr: { src: versioned('/design/qwarter/featured-runtime.js') } },
     { select: ".widget-home__article", attr: { "data-internal": "" } },
     { select: ".widget-home__ul", attr: { "aria-label": "Featured projects" } },
-    { select: ".visor-videos", repeat: "figure", items: twice.map((p) => ({ img: { attr: { src: media(p.slug).cover, "data-src": media(p.slug).cover2x, alt: p.name, width: "1440", height: "900" } }, video: { attr: { src: media(p.slug).film } }, source: `${SRC.work} ${p.slug}: its cover and film (scripts/work/prepare.mjs, video.mjs)` })) },
+    { select: ".visor-videos", repeat: "figure", items: twice.map(preview) },
     { select: ".widget-home__ul", repeat: "li", items: twice.map((p) => ({
       a: { attr: { href: `/work/${p.slug}/`, "data-video-url": media(p.slug).film, "data-internal": studied(p.slug) ? "" : null } },
       "[data-project-counter]": { text: p.numeral },
@@ -127,7 +136,7 @@ const workPage = {
     ...chrome("/work/"),
     { select: "article.page-archive", prepend: hiddenH1(nav[1].label), source: `${SRC.site} chrome.nav[1].label` },
     { select: ".block-project-list__ul", attr: { "aria-label": nav[1].label } },
-    { select: ".block-project-list .visor-videos", repeat: "figure", items: all.map((p) => ({ img: { attr: { src: media(p.slug).cover, "data-src": media(p.slug).cover2x, alt: p.name, width: "1440", height: "900" } }, video: { attr: { src: media(p.slug).film } }, source: `${SRC.work} ${p.slug}: its cover and film` })) },
+    { select: ".block-project-list .visor-videos", repeat: "figure", items: all.map(preview) },
     // the list: numeral and name (where the reference lists the client), the name as the title, what was made where it names the director
     { select: ".block-project-list__ul", repeat: "li", items: all.map((p) => ({
       a: { attr: { href: `/work/${p.slug}/`, "data-internal": studied(p.slug) ? "" : null } },

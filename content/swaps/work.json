@@ -29,7 +29,8 @@
     {
       "select": "#Header .logo-depo",
       "attr": {
-        "aria-label": "Qwarter"
+        "aria-label": "Qwarter",
+        "data-internal": ""
       }
     },
     {
@@ -264,512 +265,662 @@
         {
           "img": {
             "attr": {
-              "src": "/media/work/butter/cover.jpg?v=7d3704a42a",
-              "data-src": "/media/work/butter/cover@2x.jpg?v=7915ff9765",
-              "alt": "Butter",
-              "width": "1440",
-              "height": "900"
+              "src": "/media/work/butter/scroll-poster.jpg?v=1531473d4c",
+              "data-src": null,
+              "data-item-load": null,
+              "hidden": "",
+              "aria-hidden": "true",
+              "alt": "",
+              "width": "1920",
+              "height": "1080"
             }
           },
           "video": {
             "attr": {
-              "src": "/media/work/butter/scroll.mp4?v=95b59c38c2"
+              "src": "/media/work/butter/scroll.mp4?v=95b59c38c2",
+              "poster": "/media/work/butter/scroll-poster.jpg?v=1531473d4c",
+              "aria-label": "Butter"
             }
           },
-          "source": "content/work.json butter: its cover and film"
+          "source": "content/work.json butter: its film and native poster (scripts/work/video.mjs)"
         },
         {
           "img": {
             "attr": {
-              "src": "/media/work/jr-pugh/cover.jpg?v=d41e0eca67",
-              "data-src": "/media/work/jr-pugh/cover@2x.jpg?v=3a55dcf49f",
-              "alt": "JR Pugh",
-              "width": "1440",
-              "height": "900"
+              "src": "/media/work/jr-pugh/scroll-poster.jpg?v=63f805cd13",
+              "data-src": null,
+              "data-item-load": null,
+              "hidden": "",
+              "aria-hidden": "true",
+              "alt": "",
+              "width": "1920",
+              "height": "1080"
             }
           },
           "video": {
             "attr": {
-              "src": "/media/work/jr-pugh/scroll.mp4?v=ef0e2169f9"
+              "src": "/media/work/jr-pugh/scroll.mp4?v=ef0e2169f9",
+              "poster": "/media/work/jr-pugh/scroll-poster.jpg?v=63f805cd13",
+              "aria-label": "JR Pugh"
             }
           },
-          "source": "content/work.json jr-pugh: its cover and film"
+          "source": "content/work.json jr-pugh: its film and native poster (scripts/work/video.mjs)"
         },
         {
           "img": {
             "attr": {
-              "src": "/media/work/ignite-beacon/cover.jpg?v=836db06368",
-              "data-src": "/media/work/ignite-beacon/cover@2x.jpg?v=3f02f0943b",
-              "alt": "Beacon",
-              "width": "1440",
-              "height": "900"
+              "src": "/media/work/ignite-beacon/scroll-poster.jpg?v=8cb4a22edf",
+              "data-src": null,
+              "data-item-load": null,
+              "hidden": "",
+              "aria-hidden": "true",
+              "alt": "",
+              "width": "1920",
+              "height": "1080"
             }
           },
           "video": {
             "attr": {
-              "src": "/media/work/ignite-beacon/scroll.mp4?v=bc0f1ae023"
+              "src": "/media/work/ignite-beacon/scroll.mp4?v=bc0f1ae023",
+              "poster": "/media/work/ignite-beacon/scroll-poster.jpg?v=8cb4a22edf",
+              "aria-label": "Beacon"
             }
           },
-          "source": "content/work.json ignite-beacon: its cover and film"
+          "source": "content/work.json ignite-beacon: its film and native poster (scripts/work/video.mjs)"
         },
         {
           "img": {
             "attr": {
-              "src": "/media/work/core-rhythm-fitness/cover.jpg?v=06be5ebb32",
-              "data-src": "/media/work/core-rhythm-fitness/cover@2x.jpg?v=3b13ab0147",
-              "alt": "Core Rhythm Fitness",
-              "width": "1440",
-              "height": "900"
+              "src": "/media/work/core-rhythm-fitness/scroll-poster.jpg?v=d86380bbb0",
+              "data-src": null,
+              "data-item-load": null,
+              "hidden": "",
+              "aria-hidden": "true",
+              "alt": "",
+              "width": "1920",
+              "height": "1080"
             }
           },
           "video": {
             "attr": {
-              "src": "/media/work/core-rhythm-fitness/scroll.mp4?v=d656c6f343"
+              "src": "/media/work/core-rhythm-fitness/scroll.mp4?v=d656c6f343",
+              "poster": "/media/work/core-rhythm-fitness/scroll-poster.jpg?v=d86380bbb0",
+              "aria-label": "Core Rhythm Fitness"
             }
           },
-          "source": "content/work.json core-rhythm-fitness: its cover and film"
+          "source": "content/work.json core-rhythm-fitness: its film and native poster (scripts/work/video.mjs)"
         },
         {
           "img": {
             "attr": {
-              "src": "/media/work/thanh-ta/cover.jpg?v=92d2fbfe4c",
-              "data-src": "/media/work/thanh-ta/cover@2x.jpg?v=eb01043a78",
-              "alt": "Thanh Ta",
-              "width": "1440",
-              "height": "900"
+              "src": "/media/work/thanh-ta/scroll-poster.jpg?v=8931acb8ed",
+              "data-src": null,
+              "data-item-load": null,
+              "hidden": "",
+              "aria-hidden": "true",
+              "alt": "",
+              "width": "1920",
+              "height": "1080"
             }
           },
           "video": {
             "attr": {
-              "src": "/media/work/thanh-ta/scroll.mp4?v=193000e18f"
+              "src": "/media/work/thanh-ta/scroll.mp4?v=193000e18f",
+              "poster": "/media/work/thanh-ta/scroll-poster.jpg?v=8931acb8ed",
+              "aria-label": "Thanh Ta"
             }
           },
-          "source": "content/work.json thanh-ta: its cover and film"
+          "source": "content/work.json thanh-ta: its film and native poster (scripts/work/video.mjs)"
         },
         {
           "img": {
             "attr": {
-              "src": "/media/work/stairway/cover.jpg?v=e877668cf6",
-              "data-src": "/media/work/stairway/cover@2x.jpg?v=fee5c9d191",
-              "alt": "Stairway Audio",
-              "width": "1440",
-              "height": "900"
+              "src": "/media/work/stairway/scroll-poster.jpg?v=6453350a85",
+              "data-src": null,
+              "data-item-load": null,
+              "hidden": "",
+              "aria-hidden": "true",
+              "alt": "",
+              "width": "1920",
+              "height": "1080"
             }
           },
           "video": {
             "attr": {
-              "src": "/media/work/stairway/scroll.mp4?v=d7fcd08532"
+              "src": "/media/work/stairway/scroll.mp4?v=d7fcd08532",
+              "poster": "/media/work/stairway/scroll-poster.jpg?v=6453350a85",
+              "aria-label": "Stairway Audio"
             }
           },
-          "source": "content/work.json stairway: its cover and film"
+          "source": "content/work.json stairway: its film and native poster (scripts/work/video.mjs)"
         },
         {
           "img": {
             "attr": {
-              "src": "/media/work/serein/cover.jpg?v=bcd33ae104",
-              "data-src": "/media/work/serein/cover@2x.jpg?v=de8377770b",
-              "alt": "Serein",
-              "width": "1440",
-              "height": "900"
+              "src": "/media/work/serein/scroll-poster.jpg?v=41530c2053",
+              "data-src": null,
+              "data-item-load": null,
+              "hidden": "",
+              "aria-hidden": "true",
+              "alt": "",
+              "width": "1920",
+              "height": "1080"
             }
           },
           "video": {
             "attr": {
-              "src": "/media/work/serein/scroll.mp4?v=0f85b5a917"
+              "src": "/media/work/serein/scroll.mp4?v=0f85b5a917",
+              "poster": "/media/work/serein/scroll-poster.jpg?v=41530c2053",
+              "aria-label": "Serein"
             }
           },
-          "source": "content/work.json serein: its cover and film"
+          "source": "content/work.json serein: its film and native poster (scripts/work/video.mjs)"
         },
         {
           "img": {
             "attr": {
-              "src": "/media/work/theroom/cover.jpg?v=f157cd060d",
-              "data-src": "/media/work/theroom/cover@2x.jpg?v=8a1389ee84",
-              "alt": "The Room",
-              "width": "1440",
-              "height": "900"
+              "src": "/media/work/theroom/scroll-poster.jpg?v=77f9defc89",
+              "data-src": null,
+              "data-item-load": null,
+              "hidden": "",
+              "aria-hidden": "true",
+              "alt": "",
+              "width": "1920",
+              "height": "1080"
             }
           },
           "video": {
             "attr": {
-              "src": "/media/work/theroom/scroll.mp4?v=10f3f82147"
+              "src": "/media/work/theroom/scroll.mp4?v=10f3f82147",
+              "poster": "/media/work/theroom/scroll-poster.jpg?v=77f9defc89",
+              "aria-label": "The Room"
             }
           },
-          "source": "content/work.json theroom: its cover and film"
+          "source": "content/work.json theroom: its film and native poster (scripts/work/video.mjs)"
         },
         {
           "img": {
             "attr": {
-              "src": "/media/work/bambino/cover.jpg?v=5a17941325",
-              "data-src": "/media/work/bambino/cover@2x.jpg?v=11dd5c68cd",
-              "alt": "Paintings",
-              "width": "1440",
-              "height": "900"
+              "src": "/media/work/bambino/scroll-poster.jpg?v=dbace3b1ef",
+              "data-src": null,
+              "data-item-load": null,
+              "hidden": "",
+              "aria-hidden": "true",
+              "alt": "",
+              "width": "1920",
+              "height": "1080"
             }
           },
           "video": {
             "attr": {
-              "src": "/media/work/bambino/scroll.mp4?v=93e39c8d13"
+              "src": "/media/work/bambino/scroll.mp4?v=93e39c8d13",
+              "poster": "/media/work/bambino/scroll-poster.jpg?v=dbace3b1ef",
+              "aria-label": "Paintings"
             }
           },
-          "source": "content/work.json bambino: its cover and film"
+          "source": "content/work.json bambino: its film and native poster (scripts/work/video.mjs)"
         },
         {
           "img": {
             "attr": {
-              "src": "/media/work/lorenzo-type/cover.jpg?v=76000b7d2d",
-              "data-src": "/media/work/lorenzo-type/cover@2x.jpg?v=b9c94caaea",
-              "alt": "Fonts designed",
-              "width": "1440",
-              "height": "900"
+              "src": "/media/work/lorenzo-type/scroll-poster.jpg?v=8d505fbf9b",
+              "data-src": null,
+              "data-item-load": null,
+              "hidden": "",
+              "aria-hidden": "true",
+              "alt": "",
+              "width": "1920",
+              "height": "1080"
             }
           },
           "video": {
             "attr": {
-              "src": "/media/work/lorenzo-type/scroll.mp4?v=406fe389e5"
+              "src": "/media/work/lorenzo-type/scroll.mp4?v=406fe389e5",
+              "poster": "/media/work/lorenzo-type/scroll-poster.jpg?v=8d505fbf9b",
+              "aria-label": "Fonts designed"
             }
           },
-          "source": "content/work.json lorenzo-type: its cover and film"
+          "source": "content/work.json lorenzo-type: its film and native poster (scripts/work/video.mjs)"
         },
         {
           "img": {
             "attr": {
-              "src": "/media/work/ion-insurance/cover.jpg?v=47246bcfb5",
-              "data-src": "/media/work/ion-insurance/cover@2x.jpg?v=84f5854b9c",
-              "alt": "Ion Insurance",
-              "width": "1440",
-              "height": "900"
+              "src": "/media/work/ion-insurance/scroll-poster.jpg?v=461fd6367b",
+              "data-src": null,
+              "data-item-load": null,
+              "hidden": "",
+              "aria-hidden": "true",
+              "alt": "",
+              "width": "1920",
+              "height": "1080"
             }
           },
           "video": {
             "attr": {
-              "src": "/media/work/ion-insurance/scroll.mp4?v=72b95143cb"
+              "src": "/media/work/ion-insurance/scroll.mp4?v=72b95143cb",
+              "poster": "/media/work/ion-insurance/scroll-poster.jpg?v=461fd6367b",
+              "aria-label": "Ion Insurance"
             }
           },
-          "source": "content/work.json ion-insurance: its cover and film"
+          "source": "content/work.json ion-insurance: its film and native poster (scripts/work/video.mjs)"
         },
         {
           "img": {
             "attr": {
-              "src": "/media/work/tima/cover.jpg?v=9e4f7c9710",
-              "data-src": "/media/work/tima/cover@2x.jpg?v=c11604b277",
-              "alt": "Titanium Motor Arts",
-              "width": "1440",
-              "height": "900"
+              "src": "/media/work/tima/scroll-poster.jpg?v=e669adf02d",
+              "data-src": null,
+              "data-item-load": null,
+              "hidden": "",
+              "aria-hidden": "true",
+              "alt": "",
+              "width": "1920",
+              "height": "1080"
             }
           },
           "video": {
             "attr": {
-              "src": "/media/work/tima/scroll.mp4?v=9023d37e1c"
+              "src": "/media/work/tima/scroll.mp4?v=9023d37e1c",
+              "poster": "/media/work/tima/scroll-poster.jpg?v=e669adf02d",
+              "aria-label": "Titanium Motor Arts"
             }
           },
-          "source": "content/work.json tima: its cover and film"
+          "source": "content/work.json tima: its film and native poster (scripts/work/video.mjs)"
         },
         {
           "img": {
             "attr": {
-              "src": "/media/work/wood-company/cover.jpg?v=4e82e772ff",
-              "data-src": "/media/work/wood-company/cover@2x.jpg?v=b1d08136d3",
-              "alt": "Wood Company",
-              "width": "1440",
-              "height": "900"
+              "src": "/media/work/wood-company/scroll-poster.jpg?v=12b0bedf05",
+              "data-src": null,
+              "data-item-load": null,
+              "hidden": "",
+              "aria-hidden": "true",
+              "alt": "",
+              "width": "1920",
+              "height": "1080"
             }
           },
           "video": {
             "attr": {
-              "src": "/media/work/wood-company/scroll.mp4?v=fbf6d009f4"
+              "src": "/media/work/wood-company/scroll.mp4?v=fbf6d009f4",
+              "poster": "/media/work/wood-company/scroll-poster.jpg?v=12b0bedf05",
+              "aria-label": "Wood Company"
             }
           },
-          "source": "content/work.json wood-company: its cover and film"
+          "source": "content/work.json wood-company: its film and native poster (scripts/work/video.mjs)"
         },
         {
           "img": {
             "attr": {
-              "src": "/media/work/boujee-healer/cover.jpg?v=435442522b",
-              "data-src": "/media/work/boujee-healer/cover@2x.jpg?v=0f288f8a53",
-              "alt": "Boujee Healer",
-              "width": "1440",
-              "height": "900"
+              "src": "/media/work/boujee-healer/scroll-poster.jpg?v=5100907b98",
+              "data-src": null,
+              "data-item-load": null,
+              "hidden": "",
+              "aria-hidden": "true",
+              "alt": "",
+              "width": "1920",
+              "height": "1080"
             }
           },
           "video": {
             "attr": {
-              "src": "/media/work/boujee-healer/scroll.mp4?v=ff400daa4b"
+              "src": "/media/work/boujee-healer/scroll.mp4?v=ff400daa4b",
+              "poster": "/media/work/boujee-healer/scroll-poster.jpg?v=5100907b98",
+              "aria-label": "Boujee Healer"
             }
           },
-          "source": "content/work.json boujee-healer: its cover and film"
+          "source": "content/work.json boujee-healer: its film and native poster (scripts/work/video.mjs)"
         },
         {
           "img": {
             "attr": {
-              "src": "/media/work/pineapple-club/cover.jpg?v=788e199782",
-              "data-src": "/media/work/pineapple-club/cover@2x.jpg?v=fa2f6f414d",
-              "alt": "Pineapple Club",
-              "width": "1440",
-              "height": "900"
+              "src": "/media/work/pineapple-club/scroll-poster.jpg?v=4d9bd444a0",
+              "data-src": null,
+              "data-item-load": null,
+              "hidden": "",
+              "aria-hidden": "true",
+              "alt": "",
+              "width": "1920",
+              "height": "1080"
             }
           },
           "video": {
             "attr": {
-              "src": "/media/work/pineapple-club/scroll.mp4?v=f5ff48f0bd"
+              "src": "/media/work/pineapple-club/scroll.mp4?v=f5ff48f0bd",
+              "poster": "/media/work/pineapple-club/scroll-poster.jpg?v=4d9bd444a0",
+              "aria-label": "Pineapple Club"
             }
           },
-          "source": "content/work.json pineapple-club: its cover and film"
+          "source": "content/work.json pineapple-club: its film and native poster (scripts/work/video.mjs)"
         },
         {
           "img": {
             "attr": {
-              "src": "/media/work/butter/cover.jpg?v=7d3704a42a",
-              "data-src": "/media/work/butter/cover@2x.jpg?v=7915ff9765",
-              "alt": "Butter",
-              "width": "1440",
-              "height": "900"
+              "src": "/media/work/butter/scroll-poster.jpg?v=1531473d4c",
+              "data-src": null,
+              "data-item-load": null,
+              "hidden": "",
+              "aria-hidden": "true",
+              "alt": "",
+              "width": "1920",
+              "height": "1080"
             }
           },
           "video": {
             "attr": {
-              "src": "/media/work/butter/scroll.mp4?v=95b59c38c2"
+              "src": "/media/work/butter/scroll.mp4?v=95b59c38c2",
+              "poster": "/media/work/butter/scroll-poster.jpg?v=1531473d4c",
+              "aria-label": "Butter"
             }
           },
-          "source": "content/work.json butter: its cover and film"
+          "source": "content/work.json butter: its film and native poster (scripts/work/video.mjs)"
         },
         {
           "img": {
             "attr": {
-              "src": "/media/work/jr-pugh/cover.jpg?v=d41e0eca67",
-              "data-src": "/media/work/jr-pugh/cover@2x.jpg?v=3a55dcf49f",
-              "alt": "JR Pugh",
-              "width": "1440",
-              "height": "900"
+              "src": "/media/work/jr-pugh/scroll-poster.jpg?v=63f805cd13",
+              "data-src": null,
+              "data-item-load": null,
+              "hidden": "",
+              "aria-hidden": "true",
+              "alt": "",
+              "width": "1920",
+              "height": "1080"
             }
           },
           "video": {
             "attr": {
-              "src": "/media/work/jr-pugh/scroll.mp4?v=ef0e2169f9"
+              "src": "/media/work/jr-pugh/scroll.mp4?v=ef0e2169f9",
+              "poster": "/media/work/jr-pugh/scroll-poster.jpg?v=63f805cd13",
+              "aria-label": "JR Pugh"
             }
           },
-          "source": "content/work.json jr-pugh: its cover and film"
+          "source": "content/work.json jr-pugh: its film and native poster (scripts/work/video.mjs)"
         },
         {
           "img": {
             "attr": {
-              "src": "/media/work/ignite-beacon/cover.jpg?v=836db06368",
-              "data-src": "/media/work/ignite-beacon/cover@2x.jpg?v=3f02f0943b",
-              "alt": "Beacon",
-              "width": "1440",
-              "height": "900"
+              "src": "/media/work/ignite-beacon/scroll-poster.jpg?v=8cb4a22edf",
+              "data-src": null,
+              "data-item-load": null,
+              "hidden": "",
+              "aria-hidden": "true",
+              "alt": "",
+              "width": "1920",
+              "height": "1080"
             }
           },
           "video": {
             "attr": {
-              "src": "/media/work/ignite-beacon/scroll.mp4?v=bc0f1ae023"
+              "src": "/media/work/ignite-beacon/scroll.mp4?v=bc0f1ae023",
+              "poster": "/media/work/ignite-beacon/scroll-poster.jpg?v=8cb4a22edf",
+              "aria-label": "Beacon"
             }
           },
-          "source": "content/work.json ignite-beacon: its cover and film"
+          "source": "content/work.json ignite-beacon: its film and native poster (scripts/work/video.mjs)"
         },
         {
           "img": {
             "attr": {
-              "src": "/media/work/core-rhythm-fitness/cover.jpg?v=06be5ebb32",
-              "data-src": "/media/work/core-rhythm-fitness/cover@2x.jpg?v=3b13ab0147",
-              "alt": "Core Rhythm Fitness",
-              "width": "1440",
-              "height": "900"
+              "src": "/media/work/core-rhythm-fitness/scroll-poster.jpg?v=d86380bbb0",
+              "data-src": null,
+              "data-item-load": null,
+              "hidden": "",
+              "aria-hidden": "true",
+              "alt": "",
+              "width": "1920",
+              "height": "1080"
             }
           },
           "video": {
             "attr": {
-              "src": "/media/work/core-rhythm-fitness/scroll.mp4?v=d656c6f343"
+              "src": "/media/work/core-rhythm-fitness/scroll.mp4?v=d656c6f343",
+              "poster": "/media/work/core-rhythm-fitness/scroll-poster.jpg?v=d86380bbb0",
+              "aria-label": "Core Rhythm Fitness"
             }
           },
-          "source": "content/work.json core-rhythm-fitness: its cover and film"
+          "source": "content/work.json core-rhythm-fitness: its film and native poster (scripts/work/video.mjs)"
         },
         {
           "img": {
             "attr": {
-              "src": "/media/work/thanh-ta/cover.jpg?v=92d2fbfe4c",
-              "data-src": "/media/work/thanh-ta/cover@2x.jpg?v=eb01043a78",
-              "alt": "Thanh Ta",
-              "width": "1440",
-              "height": "900"
+              "src": "/media/work/thanh-ta/scroll-poster.jpg?v=8931acb8ed",
+              "data-src": null,
+              "data-item-load": null,
+              "hidden": "",
+              "aria-hidden": "true",
+              "alt": "",
+              "width": "1920",
+              "height": "1080"
             }
           },
           "video": {
             "attr": {
-              "src": "/media/work/thanh-ta/scroll.mp4?v=193000e18f"
+              "src": "/media/work/thanh-ta/scroll.mp4?v=193000e18f",
+              "poster": "/media/work/thanh-ta/scroll-poster.jpg?v=8931acb8ed",
+              "aria-label": "Thanh Ta"
             }
           },
-          "source": "content/work.json thanh-ta: its cover and film"
+          "source": "content/work.json thanh-ta: its film and native poster (scripts/work/video.mjs)"
         },
         {
           "img": {
             "attr": {
-              "src": "/media/work/stairway/cover.jpg?v=e877668cf6",
-              "data-src": "/media/work/stairway/cover@2x.jpg?v=fee5c9d191",
-              "alt": "Stairway Audio",
-              "width": "1440",
-              "height": "900"
+              "src": "/media/work/stairway/scroll-poster.jpg?v=6453350a85",
+              "data-src": null,
+              "data-item-load": null,
+              "hidden": "",
+              "aria-hidden": "true",
+              "alt": "",
+              "width": "1920",
+              "height": "1080"
             }
           },
           "video": {
             "attr": {
-              "src": "/media/work/stairway/scroll.mp4?v=d7fcd08532"
+              "src": "/media/work/stairway/scroll.mp4?v=d7fcd08532",
+              "poster": "/media/work/stairway/scroll-poster.jpg?v=6453350a85",
+              "aria-label": "Stairway Audio"
             }
           },
-          "source": "content/work.json stairway: its cover and film"
+          "source": "content/work.json stairway: its film and native poster (scripts/work/video.mjs)"
         },
         {
           "img": {
             "attr": {
-              "src": "/media/work/serein/cover.jpg?v=bcd33ae104",
-              "data-src": "/media/work/serein/cover@2x.jpg?v=de8377770b",
-              "alt": "Serein",
-              "width": "1440",
-              "height": "900"
+              "src": "/media/work/serein/scroll-poster.jpg?v=41530c2053",
+              "data-src": null,
+              "data-item-load": null,
+              "hidden": "",
+              "aria-hidden": "true",
+              "alt": "",
+              "width": "1920",
+              "height": "1080"
             }
           },
           "video": {
             "attr": {
-              "src": "/media/work/serein/scroll.mp4?v=0f85b5a917"
+              "src": "/media/work/serein/scroll.mp4?v=0f85b5a917",
+              "poster": "/media/work/serein/scroll-poster.jpg?v=41530c2053",
+              "aria-label": "Serein"
             }
           },
-          "source": "content/work.json serein: its cover and film"
+          "source": "content/work.json serein: its film and native poster (scripts/work/video.mjs)"
         },
         {
           "img": {
             "attr": {
-              "src": "/media/work/theroom/cover.jpg?v=f157cd060d",
-              "data-src": "/media/work/theroom/cover@2x.jpg?v=8a1389ee84",
-              "alt": "The Room",
-              "width": "1440",
-              "height": "900"
+              "src": "/media/work/theroom/scroll-poster.jpg?v=77f9defc89",
+              "data-src": null,
+              "data-item-load": null,
+              "hidden": "",
+              "aria-hidden": "true",
+              "alt": "",
+              "width": "1920",
+              "height": "1080"
             }
           },
           "video": {
             "attr": {
-              "src": "/media/work/theroom/scroll.mp4?v=10f3f82147"
+              "src": "/media/work/theroom/scroll.mp4?v=10f3f82147",
+              "poster": "/media/work/theroom/scroll-poster.jpg?v=77f9defc89",
+              "aria-label": "The Room"
             }
           },
-          "source": "content/work.json theroom: its cover and film"
+          "source": "content/work.json theroom: its film and native poster (scripts/work/video.mjs)"
         },
         {
           "img": {
             "attr": {
-              "src": "/media/work/bambino/cover.jpg?v=5a17941325",
-              "data-src": "/media/work/bambino/cover@2x.jpg?v=11dd5c68cd",
-              "alt": "Paintings",
-              "width": "1440",
-              "height": "900"
+              "src": "/media/work/bambino/scroll-poster.jpg?v=dbace3b1ef",
+              "data-src": null,
+              "data-item-load": null,
+              "hidden": "",
+              "aria-hidden": "true",
+              "alt": "",
+              "width": "1920",
+              "height": "1080"
             }
           },
           "video": {
             "attr": {
-              "src": "/media/work/bambino/scroll.mp4?v=93e39c8d13"
+              "src": "/media/work/bambino/scroll.mp4?v=93e39c8d13",
+              "poster": "/media/work/bambino/scroll-poster.jpg?v=dbace3b1ef",
+              "aria-label": "Paintings"
             }
           },
-          "source": "content/work.json bambino: its cover and film"
+          "source": "content/work.json bambino: its film and native poster (scripts/work/video.mjs)"
         },
         {
           "img": {
             "attr": {
-              "src": "/media/work/lorenzo-type/cover.jpg?v=76000b7d2d",
-              "data-src": "/media/work/lorenzo-type/cover@2x.jpg?v=b9c94caaea",
-              "alt": "Fonts designed",
-              "width": "1440",
-              "height": "900"
+              "src": "/media/work/lorenzo-type/scroll-poster.jpg?v=8d505fbf9b",
+              "data-src": null,
+              "data-item-load": null,
+              "hidden": "",
+              "aria-hidden": "true",
+              "alt": "",
+              "width": "1920",
+              "height": "1080"
             }
           },
           "video": {
             "attr": {
-              "src": "/media/work/lorenzo-type/scroll.mp4?v=406fe389e5"
+              "src": "/media/work/lorenzo-type/scroll.mp4?v=406fe389e5",
+              "poster": "/media/work/lorenzo-type/scroll-poster.jpg?v=8d505fbf9b",
+              "aria-label": "Fonts designed"
             }
           },
-          "source": "content/work.json lorenzo-type: its cover and film"
+          "source": "content/work.json lorenzo-type: its film and native poster (scripts/work/video.mjs)"
         },
         {
           "img": {
             "attr": {
-              "src": "/media/work/ion-insurance/cover.jpg?v=47246bcfb5",
-              "data-src": "/media/work/ion-insurance/cover@2x.jpg?v=84f5854b9c",
-              "alt": "Ion Insurance",
-              "width": "1440",
-              "height": "900"
+              "src": "/media/work/ion-insurance/scroll-poster.jpg?v=461fd6367b",
+              "data-src": null,
+              "data-item-load": null,
+              "hidden": "",
+              "aria-hidden": "true",
+              "alt": "",
+              "width": "1920",
+              "height": "1080"
             }
           },
           "video": {
             "attr": {
-              "src": "/media/work/ion-insurance/scroll.mp4?v=72b95143cb"
+              "src": "/media/work/ion-insurance/scroll.mp4?v=72b95143cb",
+              "poster": "/media/work/ion-insurance/scroll-poster.jpg?v=461fd6367b",
+              "aria-label": "Ion Insurance"
             }
           },
-          "source": "content/work.json ion-insurance: its cover and film"
+          "source": "content/work.json ion-insurance: its film and native poster (scripts/work/video.mjs)"
         },
         {
           "img": {
             "attr": {
-              "src": "/media/work/tima/cover.jpg?v=9e4f7c9710",
-              "data-src": "/media/work/tima/cover@2x.jpg?v=c11604b277",
-              "alt": "Titanium Motor Arts",
-              "width": "1440",
-              "height": "900"
+              "src": "/media/work/tima/scroll-poster.jpg?v=e669adf02d",
+              "data-src": null,
+              "data-item-load": null,
+              "hidden": "",
+              "aria-hidden": "true",
+              "alt": "",
+              "width": "1920",
+              "height": "1080"
             }
           },
           "video": {
             "attr": {
-              "src": "/media/work/tima/scroll.mp4?v=9023d37e1c"
+              "src": "/media/work/tima/scroll.mp4?v=9023d37e1c",
+              "poster": "/media/work/tima/scroll-poster.jpg?v=e669adf02d",
+              "aria-label": "Titanium Motor Arts"
             }
           },
-          "source": "content/work.json tima: its cover and film"
+          "source": "content/work.json tima: its film and native poster (scripts/work/video.mjs)"
         },
         {
           "img": {
             "attr": {
-              "src": "/media/work/wood-company/cover.jpg?v=4e82e772ff",
-              "data-src": "/media/work/wood-company/cover@2x.jpg?v=b1d08136d3",
-              "alt": "Wood Company",
-              "width": "1440",
-              "height": "900"
+              "src": "/media/work/wood-company/scroll-poster.jpg?v=12b0bedf05",
+              "data-src": null,
+              "data-item-load": null,
+              "hidden": "",
+              "aria-hidden": "true",
+              "alt": "",
+              "width": "1920",
+              "height": "1080"
             }
           },
           "video": {
             "attr": {
-              "src": "/media/work/wood-company/scroll.mp4?v=fbf6d009f4"
+              "src": "/media/work/wood-company/scroll.mp4?v=fbf6d009f4",
+              "poster": "/media/work/wood-company/scroll-poster.jpg?v=12b0bedf05",
+              "aria-label": "Wood Company"
             }
           },
-          "source": "content/work.json wood-company: its cover and film"
+          "source": "content/work.json wood-company: its film and native poster (scripts/work/video.mjs)"
         },
         {
           "img": {
             "attr": {
-              "src": "/media/work/boujee-healer/cover.jpg?v=435442522b",
-              "data-src": "/media/work/boujee-healer/cover@2x.jpg?v=0f288f8a53",
-              "alt": "Boujee Healer",
-              "width": "1440",
-              "height": "900"
+              "src": "/media/work/boujee-healer/scroll-poster.jpg?v=5100907b98",
+              "data-src": null,
+              "data-item-load": null,
+              "hidden": "",
+              "aria-hidden": "true",
+              "alt": "",
+              "width": "1920",
+              "height": "1080"
             }
           },
           "video": {
             "attr": {
-              "src": "/media/work/boujee-healer/scroll.mp4?v=ff400daa4b"
+              "src": "/media/work/boujee-healer/scroll.mp4?v=ff400daa4b",
+              "poster": "/media/work/boujee-healer/scroll-poster.jpg?v=5100907b98",
+              "aria-label": "Boujee Healer"
             }
           },
-          "source": "content/work.json boujee-healer: its cover and film"
+          "source": "content/work.json boujee-healer: its film and native poster (scripts/work/video.mjs)"
         },
         {
           "img": {
             "attr": {
-              "src": "/media/work/pineapple-club/cover.jpg?v=788e199782",
-              "data-src": "/media/work/pineapple-club/cover@2x.jpg?v=fa2f6f414d",
-              "alt": "Pineapple Club",
-              "width": "1440",
-              "height": "900"
+              "src": "/media/work/pineapple-club/scroll-poster.jpg?v=4d9bd444a0",
+              "data-src": null,
+              "data-item-load": null,
+              "hidden": "",
+              "aria-hidden": "true",
+              "alt": "",
+              "width": "1920",
+              "height": "1080"
             }
           },
           "video": {
             "attr": {
-              "src": "/media/work/pineapple-club/scroll.mp4?v=f5ff48f0bd"
+              "src": "/media/work/pineapple-club/scroll.mp4?v=f5ff48f0bd",
+              "poster": "/media/work/pineapple-club/scroll-poster.jpg?v=4d9bd444a0",
+              "aria-label": "Pineapple Club"
             }
           },
-          "source": "content/work.json pineapple-club: its cover and film"
+          "source": "content/work.json pineapple-club: its film and native poster (scripts/work/video.mjs)"
         }
       ]
     },

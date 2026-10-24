@@ -178,3 +178,13 @@ name, keyboard focus and a small hover lift. Mobile uses its own staggered arran
 retain their natural proportions with space reserved for the heading and opening footer. Reduced
 motion disables movement. The six-story selected section is removed. The opening leads directly
 to the collection, now titled Library, with its existing search, topic filters and article order.
+
+### Paired artwork and references, 24 October 2026
+
+`imageLayout: "pairs"` on the Ogilvy reading places its ten advertisements in five paired spreads.
+Paired media spans the complete reader width, with independent angles and scroll depths rather than
+stacking oversized pictures in a half-page margin. Mobile uses an offset vertical arrangement. All
+source paragraphs and all ten distinct advertisements remain in order and can be enlarged.
+References are deduplicated by source URL without page fragments. Their visible labels describe the
+article or artwork; PDF author/upload/extraction notes remain internal. Advertiser credits are named
+individually rather than incorrectly attributing every example to Ogilvy.

@@ -123,3 +123,32 @@ test('gallery buttons settle after swiping and adapt to desktop and phone slide 
   desktop=false;resize();
   assert.equal(buttons.filter(b=>!b.hidden).length,6);
 });
+
+
+test('Featured advances slowly only while its film plays, retaining the original timeline', () => {
+  const source = fs.readFileSync('public/design/qwarter/featured-runtime.js','utf8');
+  const hook = source.match(/loop\(\)\{(const video=this\.visor\.visor\.videos[\s\S]*?);this\.scroller\.loop\(!0\),Sm\.absSpeed/);
+  assert.ok(hook);
+  const video = {duration:8,readyState:4,paused:false};
+  const instance = {_isOpen:false,visor:{actual:0,visor:{videos:[{video}]}},scroller:{minSpeed:0}};
+  const document = {hidden:false};
+  let reduced = false;
+  const tick = () => {
+    vm.runInNewContext(`(function(){${hook[1]}}).call(instance)`, {instance,document,br:{HEIGHT:900},window:{matchMedia:()=>({matches:reduced})}});
+    return instance.scroller.minSpeed;
+  };
+  assert.equal(tick(),900/(60*24));
+  video.duration=45; assert.equal(tick(),900/(60*45));
+  video.duration=100; assert.equal(tick(),900/(60*60));
+  video.paused=true; assert.equal(tick(),0); video.paused=false;
+  video.readyState=1; assert.equal(tick(),0); video.readyState=4;
+  document.hidden=true; assert.equal(tick(),0); document.hidden=false;
+  instance._isOpen=true; assert.equal(tick(),0); instance._isOpen=false;
+  reduced=true; assert.equal(tick(),0);
+  // The entire animation bundle, including Roman numeral movement, is otherwise unchanged.
+  const reference=fs.readFileSync('public/design/depoluxe.xyz/assets/main.d4f10deae0b58c57225e.js','utf8').replace(/\/\/# sourceMappingURL=.*$/,'');
+  const restored=source.slice(source.indexOf('\n')+1).replace(hook[1]+';','');
+  assert.equal(restored,reference);
+  assert.match(fs.readFileSync('content/pages/home.html','utf8'),/src="\/design\/qwarter\/featured-runtime\.js\?v=/);
+  assert.doesNotMatch(fs.readFileSync('content/pages/work.html','utf8'),/featured-runtime/);
+});

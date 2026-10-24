@@ -167,6 +167,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px soli
 .st-tile__img--contain { object-fit: contain; }
 .st-wordmark { font-size: clamp(2.6rem, 6.4vw, 6rem); line-height: 1; padding: 24px; text-align: center; letter-spacing: -0.01em; }
 .st-swatches { width: 100%; height: 100%; display: flex; flex-direction: column; }
+.st-tile--palette .st-tile__stage { aspect-ratio: auto; min-height: calc(var(--swatch-count, 4) * 52px); }
 .st-swatches li { flex: 1; min-height: 52px; display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 0 20px; transform-origin: left; }
 .st-swatch__name { font-size: 0.98em; }
 .st-swatch__role { opacity: 0.75; font-style: normal; }
@@ -221,7 +222,9 @@ a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px soli
 .st-gallery__window { overflow: hidden; border-radius: var(--radius); }
 .st-gallery__track { display: flex; gap: 16px; touch-action: pan-y; user-select: none; transition: transform 0.6s var(--ease); will-change: transform; }
 .st-slide { flex: 0 0 100%; overflow: hidden; border-radius: var(--radius); background: var(--card); }
-/* a picture is shown whole on the slide's ground, never cut (a square product shot lost its sides to cover, 2026-10-23) */
+/* Photographs stay whole by default. Explicit editorial frames omit baked canvas and borders. */
+.st-slide--framed{position:relative;aspect-ratio:4/5;border-radius:9% / 7.2%}
+.st-slide.st-slide--framed img{position:absolute;max-width:none;aspect-ratio:auto;object-fit:fill}
 .st-slide img { width: 100%; aspect-ratio: 4 / 5; object-fit: contain; pointer-events: none; }
 @media (min-width: 1024px) { .st-slide { flex-basis: calc((100% - 32px) / 3); } }
 .st-gallery__arrow { position: absolute; top: 50%; z-index: 2; transform: translateY(-50%); width: 46px; height: 46px; border: 0; border-radius: 50%; background: rgba(255, 255, 255, 0.9); color: #111; cursor: pointer; display: grid; place-items: center; box-shadow: 0 8px 24px -10px rgba(0, 0, 0, 0.8); transition: opacity 0.25s, background 0.25s; }

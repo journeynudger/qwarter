@@ -36,10 +36,14 @@ export function Footer() {
   return <footer className="qs-footer"><a href="/">Qwarter Studio</a><span>A practice in paying attention.</span><a href="/contact/">Let’s make something meaningful <span aria-hidden="true"><Icon /></span></a></footer>;
 }
 
+function imageCredit(image: StoryImage) {
+  const credit = image.credit?.split(";")[0].trim() ?? "";
+  return /^(Supplied |Extracted from |Original advertiser)/i.test(credit) ? "" : credit;
+}
+
 function Plate({ image, index, wide = false }: { image: StoryImage; index: number; wide?: boolean }) {
   // Keep production/provenance notes in the source record, not under every photo.
-  const credit = image.credit?.split(";")[0].trim();
-  const displayCredit = credit && !/^(Supplied |Extracted from |Original advertiser)/i.test(credit) ? credit : "";
+  const displayCredit = imageCredit(image);
   return <figure className={`qs-plate${wide ? " qs-plate--wide" : ""}`}>
     <a href={image.src} data-story-image aria-label={`Enlarge: ${image.alt}`}>
       <img src={image.src} alt={image.alt} width={image.width} height={image.height} style={image.width < 600 ? {maxWidth:image.width,marginInline:"auto"} : undefined} loading="lazy" decoding="async" />
@@ -97,7 +101,7 @@ export function readingSpreads(story: Story): Spread[] {
   flush();
   const placed = new Set(result.flatMap(section => section.images));
   const remaining = [story.hero, ...story.images.map((_,i) => i).filter(i => i !== story.hero)].filter(i => !placed.has(i));
-  for (const section of result) if (!section.images.length && remaining.length) section.images.push(remaining.shift()!);
+  for (const section of result) if (!section.images.length && remaining.length) section.images.push(...remaining.splice(0, story.imageLayout === "pairs" ? 2 : 1));
   while (remaining.length) result.push({blocks: [], images: remaining.splice(0, Math.min(2, remaining.length))});
   return result;
 }
@@ -119,7 +123,11 @@ export function StoryPage({ slug }: { slug: string }) {
   const next = stories[(Math.max(0,position)+1)%stories.length];
   const sections = readingSpreads(story);
   const headings = story.blocks.filter(block => block.type === "heading");
-  const sourceImages = story.images.filter((image,i,all) => all.findIndex(item => item.source === image.source) === i);
+  // Editorial references only. Upload notes, extraction details and file metadata stay in the content record.
+  const sourceEntries = [
+    ...(story.source.url ? [{url: story.source.url, label: story.source.url.endsWith(".pdf") ? `${story.company}: image collection` : story.source.label.replace(/^Supplied [^;]+;\s*/, "").replace(/^Supplied reflection and /, "")}] : []),
+    ...story.images.filter(image => /^https?:|\.pdf(?:#|$)/.test(image.source)).map(image => ({url:image.source, label:image.caption})),
+  ].filter((item,i,all) => all.findIndex(other => other.url.split("#")[0] === item.url.split("#")[0]) === i);
   const accents: Record<string,string> = { Brand: "#3a4030", Craft: "#333d40", Direction: "#3c3831", Growth: "#293c38", Resilience: "#403032" };
   const accent = story.id === 51 ? "#591d24" : story.id === 44 ? "#173e32" : accents[story.category];
   const number = roman(index+1);
@@ -133,27 +141,26 @@ export function StoryPage({ slug }: { slug: string }) {
         <div className="qr-opening__foot"><p>{story.lesson}</p><span className="qs-label">{story.minutes} minute read{story.isExcerpt ? " / excerpt" : ""}</span><a className="qs-label" href="#reading">Begin reading <Icon kind="down" /></a></div>
       </header>
       <div id="reading" className="qr-spreads">
-        {sections.map((section,i) => <section key={i} className={`qr-spread qr-spread--${i%3===0?"ink":i%3===1?"color":"paper"}${section.images.length?"":" qr-spread--text"}${i%2?" qr-spread--reverse":""}`} data-qr-tone={i%3===2?"paper":"ink"} aria-label={`Reading section ${i+1}`}>
+        {sections.map((section,i) => <section key={i} className={`qr-spread qr-spread--${i%3===0?"ink":i%3===1?"color":"paper"}${section.images.length?"":" qr-spread--text"}${i%2?" qr-spread--reverse":""}${section.images.length>1?" qr-spread--paired":""}${!section.blocks.length?" qr-spread--plates":""}`} data-qr-tone={i%3===2?"paper":"ink"} aria-label={`Reading section ${i+1}`}>
           <div className="qr-spread__rail qs-label"><span>{number} / {String(i+1).padStart(2,"0")}</span><span>{story.company}</span></div>
-          <div className="qr-spread__text" data-qr-reveal>
+          {(section.blocks.length>0 || (i===Math.min(1,sections.length-1) && !!story.videos?.length)) && <div className="qr-spread__text" data-qr-reveal>
             {section.blocks.map((block,j) => block.type === "heading" ? <h2 key={j} id={block.id}>{block.text}</h2> : block.type === "paragraph" ? <p key={j} className={i===0&&j===0?"qr-lead":undefined}>{block.text}</p> : null)}
-            {!section.blocks.length && <p className="qr-image-note qs-label">Images from the collection</p>}
             {i===Math.min(1,sections.length-1) && story.videos?.map(video => <ReaderVideo key={video.youtubeId} video={video} />)}
-          </div>
+          </div>}
           {section.images.length>0 && <div className={`qr-spread__media${section.images.length>1?" qr-spread__media--sequence":""}`}>
-            {section.images.map((image,j) => <div key={image} data-qr-reveal style={{"--qr-delay":`${j*100}ms`} as CSSProperties}><Plate image={story.images[image]} index={image} wide /></div>)}
+            {section.images.map((image,j) => <div key={image} className="qr-plate-slot" data-qr-reveal data-qr-depth={j%2 ? "1.4" : "0.7"} style={{"--qr-delay":`${j*100}ms`} as CSSProperties}><Plate image={story.images[image]} index={image} wide /></div>)}
           </div>}
         </section>)}
       </div>
       <section className="qr-ending" data-qr-tone="paper">
         {story.isExcerpt && <p className="qs-excerpt-note">A fragment from our reading. The supplied source ends here.</p>}
         <section className="qr-takeaway" id="takeaway"><span className="qs-label">What we take from it</span><h2>{story.lesson}</h2></section>
-        <details className="qs-sources" id="sources"><summary>Reading & image notes <Icon kind="plus" /></summary><div><p>{story.provenance}</p>{story.source.url ? <a href={story.source.url} target="_blank" rel="noopener noreferrer">{story.source.label} <Icon /></a> : <p>{story.source.label}</p>}{story.source.detail && <p>{story.source.detail}</p>}<ul>{sourceImages.map(image => <li key={image.source}><a href={image.source} target="_blank" rel="noopener noreferrer">{image.credit || image.caption} <Icon /></a></li>)}</ul></div></details>
+        <details className="qs-sources" id="sources"><summary>References <Icon kind="plus" /></summary><div><ul>{sourceEntries.map(item => <li key={item.url}><a href={item.url} target="_blank" rel="noopener noreferrer">{item.label} <Icon /></a></li>)}</ul></div></details>
       </section>
       <section className="qs-continue"><div><span className="qs-label">Keep following your curiosity</span><h2>One lesson leads<br /><span>to another.</span></h2></div><div className="qs-continue__links">{(related.length ? related : [next]).map((item) => <a href={storyUrl(item)} key={item.slug}><span className="qs-label">{item.company} / {item.minutes} min</span><h3>{item.title}</h3><span aria-hidden="true"><Icon /></span></a>)}</div></section>
     </main>
     <Footer />
-    <div className="qs-reading-bar"><a href="/stories/" aria-label="Back to all stories"><Icon kind="left" /> <span>All stories</span></a><span className="qs-label qs-reading-bar__company">{story.company}</span><span className="qs-label" data-reading-percent aria-label="Reading progress">0%</span><details className="qs-contents"><summary>Contents <span aria-hidden="true"><Icon kind="plus" /></span></summary><nav aria-label="Article contents"><a href="#main">Opening</a>{headings.map((heading) => <a key={heading.id} href={`#${heading.id}`}>{heading.text}</a>)}<a href="#takeaway">What we take from it</a><a href="#sources">Reading & image notes</a></nav></details><div className="qs-progress" role="progressbar" aria-label="Reading progress" aria-valuemin={0} aria-valuemax={100} aria-valuenow={0} data-reading-progress><span /></div></div>
+    <div className="qs-reading-bar"><a href="/stories/" aria-label="Back to all stories"><Icon kind="left" /> <span>All stories</span></a><span className="qs-label qs-reading-bar__company">{story.company}</span><span className="qs-label" data-reading-percent aria-label="Reading progress">0%</span><details className="qs-contents"><summary>Contents <span aria-hidden="true"><Icon kind="plus" /></span></summary><nav aria-label="Article contents"><a href="#main">Opening</a>{headings.map((heading) => <a key={heading.id} href={`#${heading.id}`}>{heading.text}</a>)}<a href="#takeaway">What we take from it</a><a href="#sources">References</a></nav></details><div className="qs-progress" role="progressbar" aria-label="Reading progress" aria-valuemin={0} aria-valuemax={100} aria-valuenow={0} data-reading-progress><span /></div></div>
     <dialog className="qs-lightbox" aria-label="Expanded story image"><button type="button" data-image-close aria-label="Close expanded image">Close <Icon kind="close" /></button><figure><img data-expanded-image alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" /><figcaption data-expanded-caption /></figure></dialog>
   </>;
 }
