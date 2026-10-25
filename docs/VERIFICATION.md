@@ -260,3 +260,17 @@ Image sources for Approach: [Nokia Bell Labs media archive](https://www.nokia.co
 Validation: 41 tests pass, one unavailable WordPress snapshot check skipped; ESLint and production build pass. The local production HTTP audit checks 72 routes, 1,670 internal links and 457 unique assets, with no missing links, anchors or files. Focused served-markup checks cover the one-surface previews, home-only derived runtime, four timeline milestones, three gallery frames, seven palette colours, five complete advertisement pairs and clean references.
 
 Limitation: the earlier browser URL security gate still prevents a fresh rendered desktop/mobile motion review. No alternate browser was used. Static source images, source film frames, CSS, served markup and interaction logic were checked; these results do not establish pixel-perfect visual parity with Depo Luxe or Stripe.
+
+## All four laboratories (2026-10-25)
+
+Lorenzo confirmed all four laboratories, including Edison’s Menlo Park. Added the 1876 milestone
+before Bell Labs, SRI and Xerox PARC, followed by Qwarter today. The timeline now uses five equal
+frames on wide screens, two columns with a centered closing entry on tablets, and the existing
+vertical sequence on phones. The Menlo Park photograph's paper border stays outside its CSS frame.
+
+Source for the 1876 opening and team: [Rutgers, Thomas A. Edison Papers: Building the Lab](https://edison.sas.rutgers.edu/life-of-edison/biographical-essays/factory/building-the-lab).
+Photograph: [National Park Service, Workers outside main laboratory at Menlo Park](https://npgallery.nps.gov/AssetDetail/a5bff5f9cc0b45f7adb41b4a60082100), public domain, circa 1880, saved from its 1000×715 version. The photo date is explicit and distinct from the opening date.
+
+Validation: 41 tests pass, one unavailable source-snapshot check skipped; lint and production build
+pass. The built Approach document contains the four historical entries in order, four photographs,
+and Qwarter today. The existing browser-preview limitation remains unchanged.
