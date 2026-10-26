@@ -45,7 +45,7 @@ function Plate({ image, index, wide = false }: { image: StoryImage; index: numbe
   // Keep production/provenance notes in the source record, not under every photo.
   const displayCredit = imageCredit(image);
   return <figure className={`qs-plate${wide ? " qs-plate--wide" : ""}`}>
-    <a href={image.src} data-story-image aria-label={`Enlarge: ${image.alt}`}>
+    <a href={image.src} data-story-image data-qr-plate aria-label={`Enlarge: ${image.alt}`}>
       <img src={image.src} alt={image.alt} width={image.width} height={image.height} style={image.width < 600 ? {maxWidth:image.width,marginInline:"auto"} : undefined} loading="lazy" decoding="async" />
       <span className="qs-enlarge" aria-hidden="true"><Icon kind="plus" /></span>
     </a>
@@ -103,11 +103,19 @@ export function readingSpreads(story: Story): Spread[] {
   const remaining = [story.hero, ...story.images.map((_,i) => i).filter(i => i !== story.hero)].filter(i => !placed.has(i));
   for (const section of result) if (!section.images.length && remaining.length) section.images.push(...remaining.splice(0, story.imageLayout === "pairs" ? 2 : 1));
   while (remaining.length) result.push({blocks: [], images: remaining.splice(0, Math.min(2, remaining.length))});
-  return result;
+  // Keep the photograph with the passage it illustrates for the full reading.
+  // Empty picture columns used to leave isolated fragments between illustrations.
+  const connected: Spread[] = [];
+  for (const section of result) {
+    const previous = connected.at(-1);
+    if (!section.images.length && previous) previous.blocks.push(...section.blocks);
+    else connected.push(section);
+  }
+  return connected;
 }
 
 function ReaderVideo({video}: {video: NonNullable<Story["videos"]>[number]}) {
-  return <figure className="qr-video" data-qr-reveal>
+  return <figure className="qr-video">
     <iframe src={`https://www.youtube-nocookie.com/embed/${video.youtubeId}`} title={video.title} loading="lazy" width="560" height="420" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen />
     <figcaption><span className="qs-label">Watch / {video.title}</span><p>{video.caption}</p><a href={video.source} target="_blank" rel="noopener noreferrer">Watch on YouTube <Icon /></a></figcaption>
   </figure>;
@@ -141,16 +149,16 @@ export function StoryPage({ slug }: { slug: string }) {
         <div className="qr-opening__foot"><p>{story.lesson}</p><span className="qs-label">{story.minutes} minute read{story.isExcerpt ? " / excerpt" : ""}</span><a className="qs-label" href="#reading">Begin reading <Icon kind="down" /></a></div>
       </header>
       <div id="reading" className="qr-spreads">
-        {sections.map((section,i) => <section key={i} className={`qr-spread qr-spread--${i%3===0?"ink":i%3===1?"color":"paper"}${section.images.length?"":" qr-spread--text"}${i%2?" qr-spread--reverse":""}${section.images.length>1?" qr-spread--paired":""}${!section.blocks.length?" qr-spread--plates":""}`} data-qr-tone={i%3===2?"paper":"ink"} aria-label={`Reading section ${i+1}`}>
+        {sections.map((section,i) => <div key={i} className="qr-scene" data-qr-scene><section className={`qr-spread qr-spread--${["paper","color","paper","ink"][i%4]}${section.images.length?"":" qr-spread--text"}${i%2?" qr-spread--reverse":""}${section.images.length>1?" qr-spread--paired":""}${!section.blocks.length?" qr-spread--plates":""}`} data-qr-tone={i%2===0?"paper":"ink"} aria-label={`Reading section ${i+1}`}>
           <div className="qr-spread__rail qs-label"><span>{number} / {String(i+1).padStart(2,"0")}</span><span>{story.company}</span></div>
-          {(section.blocks.length>0 || (i===Math.min(1,sections.length-1) && !!story.videos?.length)) && <div className="qr-spread__text" data-qr-reveal>
+          {(section.blocks.length>0 || (i===Math.min(1,sections.length-1) && !!story.videos?.length)) && <div className="qr-spread__text">
             {section.blocks.map((block,j) => block.type === "heading" ? <h2 key={j} id={block.id}>{block.text}</h2> : block.type === "paragraph" ? <p key={j} className={i===0&&j===0?"qr-lead":undefined}>{block.text}</p> : null)}
             {i===Math.min(1,sections.length-1) && story.videos?.map(video => <ReaderVideo key={video.youtubeId} video={video} />)}
           </div>}
           {section.images.length>0 && <div className={`qr-spread__media${section.images.length>1?" qr-spread__media--sequence":""}`}>
-            {section.images.map((image,j) => <div key={image} className="qr-plate-slot" data-qr-reveal data-qr-depth={j%2 ? "1.4" : "0.7"} style={{"--qr-delay":`${j*100}ms`} as CSSProperties}><Plate image={story.images[image]} index={image} wide /></div>)}
+            {section.images.map((image,j) => <div key={image} className="qr-plate-slot" data-qr-depth={j%2 ? "1.4" : "0.7"}><Plate image={story.images[image]} index={image} wide /></div>)}
           </div>}
-        </section>)}
+        </section></div>)}
       </div>
       <section className="qr-ending" data-qr-tone="paper">
         {story.isExcerpt && <p className="qs-excerpt-note">A fragment from our reading. The supplied source ends here.</p>}

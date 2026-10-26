@@ -62,7 +62,7 @@ body:has(.page-about) #Header__blur > .top { visibility: visible; --size: 145px;
 #Header > .holder .claim{font-size:clamp(12px,.98vw,16px);line-height:1.35;text-align:justify;text-align-last:justify}
 
 /* Qwarter's own AI and advisory chapter, appended to the carried Approach. */
-.qw-ai{box-sizing:border-box;width:100%;padding:110px clamp(24px,5vw,100px) 60px;background:#000;color:#eeece6;font:400 22px/1.45 "EB Garamond",Georgia,serif;position:relative;isolation:isolate}
+.qw-ai{box-sizing:border-box;width:100%;padding:190px clamp(24px,5vw,100px) 60px;background:#000;color:#eeece6;font:400 22px/1.45 "EB Garamond",Georgia,serif;position:relative;isolation:isolate}
 .qw-ai *{box-sizing:border-box}.qw-ai h2,.qw-ai h3,.qw-ai h4,.qw-ai p,.qw-ai ol{margin:0;font-weight:400}.qw-ai em{font-weight:400}.qw-ai a{color:inherit;text-decoration:none}.qw-ai a:focus-visible{outline:1px solid currentColor;outline-offset:8px}
 .qw-ai__eyebrow{display:flex;justify-content:space-between;gap:20px;border-top:1px solid #4c4b47;padding-top:20px;margin-bottom:85px;font:12px/1.5 monospace;letter-spacing:.05em;text-transform:uppercase;color:#bcb9b2}
 .qw-ai__introduction{display:grid;grid-template-columns:1.1fr 1fr;gap:clamp(40px,7vw,130px);padding-bottom:100px}
@@ -85,7 +85,7 @@ body:has(.page-about) #Header__blur > .top { visibility: visible; --size: 145px;
 @media(prefers-reduced-motion:reduce){.qw-labs__picture img{transition:none}.qw-labs__picture:hover img,.qw-labs__picture:focus-visible img{transform:none}}
 .qw-ai__principles{border-top:1px solid #55534c;display:grid;grid-template-columns:repeat(3,1fr);gap:65px;padding:32px 0 75px}.qw-ai__principles p{font-size:24px;line-height:1.3;margin-top:17px;max-width:350px}.qw-ai__contact{border-top:1px solid #33332f;padding:35px 0;display:flex;justify-content:space-between;align-items:baseline;gap:25px}.qw-ai__contact p{font-style:normal;color:#bcb9b2}.qw-ai__contact a{font-size:30px;border-bottom:1px solid #77756e;padding-bottom:5px}.qw-ai__contact a span{margin-left:35px}
 @media(max-width:1000px){.qw-ai__lab-heading{grid-template-columns:1fr 2fr}.qw-ai__lab-heading>p{grid-column:2}.qw-ai__principles{gap:30px}}
-@media(max-width:640px){.qw-ai{padding-top:75px}.qw-ai__eyebrow{margin-bottom:55px;font-size:11px}.qw-ai__introduction,.qw-ai__thesis{grid-template-columns:1fr;gap:35px;padding-bottom:45px}.qw-ai__introduction p,.qw-ai__thesis p{font-size:23px}.qw-ai__lab{padding:45px 0 60px}.qw-ai__lab-heading{display:block}.qw-ai__lab-heading h3{margin:25px 0}.qw-ai__lab-heading>p{font-size:23px}.qw-ai__principles{grid-template-columns:1fr;gap:30px;padding-bottom:45px}.qw-ai__principles p{font-size:24px}.qw-ai__contact{align-items:start;flex-direction:column}.qw-ai__contact a{font-size:27px}.qw-ai__contact a span{margin-left:15px}}
+@media(max-width:640px){.qw-ai{padding-top:165px}.qw-ai__eyebrow{margin-bottom:55px;font-size:11px}.qw-ai__introduction,.qw-ai__thesis{grid-template-columns:1fr;gap:35px;padding-bottom:45px}.qw-ai__introduction p,.qw-ai__thesis p{font-size:23px}.qw-ai__lab{padding:45px 0 60px}.qw-ai__lab-heading{display:block}.qw-ai__lab-heading h3{margin:25px 0}.qw-ai__lab-heading>p{font-size:23px}.qw-ai__principles{grid-template-columns:1fr;gap:30px;padding-bottom:45px}.qw-ai__principles p{font-size:24px}.qw-ai__contact{align-items:start;flex-direction:column}.qw-ai__contact a{font-size:27px}.qw-ai__contact a span{margin-left:15px}}
 
 /* Qwarter uses upright typography throughout. */
 body, body * { font-style: normal !important; }

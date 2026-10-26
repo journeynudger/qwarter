@@ -6494,6 +6494,26 @@
         "credit": "Paul Rand / NeXT; supplied image",
         "source": "/media/stories/craft-and-brand/next-logo.webp",
         "originalUrl": "/media/stories/craft-and-brand/next-logo.webp"
+      },
+      {
+        "src": "/media/stories/craft-and-brand/next-sketches.webp",
+        "width": 1800,
+        "height": 1054,
+        "alt": "Sheets of Paul Rand’s hand-drawn NeXT lettering and cube studies.",
+        "caption": "Paul Rand’s working sketches for the NeXT identity.",
+        "credit": "Paul Rand, Paul Rand Design archive",
+        "source": "https://www.paulrand.design/work/NeXT-Computers.html",
+        "originalUrl": "https://assets.paulrand.design/Works/NeXT/Logo%20Sketches/Web/NeXT%20Logo%20Sketches%2001.webp"
+      },
+      {
+        "src": "/media/stories/craft-and-brand/next-color-specification.webp",
+        "width": 1800,
+        "height": 2325,
+        "alt": "NeXT’s color logo specification with the cube and four Pantone color swatches.",
+        "caption": "The NeXT color specification: red, yellow, green and magenta.",
+        "credit": "Paul Rand, Paul Rand Design archive",
+        "source": "https://www.paulrand.design/work/NeXT-Computers.html",
+        "originalUrl": "https://assets.paulrand.design/Works/NeXT/Collateral/Web/NeXT%20computer%20spec%20color%20reference.webp"
       }
     ],
     "blocks": [
@@ -6516,6 +6536,10 @@
       {
         "type": "paragraph",
         "text": "One of the first things Jobs did was hire Paul Rand to craft him a logo."
+      },
+      {
+        "type": "image",
+        "image": 0
       },
       {
         "type": "heading",
@@ -6547,6 +6571,10 @@
         "text": "When Rand later unveiled the logo, Jobs was speechless. He was enamored with it."
       },
       {
+        "type": "image",
+        "image": 1
+      },
+      {
         "type": "heading",
         "text": "The yellow e",
         "id": "the-yellow-e"
@@ -6566,6 +6594,10 @@
       {
         "type": "paragraph",
         "text": "Good agencies give clients what they want. Great agencies give clients what they need."
+      },
+      {
+        "type": "image",
+        "image": 2
       }
     ],
     "videos": [
@@ -6606,6 +6638,26 @@
         "credit": "Nike; supplied image",
         "source": "/media/stories/craft-and-brand/nike-swoosh.webp",
         "originalUrl": "/media/stories/craft-and-brand/nike-swoosh.webp"
+      },
+      {
+        "src": "/media/stories/craft-and-brand/jordan-spike-lee.webp",
+        "width": 1800,
+        "height": 1203,
+        "alt": "Michael Jordan and Spike Lee sitting on basketballs, wearing Air Jordans, in a black-and-white campaign photograph.",
+        "caption": "Michael Jordan and Spike Lee. A campaign with a cast of its own.",
+        "credit": "Nike / Jordan Brand",
+        "source": "https://www.nike.com/jordan/air-jordan-1",
+        "originalUrl": "https://static.nike.com/a/images/f_auto,cs_srgb/w_1920,c_limit/d86acd37-cd8b-4768-bc81-1664a44218c6/air-jordan-1-retro-og-archive-collection.png"
+      },
+      {
+        "src": "/media/stories/craft-and-brand/jordan-in-flight.webp",
+        "width": 1800,
+        "height": 1200,
+        "alt": "Michael Jordan wearing number 23, lifting the basketball toward the hoop during a dunk.",
+        "caption": "Michael Jordan in flight, from Nike’s Air Jordan archive.",
+        "credit": "Nike / Jordan Brand",
+        "source": "https://www.nike.com/jordan/air-jordan-1",
+        "originalUrl": "https://static.nike.com/a/images/f_auto,cs_srgb/w_1920,c_limit/1768b97d-93e5-4c18-9a98-11b39eb53ca8/air-jordan-1-retro-og-archive-collection.png"
       }
     ],
     "blocks": [
@@ -6634,6 +6686,10 @@
         "text": "Every story shares the same anatomy: the protagonist, the antagonist, the guide, the tension and the transformation."
       },
       {
+        "type": "image",
+        "image": 0
+      },
+      {
         "type": "heading",
         "text": "The protagonist",
         "id": "the-protagonist"
@@ -6660,6 +6716,10 @@
         "text": "When a kid slips on a pair of Air Jordans and steps onto the hardwood, he is filled with possibility. This is the job of the guide. Not so much to show the protagonist the way, but to remind them they’re capable of finding their way."
       },
       {
+        "type": "image",
+        "image": 1
+      },
+      {
         "type": "heading",
         "text": "The tension",
         "id": "the-tension"
@@ -6684,6 +6744,10 @@
       {
         "type": "paragraph",
         "text": "Nike has told this story, over and over again, for decades. It’s told in every ad, every commercial and every moment one of their athletes does something monumental while wearing their brand."
+      },
+      {
+        "type": "image",
+        "image": 2
       }
     ]
   },

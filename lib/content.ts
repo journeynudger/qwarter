@@ -243,7 +243,10 @@ export function storyPages(): Page[] {
       { kind: "stylesheet", href: "/design/qwarter/stories.css" },
       { kind: "stylesheet", href: "/design/qwarter/reader.css" },
     ] as Asset[],
-    scripts: [{ kind: "script", src: "/design/qwarter/stories.js", attrs: { defer: "" } }] as Asset[],
+    scripts: [
+      { kind: "script", src: "/design/qwarter/reader-motion.js", attrs: { defer: "" } },
+      { kind: "script", src: "/design/qwarter/stories.js", attrs: { defer: "" } },
+    ] as Asset[],
   };
   return [
     { ...base, slug: "stories", path: "/stories/", kind: "stories", title: "Stories – Qwarter", description: "We learn from those who came before us. Collected stories about craft, brands, resilience, and finding a point of view.", image: storyImage(getStories()[0])?.src ?? null },
@@ -262,11 +265,11 @@ const escapeHtml = (v: string) => v.replace(/&/g, "&amp;").replace(/</g, "&lt;")
  */
 export function pageMarkup(page: Page): string {
   const html = getPageHtml(page.slug);
-  // Our own ending lives outside the captured source, inside the carried scroll
-  // article so the reference engine includes its height and navigation.
+  // Lead with our thesis and laboratory timeline. Keep this inside the carried
+  // scroll article so its height participates in the page's scroll engine.
   if (page.slug === "approach") {
-    const ending = fs.readFileSync(path.join(CONTENT_DIR, "fragments", "approach-ai.html"), "utf8");
-    return html.replace("</article>", `${ending}</article>`);
+    const introduction = fs.readFileSync(path.join(CONTENT_DIR, "fragments", "approach-ai.html"), "utf8");
+    return html.replace(/(<article\b[^>]*>[\s\S]*?<\/h1>)/, `$1${introduction}`);
   }
   if (page.slug === "work") return html + '<nav class="qw-view-switch" aria-label="Portfolio view"><a href="/work/" aria-current="page" data-internal>Portfolio</a><a href="/work/library/" data-internal>Library</a></nav>';
   if (!page.project) return html;

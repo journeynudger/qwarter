@@ -274,3 +274,43 @@ Photograph: [National Park Service, Workers outside main laboratory at Menlo Par
 Validation: 41 tests pass, one unavailable source-snapshot check skipped; lint and production build
 pass. The built Approach document contains the four historical entries in order, four photographs,
 and Qwarter today. The existing browser-preview limitation remains unchanged.
+
+## Thesis first and layered article reading (2026-10-26)
+
+Approach now opens with the advisory introduction, thesis and the four-laboratory timeline, before
+its existing studio and service sections. The fragment stays inside the carried article, so the
+existing scroll engine includes it in document height and navigation.
+
+The article reader now uses opaque overlapping sheets, with native sticky media beside a steady
+reading column. Each sheet can hold briefly as its successor passes over it. The pin point is
+measured from the actual sheet height, so a long passage finishes before being covered. Images
+enter at staggered depths, with restrained rotation and scaling; scrolling back reverses the
+entrance. Paired photographs overlap within the media column, and captions occupy a separate row.
+Phone layouts place each picture after its passage, with smaller movement and less overlap.
+Text is never faded, translated or cloned. Orphaned text sections join the preceding illustrated
+passage instead of opening another empty picture column. All article paragraphs and photographs
+remain present exactly once, including without JavaScript. Reduced motion disables the movement;
+background tabs and settled scenes do not keep an animation loop running.
+
+Reference inspected: [Stripe Press, Talk Two](https://www.stripe.press/poor-charlies-almanack/talk-two),
+including the user's screenshot of the overlapping Walmart/George H. W. Bush spread. Qwarter's
+implementation uses DOM images and native scrolling; no Stripe artwork, font or JavaScript is shipped.
+
+Additional media, reviewed as original image files before use:
+
+- [Paul Rand Design: NeXT Computers](https://www.paulrand.design/work/NeXT-Computers.html): the NeXT
+  working sketches and color-logo specification, placed beside the corresponding passages. Their
+  original full-resolution URLs and credits are retained in `content/stories.json`.
+- [Nike: Air Jordan archive](https://www.nike.com/jordan/air-jordan-1): the Michael Jordan/Spike Lee
+  campaign photograph and Jordan dunk photograph, placed in the guide and transformation portions
+  of the Nike story. Images are credited to Nike / Jordan Brand and served locally as WebP.
+
+Validation: 45 tests pass, with one source-snapshot test skipped because the original WordPress
+snapshot is unavailable. New controller tests exercise entry order, reverse scrolling, tall-sheet
+pinning, phone remeasurement, reduced-motion changes, missing-observer fallback, tab visibility and
+idle-loop shutdown. Existing all-story tests verify paragraph order, unique images, image sources,
+accessible links and unpublished draft isolation. Lint and production build are checked before release.
+
+The earlier browser-preview security limitation remains. The motion controller is exercised against
+measured test geometry and the served site is audited over HTTP; these checks do not establish a
+rendered pixel-for-pixel or timing match with Stripe on a physical phone.
