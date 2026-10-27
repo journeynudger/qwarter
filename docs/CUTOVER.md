@@ -1,6 +1,6 @@
 # Moving qwarter.com to Vercel
 
-## Prepared on 2026-10-27
+## Completed on 2026-10-27
 
 - Project: `journeynudgers-projects/qwarter`, owned by Lorenzo (`lorenzo@qwarter.com`).
 - Production follows `journeynudger/qwarter` on `main`.
@@ -9,7 +9,7 @@
 - Before cutover: apex A `208.87.133.155`, proxied; www CNAME `qwarter.com`, proxied.
 - Google Workspace handles email. Its five MX records, SPF, DMARC and verification TXT records stay unchanged.
 - The complete 16-record DNS backup is outside Git: `../work/cutover-2026-10-27/cloudflare-before.txt`. Original download: `~/Downloads/qwarter.com.txt`.
-- No Cloudflare Worker routes were configured when inspected. Rules inspection remains pending.
+- No Cloudflare Worker routes were configured when inspected. No Cloudflare rules were changed.
 - Lorenzo upgraded the team to Pro; the Vercel API confirms Pro, active, on 2026-10-27.
 
 ## Website migration
@@ -39,15 +39,18 @@ The original `/.well-known/acme-challenge/*` paths are preserved for certificate
 Keep WordPress and the hosting running while the workers depend on its entries.
 The origin's HTTPS API index returns 200; unauthenticated entry access returns 401.
 
-## Remaining cutover
+## Live configuration and verification
 
-1. Pro and production indexing/origin variables are already set. Confirm the Ready deployment with the final form-continuity fixes.
-2. Preserve ancillary hostnames: change ftp CNAME target to `ipv4.qwarter.com`; change the two SRV targets (`_imaps._tcp` and `_pop3s._tcp`) to `mail.qwarter.com`, retaining priority, weight and ports. Both target hosts already point to the old server.
-3. Recheck Vercel's project DNS recommendations. On 2026-10-27 the CLI explicitly accepts apex A `76.76.21.21`. The configuration API additionally lists `216.198.79.1` and `64.29.17.1` at rank 1. Project CNAME: `cc26d3f37336a52a.vercel-dns-017.com`.
-4. Update the apex A and www CNAME in Cloudflare to Vercel, DNS only. Leave nameservers and unrelated records alone.
-5. Production-only `NEXT_PUBLIC_SITE_URL=https://qwarter.com` and `ALLOW_INDEXING=1` are already set. Variables are read at build time.
-6. Verify DNS, TLS, root/www, HTTP→HTTPS, redirects, 410s, PDF, robots, sitemap, canonicals and current pages. Compare MX/TXT with the backup.
-7. Submit `https://qwarter.com/sitemap.xml` to Search Console when access is available. Keep the old hosting while form workers depend on it.
+- Apex A: `216.198.79.1`, DNS only.
+- www CNAME: `cc26d3f37336a52a.vercel-dns-017.com`, DNS only.
+- FTP CNAME: `ipv4.qwarter.com`. Both IMAPS and POP3S SRV targets now use `mail.qwarter.com`, retaining priority, weight and ports.
+- Vercel confirms both website records are correctly configured. Root and www have valid HTTPS certificates; www redirects to root with 308.
+- Production commit `29ec98a74542ae2c86683bccef9095cf12befdf2`, deployment `dpl_GLEzzUxxQEJBvaCXuQSj7JQ8jn6e`, was Ready before the DNS switch.
+- `NEXT_PUBLIC_SITE_URL=https://qwarter.com` and `ALLOW_INDEXING=1` are active. The live canonical is `https://qwarter.com/`; robots allows indexing and the sitemap contains 66 canonical URLs.
+- Authoritative DNS comparisons confirm nameservers, Google MX/TXT and the old mail/IPv4 hosts are unchanged.
+- All 102 combined Qwarter/Journey live HTTP checks passed, including redirects, all retired Qwarter routes, HTTPS, form API authentication, preserved Journey reports/contact cards and form pages. The verification report is outside Git at `../work/cutover-2026-10-27/live-verification.json`.
+- Both repositories passed 53 unit tests each, lint and production builds. No real form entries, emails or texts were created during verification.
+- Submit `https://qwarter.com/sitemap.xml` to Search Console when access is available. Keep the old hosting while form workers depend on it.
 
 ## Rollback
 
