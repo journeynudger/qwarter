@@ -37,8 +37,8 @@ export function proxy(request: NextRequest) {
     return next(request);
   }
   const lower = url.pathname.toLowerCase();
-  if (lower !== url.pathname) {
-    const dest = url.clone();
+  if (lower !== url.pathname || !url.pathname.endsWith("/")) {
+    const dest = new URL(request.url);
     dest.pathname = lower.endsWith("/") ? lower : `${lower}/`;
     return NextResponse.redirect(dest, 308);
   }
@@ -46,5 +46,5 @@ export function proxy(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/((?!_next|api|media|design|legacy-assets)[^.]*)"],
+  matcher: ["/((?!_next|api|wp-json|media|design|legacy-assets)[^.]*)"],
 };

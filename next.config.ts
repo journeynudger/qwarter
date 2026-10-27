@@ -27,6 +27,8 @@ const wordpress: Redirect[] = [
 
 const nextConfig: NextConfig = {
   trailingSlash: true,
+  // Gravity Forms consumers use URLs without a final slash and do not follow redirects.
+  skipTrailingSlashRedirect: true,
   poweredByHeader: false,
   turbopack: { root: __dirname },
   async redirects() {
