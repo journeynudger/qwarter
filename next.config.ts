@@ -22,7 +22,7 @@ const wordpress: Redirect[] = [
   { source: "/sitemap_index.xml", destination: "/sitemap.xml", permanent: true },
   { source: "/wp-admin", destination: "/", permanent: false },
   { source: "/wp-login.php", destination: "/", permanent: false },
-  { source: "/wp-content/uploads/:path*", destination: "/media/:path*", permanent: true },
+  { source: "/wp-content/uploads/2022/06/Pineapple_Club_Logo_Black_whiteBG.pdf", destination: "/legacy-assets/Pineapple_Club_Logo_Black_whiteBG.pdf", permanent: true },
 ];
 
 const nextConfig: NextConfig = {

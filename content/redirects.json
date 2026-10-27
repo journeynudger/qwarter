@@ -1,4 +1,290 @@
 {
-  "paths": [],
-  "ids": []
+  "paths": [
+    {
+      "source": "/about-us/",
+      "destination": "/approach/"
+    },
+    {
+      "source": "/blog/",
+      "destination": "/stories/"
+    },
+    {
+      "source": "/category/career/",
+      "destination": "/stories/"
+    },
+    {
+      "source": "/category/connectivity/",
+      "destination": "/stories/"
+    },
+    {
+      "source": "/category/e-q/",
+      "destination": "/stories/"
+    },
+    {
+      "source": "/category/education/",
+      "destination": "/stories/"
+    },
+    {
+      "source": "/category/story/",
+      "destination": "/stories/"
+    },
+    {
+      "source": "/category/time-management/",
+      "destination": "/stories/"
+    },
+    {
+      "source": "/category/trending/",
+      "destination": "/stories/"
+    },
+    {
+      "source": "/ion-insurance/",
+      "destination": "/work/ion-insurance/"
+    },
+    {
+      "source": "/portfolio/",
+      "destination": "/work/"
+    },
+    {
+      "source": "/portfolio/11-hamilton-home/",
+      "destination": "/work/"
+    },
+    {
+      "source": "/portfolio/2020-insights/",
+      "destination": "/work/"
+    },
+    {
+      "source": "/portfolio/boujee-healer/",
+      "destination": "/work/boujee-healer/"
+    },
+    {
+      "source": "/portfolio/ekaterina-sky/",
+      "destination": "/work/"
+    },
+    {
+      "source": "/portfolio/epic-esg/",
+      "destination": "/work/"
+    },
+    {
+      "source": "/portfolio/ion-insurance/",
+      "destination": "/work/ion-insurance/"
+    },
+    {
+      "source": "/portfolio/iotech-protect/",
+      "destination": "/work/"
+    },
+    {
+      "source": "/portfolio/journey-nudge/",
+      "destination": "/work/"
+    },
+    {
+      "source": "/portfolio/kind-footprint/",
+      "destination": "/work/"
+    },
+    {
+      "source": "/portfolio/mzaero/",
+      "destination": "/work/"
+    },
+    {
+      "source": "/portfolio/pineapple-club/",
+      "destination": "/work/pineapple-club/"
+    },
+    {
+      "source": "/portfolio/thanh-ta/",
+      "destination": "/work/thanh-ta/"
+    },
+    {
+      "source": "/portfolio/tima/",
+      "destination": "/work/tima/"
+    },
+    {
+      "source": "/portfolio/wood-company/",
+      "destination": "/work/wood-company/"
+    },
+    {
+      "source": "/project_category/e-commerce/",
+      "destination": "/work/"
+    },
+    {
+      "source": "/project_category/non-profit/",
+      "destination": "/work/"
+    },
+    {
+      "source": "/work/11-hamilton-home/",
+      "destination": "/work/"
+    },
+    {
+      "source": "/work/2020-insights/",
+      "destination": "/work/"
+    },
+    {
+      "source": "/work/ekaterina-sky/",
+      "destination": "/work/"
+    },
+    {
+      "source": "/work/epic-esg/",
+      "destination": "/work/"
+    },
+    {
+      "source": "/work/iotech-protect/",
+      "destination": "/work/"
+    },
+    {
+      "source": "/work/journey-nudge/",
+      "destination": "/work/"
+    },
+    {
+      "source": "/work/kind-footprint/",
+      "destination": "/work/"
+    },
+    {
+      "source": "/work/mzaero/",
+      "destination": "/work/"
+    }
+  ],
+  "ids": [
+    {
+      "id": 2221,
+      "path": "/work/"
+    },
+    {
+      "id": 2742,
+      "path": "/work/"
+    },
+    {
+      "id": 2834,
+      "path": "/work/"
+    },
+    {
+      "id": 244973,
+      "path": "/work/"
+    },
+    {
+      "id": 245009,
+      "path": "/work/tima/"
+    },
+    {
+      "id": 245248,
+      "path": "/work/"
+    },
+    {
+      "id": 245312,
+      "path": "/work/pineapple-club/"
+    },
+    {
+      "id": 245435,
+      "path": "/work/boujee-healer/"
+    },
+    {
+      "id": 245476,
+      "path": "/work/"
+    },
+    {
+      "id": 245520,
+      "path": "/work/wood-company/"
+    },
+    {
+      "id": 245753,
+      "path": "/approach/"
+    },
+    {
+      "id": 245786,
+      "path": "/contact/"
+    },
+    {
+      "id": 246271,
+      "path": "/work/thanh-ta/"
+    },
+    {
+      "id": 246379,
+      "path": "/work/"
+    },
+    {
+      "id": 246530,
+      "path": "/"
+    },
+    {
+      "id": 246652,
+      "path": "/work/"
+    },
+    {
+      "id": 246873,
+      "path": "/stories/"
+    },
+    {
+      "id": 246889,
+      "path": "/work/ion-insurance/"
+    },
+    {
+      "id": 246910,
+      "path": "/work/"
+    }
+  ],
+  "retired": {
+    "paths": [
+      "/becoming-indistractable/",
+      "/covid-19/",
+      "/digitalself/",
+      "/education-the-bad/",
+      "/education-the-good/",
+      "/emotion-vs-feeling/",
+      "/emotional-intelligence/",
+      "/imposter-syndrome/",
+      "/intention-deficit-disorder/",
+      "/meditation/",
+      "/phineas-gage/",
+      "/power-of-empathy/",
+      "/project/project-test-1/",
+      "/project/project-test-10/",
+      "/project/project-test-2/",
+      "/project/project-test-3/",
+      "/project/project-test-4/",
+      "/project/project-test-5/",
+      "/project/project-test-6/",
+      "/project/project-test-7/",
+      "/project/project-test-8/",
+      "/project/project-test-9/",
+      "/slack-time/",
+      "/social-dilemma/",
+      "/the-better-generation-2/",
+      "/the-better-generation/",
+      "/the-darkness-holds-the-treasure/",
+      "/the-feynman-learning-technique/",
+      "/the-one-thing/",
+      "/to-become-who-we-are-we-must-stop-choosing-who-we-are-not/",
+      "/young-restless/"
+    ],
+    "ids": [
+      1,
+      172,
+      725,
+      736,
+      740,
+      750,
+      770,
+      1356,
+      1670,
+      1677,
+      1688,
+      1692,
+      1724,
+      1739,
+      1762,
+      1853,
+      1886,
+      1895,
+      1909,
+      1920,
+      1951,
+      244818,
+      244821,
+      244823,
+      244826,
+      244827,
+      244859,
+      244861,
+      244863,
+      244865,
+      244902
+    ]
+  }
 }

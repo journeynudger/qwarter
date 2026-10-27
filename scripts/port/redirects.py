@@ -46,6 +46,10 @@ def main():
     if not os.path.isdir(CACHE):
         sys.exit("No snapshot at .port-cache/qwarter (run scripts/port/fetch.py first).")
     served = {p["path"] for p in load(os.path.join(ROOT, "content", "pages.json"), [])}
+    served.discard("/__project__/")
+    served.update(f"/work/{p['slug']}/" for p in load(os.path.join(ROOT, "content", "work.json"), {})["projects"] if p.get("media") is not False)
+    served.add("/stories/")
+    served.update(f"/stories/{s['slug']}/" for s in load(os.path.join(ROOT, "content", "stories.json"), []))
     route_map = {canonical(k): v for k, v in (load(os.path.join(ROOT, "content", "route-map.json"), {}) or {}).items()}
 
     records = []
@@ -60,12 +64,16 @@ def main():
             if line.strip():
                 records.append((None, canonical(line.strip())))
 
-    ids, paths, unresolved, dropped = {}, {}, set(), set()
+    # Explicit aliases can also come from links in old page markup, outside the sitemap.
+    records.extend((None, old) for old in route_map)
+    ids, paths, unresolved, dropped, retired_ids = {}, {}, set(), set(), set()
     for wp_id, old in records:
         if old in route_map:
             dest = route_map[old]
             if dest is None:
                 dropped.add(old)
+                if wp_id is not None:
+                    retired_ids.add(wp_id)
                 continue
             dest = canonical(dest)
         elif old in served:
@@ -84,17 +92,16 @@ def main():
     out = {
         "paths": [{"source": s, "destination": d} for s, d in sorted(paths.items())],
         "ids": [{"id": i, "path": p} for i, p in sorted(ids.items())],
+        "retired": {"paths": sorted(dropped), "ids": sorted(retired_ids)},
     }
+    if unresolved:
+        print("Unresolved routes; existing redirects.json was not changed:")
+        for u in sorted(unresolved):
+            print(f"  {u}")
+        sys.exit(1)
     with open(os.path.join(ROOT, "content", "redirects.json"), "w", encoding="utf-8") as f:
         json.dump(out, f, indent=2, ensure_ascii=False)
         f.write("\n")
     print(f"{len(out['ids'])} ids, {len(out['paths'])} path redirects, {len(dropped)} dropped on purpose → content/redirects.json")
-    if unresolved:
-        print(f"\n{len(unresolved)} old URLs have no page here and no entry in content/route-map.json:")
-        for u in sorted(unresolved):
-            print(f"  {u}")
-        sys.exit(1)
-
-
 if __name__ == "__main__":
     main()

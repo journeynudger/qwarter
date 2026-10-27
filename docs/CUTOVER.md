@@ -1,58 +1,43 @@
-# Vercel and the move of qwarter.com
+# Moving qwarter.com to Vercel
 
-The site deploys from **Lorenzo's personal Vercel account, lorenzo@qwarter.com**: not the Valerin team,
-and not development@valerin-group.com. qwarter.com keeps pointing at WordPress until step 3.
+## Prepared on 2026-10-27
 
-## Status (2026-10-17)
+- Project: `journeynudgers-projects/qwarter`, owned by Lorenzo (`lorenzo@qwarter.com`).
+- Production follows `journeynudger/qwarter` on `main`.
+- Both `qwarter.com` and `www.qwarter.com` are attached and ownership-verified in Vercel. Root is primary; www redirects to root with HTTP 308.
+- DNS stays on Cloudflare: `marge.ns.cloudflare.com` and `rodney.ns.cloudflare.com`.
+- Before cutover: apex A `208.87.133.155`, proxied; www CNAME `qwarter.com`, proxied.
+- Google Workspace handles email. Its five MX records, SPF, DMARC and verification TXT records stay unchanged.
+- The complete 16-record DNS backup is outside Git: `../work/cutover-2026-10-27/cloudflare-before.txt`. Original download: `~/Downloads/qwarter.com.txt`.
+- No Cloudflare Worker routes were configured when inspected. Rules inspection remains pending.
+- Lorenzo upgraded the team to Pro; the Vercel API confirms Pro, active, on 2026-10-27.
 
-- **Connected.** Lorenzo imported `journeynudger/qwarter` into his personal Vercel account on 2026-10-17:
-  scope `journeynudgers-projects`, project `qwarter`, where it stays (not the Valerin team).
-  Pushes to `main` deploy Production; every other branch, the port's pull request included, gets a preview.
-- `main` holds only the README until the pull request is merged, so Production has nothing to show yet;
-  the pull request's branch has the whole site and its preview URL is the one to look at.
-- Merging the pull request deploys the site to Production (the `*.vercel.app` address; qwarter.com still
-  points at WordPress until step 3).
+## Website migration
 
-## 1. Connect the repository (once, about two minutes)
+Generate `content/redirects.json` with `python3 scripts/port/redirects.py` using the WordPress snapshot
+at `.port-cache/qwarter/` (snapshot commit `1a4b5cf66f76dc2202215708c08f2de3a8a6fe9b`, branch `captures-wp`).
+`content/route-map.json` records the decisions.
 
-1. Sign in at https://vercel.com as **lorenzo@qwarter.com**. Check the scope switcher (top left) shows the
-   personal account, not a team.
-2. **Add New → Project → Import Git Repository**, choose `journeynudger/qwarter`.
-   If it is not in the list: **Adjust GitHub App Permissions** and grant Vercel access to that repository
-   (the Vercel GitHub App only sees the repositories it was given).
-3. Framework preset: Next.js (also declared in `vercel.json`). Build settings: leave the defaults.
-   No environment variables are needed to build.
-4. Deploy. From then on every push to `main` deploys to Production and every other branch gets a preview URL.
+- 35 permanent path redirects and 19 WordPress page-ID redirects.
+- Current projects land on matching case studies; projects no longer in the catalogue land on Portfolio.
+- About Us → Approach; Blog and category archives → Stories; Portfolio → Work.
+- Lorenzo explicitly retired the 21 old articles on 2026-10-27. Their paths and IDs return 410 with links to the current site. Ten obsolete WordPress test projects are also retired.
+- The original Pineapple Club PDF is preserved under `public/legacy-assets/`, with a redirect from its original uploads URL.
+- Removed the blanket uploads redirect that previously pointed at nonexistent `/media/YYYY/...` files.
+- Vercel page aliases receive `X-Robots-Tag: noindex, nofollow`, including after production indexing is enabled. Drafts and excerpts remain excluded from indexing and the sitemap.
 
-Commits are authored as `journeynudger <117860681+journeynudger@users.noreply.github.com>` (as in
-journeysite), so Vercel attributes each build to the GitHub account that owns the repository. A deployment
-stuck at "Blocked" with no build log means a commit author Vercel does not recognise; the reason is only in
-the deployment's API record (`readyStateReason`).
+## Remaining cutover
 
-A deployment of `main` before the pull request is merged builds a site with no pages: every URL answers 404.
-Previews of the branch have the site.
+1. Confirm the Pro plan for the commercial launch and the Ready production deployment with migration fixes.
+2. Preserve ancillary hostnames: change ftp CNAME target to `ipv4.qwarter.com`; change the two SRV targets (`_imaps._tcp` and `_pop3s._tcp`) to `mail.qwarter.com`, retaining priority, weight and ports. Both target hosts already point to the old server.
+3. Recheck Vercel's project DNS recommendations. On 2026-10-27 the CLI explicitly accepts apex A `76.76.21.21`. The configuration API additionally lists `216.198.79.1` and `64.29.17.1` at rank 1. Project CNAME: `cc26d3f37336a52a.vercel-dns-017.com`.
+4. Update the apex A and www CNAME in Cloudflare to Vercel, DNS only. Leave nameservers and unrelated records alone.
+5. Set Production-only `NEXT_PUBLIC_SITE_URL=https://qwarter.com` and `ALLOW_INDEXING=1`, then redeploy. Variables are read at build time.
+6. Verify DNS, TLS, root/www, HTTP→HTTPS, redirects, 410s, PDF, robots, sitemap, canonicals and current pages. Compare MX/TXT with the backup.
+7. Submit `https://qwarter.com/sitemap.xml` to Search Console when access is available. Keep the old hosting through the rollback window.
 
-## 2. Settings for Production (Vercel → qwarter → Settings → Environment Variables)
+## Rollback
 
-| Variable | Value | When |
-|---|---|---|
-| `NEXT_PUBLIC_SITE_URL` | `https://qwarter.com` | always (canonical URLs, sitemap, social cards) |
-| `ALLOW_INDEXING` | `1` | only once qwarter.com points at Vercel; leave unset before, so the `*.vercel.app` copy stays out of search |
-
-## 3. Point qwarter.com at Vercel
-
-1. Vercel → qwarter → Settings → **Domains**: add `qwarter.com` and `www.qwarter.com` (redirect one to the
-   other the way WordPress does today).
-2. At the DNS host, change the records Vercel shows. If the DNS is on Cloudflare, keep the proxy **off**
-   (grey cloud) for those records, or Vercel cannot issue the certificate.
-3. Set `ALLOW_INDEXING=1` and redeploy.
-
-## 4. After the switch
-
-- Spot-check every page, an old WordPress link (`/?p=<id>` → its page, `/wp-content/uploads/…` → `/media/…`),
-  `/sitemap.xml`, `/robots.txt`, and a URL that does not exist (404).
-- Search Console: submit `https://qwarter.com/sitemap.xml`.
-- Old qwarter.com URLs: `content/redirects.json` is empty until the WordPress site is snapshotted
-  (`scripts/port/fetch.py`, then `scripts/port/redirects.py`, which refuses to guess): do that before the
-  switch so every old link lands somewhere (CLAUDE.md, open questions).
-- WordPress can be switched off once nothing points at it.
+Restore apex A `208.87.133.155` (proxied) and www CNAME `qwarter.com` (proxied).
+FTP and mail-discovery records can remain pinned to the old server. Do not delete WordPress, its databases,
+mailboxes or the Cloudflare zone. Leave `ALLOW_INDEXING` unset if cutover is postponed.
