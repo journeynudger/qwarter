@@ -189,6 +189,10 @@ for (const slug of slugs) {
       if (h.remove) record.head = record.head.filter((asset) => !Object.entries(h.remove).every(([k, v]) => (k === "codeIncludes" ? (asset.code || "").includes(v) : asset[k] === v || asset.attrs?.[k] === v)));
       if (h.meta) for (const asset of record.head) if (asset.kind === "meta" && (asset.attrs.name === h.meta || asset.attrs.property === h.meta)) asset.attrs.content = h.content;
     }
+    if (spec.render) {
+      Object.assign(record, spec.render, {html:{},body:{}});
+      delete record.template;
+    }
     if (spec.title) record.title = spec.title;
     if (spec.description !== undefined) record.description = spec.description;
     if (spec.image !== undefined) record.image = spec.image;

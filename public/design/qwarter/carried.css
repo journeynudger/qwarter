@@ -89,3 +89,11 @@ body:has(.page-about) #Header__blur > .top { visibility: visible; --size: 145px;
 
 /* Qwarter uses upright typography throughout. */
 body, body * { font-style: normal !important; }
+
+/* Reading copy stays generous across laptop and phone widths. */
+.page-about .block-text .body{font-size:clamp(24px,2.05vw,34px);line-height:1.5;max-width:38ch}
+.page-about .block-text .body p+p{margin-top:1.1em}
+.page-about .block-text .label{font-size:clamp(18px,1.45vw,24px);line-height:1.35}
+.qw-ai__introduction p,.qw-ai__thesis p{font-size:clamp(25px,1.85vw,30px);line-height:1.48}
+.qw-labs p{font-size:clamp(23px,1.6vw,28px);line-height:1.45}
+@media(max-width:640px){.page-about .block-text .body{font-size:24px;max-width:none}.qw-ai__introduction p,.qw-ai__thesis p,.qw-labs p{font-size:24px}}

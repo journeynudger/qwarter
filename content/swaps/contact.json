@@ -1,5 +1,23 @@
 {
   "_written": "by scripts/design/swaps-from-content.mjs from content/work.json and content/site.json; regenerate, never edit",
+  "render": {
+    "kind": "contact",
+    "head": [
+      {
+        "kind": "stylesheet",
+        "href": "/design/qwarter/contact.css"
+      }
+    ],
+    "scripts": [
+      {
+        "kind": "script",
+        "src": "/design/qwarter/contact.js",
+        "attrs": {
+          "defer": ""
+        }
+      }
+    ]
+  },
   "title": "Contact – Qwarter",
   "head": [
     {
@@ -174,7 +192,7 @@
     },
     {
       "select": ".footer__rrss li:nth-child(2) a",
-      "text": "Twitter",
+      "text": "X",
       "attr": {
         "href": "https://twitter.com/qwartermedia",
         "rel": "noopener"
@@ -315,7 +333,7 @@
             }
           },
           ".role": {
-            "text": "Twitter"
+            "text": "X"
           },
           ".name.n1": {
             "html": "<span>qwartermedia</span>"
@@ -390,7 +408,7 @@
             }
           },
           ".role": {
-            "text": "Twitter"
+            "text": "X"
           },
           ".name.n1": {
             "html": "<span>qwartermedia</span>"

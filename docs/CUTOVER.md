@@ -1,5 +1,16 @@
 # Moving qwarter.com to Vercel
 
+## Current incident note (2026-11-02)
+
+Lorenzo confirmed the old Rockfort hosting was canceled/shut down. The legacy Gravity Forms routes
+below now return 502 and are not a working fallback; do not restore DNS to that server. The historical
+cutover checks below describe October 27, not current form availability.
+
+A native contact replacement is staged, with enquiries stored in Airtable. Email delivery is blocked
+by Airtable's external-recipient restriction and still needs a connected sender. See the November 2
+entry in `VERIFICATION.md` before promoting the staged release. The old Qwarter Gravity Forms polling
+workers also need retiring once the replacement notification path is verified.
+
 ## Completed on 2026-10-27
 
 - Project: `journeynudgers-projects/qwarter`, owned by Lorenzo (`lorenzo@qwarter.com`).

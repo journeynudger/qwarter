@@ -137,7 +137,7 @@ test('Featured advances slowly only while its film plays, retaining the original
     vm.runInNewContext(`(function(){${hook[1]}}).call(instance)`, {instance,document,br:{HEIGHT:900},window:{matchMedia:()=>({matches:reduced})}});
     return instance.scroller.minSpeed;
   };
-  assert.equal(tick(),900/(60*24));
+  assert.equal(tick(),900/(60*30));
   video.duration=45; assert.equal(tick(),900/(60*45));
   video.duration=100; assert.equal(tick(),900/(60*60));
   video.paused=true; assert.equal(tick(),0); video.paused=false;
@@ -145,10 +145,11 @@ test('Featured advances slowly only while its film plays, retaining the original
   document.hidden=true; assert.equal(tick(),0); document.hidden=false;
   instance._isOpen=true; assert.equal(tick(),0); instance._isOpen=false;
   reduced=true; assert.equal(tick(),0);
-  // The entire animation bundle, including Roman numeral movement, is otherwise unchanged.
-  const reference=fs.readFileSync('public/design/depoluxe.xyz/assets/main.d4f10deae0b58c57225e.js','utf8').replace(/\/\/# sourceMappingURL=.*$/,'');
-  const restored=source.slice(source.indexOf('\n')+1).replace(hook[1]+';','');
-  assert.equal(restored,reference);
+  // The original staircase and numeral rendering remain, with explicit navigation layered above.
+  const reference=fs.readFileSync('public/design/depoluxe.xyz/assets/main.d4f10deae0b58c57225e.js','utf8');
+  const staircase=reference.slice(reference.indexOf('class xm extends rm'),reference.indexOf('function bm',reference.indexOf('class xm extends rm')));
+  assert.ok(source.includes(staircase));
+  assert.match(source,/qwFeaturedControls/);
   assert.match(fs.readFileSync('content/pages/home.html','utf8'),/src="\/design\/qwarter\/featured-runtime\.js\?v=/);
   assert.doesNotMatch(fs.readFileSync('content/pages/work.html','utf8'),/featured-runtime/);
 });

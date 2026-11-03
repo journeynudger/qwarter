@@ -314,3 +314,45 @@ accessible links and unpublished draft isolation. Lint and production build are 
 The earlier browser-preview security limitation remains. The motion controller is exercised against
 measured test geometry and the served site is audited over HTTP; these checks do not establish a
 rendered pixel-for-pixel or timing match with Stripe on a physical phone.
+
+## Featured controls, current Ion study and native contact form (2026-11-02)
+
+Staged release: `https://qwarter-3fht2fkh2-journeynudgers-projects.vercel.app`, deployment
+`dpl_CWDJweschaP8Vt2NspEK17jEg8jD`. It was built with production configuration and
+`--skip-domain`; it has **not** been promoted to qwarter.com.
+
+- Featured retains the existing projects and adds Ion Insurance. Previous/next buttons, a labelled
+  range control and a separate View project link make selection independent from opening a study.
+  Manual selection pauses automatic advance. Hovering the controls cannot select a staircase tile.
+- The original staircase and Roman-numeral rail remain. Automatic advance takes 30–60 seconds,
+  waits for playing media, and stops for reduced motion, hidden tabs and manual pause. The former
+  2x opening zoom is reduced to 1.04x with a longer transition. Preview frames are inset on phones.
+- The pixel Q is immediately visible. Back from a study recreates the disposed carried runtime and
+  restores the selected project after layout; an animated restoration lets the infinite list reorder
+  correctly, unlike an immediate jump based on stale positions.
+- Ion's film, desktop/mobile walkthroughs, identity and gallery use fresh captures of
+  ioninsuranceinc.com from November 2. They show the current insurance selector, partner controls,
+  product accordion, navigation and financial reports. Local media URLs include content fingerprints.
+- The contact page has a centered, labelled form and a direct email fallback. The API checks origin,
+  signed form age, field limits and honeypot, sends only the validated fields, and rejects upstream
+  failures. Repeated submissions are guarded in the client and within a warm server instance; this is
+  not a durable, cross-instance deduplication guarantee. Social links now say X. Approach copy is larger.
+
+Validation: 56 tests pass; ESLint, TypeScript and the Vercel production build pass. Browser review used
+the deployed preview, not localhost. Desktop and 390×844 mobile checks exercised next-project selection,
+the range, project opening, and Back. Desktop Titanium Motor Arts and mobile Ion both restore their
+selected project without a black/frozen page. The updated Ion media plays; its study and the mobile
+contact/Approach layouts have no horizontal overflow. Mobile contact has readable labels and a full-width
+submit control. Local screenshots are in ignored `qa-out/nov02/`.
+
+Actual browser submission `QW-NOV02-PREVIEW-01` saved record `recROzWTpSgIbgwZB` in the
+Qwarter Website Messages table. Automation run `wfxvShqpttNGvpcXW` then failed at the email
+step with `NON_COLLABORATOR_RECIPIENTS`. Airtable's built-in sender cannot notify those external
+recipients on the current plan. A connected Gmail sender is requested; none is currently available
+through `list_external_accounts`. Do not describe the notification as delivered, and do not promote
+this release until notification delivery is repaired and verified. The enquiry itself is saved safely.
+
+Ion recipient correction is saved in the draft of `wflJJWBik3hE8oWkw`: info@ion.co.cr and
+indigo@qwarter.com, with the visitor as Reply-To and the existing Central Time field retained.
+The last published version still includes o.whitney@ion.co.cr. Airtable's UI must publish the change;
+the connector cannot do so. A Gmail action may also be necessary for the new external recipient.

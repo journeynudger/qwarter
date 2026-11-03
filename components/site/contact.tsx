@@ -1,45 +1,36 @@
 import { Footer, Header } from "@/components/site/chrome";
 import { getSite } from "@/lib/content";
 
-/** Contact: the address is the page. */
 export function Contact() {
-  const { contact, brand } = getSite().chrome;
+  const { contact } = getSite().chrome;
   return (
     <>
       <Header current="/contact/" />
-      <div
-        className="sky"
-        aria-hidden="true"
-        data-paper-shader="MeshGradient"
-        data-paper-params='{"colors":["#050506","#0e0d11","#121015","#08090b"],"distortion":0.75,"swirl":0.3}'
-        data-paper-speed="0.05"
-        data-paper-opacity="0.9"
-      />
       <main className="page contact-wrap">
-        <h1 className="kicker">Contact</h1>
-        <p className="big italic">
-          <a className="u" href={`mailto:${contact.email}`}>
-            {contact.email}
-          </a>
-        </p>
-        <p className="row">{contact.place}</p>
-        {contact.social?.length ? (
-          <p className="row social">
-            {contact.social.map((l, i) => (
-              <span key={l.href}>
-                {i > 0 ? " · " : ""}
-                <a className="u" href={l.href} target="_blank" rel="noopener">
-                  {l.label}
-                </a>
-              </span>
-            ))}
-          </p>
-        ) : null}
-        <p className="row dim">
-          {brand.left} {brand.right}
-        </p>
+        <section className="contact-panel" aria-labelledby="contact-title">
+          <h1 id="contact-title">Let’s talk.</h1>
+          <form id="contact-form" action="/api/contact" method="post">
+            <label htmlFor="contact-name">Your name</label>
+            <input id="contact-name" name="name" autoComplete="name" maxLength={120} required />
+            <label htmlFor="contact-email">Email address</label>
+            <input id="contact-email" name="email" type="email" autoComplete="email" maxLength={254} required />
+            <label htmlFor="contact-message">What do you have in mind?</label>
+            <textarea id="contact-message" name="message" rows={4} minLength={10} maxLength={6000} required />
+            <div className="contact-trap" aria-hidden="true">
+              <label htmlFor="contact-website">Leave this empty</label>
+              <input id="contact-website" name="website" tabIndex={-1} autoComplete="off" />
+            </div>
+            <button type="submit" className="contact-send" disabled>Send enquiry <span aria-hidden="true">↗</span></button>
+            <p id="contact-status" role="status" aria-live="polite" />
+            <noscript><p>Please enable JavaScript to send the form, or email us below.</p></noscript>
+          </form>
+          <p className="contact-direct">Or write to <a className="u" href={`mailto:${contact.email}`}>{contact.email}</a></p>
+          <nav className="contact-social" aria-label="Social links">
+            {contact.social?.map((link) => <a key={link.href} href={link.href} target="_blank" rel="noopener noreferrer">{link.label} <span aria-hidden="true">↗</span></a>)}
+          </nav>
+        </section>
       </main>
-      <Footer />
+      <Footer flow />
     </>
   );
 }

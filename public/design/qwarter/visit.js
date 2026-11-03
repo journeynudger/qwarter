@@ -9,6 +9,13 @@
   }
 })();
 
+// The carried WebGL renderer disposes its context on departure. A restored
+// browser document cannot reuse that disposed renderer. Recreate it, preserving
+// the selected project through Featured's session checkpoint.
+addEventListener('pageshow', event => {
+  if (event.persisted && document.querySelector('.page-home, .page-archive')) location.reload();
+});
+
 // Native pages and the carried, transformed scrollers share one navigation policy.
 // Down hides the entire menu. Up, a stationary tap, or keyboard navigation restores it.
 (() => {

@@ -194,6 +194,7 @@ const contactItems = (list) => list.map((w) => ({
 }));
 const left = [ways[0], ways[1], ways[2]].filter(Boolean), right = [ways[3], ways[4], ways[0]].filter(Boolean);
 const contactPage = {
+  render: { kind: "contact", head: [{kind:"stylesheet",href:"/design/qwarter/contact.css"}], scripts: [{kind:"script",src:"/design/qwarter/contact.js",attrs:{defer:""}}] },
   ...head(`Contact – ${brand.left}`),
   description: `${contact.email} · ${contact.place}`,
   swaps: [

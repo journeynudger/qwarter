@@ -1,0 +1,234 @@
+{
+  "brief": "Logo, interactive visual graphics, and website design.",
+  "figures": [
+    {
+      "value": "6",
+      "label": "Insurance lines",
+      "source": "Current live site"
+    },
+    {
+      "value": "12",
+      "label": "Partner organisations",
+      "source": "Current live site"
+    },
+    {
+      "value": "5",
+      "label": "Main pages",
+      "source": "Home, About, Products, Financials and Connect"
+    },
+    {
+      "value": "2022",
+      "label": "Original project",
+      "source": "Original Qwarter case study"
+    }
+  ],
+  "identity": [
+    {
+      "key": "logo",
+      "label": "Logo",
+      "note": "The ION Insurance wordmark and Ionic column used on the live website.",
+      "image": "/media/work/ion-insurance/study/ion-logo.png",
+      "alt": "ION Insurance",
+      "ground": "#171717",
+      "dark": true,
+      "fit": "contain"
+    },
+    {
+      "key": "palette",
+      "label": "Colour",
+      "note": "The current website uses black headings, grey rules and text, white surfaces, and deep blue imagery.",
+      "colors": [
+        {
+          "hex": "#171717",
+          "role": "Headings"
+        },
+        {
+          "hex": "#474747",
+          "role": "Text"
+        },
+        {
+          "hex": "#A3A3A3",
+          "role": "Rules"
+        },
+        {
+          "hex": "#FFFFFF",
+          "role": "Page"
+        },
+        {
+          "hex": "#00326C",
+          "role": "Brand blue"
+        }
+      ]
+    },
+    {
+      "key": "type",
+      "label": "Type",
+      "note": "SF Pro Display and system display fallbacks for headings and navigation. Maison Neue for body text.",
+      "faces": [
+        {
+          "role": "Headings & navigation",
+          "family": "SF Pro Display",
+          "fallback": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "weight": "500"
+        },
+        {
+          "role": "Body",
+          "family": "Maison Neue",
+          "fallback": "Helvetica, Arial, sans-serif"
+        }
+      ]
+    },
+    {
+      "key": "detail",
+      "label": "On a phone",
+      "note": "The current mobile homepage, captured November 2, 2026.",
+      "image": "/media/work/ion-insurance/study/m-home.jpg",
+      "alt": "Ion Insurance’s updated mobile homepage.",
+      "ground": "#111111",
+      "dark": true,
+      "fit": "contain"
+    }
+  ],
+  "steps": [
+    {
+      "title": "ioninsuranceinc.com, page by page",
+      "body": "The updated ION Insurance website, from its full-width insurance imagery to its partner directory.",
+      "device": "desktop",
+      "recording": "desktop",
+      "source": "qwarter.com's case study, its first paragraph about the client"
+    },
+    {
+      "title": "Our Group",
+      "body": "Six lines of insurance, with a darkened image, clear descriptions, slide controls and a moving indicator.",
+      "image": "/media/work/ion-insurance/study/d-insurance.jpg",
+      "alt": "The Marine slide beneath Our Group.",
+      "device": "desktop",
+      "source": "Current live website, November 2, 2026"
+    },
+    {
+      "title": "Our Partners",
+      "body": "Partner names, descriptions and logos are arranged across two pages, with outlined navigation controls.",
+      "image": "/media/work/ion-insurance/study/d-partners.jpg",
+      "alt": "The updated partner directory and its navigation.",
+      "device": "desktop",
+      "source": "Current live website, November 2, 2026"
+    },
+    {
+      "title": "About",
+      "body": "“Beyond Insurance” Building Futures, Supporting Dreams, Every Step",
+      "image": "/media/work/ion-insurance/study/d-about.jpg",
+      "alt": "ioninsuranceinc.com: the About page.",
+      "device": "desktop",
+      "source": "the page's own heading and first paragraph, as photographed"
+    },
+    {
+      "title": "Products",
+      "body": "Insurance details open in a light accordion, with each newly selected product brought to the top of the view.",
+      "image": "/media/work/ion-insurance/study/d-products.jpg",
+      "alt": "ioninsuranceinc.com: the Products page.",
+      "device": "desktop",
+      "source": "the page's own heading and first paragraph, as photographed"
+    },
+    {
+      "title": "Financials",
+      "body": "Financial reports, including the 2024 annual report, collected in one place.",
+      "image": "/media/work/ion-insurance/study/d-financials.jpg",
+      "alt": "ioninsuranceinc.com: the Financials page.",
+      "device": "desktop",
+      "source": "the page's own heading and first paragraph, as photographed"
+    },
+    {
+      "title": "On a phone",
+      "body": "The updated website on a phone: the homepage, navigation, product details and financial reports.",
+      "device": "phone",
+      "recording": "phone",
+      "source": "the phone frames of the shoot"
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/media/work/ion-insurance/study/d-about.jpg",
+      "alt": "About ION Insurance.",
+      "source": "Current live website"
+    },
+    {
+      "src": "/media/work/ion-insurance/study/d-products.jpg",
+      "alt": "Marine product details.",
+      "source": "Current live website"
+    },
+    {
+      "src": "/media/work/ion-insurance/study/m-menu.jpg",
+      "alt": "The mobile navigation.",
+      "source": "Current live website"
+    },
+    {
+      "src": "/media/work/ion-insurance/study/d-financials.jpg",
+      "alt": "The 2024 annual report.",
+      "source": "Current live website"
+    }
+  ],
+  "galleryNote": "The current ION Insurance website, November 2026.",
+  "walkthrough": {
+    "desktop": [
+      {
+        "page": "home",
+        "hold": 3,
+        "pan": 14,
+        "tail": 2
+      },
+      {
+        "page": "about",
+        "hold": 2,
+        "pan": 5,
+        "tail": 1
+      },
+      {
+        "page": "products",
+        "hold": 2,
+        "pan": 5,
+        "tail": 1
+      },
+      {
+        "page": "financials",
+        "hold": 2,
+        "pan": 5,
+        "tail": 1
+      }
+    ],
+    "phone": [
+      {
+        "page": "home",
+        "hold": 3,
+        "pan": 12,
+        "tail": 1
+      },
+      {
+        "page": "products",
+        "hold": 2,
+        "pan": 6,
+        "tail": 1
+      },
+      {
+        "page": "financials",
+        "hold": 2,
+        "pan": 6,
+        "tail": 1
+      }
+    ]
+  },
+  "source": "Editorial refresh from ioninsuranceinc.com and its source repository, November 2, 2026: refreshed responsive captures, the actual ION logo, current typefaces, the insurance slider, partners directory, product accordion and 2024 financial report. Original client description and project year retained from the previous Qwarter case study.",
+  "recordings": {
+    "desktop": {
+      "src": "/media/work/ion-insurance/study/desktop.mp4",
+      "webm": "/media/work/ion-insurance/study/desktop.webm",
+      "poster": "/media/work/ion-insurance/study/desktop-poster.jpg",
+      "alt": "The updated ION Insurance website on desktop, November 2026."
+    },
+    "phone": {
+      "src": "/media/work/ion-insurance/study/phone.mp4",
+      "webm": "/media/work/ion-insurance/study/phone.webm",
+      "poster": "/media/work/ion-insurance/study/phone-poster.jpg",
+      "alt": "The updated ION Insurance website on mobile, November 2026."
+    }
+  }
+}

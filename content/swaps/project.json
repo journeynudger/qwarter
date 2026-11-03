@@ -174,7 +174,7 @@
     },
     {
       "select": ".footer__rrss li:nth-child(2) a",
-      "text": "Twitter",
+      "text": "X",
       "attr": {
         "href": "https://twitter.com/qwartermedia",
         "rel": "noopener"

@@ -92,7 +92,7 @@ function Note({ study, step, index, className }: { study: Study; step: StudyStep
   const device = rec ? step.recording! : step.device;
   const lead = firstSentence(step.body);
   const rest = step.body.length > lead.length;
-  const screen = rec ? <Film media={rec} pill="icon" /> : step.image ? <img src={step.image} alt={step.alt ?? ""} loading="lazy" decoding="async" /> : null;
+  const screen = rec ? <Film media={rec} pill="icon" /> : step.image ? <img src={versioned(step.image)} alt={step.alt ?? ""} loading="lazy" decoding="async" /> : null;
   return (
     <figure className={`st-case st-case--${device} reveal${className ? ` ${className}` : ""}`}>
       <div className="st-case__stage" data-parallax>
@@ -152,7 +152,7 @@ function Tile({ tile, index, name }: { tile: StudyTile; index: number; name: str
       </p>
     );
   } else if (tile.image) {
-    stage = <img className={`st-tile__img st-tile__img--${tile.fit ?? "contain"}`} src={tile.image} alt={tile.alt ?? ""} loading="lazy" decoding="async" />;
+    stage = <img className={`st-tile__img st-tile__img--${tile.fit ?? "contain"}`} src={versioned(tile.image)} alt={tile.alt ?? ""} loading="lazy" decoding="async" />;
   }
   return (
     <figure className={`st-tile st-tile--${tile.key} ${row} reveal${tile.dark ? " st-tile--dark" : ""}`} style={style}>
@@ -174,7 +174,7 @@ function Gallery({ study }: { study: Study }) {
           <div className="st-gallery__track">
             {study.gallery.map((g, i) => (
               <div className={`st-slide${g.frame ? " st-slide--framed" : ""}`} key={g.src} role="group" aria-roledescription="slide" aria-label={`${i + 1} of ${study.gallery.length}`}>
-                <img src={g.src} alt={g.alt} loading="lazy" decoding="async" draggable={false} style={g.frame ? {width:`${g.frame.sourceWidth/g.frame.width*100}%`,height:`${g.frame.sourceHeight/g.frame.height*100}%`,left:`${-g.frame.x/g.frame.width*100}%`,top:`${-g.frame.y/g.frame.height*100}%`} : undefined} />
+                <img src={versioned(g.src)} alt={g.alt} loading="lazy" decoding="async" draggable={false} style={g.frame ? {width:`${g.frame.sourceWidth/g.frame.width*100}%`,height:`${g.frame.sourceHeight/g.frame.height*100}%`,left:`${-g.frame.x/g.frame.width*100}%`,top:`${-g.frame.y/g.frame.height*100}%`} : undefined} />
               </div>
             ))}
           </div>
@@ -303,7 +303,7 @@ export function StudyPage({ slug }: { slug: string }) {
           <section className="st-desktop" id="desktop" aria-label="The site on a desktop">
             <div className="st-desktop__inner">
               <Browser address={study.address} className="st-browser--hero reveal">
-                {study.recordings.desktop ? <Film media={study.recordings.desktop} pill="icon" /> : lead?.image ? <img src={lead.image} alt={lead.alt ?? ""} /> : null}
+                {study.recordings.desktop ? <Film media={study.recordings.desktop} pill="icon" /> : lead?.image ? <img src={versioned(lead.image)} alt={lead.alt ?? ""} /> : null}
               </Browser>
               {lead ? (
                 <div className="st-note st-note--lead reveal" style={{ "--d": "0.2s" } as CSSProperties}>

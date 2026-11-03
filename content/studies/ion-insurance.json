@@ -12,97 +12,98 @@
   ],
   "statement": "ION Insurance Company stands at the forefront of the global insurance industry, specializing in reinsurance, insurance, and various insurance-based risk mitigation strategies, working to make the world more resilient.",
   "summary": "ION Insurance Company stands at the forefront of the global insurance industry, specializing in reinsurance, insurance, and various insurance-based risk mitigation strategies, working to make the world more resilient. The aim of the ION is to enable society to thrive and progress, creating new opportunities and solutions for its clients.",
-  "brief": "Deliverables: Logo, Interactive Visual Graphics, 5 Page Website Build. Strategy: SEO, Security Assessment Funnel, Email Newsletters, .",
+  "brief": "Logo, interactive visual graphics, and website design.",
   "kind": "Website design & branding",
   "status": "Live at ioninsuranceinc.com",
   "url": "https://ioninsuranceinc.com",
   "address": "ioninsuranceinc.com",
   "figures": [
     {
-      "value": "4",
-      "label": "Pages photographed from the live site",
-      "source": "the shoot / the case study"
+      "value": "6",
+      "label": "Insurance lines",
+      "source": "Current live site"
     },
     {
-      "value": "3",
-      "label": "Deliverables: Logo, Interactive Visual Graphics, 5 Page Website Build",
-      "source": "qwarter.com's case study"
-    },
-    {
-      "value": "2022",
-      "label": "The year qwarter.com's case study gives",
-      "source": "Project Info"
+      "value": "12",
+      "label": "Partner organisations",
+      "source": "Current live site"
     },
     {
       "value": "5",
-      "label": "Colours in the palette",
-      "source": "Style & Imagery"
+      "label": "Main pages",
+      "source": "Home, About, Products, Financials and Connect"
+    },
+    {
+      "value": "2022",
+      "label": "Original project",
+      "source": "Original Qwarter case study"
     }
   ],
   "identity": [
     {
       "key": "logo",
       "label": "Logo",
-      "note": "Ion Insurance's logo as the site shows it (ioninsuranceinc.com).",
-      "image": "/media/work/ion-insurance/study/pic-15.png",
-      "alt": "Edward William Marine Insurance",
-      "ground": "#F2F2F2",
-      "dark": false,
+      "note": "The ION Insurance wordmark and Ionic column used on the live website.",
+      "image": "/media/work/ion-insurance/study/ion-logo.png",
+      "alt": "ION Insurance",
+      "ground": "#171717",
+      "dark": true,
       "fit": "contain"
     },
     {
       "key": "palette",
       "label": "Colour",
-      "note": "The five colours qwarter.com's case study lists under Style & Imagery.",
+      "note": "The current website uses black headings, grey rules and text, white surfaces, and deep blue imagery.",
       "colors": [
         {
-          "hex": "#0A0000"
+          "hex": "#171717",
+          "role": "Headings"
         },
         {
-          "hex": "#04C1D4"
+          "hex": "#474747",
+          "role": "Text"
         },
         {
-          "hex": "#00326C"
+          "hex": "#A3A3A3",
+          "role": "Rules"
         },
         {
-          "hex": "#AFAFAF"
+          "hex": "#FFFFFF",
+          "role": "Page"
         },
         {
-          "hex": "#F2F2F2"
+          "hex": "#00326C",
+          "role": "Brand blue"
         }
       ]
     },
     {
       "key": "type",
       "label": "Type",
-      "note": "The type samples qwarter.com's case study sets under Style & Imagery; Maisonneue Medium is what ioninsuranceinc.com renders its headings in today.",
+      "note": "SF Pro Display and system display fallbacks for headings and navigation. Maison Neue for body text.",
       "faces": [
         {
-          "role": "Headings",
-          "family": "Inter",
-          "fallback": "sans-serif"
+          "role": "Headings & navigation",
+          "family": "SF Pro Display",
+          "fallback": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "weight": "500"
         },
         {
-          "role": "Subheadings",
-          "family": "Open Sans",
-          "fallback": "sans-serif"
-        },
-        {
-          "role": "Headings",
-          "family": "Maisonneue Medium",
-          "fallback": "sans-serif"
+          "role": "Body",
+          "family": "Maison Neue",
+          "fallback": "Helvetica, Arial, sans-serif"
         }
       ]
     },
     {
       "key": "detail",
       "label": "On a phone",
-      "note": "ioninsuranceinc.com on a phone, its home page as photographed on 2026-10-22.",
+      "note": "The current mobile homepage, captured November 2, 2026.",
       "image": "/media/work/ion-insurance/study/m-home.jpg",
-      "alt": "Ion Insurance's home page on a phone.",
-      "ground": "#0A0000",
+      "alt": "Ion Insurance’s updated mobile homepage.",
+      "ground": "#111111",
       "dark": true,
-      "fit": "cover"
+      "fit": "contain"
     }
   ],
   "quote": {
@@ -112,10 +113,26 @@
   "steps": [
     {
       "title": "ioninsuranceinc.com, page by page",
-      "body": "ION Insurance Company stands at the forefront of the global insurance industry, specializing in reinsurance, insurance, and various insurance-based risk mitigation strategies, working to make the world more resilient. The aim of the ION is to enable society to thrive and progress, creating new opportunities and solutions for its clients.",
+      "body": "The updated ION Insurance website, from its full-width insurance imagery to its partner directory.",
       "device": "desktop",
       "recording": "desktop",
       "source": "qwarter.com's case study, its first paragraph about the client"
+    },
+    {
+      "title": "Our Group",
+      "body": "Six lines of insurance, with a darkened image, clear descriptions, slide controls and a moving indicator.",
+      "image": "/media/work/ion-insurance/study/d-insurance.jpg",
+      "alt": "The Marine slide beneath Our Group.",
+      "device": "desktop",
+      "source": "Current live website, November 2, 2026"
+    },
+    {
+      "title": "Our Partners",
+      "body": "Partner names, descriptions and logos are arranged across two pages, with outlined navigation controls.",
+      "image": "/media/work/ion-insurance/study/d-partners.jpg",
+      "alt": "The updated partner directory and its navigation.",
+      "device": "desktop",
+      "source": "Current live website, November 2, 2026"
     },
     {
       "title": "About",
@@ -127,7 +144,7 @@
     },
     {
       "title": "Products",
-      "body": "“Commercial Property” Building Confidence with Comprehensive Coverage for Property and Engineering Ventures",
+      "body": "Insurance details open in a light accordion, with each newly selected product brought to the top of the view.",
       "image": "/media/work/ion-insurance/study/d-products.jpg",
       "alt": "ioninsuranceinc.com: the Products page.",
       "device": "desktop",
@@ -135,7 +152,7 @@
     },
     {
       "title": "Financials",
-      "body": "“Financial Information” In 2023, ION Insurance Company excelled, marking a year of record financial performance and strategic expansion.",
+      "body": "Financial reports, including the 2024 annual report, collected in one place.",
       "image": "/media/work/ion-insurance/study/d-financials.jpg",
       "alt": "ioninsuranceinc.com: the Financials page.",
       "device": "desktop",
@@ -143,26 +160,10 @@
     },
     {
       "title": "On a phone",
-      "body": "ioninsuranceinc.com on a phone, 4 pages as photographed on 2026-10-22.",
+      "body": "The updated website on a phone: the homepage, navigation, product details and financial reports.",
       "device": "phone",
       "recording": "phone",
       "source": "the phone frames of the shoot"
-    },
-    {
-      "title": "The challenge",
-      "body": "ION Insurance Group is renowned for providing comprehensive insurance solutions across various sectors. The primary challenge was to demystify insurance services for business owners who are often unaware of potential risks and the importance of robust insurance coverage. The company needed to simplify communication to highlight the necessity and benefits of tailored insurance solutions, addressing an often invisible but critical need across a broad spectrum of industries. An entirely new communication strategy in reaching and resonating with a broader audience.",
-      "image": "/media/work/ion-insurance/study/pic-01.png",
-      "alt": "Ion Insurance: a picture as qwarter.com's case study shows it",
-      "device": "picture",
-      "source": "qwarter.com's case study"
-    },
-    {
-      "title": "The solution",
-      "body": "To solidify its status as an industry leader and pioneer, ION Insurance engaged with QWARTER to overhaul its brand and visual identity. This collaboration was geared towards making the insurance process more accessible and understandable, thereby enhancing client engagement. The new branding initiative by QWARTER was crafted to resonate with ION’s ethos of comprehensive protection and personal connection. The rebranding effort has led to a 208% rise in page views, 54% growth in user base, and an 89% uplift in average session duration. ION Insurance’s refreshed brand strategy focuses on delivering peace of mind by safeguarding critical business infrastructures—both digital and physical. The new branding narrative revolves around providing clear, straightforward solutions to complex problems, ensuring that businesses understand the value and impact of their insurance choices. “Our goal was to create a digital presence that not only showcases our insurance expertise but also educates and empowers our B2B customers about the critical importance of comprehensive protection against liabilities. QWARTER embraced this challenge wholeheartedly, delivering a creative and highly functional website that perfectly aligns with our mission to protect and inform. The results have been incredibly positive, reflecting our commitment to not just meet, but exceed, client expectations.” CEO of ION Insurance Group, Opal Whtiney",
-      "image": "/media/work/ion-insurance/study/pic-02.jpg",
-      "alt": "Ion Insurance: a picture as qwarter.com's case study shows it",
-      "device": "picture",
-      "source": "qwarter.com's case study"
     }
   ],
   "film": {
@@ -176,58 +177,86 @@
       "src": "/media/work/ion-insurance/study/desktop.mp4",
       "webm": "/media/work/ion-insurance/study/desktop.webm",
       "poster": "/media/work/ion-insurance/study/desktop-poster.jpg",
-      "alt": "Ion Insurance on a desktop: Home, About, Products, Financials."
+      "alt": "The updated ION Insurance website on desktop, November 2026."
     },
     "phone": {
       "src": "/media/work/ion-insurance/study/phone.mp4",
       "webm": "/media/work/ion-insurance/study/phone.webm",
       "poster": "/media/work/ion-insurance/study/phone-poster.jpg",
-      "alt": "Ion Insurance on a phone."
+      "alt": "The updated ION Insurance website on mobile, November 2026."
     }
   },
   "gallery": [
     {
-      "src": "/media/work/ion-insurance/study/pic-01.png",
-      "alt": "Ion Insurance: a picture as qwarter.com's case study shows it",
-      "source": "qwarter.com's case study (its media library)"
+      "src": "/media/work/ion-insurance/study/d-about.jpg",
+      "alt": "About ION Insurance.",
+      "source": "Current live website"
     },
     {
-      "src": "/media/work/ion-insurance/study/pic-02.jpg",
-      "alt": "Ion Insurance: a picture as qwarter.com's case study shows it",
-      "source": "qwarter.com's case study (its media library)"
+      "src": "/media/work/ion-insurance/study/d-products.jpg",
+      "alt": "Marine product details.",
+      "source": "Current live website"
     },
     {
-      "src": "/media/work/ion-insurance/study/pic-03.png",
-      "alt": "Ion Insurance: a picture as qwarter.com's case study shows it",
-      "source": "qwarter.com's case study (its media library)"
+      "src": "/media/work/ion-insurance/study/m-menu.jpg",
+      "alt": "The mobile navigation.",
+      "source": "Current live website"
     },
     {
-      "src": "/media/work/ion-insurance/study/pic-04.png",
-      "alt": "Ion Insurance: a picture as qwarter.com's case study shows it",
-      "source": "qwarter.com's case study (its media library)"
-    },
-    {
-      "src": "/media/work/ion-insurance/study/pic-18.jpg",
-      "alt": "Ion Insurance: a picture from the site",
-      "source": "ioninsuranceinc.com (the site's own picture)"
-    },
-    {
-      "src": "/media/work/ion-insurance/study/pic-19.jpg",
-      "alt": "Ion Insurance: a picture from the site",
-      "source": "ioninsuranceinc.com (the site's own picture)"
-    },
-    {
-      "src": "/media/work/ion-insurance/study/pic-20.jpg",
-      "alt": "Ion Insurance: a picture from the site",
-      "source": "ioninsuranceinc.com (the site's own picture)"
-    },
-    {
-      "src": "/media/work/ion-insurance/study/pic-21.jpg",
-      "alt": "Ion Insurance: a picture from the site",
-      "source": "ioninsuranceinc.com (the site's own picture)"
+      "src": "/media/work/ion-insurance/study/d-financials.jpg",
+      "alt": "The 2024 annual report.",
+      "source": "Current live website"
     }
   ],
-  "galleryNote": "Pictures from qwarter.com's case study (its media library); the site's own pictures, from ioninsuranceinc.com.",
-  "source": "qwarter.com/portfolio/ion-insurance/ (WordPress snapshot 2026-10-22): the service line, facts, Style & Imagery, Deliverables/Services/Strategy, Project Info, challenge, solution and design strategy where they are this client's own (a paragraph pasted on another case study is left out), and its pictures; ioninsuranceinc.com photographed on 2026-10-22 (scripts/work/shoot.mjs): page titles and first words, typefaces and colours observed, the logo and pictures the pages show, the phone frames. Every word is qwarter.com's, the site's own or observed; nothing is written here.",
-  "generated": true
+  "galleryNote": "The current ION Insurance website, November 2026.",
+  "source": "qwarter.com/portfolio/ion-insurance/ (WordPress snapshot 2026-10-22): the service line, facts, Style & Imagery, Deliverables/Services/Strategy, Project Info, challenge, solution and design strategy where they are this client's own (a paragraph pasted on another case study is left out), and its pictures; ioninsuranceinc.com photographed on 2026-10-22 (scripts/work/shoot.mjs): page titles and first words, typefaces and colours observed, the logo and pictures the pages show, the phone frames. Every word is qwarter.com's, the site's own or observed; nothing is written here. By hand (content/studies/_overrides/ion-insurance.json): Editorial refresh from ioninsuranceinc.com and its source repository, November 2, 2026: refreshed responsive captures, the actual ION logo, current typefaces, the insurance slider, partners directory, product accordion and 2024 financial report. Original client description and project year retained from the previous Qwarter case study.",
+  "generated": true,
+  "walkthrough": {
+    "desktop": [
+      {
+        "page": "home",
+        "hold": 3,
+        "pan": 14,
+        "tail": 2
+      },
+      {
+        "page": "about",
+        "hold": 2,
+        "pan": 5,
+        "tail": 1
+      },
+      {
+        "page": "products",
+        "hold": 2,
+        "pan": 5,
+        "tail": 1
+      },
+      {
+        "page": "financials",
+        "hold": 2,
+        "pan": 5,
+        "tail": 1
+      }
+    ],
+    "phone": [
+      {
+        "page": "home",
+        "hold": 3,
+        "pan": 12,
+        "tail": 1
+      },
+      {
+        "page": "products",
+        "hold": 2,
+        "pan": 6,
+        "tail": 1
+      },
+      {
+        "page": "financials",
+        "hold": 2,
+        "pan": 6,
+        "tail": 1
+      }
+    ]
+  }
 }

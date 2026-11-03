@@ -430,9 +430,38 @@
         }
       ],
       "fromWordPress": true,
-      "source": "name, service line, year, live site and facts from qwarter.com/portfolio/ion-insurance/ (WordPress page 246889, modified 2026-09-16); line: the case study's Industry Type and Location; pictures: ioninsuranceinc.com photographed on 2026-10-22 (4 pages, titles the site's own)",
+      "source": "name, service line, year, live site and facts from qwarter.com/portfolio/ion-insurance/ (WordPress page 246889, modified 2026-09-16); line: the case study's Industry Type and Location; pictures: ioninsuranceinc.com photographed on 2026-10-22 (4 pages, titles the site's own); refreshed from ioninsuranceinc.com on 2026-11-02 after the Vercel migration and design refinements",
       "numeral": "XI",
-      "featured": false
+      "featured": true,
+      "film": {
+        "scenes": [
+          {
+            "page": "home",
+            "hold": 3,
+            "pan": 14,
+            "tail": 2
+          },
+          {
+            "page": "about",
+            "hold": 2,
+            "pan": 6,
+            "tail": 1
+          },
+          {
+            "page": "products",
+            "hold": 2,
+            "pan": 6,
+            "tail": 1
+          },
+          {
+            "page": "financials",
+            "hold": 2,
+            "pan": 6,
+            "tail": 1
+          }
+        ],
+        "source": "Current ioninsuranceinc.com page captures, November 2, 2026. Updated responsive navigation, insurance slider, partners, products and financial reports."
+      }
     },
     {
       "slug": "tima",
